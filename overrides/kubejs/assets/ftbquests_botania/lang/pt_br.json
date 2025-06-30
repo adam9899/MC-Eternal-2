@@ -1,0 +1,160 @@
+{
+    "_comment0": "Main Quests",
+    "mce.questing.botania.lexica_botania.name": "Lexica Botania",
+    "mce.questing.botania.lexica_botania.sub": "Introdução à Botânica Mágica",
+    "mce.questing.botania.lexica_botania.desc": "Da seção 'Sobre' do Botania no Curseforge\n&9https://www.curseforge.com/minecraft/mc-mods/botania &r\n\n&o&b&lBotania&r&o é um mod de tecnologia com tema de magia natural. A jogabilidade é centrada na criação de flores e dispositivos mágicos usando Mana, o poder da terra. Botania é totalmente jogável como um mod independente (e é projetado como tal), mas funciona tão bem em conjunto com outros mods.\n\nO mod foca em automação, mas sem elementos que o tornem repetitivo -- sistemas podem ser pensados e projetados, em vez de construídos cegamente a partir de diagramas no JEI ou em uma wiki.&r\n\n&6&lFilosofia de design do Botania&r\n- Sem canos, fios, etc -- eles são chatos e excessivamente usados;\n- Sem GUIs -- interaja com tudo no mundo;\n- Sem números -- jogadores não devem tentar otimizar tudo ao máximo;\n- Manter todos os recursos o mais renováveis possível;\n- Fornecer visuais agradáveis, apesar de usar apenas dois efeitos de partículas diferentes.\n\n&6&lObjetivos do Botania&r\n\n- Quebrar o molde de mods serem meios para fins -- ser envolvente tanto na jogabilidade quanto nas recompensas;\n- Entregar uma jogabilidade divertida e equilibrada sem forçar os jogadores a farmar;\n- Incentivar a jogabilidade sandbox e permitir que os jogadores criem engenhocas divertidas;\n- Criar uma experiência geral imersiva.\n\nDificuldade: &6☆☆&r\nCusto: &6☆&r\nForça: &6☆☆☆&r",
+
+    "mce.questing.botania.elven_lexica.name": "&6Conhecimento de Alfheim",
+    "mce.questing.botania.elven_lexica.sub": "Conhecimento Perdido no Tempo Élfico",
+    "mce.questing.botania.elven_lexica.desc": "Obtenha o Conhecimento dos &aElfos de Alfheim&r e expanda ainda mais suas possibilidades Botânicas!",
+
+    "mce.questing.botania.petal_apothecary.name": "Petal Apothecary",
+    "mce.questing.botania.petal_apothecary.sub": "Concoctando Flora estranha...",
+    "mce.questing.botania.petal_apothecary.desc": "",
+
+    "mce.questing.botania.pure_daisy.name": "Pure Daisy",
+    "mce.questing.botania.pure_daisy.sub": "",
+    "mce.questing.botania.pure_daisy.desc": "",
+
+    "mce.questing.botania.wand_of_the_forest.name": "Wand of the Forest",
+    "mce.questing.botania.wand_of_the_forest.sub": "Legalmente, é uma Chave Inglesa",
+    "mce.questing.botania.wand_of_the_forest.desc": "A &6Wand of the Forest&r é o equivalente de um botânico a uma Chave Inglesa, usada para configurar muitos blocos e flores botânicos.\n\nSimplesmente segurá-la na mão exibirá uma barra de &bMana&r ao olhar para um bloco que contém Mana, mostrando sua capacidade, junto com a quantidade que possui atualmente.\n\nSeu uso mais comum é para &dConectar&r alguns dispositivos botânicos a outros blocos.\nPara fazer isso, &dAgache e Interaja com o dispositivo enquanto segura a Varinha, e depois faça o mesmo no bloco alvo.&r\nA conexão é usada para ligar &dFlora Funcional e Geradora&r a &bMana Pools&r ou &bMana Spreaders&r respectivamente, bem como apontar Mana Spreaders para blocos e definir alvos para alguns outros dispositivos.",
+
+    "mce.questing.botania.floral_obedience_stick.name": "Floral Obedience Stick",
+    "mce.questing.botania.floral_obedience_stick.sub": "",
+    "mce.questing.botania.floral_obedience_stick.desc": "O &6Floral Obidence Stick&r pode ser usado para conectar rapidamente toda a Flora &dFuncional&r ou &dGeradora&r próxima ao &bMana Pool&r ou &bMana Spreader&r em que o bastão foi usado.\n\nÚtil se você estiver trabalhando com muitas flores e não colocou o alvo primeiro, ou quer conectá-las a um pool em vez de outro.",
+
+    "mce.questing.botania.making_mana.name": "Criando Mana",
+    "mce.questing.botania.making_mana.sub": "&lCri&r&7ando &lMa&r&7na",
+    "mce.questing.botania.making_mana.desc": "&bMana&r, a energia fundamental usada pelos Botanistas.\n\nPara produzi-la, você precisará de algum tipo de Flor que possa gerá-la a partir de outras coisas.\n&cMana não é produzida passivamente&r, é algo que a &aFlora Geradora&r deve consumir ativamente para produzir.\n\nQuando colocada, a Flora Geradora tentará automaticamente se conectar ao &6Mana Spreader&r mais próximo dentro do alcance de conexão.\nVocê pode &dConectá-las&r manualmente após a colocação usando uma &6Wand of the Forest&r &dAgachando e Interagindo&r na Flor, e depois no Mana Spreader desejado.\nQuanto a disparar Mana de Mana Spreaders para um &6Mana Pool&r, &dAgache e Interaja&r com o Spreader enquanto segura uma Wand of the Forest, e depois no bloco que você quer que ele mire.",
+    
+    "mce.questing.botania.mana_materials.name": "Materiais de Mana",
+    "mce.questing.botania.mana_materials.sub": "Fritura Mágica por Imersão",
+    "mce.questing.botania.mana_materials.desc": "Alguns itens podem ser &bInfusos com Mana&r, desbloqueando aplicações Botânicas totalmente novas para eles.\n\n&6&oMissões próximas serão desbloqueadas à medida que cada material for adquirido!",
+
+    "mce.questing.botania.runic_altar.name": "Runic Altar",
+    "mce.questing.botania.runic_altar.sub": "",
+    "mce.questing.botania.runic_altar.desc": "",
+
+    "mce.questing.botania.runes.name": "Botanical Runes",
+    "mce.questing.botania.runes.sub": "",
+    "mce.questing.botania.runes.desc": "Runas de origem Botânica, algumas forjadas para incorporar aspectos do mundo, e outras para incorporar aspectos dos seres dentro dele.\n\n&6&oMissões próximas serão desbloqueadas à medida que cada runa for adquirida!",
+
+    "mce.questing.botania.terra_plate.name": "&bTerrestrial Agglomeration Plate",
+    "mce.questing.botania.terra_plate.sub": "Terraforjado &c&lRequer Modo Especialista",
+    "mce.questing.botania.terra_plate.desc": "A &6Terrestrial Agglomeration Plate&r, usada para forjar &aTerrasteel&r usando grandes quantidades de &bMana&r.\n\nPara operá-la, simplesmente jogue os itens ingredientes &dsobre a Placa, ou Interaja com a placa enquanto os segura&r.\nNote que ela só pode forjar um item por vez, e se o processo for interrompido, &ctoda a &bMana&c que consumiu até agora é perdida!&r\n\nA menos que você queira um desafio difícil, você precisará colocar um &6Spark&r tanto sobre a Placa quanto sobre quaisquer &bMana Pools&r próximos que você queira usar a Mana, os itens na placa podem desaparecer, e alguns &bMana Spreaders&r não fornecerão Mana para a placa nem de perto rápido o suficiente.\n\n&6&oNecessário para fazer Dispositivos de Automação de Corporea no MCE2!",
+
+    "mce.questing.botania.elven_portal.name": "&6O Portal para Alfheim",
+    "mce.questing.botania.elven_portal.sub": "Um Elo Entre Mundos",
+    "mce.questing.botania.elven_portal.desc": "O &6Portal para Alfheim&r, um Portal pelo qual você não pode viajar, infelizmente, mas que permitirá que você negocie com os &aElfos de Alfheim&r, permitindo que você obtenha novos itens para avançar em seus projetos Botânicos!\n\nAbrir o Portal requer 1/5 da capacidade máxima de um &bMana Pool&r, dividida entre todos os Pools a até &d5 Blocos&r do Núcleo do Portal que tenham &bNatura Pylons&r diretamente sobre eles.\nUm &dmínimo de dois&r Mana Pools com Natura Pylons deve estar presente, mas mais do que isso funcionará perfeitamente!",
+
+    "mce.questing.botania.elven_materials.name": "Recursos de Alfheim",
+    "mce.questing.botania.elven_materials.sub": "",
+    "mce.questing.botania.elven_materials.desc": "Os Elfos de Alfheim estão dispostos a trocar alguns dos recursos encontrados em seu mundo por alguns do nosso.\n\n&6&oMissões próximas serão desbloqueadas à medida que cada material for adquirido!",
+
+    "mce.questing.botania.ritual_of_gaia.name": "O Ritual de Gaia",
+    "mce.questing.botania.ritual_of_gaia.sub": "",
+    "mce.questing.botania.ritual_of_gaia.desc": "O Ritual de Gaia é usado para invocar o &bGuardian of Gaia&r, um poderoso Avatar da própria Terra.\n\nPara invocá-lo, o Beacon na configuração do ritual deve estar ativo, e um &aTerrasteel Ingot&r deve ser sacrificado &dAgachando e Interagindo&r com o Beacon.",
+
+
+
+    "_comment3": "Flora Quests",
+    "mce.questing.botania.hydroangeas.name": "Hydroangeas",
+    "mce.questing.botania.hydroangeas.sub": "Não se esqueça de &bse manter Hidratado&7!",
+    "mce.questing.botania.hydroangeas.desc": "&6Hydroangeas&r produzem Mana sugando &1Água&r de blocos fonte próximos, consumindo-os se não estiverem em uma posição onde seriam uma fonte infinita.\n\nDiferente de outra &bFlora Geradora&r, elas irão &cDecair&r e desaparecer após um tempo.\nQuando se trata de automatizá-las, a intenção é que a própria flor seja automatizada.",
+
+    "mce.questing.botania.endoflame.name": "Endoflame",
+    "mce.questing.botania.endoflame.sub": "Não se esgote!",
+    "mce.questing.botania.endoflame.desc": "&6Endoflames&r geram &bMana&r usando &6Itens Queimáveis&r jogados nas proximidades, embora &ditens que deixam algo para trás&r (como Baldes de Lava) &cnão possam ser usados por ela&r.\n\nEndoflames são bem lentas para gerar Mana, então quando você as usa, ou você quer muitas delas, ou quer usá-las como um trampolim para outra coisa.",
+
+    "mce.questing.botania.thermalily.name": "Thermalily",
+    "mce.questing.botania.thermalily.sub": "Sobrecarga Infernal",
+    "mce.questing.botania.thermalily.desc": "&6Thermalillies&r sugam &bLava&r próxima e funcionam por algum tempo, produzindo uma quantidade considerável de &bMana&r no processo.\nNo entanto, elas entrarão em um longo tempo de recarga com alguma aleatoriedade em sua duração.\nDiferente de outra Flora, elas não são realmente destinadas a serem automatizadas.",
+
+    "mce.questing.botania.rosa_arcana.name": "Rosa Arcana",
+    "mce.questing.botania.rosa_arcana.sub": "Em parte Preto e Branco, também.",
+    "mce.questing.botania.rosa_arcana.desc": "&6Rosa Arcana&r consumirá &bExperiência&r de &dJogadores ou Orbes de Experiência próximos&r para gerar &bMana&r.\nElas também são capazes de &ddesencantar itens como uma &bGrindstone&r para gerar Mana da experiência.\n\nEla produz um pouco mais de Mana ao extrair de um jogador, mas ter que ficar sentado para sua produção de Mana funcionar é um saco.",
+
+    "mce.questing.botania.munchdew.name": "Munchdew",
+    "mce.questing.botania.munchdew.sub": "",
+    "mce.questing.botania.munchdew.desc": "&6Munchdews&r produzem &bMana&r comendo &bFolhas&r em uma grande área ao seu redor.\nNo entanto, nenhum item cairá das Folhas que ela consome.\n\nApós consumir todas as folhas ao alcance, ela entrará em tempo de recarga por um tempo.",
+
+    "mce.questing.botania.entropinnyum.name": "Entropinnyum",
+    "mce.questing.botania.entropinnyum.sub": "",
+    "mce.questing.botania.entropinnyum.desc": "&6Entropinnyums&r absorvem explosões de TNT (e às vezes Explosivos similares) para gerar &bMana&r.\nElas geram uma quantidade significativa de Mana, mas devem ser completamente esvaziadas para absorver uma explosão, caso contrário, não a absorverão de forma alguma, e você deve saber como isso termina...",
+
+    "mce.questing.botania.gourmaryllis.name": "Gourmaryllis",
+    "mce.questing.botania.gourmaryllis.sub": "",
+    "mce.questing.botania.gourmaryllis.desc": "&6Gourmaryllis&r consomem &ditens comestíveis&r jogados perto delas para gerar &bMana&r.\nElas levam algum tempo para digerir os alimentos, dependendo de quão nutritivo o alimento é.\nElas também têm retornos decrescentes por alimentá-las com o mesmo alimento várias vezes seguidas, e uma mecânica de Sequência que aumenta vastamente a Mana produzida quanto mais alimentos únicos forem alimentados em sequência.",
+
+    "mce.questing.botania.narslimmus.name": "Narslimmus",
+    "mce.questing.botania.narslimmus.sub": "",
+    "mce.questing.botania.narslimmus.desc": "&6Narslimmus&r irá decompor &bSlimes &dgerados naturalmente em &aSlime Chunks&r perto delas para gerar &bMana&r, com a quantidade produzida aumentando com base em seu tamanho.",
+
+    "mce.questing.botania.kekimurus.name": "Kekimurus",
+    "mce.questing.botania.kekimurus.sub": "",
+    "mce.questing.botania.kekimurus.desc": "A &6Kekimurus&r morde &bBolos&r próximos para produzir &bMana&r.",
+
+    "mce.questing.botania.rafflowsia.name": "Rafflowsia",
+    "mce.questing.botania.rafflowsia.sub": "",
+    "mce.questing.botania.rafflowsia.desc": "A &6Rafflowsia&r gera &bMana&r &dconsumindo outra Flora colocada perto dela&r.\n\nVocê pode pensar que isso soa terrível, e começa assim, e tem retornos decrescentes se você continuar dando a mesma Flora repetidamente, mas cada &dFlora única alimentada em sequência faz com que ela produza exponencialmente mais Mana&r, e ela faz &lMUITA&r Mana em valores altos de Sequência.\nEla também esquecerá a Flora consumida menos recentemente quando atingir a Sequência máxima, para que você possa manter a cadeia indefinidamente com uma configuração adequada.\n\nMesmo que algumas Flora não possam ser automatizadas, o limite para sua Sequência não leva em conta essas Flora.",
+
+    "mce.questing.botania.spectrolus.name": "Spectrolus",
+    "mce.questing.botania.spectrolus.sub": "",
+    "mce.questing.botania.spectrolus.desc": "&6Spectrolus&r consomem &bLãs Coloridas&r jogadas perto delas, mas exigem que as diferentes cores sejam dadas em uma sequência específica, voltando ao início quando chega ao fim.\nSe qualquer cor que ela não queira for dada, nenhuma Mana é gerada.\nSegurar uma &bWand of the Forest&r mostrará a próxima cor na sequência.",
+
+    "mce.questing.botania.dandelifeon.name": "Dandelifeon",
+    "mce.questing.botania.dandelifeon.sub": "É literalmente o Jogo da Vida de Conway no Minecraft.",
+    "mce.questing.botania.dandelifeon.desc": "&6Dandelifeons&r literalmente jogam o &dJogo da Vida de Conway&r dentro do Minecraft para gerar &bMana&r, embora com algumas pequenas alterações.\n\nExplicar o Jogo da Vida de Conway está um pouco fora do escopo de uma descrição de missão, então pesquise informações sobre ele se precisar de mais do que a página da &bLexica Botania&r sobre o Dandelifeon cobre.",
+
+    "mce.questing.botania.shulk_me_not.name": "Shulk Me Not",
+    "mce.questing.botania.shulk_me_not.sub": "Este é o Poder do Monado!",
+    "mce.questing.botania.shulk_me_not.desc": "&6Shulk Me Nots&r criam quantidades consideráveis de &bMana&r quando um &bProjétil de Shulker&r colide com um &cmob Hostil&r.\nTanto o Shulker que disparou o projétil quanto o Mob atingido devem estar dentro do alcance do Shulk Me Not, e serão mortos quando o projétil atingir.\n\n&eDica:&r Conseguir Shulkers para isso parece complicado, talvez uma via Botânica ofereça um meio usando um recurso do The End?",
+
+
+
+    "_comment2": "Corporea Quests",
+    "mce.questing.botania.corporea_spark.name": "Corporea",
+    "mce.questing.botania.corporea_spark.sub": "Um sistema Incorpóreo",
+    "mce.questing.botania.corporea_spark.desc": "&dCorporea&r é um &6sistema de Requisição de Itens&r no Botania, &oprincipalmente&r capaz de &6recuperar Itens de Contêineres conectados a ele&r e fornecê-los a um Jogador, ou a sistemas Automatizados.\n\nProjetado para ser fortemente integrado com mecânicas de &cRedstone&r, é um sistema simples, mas muito capaz, apesar de quão poucos componentes possui.\n\nEm &5MC Eternal 2&r, as partes básicas do sistema Corporea foram disponibilizadas muito mais cedo no jogo, embora algumas coisas específicas sejam desbloqueadas mais tarde.",
+
+    "mce.questing.botania.corporeality_crystal.name": "Corporeality Crystals",
+    "mce.questing.botania.corporeality_crystal.sub": "O Material e o Imaterial",
+    "mce.questing.botania.corporeality_crystal.desc": "Cristais estranhos capazes de trocar informações com outros de sua espécie, usados na criação de alguns dispositivos Corporea.",
+
+    "mce.questing.botania.corporea_crystal_cube.name": "Corporea Crystal Cube",
+    "mce.questing.botania.corporea_crystal_cube.sub": "Gavetaporea",
+    "mce.questing.botania.corporea_crystal_cube.desc": "&6Corporea Crystal Cubes&r são um dispositivo Corporea capaz de monitorar a quantidade de um Item visível para uma rede Corporea, bem como permitir que um Jogador retire esse item do Cubo &dDando um soco nele&r.\n&dAgachar e dar um soco&r retirará até um stack.\nPara definir o item, simplesmente &dInteraja&r com o Crystal Cube enquanto o segura.\nInteragir com uma &6Wand of the Forest&r em um Crystal Cube o &dTravará&r, impedindo que seu item seja alterado até ser destravado.\n\nEles também podem ser lidos por &cRedstone Comparators&r, e aumentarão a &dforça do sinal de saída em 1 toda vez que o número de itens na rede dobrar.&r\nPor exemplo, apenas 1 item resultará em uma Força de Sinal de 1, 2 resultará em uma força de 2, 4 resultará em uma força de 3, 8 resultará em uma força de 4, etc.",
+
+    "mce.questing.botania.corporea_master_and_index.name": "O Index e o Master",
+    "mce.questing.botania.corporea_master_and_index.sub": "Requisitado 1 x \"Existência\" de 1. 1 retirado ",
+    "mce.questing.botania.corporea_master_and_index.desc": "Um &6Master Corporea Spark&r é o núcleo de qualquer rede Corporea, uma simplesmente não pode funcionar sem ele.\nPode ser colocado em qualquer bloco que possa aceitar um Corporea Spark, mas não fornecerá o conteúdo desse bloco para a rede, por esta razão, muitos usuários de redes Corporea o colocarão frequentemente sobre...\n\nO &6Corporea Index&r, o dispositivo usado para &dRequisitar Itens da rede Corporea manualmente&r!\n\nPara usar o Index, coloque-o e conecte-o à rede Corporea colocando um (Master) Corporea Spark sobre ele, então &duse o &bChat do Jogo&d para digitar e enviar o nome do item&r.\nAo requisitar por nome, o nome atual de um item é comparado, então &dquaisquer itens renomeados precisarão ser requisitados por seu novo nome&r!\n\nRequisições Corporea têm uma forma de Expressões que podem ser usadas, então digitar nomes inteiros de itens o tempo todo não é tão necessário.\nAlém disso, o atalho de teclado &6Corporea Request&r pode ser usado dentro de GUIs para &drequisitar o item que está atualmente sob o cursor&r, isso pode funcionar no JEI também!",
+
+    "mce.questing.botania.corporea_automation.name": "Automação com Corporea",
+    "mce.questing.botania.corporea_automation.sub": "Integração por Partes",
+    "mce.questing.botania.corporea_automation.desc": "Os &6Blocos de Automação Corporea&r são todos dispositivos muito poderosos, capazes de integrar mais profundamente uma rede Corporea com a Automação, abrindo muitas possibilidades, como &dAutocrafting Sob Demanda!&r\n\nO &6Corporea Funnel&r é o mais simples do grupo, capaz de requisitar itens da rede automaticamente, simplesmente coloque um &bItem Frame&r nele, e insira o item que você quer que ele requisite, então quando receber um &cSinal de Redstone&r, ele requisitará esse item!\nA Rotação do item no frame determinará quantos itens são requisitados, dobrando a cada rotação, exceto nas duas últimas (onde aumenta em 16), até 64.\nItens requisitados por um Corporea Funnel serão jogados no mundo sobre ele, ou &dadicionados a um Contêiner colocado abaixo dele.&r\n\nO &6Corporea Interceptor&r é um pouco mais interessante, se uma Requisição não puder ser completamente atendida, por haver falta de itens, ele emitirá um &cPulso de Redstone&r!\nVocê pode usar essa propriedade para fazer muitas coisas, como iniciar um mecanismo automatizado para fabricar mais de um item quando ele acabar, ou criar um sistema de &cRedstone&r ativado por uma Senha inserida em sua rede Corporea!\n\nAgora, o &6Corporea Retainer&r é estranho, diferente dos outros dois, ele não se conecta a uma rede Corporea diretamente, em vez disso, ele se conecta a um &bCorporea Interceptor&r, e &darmazena as informações da última requisição pela qual o Interceptor foi ativado&r, ele pode então &b\"Repetir\"&r a requisição de onde foi originalmente feita, quando fornecido com um &cSinal de Redstone&r.\nAlém disso, ele pode ler a contagem de itens na requisição armazenada de uma maneira quase idêntica ao &bCorporea Crystal Cube&r.\n\nUsando esses dispositivos, você pode levar sua rede Corporea para o próximo nível!",
+
+    "mce.questing.botania.requesting_halo.name": "Corporea Requesting Halo",
+    "mce.questing.botania.requesting_halo.sub": "Um Terminal Incorpóreo",
+    "mce.questing.botania.requesting_halo.desc": "O &6Corporea Requesting Halo&r é uma forma visual de ver cada item na rede Corporea conectada.\nPara conectar o Requesting Halo a uma rede Corporea, &dAgache e Interaja&r com um &bCorporea Index&r enquanto segura o Requesting Halo, ele será então conectado ao Index e, por extensão, à sua rede Corporea conectada!\nAo pressionar o atalho de teclado &6Abrir/Fechar Requesting Halo&r, você pode fazer o que o nome diz, exibindo uma interface no mundo ao seu redor, listando cada item na rede Corporea à qual o Halo está conectado.\n\nInfelizmente, você não pode realmente requisitar nenhum item diretamente desta interface, não por padrão, de qualquer maneira. Será apenas uma visão geral de suas coisas por enquanto.\nMas ser capaz de ver tudo em sua rede Corporea está longe de ser inútil!",
+
+    "mce.questing.botania.corporea_halo_upgrades.name": "Melhorias do Requesting Halo",
+    "mce.questing.botania.corporea_halo_upgrades.sub": "Hora de melhorar o Terminal ME",
+    "mce.questing.botania.corporea_halo_upgrades.desc": "O &6Corporea Requesting Halo&r tem várias &dMelhorias&r que aprimoram sua funcionalidade, desde &dOrdenar os itens que mostra por Quantidade&r, até permitir &l&6Teleportá-los diretamente para você de qualquer lugar!*&r &o&7*Preços e Restrições podem ser aplicados&r\n\nQuaisquer melhorias instaladas podem ser &dremovidas fabricando o Halo sozinho&r, removendo as melhorias instaladas &bem uma ordem definida&r.\n\nAdicionar um &6Luminizer&r permitirá que ele seja vinculado a um &bQuantization Device&r, permitindo que o Halo &drequisite itens de qualquer lugar&r para bem na sua frente! Ao custo de um pouco de &bMana&r do lado do Quantization Device, e precisando do Quantization Device em primeiro lugar.\n\nAplicar &6The Spectator&r adiciona um sistema de Busca, com prefixos de busca especiais idênticos ao JEI, junto com as próprias expressões de busca do Corporea.\n\nAdicionar um &6Manaseer's Monocle&r permitirá que você veja as dicas dos itens do Halo segurando a tecla &6Alt Esquerdo&r.\n\nAdicionar um &6Hovering Hourglass&r fará com que a lista de itens do Halo seja atualizada automaticamente a cada segundo, isso custará mana, assim como atualizá-la manualmente!\n\nAdicionar um &6Master Corporea Spark&r fará com que o Halo exiba os itens em ordem de quantos deles você tem.",
+
+    "mce.questing.botania.corporea_quantization_device.name": "Quantization Device",
+    "mce.questing.botania.corporea_quantization_device.sub": "Melhor que um Baú do End",
+    "mce.questing.botania.corporea_quantization_device.desc": "O &6Quantization Device&r habilita a capacidade máxima do &bCorporea Requesting Halo&r, a habilidade de &dRequisitar Itens, de QUALQUER LUGAR!&r\n\nSimplesmente conecte-o ao seu Requesting Halo &dAgachando e Interagindo&r com o Halo na mão, depois forneça &bMana&r ao Quantization Device, e você está pronto para usá-lo!\nA partir daí, você pode &dDar um soco em um item na sua visão do Requesting Halo&r, e vê-lo aparecer na sua frente em um segundo!\n\n&dAgachar e dar um soco&r no item resultará na requisição de um stack completo, segurar &dCtrl Esquerdo&r fará meio stack, e tanto Agachar quanto Ctrl Esquerdo farão um quarto de stack.\n\nO Quantization Device também pode ser lido por um &cRedstone Comparator&r para emitir um sinal com base na quantidade de &bMana&r que ele possui, útil para garantir que a Mana não esteja sendo usada de forma ineficiente.",
+
+
+
+    "_comment1": "Task Names",
+    "mce.questing.botania.task.fill_apothecary_with_water": "&oEncha um Petal Apothecary com Água",
+    "mce.questing.botania.task.early_gen_flower": "&oFabrique uma Flor Geradora simples",
+    "mce.questing.botania.task.elven_knowledge_lexica": "Lexica Botania (com &6Conhecimento Élfico&r)",
+    "mce.questing.botania.task.any_corporea_halo_upgrade": "&oQualquer melhoria do Requesting Halo",
+    "mce.questing.botania.task.any_corporea_automation_device": "&oQualquer Dispositivo de Automação Corporea",
+    "mce.questing.botania.task.terra_plate_structure": "&oConstrua a Terrestrial Agglomeration Plate",
+    "mce.questing.botania.task.elven_portal_structure": "&oConstrua o Portal para Alfheim",
+    "mce.questing.botania.task.gaia_ritual_structure": "&oConstrua a estrutura para o Ritual de Gaia"
+}

@@ -1,0 +1,117 @@
+{
+  "item.endrem.old_eye": "§eOld Eye",
+  "item.endrem.old_eye.description": "§7§oLendas dizem que este olho pertenceu a um dos grandes Sandworms.",
+
+  "item.endrem.rogue_eye": "§2Overgrown Eye",
+  "item.endrem.rogue_eye.description": "§7§oEle se contorce e se mexe na sua mão.. este item parece estar muito vivo.. Talvez seja preciso pegar o herbicida..",
+
+  "item.endrem.nether_eye": "§4Demonic Eye",
+  "item.endrem.nether_eye.description": "§7§oFoi usado por um demônio poderoso na batalha entre o Overworld e o Nether. Este artefato foi posteriormente recuperado quando um certo intruso arrogante invocou o dito Demônio. Este item inspira uma coragem que você nunca sentiu antes..",
+
+  "item.endrem.cold_eye": "§9Frozen Eye",
+  "item.endrem.cold_eye.description": "§7§oO Frozen Eye é a posse premiada de Frostmaw, muitos tentaram reivindicar este tesouro para si mesmos, muitos morreram.",
+
+  "item.endrem.magical_eye": "§7Wrought Eye",
+  "item.endrem.magical_eye.description": "§7§oSem este olho, o Ferrous Wroughtnaut não tem poder. Este item contém um poder antigo que foi cuidadosamente protegido por mais de um milênio pelo lendário Wroughtnaut!",
+
+  "item.endrem.black_eye": "§8Black Eye",
+  "item.endrem.black_eye.description": "§7§oA lenda pirata diz que este item permite ao usuário dobrar o oceano à sua vontade.. A honrada Capitã Cornelia foi em busca desta relíquia há mais de um século.. Ela nunca mais foi vista..",
+
+  "item.endrem.lost_eye": "§4Lost Eye",
+  "item.endrem.lost_eye.description": "§7§oDizem que este item foi forjado por um ferreiro antigo, cujo nome está tragicamente perdido no tempo. Este artefato é uma das coisas mais bonitas que você já viu.",
+
+  "item.endrem.wither_eye": "§8Mechanical Eye",
+  "item.endrem.wither_eye.description": "§7§oTestemunhou a destruição. Criado por uma civilização antiga desconhecida em uma tentativa fútil de controlar o poder do The Wither para seus próprios fins.",
+
+  "item.endrem.guardian_eye": "§eBlessed Eye",
+  "item.endrem.guardian_eye.description": "§7§oAcredita-se que este olho deu aos nossos ancestrais a Blessing of The Sun, que lhes permitiu conjurar poderosos feixes de luz em seus inimigos. Ninguém sabe sua origem.",
+
+  "item.endrem.cursed_eye": "§cBlazing Eye",
+  "item.endrem.cursed_eye.description": "§7§oO Blazing Eye alimenta a Nether Gauntlet. Este item contém um imenso poder bruto. Quem construiu esses autômatos de Netherite? E com que propósito?",
+
+  "item.endrem.exotic_eye": "§9Sunken Eye",
+  "item.endrem.exotic_eye.description": "§7§oAqueles que seguiram este olho nunca mais foram vistos; rumores dizem que eles encontraram a grande cidade de Atlantis, ou se perderam tentando.",
+
+  "item.endrem.evil_eye": "§8Evil Eye",
+  "item.endrem.evil_eye.description": "§7§oUm talismã profano dito proteger seu dono do azar. O Masquerader cobiçou este item por seu imenso poder mágico... e para garantir que suas festas fossem um grande sucesso!",
+
+  "item.endrem.undead_eye": "§8Pale Eye",
+  "item.endrem.undead_eye.description": "§7§oA energia contida neste recipiente é caótica por natureza, tornando-o profundamente instável. Criar este item é considerado um ato de profanação para os habitantes de The Pale Gardens...",
+
+  "item.endrem.cryptic_eye": "§3Angler's Eye",
+  "item.endrem.cryptic_eye.description": "§7§oDizem que o Angler's Eye é um presente dado pelo próprio Neptune apenas para o melhor e maior pescador de todo o Oveworld!!",
+
+  "item.endrem.corrupted_eye": "§8Corrupted Eye",
+  "item.endrem.corrupted_eye.description": "§7§oO olho de um rei ganancioso que definhou na solidão; a lenda diz que trará fortuna infinita ao custo da miséria perpétua para seu dono.",
+
+  "item.endrem.witch_eye": "§bSoul Eye",
+  "item.endrem.witch_eye.description": "§7§oO Rei-Deus Maledictus governou seus servos com crueldade. Ele foi finalmente derrotado por um herói sem nome que o baniu para uma lápide por toda a eternidade.",
+  "item.endrem.witch_pupil": "Witch Pupil",
+
+  "item.endrem.undead_soul": "§eEternal Soul",
+
+  "block.endrem.ancient_portal_frame": "Ancient Portal Frame",
+
+  "block.endrem.ender_eye.throw_warning": "Este olho não sabe para onde ir",
+  "block.endrem.ender_eye.use_warning": "Este olho não quer ser usado",
+  "block.endrem.custom_eye.place": "Este olho não pode ser colocado",
+  "block.endrem.custom_eye.frame_has_eye": "Esta moldura já tem um olho",
+  "block.endrem.custom_eye.broken": "Este portal não está construído corretamente",
+
+
+  "itemGroup.endrem.endrem_tab": "End Remastered",
+
+  "block.portal_open_sound": "Abertura de Portal",
+  "block.portal_open_sound.sub": "Abertura de Portal",
+
+  "advancements.main.root.title": "O Começo de uma Aventura",
+  "advancements.main.root.description": "Obtenha seu Primeiro Olho",
+
+  "advancements.main.old_eye.title": "Buscador da Fortuna",
+  "advancements.main.old_eye.description": "Obtenha seu primeiro Old Eye",
+
+  "advancements.main.rogue_eye.title": "Bem-vindo à Selva",
+  "advancements.main.rogue_eye.description": "Obtenha seu primeiro Overgrown Eye",
+
+  "advancements.main.nether_eye.title": "Encare o Desespero",
+  "advancements.main.nether_eye.description": "Obtenha seu primeiro Nether Eye",
+
+  "advancements.main.cold_eye.title": "Um Olhar Gélido",
+  "advancements.main.cold_eye.description": "Obtenha seu primeiro Cold Eye",
+
+  "advancements.main.corrupted_eye.title": "Cubra-me de Esmeraldas", "%%%%%%Comment%%%%%%": "Golden Shower fits better but whatever...",
+  "advancements.main.corrupted_eye.description": "Obtenha seu primeiro Corrupted Eye",
+
+  "advancements.main.magical_eye.title": "Olho de Mil Metais",
+  "advancements.main.magical_eye.description": "Obtenha seu primeiro Wraught Eye",
+
+  "advancements.main.black_eye.title": "Arghh, Onde está o Meu Navio?",
+  "advancements.main.black_eye.description": "Obtenha seu primeiro Black Eye",
+
+  "advancements.main.lost_eye.title": "Precisa de um Mapa?",
+  "advancements.main.lost_eye.description": "Obtenha seu primeiro Lost Eye",
+
+  "advancements.main.wither_eye.title": "Quer Wither ou Não",
+  "advancements.main.wither_eye.description": "Obtenha seu primeiro Mechanical Eye",
+
+  "advancements.main.guardian_eye.title": "Abençoado?",
+  "advancements.main.guardian_eye.description": "Obtenha seu primeiro Blessed Eye",
+
+  "advancements.main.cursed_eye.title": "Um Novo Protetor...",
+  "advancements.main.cursed_eye.description": "Obtenha seu primeiro Blazing Eye",
+
+  "advancements.main.witch_eye.title": "A Alma Interior",
+  "advancements.main.witch_eye.description": "Obtenha seu primeiro Soul Eye",
+
+  "advancements.main.evil_eye.title": "Uma 'Bênção' de Verdade",
+  "advancements.main.evil_eye.description": "Obtenha seu primeiro Evil Eye",
+
+  "advancements.main.exotic_eye.title": "Isto não é Atlantis..",
+  "advancements.main.exotic_eye.description": "Obtenha seu primeiro Exotic Eye",
+
+  "advancements.main.undead_eye.title": "O Espelho da Alma",
+  "advancements.main.undead_eye.description": "Obtenha seu primeiro Undead Eye",
+
+  "advancements.main.cryptic_eye.title": "A Paciência é o Caminho para a Sabedoria",
+  "advancements.main.cryptic_eye.description": "Obtenha seu primeiro Cryptic Eye"
+}
