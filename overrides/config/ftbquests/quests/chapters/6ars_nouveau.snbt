@@ -12,7 +12,7 @@
 			description: [
 				"&5Ars Nouveau&r is a very useful Magic mod that allows you to create custom spells using different &eGlyphs&r that affect how your spell works. "
 				""
-				"There are three different Spell Book Tiers, along with three different Tiers of &eGlyphs&r that allow many things with just a Spell Book in hand."
+				"There are three different &eSpell Book&r Tiers, along with three different tiers of &eGlyphs&r that allow you to do a lot with just a &eSpell Book&r in hand!"
 				""
 				"&5Ars Nouveau&r has many features other than just spell casting!"
 				""
@@ -68,7 +68,7 @@
 					type: "command"
 				}
 			]
-			shape: "embellish"
+			shape: "pentagon"
 			subtitle: "Who needs wands, right?"
 			tasks: [{
 				id: "2EC8F31C4C5F5F1C"
@@ -82,9 +82,9 @@
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
 			description: [
-				"The &eScribe's Table&r allows the creation of Glyphs at the cost of some resources and XP. Right Clicking the Scribe's Table with a &eSpellbook&r will open the UI. In order to craft a spell, throw the necessary items near it."
+				"The &eScribe's Table&r allows the creation of Glyphs at the cost of some resources and XP. Right Clicking the &eScribe's Table&r with a &eSpell Book&r will open the UI. In order to craft a spell, throw the necessary items near it."
 				""
-				"&6Tip:&r The &eScribe's Table&r can pull items from nearby chests, eliminating the need to throw items manually."
+				"&6Tip:&r The &eScribe's Table&r can pull resources from nearby chests, eliminating the need to throw them manually."
 			]
 			id: "09E7B05E4298F3BE"
 			rewards: [{
@@ -106,7 +106,7 @@
 		}
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
-			description: ["The default Keybind for opening the &eSpell Book&r is \"C\". This will give access to the&e Spell Book's&r UI in order to view unlocked Glyphs, as well as creating spell combinations."]
+			description: ["The default Keybind for opening the &eSpell Book&r is \"C\". This will give you access to the &eSpell Book's&r UI in order to view unlocked &eGlyphs&r, as well as creating spell combinations."]
 			icon: "ars_nouveau:glyph_break"
 			id: "593615007F1EE282"
 			optional: true
@@ -129,11 +129,11 @@
 		{
 			dependencies: ["09E7B05E4298F3BE"]
 			description: [
-				"&eSource Gems&r are the fundamentals of &5Ars Nouveau&r, needed to craft many items such as different essences and other important blocks."
+				"&eSource Gems&r are the fundamentals of &5Ars Nouveau&r, needed to craft many items such as the variety of &eEssences&r."
 				""
-				"&eSource Gems&r can be created using either &eAmethyst Shards&r or &eLapis Lazuli&r. When crafting items other than &eEssences&r, the &eImbuement Chamber&r does not require Source or consume items in nearby &eArcane Pedestals&r."
+				"&eSource Gems&r can be created using either &eAmethyst Shards&r or &eLapis Lazuli&r. When crafting items, the &eImbuement Chamber&r does not consume resources in nearby &eArcane Pedestals&r."
 				""
-				"&6Tip:&r &eImbuement Chambers&r can be Semi-Automated with certain methods to make this process easier."
+				"&6Tip:&r &eImbuement Chambers&r can be emi-automated with certain methods to make this process easier."
 			]
 			icon: "ars_nouveau:imbuement_chamber"
 			id: "704C7C142ECED1D5"
@@ -205,7 +205,7 @@
 		{
 			dependencies: ["704C7C142ECED1D5"]
 			description: [
-				"The &eEnchanting Apparatus&r is the other core part of &5Ars Nouveau&r, allowing for the creation of a plethora of items, such as upgrading basic armor into something better suited for Spell Casting."
+				"The &eEnchanting Apparatus&r is the other core crafting part of &5Ars Nouveau&r, allowing for the creation of a plethora of items, such as upgrading basic armor into something better suited for Spell Casting."
 				""
 				"Tip: If you find yourself lacking enchants on gear, this is a very simple way of obtaining most enchants! "
 				"Not every enchantment can be created in the &eEnchanting Apparatus&r though such as &eMending&r, so be sure to check JEI!"
@@ -278,7 +278,11 @@
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
-			description: [""]
+			description: [
+				"&eArs Nouveau&r introduces &eThreads&r for your armor that are separate from tiered upgrades. There's a variety of &eThreads&r that are helpful in many ways, and some even stack on top of Vanilla enchantments like &eRespiration&r and &eFeather Falling&r!"
+				""
+				"Your armor has quite a few slots available at the max Tier, but you may only have one of each &eThread&r in your entire armor set, so choose wisely!"
+			]
 			icon: "ars_nouveau:alteration_table"
 			id: "3D16E9297DD511FD"
 			rewards: [
@@ -345,7 +349,7 @@
 			description: [
 				"The &eMage's Spell Book&r is a large upgrade to the &eNovice's Spell Book&r, allowing access to Tier 2 Glyphs and better Spell combinations."
 				""
-				"&6Tip:&r Unlocking more &eGlyphs&r gives a large boost to Maximum Mana and unlocking ALL Glyphs will reward you with around 1500 Maximum Mana!"
+				"&6Tip:&r Unlocking more &eGlyphs&r gives a large boost to Maximum Mana and unlocking ALL &eGlyphs&r will reward you with around 1500 Maximum Mana!"
 			]
 			id: "46ADECF58830F3CF"
 			rewards: [
@@ -397,6 +401,7 @@
 					type: "command"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "Was I not a Mage before?"
 			tasks: [{
 				id: "0ACF7B0558E19C24"
@@ -410,9 +415,9 @@
 		{
 			dependencies: ["46ADECF58830F3CF"]
 			description: [
-				"The &eRitual Brazier&r allows for manipulating the surrounding space such as simply summoning animals, changing the Time of day, or even allowing constant flight. "
+				"The &eRitual Brazier&r allows you to manipulate the space around you, such as summoning animals, changing the Time of day, or even allowing constant flight. "
 				""
-				"Most Rituals require an income of source in order to function while some don't require Source at all."
+				"Most Rituals require an income of Source in order to function while some don't require Source at all."
 			]
 			icon: "ars_nouveau:ritual_brazier"
 			id: "58594005824B1BBE"
@@ -534,7 +539,9 @@
 		{
 			dependencies: ["58594005824B1BBE"]
 			description: [
-				"The Wilden Chimera is the Boss of &eArs Nouveau&r, and very difficult having multiple phases that imitate each of the Wilden Beasts. "
+				"The Wilden Chimera is the Boss of &5Ars Nouveau&r, and very difficult having multiple phases that imitate each of the Wilden Beasts. "
+				""
+				"In order to summon the Wilden Chimera, you must use a &eRitual of Summon Wilden&r and offer a &eWilden Wing&r, &eWilden Horn&r, and &eWilden Spike&r for the special summoning!"
 				""
 				"The &eWilden Tribute&r is a crucial aspect in upgrading the &eMage's Spell Book&r, to its final tier, the &eArchmage Spell Book&r."
 			]
@@ -595,8 +602,8 @@
 			description: [
 				"The &eArchmage's Spell Book&r is the final tier of Spell Book for &5Ars Nouveau&r, allowing for even more powerful spell combinations and unlocks access to Tier 3 &eGlyphs&r."
 				""
-				"&6Tip:&r In order to craft the &eArchmage Spellbook&r, you need many materials from the End Dimension, one of those being &eEnderium Ingots&r. "
-				"To find &eEnderium Ore&r easier, use a &eTablet of Scrying&r in a &eRitual Brazier&r and then add a &eManipulation Essence&r to increase the duration, along with an &eEnderium Ore&r to locate it."
+				"&6Tip:&r In order to craft the &eArchmage Spell Book&r, you need many materials from the End Dimension, one of those being &eEnderium Ingots&r. "
+				"The &eRitual of Scrying&r can be used to find the exact location of the ore itself. Add a &eManipulation Essences&r to extend the duration and then wait for the Effect to activate!"
 			]
 			id: "5DD2BA94561922D4"
 			rewards: [
@@ -648,6 +655,7 @@
 					type: "command"
 				}
 			]
+			shape: "octagon"
 			subtitle: "I'm a what?"
 			tasks: [{
 				id: "64808A383C864FCF"
@@ -660,9 +668,9 @@
 		}
 		{
 			description: [
-				"&5Ars Nouveau&r has familiars that can be summoned with &eCharms&r in order to automate certain aspects, such as &eSource Berry&r gathering, creating potions, or even generating items from enemies in the form of a Mob Farm."
+				"&5Ars Nouveau&r has many familiars that can be summoned with &eCharms&r in order to automate certain aspects, such as &eSource Berry&r gathering, creating potions, or even generating items from enemies in the form of a Mob Farm."
 				""
-				"The &eDominion Wand&r allows linking these familiars to their corresponding work stations, as well as linking &eSourcelinks&r to &eSource Relays&r and &eSource Jars&r."
+				"The &eDominion Wand&r allows linking these familiars to their corresponding work stations, as well as linking &eSourcelinks&r to &eSource Relays&r."
 			]
 			icon: {
 				Count: 1
@@ -677,23 +685,18 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			shape: "rsquare"
+			size: 1.0d
 			subtitle: "Aww, they're so cute!"
-			tasks: [
-				{
-					id: "5DFAFA297D49C938"
-					title: "Automation with Ars Nouveau"
-					type: "checkmark"
+			tasks: [{
+				id: "2FD7CB58D855F04D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
 				}
-				{
-					id: "2FD7CB58D855F04D"
-					item: {
-						Count: 1
-						id: "ars_nouveau:dominion_wand"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Familiars"
 			x: 8.0d
 			y: -4.0d
@@ -701,9 +704,9 @@
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"The &eBookwyrm Charm&r is obtained by using a &eBook And Quill&r on a &eRitual of Awakening&r and must be linked with the &eStorage Lectern&r using a &eDominion Wand&r in order to connect chests into one unified storage block. One Bookwyrm allows connecting up to 8 Storage blocks."
+				"The &eBookwyrm Charm&r is obtained by using a &eBook And Quill&r on a &eRitual of Awakening&r and must be linked with the &eStorage Lectern&r using a &eDominion Wand&r in order to connect chests into one unified storage block. One Bookwyrm is able to connect up to 8 Chests."
 				""
-				"&6Tip:&r The &eWarp Index&r allows for remote access to the &eStorage Lectern&r with infinite range as long as the chunks are loaded, while the &eStabilized Warp Index&r allows for cross-dimension access."
+				"&6Tip:&r &5Ars Additions&r adds the &eWarp Index&r that lets you have remote access to the &eStorage Lectern&r with infinite range as long as the chunks are loaded, while the &eStabilized Warp Index&r allows for cross-dimension access."
 			]
 			icon: "ars_nouveau:bookwyrm_charm"
 			id: "5317ADE87D16A500"
@@ -768,7 +771,7 @@
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"A &eDrygmy Token&r is obtained by giving a Wild Drygmy a &eWilden Horn&r. Right clicking a &eMossy Cobblestone&r block with one or more Drygmy Charms will generate items from mobs in nearby &eContainment Jars&r if a constant stream of Source is provided."
+				"A &eDrygmy Token&r is obtained by giving a Wild Drygmy a &eWilden Horn&r. Right clicking a &eMossy Cobblestone&r block with one or more Drygmy Charms will generate items from mobs in nearby &eContainment Jars&r if a chest touching the &eDrygmy Hedge&r and constant stream of Source is provided."
 				""
 				"&6Tip:&r The more&e Containment Jars&r that have unique mobs nearby, the \"happier\" the Drygmys will be and generate items a little faster."
 			]
@@ -840,7 +843,9 @@
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"The &eWixie Token&r is obtained by using Dispel on a Witch at less than half health. Right clicking a &eCauldron&r, the Wixie will automatically create a single potion type out of materials in a nearby storage block and nearby Source"
+				"The &eWixie Token&r is obtained by using Dispel on a Witch at less than half health. Right clicking a &eCauldron&r, the Wixie will automatically create a single potion type out of materials in a nearby chest and nearby Source. "
+				""
+				"Right Clicking the &eWixie Cauldron&r will tell the Wixie what potion to make. She will always make 3 potions worth in the &ePotion Jar&r, and it can hold a lot of potions!"
 				""
 				"&6Tip:&r In order to fully automate potions, multiple Wixies are needed."
 			]
@@ -1008,7 +1013,7 @@
 				""
 				"Starbuncles can also move items between chests, making it the cutest hopper in the world!"
 				""
-				"Tip: Giving them &eStarbuncle Shades&r stops them from collecting &eSource Berries&r, but it makes them look cool, right?"
+				"&6Tip:&r Giving them &eStarbuncle Shades&r stops them from collecting &eSource Berries&r, but it makes them look cool, right? You can also give them a &eWixie Hat&r to transport potions!"
 			]
 			id: "30E5BE9C7BE609E7"
 			rewards: [
@@ -1085,11 +1090,17 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			shape: "rsquare"
+			size: 1.0d
 			subtitle: "How do these work exactly?"
 			tasks: [{
-				id: "2CFB202CA08C0F3F"
-				title: "Magical Turrets"
-				type: "checkmark"
+				id: "4C93F5987AE2C7C1"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
 			}]
 			title: "Sourcelinks and Relays"
 			x: 8.0d
@@ -1100,7 +1111,7 @@
 			description: [
 				"The &eAgronomic Sourcelink&r generates source from surrounding crops in a 15x15 area."
 				""
-				"Tip: The crops must be actively growing in order to generate source. Crops that are full grown will not generate source, &obut there are exceptions to this rule.&r"
+				"&6Tip:&r The crops must be actively growing in order to generate source. Crops that are full grown will not generate source, &obut there are exceptions to this rule.&r"
 			]
 			id: "603D53BA4280A9FA"
 			rewards: [
@@ -1155,7 +1166,11 @@
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
-			description: ["The Volcanic Sourcelink is one of the highest generating sourcelinks in &eArs Nouveau&r."]
+			description: [
+				"The Volcanic Sourcelink is one of the highest generating &eSourcelinks&r in &eArs Nouveau&r, using fuel items such as &eCoal&r or even &eLava Buckets&r!"
+				""
+				"If only there was a way to get infinite &eLava&r..."
+			]
 			id: "0E765133B7D231C4"
 			rewards: [{
 				amount: 100L
@@ -1277,7 +1292,7 @@
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
-			description: ["The &eSource Relay&r is the most basic Relay in &5Ars Nouveau&r, only being capable of sending Source from a Sourcelink to a single Source Jar."]
+			description: ["The &eSource Relay&r is the most basic Relay in &5Ars Nouveau&r, only being capable of sending Source from a Sourcelink to a single &eSource Jar&r."]
 			id: "6ADAC8475A936E2E"
 			rewards: [
 				{
@@ -1440,12 +1455,14 @@
 		{
 			dependencies: ["105A86F70B2C6B39"]
 			description: [
-				"The &eMark of Mastery&r from &5Ars Elemental&r is necessary in upgrading the basic &5Ars Nouveau&r Armor into an Armor set focused in a single Element. The &eMark of Mastery&r requires a lot of Source to be crafted as well, so make sure to have plenty in stock!"
+				"The &eMark of Mastery&r from &5Ars Elemental&r is necessary in upgrading the basic &5Ars Nouveau&r Armor into an Armor set focused in a single Element. "
+				""
+				"The &eMark of Mastery&r requires a lot of Source to be crafted as well, so make sure to have plenty in stock!"
 				""
 				"There are four different elements for Armor: Water, Earth, Fire, and Air. "
 				"Each Armor Set has their own effects that make them unique from each other. "
 				""
-				"&6Tip:&r None of the Essences will be consumed if crafted using the &eImbuement Chamber&r, only the &eWilden Tribute&r."
+				"&6Tip:&r None of the &eEssences&r will be consumed if crafted using the &eImbuement Chamber&r, only the &eWilden Tribute&r."
 			]
 			id: "0680B29423DD2DD4"
 			rewards: [{
@@ -1552,13 +1569,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not so shady afterall."
+			subtitle: "Not so shady after all"
 			tasks: [{
 				id: "0BF372AB99944BBC"
 				title: "Villager Job"
 				type: "checkmark"
 			}]
-			title: "Shady Wizard"
+			title: "The Shady Wizard"
 			x: 5.0d
 			y: 1.0d
 		}
@@ -1567,8 +1584,9 @@
 			description: [
 				"&5Ars Nouveau&r has a very extensive list of features and items, ranging from simple to complex. Having a &eWorn Notebook&r will allow you to learn about every item possible in the base mod, including the addons such as &5Ars Elemental&r and &5Ars Ocultas&r, which is the bridge between &5Ars Nouveau&r and &5Occultism&r!"
 				""
-				"Tip: The &eWorn Notebook&r can also be accessed on the left side of your &eSpellbook&r UI."
+				"&6Tip:&r The &eWorn Notebook&r can also be accessed on the left side of your &eSpell Book&r UI."
 			]
+			icon_scale: 0.75d
 			id: "2B0658FFB8B4D18C"
 			optional: true
 			rewards: [{
@@ -1578,6 +1596,8 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			shape: "gear"
+			size: 1.5d
 			subtitle: "Is everything here about books?"
 			tasks: [{
 				id: "5C1EAE2A29D3E84D"
@@ -1585,7 +1605,7 @@
 				type: "item"
 			}]
 			title: "Your Wizard's Handbook"
-			x: -1.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -1652,7 +1672,7 @@
 			description: [
 				"&5Ars Elemental&r introduces the Flarecannon into the family of Familiars! This Familiar will act as a sort of turret and shoot Flare projectiles at nearby enemies. The Flarecannon can be reactivated by giving it &eBlaze Powder&r or &eMagma Cream&r if defeated."
 				""
-				"Tip: It has the nickname, \"Firenando\"."
+				"&6Tip:&r It has the nickname, \"Firenando\"."
 			]
 			id: "12DD07F231404534"
 			rewards: [
@@ -1711,7 +1731,7 @@
 			description: [
 				"Familiars in &5Ars Nouveau&r and &5Ars Elemental&r have uses outside of their corresponding work stations. The Bookwyrm for example will collect items and XP Orbs for you, while the Wixie can boost the duration of &ePotions&r! "
 				""
-				"Each Familiar has a unique role to play, whether it be combat or exploration. Use your &eWorn Notebook&r to learn more about what they can do for you! They can also be accessed in your &eSpellbook&r at any time!"
+				"Each Familiar has a unique role to play, whether it be combat or exploration. Use your &eWorn Notebook&r to learn more about what they can do for you! They can also be accessed in your &eSpell Book&r at any time!"
 			]
 			icon: "ars_nouveau:ritual_binding"
 			id: "6246436589B4A371"
@@ -1832,7 +1852,9 @@
 		{
 			dependencies: ["0680B29423DD2DD4"]
 			description: [
-				"&5Ars Elemental&r adds four different armor sets and they are the pinnacle of elemental mastery. Each armor has its own special full set bonus that corresponds with the four elements: Water, Earth, Fire, and Air. "
+				"&5Ars Elemental&r adds four different armor sets and they are the pinnacle of Elemental Mastery. "
+				""
+				"Each armor has its own special full set bonus that corresponds with the four elements: Water, Earth, Fire, and Air. "
 				""
 				"For example, the &eAethermancer&r armor allows you to take reduced fall damage, while the &eGeomancer&r armor satiates you while you're underground. "
 			]
@@ -2059,7 +2081,9 @@
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"&5Ars Nouveau&r has three basic armor sets that are upgraded from Vanilla's armor sets: &eGold Armor&r to Sorceror, &eIron Armor&r to Arcanist, and &eDiamond Armor&r to Battlemage. These armor sets give you a boost to Maximum Mana and Mana Regen and allows armor to repair itself with Mana."
+				"&5Ars Nouveau&r has three basic armor sets that are upgraded from Vanilla's armor sets: &eGold Armor&r to Sorceror, &eIron Armor&r to Arcanist, and &eDiamond Armor&r to Battlemage. "
+				""
+				"These armor sets give you a boost to Maximum Mana and Mana Regen and allows armor to repair itself with Mana."
 				""
 				"&eMagebloom fibers&r are important for allowing this upgrade to happen with the &eEnchanting Apparatus&r and can be obtained by making a &eMagebloom Seed&r and growing it to harvest &eMagebloom&r."
 			]
@@ -2226,12 +2250,12 @@
 		{
 			dependencies: ["5DD2BA94561922D4"]
 			description: [
-				"Placing the tool on a &eScribe's Table&r and Shift + Right Clicking with a Spell from your &eSpellbook&r with no Form Glyph will inscribe the current spell onto the &eEnchanter's Tool&r."
+				"Placing the tool on a &eScribe's Table&r and Shift + Right Clicking with a Spell from your &eSpell Book&r with no Form Glyph will inscribe the current spell onto the &eEnchanter's Tool&r."
 				""
-				"Each tool comes with a pre-determined Form Glyph depending on which tool you use, and too much information to explain here so I'd recommend checking the Worn Notebook for more information!"
+				"Each one comes with a pre-determined Form Glyph depending on which tool you use. There's too much information to explain here so I'd recommend checking the &eWorn Notebook&r to learn more about these awesome items!"
 			]
 			id: "2A7A23DB0184D16F"
-			subtitle: "Better than Spellbooks!"
+			subtitle: "Better than Spell Books!"
 			tasks: [{
 				id: "779F9970773FB4EC"
 				item: {
@@ -2303,7 +2327,7 @@
 		{
 			dependencies: ["704C7C142ECED1D5"]
 			description: [
-				"&5Ars Nouveau&r adds multiple Essences, with &5Ars Elemental&r adding the &eAnima Essence&r to the mix. These are important and require quite a bit of source to be created efficiently. "
+				"&5Ars Nouveau&r adds multiple Essences, with &5Ars Elemental&r introducing the &eAnima Essence&r to the mix. These are important and require quite a bit of Source to be created efficiently. "
 				""
 				"Essences are needed for crafting most &eGlyphs&r at a &eScribe's Table&r, as well as creating the &eMark of Mastery&r in the &eImbuement Chamber&r."
 			]
@@ -2316,63 +2340,62 @@
 				type: "eternalcurrencies:currency"
 			}]
 			subtitle: "Magic Crystals!"
-			tasks: [
-				{
-					id: "7203508188202A0C"
-					title: "Essences"
-					type: "checkmark"
-				}
-				{
-					id: "5AE8100C2D356BAC"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ars_elemental:anima_essence"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:abjuration_essence"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:conjuration_essence"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:air_essence"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:earth_essence"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:fire_essence"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:manipulation_essence"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:water_essence"
-								}
-							]
-						}
+			tasks: [{
+				id: "5AE8100C2D356BAC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:anima_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:abjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:conjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:air_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:earth_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:fire_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:manipulation_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:water_essence"
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				title: "Essences"
+				type: "item"
+			}]
 			title: "Basic Essences"
 			x: 3.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&5Ars Additions&r introduces the &eSource Spawner&r, which allows you to make a small Mob farm if you give it a nearby Source Jar, as well as a &eContainment Jar&r that has an Entity inside of it."
+				""
+				"The amount of Source that's required varies between mobs, so it's best to have quite a bit of Source ready just in case. But don't worry, it won't work on bosses!"
+			]
 			id: "137F9CA72E040B1D"
 			optional: true
 			rewards: [{
@@ -2396,7 +2419,7 @@
 			dependencies: ["704C7C142ECED1D5"]
 			description: [
 				"&5Ars Nouveau&r allows the use of &eWarp Scrolls&r, which allow you to set a location to teleport to at a later time using Shift + Right click. "
-				"You can also place a portal frame with any &eSourcestone&r blocks and throw the set &eWarp Scroll&r into the frame to create a permanent portal to that exact location, given it has Source nearby to keep the portal activated each time it's used."
+				"You can also place a Nether Portal frame made with any &eSourcestone&r blocks and throw the set &eWarp Scroll&r into the frame to create a permanent portal to that exact location, given it has Source nearby to keep the portal activated each time it's used."
 				""
 				"&6Tip:&r &eStabilized Warp Scrolls&r skip the manual portal frame placement."
 			]
@@ -2426,11 +2449,11 @@
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"Both Ars &5Nouveau&r and &5Ars Elemental&r add a plethora of Magical Equipment for you to create and use. The most basic items are the &eRing of Discount&r, &eAmulet of Mana Boost&r and &eAmulet of Mana Regen&r. "
+				"Both &5Ars Nouveau&r and &5Ars Elemental&r add a plethora of magical equipment for you to create and use. The most basic items are the &eRing of Discount&r, &eAmulet of Mana Boost&r and &eAmulet of Mana Regen&r. "
 				""
 				"If you find yourself carrying or needing a lot of these items, feel free to craft the &eTrinkets Pouch&r for easier access using the \"J\" Keybind!"
 				""
-				"Check your &eWorn Notebook&r or the documentation in your &eSpellbook&r to view them all."
+				"Check your &eWorn Notebook&r or the documentation in your &eSpellbook&r to view them all!"
 			]
 			icon: "ars_elemental:curio_bag"
 			id: "2DD13087B7BD983C"
@@ -2483,11 +2506,11 @@
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
 			description: [
-				"Combining any &eSpellbook&r with a dye allows you to change the color of your Spellbook, as wel as your armor with the exception of &5Ars Elemental&r armor. Try making it red as a test and then find your own favorite color!"
+				"Combining any &eSpell Book&r with a dye allows you to change the color of it, as well as your armor with the exception of &5Ars Elemental&r armor. Try making it red as a test and then find your own favorite color!"
 				""
-				"In addition to changing the color of your &eSpellbook&r, you can also change the color of spell projectiles on the left side of your &eSpellbook&r UI!"
+				"In addition to changing the color of your &eSpell Book&r, you can also change the color of spell projectiles on the left side of your &eSpell Book&r UI!"
 				""
-				"&6Tip: &rMost customization is found on the left side of your Spellbook UI, such as projectile sounds and Familiars. A built-in &eWorn Notebook&r is also provided as well."
+				"&6Tip: &rMost customization is found on the left side of your Spell Book UI, such as projectile sounds and summoning Familiars. A built-in &eWorn Notebook&r is also provided as well."
 			]
 			id: "5E0498ECFD150E14"
 			optional: true
@@ -2517,10 +2540,15 @@
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"The &eDominion Wand&r allows you to link Familiars to their corresponding work stations or storage blocks, as well as linking &eSourcelinks&r with &eSource Relays&r and &eSource Jars&r. "
+				"The &eDominion Wand&r allows you to link Familiars to their corresponding work stations or other necessary blocks, as well as linking &eSourcelinks&r with &eSource Relays&r. "
 				""
-				"The most common method to linking is a simple Right click but you may have to Shift + Right Click when dealing with &eChests&r or other storage. Another Shift + Right click clears the links from the targeted block."
+				"The most common method to linking is a simple Right Click but you may have to Shift + Right Click when dealing with chests or other storages. Another Shift + Right Click clears the links from the targeted block."
 			]
+			icon: {
+				Count: 1
+				id: "ars_additions:advanced_dominion_wand"
+				tag: { }
+			}
 			id: "61E3C158682EB634"
 			optional: true
 			subtitle: "Dominion Wand 101"
