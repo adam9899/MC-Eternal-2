@@ -1622,15 +1622,8 @@
 			size: 0.7d
 			subtitle: "Craft a &eSophisticated Backpack"
 			tasks: [{
-				icon: "sophisticatedbackpacks:backpack"
 				id: "06B6E5476A2588BC"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "mce2:sophisticated_backpacks/backpacks"
-					}
-				}
+				item: "sophisticatedbackpacks:backpack"
 				title: "{chapter.1.quest.8.task.1.title}"
 				type: "item"
 			}]
@@ -4693,7 +4686,7 @@
 				"Only members&r currently in your team are allowed to break and interact with blocks."
 				"Simply hold &dRight-Click&r and drag across the grid to claim chunks!"
 				""
-				"You have &e80 chunks.&r &nUse them wisely!"
+				"You have &e35 chunks.&r &nUse them wisely!"
 				""
 				""
 				"{image:modpack:textures/claim.png width:200 height:100 align:1}"
@@ -4745,14 +4738,7 @@
 				}
 				{
 					id: "23AE553DCB2261E9"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:beds"
-						}
-					}
-					title: "Any #minecraft:beds"
+					item: "minecraft:white_bed"
 					type: "item"
 				}
 			]
@@ -6127,8 +6113,6 @@
 				""
 				"&6Hint:&r Use the Flint and Steel on the portal frame!"
 				"&4Note:&r Entering The Nether will start EXPERT MODE! "
-				""
-				"&4[Nether Progression]"
 			]
 			icon: "minecraft:obsidian"
 			id: "6CC1049FCC2A076C"
@@ -6201,7 +6185,6 @@
 				""
 				"This object &oshould&r grant us passage into The Nether! You might need to &o\"handle\"&r whoever is currently in possession of this artifact!"
 				""
-				"&4[Nether Progression]"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -6250,7 +6233,6 @@
 				""
 				"&eTip:&r This \"Eternal Invasion Gateway\" appears to be craftable... With just the right ingredients we can open a rift and defeat whoever has the Palantir! Lets force them to come to us!"
 				""
-				"&4[Nether Progression]"
 			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
@@ -6328,8 +6310,6 @@
 				"Something which has been impossible for hundreds of years..."
 				""
 				"&eTip:&r Entering The Nether will begin &cExpert Mode.&r If you don't know what that is, check out the chapter &6\"Difficulty Modes\""
-				""
-				"&4[Nether Progression]"
 			]
 			icon: "kubejs:nether_item"
 			id: "0E64ACED3D987FB1"
@@ -6587,14 +6567,7 @@
 			subtitle: "Craft a &ePet Bed"
 			tasks: [{
 				id: "70D0A04730E958B5"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "domesticationinnovation:pet_beds"
-					}
-				}
-				title: "Any #domesticationinnovation:pet_beds"
+				item: "domesticationinnovation:pet_bed_white"
 				type: "item"
 			}]
 			title: "Cat Nap!"
@@ -6961,7 +6934,7 @@
 				""
 				"&eTip:&r It is normal to feel overwhelmed when starting a new modpack, especially one as large and comprehensive as MC Eternal. I would suggest taking your time and slowly going through the Quest Book at your own pace. "
 				""
-				"You could play the game as if it were Vanilla and slowly learn new mechanics as you progress, that way you might feel less overwhelmed from all the options."
+				"You could play the game as if it were Vanilla and slowly learn new mechanics as you progress, that way you might feel less overwhelm with all of the options."
 				""
 				"But most importantly try to play the game in a way that you enjoy and try not to worry too much on your first playthrough!"
 			]
@@ -7883,75 +7856,6 @@
 			title: "&dHappy Pride!"
 			x: -0.5032312925169933d
 			y: 1.4768707482993122d
-		}
-		{
-			dependencies: ["28EA646E95041E52"]
-			description: [
-				"The &eEnchantment Library&r can be used to store excess &dEnchanted Books&r."
-				"Inserting a book into the top slot will store every enchantment on that book in the library. Enchantments themselves are stored as \"Points\""
-				""
-				"To remove an enchantment from the library, simply click on that enchantment's tile. "
-				"If the output is empty, it will generate a new enchanted book with that enchantment on it (starting at level 1). "
-				""
-				"Subsequent clicks will increase the level on the output book. Shift-Clicking will attempt to extract the max level available to the output book."
-				""
-				"&6Hint:&r It can accept input from &eHoppers&r and others!"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "548A4289DD02BC44"
-			optional: true
-			rewards: [
-				{
-					id: "755903A3360E1EEA"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "2F8BB9E93629A339"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
-			size: 0.7d
-			subtitle: "Craft a &eEnchantment Library"
-			tasks: [{
-				id: "3FA9988B3C5521C3"
-				item: "enchlibathome:library"
-				type: "item"
-			}]
-			title: "&6Enchantments 4 Dayz!"
-			x: 12.186819727891155d
-			y: 0.329251700680274d
 		}
 	]
 	title: "&6A New Start! &a(Recommended!)"
