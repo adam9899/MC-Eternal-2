@@ -5268,6 +5268,7 @@
 				}
 			}
 		}
+		{ item: "kubejs:travel_ticket" }
 	]
 	title: "&e"
 	use_title: true

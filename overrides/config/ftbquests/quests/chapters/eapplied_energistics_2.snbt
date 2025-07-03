@@ -17,22 +17,6 @@
 		{
 			height: 1.0d
 			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
@@ -45,14 +29,6 @@
 			width: 1.5d
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 1.7857142857142847d
-			y: 0.023809523809518396d
 		}
 		{
 			height: 1.0d
@@ -91,8 +67,16 @@
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.0d
-			x: 14.502380952380967d
-			y: 5.0166666666666515d
+			x: 13.502380952380967d
+			y: 4.0166666666666515d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 11.66d
+			y: 4.0d
 		}
 		{
 			height: 1.0d
@@ -100,55 +84,47 @@
 			rotation: 90.0d
 			width: 1.0d
 			x: 12.473809523809535d
-			y: 4.9880952380952195d
+			y: 4.016666666666644d
 		}
 		{
 			height: 1.0d
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.0d
-			x: 13.473809523809535d
-			y: 5.016666666666644d
+			x: 13.51666666666668d
+			y: 3.070238095238075d
 		}
 		{
 			height: 1.0d
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.0d
-			x: 14.51666666666668d
-			y: 4.070238095238075d
+			x: 12.480952380952395d
+			y: 3.0345238095237903d
 		}
 		{
 			height: 1.0d
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.0d
-			x: 13.480952380952395d
-			y: 4.03452380952379d
+			x: 13.445238095238118d
+			y: 2.070238095238082d
 		}
 		{
 			height: 1.0d
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.0d
-			x: 14.445238095238118d
+			x: 12.516666666666687d
+			y: 2.0345238095237974d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.480952380952417d
 			y: 1.070238095238082d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.516666666666687d
-			y: 1.0345238095237974d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.480952380952417d
-			y: 3.070238095238082d
 		}
 		{
 			height: 1.0d
@@ -179,8 +155,40 @@
 			image: "ae2:block/controller_column_lights"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.016666666666694d
-			y: -1.507142857142874d
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.85d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 1.85d
+			y: 0.0d
 		}
 	]
 	order_index: 2
@@ -307,23 +315,17 @@
 				type: "eternalcurrencies:currency"
 			}]
 			subtitle: "Where does it come from?"
-			tasks: [
-				{
-					id: "4E83859AABED69F3"
-					item: "ae2:flawed_budding_quartz"
-					type: "item"
+			tasks: [{
+				id: "2EAAA036A680E1E9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:ae2/budding_quartz"
+					}
 				}
-				{
-					id: "5221CC4857633E68"
-					item: "ae2:chipped_budding_quartz"
-					type: "item"
-				}
-				{
-					id: "218A81C4B51C59EE"
-					item: "ae2:damaged_budding_quartz"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Budding Certus Quartz"
 			x: 0.0d
 			y: -2.0d
@@ -431,7 +433,7 @@
 				item: { Count: 4, id: "ae2:sky_stone_block" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -523,9 +525,10 @@
 			subtitle: "Natural"
 			tasks: [{
 				id: "6116B7AEE4AD7F90"
-				title: "In World Transformation"
+				title: "Read"
 				type: "checkmark"
 			}]
+			title: "In World Transformation"
 			x: 6.0d
 			y: -4.0d
 		}
@@ -537,9 +540,10 @@
 			subtitle: "Similar to a defibrillator"
 			tasks: [{
 				id: "71773CA653FCF07A"
-				title: "Rejuvenation"
+				title: "Read"
 				type: "checkmark"
 			}]
+			title: "Rejuvenation"
 			x: 7.0d
 			y: -3.0d
 		}
@@ -551,9 +555,10 @@
 			subtitle: "Too much dust?"
 			tasks: [{
 				id: "218F485DA8E0923C"
-				title: "Equivalent Exchange"
+				title: "Read"
 				type: "checkmark"
 			}]
+			title: "Equivalent Exchange"
 			x: 5.0d
 			y: -3.0d
 		}
@@ -627,7 +632,7 @@
 		{
 			dependencies: ["35BF66CD4FAE83DE"]
 			description: [
-				"If you have yet to acquire an means of producing energy, the use of an &eWooden Crank&r to convert our kinetic energy into power will have to do. "
+				"If you have yet to acquire an means of producing energy, the use of a &eWooden Crank&r to convert our kinetic energy into power will have to do. "
 				""
 				"&6Tip:&r If you already have an source of power, You can transfer it into your machine by using an &eEnergy Acceptor&r. Try placing it adjacent to your source of power and the machine you are attempting to power."
 				""
@@ -644,9 +649,10 @@
 			subtitle: "Poawh!"
 			tasks: [{
 				id: "4CFEBC9D44E88DF6"
-				title: "Initial Power! &e(Information Quest)"
+				title: "Read"
 				type: "checkmark"
 			}]
+			title: "Initial Power! &e(Information Quest)&r"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -661,14 +667,12 @@
 				"While &e8 Channels&r is enough for early applications of &dApplied Energistics&r, as your operations begin to scale that amount will seem like nothing, and that's where your &dME Controller&r comes into play; Each of it's 6 faces provides &332 Channels&r."
 				""
 				"&6Hint:&r Not every &dApplied Energestics&r machine uses an &eChannel&r, but every &bME (x)&r machine does."
-				""
 				"{@pagebreak}"
 				"If you haven't already, try right clicking your &dME Controller&r; It will provide you with an overwhealeming amount of infromation but once you understand what it all means it won't look so scary anymore."
 				""
 				"Your &eNetwork&r details tell you a lot of things, the amount of &eChannels&r you have used, your &7Stored/Max Power&r, your &ePassive Drain&r which we will get to in a moment, and your &7Energy Useage/Generation&r."
 				""
 				"While most of thease are fundamental, &ePassive Drain&r is a bit more unique, most machines you connect to your system will have an minor amount of &ePassive Drain&r, but it's nothing to worry about as long as you have an power setup appropriate for your scale and you have an suitable &7Power Bank&r."
-				""
 				"{@pagebreak}"
 				"The &7Power Bank&r of your &dME Controller&r alone is insuffecent, since it cannot store an meaninful excess of energy. With &76k AE (energy)&r storage provided by your controller, you have no buffer for when multiple machine begin running. The solution? a &eEnergy Cell&r, with it's weakest iteration providing &7200k AE (energy)&r storage, an single copy will be a sufficient buffer for an long time."
 				""
@@ -676,10 +680,7 @@
 				""
 				"If you haven't already this is the time to make use of your &aFavourate Energy Mod&r and produce the power for your future contraptions to use."
 				""
-				"&6Tip:&r In order to transfer external &7Power Generation&r into &dAE2&r, all you need is an &eEnergy Acceptor&r. Just place you acceptor next to your &eEnergy Cell&r, hook your power into it and watch your battery fill. "
-				""
-				"{@pagebreak}"
-				"While you technically can use &dAE2&r's &eVibrantion Chamber&r, It's not really that good outside of maybe the initial stages of your Network so make sure you move on quick."
+				"&6Tip:&r In order to transfer external &7Power Generation&r into &dAE2&r, all you need is an &eEnergy Acceptor&r. Just connect your acceptor to your Network, hook your power into, it and watch your battery fill!"
 			]
 			icon: "ae2:controller"
 			id: "5F39514D991EB2B8"
@@ -776,8 +777,8 @@
 				}
 			]
 			title: "Fluix Cables"
-			x: 8.0d
-			y: 2.0d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["563E2BEF024962AD"]
@@ -787,9 +788,11 @@
 				"&3Dense Cables&r Function identically to &5Fluix Cables&r with the single cavate of being able to hold 32 channels instead of 8, making them ideal as the cables that connect to the faces of your &dME Controller&r to allow you to split the &332 Channels&r properly between your &e8 Channel&r capped &5Fluix Cables&r."
 				""
 				"&6Tip:&r &3Dense Cables&r are &etoo large for most pannels&r to connect to, if you are having trouble setting something up, try using an smaller cable that branches off the &3Dense Cable&r."
+				""
+				"&7(Only 1 of 2 tasks must be Completed for this Quest)&r"
 			]
-			icon: "ae2:fluix_covered_dense_cable"
 			id: "5A4036C94C8C7485"
+			min_required_tasks: 1
 			rewards: [{
 				amount: 100L
 				currency: "eternalcurrencies:coins"
@@ -800,20 +803,31 @@
 			subtitle: "The Bigger Brother"
 			tasks: [
 				{
-					count: 4L
-					id: "061794E77D9DB349"
-					item: { Count: 4, id: "ae2:fluix_covered_cable" }
+					id: "6E43356A1B1C7BBB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_cable"
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "6B64094F7A4B3653"
-					item: "ae2:fluix_covered_dense_cable"
+					id: "0197A11A818F57A5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_dense_cable"
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "Thicker Cables"
-			x: 7.0d
-			y: 3.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -913,9 +927,9 @@
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"Useful and applicable for all your farming needs, &eGrowth Accelerators&r consume &eEnergy&r in order to accelerate adjacent Crops/Nodes."
+				"Useful and applicable for all your farming needs, &eGrowth Accelerators&r consume &eEnergy&r in order to &aaccelerate adjacent Crops/Nodes&r."
 				""
-				"You can stack as many as you want, but beware, they love chewing through your &ePower Bank&r, and as such trying to get full efficeny out of each one."
+				"You can stack as many as you can fit, but beware, they love chewing through your &7Power Bank&r, and as such try to get full efficiency out of each one."
 			]
 			id: "786990F250A68E7C"
 			rewards: [{
@@ -931,8 +945,8 @@
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.0d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -1033,7 +1047,7 @@
 			]
 			title: "Card Collecting"
 			x: 8.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7889A5659E64B507"]
@@ -1254,26 +1268,21 @@
 				}
 			]
 			subtitle: "Pretty"
-			tasks: [
-				{
-					id: "36FB525515FF9ACF"
-					item: "ae2:red_glass_cable"
-					type: "item"
+			tasks: [{
+				id: "5A92528F101937C1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:ae2/colored_cables"
+					}
 				}
-				{
-					id: "7915C9BC4FF879A9"
-					item: "ae2:green_glass_cable"
-					type: "item"
-				}
-				{
-					id: "46EA3B593D3491D8"
-					item: "ae2:blue_glass_cable"
-					type: "item"
-				}
-			]
+				title: "Any Colored Cable"
+				type: "item"
+			}]
 			title: "Colourful Cables"
-			x: 8.0d
-			y: 4.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1438,12 +1447,13 @@
 				"&6Hint:&r This is not limited to just ME Drives, almost every machine you work with will have an option for priority and they will all follow the &aChain of Priority&r."
 			]
 			id: "7C914E8C3B3778D1"
-			subtitle: "Organization Tool"
+			subtitle: "Organizational Tool"
 			tasks: [{
 				id: "0B2BF4EF70DE9E60"
-				title: "Priority"
+				title: "Read"
 				type: "checkmark"
 			}]
+			title: "Priority"
 			x: 9.0d
 			y: -5.0d
 		}
@@ -1512,7 +1522,7 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -1547,7 +1557,7 @@
 			]
 			title: "Import/Export Buses"
 			x: 12.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2ADED090D8AB82FB"]
@@ -1719,6 +1729,8 @@
 				""
 				"{image:modpack:textures/ae2_quartz_farming_setup.png width:200 height:100 align:center}"
 				"{@pagebreak}"
+				"&6Tip:&r &eAnnihilation Planes&r can be &bEnchanted&r, but beware that they may cause an increase in &7Power Consumption&r that overloads an insuffecent &7Power Bank&r."
+				""
 				"&6Note:&r If used to harvest crops that drop seeds, the seeds will need to collected through alternative methods as the &eAnnihilation Plane&r will drop them. "
 				""
 				"&6Hint:&r The seeds can be picked up using an &2Ender IO&r &eVaccum Chest&r and &areplanted with it's upcoming counterpart&r."
@@ -1737,8 +1749,8 @@
 				item: "ae2:annihilation_plane"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.0d
+			x: 13.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["22B6724C52A81603"]
@@ -1802,8 +1814,8 @@
 				item: "ae2:formation_plane"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.0d
+			x: 14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1918,8 +1930,8 @@
 				item: "ae2:spatial_anchor"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 2.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -1959,8 +1971,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 1.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["65EB1D8FE39B2EA8"]
@@ -1985,8 +1997,8 @@
 				item: "ae2:spatial_storage_cell_2"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.0d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5E2984EF36314A88"]
@@ -2005,12 +2017,16 @@
 				item: "ae2:spatial_storage_cell_16"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.0d
+			x: 14.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["563E2BEF024962AD"]
-			description: ["If you are &ahaving trouble managing your Channels&r, try using &eSmart Cables&r, they provide you with direct information on how many &eChannels&r are being used by just looking at them."]
+			description: [
+				"If you are &ahaving trouble managing your Channels&r, try using &eSmart Cables&r, they provide you with direct information on how many &eChannels&r are being used by just looking at them."
+				""
+				"&7(Only 1 of 2 tasks must be Completed for this Quest)&r"
+			]
 			id: "59A1722D0380D230"
 			rewards: [{
 				amount: 100L
@@ -2022,19 +2038,33 @@
 			subtitle: "Knowledgeable"
 			tasks: [
 				{
-					id: "1199EDCF425BA55B"
-					item: "ae2:fluix_smart_cable"
+					id: "48C4DAFFEEA4606E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_cable"
+						}
+					}
+					title: "Any Smart Cable"
 					type: "item"
 				}
 				{
-					id: "3367B83E52B6A715"
-					item: "ae2:fluix_smart_dense_cable"
+					id: "656EA64DAF7E32B8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_dense_cable"
+						}
+					}
+					title: "Any Dense Smart Cable"
 					type: "item"
 				}
 			]
 			title: "Smarter Cables"
-			x: 9.0d
-			y: 3.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -2075,8 +2105,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 3.0d
+			x: 12.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["67291F78A9989FF4"]
@@ -2105,8 +2135,8 @@
 				item: "ae2:wireless_booster"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -2121,7 +2151,8 @@
 				""
 				"--That same &5Fluix Cable&r can be used to &eImport/Export&r, by introducing a &eMediating Storage&r, such as an barrel for &eItems&r or an tank for &eFluids/Gases&r, and connecting to the &ePrimary Network&r using an &eImport Bus Filtered&r with the items your operations need, and an &eExport Bus Filtered&r with the outputs that you've produced."
 				""
-				"*Don't forget to use an &eStorage Bus&r as your &eSub-Network&r needs an way to access the &eMediating Storage&r*"
+				"*Don't forget to use an &eStorage Bus&r/&eMe Interface&r as your &eSub-Network&r needs a way to access the &eMediating Storage&r*"
+
 				"{@pagebreak}"
 				"&eImport Bus&r on the left of the barrel to recive output, &eExport Bus&r on the top of the barrel to provide resources, &eStorage Bus&r on the front of the barrel allowing &eSub-Network&r access into Mediating Storage, &7Quartz Fiber&r on the only connecting &5Fluix Cable&r between the &eSub-Network&r and &bPrimary Network&r to provide &7Power&r."
 				"{image:modpack:textures/ae2_simple_sub_network.png width:200 height:100 align:center}"
@@ -2138,14 +2169,15 @@
 			subtitle: "The Secret Sauce"
 			tasks: [{
 				id: "1346D5F5164B2174"
-				title: "More about Sub-Networks"
+				title: "Read"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: 1.0d
+			title: "More about Sub-Networks"
+			x: 9.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["19ABB31DC31B6DF3"]
+			dependencies: ["44B5442523858453"]
 			description: [
 				"&eAutomated Brewing&r is functionally the same as what has come before, place your &eBrewing Stands&r adjacent to your &ePattern Provider&r, set up your &eBlank Pattern&r to &eInput&r your &eMain Ingredient&r + &e3 Bottles&r and awaite &e3 Bottles&r of the brewed &eOutput&r."
 				""
@@ -2155,6 +2187,7 @@
 				""
 				"&6Tip:&r For the majority of cases, manually adding an excess of &eBlaze Powder&r is suffecent due to it's inherit efficency, but under large scale operations you might want to automate that too."
 			]
+			icon: "minecraft:brewing_stand"
 			id: "37ED052F5D0295A2"
 			rewards: [
 				{
@@ -2199,13 +2232,13 @@
 			]
 			subtitle: "Automated Brewing"
 			tasks: [{
-				id: "13CBDA1F39986509"
-				item: "minecraft:brewing_stand"
-				type: "item"
+				id: "02B7642CB670F4ED"
+				title: "Read"
+				type: "checkmark"
 			}]
 			title: "Processing Patterns 2"
-			x: 16.0d
-			y: -3.0d
+			x: 15.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["19ABB31DC31B6DF3"]
@@ -2224,6 +2257,7 @@
 				""
 				"As long as an &ePattern Provider&r containing an &eProccessing Pattern&r recives it's &eOutput&r, it doesn't matter how it happens."
 			]
+			icon: "thermal:machine_furnace"
 			id: "44B5442523858453"
 			rewards: [
 				{
@@ -2268,9 +2302,9 @@
 			]
 			subtitle: "Automated Smleting"
 			tasks: [{
-				id: "21BCD83B17C30DE6"
-				item: "thermal:machine_furnace"
-				type: "item"
+				id: "4C677C65F4E705C2"
+				title: "Read"
+				type: "checkmark"
 			}]
 			title: "Processing Patterns 1"
 			x: 15.0d
@@ -2293,8 +2327,8 @@
 				item: "ae2:singularity"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 5.0d
+			x: 13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -2322,7 +2356,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -2347,8 +2381,8 @@
 				item: "ae2:cable_interface"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.0d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6206C71520FDFB49"]
@@ -2367,8 +2401,8 @@
 				item: "ae2:matter_ball"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 5.0d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A523F4F763108E3"]
@@ -2429,8 +2463,8 @@
 				item: "ae2:quantum_entangled_singularity"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.0d
+			x: 14.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
@@ -2459,8 +2493,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.0d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
@@ -2490,7 +2524,41 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"&eCrystal Resonance Generator&r are less powerful &7Power Producers&r than &eVibration Generators&r, but can &bSelf-Sustain&r your &eNetwork&r. "
+				""
+				"Each produce &e20 AE/t&r, output energy to their south, and &ado not require maintanace&r outside of their initial cost."
+			]
+			id: "58E7B8912E34C67E"
+			subtitle: "Self-Sustaining Power"
+			tasks: [{
+				id: "11CA355E691895DE"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"&eVibrantion Chambers&r are &7Power Producers&r ment for more extensive tasks, they produce &e40 AE/t&r but consume fuel very rapidly."
+				""
+				"They're &cexpensive&r outside of the initial stages of your &eNetwork&r so make sure you move onto other sources before growing your operations too far."
+			]
+			id: "1E92535385E26C8D"
+			subtitle: "Wobble Wobble Wobble"
+			tasks: [{
+				id: "14DA67267F6B6BC0"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
 		}
 	]
 	title: "&6Applied Energistics 2"

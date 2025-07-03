@@ -268,27 +268,18 @@
 		{
 			id: "3C8F77EBC06819F7"
 			optional: true
-			rewards: [
-				{
-					count: 15
-					id: "03C46CF9EE5D5E95"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
+			rewards: [{
+				count: 3
+				id: "03C46CF9EE5D5E95"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "blackmarket_cache"
 					}
-					type: "item"
 				}
-				{
-					command: "/titles add @p titles:eternal"
-					icon: "titles:title_scroll_uncommon"
-					id: "7222774AF5F36394"
-					title: "{chapter.39.quest.7.reward.3.title}"
-					type: "command"
-				}
-			]
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				days: 500
@@ -303,15 +294,10 @@
 			optional: true
 			rewards: [
 				{
-					count: 35
+					count: 5
 					id: "6D62B65C6E7398ED"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "blackmarket_cache"
@@ -1820,7 +1806,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles add @p titles:egg"
+					command: "/titles add {p} titles:egg"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
