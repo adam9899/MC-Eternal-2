@@ -630,11 +630,11 @@
 					hasCustomPicture: false
 					icon: "minecraft:lapis_block"
 					id: "695FC871D1105C97"
-					title: "{mce.questing.botania.task.terra_plate_structure}"
 					ignoreState: false
 					layer: true
 					name: "terra_plate"
 					rightclick: false
+					title: "{mce.questing.botania.task.terra_plate_structure}"
 					type: "questsadditions:structure"
 				}
 				{
@@ -721,11 +721,11 @@
 					hasCustomPicture: false
 					icon: "botania:glimmering_livingwood"
 					id: "31FEB2F2455AEF4B"
-					title: "{mce.questing.botania.task.elven_portal_structure}"
 					ignoreState: false
 					layer: true
 					name: "elven_portal"
 					rightclick: false
+					title: "{mce.questing.botania.task.elven_portal_structure}"
 					type: "questsadditions:structure"
 				}
 			]
@@ -1202,11 +1202,11 @@
 					hasCustomPicture: false
 					icon: "minecraft:beacon"
 					id: "3D9FE7E661F48C7B"
-					title: "{mce.questing.botania.task.gaia_ritual_structure}"
 					ignoreState: false
 					layer: true
 					name: "ritual_of_gaia"
 					rightclick: false
+					title: "{mce.questing.botania.task.gaia_ritual_structure}"
 					type: "questsadditions:structure"
 				}
 			]

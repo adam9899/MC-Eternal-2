@@ -1,11 +1,12 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "6transport__quick_travel"
 	group: "12BCDDCCCA65FD77"
 	icon: "immersive_aircraft:biplane"
 	id: "273CA855185B20FF"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -105,13 +106,11 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["33DBFD4B00935B0A"]
 			description: [
-				"When you complete this quest, you will be automatically transported! &oIt's a fast plane!"
-				""
+				"&6Hint:&r When you complete this quest, you will be automatically transported! &oIt's a fast plane!"
 				"&eTip:&r Monsters do not spawn above ground in The Sakura Dimension! It is also always day-time! Watch out for structures though, monsters will populate those!"
 				"&dDon't forget to thank the pilot!"
-				""
-				"&6Hint:&r Make sure to put down the &dWaystone&r when you arrive! So you can always return!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -127,7 +126,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/execute in mce:sakura_dimension run tp {p} ~ ~ ~"
+					command: "/execute in mce:sakura_dimension run tp @p ~ ~ ~"
 					console: true
 					icon: "sophisticatedbackpacks:backpack"
 					id: "65A461C8BB254C3A"
@@ -136,7 +135,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at {p} run playsound immersive_aircraft:engine_start player {p} ~ ~ ~ 1000 1 1"
+					command: "/execute at @p run playsound immersive_aircraft:engine_start player @p ~ ~ ~ 1000 1 1"
 					console: true
 					icon: "immersive_aircraft:biplane"
 					id: "1FFDEEEFCE354804"
@@ -160,7 +159,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} {\"text\":\"[Rat Pilot Romone] Thank you for flying Rat-Air! We have arrived at our destination. The Sakura Dimension is beautiful this time of year! Enjoy!\",\"color\":\"gold\"}"
+					command: "/tellraw @p {\"text\":\"[Rat Pilot Romone] Thank you for flying Rat-Air! We have arrived at our destination. The Sakura Dimension is beautiful this time of year! Enjoy!\",\"color\":\"gold\"}"
 					console: true
 					icon: "etched:radio"
 					id: "0A5C817676118FAC"
@@ -168,8 +167,8 @@
 					type: "command"
 				}
 				{
-					auto: "invisible"
-					command: "/titles add {p} titles:tourist"
+					auto: "enabled"
+					command: "/titles add @p titles:tourist"
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "6D0328AD3E6697B7"
@@ -185,12 +184,8 @@
 					}
 					type: "item"
 				}
-				{
-					id: "6CE20959B37497A3"
-					item: "waystones:mossy_waystone"
-					type: "item"
-				}
 			]
+			secret: true
 			shape: "diamond"
 			subtitle: "Thank you for travelling with Rat-Air™, we hope you enjoy your flight and complimentary meal!"
 			tasks: [
@@ -200,18 +195,11 @@
 					type: "checkmark"
 				}
 				{
-					consume_items: true
-					id: "23583976081DCE1C"
-					item: "kubejs:travel_ticket"
-					type: "item"
-				}
-				{
-					disable_toast: true
-					elapsedTime: 600L
-					gameTime: "system"
-					id: "6626A182C339F25F"
-					title: "&6Cooldown"
-					type: "questsadditions:time"
+					amount: 1500L
+					currency: "eternalcurrencies:coins"
+					id: "172DD2098EEA440E"
+					title: "&6Fare"
+					type: "eternalcurrencies:currency"
 				}
 			]
 			title: "&6One-Way-Ticket To: &dSakura Dimension"
@@ -289,7 +277,6 @@
 					type: "loot"
 				}
 			]
-			secret: true
 			shape: "diamond"
 			subtitle: "Do &lyou&r need a holiday? You &llook&r like you need a holiday!"
 			tasks: [
@@ -316,12 +303,14 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2785A42DDDEB324C"]
 			description: [
-				"&eTip:&r This will bring you to spawn. It is Fast-Travel."
+				"&eTip:&r This will bring you to spawn. It is Quick-Travel."
 				"&6Hint:&r When you complete this quest, you will be automatically transported! &oIt's a fast blimp and Rats make great pilots!"
 				"&dDon't forget to thank the pilot!"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -334,8 +323,7 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/execute at {p} run playsound immersive_aircraft:engine_start_warship ambient {p} ~ ~ ~ 100"
-					console: true
+					command: "/execute at @p run playsound immersive_aircraft:engine_start_warship ambient @p ~ ~ ~ 100"
 					elevate_perms: true
 					icon: "sophisticatedbackpacks:backpack"
 					id: "3437F8CD1FA0538C"
@@ -344,8 +332,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute in minecraft:overworld run tp {p} ~ 160 ~"
-					console: true
+					command: "/execute in minecraft:overworld run tp @p ~ 160 ~"
 					elevate_perms: true
 					icon: "immersive_aircraft:gyrodyne"
 					id: "28C1AA62E1A62664"
@@ -369,8 +356,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Pilot Mr Whiskers]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" Thank you for flying Rat-Air! We have arrived at our destination! Brace for impact and put on your parachute!\"}]"
-					console: true
+					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Pilot Mr Whiskers]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" Thank you for flying Rat-Air! We have arrived at our destination! Brace for impact and put on your parachute!\"}]"
 					elevate_perms: true
 					icon: "etched:radio"
 					id: "10BAB3A2DBA1A772"
@@ -379,8 +365,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/effect give {p} minecraft:slow_falling 20"
-					console: true
+					command: "/effect give @p minecraft:slow_falling 20"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -394,6 +379,7 @@
 					type: "command"
 				}
 			]
+			secret: true
 			shape: "diamond"
 			subtitle: "Thank you for travelling with Rat-Air™, we hope you enjoy your flight and complimentary meal!"
 			tasks: [
@@ -409,16 +395,8 @@
 					title: "&6Fare"
 					type: "eternalcurrencies:currency"
 				}
-				{
-					disable_toast: true
-					elapsedTime: 120L
-					gameTime: "system"
-					id: "665CA77AD0530702"
-					title: "&6Cooldown"
-					type: "questsadditions:time"
-				}
 			]
-			title: "&6One-Way-Ticket To: &eSpawn - The Overworld"
+			title: "&6Return-Ticket To: &eSpawn - The Overworld"
 			x: 1.0357142857142918d
 			y: 3.5535714285714306d
 		}
