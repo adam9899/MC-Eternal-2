@@ -1,30 +1,3634 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
 	group: "3EBF424A99DA33B7"
 	icon: "thermal:bronze_gear"
 	id: "4CCB133226B619C1"
+	images: [
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			height: 4.7d
+			image: "create:entity/blueprint_large"
+			rotation: 0.0d
+			width: 4.7d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependency: "033E2E587625AC61"
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependency: "033E2E587625AC61"
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			height: 1.6d
+			image: "create:block/axis"
+			rotation: 34.0d
+			width: 1.0d
+			x: -7.575d
+			y: -2.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 0.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.25d
+		}
+		{
+			height: 1.6d
+			image: "create:block/axis"
+			rotation: 146.0d
+			width: 1.0d
+			x: -8.42d
+			y: -2.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			height: 2.2d
+			image: "create:block/axis"
+			rotation: 22.0d
+			width: 1.0d
+			x: -8.55d
+			y: -5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.6d
+			image: "create:block/axis"
+			rotation: 20.0d
+			width: 1.0d
+			x: -4.71d
+			y: -5.8d
+		}
+		{
+			height: 2.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependency: "4792D04B4063D2BC"
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -3.4d
+		}
+		{
+			height: 3.0d
+			image: "create:block/axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 135.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 45.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 135.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 45.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 135.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 64.0d
+			width: 1.0d
+			x: 0.7d
+			y: -1.85d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 114.0d
+			width: 1.0d
+			x: -0.7d
+			y: -1.84d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 60.0d
+			width: 1.0d
+			x: 6.75d
+			y: -1.9d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 120.0d
+			width: 1.0d
+			x: 5.3d
+			y: -1.9d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.865306122448985d
+			y: -2.9952380952380864d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: ["Chapter coming soon!™"]
-		id: "324A94DFF4CF15A7"
-		rewards: [{
-			amount: 50L
-			currency: "eternalcurrencies:coins"
-			id: "441B7338B64528EE"
-			ignore_reward_blocking: true
-			type: "eternalcurrencies:currency"
-		}]
-		tasks: [{
-			id: "76DFB78DD62B4CD4"
-			item: "create:brass_ingot"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: [
+				"&3Create&f is a tech mod unlike many others. It allows for custom &dContraptions&f and &dFactories&f to produce and transport goods."
+				""
+				"&eZinc&f is an essential ore found underground in the &2Overworld&f and is used for almost every item in the pack."
+				""
+				"&eTip:&f If you are unsure of how an item works in Create, &6holding W to ponder&f will provide you a visual. "
+				""
+				"&8Chapter Credit: Hyperion_Muffin"
+			]
+			icon: "create:wrench"
+			id: "033E2E587625AC61"
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "02E99416B2FAF27D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 16
+					id: "140C58A85A77A469"
+					item: "minecraft:stripped_oak_log"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:engineer"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "4BD47E6A0A5AB9D5"
+					title: "&eUnlock Title:&r the Engineer"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Step into the World of Cogs and Contraptions!"
+			tasks: [
+				{
+					count: 16L
+					id: "33C37CEFB949EE66"
+					item: { Count: 16, id: "create:raw_zinc" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3472DE024C6CFB85"
+					item: { Count: 16, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			title: "&3Create:&r Getting Started"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14182930D34299CB"]
+			description: [
+				"A &eWater Wheel&f is your first form of power in Create."
+				""
+				"By placing flowing water, the &eWater Wheel&f will spin creating &eSU."
+			]
+			icon: "create:water_wheel"
+			id: "4F416047476A33C9"
+			rewards: [{
+				amount: 30L
+				currency: "eternalcurrencies:coins"
+				id: "051CE88B01CF3BFA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eWater Wheel"
+			tasks: [
+				{
+					id: "0592035E7E56043D"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "3C352B88359C148F"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F416047476A33C9"]
+			description: ["An alternative to water is &dWind Powered Contraptions&r. When attached to a &eWindmill Bearing&r and made into a contraption they will produce &eSU&r."]
+			icon: "create:white_sail"
+			id: "7E92D52D0D7C9F31"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "55FC4D904658E830"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eWindmill Sails"
+			tasks: [
+				{
+					count: 16L
+					id: "74F69B2229AC2876"
+					item: { Count: 16, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					id: "5C7583BE64FE72CA"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			title: "Wind Powered"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"74754A564AB73DCF"
+				"4792D04B4063D2BC"
+			]
+			description: ["Interacting with a &6Blaze&r or &6Blaze Spawner&r with an empty &eBlaze Burner&r will capture the &6Blaze&r allowing advanced mixing."]
+			icon: "create:blaze_burner"
+			id: "225CBFC2C8EE70F9"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "742A4B7FBD9B627D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "366BE3A806C1593B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Capture a &eBlaze&f in a &eBurner"
+			tasks: [
+				{
+					id: "7DD40DDFEE4E9F10"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "162E62EDAA704288"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "&6Resident Fire Demon"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["033E2E587625AC61"]
+			dependency_requirement: "one_started"
+			description: [
+				"&eAndesite Casing&r can be made by interacting with a stripped log while holding an &eAndesite Alloy&r."
+				""
+				"&eMechanical Belts&r are great for transporting items along conveyors in your &dFactory&r. To place a &eMechanical Belt&r, you attach each end to a &eShaft&r."
+				""
+				"&eTip:&r &eMechanical Belts&r can be used to transfer rotational power horizontally to two &eShafts&r."
+			]
+			icon: "create:andesite_casing"
+			id: "14182930D34299CB"
+			rewards: [{
+				amount: 30L
+				currency: "eternalcurrencies:coins"
+				id: "21945F3BD1A7E619"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Right-Click a &eStripped Log&7 with an &eAlloy"
+			tasks: [
+				{
+					count: 8L
+					id: "1E8E2339F4DB3BDF"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "55FACC9B957D8C9F"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "4495C3CAEA957555"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "&3Create:&r Andesite Age"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["&6Hint:&f The courtyard has a secret loot room try to find the button!"]
+			id: "255F21A5F52022E8"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "334D1D9C4DF0F1F3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "20E400B89595ABC8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "Locate the &3Tinker's Citadel "
+			tasks: [{
+				id: "17F781D8E8318184"
+				structure: "idas:tinkers_citadel"
+				type: "structure"
+			}]
+			title: "Anyone home?"
+			x: -3.2d
+			y: 0.2d
+		}
+		{
+			dependencies: [
+				"40A64D59F1186585"
+				"4F416047476A33C9"
+			]
+			description: [
+				"Cogs can double and halve speed when a &eLarge Cog&r is placed next to a &eSmall Cog&r."
+				""
+				"Placing a &eLarge Cog&r connected to a &eSmall Cogs&r shaft allows a chain of cogs increasing speeds."
+			]
+			icon: "create:large_cogwheel"
+			id: "1D9A770D9C0B128F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3B7E73FFFF55513D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "359879D88B1E9C56"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The Best Way to Increase Speed"
+			tasks: [
+				{
+					id: "62A4ADEFBFCE8900"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "68CBDD9A5479BE28"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "01F024C6A15D810E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					advancement: "create:shifting_gears"
+					criterion: ""
+					id: "33BEC8EFFFB4F9A6"
+					type: "advancement"
+				}
+			]
+			title: "&dRatio'd"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D9A770D9C0B128F"]
+			description: [
+				"The &eEncased Fan&r is an important block that allows conversion of materials through various means."
+				""
+				"Water: This functions as a &6washer&r allowing conversion of some materials (Sand -> Clay)."
+				""
+				"Lava: This functions as a &6smelter&r allowing infinite smelting for free."
+				""
+				"Campfire: This functions as a &6cooker&r allowing the cooking of food items."
+			]
+			icon: "create:encased_fan"
+			id: "4792D04B4063D2BC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3F0E264763019220"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eEncased Fan"
+			tasks: [
+				{
+					id: "5B22A2903463CEE8"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "70C32772B8905F23"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "536F35B2B87C524F"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14182930D34299CB"]
+			description: [
+				"The &eMechanical Press&r is used in a variety of ways."
+				""
+				"Pressing some ingots on a &eDepot&r will turn the items into their sheet form."
+				""
+				"Compacting allows the automation of recipes where you compact an item (ie, Iron Blocks) by pressing the items in a &eBasin&r."
+			]
+			icon: "create:mechanical_press"
+			id: "40A64D59F1186585"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0EC401B1BD837E08"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eMechanical Press"
+			tasks: [
+				{
+					id: "7EA8C9C4A51E53DC"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "339D4FE6A5B2BBF7"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "069AACB28B2411A5"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Mechanical Press"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			icon: "create:wrench"
+			id: "0B00CE679871EE5D"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "08DEA4EE197C2A3E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "43DD117B6AF2D1C4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "Tools Every Engineer Needs"
+			tasks: [
+				{
+					id: "0C73E35A8DBFCAF0"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "0DEB6FB45D6D13D4"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "23432FA831AF1533"
+					item: "create:brown_toolbox"
+					type: "item"
+				}
+				{
+					id: "3BD1FAAEE7077835"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&fTools of the Trade&r &5[Important]"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &eMechanical Saw&f can be used to cut down an entire tree in a single chop."
+				""
+				"When facing upwards, passing Logs through a &eMechanical Saw&r will cut Items, for Logs, first Stripping them, and then cutting them into more Planks than usual!"
+			]
+			icon: "minecraft:spruce_log"
+			id: "36D38E50082314B0"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "2F33DCE23B5D3022"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			size: 0.8d
+			subtitle: "Great way of Collecting Mass Amounts of &6Wood"
+			tasks: [
+				{
+					id: "140D0298B6857145"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "5BDBFA075D7B2FFD"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "Simple Wood"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["They produce the same amount of &eSU&r as a &eWater Wheel&r..."]
+			id: "3B1CD4BE5591DDBF"
+			optional: true
+			rewards: [
+				{
+					id: "119AEA72A1828538"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							Enchantments: [{
+								id: "charm:tinted"
+								lvl: 1
+							}]
+							display: {
+								Lore: [
+									"{\"text\":\"A Letter that you can hardly read\"}"
+									"{\"text\":\"You can barely make out the words cease and desist\"}"
+								]
+								Name: "{\"text\":\"Hastily Scribbled Letter\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E93797B38B143DB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3B6CF68CE36F429B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "heart"
+			subtitle: "Our Lawyers Will be in Contact Soon..."
+			tasks: [{
+				id: "2FB08B388ED8EB40"
+				item: "ars_creo:starbuncle_wheel"
+				type: "item"
+			}]
+			title: "&4Sacrificed Morals"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&eMechanical Harvesters&r will harvest crops placed in their path. When placed on a &dContraption&r, automated crop farms are a possibility."
+				""
+				"&aSpreaders&r accelerate crop growth when placed in front of them and supplied by &eSU&r. The area affected can be increased by a &eNozzle&r placed in front."
+				""
+				"&eStorage Interfaces&r connect the inventory of a &dContraption&r to your storage system!"
+			]
+			icon: "minecraft:wheat"
+			id: "4ED96604045B1C71"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "31FA753935173B36"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0A82D274F642C278"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "One Needs to Eat to Think"
+			tasks: [
+				{
+					id: "4C615F418704E6BD"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5B40F85053578394"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "0FE9F88C5D4A03E5"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "25192AEC18268AB7"
+					item: "ratatouille:spreader"
+					type: "item"
+				}
+				{
+					id: "16ECBA5125CD45BB"
+					item: "create:nozzle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "5CA7299185BD7C73"
+					item: { Count: 32, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			title: "Food for Thought"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40A64D59F1186585"]
+			icon: "create:iron_sheet"
+			id: "18DA2B3AE200EB17"
+			optional: true
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "08EDB15336E3C281"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			size: 0.65d
+			subtitle: "All the basics you'll need!"
+			tasks: [
+				{
+					count: 8L
+					id: "016345B7382BC0B2"
+					item: { Count: 8, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A44F54025683C35"
+					item: { Count: 8, id: "create:golden_sheet" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5118EF637DEB0BE4"
+					item: { Count: 8, id: "create:copper_sheet" }
+					type: "item"
+				}
+			]
+			title: "Basic Sheets"
+			x: 1.62d
+			y: -2.28d
+		}
+		{
+			dependencies: ["40A64D59F1186585"]
+			id: "731EB61AC3C46279"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1FE5508C6DB5FC66"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			size: 0.65d
+			subtitle: "For your brass needs!"
+			tasks: [{
+				count: 8L
+				id: "76452B3934CAA4CC"
+				item: { Count: 8, id: "create:brass_sheet" }
+				type: "item"
+			}]
+			title: "Brass Sheets"
+			x: 1.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D9A770D9C0B128F"]
+			description: [
+				"The &eMechanical Mixer&r uses a basin to mix a variety of recipes."
+				""
+				"The &eMechanical Mixer&r can brew potions, craft shapeless recipes, or create new alloys."
+			]
+			icon: "create:mechanical_mixer"
+			id: "74754A564AB73DCF"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "494847ABD7F9BEEA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eMechanical Mixer"
+			tasks: [
+				{
+					id: "57F098B62C7E3EF0"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "03116BB87450D5AB"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&6Brass&r can be made by mixing copper and zinc in a heated &eBasin&r. "
+				""
+				"&eTip:&r Brass can also be cast in a &dCasting Table&r for the same resources!"
+			]
+			icon: "create:brass_ingot"
+			id: "67772BA32AA4B21E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7C1016C5A9A9DBFA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Upgrades People Upgrades!"
+			tasks: [{
+				count: 8L
+				id: "7781F657C192A942"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "&eCreate: Brass Age"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D9A770D9C0B128F"
+				"74754A564AB73DCF"
+				"4792D04B4063D2BC"
+			]
+			description: ["Everything you will need all in one place!"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "create:wrench"
+			id: "49810B979BCDE774"
+			rewards: [
+				{
+					amount: 175L
+					currency: "eternalcurrencies:coins"
+					id: "005B80C58F9F77AA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "1D437B73E31B1F84"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Every Engineer Needs Their Workshop"
+			tasks: [
+				{
+					id: "29E2429D36336B83"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "4C46165E8C658732"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "469AA9AD908E6EEA"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3C83AD3E424FB72F"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "0FB0DAFCD51A364E"
+					item: { Count: 21, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+				{
+					id: "0892A486A4C91235"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "&dWorkshop"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["40A64D59F1186585"]
+			description: ["Applying &6lava&r to &5Obsidian Dust&r and &dpressing&r it twice will create &eSturdy Sheets&r."]
+			id: "06A743F6E3DEDA8D"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "4AD9B151791EFB34"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0780836915DDB701"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.65d
+			subtitle: "Sturdier than a rock!"
+			tasks: [{
+				count: 4L
+				id: "2EAC142723B5A68A"
+				item: { Count: 4, id: "create:sturdy_sheet" }
+				type: "item"
+			}]
+			title: "Sturdy Sheets"
+			x: 1.62d
+			y: -1.7d
+		}
+		{
+			dependencies: ["67772BA32AA4B21E"]
+			description: ["Similar to other casings, the &eBrass Casing&r can be made by applying a &eBrass Ingot&r onto stripped logs."]
+			id: "472AECE40B366AF2"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0B19170B2FC6D197"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "061F3A42517C9272"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft &6Brass Casings"
+			tasks: [{
+				count: 8L
+				id: "714DF6E50F3366E4"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Another Casing Another Day"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The fluid system in &3Create&r is fairly simple to understand."
+				""
+				"To begin transporting fluids, you need to gather a lot of copper and make a &eMechanical Press&r."
+				""
+				"Similar to &eAndesite Casing&r, &6Copper Casing&r can be made by using a copper ingot on a stripped log."
+			]
+			icon: "minecraft:copper_ingot"
+			id: "3A415398D18B5E9E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6E2C855B25B53C18"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 4
+					id: "00CB1CF9E2A9C382"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "All You Need For Pumping Fluids"
+			tasks: [
+				{
+					count: 8L
+					id: "3B074DF8C2D6FD21"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3E0096569EB5BA4E"
+					item: { Count: 4, id: "create:copper_sheet" }
+					type: "item"
+				}
+			]
+			title: "&6Create: Fluid Age?"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68C14366C8F5BF80"]
+			description: [
+				"&6Crushing Wheels&r will crush &eores&r and entities stuck between them!"
+				""
+				"&eTip:&r &6Crushing Wheels&r must be &drotating&r in opposite directions, &eGearboxes&r will reverse &drotational directions&r!"
+			]
+			icon: "create:crushing_wheel"
+			id: "275DE373C949A652"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "038C8C15A29D4B3F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0B18D7DE3BE17717"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &lCrushing Wheel"
+			tasks: [
+				{
+					count: 2L
+					id: "3417EF483AE15952"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "477663028F77BAD0"
+					item: "create:gearbox"
+					type: "item"
+				}
+			]
+			title: "Crushing Wheel"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A415398D18B5E9E"]
+			description: [
+				"&eFluid Pipes&r transport fluid through your fluid system, but only one liquid can pass through a &eFluid Pipe&r at a time. "
+				""
+				"Open-ended &eFluid Pipes&r will leak the liquid that travels through them."
+				""
+				"&eMechanical Pumps&r are used to pump liquids through &eFluid Pipes&r."
+			]
+			icon: "create:fluid_pipe"
+			id: "54447DEF622F39EC"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "69313B3D0E5AD3F9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "1C6F9E759E121468"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			subtitle: "Craft &eBasic Fluid&7 Blocks"
+			tasks: [
+				{
+					count: 8L
+					id: "5427BD9B2D0FB877"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4BE8832F5B3C4890"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Fluid Basics pt.1"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54447DEF622F39EC"]
+			description: [
+				"An &eItem Drain&r empties buckets of liquid into your fluid system."
+				""
+				"&eFluid Tanks&r store large amounts of a single liquid. "
+			]
+			icon: "create:fluid_tank"
+			id: "2DE0F6123260E46E"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "53FC25AA638AEC94"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 8
+					id: "0985F635D2AA5052"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eFluid Tank&7 and a &eDrain"
+			tasks: [
+				{
+					count: 4L
+					id: "71AC17336DE82C63"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "5EFFDBB7A6BB572D"
+					item: "create:item_drain"
+					type: "item"
+				}
+			]
+			title: "Fluid Basics pt.2"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2DE0F6123260E46E"]
+			description: [
+				"&dBoilers&r are essential to large-scale factories. They produce large amounts of &eSU&r by  feeding &eBlaze Burners&r burnable items or &6lava&r. "
+				""
+				"To create your first &dBoiler&r, you need a &eFluid Tank&r with water being pumped into it. Then, heat the tank with powered &eBlaze Burners&r. Finally, place &eSteam Engines&r and attach shafts to transform the &eFluid Tank&r into a &dBoiler&r."
+				""
+				"&eSU&r generated by the &eSteam Engine&r is capped by the &dBoiler's&r level. Increasing the size and heat of the Boiler will generate more &eSU&r."
+				""
+				"&6Note:&r This simple design will produce over 65,000 &eSU&r!"
+			]
+			icon: "create:steam_engine"
+			id: "53B647B53814E1A3"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "3C176452D3450F39"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1A50AD72D275CBE8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "<wave>Power the Future!"
+			tasks: [
+				{
+					count: 4L
+					id: "70DBA53CC713764C"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "79729D5BD92DB338"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "25F240C4CBDA24B7"
+					item: { Count: 4, id: "create:blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "12236DE9AE9962CC"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "The Industrial Revolution"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Sending &dRotational Power&r into the &eJetpack&r will refuel it allowing for flight!"
+				""
+				"&eTip:&r Can be enchanted with &dCapacity&r to extend Tank Capacity."
+			]
+			id: "1A79FF78E27CB17D"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "67D8CFACBA65E231"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "010A0AE71A80DD4C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "Every Builder Wants One"
+			tasks: [{
+				id: "25D6D65A06FEE1B9"
+				item: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The &eShotgun&r is an excellent weapon deep into &6Expert Mode&r."
+				""
+				"&eTip:&r Reload with CTRL + R"
+			]
+			icon: {
+				Count: 1
+				id: "cgs:shotgun"
+				tag: {
+					AmmoCount: 2
+					variant: "default"
+				}
+			}
+			id: "667F811348011891"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "1CAAF4EE8F7417D8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 16
+					id: "1705F9473786F2A9"
+					item: "cgs:round_shotgun"
+					type: "item"
+				}
+				{
+					id: "377713093B72A300"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "For those Pesky Trespassers"
+			tasks: [
+				{
+					id: "0C679F5D189CF21A"
+					item: {
+						Count: 1
+						id: "cgs:shotgun"
+						tag: {
+							AmmoCount: 2
+							variant: "default"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4F448D66AE3A0B0C"
+					item: { Count: 8, id: "cgs:round_shotgun" }
+					type: "item"
+				}
+			]
+			title: "Defend Yourself"
+			x: -4.8d
+			y: 0.2d
+		}
+		{
+			dependencies: [
+				"53B647B53814E1A3"
+				"0D9FAEDA74C92151"
+			]
+			description: [
+				"Superheating &eBlaze Burners&r with &6Blaze Cakes&r generates higher amounts of heat needed to maximize a &dSteam Engine&r. "
+				""
+				"You'll need &e72 Fluid Tanks&r arranged in a 3 x 3 x 8 pattern. Water then needs to be pumped into the tank while the &eBlaze Burners&r need to be fed &6Blaze Cakes&r."
+			]
+			id: "6889ED41A8B26EE3"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "3C2750D333C7780E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "6CD8CD934103853D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24DDD77517DEEB55"
+					item: "compressedcreativity:compressed_air_engine"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:mad_scientist"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "276A9DCA353350BD"
+					title: "&eUnlock Title:&r the Mad Scientist"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "More Power Than You'll Likely Need"
+			tasks: [{
+				advancement: "create:steam_engine_maxed"
+				criterion: ""
+				id: "6882B52F12F6D9B6"
+				type: "advancement"
+			}]
+			title: "&dUNLIMITED POWER"
+			x: -8.0d
+			y: -6.4d
+		}
+		{
+			dependencies: ["6CA5D4299A349E69"]
+			description: [
+				"&ePrecision Mechanisms&r are important components in many crafting recipes."
+				""
+				"Crafting a &ePrecision Mechanism&r is a multistage process which has a &c20%&r chance of failure. You need to do the process a total of 5 times."
+				""
+				"&6Note:&r &eDeployers&r must be used in their crafting."
+			]
+			id: "3FD8B9DC84EA68FC"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "40B3A1F96DE2843B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "24DCD0FCA80D95AF"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "707E28B37A8899C6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Create a &ePrecision Mechanism"
+			tasks: [{
+				id: "53039601F81A6B67"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FD8B9DC84EA68FC"]
+			description: [
+				"Placing a &eLarge Cog&r on a &6Rotational Controller&r allows manual input for your desired speed."
+				""
+				"Power can be fed into both the &eLarge Cog&r or the base of the &6Rotational Controller&r."
+			]
+			id: "6178312AFBB11191"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5808E567174DCEA8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "66C16B9DF103DA7D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "The &oActual&r Best Way to Increase Speed"
+			tasks: [{
+				id: "4BAB9F478209220F"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Rotation in the Palm of Your Hands"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["54447DEF622F39EC"]
+			description: [
+				"The &eSpout&r is used to apply liquids to items with recipes that require a liquid."
+				""
+				"Tip: Use a &eDepot&r to hold the items under the &eSpout&r."
+			]
+			id: "28473C2BE6F8424D"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "18AE55A02E41984D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 8
+					id: "202E9D5516DD0CE5"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eSpout"
+			tasks: [{
+				id: "5A0A4234A010C398"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FD8B9DC84EA68FC"]
+			description: [
+				"&oHave you ever had a tough to reach block and thought \"Huh if only I could extend my reach\"? Well now you can with the Extendo Grip 9000 all tough to reach mobs and blocks suddenly feel much closer! &r"
+				""
+				"&oOur sleek patent design allows extended use when paired with the &lnew&r &oBacktank Pro. No longer will you worry about running out of durability again!&r"
+				""
+				"&oWe are not responsible for any damages or injuries caused by the Extendo Grip. Backtank not included&r."
+			]
+			hide_dependency_lines: true
+			id: "1DCC4F35A1FD8F4B"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "546727BC67C5D034"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4A515F7F078D0D34"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&oBacktank Not Included!"
+			tasks: [{
+				id: "60BE9787F5A65CE3"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Extended Reach"
+			x: 4.5d
+			y: -6.4d
+		}
+		{
+			dependencies: ["4792D04B4063D2BC"]
+			description: [
+				"&3Soul Fire&7 in front of an &eEncased Fan&7 can haunt a variety of blocks into their &cNether&7 counterparts."
+				""
+				"&7Haunting &eSand&7 will turn it into &eSoul Sand&7 which can be washed into &fQuartz."
+			]
+			hide_until_deps_complete: true
+			icon: "immersive_weathering:soul_fire"
+			id: "4AD5DA638C3283B9"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2AC6B455FF8B1D6B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1E11DFF1B81DDBE1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Time to Haunt your own Factory"
+			tasks: [
+				{
+					id: "2E567F74CB064976"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "69DC7EB8DE1B9440"
+					item: { Count: 64, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2AF3BD6D952BCA4D"
+					item: { Count: 16, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			title: "&eSpooky Scary Factories?"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["275DE373C949A652"]
+			icon: "create:crushed_raw_iron"
+			id: "45037612832FB830"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "5BA13660315C327D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "&7&o<wave>Crush Some Ores!"
+			tasks: [
+				{
+					count: 32L
+					id: "600A6D79C5956030"
+					item: { Count: 32, id: "create:crushed_raw_iron" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "0EAF9CEBF7E1F9CD"
+					item: "create:crushed_raw_copper"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2EE884EC5363AFFA"
+					item: { Count: 32, id: "create:crushed_raw_zinc" }
+					type: "item"
+				}
+			]
+			title: "&dCrushin' it"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28473C2BE6F8424D"]
+			description: [
+				"&eBlaze Cakes&r can be fed to a &eBlaze Burner&r to &dSuperheat&r it."
+				""
+				"To make a &eBlaze Cake&r, use a spout to apply &6Lava&r on a &eBlaze Cake Base&r."
+				""
+				"&eTip:&r &eBlaze Cakes&r also make great ammunition for the &ePotato Cannon&r."
+			]
+			id: "0D9FAEDA74C92151"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5779B2EE7A6E96DF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "282C71193F182FCF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft some &eBlaze Cakes"
+			tasks: [{
+				count: 4L
+				id: "3A2DAAD533BC54A5"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "&6Blaze Cakes"
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["54447DEF622F39EC"]
+			description: [
+				"The &eHose Pulley&r can extract liquids from large bodies of water."
+				""
+				"&eTip:&r If a single source contains 10,000 blocks or more of a liquid, it becomes infinite when extracting with the &eHose Pulley&r."
+			]
+			id: "62170B5A3E03481A"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "305411A1DBCCEDF0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 8
+					id: "3CDE2D9A5982A00D"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "A Great Way to Get &6Lava"
+			tasks: [{
+				id: "7EB6C46DE392CFB9"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&bSchematics&r are blueprints of builds."
+				""
+				"Using the &dSchematic Table&r, you can load a saved &bSchematic's&r data onto a Schematic."
+				""
+				"When a &bSchematic&r is placed down, it shows a holographic outline of the blocks of the build. Using a &eDeployer&r or &dSchematicannon&r will automatically fill the provided &bSchematic&r provided they have the blocks."
+			]
+			icon: "create:empty_schematic"
+			id: "4E0E30FDD29A0516"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3DAADF1D16012E28"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "693022FF56E6B381"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "For Those Lazy Engineers"
+			tasks: [
+				{
+					id: "132943AC44EDE99C"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "0F3572F26073721B"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "695DF5DB1B22C042"
+					item: "create:schematicannon"
+					type: "item"
+				}
+			]
+			x: -4.8d
+			y: 1.8d
+		}
+		{
+			dependencies: ["472AECE40B366AF2"]
+			description: [
+				"&eMechanical Crafters&r allow for automated crafting and advanced crafting."
+				""
+				"Items in a &eCrafter&r flow in a direction. Every &eCrafter&r must reach a single point where they output the crafted item. "
+				""
+				"&cRedstone Power&r and &dRotational Force&r must be supplied to the &eCrafter&r to begin crafting."
+			]
+			id: "68C14366C8F5BF80"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "04F34912BBA3B8C3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "51E93BEEE26B3402"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eMechanical Crafter&7 to Automate Crafting"
+			tasks: [{
+				count: 21L
+				id: "7DCEE2548287AC9D"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Automated Crafting"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74754A564AB73DCF"]
+			description: ["Mixing &eDough&r and &eLime Dye&r creates &aSlimeballs&r which almost every contraption needs!"]
+			icon: "minecraft:slime_ball"
+			id: "35C153AA3905F390"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2F875A696797EA1D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "1716BB258556B1AA"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			subtitle: "Another way to get &aSlimeballs"
+			tasks: [
+				{
+					id: "5C28C6D883A5A340"
+					item: "create:dough"
+					type: "item"
+				}
+				{
+					id: "22DE37E905538A1F"
+					item: "minecraft:lime_dye"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "228A91164EC9F046"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			title: "&aSlimy Business"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74754A564AB73DCF"]
+			description: [
+				"Mixing &eAndesite&r and &eZinc Nuggets&r or &eIron Nuggets&r will also produce &eAndesite Alloys&r. "
+				""
+				"This halves the cost for the essential component."
+			]
+			icon: "create:andesite_alloy"
+			id: "75E7D04F32F7545A"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "1DB93515F8FE1EDE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "21ADDB64AB1C4F1B"
+					item: "create:zinc_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Better Returns!"
+			tasks: [{
+				id: "7E15A83FBFAF28DD"
+				title: "Mixing Andesite"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F416047476A33C9"]
+			description: ["When you need early power in the &4Nether&r, you can use &6lava&r as a replacement for water."]
+			icon: "minecraft:lava_bucket"
+			id: "396EF0BED2F79330"
+			optional: true
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "617E00A848660E8D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Getting power in the &4Nether&7 is important for infinite &6Lava&7!"
+			tasks: [{
+				advancement: "create:lava_wheel_00000"
+				criterion: ""
+				id: "33BFCCF0EB46D92E"
+				type: "advancement"
+			}]
+			title: "&dPower the Nether"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["228A91164EC9F046"]
+			description: ["&aGluing&r blocks together combines them. When these blocks are moved on a &dcontraption&r they will stick together."]
+			icon: {
+				Count: 1
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C1E3ADB7680C3FA"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "1ED39A20895113F1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2CEE8E6E78D567D3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Create &aSuper Glue&7 for your &eContraptions"
+			tasks: [{
+				id: "4F8044F2D55CA82F"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&aSuper Glue"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68C14366C8F5BF80"]
+			description: ["&oHello, this is your pilot speaking. Thank you for choosing to travel with us. We are currently flying over a large body of water. Please be advised that we are expecting turbulence due to the presence of dragons and wizards. We hope you enjoy your flight!&r"]
+			hide_dependency_lines: true
+			id: "396120583CC27470"
+			optional: true
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "42D2467B965C6473"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6938A5116260D3E2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:pilot"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "3ACA953ADBE8EF52"
+					title: "&eUnlock Title:&r the Pilot"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "A Great Way to Travel"
+			tasks: [{
+				id: "597F519A61111F9B"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "&6Take to the Skies!"
+			x: 6.0d
+			y: -6.4d
+		}
+		{
+			dependencies: ["5CB2D86BE039F816"]
+			description: [
+				"Placing a &eTrain Station&r on a &eTrain Track&r allows for construction of customized &dTrains&r. &aSuper Gluing&r components will move them along with the &dTrain&r. "
+				""
+				"&eTip:&r &dTrains&r travel faster when they have fuel on board."
+				""
+				"&6Note:&r &eTrains&r can travel through the &cNether&r allowing for transportation of liquids or Entities."
+			]
+			hide_dependency_lines: true
+			icon: "create:schedule"
+			id: "5996FBCA6D930899"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5579D648768124DC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0E7EB727AACD39DE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "<wave>ALL ABOARD!"
+			tasks: [
+				{
+					id: "7ADC5EB132B12ACF"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "628B0890EA677230"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "4346D3D8EE124280"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					advancement: "create:train"
+					criterion: ""
+					id: "13F3BD42EFEDAF95"
+					type: "advancement"
+				}
+			]
+			title: "&6Trains!"
+			x: 7.5d
+			y: -6.4d
+		}
+		{
+			dependencies: ["5DD44C243C8DAD07"]
+			description: [
+				"&eDeployers&r are an important tool for automation. They function as an alternative for &dplayer interactions&r."
+				""
+				"&eDeployers&r can place blocks, kill mobs, break blocks, and make sequenced recipes!"
+				""
+				"&eTip:&r &eDeployers&r can hold any item and use them the way a player would."
+			]
+			id: "6CA5D4299A349E69"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "6E0988C6DF3DF965"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eDeployer"
+			tasks: [{
+				id: "677B131D9469E44B"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28473C2BE6F8424D"]
+			id: "492C4D41CF9316C1"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "63C13F1DA9EBEDEB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "289C12EB5CD59533"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Master Desserts with this simple trick!"
+			tasks: [
+				{
+					count: 5L
+					id: "55AA1BCC8A712C54"
+					item: "create:chocolate_glazed_berries"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1374BB3D2D34E96C"
+					item: { Count: 6, id: "create:honeyed_apple" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2332DD50895E3638"
+					item: { Count: 5, id: "create:sweet_roll" }
+					type: "item"
+				}
+			]
+			title: "Sweet Tooth"
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E92D52D0D7C9F31"]
+			description: ["A single &eWindmill Bearing&r needs 128 &eWindmills&r to maximize the amount of &eSU&r it can produce!"]
+			hide_dependency_lines: true
+			id: "40F18109C8C2555D"
+			optional: true
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "4734F950E00BE31E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1695D7BAB391DC26"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Create a max power &eWindmill"
+			tasks: [{
+				advancement: "create:windmill_maxed"
+				criterion: ""
+				id: "6841DE07A520E2BB"
+				type: "advancement"
+			}]
+			title: "&6Green Energy"
+			x: -1.5d
+			y: -6.4d
+		}
+		{
+			dependencies: ["174F6668135A1757"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "create:cardboard_package_12x12"
+				tag: { }
+			}
+			id: "114DC6D01D16AC0E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "544E887FAC63F33C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "206C27C709BE0DC2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Sneak while wearing full &eCardboard Armor"
+			tasks: [{
+				advancement: "create:cardboard_armor"
+				criterion: ""
+				id: "0582DB19D692EF9F"
+				type: "advancement"
+			}]
+			title: "&6SNAAAAKE!?"
+			x: -4.5d
+			y: -6.4d
+		}
+		{
+			dependencies: ["74754A564AB73DCF"]
+			description: ["Pressing &ePulp&f with a &eMechanical Press&f turns it into &eCardboard."]
+			hide_dependency_lines: true
+			id: "03900C2AAAAD88AC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "45DA04EF0001479E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Create your first &eCardboard"
+			tasks: [{
+				count: 9L
+				id: "39BE3CFE05F30041"
+				item: "create:cardboard"
+				type: "item"
+			}]
+			title: "Cardboard"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["420A35FB6606D5A6"]
+			description: [
+				"&eMobs&f and &eBlaze Burners&f use the &eStock Ticker&f when seated nearby to order stock from a warehouse. This turns the mobs into a &dShop Keeper&r."
+				""
+				"&eTable Cloth&f can sell this stock after linking it with a &dShop Keeper&r."
+				""
+				"&6Note:&f Only players can buy from this shop."
+			]
+			id: "44BA1578BECAC773"
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "4262E1B8EDE5A1F3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "001A6248D1320BC5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&oAmazon wants to know your location"
+			tasks: [{
+				id: "17A73B21B7E0BCE6"
+				item: "create:red_table_cloth"
+				type: "item"
+			}]
+			title: "First Lemonade Stand"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44BA1578BECAC773"]
+			description: ["This armor is worthless on its own, but it holds &lan ancient power&r when worn as a set."]
+			icon: {
+				Count: 1
+				id: "create:cardboard_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "174F6668135A1757"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "29A92DD4CC9A6950"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "circle"
+			subtitle: "Craft a set of &eCardboard Armor"
+			tasks: [
+				{
+					id: "35354873B8C2238B"
+					item: {
+						Count: 1
+						id: "create:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A15068A71F8DC58"
+					item: {
+						Count: 1
+						id: "create:cardboard_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75CFE90CC031CB94"
+					item: {
+						Count: 1
+						id: "create:cardboard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B53C35483D09034"
+					item: {
+						Count: 1
+						id: "create:cardboard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cardboard Armor"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03900C2AAAAD88AC"]
+			description: ["&ePackagers&r will package the contents of a container when a &cRedstone Signal&r is applied."]
+			id: "5A72D1EA6448B08D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "73377C396D28332E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "square"
+			subtitle: "Craft a &ePackager&7 and Package Your First Item"
+			tasks: [
+				{
+					id: "64F010476653AA9C"
+					item: "create:packager"
+					type: "item"
+				}
+				{
+					advancement: "create:packager"
+					criterion: ""
+					id: "763EE2DCDC7D092B"
+					type: "advancement"
+				}
+			]
+			title: "Packager"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A72D1EA6448B08D"]
+			description: [
+				"Placing a &eStock Link&f on a &ePackager&f will create your &dLogistics Network&f."
+				""
+				"&cRedstone Signals&r disable the &eStock Link&r."
+				""
+				"&eTip:&f Packages must be transported, but can be requested from anywhere."
+			]
+			icon: "create:stock_link"
+			id: "420A35FB6606D5A6"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5A387FE7E83A6F57"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "square"
+			subtitle: "Create your first &dLogistics Network"
+			tasks: [
+				{
+					id: "57E54882C7B24017"
+					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					id: "20883FA03265A6C0"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+			]
+			title: "Stock Link"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Make sure to refuel your &eBacktank&r with rotational power!"
+				""
+				"&eTip:&r Wearing a full set of &eNetherite Diving Equipment&r and &eNetherite Leggings&r makes you immune to &6lava&r and helps you see clearly under the &6lava&r!"
+			]
+			icon: {
+				Count: 1
+				id: "create:netherite_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07BAA8A3B892B3E3"
+			rewards: [
+				{
+					amount: 175L
+					currency: "eternalcurrencies:coins"
+					id: "64E4AA16BBE2ED46"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3EAA181667148B9F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "Dive Deep Below..."
+			tasks: [
+				{
+					id: "197DADCC31E966B9"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A1A7BA1FFD20120"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46DF5C4610F3C7E2"
+					item: {
+						Count: 1
+						id: "create:netherite_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					biome: "alexscaves:abyssal_chasm"
+					icon: "alexscaves:gazing_pearl"
+					id: "72137CB5A019453E"
+					type: "biome"
+				}
+			]
+			title: "Diver's Delight"
+			x: -3.2d
+			y: 1.8d
+		}
+		{
+			dependencies: ["472AECE40B366AF2"]
+			description: ["Holding &dRose Quartz&f in one hand and &eSandpaper&f in the other while holding &dright-click&f will polish the &dRose Quartz&f. "]
+			id: "5DD44C243C8DAD07"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7B27292284B75917"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Polish &dRose Quartz&7 using &eSand Paper"
+			tasks: [{
+				id: "3EC1EF7E5C772452"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["225CBFC2C8EE70F9"]
+			description: ["The &6Oven&r bakes food passed through it, provided an &eOven Fan&r is attached."]
+			hide_dependency_lines: true
+			icon: "ratatouille:oven"
+			id: "438181E50FD6BE6C"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "67EDC541FB40E7A2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "32DF0E70BC54DD10"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Not Powered by Rats!"
+			tasks: [
+				{
+					count: 4L
+					id: "11F7707193A86010"
+					item: "ratatouille:oven"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "36BEBD16FFFCCDC2"
+					item: "ratatouille:oven_fan"
+					type: "item"
+				}
+			]
+			title: "&6Time to Cook"
+			x: 0.0d
+			y: -6.4d
+		}
+		{
+			dependencies: ["275DE373C949A652"]
+			description: ["Throw some &5Obsidian&f into a &eCrusher&f to make &eObsidian Dust."]
+			id: "5CB2D86BE039F816"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5A0A63C836E5A9A2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Crush Some &5Obsidian"
+			tasks: [{
+				count: 8L
+				id: "7AFCA0BD68B3B4D7"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			title: "Powdered Obsidian"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C1E3ADB7680C3FA"]
+			description: [
+				"Some of the earliest &dContraptions&r you can make involve the &eCart Assembler&r."
+				""
+				"Attaching &eDrills&r, &eHarvesters&r, or &eSaws&r will allow mobile usage of the blocks."
+			]
+			hide_dependency_lines: true
+			icon: "create:mechanical_drill"
+			id: "44172CD3ADF41FAE"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6DF61A2DFF9DA7BA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4664203688CB3260"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Time to get Creative!"
+			tasks: [
+				{
+					advancement: "create:contraption_actors"
+					criterion: ""
+					id: "6F7AA29287F3640D"
+					type: "advancement"
+				}
+				{
+					id: "13DEE0A55CFD80C4"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+			]
+			title: "&6My First Contraption"
+			x: 1.5d
+			y: -6.4d
+		}
+		{
+			dependencies: ["396120583CC27470"]
+			description: [
+				"Craft the &eScarlet Biplane!&r"
+				"It has improved speed, takeoff and strength compared to the classic Biplane!"
+			]
+			hide_dependency_lines: true
+			id: "015E0856073ACD93"
+			optional: true
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "4952CD412DB3C74A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4D4E9E396FF9446E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&6An Even BETTER way to travel!"
+			tasks: [{
+				id: "1C9335D0D0E3FEFB"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			title: "&dSoar The Skies!"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6CA5D4299A349E69"]
+			description: [
+				"The &eBrass Revolver&r can be used as an efficient weapon!"
+				"Even more, this weapon is very customisable and can be upgraded by pressing Z!"
+				"After applying all of the available upgrade, your revolver will become &o*very*&r powerful! "
+				""
+				""
+				""
+				"&eTip:&r Reload with CTRL + R"
+			]
+			id: "6CFECA74F2B7F02C"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "5B1363C4B947001B"
+					item: "cgs:round_10mm"
+					type: "item"
+				}
+				{
+					id: "0F8F47BDE4142EAC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "50EE211D329A53CA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Craft a &eBrass Revolver"
+			tasks: [
+				{
+					id: "721367D7CC7F5E85"
+					item: {
+						Count: 1
+						id: "cgs:revolver"
+						tag: {
+							AmmoCount: 6
+							variant: "default"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "34036273336FFA72"
+					item: { Count: 16, id: "cgs:round_10mm" }
+					type: "item"
+				}
+			]
+			title: "&6Semi-Modern Warfare!"
+			x: 6.0d
+			y: -3.0d
+		}
+	]
 	title: "{chapter.25.title}"
 }

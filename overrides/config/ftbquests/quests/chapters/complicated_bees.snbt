@@ -668,7 +668,7 @@
 				""
 				"To build it, place down a &a3x3x3 cube of mellarium blocks&r. If you've done it right, the cube will assemble like so:"
 				""
-				"{image:complicated_bees:textures/gui/mellarium.png width:100 height:100 align:center}"
+				"{image:modpack:textures/mellarium.png width:100 height:100 align:center}"
 				""
 				"&4Try not to build these across chunk borders or right next to each other.&r"
 			]

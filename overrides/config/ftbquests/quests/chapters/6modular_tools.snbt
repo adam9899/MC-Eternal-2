@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7F93E0A3E1788C79"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "6modular_tools"
@@ -13,184 +14,622 @@
 	id: "781E3789949DB186"
 	images: [
 		{
-			dependency: "54246711BB8366BD"
-			height: 1.0d
-			image: "minecraft:block/cave_vines"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.0d
-			y: 7.0d
-		}
-		{
-			dependency: "54246711BB8366BD"
-			height: 1.0d
-			image: "minecraft:block/cave_vines"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.028571428571432d
-			y: 6.285714285714285d
-		}
-		{
-			dependency: "54246711BB8366BD"
-			height: 1.0d
-			image: "minecraft:block/cave_vines"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.057142857142857d
-			y: 5.628571428571433d
-		}
-		{
-			dependency: "54246711BB8366BD"
-			height: 1.0d
-			image: "minecraft:block/cave_vines_lit"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.028571428571432d
-			y: 8.542857142857144d
-		}
-		{
-			dependency: "54246711BB8366BD"
-			height: 1.0d
-			image: "minecraft:block/cave_vines"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.0d
-			y: 7.600000000000001d
-		}
-		{
-			dependency: "54246711BB8366BD"
-			height: 1.0d
-			image: "minecraft:block/cave_vines"
-			rotation: 90.0d
-			width: 1.0d
-			x: 2.74285714285714d
-			y: 5.085714285714289d
-		}
-		{
-			dependency: "54246711BB8366BD"
-			height: 1.0d
-			image: "minecraft:block/cave_vines"
-			rotation: 90.0d
-			width: 1.0d
-			x: 3.6000000000000014d
-			y: 5.000000000000007d
-		}
-		{
-			dependency: "54246711BB8366BD"
-			height: 1.0d
-			image: "minecraft:block/cave_vines_lit"
-			rotation: -90.0d
-			width: 1.0d
-			x: 4.48571428571428d
-			y: 5.028571428571432d
-		}
-		{
-			dependency: "116CDE1481CC3846"
-			height: 1.0d
-			image: "minecraft:block/cave_vines"
-			rotation: 90.0d
-			width: 1.0d
-			x: 5.5428571428571445d
-			y: 4.971428571428575d
-		}
-		{
-			dependency: "033F072A5A4913D0"
-			height: 1.0d
-			image: "minecraft:block/cave_vines_lit"
-			rotation: 90.0d
-			width: 1.0d
-			x: 6.657142857142858d
-			y: 4.971428571428575d
-		}
-		{
-			dependency: "033F072A5A4913D0"
-			height: 1.0d
-			image: "minecraft:block/cave_vines"
-			rotation: -90.0d
-			width: 1.0d
-			x: 7.457142857142863d
-			y: 5.000000000000007d
-		}
-		{
-			dependency: "35A0BA1BB8DDE343"
 			height: 1.5d
 			image: "tconstruct:textures/block/smeltery/seared/bricks.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 8.0d
-			y: 5.0d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 12.0d
+			image: "minecraft:textures/misc/scorched_letter.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 5.0d
+			image: "create:entity/blueprint_medium"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.273809523809518d
+			y: 2.999999999999986d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.75d
+			y: 4.023809523809533d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.5357142857142847d
+			y: 4.000000000000007d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.392857142857146d
+			y: 4.023809523809533d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.7261904761904745d
+			y: 4.023809523809533d
 		}
 		{
 			dependency: "35A0BA1BB8DDE343"
 			height: 1.0d
-			image: "minecraft:block/cave_vines"
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.535714285714285d
+			y: 2.0238095238095326d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.63095238095238d
+			y: 0.023809523809532607d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.392857142857146d
+			y: 0.04761904761905811d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.63095238095238d
+			y: 0.0238095238095255d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.369047619047613d
+			y: 0.0238095238095255d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.4571428571428555d
+			y: 4.028571428571439d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: 6.0d
+			x: 6.0d
+			y: 3.171428571428578d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.972789115646258d
+			y: 2.4795918367346914d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.028571428571425d
+			y: 1.421428571428578d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: 0.6714285714285708d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: -0.614285714285721d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: -1.3642857142857139d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.028571428571425d
+			y: -2.507142857142867d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: -3.5785714285714363d
 		}
 		{
 			dependency: "35A0BA1BB8DDE343"
 			height: 1.0d
 			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.528571428571425d
+			y: 2.028571428571425d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -90.0d
+			width: 1.0d
+			x: 10.67142857142857d
+			y: 0.028571428571424917d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -135.0d
+			width: 1.0d
+			x: 7.385714285714286d
+			y: -1.2928571428571445d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.671428571428571d
+			y: -0.5428571428571445d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/great_hammer"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.028571428571425d
-			y: 6.657142857142858d
+			x: 7.55952380952381d
+			y: 1.2380952380952337d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.0d
+			image: "minecraft:item/chain"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.3333333333333286d
+			y: -5.666666666666643d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.0d
+			image: "minecraft:item/soul_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.2857142857142776d
+			y: -4.952380952380928d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 1.0d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.095238095238095d
+			y: -9.309523809523807d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 2.0d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: 13.571428571428577d
+			y: -4.69047619047619d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 12.0d
+			image: "modpack:textures/scorched_letter1.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 1.0d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.404761904761898d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 1.5d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.80952380952381d
+			y: -9.452380952380949d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 2.0d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: 45.0d
+			width: 2.0d
+			x: 5.190476190476183d
+			y: -6.2380952380952195d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.5d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: 15.0d
+			width: 1.5d
+			x: 4.523809523809518d
+			y: -6.523809523809504d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 2.0d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: -30.0d
+			width: 2.0d
+			x: -0.9047619047619122d
+			y: -6.476190476190453d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.0d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.238095238095248d
+			y: -5.285714285714256d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.57142857142857d
+			y: -0.5714285714285623d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: -135.0d
+			width: 1.0d
+			x: 9.428571428571416d
+			y: -1.2857142857142705d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 45.0d
+			width: 1.0d
+			x: 10.61904761904762d
+			y: -0.5714285714285694d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -135.0d
+			width: 1.0d
+			x: 11.523809523809533d
+			y: -1.4761904761904816d
+		}
+		{
+			height: 5.4d
+			image: "chipped:block/oak_planks/ctm/crated_oak_planks_ctm/3"
+			order: -2
+			rotation: 0.0d
+			width: 5.4d
+			x: 9.321428571428548d
+			y: 2.999999999999993d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.013605442176868d
+			y: 3.006802721088448d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.270748299319742d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.870748299319743d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.727891156462576d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.585034013605437d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.44217687074829d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.127891156462582d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.985034013605436d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.813605442176865d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.099319727891157d
+			y: 4.692517006802724d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.29931972789116d
+			y: 4.692517006802724d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.556462585034012d
+			y: 5.121088435374155d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.5d
+			image: "tconstruct:block/slime/sapling/sky"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 13.77551020408162d
+			y: 2.102040816326543d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.5d
+			image: "tconstruct:block/geode/sky/cluster"
+			order: -1
+			rotation: 125.0d
+			width: 1.5d
+			x: 15.537414965986386d
+			y: 5.244897959183675d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/geode/sky/cluster"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 14.727891156462576d
+			y: 5.721088435374149d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.047619047619037d
+			y: 6.333333333333343d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/tc_logo.png"
+			rotation: 0.0d
+			width: 5.08d
+			x: 1.1428571428571388d
+			y: 1.9642857142857153d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "minecraft:block/target_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.035714285714278d
+			y: 1.4642857142857082d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "quark:block/stripped_bamboo_post_connect"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.035714285714278d
+			y: 2.249999999999993d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 0.8d
+			image: "minecraft:item/arrow"
+			order: -1
+			rotation: 45.0d
+			width: 0.8d
+			x: 15.321428571428577d
+			y: 1.4642857142857153d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 0.8d
+			image: "minecraft:item/arrow"
+			order: -1
+			rotation: 60.0d
+			width: 0.8d
+			x: 15.323809523809537d
+			y: 1.1751700680271995d
 		}
 	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4789D17B88722641"]
-			description: [
-				"Tinkers' Construct is a mod about putting tools together in a wide variety of ways, then modifying them until they turn into something else. The tools never disappear and can be named and changed to your heart's desire. Once you make them, they're yours forever. Many different materials can be used to make your tools!"
-				""
-				"&eSource:&r &9&ohttps://www.curseforge.com/minecraft/mc-mods/tinkers-construct"
-				""
-				"&7Difficulty: &6☆☆"
-				"&7Cost: &6☆☆☆"
-				"&7Strength: &6☆☆☆☆"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "1B7C076BADC93616"
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "107E1D7620EEFB90"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			shape: "hexagon"
-			subtitle: "{chapter.4.quest.2.subtitle}"
-			tasks: [{
-				id: "2052B7B5B04159CA"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "tconstruct:materials_and_you"
-				}
-				type: "item"
-			}]
-			title: "&dModular Tools - &r&6Tinker's Construct"
-			x: 5.425000000000004d
-			y: 6.825000000000003d
-		}
-		{
-			dependencies: ["1B7C076BADC93616"]
 			description: [
 				"The &e&nPart Builder&r is used to create parts for tools! Parts are needed to assemble tools! The parts you use will determine the strength, speed, durability and special traits of your tool!"
 				"The &e&nTool Station&r is used to assemble tool parts into fully fledged basic tools!"
 				"The &e&nPart Chest&r is used to store unused parts!"
 				""
 				"&l&eTip:&r When these blocks are touching, they will share their inventories! Making it easier to move items between them."
-				"{image:modpack:textures/tc_1.png width:200 height:110 align:1}"
+				"{image:modpack:textures/tc_1.png width:180 height:100 align:center}"
 				""
 			]
 			hide_dependency_lines: true
@@ -201,11 +640,6 @@
 					id: "4C7DA29A350ED393"
 					item: "tconstruct:bacon"
 					random_bonus: 5
-					type: "item"
-				}
-				{
-					id: "6A0E45F22FD30195"
-					item: "tconstruct:puny_smelting"
 					type: "item"
 				}
 				{
@@ -246,29 +680,21 @@
 				}
 			]
 			title: "&eTinkering &r(Part I)"
-			x: 3.0d
-			y: 5.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["54246711BB8366BD"]
+			dependencies: ["5B5A340DB47B9C89"]
 			description: [
-				"The &eTinker's Anvil&r is used to assemble more powerful tools! The &eTinker's Anvil &ris strong enough to craft tools made from Metals and Alloys!"
-				"{image:modpack:textures/tc_3.png width:200 height:110 align:1}"
-				"&e&lTip:&r You will need to aquire metal tool parts, this requires a &eSeared Smeltery&r"
+				"The &eTinker's Anvil &rallows for tool modification. Try applying modifiers using your tools upgrade slots!"
+				""
+				"\"&l&6Hint:&r Trying applying &cRedstone&r to one of your Tools. It'll make it a bit faster! (But only at breaking stuff!)\""
+				"{image:modpack:textures/tc_4.png width:180 height:100 align:center}"
 			]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5D2ED1168A45A14A"
-			optional: true
 			rewards: [
-				{
-					command: "/titles add {p} titles:tinkerer"
-					console: true
-					elevate_perms: true
-					icon: "titles:title_scroll_common"
-					id: "7A4D51810C68ED21"
-					title: "&eUnlock Title:&r the Tinkerer"
-					type: "command"
-				}
 				{
 					id: "1C0BEFFBE6C88DC1"
 					item: {
@@ -302,43 +728,40 @@
 					type: "item"
 				}
 				{
-					id: "633A4CB9F001DB64"
-					item: "tconstruct:seared_brick"
-					random_bonus: 14
-					type: "item"
-				}
-				{
 					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "7F6041B8A8FA45B2"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
-			]
-			subtitle: "Craft a &eTinker's Anvil"
-			tasks: [{
-				id: "51A6B28A9E7C07C5"
-				item: {
-					Count: 1
-					id: "tconstruct:tinkers_anvil"
-					tag: {
-						texture: "emendatusenigmatica:steel_block"
-					}
+				{
+					count: 2
+					id: "6D7BBF2726B34B0A"
+					item: "minecraft:redstone_block"
+					type: "item"
 				}
-				type: "item"
+			]
+			subtitle: "&eModify &ryour &eTinkers' Tool"
+			tasks: [{
+				advancement: "tconstruct:tools/modified"
+				criterion: ""
+				id: "0941D5559A9F58C1"
+				type: "advancement"
 			}]
 			title: "&eTinkering &r(Part II)"
-			x: 3.0d
-			y: 8.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["116CDE1481CC3846"]
 			description: [
 				"&eThe Smeltery&r is a multi-block structure used in the creation of higher-tier weapons and tools using metal and alloys."
 				""
-				"&e&lTip:&r Ore smelted in a Tinker's Smeltery will be doubled!"
+				"&e&lTip:&r Raw metals smelted in a Tinker's Smeltery produce a little extra! Ore blocks smelted produce double! "
+				"&e&lTip:&r Increasing the size of your Smeltery will also increase Fuel usage per smelt."
+				""
 				"&6&lHint:&r Adding extra layers of &eSeared Bricks&r will increase the Smeltery's capacity!"
-				"{image:modpack:textures/tc_4.png width:200 height:120 align:1}"
+				"{image:modpack:textures/tc_3.png width:180 height:100 align:center}"
 				"For more detailed information, read &eMighty Smelting"
 			]
 			hide_until_deps_visible: true
@@ -405,11 +828,6 @@
 					type: "item"
 				}
 				{
-					id: "261901933F68D2C6"
-					item: "tconstruct:seared_glass"
-					type: "item"
-				}
-				{
 					count: 2L
 					id: "2B9754DAB1266BF8"
 					item: "tconstruct:seared_faucet"
@@ -425,18 +843,26 @@
 					item: "tconstruct:seared_table"
 					type: "item"
 				}
+				{
+					id: "2AD86572E49DEFBE"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
 			]
 			title: "&eThe Smeltery"
-			x: 8.0d
-			y: 5.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["54246711BB8366BD"]
 			description: [
-				"The &eSeared Melter &rand &eSeared Heater&r can be used as a compacted and rudimentary way to melt metals into liquids. Place lava in the Tank! "
+				"The &eSeared Melter &rand &eSeared Heater&r can be used as a compacted and rudimentary way to melt metals into liquids."
+				""
+				"The melter can be fueled using furnace fuels, though stronger ores may require fueling the melter using liquid lava."
 				""
 				"&6Tip: &rThis is a Multi-Block! "
 				"&eHint:&r This will be needed for the next quest!"
+				"{image:modpack:textures/tc_2.png width:180 height:100 align:center}"
 			]
 			hide_until_deps_visible: true
 			id: "116CDE1481CC3846"
@@ -445,11 +871,6 @@
 					id: "245B3AD8C08D8E85"
 					item: "tconstruct:bacon"
 					random_bonus: 10
-					type: "item"
-				}
-				{
-					id: "334E9B0BF9234227"
-					item: "tconstruct:mighty_smelting"
 					type: "item"
 				}
 				{
@@ -475,10 +896,11 @@
 				}
 				{
 					id: "1B53F1765C5668CF"
-					item: "tconstruct:seared_ingot_tank"
+					item: "tconstruct:seared_heater"
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "3963953F6F13EBBD"
 					item: "tconstruct:seared_faucet"
 					type: "item"
@@ -489,13 +911,13 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 5.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["116CDE1481CC3846"]
 			description: [
-				"Using the &eSeared Melter&r create a &eSmeltery Controller&r by pouring molten copper over a &eSeared Heater"
+				"Using the &eSeared Melter&r create a &eSmeltery Controller&r by pouring molten copper over &eSeared Bricks"
 				""
 				"&e&lHint:&r This will be needed for the next quest!"
 			]
@@ -556,13 +978,14 @@
 					type: "item"
 				}
 				{
-					id: "17E1E07CAB57E25A"
-					item: "tconstruct:seared_heater"
-					type: "item"
+					advancement: "tconstruct:smeltery/structure"
+					criterion: ""
+					id: "1FFB23C4B4EF648D"
+					type: "advancement"
 				}
 			]
-			x: 6.0d
-			y: 5.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["35A0BA1BB8DDE343"]
@@ -575,6 +998,7 @@
 				""
 				"&l&eTip:&r This can be repeated for all tool parts! You should ideally make a tool out of multiple materials to get increased stats and traits! There are thousands of possible tool combinations!"
 			]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "6567F9EEFDDB5CAB"
 			rewards: [
@@ -623,15 +1047,6 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:blacksmith"
-					console: true
-					elevate_perms: true
-					icon: "titles:title_scroll_common"
-					id: "7E247892D81601C5"
-					title: "&eUnlock Title:&r the Blacksmith"
-					type: "command"
-				}
-				{
 					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "2BBC80C98E312F70"
@@ -639,7 +1054,6 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			shape: "octagon"
 			subtitle: "Craft a &eGold Hammer Cast"
 			tasks: [
 				{
@@ -660,8 +1074,1429 @@
 				}
 			]
 			title: "&eLearning About Casts!"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6567F9EEFDDB5CAB"]
+			description: [
+				"The &eTinker's Anvil&r is used to assemble more powerful tools! "
+				""
+				"Craft your first &eTinkers' Tool &rusing a &eTinker's Anvil&r"
+			]
+			id: "5B5A340DB47B9C89"
+			rewards: [
+				{
+					command: "/titles add {p} titles:blacksmith"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "53A894AE11A94547"
+					title: "&eUnlock Title:&r the Blacksmith"
+					type: "command"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "1828DB02A7F9BF49"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "458779EFA81D02DF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft your first &eTinkers' Tool &rusing a &eTinker's Anvil&r"
+			tasks: [{
+				advancement: "tconstruct:tools/tinker_tool"
+				criterion: ""
+				id: "425488D147D8FD10"
+				title: "Create a Tinkers' Tool"
+				type: "advancement"
+			}]
+			title: "&eA love for Smithing!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			description: [
+				"Using the &eSmeltery&r create a &eFoundry Controller&r by pouring molten obsidian over &eScorched Bricks"
+				""
+				"&e&lHint:&r This will be needed for the next quest!"
+			]
+			hide_until_deps_complete: true
+			id: "44879DE485398F4D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "096DF123B315591A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFoundry Controller&r"
+			tasks: [
+				{
+					id: "7BBF8BC1FB3A8DE8"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					advancement: "tconstruct:foundry/structure"
+					criterion: ""
+					id: "1C28AE1E235DED5A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			hide_until_deps_complete: true
+			id: "1CF88664139833C6"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1C695C2A29C6C8A7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Obtain &eCobalt Ore"
+			tasks: [{
+				id: "4C74EE2F8C1AFD91"
+				item: "tconstruct:cobalt_ore"
+				type: "item"
+			}]
+			title: "&eAcquire Nether Hardware"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			hide_until_deps_complete: true
+			id: "55C98175116E85CB"
+			rewards: [
+				{
+					id: "26096F38B55D0101"
+					item: "tconstruct:ichor_cake"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2550A136FF013EA6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Obtain &eIchor Crystals"
+			tasks: [{
+				id: "1ECCD166322F70EC"
+				item: "tconstruct:ichor_slime_crystal_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6567F9EEFDDB5CAB"]
+			description: ["&eBlank Sand Casts &rare temporary, single-use molds made from Sand or Red Sand. They’re quick and easy to make and are great for basic part casting."]
+			icon: "tconstruct:pick_head_sand_cast"
+			id: "681F15011F347435"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "547957C4FE16B9BF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft and use a &eBlank Sand Cast&r"
+			tasks: [
+				{
+					id: "48F520681FD9092B"
+					item: "tconstruct:blank_sand_cast"
+					type: "item"
+				}
+				{
+					advancement: "tconstruct:smeltery/sand_casting"
+					criterion: ""
+					id: "7634108C9D5510F5"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1188A9FDEE254A9F"
+				"55C98175116E85CB"
+			]
+			description: [
+				"To make more advanced materials from cobalt, you will want to acquire some &eblazing blood &rfrom melting a blaze. The easiest way to do this is to trick newly spawned blazes into a smeltery, though you can also craft weapons capable of extracting &eblazing blood &rfrom live blazes."
+				""
+				"&l&6Hint:&r Another way to obtain blazing blood is by melting down ichor. You will need a bit of &eblazing blood &rto get started, but I heard you can obtain some from bartering with piglins."
+				""
+				"{image:modpack:textures/tc_blaze.png width:180 height:100 align:center}"
+			]
+			id: "7F42CAE7EEF5DD33"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1C4E9E7925D58F69"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "31A4B78923E170A1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Fill a tank with &eBlazing Blood"
+			tasks: [{
+				advancement: "tconstruct:foundry/blaze"
+				criterion: ""
+				id: "7F479C710CA0CF30"
+				type: "advancement"
+			}]
+			title: "&eBathing in the Blood of my Blazes"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			id: "734CBF5AC8627228"
+			rewards: [
+				{
+					command: "/titles add {p} titles:tinkerer"
+					icon: "titles:title_scroll_common"
+					id: "09D9D5DB679281CE"
+					title: "&eUnlock Title:&r the Tinkerer"
+					type: "command"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7E76361B51F1AAF9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "17D00EDA28A43F03"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Give a tool 6 additional upgrade slots"
+			tasks: [{
+				advancement: "tconstruct:tools/upgrade_slots"
+				criterion: ""
+				id: "4FAF7F5F6530ECBC"
+				type: "advancement"
+			}]
+			title: "&eUpgrading to the Max!"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: ["Deal 21 damage or more in a single hit."]
+			id: "36EE964CF3FB56AC"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5DAD993131E791DC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6991F4EBFB58B509"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Maybe &6Niko &rhas a &eTool &rwe can use?"
+			tasks: [{
+				advancement: "tconstruct:tools/one_shot"
+				criterion: ""
+				id: "592E720FFC5A9322"
+				type: "advancement"
+			}]
+			title: "&eYou only get One Shot"
+			x: 8.273809523809518d
+			y: 3.999999999999986d
+		}
+		{
+			id: "583F265517CF4856"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "026C9B958B328411"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "191444737679F8AA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Pick up a &epig &rwith a &epiggybackpack"
+			tasks: [{
+				advancement: "tconstruct:world/piggybackpack"
+				criterion: ""
+				id: "2B6128B9EC76B67B"
+				type: "advancement"
+			}]
+			title: "&eLittle buddy!"
+			x: 10.273809523809518d
+			y: 1.9999999999999858d
+		}
+		{
+			dependencies: ["72B878D6A0C6EDFC"]
+			description: ["&l&eTip:&r Read more about Slimeskulls and their effects in the &6Encyclopedia of Tinkering&r!"]
+			id: "72AF5955C9BE50B2"
+			rewards: [
+				{
+					id: "7B28A58A8212F4D5"
+					item: "tconstruct:ender_cake"
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "670BDC1477E32B76"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "782B47E172F73C96"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
+								Name: "{\"text\":\"§eCurious Box\"}"
+							}
+							type: "curious_box"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AE0BB55FF23B2F5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft a full &eSlimesuit"
+			tasks: [{
+				advancement: "tconstruct:world/slimesuit"
+				criterion: ""
+				id: "6AE2CA91F989A84B"
+				type: "advancement"
+			}]
+			title: "&eSlimed Out"
+			x: 10.0d
+			y: -5.5238095238095255d
+		}
+		{
+			id: "4D4EF0D1706F4855"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5429464866E8D087"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F1A538D04E75B95"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft a full set of &eTraveler's Gear"
+			tasks: [{
+				advancement: "tconstruct:tools/travelers_gear"
+				criterion: ""
+				id: "5D7B2500C94EEBE0"
+				type: "advancement"
+			}]
+			title: "&eTravel Preperation!"
+			x: 8.273809523809518d
+			y: 1.9999999999999858d
+		}
+		{
+			dependencies: ["5B5A340DB47B9C89"]
+			hide_until_deps_complete: true
+			id: "7F93E0A3E1788C79"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "435367A2DB0C2C81"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "square"
+			subtitle: "Craft a full set of &eTinkers' Armor"
+			tasks: [{
+				advancement: "tconstruct:foundry/plate_armor"
+				criterion: ""
+				id: "60307357290D204B"
+				type: "advancement"
+			}]
+			title: "&eCover Me in Tinkers'"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F42CAE7EEF5DD33"]
+			id: "79E769228689D3EB"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "007075A337ACF494"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "330109A623D81DFA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft &eBlaze Netherite"
+			tasks: [{
+				id: "13202188B3371B6A"
+				item: "tinkers_advanced:blaze_netherite"
+				type: "item"
+			}]
+			title: "&eBlaze Netherite"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44879DE485398F4D"]
+			description: [
+				"&eThe Foundry&r is a multi-block structure and alternative to the smeltery. "
+				""
+				"It will not alloy, allowing for bulk storage of ores without worrying about accidental mixtures. "
+				""
+				"&e&lTip:&r Ores melted in the foundry will produce byproducts, granting a more valuable resource than the original ore."
+				"&6&lHint:&r &eThe Foundry&r needs to have it's corners filled to function"
+			]
+			id: "1188A9FDEE254A9F"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "089A5191831C2DBB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "115E3A97C3A3388C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft the blocks needed and build a &eTinker's Foundry"
+			tasks: [
+				{
+					count: 40L
+					id: "764ECB4202A843C4"
+					item: "tconstruct:scorched_bricks"
+					type: "item"
+				}
+				{
+					id: "1A8346F7CA49C754"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					id: "0391AE9807F777BA"
+					item: "tconstruct:scorched_drain"
+					type: "item"
+				}
+				{
+					id: "2AB455612B6AE215"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "584B883128EA5CE8"
+					item: { Count: 2, id: "tconstruct:scorched_faucet" }
+					type: "item"
+				}
+				{
+					id: "1ECF568583CDAA0D"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "7B1D06F57DAD185C"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+			]
+			title: "&eThe Foundry"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7F42CAE7EEF5DD33"
+				"1CF88664139833C6"
+			]
+			id: "3E1D5987122DB04B"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "474B9A97FE620E75"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2F9CCCF9BE4FE5CC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Alloy and produce &eManyullyn"
+			tasks: [{
+				id: "45A78721E94EF8D6"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			title: "&eManyullyn"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["{image:modpack:textures/tc_slime.png width:180 height:100 align:center}"]
+			id: "41713364F7276A5C"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7D34E1FDDAFE69C6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3B12E406CF5583D9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Discover a &eSkyslime Island"
+			tasks: [{
+				advancement: "tconstruct:world/sky_island"
+				criterion: ""
+				id: "6A9B032F89F5769A"
+				type: "advancement"
+			}]
+			title: "&eDon't slip — it’s alive."
+			x: 10.273809523809518d
+			y: 3.999999999999986d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: [
+				"&e&lTip:&r Gives tools rechargeable power that can enhance the tool."
+				"&6&lHint:&r Will require some Thermal Series set up."
+			]
+			hide_until_deps_complete: true
+			id: "5FD0C67252FEE974"
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "59C31D89313E5CF6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "445712A329F80731"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
+								Name: "{\"text\":\"§eCurious Box\"}"
+							}
+							type: "curious_box"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:origin"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "44E12299780E68CE"
+					title: "&eUnlock Title:&r Monarch of Steel"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Alloy and produce &eActivated Chromatic Steel"
+			tasks: [{
+				id: "243FE163BABDD3AE"
+				item: "tinkers_advanced:activated_chromatic_steel"
+				type: "item"
+			}]
+			title: "&6Energy-Overkill"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: ["&e&lTip:&r Packs a heavy punch at the cost of some movement speed."]
+			hide_until_deps_complete: true
+			id: "00062CA0F86BFBEF"
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "74852C72037AA948"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "748DEB43D3EB8485"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
+								Name: "{\"text\":\"§eCurious Box\"}"
+							}
+							type: "curious_box"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Alloy and produce &eDensium"
+			tasks: [{
+				id: "7CED44918652E8A9"
+				item: "tinkers_advanced:densium_ingot"
+				type: "item"
+			}]
+			title: "&6Densium: The floor comes to it."
 			x: 8.0d
-			y: 7.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Tinkers’ Construct is a mod about creating tools, then modifying them to make them better. The tools will never permanently break, allowing you to tinker with a design until you are satisfied, or recycle them into new tools. After creating your first tools, create a smeltery to upgrade your tool creation, and explore the world to unlock more powerful materials and modifiers."
+				""
+				"&e&lHint:&r The most useful Tinkers' Construct guide books can be recieved by completing the eccentric tome quest!"
+				""
+				"&8Chapter Credit: Autooooooonus "
+			]
+			icon: "tconstruct:encyclopedia"
+			id: "4C98F0A91B16481F"
+			optional: true
+			shape: "circle"
+			subtitle: "Learn about &eTinkers' Construct"
+			tasks: [{
+				id: "1E28479CFDCBB91A"
+				title: "Read Through"
+				type: "checkmark"
+			}]
+			title: "&eGetting Started"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B5A340DB47B9C89"]
+			description: ["&e&lTip:&r Gems can give a variety of effects, read up on how they can help you!"]
+			hide_until_deps_complete: true
+			id: "29E61B735E596AF4"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "15F585AFA6C5FD80"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eMerlinite Gem"
+			tasks: [{
+				id: "6041AADD7D050295"
+				item: "tinkersjewelry:merlinite"
+				type: "item"
+			}]
+			title: "&eMore than Fashion &r(Part I)"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29E61B735E596AF4"]
+			id: "60330C7050A76B5A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "40DD169B5EDE4CFF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "square"
+			subtitle: "Craft your first &eTinkers' Ring"
+			tasks: [{
+				id: "00E3BB9245A6F07B"
+				item: {
+					Count: 1
+					id: "tinkersjewelry:ring"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "bb503890-647f-4465-915b-7118014ec13c"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:copper"
+							"tconstruct:rock"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tinkersjewelry:ductile"
+							}
+							{
+								level: 1
+								name: "tinkersjewelry:armor_gem"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 143.0f
+							"tinkersjewelry:amplification": 0.963f
+						}
+					}
+				}
+				match_nbt: false
+				tags: [""]
+				title: "Any Completed Ring"
+				type: "item"
+			}]
+			title: "&eMore than Fashion &r(Part II)"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["&e&lTip:&r Allows for Silk Touch to applied to mining tools at the cost of a ability slot."]
+			id: "6E9839A1F0ED450A"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3988B7D123D54C8F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eSilky Cloth"
+			tasks: [{
+				count: 5L
+				id: "6134AE73FFBD7C93"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			title: "&eSilk Touch"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			hide_until_deps_complete: true
+			id: "72B878D6A0C6EDFC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "45AB582DAA416C0F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Obtain &eEnderslime Crystals"
+			tasks: [{
+				id: "3E5523F6EC4D858A"
+				item: "tconstruct:ender_slime_crystal_block"
+				type: "item"
+			}]
+			title: "&eEnderslime Crystals"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: ["Used as a slotless upgrade, giving any tool both one upgrade and ability slot."]
+			hide_until_deps_complete: true
+			id: "6DC19F61040F28BA"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "5A1C722BFE093F9C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Obtain a &eDragon Head"
+			tasks: [{
+				id: "3E18218BC40AA93B"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			title: "&eUpgrades and Glory!"
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["734CBF5AC8627228"]
+			description: ["&e&lTip:&r Need to undo a modifier or ability? No need to scrap your tool simply remove it!"]
+			id: "44F2CF9E5AEDCCAC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "182A0665404551FA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft the &eModifier Worktable"
+			tasks: [{
+				id: "43101D3F05E05215"
+				item: "tconstruct:modifier_worktable"
+				type: "item"
+			}]
+			title: "&eWhoops! where's undo?"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: [
+				"Try all the available &eupgrades &rand &eabilities! &rExplore what every mod has to offer in the world of &6Tinkers' Construct!"
+				""
+				"&l&eTip:&r Antimatter pellets can be used as both a material and upgrade component. Using it as a tool material won't allow for you to upgrade your tool with it."
+			]
+			hide_until_deps_complete: true
+			icon: "mekanism:pellet_antimatter"
+			id: "2F05F85B20E56481"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6C0C64957713F068"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			subtitle: "Weaponize &eAntimatter"
+			tasks: [{
+				id: "2185EAF992D447A5"
+				title: "Further Your Understanding"
+				type: "checkmark"
+			}]
+			title: "&6Theory will only take you so far..."
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: ["Applies the Soul Bound effect to any tool it is applied to, costs one upgrade slot."]
+			hide_until_deps_complete: true
+			id: "4D6A4AC17FA6114B"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "0C44646435DC35AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Obtain a &eEcho Shard"
+			tasks: [{
+				id: "48368A253BABAAB6"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			title: "&eSoul Bound"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1CF88664139833C6"]
+			id: "2705B4498048E843"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "16EDA0B35FC1F3E6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "11E5545C0488967B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Alloy and produce &eHepatizon"
+			tasks: [{
+				id: "18BA47AF8A70F225"
+				item: "tconstruct:hepatizon_ingot"
+				type: "item"
+			}]
+			title: "&eHepatizon"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E247B9906A65AF"]
+			description: ["&e&lTip:&r Slimy Materials (like Slimesteel!) allow for Overslime to be applied to tools with out inccurring any penalties"]
+			id: "277690DF8B5C2D11"
+			rewards: [
+				{
+					id: "2314A5366CF89DC9"
+					item: "tconstruct:sky_cake"
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "56AEEB76A2B093A7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "6F44B8360FC66E6F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Alloy and produce &eSlimesteel"
+			tasks: [{
+				id: "53AB6947E2843FAB"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: 15.371768707483007d
+			y: 3.635714285714265d
+		}
+		{
+			dependencies: ["35A0BA1BB8DDE343"]
+			description: [
+				"Need more modifiers slots? &eRose Gold &ris a material that comes with a few extra!"
+				""
+				"&eRose Gold &rcan be made by alloying gold and copper in the smeltery"
+			]
+			hide_until_deps_complete: true
+			id: "665701DB94D4E40E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "10DB2103621785D4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Alloy and produce &eRose Gold"
+			tasks: [{
+				id: "10D6A8A9D1B9DA54"
+				item: "tconstruct:rose_gold_ingot"
+				type: "item"
+			}]
+			title: "&eAlloying some Upgrades!"
+			x: 6.047619047619037d
+			y: 5.6190476190476275d
+		}
+		{
+			dependencies: ["6A9B032F89F5769A"]
+			description: [
+				"Slime allows for you to apply the Overslime ability to your tools"
+				""
+				"Overslime when applied to tools consume overslime instead of durability, it can be reapplied by combining the tool with more slime. "
+				""
+				"\"&6&lHint:&r Tools not made of slime can have Overslime applied, but at a small cost to their Stats!\""
+				""
+				"&e&lTip:&r Different colors of slime each have their own purpose, so try to collect them all."
+			]
+			hide_until_deps_complete: true
+			icon: "tconstruct:sky_slime_ball"
+			id: "38E247B9906A65AF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4ABCC4578BAD88AC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:sticky"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "15358290185B1E1C"
+					title: "&eUnlock Title:&r Sticky"
+					type: "command"
+				}
+			]
+			shape: "circle"
+			subtitle: "Obtain &eSkyslime"
+			tasks: [{
+				id: "388E12E7355F5C84"
+				item: "tconstruct:sky_slime"
+				type: "item"
+			}]
+			title: "&eSky-Goo"
+			x: 13.902380952380966d
+			y: 3.635714285714265d
+		}
+		{
+			dependencies: ["6A9B032F89F5769A"]
+			hide_until_deps_complete: true
+			id: "0291CBE3951F2B11"
+			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "73F377749E254253"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "63CA1166C2FD276D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Create a bow with 1.0 accuracy"
+			tasks: [{
+				advancement: "tconstruct:tools/perfect_aim"
+				criterion: ""
+				id: "72587954FDFD1357"
+				type: "advancement"
+			}]
+			title: "&eAim True"
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["Enchanted Alloy is a magical material that gives tools &dVeinminer"]
+			id: "597682BE5DC9650C"
+			optional: true
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "472A3C8BEE5C8663"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "005C15A44010C8BD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft &eEnchanted Alloy"
+			tasks: [{
+				id: "17E221E6D7C4271D"
+				item: "amethyst_tools:enchanted_alloy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
 		}
 	]
 	title: "&6Tinker's Construct &o(Modular Tools)"
