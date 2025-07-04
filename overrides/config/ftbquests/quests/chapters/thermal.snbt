@@ -1,5 +1,6 @@
 {
 	always_invisible: true
+	autofocus_id: "0AA8A23A683CFA57"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "thermal"
@@ -8,23 +9,1682 @@
 	id: "21CD0B400036DF54"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		description: ["Chapter coming soon!™"]
-		id: "0AA8A23A683CFA57"
-		rewards: [{
-			amount: 250L
-			currency: "eternalcurrencies:coins"
-			id: "080D1B46E5F26528"
-			ignore_reward_blocking: true
-			type: "eternalcurrencies:currency"
-		}]
-		tasks: [{
-			id: "58E66C383739E43F"
-			item: "thermal:machine_frame"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: ["The &eMachine Frame&r is the basis of all machines in the &5Thermal Series&r, so you may want to stock up!"]
+			id: "0AA8A23A683CFA57"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "080D1B46E5F26528"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "6C3641E317A631BD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Craft a &eMachine Frame&r"
+			tasks: [{
+				id: "58E66C383739E43F"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: ["The Redstone Furnace works exactly like a normal furnace but is &nfaster and only requires power to smelt&r!"]
+			id: "5279965A3C00CD9F"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "194616A658AE66F7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eRedstone Furnace&r"
+			tasks: [{
+				id: "530D1ED26AE7835D"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: ["The Pulverizer can be used to &nincrease the amount of resources&r obtained from ores and more!"]
+			id: "6C22DE8FD78A93AD"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "611E48A2F4BFEB99"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &ePulverizer&r"
+			tasks: [{
+				id: "7AABE0A54DF46200"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: [
+				"The Sawmill will give &n6 planks per log, instead of just 4&r! "
+				""
+				"It also generates sawdust as a byproduct, which can be useful for many things, including the <rainb>Legendary Cardboard Box&r!"
+			]
+			id: "0A13D9AFD4429192"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "69D7CC08F45A8476"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eSawmill&r"
+			tasks: [{
+				id: "494F1563F829A97B"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: ["The Induction Smelter is a useful way to &nmake alloys and smelt resources&r!"]
+			id: "1D9E37BBD5F54394"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6F310A560A7C7FE6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eInduction Smelter&r"
+			tasks: [{
+				id: "3F32F0837C38F38C"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: ["The Centrifugal Separator is most notably used for the production of bitumen from bituminous sand, but also has a few extra features!"]
+			id: "19D5DA2F39486B28"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4AE9B465A307BB97"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eCentrifugal Separator&r"
+			tasks: [{
+				id: "0D456B1EA11D7FB5"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: [
+				"The Multiservo Press can be used to &ncraft gears, plates, coins, and to pack/unpack resources into their compressed/uncompressed forms&r."
+				""
+				"All you need are the &eDie's!&r"
+			]
+			id: "5CC1B75F4E50794D"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "23020D06FCCED2E8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eMultiservo Press&r"
+			tasks: [{
+				id: "479B68A93D974EC5"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: ["The Blast Chiller can be used to turn molten liquids into their solid forms!"]
+			id: "5DA4E7AD6DB95A62"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6B856C9755683D39"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eBlast Chiller&r"
+			tasks: [{
+				id: "6C59DB9A522E648B"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: ["The Fluid Encapsulator &ncombines fluids with blocks and items&r! You can make several interesting recipes this way and can even &nfill buckets and bottles automatically&r!"]
+			id: "7CAA549311FC1474"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "546CBAF2E0D02FE0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFluid Encapsulator&r"
+			tasks: [{
+				id: "1688016386E96C4D"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: ["The Magma Crucible is great at melting things!"]
+			id: "72B4BED27384E92F"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "75CFE63A6B9D8B00"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eMagma Crucible&r"
+			tasks: [{
+				id: "2FF24AFD2E151DFB"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: [
+				"The Stirling Dynamo is a great early game power source! Feed it any burnable items to produce &eRedstone Flux(RF)/Forge Energy(FE)!&r"
+				""
+				"&eNote:&r"
+				"Energy is only output from a dynamo &nwhile it is running.&r A dynamo MUST be running for energy to be output."
+			]
+			id: "2A368E0433261500"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0490738F692E2BC4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eStirling Dynamo&r"
+			tasks: [{
+				id: "12477599AE31F633"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			title: "POWA"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0AA8A23A683CFA57"
+				"2A368E0433261500"
+			]
+			description: [
+				"The Magmatic Dynamo is an even greater power source! Feed it hot liquids to produce &eRedstone Flux(RF)/Forge Energy(FE)!&r"
+				""
+				"&eNote:&r"
+				"Energy is only output from a dynamo &nwhile it is running.&r A dynamo MUST be running for energy to be output."
+			]
+			id: "0EB78E01CFC09A73"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "796E3AF79ED69B3F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eMagmatic Dynamo&r"
+			tasks: [{
+				id: "69666BC14E2AC9BF"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			title: "MOAR POWA!!"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0AA8A23A683CFA57"
+				"2A368E0433261500"
+			]
+			description: [
+				"Have extra food that needs to go? Say hello to the Gourmand Dynamo! Feed it any item with saturation bars to produce &eRedstone Flux(RF)/Forge Energy(FE)!&r"
+				""
+				"&eNote:&r"
+				"Energy is only output from a dynamo &nwhile it is running.&r A dynamo MUST be running for energy to be output."
+			]
+			id: "3A9182365C06FF44"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1CA5B46660AF6691"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eGourmand Dynamo&r"
+			tasks: [{
+				id: "0DAD58E2CAF39455"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			title: "The Hungry Dynamo"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: [
+				"The Crescent Hammer is a necessary tool for any aspiring engineer! It allows easy rotation of machines with a simple right-click!"
+				""
+				"The Crescent Hammer can also remove the connection between two or more ducts! Ever wanted two duct lines next to each other? Now you can! This even works with several other mods like EnderIO!"
+				""
+				"You can even pick up machines and other storage devices with shift+right-click! Using this method will retain the items/liquids/power inside of the machine/storage."
+			]
+			id: "24CB532D44E6DC43"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "44FA42C54B7FBD17"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eCrescent Hammer&r"
+			tasks: [{
+				id: "6065AA8B3C058BBD"
+				item: {
+					Count: 1
+					id: "thermal:wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "An Engineer's Best Friend"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C22DE8FD78A93AD"]
+			description: [
+				"&eTip:&r"
+				"You can further increase your Pulverizer yield by putting a Catalyst in the slot below the item you are pulverizing. &eFlint&r and &eBasalz Powder &rwork as Catalysts!"
+			]
+			icon: "thermal:iron_dust"
+			id: "53E24092A87FA7D8"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6D86D19F6BF747A9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Increase your ore yield with the Pulverizer!"
+			tasks: [{
+				count: 16L
+				id: "475A7E8AEB9180D8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts"
+					}
+				}
+				title: "Any #forge:dusts"
+				type: "item"
+			}]
+			title: "Not Quite Ore Duplication"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Every face(except the front on some machines) can be configured for inputs and outputs! Open up the \"Configure\" panel inside a Thermal Series machine to configure the faces."
+				""
+				"Blue is for input. Orange is for output."
+				""
+				"The center panel is the front face."
+				""
+				"The bottom left panel is the back face."
+				""
+				"The top/bottom and left/right panels around the center panel control the top/bottom and left/right faces respectively."
+			]
+			icon: "minecraft:writable_book"
+			id: "79AEF3E26EE8E722"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "46123E8914069114"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "42569304DA8E0A62"
+				title: "&eInfo Quest - &r(Click To Complete)"
+				type: "checkmark"
+			}]
+			title: "Configure Your Faces! Part 1"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				""
+				"Auto Input and Auto Output control the behavior of how the machine's faces interact with the adjacent blocks. "
+				""
+				"Auto Input will pull from the adjacent blocks on the sides set to input. This means that if there is a chest on a face that is set to input with Auto Input on, the machine will automactically bring the contents from the chest into the machine."
+				""
+				"Auto Output works the same as Auto Input. However, it pushes resources from the internal output slot into the inventories of adjacent blocks instead of pulling."
+			]
+			icon: "minecraft:writable_book"
+			id: "3328573474FFEBCC"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "092FA78D9FF3EAE2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3641C41C14E6058A"
+				title: "&eInfo Quest - &r(Click To Complete)"
+				type: "checkmark"
+			}]
+			title: "Configure Your Faces! Part 2"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"53E24092A87FA7D8"
+				"5279965A3C00CD9F"
+			]
+			hide_text_until_complete: false
+			icon: "minecraft:iron_ingot"
+			id: "717EAD791F44F931"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "115AE7FC3EDE4900"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Smelt your increased yield in the Redstone Furnace!"
+			tasks: [{
+				count: 16L
+				id: "131253ABCC08B97E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots"
+					}
+				}
+				title: "Any #forge:ingots"
+				type: "item"
+			}]
+			title: "Not Quite Ore Duplication Part 2"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: ["Fluxducts can be used to transport power. Fluxducts automatically pull energy from dynamos and push energy into machines."]
+			id: "7BC63DBDAC493B1C"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "3AF1B1A1DAA55FF6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eFluxducts&r"
+			tasks: [{
+				count: 16L
+				id: "699ACCB512EAC3B7"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
+			title: "Transporting Power"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["623878F31D5F2EF2"]
+			description: ["Servos are used to pull liquids from attached inventories into fluiducts! Comes with a filter and redstone control!"]
+			id: "01E9F0D9D11372C2"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4BA768A211BAA071"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eServos&r"
+			tasks: [{
+				count: 2L
+				id: "52B5B768751F7B53"
+				item: "thermal:servo_attachment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0AA8A23A683CFA57"]
+			description: ["Fluiducts can be used to transport fluids! Fluiducts automatically input into attached inventories, but they require a &eServo&r to pull!"]
+			id: "623878F31D5F2EF2"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "26EF7FC6D7DFBDEF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eFluiducts&r"
+			tasks: [{
+				count: 16L
+				id: "2C789DB87FA83A60"
+				item: "thermal:fluid_duct"
+				type: "item"
+			}]
+			title: "Transporting Liquids"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"There are no itemducts in the current version of Thermal Dynamics. You will have to use alternatives for item transfer. "
+				""
+				"Enderio item conduits, Integrated Dynamics/Tunnels cables, and Mekanism logistical transporters are all good alternatives!"
+			]
+			icon: "minecraft:barrier"
+			id: "702625A42820E6DF"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6C127C2AA8248542"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "09B0458472E8D073"
+				title: "&eInfo Quest - &r(Click To Complete)"
+				type: "checkmark"
+			}]
+			title: "No Itemducts?"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01E9F0D9D11372C2"]
+			description: ["Turbo-Servos work over 20 times faster than normal Servos. However, it has less filtering functionality."]
+			id: "083BED9C03893B87"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "635F2B4001B3722C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eTurbo-Servos&r"
+			tasks: [{
+				count: 2L
+				id: "62076C314405E631"
+				item: { Count: 5, id: "thermal:turbo_servo_attachment" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["623878F31D5F2EF2"]
+			description: ["Fluid cells can store large amounts of liquids. Fluid cells can be upgraded to store even more with &eIntegral Components!&r"]
+			id: "56FDF04F9F56BF8A"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0779D5609F972CD4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFluid Cell&r"
+			tasks: [{
+				id: "1FD2CDE9FE1D31D9"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7BC63DBDAC493B1C"]
+			description: ["Redstone Flux cells can store large amounts of power. Redstone Flux cells can be upgraded to store even more with &eIntegral Components!&r"]
+			id: "1ADA4A86A0600792"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "567F9238890D7D6B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eRedstone Flux Cell&r"
+			tasks: [{
+				id: "0CE1D51B2D21DE1F"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01E9F0D9D11372C2"]
+			description: ["Filters can be used to allow different fluids to go in different directions in a fluiduct system. "]
+			id: "0B6C86CEA29FC671"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "60F2FC2F4B9ECA58"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eFilters&r"
+			tasks: [{
+				count: 2L
+				id: "71868710870814DE"
+				item: "thermal:filter_attachment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7BC63DBDAC493B1C"]
+			description: ["Redstone Flux Limiters can be attached to fluxducts to limit the transfer of energy!"]
+			id: "7DD56A4D1C92A96E"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1835E141449CA742"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eRedstone Flux Limiters&r"
+			tasks: [{
+				count: 2L
+				id: "3FD4A12D0015A1FA"
+				item: { Count: 2, id: "thermal:energy_limiter_attachment" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["The Tinker's Workbench allows you to add upgrades to your &eThermal Series equipment&r to make them better!"]
+			id: "20442358C1AFD7B8"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "48A4D1E22EE8C661"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eTinker's Workbench&r"
+			tasks: [{
+				id: "6B1C0DA39F926BB0"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D9E37BBD5F54394"]
+			hide_dependency_lines: false
+			id: "10F5F913B5673B09"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0A2CE9B6F3348722"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Make some important alloys!"
+			tasks: [
+				{
+					count: 16L
+					id: "4E3A82441AB022C4"
+					item: { Count: 16, id: "thermal:invar_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "23CD654E292377A2"
+					item: { Count: 16, id: "thermal:electrum_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5FD36997F879383E"
+					item: { Count: 16, id: "thermal:signalum_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1520D57A4E325958"
+					item: { Count: 16, id: "thermal:enderium_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6BCDE259F5E9B860"
+					item: { Count: 16, id: "thermal:lumium_ingot" }
+					type: "item"
+				}
+			]
+			title: "Alloys!"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CC1B75F4E50794D"]
+			id: "1A73BB9EF9F6C5DF"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "2C3E4EA3E74B0377"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft any &eDie&r"
+			tasks: [{
+				id: "035528C542E8D83B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "thermal:crafting/dies"
+					}
+				}
+				title: "Any #thermal:crafting/dies"
+				type: "item"
+			}]
+			title: "Die!"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A13D9AFD4429192"]
+			description: [
+				"Using the sawdust from the sawmill, we can fashion a <rainb>Carboard Box!&r "
+				"You can use it on any block(unless the block is blacklisted) to preserve the data of the block as you transport it. "
+				"You can easily move spawners this way!"
+				""
+				"&eTip:&r"
+				"Right click on a block to wrap it with the Cardboard Box. Then, you can break it and transport it anywhere you like. Once you placed it back down, just shift+right click to remove the Cardboard Box. "
+				""
+				"&6Hint:&r"
+				"Think of all the breakable things you could preserve!"
+			]
+			id: "4CCA86CDD3745003"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4CA4D7555CB6F739"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft the <rainb>Legendary Cardboard Box!&r"
+			tasks: [{
+				id: "29F39634995255B9"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			title: "Moving Day!"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"72B4BED27384E92F"
+				"7CAA549311FC1474"
+			]
+			description: ["Melt with the Magma Crucible, and bottle with the Fluid Encapsulator!"]
+			id: "6514AD78D683A071"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "49E9521ADC02DC53"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Liquids requried for &eThermal Series Alloys!&r"
+			tasks: [
+				{
+					id: "63689109448F47BA"
+					item: "thermal:redstone_bucket"
+					type: "item"
+				}
+				{
+					id: "37A9AE53E98B602D"
+					item: "thermal:glowstone_bucket"
+					type: "item"
+				}
+				{
+					id: "294FC85F4C209AFE"
+					item: "thermal:ender_bucket"
+					type: "item"
+				}
+			]
+			title: "Liquids for Alloying"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DA4E7AD6DB95A62"]
+			id: "791C5B1B1D6B17E5"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "7365A10FF5298E8D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Brrrr"
+			tasks: [
+				{
+					count: 16L
+					id: "44F7D4F1F2B6750A"
+					item: { Count: 16, id: "minecraft:snowball" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "443E0EB8FF05B8FA"
+					item: { Count: 16, id: "minecraft:ice" }
+					type: "item"
+				}
+			]
+			title: "Quite Chilly, Innit?"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19D5DA2F39486B28"]
+			id: "2D140246BEB6A4C2"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "19EBB3B66097ABDA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Obtain &eBitumen&r from the Centrifugal Separator"
+			tasks: [{
+				count: 16L
+				id: "0BDAE3AEDEA5D111"
+				item: { Count: 16, id: "thermal:bitumen" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: ["The Satchel is a simple way to store your items!"]
+			id: "45D828E2ECBE4418"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "465CC64B38A47731"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eSatchel&r"
+			tasks: [{
+				id: "37B0399233ADEC7A"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: [
+				"Safely detonate any explosive from a distance! Onlookers will never know it was you!"
+				""
+				""
+				"&o&5AdamCo™ is not responsible for any home damages caused by detonations of explosives...&r"
+			]
+			id: "49FA8E4211A93EFE"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4590DD5C0AB9FAEC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eRemote Detonator&r"
+			tasks: [{
+				id: "455575F089A2BB35"
+				item: {
+					Count: 1
+					id: "thermal:detonator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: ["Uses power to mine blocks! Can be upgraded with augments!"]
+			id: "50DAE533FBA7111C"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4753E8A56A79D4E9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFluxbore&r"
+			tasks: [{
+				id: "34349DD37434567D"
+				item: {
+					Count: 1
+					id: "thermal:flux_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: ["Uses power to chop wood! Can be upgraded with augments!"]
+			id: "58A2325AB07E3451"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "64F73471890C4260"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFluxsaw&r"
+			tasks: [{
+				id: "5FA51C5D4377D4FB"
+				item: {
+					Count: 1
+					id: "thermal:flux_saw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: ["Stores power to automatically recharge other equipment! Can be upgraded with augments!"]
+			id: "0D6FE08FCC907879"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "04872AC151811A22"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFlux Capacitor&r"
+			tasks: [{
+				id: "77BE60B28563B1A0"
+				item: {
+					Count: 1
+					id: "thermal:flux_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: ["Uses power to pull in items from far away! Can be upgraded with augments!"]
+			id: "341E0E922C9181AA"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "3C7222CCF92EAF4B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFluxoMagnet&r"
+			tasks: [{
+				id: "35769273E9134364"
+				item: {
+					Count: 1
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: ["Uses mBs of potions to tip arrows automatically! Can be upgraded with augments!"]
+			id: "01C667F8BBE65C0B"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0826293487B403EC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eAlchemical Quiver&r"
+			tasks: [{
+				id: "79A19AB23FC6E30B"
+				item: {
+					Count: 1
+					id: "thermal:potion_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: ["Stores large amounts of liquid! The Resevoir can be used to automatically fill equipment, or act as a large bucket for recipes and in-world interactions! Can be upgraded with augments!"]
+			id: "51057F36217B341F"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "38A3D981A8B1D920"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eReservoir&r"
+			tasks: [{
+				id: "5F3F80BFA9C9523E"
+				item: {
+					Count: 1
+					id: "thermal:fluid_reservoir"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: ["Uses mBs of potions to automatically give potion effects to you or other entities! Can be upgraded with augments!"]
+			id: "3AD7B4B17597382E"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "488745DBE2C8F998"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &ePotion Infuser&r"
+			tasks: [{
+				id: "38A53FD304DD0541"
+				item: {
+					Count: 1
+					id: "thermal:potion_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: ["Uses water to speed up crop growth in an area! Can be upgraded with augments!"]
+			id: "022A455685F45C45"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0FA87FAE4DB67F2F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eWatering Can&r"
+			tasks: [{
+				id: "226E19D1A81F38E5"
+				item: {
+					Count: 1
+					id: "thermal:watering_can"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			description: ["The Holding enchant will increase the storage capacity of most Thermal Series gear. Try it out!"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "cofh_core:holding"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "5FC4E0FD455BC3FE"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4D9122F811B576A5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "A rather useful enchant!"
+			tasks: [{
+				id: "2A13B4EF93BFDC39"
+				title: "&eInfo Quest - &r(Click To Complete)"
+				type: "checkmark"
+			}]
+			title: "The Holding Enchantment"
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["20442358C1AFD7B8"]
+			description: [
+				"The Energetic Infuser is a great way to charge any piece of equipment that needs power!"
+				""
+				"&8Chaper Credit: JelliotWasTaken"
+			]
+			id: "435E3601DB388176"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6597084017C85C0E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eEnergetic Infuser&r"
+			tasks: [{
+				id: "1CA90B4E4180B409"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: [
+				"Increases the base operation speed, RF use, RF storage, and RF transfer rate by 2x."
+				""
+				"Only the highest tier Integral Component increases these stats!"
+			]
+			hide_dependency_lines: true
+			id: "4C109F433A49B7B1"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "33FD30F30F1D5454"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eHardened Integral Components&r"
+			tasks: [{
+				id: "7D1A9D293A9FD193"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C109F433A49B7B1"]
+			description: [
+				"Increases the base operation speed, RF use, RF storage, and RF transfer rate by 3x."
+				""
+				"Only the highest tier Integral Component increases these stats!"
+			]
+			id: "0754ECF4EA2BE8A4"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "5347C02953A01DC4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eReinforced Integral Components&r"
+			tasks: [{
+				id: "02D96709CFDC86D7"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0754ECF4EA2BE8A4"]
+			description: [
+				"Increases the base operation speed, RF use, RF storage, and RF transfer rate by 4x."
+				""
+				"Only the highest tier Integral Component increases these stats!"
+			]
+			id: "6166A42084AA84BB"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0B5F9B2E759AFCE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eResonant Integral Components&r"
+			tasks: [{
+				id: "7BB633D55BA87C68"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Can be used on machines to increase RF capacity and RF transfer speeds! "]
+			hide_dependency_lines: true
+			id: "035DB122F0BB306D"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "5C8199BC206912A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eExpanded RF Coil&r"
+			tasks: [{
+				id: "2E974901A41C0403"
+				item: "thermal:rf_coil_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["035DB122F0BB306D"]
+			description: ["Can be used on machines to increase RF capacity and RF transfer speeds! "]
+			id: "3DE80B978014D3A7"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "507A774320E3702C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eStabilized RF Coil&r"
+			tasks: [{
+				id: "73AFC828BCA1AD9A"
+				item: "thermal:rf_coil_storage_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DE80B978014D3A7"]
+			description: ["Can be used on machines to increase RF capacity and RF transfer speeds! "]
+			id: "0F8A3EE328A98CE5"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "3A69D53596033372"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eHigh-Flux RF Coil&r"
+			tasks: [{
+				id: "1C175B775A7CDC9B"
+				item: "thermal:rf_coil_xfer_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Increases processing speed, but reduces RF efficiency."]
+			hide_dependency_lines: true
+			id: "173EB6713A5838B1"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "041B2B56800889A8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFlux Linkage Amplifier&r"
+			tasks: [{
+				id: "4C56E187BEF88DC8"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Reduces processing speed, but increases RF efficiency!"]
+			hide_dependency_lines: true
+			id: "1429489F15281E22"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "78155A6B90058A7F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFlux Efficiency Augment&r"
+			tasks: [{
+				id: "54DA987021017B4D"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Increases the chance of secondary drops from being produced, but increases the processing cost!"]
+			hide_dependency_lines: true
+			id: "28033CE4A04120CA"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6586617C772C39E5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eAuxiliary Process Sieve&r"
+			tasks: [{
+				id: "509BDF5AFDEC300C"
+				item: "thermal:machine_output_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Uses less of a catalyst for an operation, but increases energy cost!"]
+			hide_dependency_lines: true
+			id: "056C888923DEEF96"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1A08EEA805D174D1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eCatalytic Reclamation Chamber&r"
+			tasks: [{
+				id: "447CB90B877E06AB"
+				item: "thermal:machine_catalyst_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Items in the output slot will go back to the input slot for another processing cycle!"]
+			hide_dependency_lines: true
+			id: "3442338F42623DED"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "531BAA0A63CF6B84"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eCyclical Processing Augment&r"
+			tasks: [{
+				id: "4351DC917208295D"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Voids excess secondary drops from the output of a machine"]
+			hide_dependency_lines: true
+			id: "73EE954D4B014AA5"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "78EA0D123E1ABAAE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eAuxiliary Cactus Augment&r"
+			tasks: [{
+				id: "7A4F3EE86B53D56F"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Doubles the RF/t but lowers the fuel efficiency!"]
+			hide_dependency_lines: true
+			id: "48A6B8EAF37D3593"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "2B93DB2329ACE9BC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eAuxiliary Reaction Chamber&r"
+			tasks: [{
+				id: "5EEFF0EB3B1A0C05"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Increases a dynamo's fuel efficiency!"]
+			hide_dependency_lines: true
+			id: "68EED83C41035A62"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "695F308F77599E64"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eMulti-cycle Injectors Augment&r"
+			tasks: [{
+				id: "3DD7C920B7142E0B"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Prevents wasting fuel when internal energy buffer is full!"]
+			hide_dependency_lines: true
+			id: "1811121D9EAA28ED"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "50C0FDB92771CF7E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eExcitation Field Limiter Augment&r"
+			tasks: [{
+				id: "0FE3AB4D6C4FCCF4"
+				item: "thermal:dynamo_throttle_augment"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Doubles the duration of potion effects!"]
+			hide_dependency_lines: true
+			id: "0A5EC2E002AA90BB"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1174CA8A3E3A5DF3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eAlchemical Extender Augment&r"
+			tasks: [{
+				id: "7D28C8E3D54880C2"
+				item: "thermal:potion_duration_augment"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Increases the level of a potion effect, but at the cost of duration."]
+			hide_dependency_lines: true
+			id: "7A8633C7D8E1E83E"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "674FDBAA69E4BC35"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eAlchemical Amplifier Augment&r"
+			tasks: [{
+				id: "5CF54862AB2E3E5E"
+				item: "thermal:potion_amplifier_augment"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Allows the configuration of machines or equipment to accept or deny specific liquids!"]
+			hide_dependency_lines: true
+			id: "091BE1EF6D060366"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0A596A355CF09A23"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eFluid Filter&r"
+			tasks: [{
+				id: "5A136D584A58909D"
+				item: "thermal:fluid_filter_augment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Allows the configuration of machines or equipment to accept or deny specific items!"]
+			hide_dependency_lines: true
+			id: "114E8279601C545E"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4F085223CBA7EB1B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eItem Filter&r"
+			tasks: [{
+				id: "4F1A301C96B112D7"
+				item: "thermal:item_filter_augment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Increases the liquid capacity of machines, dynamos, and equipment!"]
+			hide_dependency_lines: true
+			id: "0FECD7E756376A4D"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0B09E77DA83843BB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft an &eExpanded Tank Construction Augment&r"
+			tasks: [{
+				id: "28DBDCE70BC3360A"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Increase the range of machines and equipment by an additional block in all directions."]
+			hide_dependency_lines: true
+			id: "2DF3FA0EF421F27A"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "71A6AF7E47F1F346"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eRadial Enhancement Augment&r"
+			tasks: [{
+				id: "510ED8FA21F0E5FB"
+				item: "thermal:area_radius_augment"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: ["Collects experience from machine operations or the world. Base capacity is 2.5k, but can be increased with Integral Components."]
+			hide_dependency_lines: true
+			id: "27E7FFE5C3E569E2"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "166B1EA138AD94ED"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eKnowledge Concentrator Augment&r"
+			tasks: [{
+				id: "71B365DDA9BC20A1"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24CB532D44E6DC43"]
+			description: [
+				"Have a lot of machines that need configured to the same settings? Look no further: the Redprint is here!"
+				""
+				"To bind the Redprint to the proper settings, hold it in your hand and open a configured machine (If you need to reset the Redprint then shift+right-click in the air). Next, right click any other machine and all of the redstone, transfer, and side configurations with be pasted!"
+			]
+			id: "125AEB80EB27B86E"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "44FFD948D9E496BD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft some &eRedprint&r"
+			tasks: [{
+				id: "374E99DD9156107D"
+				item: "thermal:redprint"
+				type: "item"
+			}]
+			title: "Ctrl + C, Ctrl + V"
+			x: -3.0d
+			y: -1.0d
+		}
+	]
 	title: "{chapter.28.title}"
 }

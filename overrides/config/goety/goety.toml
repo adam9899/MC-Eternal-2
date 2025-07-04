@@ -32,7 +32,7 @@
 	showNumber = false
 	#Horizontal Position of where the Soul Energy Bar is located, Default: 100
 	#Range: > -2147483647
-	soulGuiHorizontal = 100
+	soulGuiHorizontal = 180
 	#Vertical Position of where the Soul Energy Bar is located, Default: -5
 	#Range: > -2147483647
 	soulGuiVertical = -5

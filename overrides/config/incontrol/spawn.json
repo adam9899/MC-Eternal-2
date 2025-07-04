@@ -130,7 +130,16 @@
     "mod": "alshanex_familiars:",
     "when": "onjoin",
     "result": "allow",
-    "healthmultiply": 4.6,
+    "healthmultiply": 6.6,
+    "damagemultiply": 1.5,
+    "speedmultiply": 1.1
+  },
+
+    {
+    "mod": "alshanex_familiars:",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 6.6,
     "damagemultiply": 1.5,
     "speedmultiply": 1.1
   },

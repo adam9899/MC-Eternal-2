@@ -21,12 +21,8 @@
       "fluid": "tinkers_advanced:molten_iridium"
     },
     {
-      "amount": 180,
+      "amount": 480,
       "fluid": "tconstruct:molten_osmium"
-    },
-    {
-      "amount": 180,
-      "fluid": "tcintegrations:molten_calorite"
     },
     {
       "amount": 450,
