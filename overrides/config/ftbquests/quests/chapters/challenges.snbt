@@ -199,12 +199,30 @@
 			optional: true
 			rewards: [{
 				count: 3
-				id: "20ABC4E9118F94A9"
+				id: "7293E15F656361D7"
 				item: {
 					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
-						type: "blackmarket_cache"
+						Enchantments: [{
+							id: "ars_nouveau:reactive"
+							lvl: 1
+						}]
+						HideFlags: 33
+						display: {
+							Lore: [
+								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+								"{\"text\":\"§7§oRight-Click to Open\"}"
+							]
+							Name: "{\"text\":\"§eQuest Loot\"}"
+						}
+						"quark:RuneAttached": 1b
+						"quark:RuneColor": {
+							Count: 1b
+							id: "quark:rainbow_rune"
+						}
+						rpgloot.randomize: 0b
+						type: "quest_loot"
 					}
 				}
 				type: "item"
@@ -221,17 +239,49 @@
 		{
 			id: "2C6B2C3F6CD8692F"
 			optional: true
-			rewards: [{
-				id: "6DB6338F17552A41"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "blackmarket_cache"
+			rewards: [
+				{
+					id: "6DB6338F17552A41"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 3
+					id: "2790DCB7339693AF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				days: 200
@@ -244,18 +294,49 @@
 		{
 			id: "4A7697691FBAF6E9"
 			optional: true
-			rewards: [{
-				count: 2
-				id: "729D4EA2848718B1"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "blackmarket_cache"
+			rewards: [
+				{
+					count: 2
+					id: "729D4EA2848718B1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1B1AA34E68F57FDD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				days: 350
@@ -343,11 +424,22 @@
 				}
 			]
 			shape: "circle"
-			tasks: [{
-				days: 1000
-				id: "20D72E0D9EADF30D"
-				type: "questsadditions:days"
-			}]
+			tasks: [
+				{
+					days: 1000
+					id: "20D72E0D9EADF30D"
+					type: "questsadditions:days"
+				}
+				{
+					disable_toast: true
+					elapsedTime: 180000L
+					gameTime: "system"
+					icon: "supplementaries:safe"
+					id: "225E3C0CF3505D08"
+					title: "&eServer Safeguard"
+					type: "questsadditions:time"
+				}
+			]
 			x: 10.0d
 			y: 6.0d
 		}

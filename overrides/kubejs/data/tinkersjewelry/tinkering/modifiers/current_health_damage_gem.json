@@ -5,11 +5,11 @@
       "type": "tinkersjewelry:attribute_modifier",
       "attribute": "attributeslib:current_hp_damage",
       "formula": [
-        "$level",
-        0.01,
-        "*",
-        "$amplification",
-        "*"
+    3,
+  0.005,
+  "*",
+  "$amplification",
+  "*"
       ],
       "operation": "addition",
       "unique": "tinkersjewelry.modifier.current_health_damage_gem",

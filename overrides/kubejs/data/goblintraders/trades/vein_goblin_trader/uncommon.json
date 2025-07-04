@@ -14,6 +14,19 @@
       },
       "price_multiplier": 0.0
     },
+     {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsdifficulty:infernal_sponge"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "minecraft:netherite_ingot"
+      },
+      "price_multiplier": 0.0
+    },
       {
       "type": "goblintraders:basic",
       "experience": 10,

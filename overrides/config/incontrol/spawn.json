@@ -130,7 +130,16 @@
     "mod": "alshanex_familiars:",
     "when": "onjoin",
     "result": "allow",
-    "healthmultiply": 4.6,
+    "healthmultiply": 6.6,
+    "damagemultiply": 1.5,
+    "speedmultiply": 1.1
+  },
+
+    {
+    "mod": "alshanex_familiars:",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 6.6,
     "damagemultiply": 1.5,
     "speedmultiply": 1.1
   },
@@ -499,6 +508,16 @@
     "when": "finalize",
     "healthmultiply": 3.5,
     "damagemultiply": 2.5,
+    "speedmultiply": 1.1
+  },
+
+  
+      {
+    "dimension": "thegreatbelow:thegreatbelow",
+    "mod": "alexsmobs",
+    "when": "onjoin",
+    "healthmultiply": 2.5,
+    "damagemultiply": 3.5,
     "speedmultiply": 1.1
   },
       {

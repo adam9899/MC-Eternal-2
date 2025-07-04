@@ -312,7 +312,7 @@
 	#Generation Settings for fluorite ore.
 	[world_generation.fluorite]
 		#Determines if fluorite ore should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 
 		#normal fluorite vein Generation Settings.
 		[world_generation.fluorite.normal]
@@ -320,7 +320,7 @@
 			shouldGenerate = true
 			#Chance that normal fluorite veins generates in a chunk.
 			#Range: 1 ~ 256
-			perChunk = 5
+			perChunk = 2
 			#Maximum number of blocks in a normal fluorite vein.
 			#Range: 1 ~ 64
 			maxVeinSize = 5
@@ -361,7 +361,7 @@
 			shouldGenerate = true
 			#Chance that buried fluorite veins generates in a chunk.
 			#Range: 1 ~ 256
-			perChunk = 3
+			perChunk = 1
 			#Maximum number of blocks in a buried fluorite vein.
 			#Range: 1 ~ 64
 			maxVeinSize = 13

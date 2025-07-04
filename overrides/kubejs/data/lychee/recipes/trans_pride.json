@@ -1,0 +1,39 @@
+{
+  "type": "lychee:item_exploding",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "mce2lib:trans_rights_sword",
+      "count": 1
+    }
+  ],
+  "item_in": [
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    },
+     {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "amethyst_tools:enchanted_alloy"
+    },
+    {
+      "item": "amethyst_tools:enchanted_alloy"
+    },
+    {
+      "item": "amethyst_tools:enchanted_alloy"
+    },
+    {
+      "item": "minecraft:diamond_sword"
+    }
+  ]
+}

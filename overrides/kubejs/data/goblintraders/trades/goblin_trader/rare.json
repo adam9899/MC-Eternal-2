@@ -30,6 +30,20 @@
       },
       "price_multiplier": 0.0
     },
+	  {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "mce2lib:trans_rights_sword"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
 	   {
       "type": "goblintraders:basic",
       "experience": 10,

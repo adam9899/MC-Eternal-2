@@ -10,5 +10,7 @@
     "enhancedcelestials.notification.rat_moon.set": "The Rat Moon sets!",
      "enhancedcelestials.name.rat_moon": "Rat Moon",
     "biome.thegreatbelow.thegreatbelow": "§8The Great Below",
-    "item.kubejs.corporea_crystal.desc": "A strange Crystal capable of exchanging information with others of its kind.\nThe core of important Corporea devices."
+    "item.kubejs.corporea_crystal.desc": "A strange Crystal capable of exchanging information with others of its kind.\nThe core of important Corporea devices.",
+
+    "tooltip.mce2.occultism.stable_wormhole.fragile": "Unstable! The Wormhole will break when picked up!"
 }

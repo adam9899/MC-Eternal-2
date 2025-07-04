@@ -982,6 +982,43 @@
 			x: 3.0d
 			y: 7.0d
 		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"As I'm sure you've noticed, your Mini-Map and World-Map are not working down here..."
+				"There is some sort of dark magic at play..."
+				""
+				"We will need to rely on older methods of navigation!"
+				"Craft a &eSplice Map&r it allows us to map The Great Below!"
+				""
+				"&6Hint:&r You can also use a &dLodestone&r to ensure you never lose the portal!"
+				"Use a &eCompass&r on the Lodestone to bind it! This Compass will always point to the Lodestone!"
+			]
+			id: "38332FE4C4174F95"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "40D3AF04529D2D34"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "330ADB8462DB5E80"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eSlice Map"
+			tasks: [{
+				id: "60A1E0B66AB65454"
+				item: "supplementaries:slice_map"
+				type: "item"
+			}]
+			title: "&dLost and Afraid!"
+			x: 2.0d
+			y: 4.0d
+		}
 	]
 	title: "&3The Great Below &6☆☆☆"
 }

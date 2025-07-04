@@ -252,16 +252,16 @@
 		helmetArmor = 8
 		#Armor value of MekaSuit BodyArmor.
 		#Range: > 0
-		bodyArmorArmor = 12
+		bodyArmorArmor = 15
 		#Armor value of MekaSuit Pants.
 		#Range: > 0
 		pantsArmor = 10
 		#Armor value of MekaSuit Boots.
 		#Range: > 0
-		bootsArmor = 4
+		bootsArmor = 6
 		#Toughness value of the MekaSuit.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		toughness = 3.0
+		toughness = 6.0
 		#Knockback resistance value of the MekaSuit.
 		#Range: 0.0 ~ 3.4028234663852886E38
 		knockbackResistance = 0.10000000149011612
@@ -276,7 +276,7 @@
 			#Percent of damage taken from other non explicitly supported damage types that don't bypass armor when the MekaSuit has enough power and a full suit is equipped.
 			#Note: Support for specific damage types can be added by adding an entry for the damage type in the damageReductionRatio config.
 			#Range: 0.0 ~ 1.0
-			unspecifiedDamageReductionRatio = 0.8
+			unspecifiedDamageReductionRatio = 0.9
 			#Map representing the percent of damage from different damage types that can be absorbed by the MekaSuit when there is enough power and a full suit is equipped.
 			#Values may be in the range [0.0, 1.0].
 			#See the #mekainsm:mekasuit_always_supported damage type tag for allowing damage that bypasses armor to be blocked.
