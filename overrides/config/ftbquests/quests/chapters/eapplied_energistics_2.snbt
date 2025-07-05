@@ -471,8 +471,8 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["31977C760DC1FC77"]
-			description: ["Leads you to the nearest &eMeteorite&r."]
+			dependencies: ["5CF065DD209B4B1C"]
+			description: [" Leads you to the nearest &n&l&o&m&5Mysterious Cube&r&r&r&r&r, which can only be found in &eCrashed Meteorites&r."]
 			id: "0DCF79D83ADEF1BF"
 			optional: true
 			rewards: [{
@@ -488,12 +488,12 @@
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["31977C760DC1FC77"]
-			description: ["You can also hold 'G' When hovering over &dAE2&r Items to find their page insantly."]
+			dependencies: ["5CF065DD209B4B1C"]
+			description: ["You can also hold 'G' When hovering over &dAE2&r Items to find their page instantly."]
 			id: "6DF2B5559A688FBF"
 			optional: true
 			rewards: [{
@@ -509,8 +509,8 @@
 				item: "ae2:guide"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["31977C760DC1FC77"]
@@ -636,7 +636,7 @@
 				""
 				"&6Tip:&r If you already have an source of power, You can transfer it into your machine by using an &eEnergy Acceptor&r. Try placing it adjacent to your source of power and the machine you are attempting to power."
 				""
-				"&6Note:&r All &dApplied Energistics&r equipment will automatically link to eachother and allow power to flow between themselves."
+				"&6Note:&r All &dApplied Energistics&r equipment will automatically link themselves to each other and allow power to flow between themselves."
 			]
 			id: "607B99F14104C94C"
 			rewards: [{
@@ -672,7 +672,7 @@
 				""
 				"Your &eNetwork&r details tell you a lot of things, the amount of &eChannels&r you have used, your &7Stored/Max Power&r, your &ePassive Drain&r which we will get to in a moment, and your &7Energy Useage/Generation&r."
 				""
-				"While most of thease are fundamental, &ePassive Drain&r is a bit more unique, most machines you connect to your system will have an minor amount of &ePassive Drain&r, but it's nothing to worry about as long as you have an power setup appropriate for your scale and you have an suitable &7Power Bank&r."
+				"While most of these are fundamental, &ePassive Drain&r is a bit more unique, most machines you connect to your system will have an minor amount of &ePassive Drain&r, but it's nothing to worry about as long as you have an power setup appropriate for your scale and you have an suitable &7Power Bank&r."
 				"{@pagebreak}"
 				"The &7Power Bank&r of your &dME Controller&r alone is insuffecent, since it cannot store an meaninful excess of energy. With &76k AE (energy)&r storage provided by your controller, you have no buffer for when multiple machine begin running. The solution? a &eEnergy Cell&r, with it's weakest iteration providing &7200k AE (energy)&r storage, an single copy will be a sufficient buffer for an long time."
 				""
@@ -783,7 +783,7 @@
 		{
 			dependencies: ["563E2BEF024962AD"]
 			description: [
-				"&eCovered Cables&r are 1 to 1 with &5Fluix Cables&r bar their visiual differences."
+				"&eCovered Cables&r are 1 to 1 with &5Fluix Cables&r bar their visual differences."
 				""
 				"&3Dense Cables&r Function identically to &5Fluix Cables&r with the single cavate of being able to hold 32 channels instead of 8, making them ideal as the cables that connect to the faces of your &dME Controller&r to allow you to split the &332 Channels&r properly between your &e8 Channel&r capped &5Fluix Cables&r."
 				""
@@ -843,17 +843,17 @@
 				"{@pagebreak}"
 				"While all &eItem Storage Cells&r only allow you to store &563 types&r of items per Storage Cell, the size of your &eStorage Cell&r (&c1k&r, &64k&r, &a16k&r etc.) allows you to scale the &7Capacity&r of those cells."
 				""
-				"Basicaly, you &4do not&r want to store &enon-stacking items&r such as Swords, Armour and the various Trinkets you come across inside your &bStorage Network&r; else you risk overflowing the &7Types&r of items that you can store much earlier than the &7Capacity&r of your cells."
+				"Basically, you &4do not&r want to store &enon-stacking items&r such as Swords, Armor and the various Trinkets you come across inside your &bStorage Network&r; else you risk overflowing the &7Types&r of items that you can store much earlier than the &7Capacity&r of your cells."
 				""
 				"Before moving on, it's important to note that the &7Capacity&r of cells is not in terms of items but in terms of &7Bytes&r."
 				""
-				"They are hard to explain and an deeper understanding of them isn't required but fundementally &ethe more&r &7Bytes&r &eyou have, the more Items you can store.&r"
+				"They are hard to explain and an deeper understanding of them isn't required but fundamentally &ethe more&r &7Bytes&r &eyou have, the more Items you can store.&r"
 				"{@pagebreak}"
 				"There is another mechanic to &eStorage Cells&r related to &7Types&r; &7Bytes&r work in such an way that the &7Capacity&r of an cell is used more efficently the less &7Types&r it uses."
 				""
 				"This is most useful when &eModifying Cells&r and shifting around &ePriorities&r which will be explained soon."
 				""
-				"Again, the specifics aren't nessessary but the &eGuide&r has a table can explain this visually. (Try holding 'G' on &eStorage Cells&r)"
+				"Again, the specifics aren't necessary but the &eGuide&r has a table can explain this visually. (Try holding 'G' on &eStorage Cells&r)"
 			]
 			icon: "ae2:drive"
 			id: "67F89819C94F591A"
@@ -1056,10 +1056,10 @@
 				""
 				"The &bCPU&r contains the &eCo-Proccessing Unit&r and &eCrafting Storage&r, they control how many &eRequests&r you can make at a time, and how many &eItems can be flowing around&r in the &bCrafting Network&r at the same time, respectfully."
 				""
-				"They can be placed anywhere adjacent to eachother, and expanded by just adding more of the requireed block."
+				"They can be placed anywhere adjacent to each-other, and expanded by just adding more of the required block."
 				""
 				"{@pagebreak}"
-				"Initally one of each a &eCo-Proccessing Unit&r and a &e1k Crafting Storage&r is plenty, but as your demand expands upgrading the apropriate bottleneck is important and simple."
+				"Initially one of each a &eCo-Proccessing Unit&r and a &e1k Crafting Storage&r is plenty, but as your demand expands upgrading the appropriate bottleneck is important and simple."
 				""
 				"If you are requesting a lot of &e*Unique Patterns*&r at once, then you need more &eCo-Proccessing Units&r and if you are requesting a lot of a &e*Single Pattern*&r then you need more &eCrafting Storages&r."
 				""
@@ -1152,7 +1152,7 @@
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
-			description: ["Your &bStorage Network&r can also accept &eChemicals&r, the cells act identically to their &eFluid&r counterparts and as such the advice for them applies here aswell."]
+			description: ["Your &bStorage Network&r can also accept &eChemicals&r, the cells act identically to their &eFluid&r counterparts and as such the advice for them applies here as well."]
 			id: "7A08C9D3CE872BE5"
 			rewards: [
 				{
@@ -1223,7 +1223,7 @@
 				""
 				"2) Be &eIndependant&r"
 				""
-				"&6Hint:&r If you want to lay multiple cables near eachother, try to add some colour."
+				"&6Hint:&r If you want to lay multiple cables near each-other, try to add some colour."
 			]
 			id: "1EEF413E836981C9"
 			rewards: [
@@ -1367,17 +1367,19 @@
 			description: [
 				"The &eCell Workbench&r allows you to &aAdd/Remove/Config&r &eUpgrade Cards&r from your &eStorage Cells&r and/or &ePartition&r them."
 				""
-				"Here's an example; Say you have an cobblestone generator and you want to pipe it into your &bStorage Network&r, but wait, you don't want to end up filling all of your &eStorage Cards&r with cobblestone. What do you do?"
+				"Here's an example; Say you have an Cobblestone Generator and you want to pipe it into your &bStorage Network&r."
 				""
-				"&6Hint:&r Before you turn the page and check the answer, think of the &eUpgrade Cards&r we've introduced, could any of them do this job?"
+				"But wait, you don't want to end up filling all of your &eStorage Cards&r with Cobblestone. What do you do?"
+				""
+				"&6Hint:&r Before you turn the page and check the answer, think of the &eUpgrade Cards&r we've introduced, could any of them achieve this task?"
 				"{@pagebreak}"
-				"You could install an &aOverflow Destruction Card&r onto an &eStorage Cell&r, but before you do that you must make sure that the &eStorage Cell&r will only accept cobblestone otherwise you risk your &bStorage Network&r eating your items. But how do we do that?"
+				"You could install an &aOverflow Destruction Card&r onto an &eStorage Cell&r, but before you do that you must make sure that the &eStorage Cell&r will only accept Cobblestone otherwise you risk your &bStorage Network&r eating your items. But how do we do that?"
 				""
-				"&aPartitioning&r, by placing an &eStorage Cell&r into your &eCell Workbench&r you gain the ability to &ePartition&r it's cells; This means that by placing an copy of the item(s) you want the cell to contain, you can make it exclusivly accept only those items."
+				"&aPartitioning&r, by placing an &eStorage Cell&r into your &eCell Workbench&r you gain the ability to &ePartition&r it's cells; This means that by placing an copy of the item(s) you want the cell to contain, you can make it exclusively accept only those items."
 				"{@pagebreak}"
-				"So now, if you have &aPartitioned&r your &eStorage Cell&r to only accept cobblestone, &eModified&r it with an &aOverflow Destruction Card&r and set the &epriority&r of the &eME Drive&r containing it to the top of your &aChain of Priority&r, any and all cobblestone &eImported&r into the &bStorage Network&r will fill the &eStorage Cell&r to it's &7Capacity&r and the excess will be thorwn into the void instead of overflowing your &bStorage Network&r."
+				"So now, if you have &aPartitioned&r your &eStorage Cell&r to only accept Cobblestone, &eModified&r it with an &aOverflow Destruction Card&r and set the &epriority&r of the &eME Drive&r containing it to the top of your &aChain of Priority&r, any and all Cobblestone &eImported&r into the &bStorage Network&r will fill the &eStorage Cell&r to it's &7Capacity&r and the excess will be thrown into the void instead of overflowing your &bStorage Network&r."
 				""
-				"&6Hint:&r If you already have cobblestone in your &bStorage Network&r, try using the &eME IO Port&r to move it all into your new &eStorage Cell&r."
+				"&6Hint:&r If you already have Cobblestone in your &bStorage Network&r, try using the &eME IO Port&r to move it all into your new &eStorage Cell&r."
 			]
 			id: "684C94BB0EE3C77D"
 			rewards: [
@@ -1437,12 +1439,11 @@
 				""
 				"What does this look like?"
 				""
-				"Imagine you have two &eME Drives&r, and for whatever reason you want one to be completly filled before the other begins to accept items."
+				"Imagine you have two &eME Drives&r, and for whatever reason you want one to be completely filled before the other begins to accept items."
 				""
 				"By setting the &ePriority Value&r of the first to 1, or any value larger than the second drive's &ePriority Value&r, your &eNetwork&r will send all aplicable items to the first &eME Drive&r as long as it has room."
 				""
 				"Once it is full, your &eNetwork&r will look to fill the next &eME Drive&r down the &aChain of Priority&r."
-				""
 				""
 				"&6Hint:&r This is not limited to just ME Drives, almost every machine you work with will have an option for priority and they will all follow the &aChain of Priority&r."
 			]
@@ -1566,9 +1567,9 @@
 				""
 				"While &eCo-Proccessing Units&r and &eCrafting Storage&r determines the amount of &eRequests&r you can issue and the number of items that can flow around your &eCrafting Network&r at a time; &eRequests&r can not be fulfilled without the appropriate &eME Pattern Providers&r and &eMolecular Assemblers&r."
 				""
-				"&eMolecular Assemblers&r are &eAutomated Crafting Tables&r, they can hold an &ePattern&r and automatically craft it's item as long as it recives power and the resources requied."
+				"&eMolecular Assemblers&r are &eAutomated Crafting Tables&r, they can hold an &ePattern&r and automatically craft it's item as long as it receives power and the resources required."
 				""
-				"For useage in your &bCrafting Network&r they basically do the same thing, but instead of needing a held &ePattern&r and inputed resources, adjacent &ePattern Providers&r can provide both."
+				"For useage in your &bCrafting Network&r they basically do the same thing, but instead of needing a held &ePattern&r and inputted resources, adjacent &ePattern Providers&r can provide both."
 				"{@pagebreak}"
 				"&ePattern Providers&r store all your &ePatterns&r and order around the adjacent blocks based on the &eRequests&r contained within their &ePatterns&r."
 				""
@@ -1580,11 +1581,11 @@
 				"{@pagebreak}"
 				"1) &bCrafting Network&r checks that you have an &eCo-Proccessing Units&r avilable to order the \"craft\"."
 				""
-				"2) &bCrafting Network&r checks that you have enough &eCrafting Storage&r to hold all the required materials to fullfil the order."
+				"2) &bCrafting Network&r checks that you have enough &eCrafting Storage&r to hold all the required materials to fulfil the order."
 				""
 				"3) &bCrafting Network&r sends the order to the available &ePattern Provider&r containing the &eRequest's Pattern&r"
 				""
-				"4) &ePattern Provider&r informs the adjacent &eMolecular Assemblers&r of the &eRequest&r and provides the nececary materials from the connected &bStorage Network&r and the &ePattern&r's instructions."
+				"4) &ePattern Provider&r informs the adjacent &eMolecular Assemblers&r of the &eRequest&r and provides the necessary materials from the connected &bStorage Network&r and the &ePattern&r's instructions."
 				""
 				"5) &ePattern Provider&r enters an \"sleep\" phase were it awaits the expected outputs, while the &eMolecular Assembler&r works on crafting and returning them."
 				""
@@ -1635,11 +1636,11 @@
 				"{@pagebreak}"
 				"To begin, an &eME Pattern Encoding Terminal&r is required, it is how you can interact with an configure &eBlank Patterns&r."
 				""
-				"Whem opening the terminal, you will notice that it displaces your &bStorage Network&r and the &ePattern Encoding UI&r, while it may look like it it doesn't actually work as an crafting table."
+				"When opening the terminal, you will notice that it displaces your &bStorage Network&r and the &ePattern Encoding UI&r, while it may look like it it doesn't actually work as an crafting table."
 				""
 				"Instead it is an medium for you to insert the recipes you wish to automate and adjust their results if need be."
 				""
-				"&6Tip:&r In order to familiarise yourself with the &ePattern Encoding Terminal&r, try and create the appropriate &ePattern&r for crafting Planks from Logs, then Planks into Sticks."
+				"&6Tip:&r In order to familiarize yourself with the &ePattern Encoding Terminal&r, try and create the appropriate &ePattern&r for crafting Planks from Logs, then Planks into Sticks."
 				""
 				"&6Hint:&r if you need to change the quantity Inputed/Outputed you can &eMiddle Mouse&r the respective item within an pattern to adjust it."
 				"{@pagebreak}"
@@ -1657,11 +1658,11 @@
 				"{@pagebreak}"
 				"As you would expect, the &eCrafting&r, &eSmithing&r and &eStone Cutting Patterns&r are used for their respective blocks but &eProcessing Patterns&r are more unique."
 				""
-				"Processing Patterns are special because your &eOutput&r is not ristricted by your operating block."
+				"Processing Patterns are special because your &eOutput&r is not restricted by your operating block."
 				""
-				"This difference is what gives the opertunity for &eBrewing&r and other &aspecial operations to take place&r."
+				"This difference is what gives the opportunity for &eBrewing&r and other &aspecial operations to take place&r."
 				""
-				"How that can be done is related to the nature of our &bCrafting Network&r and &ahow it operaterates&r, which we will get into shortly."
+				"How that can be done is related to the nature of our &bCrafting Network&r and &ahow it operates&r, which we will get into shortly."
 				""
 				"But for now lets focus on &eAutomated Crafting&r."
 			]
@@ -1723,7 +1724,7 @@
 		{
 			dependencies: ["786990F250A68E7C"]
 			description: [
-				"As thier name suggests, when powered, &eAnnihilation Planes&r will break the block directly infront of them."
+				"As their name suggests, when powered, &eAnnihilation Planes&r will break the block directly in-front of them."
 				""
 				"Since they lack an &eIndependant Inventory&r, the use of an &eStorage Bus&r &eFiltered&r to only accept the outputs of an mature crop such as &eQuartz Crystals&r will prevent the &eAnnihilation Plane&r from harvesting resources before they have grown."
 				""
@@ -1757,7 +1758,7 @@
 			description: [
 				"The inverse of their counterpart, &eFormation Plates&r can be used to place items including blocks and seeds into the world. "
 				""
-				"They continue to lack an Independant Inventory, but they contain their own &eFilter&r and as such can pull items directly from your &bStorage Network&r with the help of an &eImport Bus&r."
+				"They continue to lack an &eIndependent Inventory&r, but they contain their own &eFilter&r and as such can pull items directly from your &bStorage Network&r with the help of an &eImport Bus&r."
 				""
 				"It can still function on local &eSub-Networks&r when connected to an &eImport Bus&r."
 				"{@pagebreak}"
@@ -1936,11 +1937,11 @@
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"You've digitlized your &eStorage&r, &eFluids&r and even your &eChemicals&r, but why stop there?"
+				"You've digitized your &eStorage&r, &eFluids&r and even your &eChemicals&r, but why stop there?"
 				""
-				"With the power of the &eSpatial IO Port&r you can &adigitilize your world!&r"
+				"With the power of the &eSpatial IO Port&r you can &adigitalize your world!&r"
 				""
-				"Your &eSpatial IO Port&r can let you digitlize anything from an &eSingle Block&r to &eStructures&r spanning up to &b128x128x128 Blocks&r."
+				"Your &eSpatial IO Port&r can let you digitize anything from an &eSingle Block&r to &eStructures&r spanning up to &b128x128x128 Blocks&r."
 				"{@pagebreak}"
 				"It's functions in an simple manner, find your location, and build around it using &eSpatial Pylons&r until you cover its &eLength&r, &eWidth&r and &eHeight&r."
 				""
@@ -2152,7 +2153,6 @@
 				"--That same &5Fluix Cable&r can be used to &eImport/Export&r, by introducing a &eMediating Storage&r, such as an barrel for &eItems&r or an tank for &eFluids/Gases&r, and connecting to the &ePrimary Network&r using an &eImport Bus Filtered&r with the items your operations need, and an &eExport Bus Filtered&r with the outputs that you've produced."
 				""
 				"*Don't forget to use an &eStorage Bus&r/&eMe Interface&r as your &eSub-Network&r needs a way to access the &eMediating Storage&r*"
-
 				"{@pagebreak}"
 				"&eImport Bus&r on the left of the barrel to recive output, &eExport Bus&r on the top of the barrel to provide resources, &eStorage Bus&r on the front of the barrel allowing &eSub-Network&r access into Mediating Storage, &7Quartz Fiber&r on the only connecting &5Fluix Cable&r between the &eSub-Network&r and &bPrimary Network&r to provide &7Power&r."
 				"{image:modpack:textures/ae2_simple_sub_network.png width:200 height:100 align:center}"
@@ -2185,7 +2185,7 @@
 				""
 				"&6Recall:&r if you need to change the quantity Inputed/Outputed you can &eMiddle Mouse&r the respective item to adjust it."
 				""
-				"&6Tip:&r For the majority of cases, manually adding an excess of &eBlaze Powder&r is suffecent due to it's inherit efficency, but under large scale operations you might want to automate that too."
+				"&6Tip:&r For the majority of cases, manually adding an excess of &eBlaze Powder&r is suffecent due to it's inherit efficiency, but under large scale operations you might want to automate that too."
 			]
 			icon: "minecraft:brewing_stand"
 			id: "37ED052F5D0295A2"
@@ -2355,7 +2355,7 @@
 				item: "ae2:condenser"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -2469,7 +2469,7 @@
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
 			description: [
-				"Self explainatory isn't it, an portable \"railgun\" capeable of firing the most &4fersome projectiles&r such as &eMetalic Nuggets&r and &eMatter Balls&r."
+				"Self explanatory isn't it, an portable \"railgun\" capable of firing the most &4fersome projectiles&r such as &eMetalic Nuggets&r and &eMatter Balls&r."
 				""
 				"Can be easily filled in an ME Chest."
 				""
@@ -2499,7 +2499,7 @@
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
 			description: [
-				"If you ever wanted to &epaint your pre-installed Cables&r, and other painable objects, the &eColour Applicator&r is the tool for you."
+				"If you ever wanted to &epaint your pre-installed Cables&r, and other paintable objects, the &eColour Applicator&r is the tool for you."
 				""
 				"It can consume dyes or &ePaintballs&r to spread color, and can clean up behind itself when using snowballs."
 				""
@@ -2546,7 +2546,7 @@
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"&eVibrantion Chambers&r are &7Power Producers&r ment for more extensive tasks, they produce &e40 AE/t&r but consume fuel very rapidly."
+				"&eVibrantion Chambers&r are &7Power Producers&r meant for more extensive tasks, they produce &e40 AE/t&r but consume fuel very rapidly."
 				""
 				"They're &cexpensive&r outside of the initial stages of your &eNetwork&r so make sure you move onto other sources before growing your operations too far."
 			]
@@ -2559,6 +2559,28 @@
 			}]
 			x: 8.0d
 			y: -1.0d
+		}
+		{
+			description: [
+				"If you are looking to dive into &dApplied Energistics&r, and have not found an &eCrashed Meteorite&r yet, here's how to get started:"
+				""
+				"1) Craft a &eWooden Handle&r"
+				"2) Craft and Place a &eCharger&r"
+				"3) Place the Wooden Handle on the Charger"
+				"4) Place a &eCompass&r into the Charger"
+				"5) Turn the Wooden Handle &7(Hold Right-Click)&r until your Compass transforms into a &eMeteorite Compass&r"
+				"6) Follow the Meteorite Compass towards your nearest Meteorite."
+			]
+			id: "5CF065DD209B4B1C"
+			subtitle: " What is all this?!"
+			tasks: [{
+				id: "09C14766BCC711D9"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: " Getting Started with &dApplied Energistics&r"
+			x: -5.0d
+			y: 0.0d
 		}
 	]
 	title: "&6Applied Energistics 2"
