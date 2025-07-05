@@ -1,0 +1,482 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mailbox"
+	group: "12BCDDCCCA65FD77"
+	icon: "mighty_mail:mangrove_mail_box"
+	id: "41A25067DC4A9F95"
+	images: [{
+		height: 10.0d
+		image: "advancementframes:block/board_back"
+		rotation: 0.0d
+		width: 10.0d
+		x: 1.0d
+		y: 3.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["740DD4098893630E"]
+			description: ["{chapter.1.quest.60.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "kubejs:elegant_letter"
+				tag: { }
+			}
+			id: "55C7DE6FA0F4E388"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: "create:orange_toolbox"
+					id: "1E4F523BAB1211F7"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.60.reward.1.title}"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "quark:crate"
+					id: "6B1393250318C85B"
+					table_id: 7614141430405098414L
+					title: "{chapter.1.quest.60.reward.2.title}"
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "mekanism:cardboard_box"
+					id: "042BBCE86D4E40C7"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "kubejs:mossy_letter"
+						tag: { }
+					}
+					id: "4FB11B31FDF418A1"
+					title: "&eDelivery!"
+					type: "command"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				elapsedTime: 28800L
+				icon: {
+					Count: 1
+					id: "kubejs:elegant_letter"
+					tag: { }
+				}
+				id: "7B39F363C2088C46"
+				title: "&e8 Hour Delivery"
+				type: "questsadditions:time"
+			}]
+			title: "{chapter.1.quest.60.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: ["{chapter.1.quest.58.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "1FC9E8044B1B61B4"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "4663D189BEB1D713"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "2B26880DB70189CB"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "2AAC15C9FF587A16"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "mekanism:cardboard_box"
+					id: "5058D418D42D2D0C"
+					table_id: 8813467126958483284L
+					title: "&6Box of Hand-Me-Downs &7(Pick One!)"
+					type: "choice"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "11E5CB5A450D1E78"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3A4937EAD954AD94"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.58.subtitle}"
+			tasks: [{
+				days: 2
+				icon: {
+					Count: 1
+					id: "alexscaves:pure_darkness"
+					tag: { }
+				}
+				id: "6EE9BF1E4EB1303F"
+				title: "Survive The Night!"
+				type: "questsadditions:days"
+			}]
+			title: "&6Letter From Mom!"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&4Greetings,"
+				""
+				"&4Tis I, your great uncle Marquess Vladimir von Barcula."
+				""
+				"&4I am so happy that you decided to take after my side of the family."
+				""
+				"&4I would say you're a young reflection of me, but we don't have those anymore ah ah ah ah ah."
+				""
+				"&4You may soon find that drinking only blood all the time can be quite boring, so I'm sending you a book with my favorite recipes."
+				""
+				"&4Use it yourself or give it to one of your &mminions&r &4human friends."
+				""
+				"&4I can't wait for you to sink your teeth into them!&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:scorched_letter"
+			id: "20241D6DD5AAE70E"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "0FE39D54AB3123B9"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							AntiqueInk: 1b
+							author: "Cheferatu"
+							display: {
+								Lore: ["[\"\",{\"text\":\"It's a cookbook!\",\"italic\":false,\"color\":\"white\"}]"]
+								Name: "[\"\",{\"text\":\"To Serve Man\",\"italic\":false,\"color\":\"red\"}]"
+							}
+							generation: 3
+							pages: [
+								"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"To \"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"text\":\"\\nI hope you enjoy these recipes as much as I did.\\n\\nLove,\\nYour Gruncle Vlad\"}],\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Check your quest book)\"}"
+							]
+							title: "To Serve Man"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02B2890D310DA2BA"
+					item: {
+						Count: 1
+						id: "vampiresneedumbrellas:magenta_gold_umbrella"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Gruncle Vlad! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "3355346697CAE973"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "3F4DF0D157D587F8"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+			]
+			shape: "heart"
+			subtitle: "&4You've got Mail!"
+			tasks: [{
+				advancement: "vampirism:vampire/become_vampire"
+				criterion: ""
+				id: "3729DE257CBBB5D9"
+				title: "Become a Vampire"
+				type: "advancement"
+			}]
+			title: "&4Letter from Gruncle Vlad"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: ["HI HONEY IT'S GRAMMA YOUR AUNT MADE YOU THIS SWEATER HOPEFULLY IT WILL HELP KEEP YOU WARM WHERE YOU'RE GOING."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "kubejs:elegant_letter"
+				tag: { }
+			}
+			id: "72E36AD06B2A1359"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "2829A8EA204C2F6D"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							AttributeModifiers: [{
+								Amount: -0.002d
+								AttributeName: "generic.movement_speed"
+								Name: "1751425048388"
+								Slot: "chest"
+								UUID: [I;
+									-12561
+									40661
+									214620
+									-81322
+								]
+							}]
+							Damage: 0
+							HideFlags: 128
+							Trim: {
+								material: "amethyst"
+								pattern: "vex"
+							}
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Handmade by your aunt.\",\"italic\":false}]"
+									"[\"Not the correct size.\"]"
+								]
+								Name: "[\"\",{\"text\":\"Ill-Fitting Sweater\",\"italic\":false,\"color\":\"aqua\"}]"
+								color: 15961002
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "artifacts:crystal_heart"
+					id: "332B557C155F4356"
+					title: "Grandma's Love"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Grandma! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "235496D94F1A7F34"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "7680F846441F2853"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5BF5D48A5BC23C93"
+				title: "Visit the Nether"
+				type: "dimension"
+			}]
+			title: "Letter from Grandma!"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: ["HI HONEY IT'S GRAMMA I KNOW HOW MUCH YOU LOVE BARRY SO I GOT YOU THIS COUPON SO YOU CAN USE IT IF THEY HAVE ONE OF THOSE STORES THERE."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "kubejs:elegant_letter"
+				tag: { }
+			}
+			id: "60ECB29FDAF50D27"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "70304ECA7E4A888C"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:discount_voucher"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -1.0f
+							}
+							display: {
+								Name: "[\"\",{\"text\":\"Expired Coupon for Build-A-Barry Workshop\",\"italic\":false,\"color\":\"gray\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "artifacts:crystal_heart"
+					id: "60CD9FC58EB8EBDD"
+					title: "Grandma's Love"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Grandma! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "53EC069D4D9D9860"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "4ADF9B64B6E6822C"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "5DCC2E2C67279BFA"
+				title: "Visit the Bumblezone"
+				type: "dimension"
+			}]
+			title: "Letter from Grandma!"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Thanks for signing up for Rat Facts! You now will receive fun daily facts about RATS! >o<"
+				"Did you know that rats are the largest mammal both on the land and in the sea?!"
+				"Would you like to receive a Rat Fact every hour? "
+				"reply: "
+				"{\"text\":\"AAAAAAAAAA\",\"obfuscated\":true} "
+				"to cancel"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "rats:idol_of_ratlantis"
+			id: "07C48D5A4303F87F"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "339D3EBD090D56AC"
+					item: {
+						Count: 1
+						id: "rats:rat_papers"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → YOU HAVE RECIEVED A VERY IMPORTANT AND URGENT LETTER! Open your Quest Book NOW!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "45400B505F330710"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "1C9841FF83FC91FB"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				id: "7AD4522B096A8B97"
+				observe_type: 5
+				timer: 0L
+				title: "Witness a rat!"
+				to_observe: "rats:rat"
+				type: "observation"
+			}]
+			title: "THANK YOU FOR SIGNING UP FOR RAT FACTS"
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	title: "Mailbox"
+}
