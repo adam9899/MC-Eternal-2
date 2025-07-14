@@ -41,7 +41,7 @@
     "mce.questing.botania.runes.desc": "Runes of Botanical origin, some forged to embody aspects of the world, and some to embody aspects of the beings within it.\n\n&6&oNearby Quests will unlock as each rune is acquired!",
 
     "mce.questing.botania.terra_plate.name": "&bTerrestrial Agglomeration Plate",
-    "mce.questing.botania.terra_plate.sub": "Terraforged &c&lRequires Expert Mode",
+    "mce.questing.botania.terra_plate.sub": "Terraforged",
     "mce.questing.botania.terra_plate.desc": "The &6Terrestrial Agglomeration Plate&r, used to forge &aTerrasteel&r using large amounts of &bMana&r.\n\nTo operate it, simply drop the ingredient items &dontop of the Plate, or Interact with the plate while holding them&r.\nNote that it can only forge one item at a time, and if the process is interrupted, &call &bMana&c it has consumed so far is lost!&r\n\nUnless you want a difficult challenge, you'll need to place a &6Spark&r ontop of both the Plate and any nearby &bMana Pools&r you want to use Mana from, the items on the plate can despawn, and a few &bMana Spreaders&r will not provide Mana to the plate anywhere near fast enough.\n\n&6&oRequired to make Corporea Automation Devices in MCE2!",
 
     "mce.questing.botania.elven_portal.name": "&6The Portal to Alfheim",

@@ -84,10 +84,10 @@
 			dependency: "35A0BA1BB8DDE343"
 			height: 1.0d
 			image: "minecraft:block/cave_vines_plant"
-			rotation: 90.0d
+			rotation: -135.0d
 			width: 1.0d
-			x: 5.535714285714285d
-			y: 2.0238095238095326d
+			x: 3.578571428571408d
+			y: 3.5010204081632708d
 		}
 		{
 			dependency: "5B5A340DB47B9C89"
@@ -218,10 +218,10 @@
 			dependency: "35A0BA1BB8DDE343"
 			height: 1.0d
 			image: "minecraft:block/cave_vines_lit"
-			rotation: 90.0d
+			rotation: -135.0d
 			width: 1.0d
-			x: 4.528571428571425d
-			y: 2.028571428571425d
+			x: 4.292857142857123d
+			y: 2.7295918367346985d
 		}
 		{
 			dependency: "5D2ED1168A45A14A"
@@ -686,9 +686,9 @@
 		{
 			dependencies: ["5B5A340DB47B9C89"]
 			description: [
-				"The &eTinker's Anvil &rallows for tool modification. Try applying modifiers using your tools upgrade slots!"
+				"The &eTinker's Anvil &rhaving more Slots allows you to add some new Modifiers to your tools! Try applying modifiers using your tool's &dUpgrade&r slots!"
 				""
-				"\"&l&6Hint:&r Trying applying &cRedstone&r to one of your Tools. It'll make it a bit faster! (But only at breaking stuff!)\""
+				"&l&6Hint:&r Try applying &cRedstone&r to one of your Tools. It'll make it a bit faster! (But only at breaking stuff!)"
 				"{image:modpack:textures/tc_4.png width:180 height:100 align:center}"
 			]
 			hide_until_deps_complete: true
@@ -753,7 +753,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["116CDE1481CC3846"]
+			dependencies: ["033F072A5A4913D0"]
 			description: [
 				"&eThe Smeltery&r is a multi-block structure used in the creation of higher-tier weapons and tools using metal and alloys."
 				""
@@ -762,7 +762,8 @@
 				""
 				"&6&lHint:&r Adding extra layers of &eSeared Bricks&r will increase the Smeltery's capacity!"
 				"{image:modpack:textures/tc_3.png width:180 height:100 align:center}"
-				"For more detailed information, read &eMighty Smelting"
+				"For more detailed information, read &eMighty Smelting&r."
+				"&e&lTip:&r Try &dPondering&r the &eSmeltery Controller&r!"
 			]
 			hide_until_deps_visible: true
 			id: "35A0BA1BB8DDE343"
@@ -812,8 +813,16 @@
 			subtitle: "Craft the blocks needed and build a &eTinker's Smeltery"
 			tasks: [
 				{
+					icon: "tconstruct:seared_fuel_tank"
 					id: "1F03ED9C97882BBB"
-					item: "tconstruct:seared_fuel_tank"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+					title: "Any Seared Tank/Gauge"
 					type: "item"
 				}
 				{
@@ -848,6 +857,12 @@
 					item: "tconstruct:seared_drain"
 					type: "item"
 				}
+				{
+					advancement: "tconstruct:smeltery/structure"
+					criterion: ""
+					id: "4C12719F83E9C659"
+					type: "advancement"
+				}
 			]
 			title: "&eThe Smeltery"
 			x: 6.0d
@@ -865,6 +880,7 @@
 				"{image:modpack:textures/tc_2.png width:180 height:100 align:center}"
 			]
 			hide_until_deps_visible: true
+			icon: "tconstruct:seared_melter"
 			id: "116CDE1481CC3846"
 			rewards: [
 				{
@@ -896,7 +912,26 @@
 				}
 				{
 					id: "1B53F1765C5668CF"
-					item: "tconstruct:seared_heater"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tconstruct:seared_heater"
+								}
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "tconstruct:seared_tanks"
+									}
+								}
+							]
+						}
+					}
+					title: "&dSeared Heater &eOR &dAny Seared Tank/Gauge"
 					type: "item"
 				}
 				{
@@ -971,19 +1006,11 @@
 				}
 			]
 			subtitle: "Craft a &eSmeltery Controller&r"
-			tasks: [
-				{
-					id: "53B009F706E3DB34"
-					item: "tconstruct:smeltery_controller"
-					type: "item"
-				}
-				{
-					advancement: "tconstruct:smeltery/structure"
-					criterion: ""
-					id: "1FFB23C4B4EF648D"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				id: "53B009F706E3DB34"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.0d
 		}
@@ -1040,10 +1067,10 @@
 					type: "item"
 				}
 				{
-					count: 10
+					count: 5
 					id: "20ED29705B6CE042"
 					item: "minecraft:gold_ingot"
-					random_bonus: 15
+					random_bonus: 2
 					type: "item"
 				}
 				{
@@ -1054,25 +1081,19 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Craft a &eGold Hammer Cast"
-			tasks: [
-				{
-					id: "04234FD4A04EBD4A"
-					item: "tconstruct:hammer_head_cast"
-					type: "item"
-				}
-				{
-					id: "18374C45F3AD2CF5"
-					item: {
-						Count: 1
-						id: "tconstruct:hammer_head"
-						tag: {
-							Material: "tconstruct:stone"
-						}
+			subtitle: "Craft a &eGold Cast"
+			tasks: [{
+				id: "04234FD4A04EBD4A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:casts/gold"
 					}
-					type: "item"
 				}
-			]
+				title: "Any Gold Cast"
+				type: "item"
+			}]
 			title: "&eLearning About Casts!"
 			x: 6.0d
 			y: 2.0d
@@ -1080,9 +1101,9 @@
 		{
 			dependencies: ["6567F9EEFDDB5CAB"]
 			description: [
-				"The &eTinker's Anvil&r is used to assemble more powerful tools! "
+				"The &eTinker's Anvil&r is an upgraded form of the &eTinker Station&r, which can also assemble &6Broad Tools&r!"
 				""
-				"Craft your first &eTinkers' Tool &rusing a &eTinker's Anvil&r"
+				"&6Broad Tools&r are more powerful, such as having &dAoE Mining&r and doing &dmore Damage per hit&r, but tend to have slower speeds."
 			]
 			id: "5B5A340DB47B9C89"
 			rewards: [
@@ -1132,12 +1153,11 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Craft your first &eTinkers' Tool &rusing a &eTinker's Anvil&r"
+			subtitle: "Craft a &eTinker's Anvil&r"
 			tasks: [{
-				advancement: "tconstruct:tools/tinker_tool"
+				advancement: "tconstruct:smeltery/tinkers_anvil"
 				criterion: ""
 				id: "425488D147D8FD10"
-				title: "Create a Tinkers' Tool"
 				type: "advancement"
 			}]
 			title: "&eA love for Smithing!"
@@ -1201,6 +1221,7 @@
 		}
 		{
 			dependencies: ["0D88B45349B3E660"]
+			description: ["&e&lTip:&r Ichor can also be melted into down &6Blazing Blood&r!"]
 			hide_until_deps_complete: true
 			id: "55C98175116E85CB"
 			rewards: [
@@ -1228,9 +1249,12 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6567F9EEFDDB5CAB"]
-			description: ["&eBlank Sand Casts &rare temporary, single-use molds made from Sand or Red Sand. They’re quick and easy to make and are great for basic part casting."]
-			icon: "tconstruct:pick_head_sand_cast"
+			dependencies: ["116CDE1481CC3846"]
+			description: [
+				"&eBlank Sand Casts &rare temporary, single-use molds made from Sand or Red Sand. They’re quick and easy to make and are great for basic part casting."
+				""
+				"&e&lTip:&r Don't have or want to make a part to press into a Sand Cast? Put it Part Builder to carve out the pattern in it!"
+			]
 			id: "681F15011F347435"
 			rewards: [{
 				amount: 50L
@@ -1243,7 +1267,23 @@
 			tasks: [
 				{
 					id: "48F520681FD9092B"
-					item: "tconstruct:blank_sand_cast"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tconstruct:blank_sand_cast"
+								}
+								{
+									Count: 1b
+									id: "tconstruct:blank_red_sand_cast"
+								}
+							]
+						}
+					}
+					title: "Any Blank Sand Cast"
 					type: "item"
 				}
 				{
@@ -1253,14 +1293,12 @@
 					type: "advancement"
 				}
 			]
-			x: 5.0d
-			y: 2.0d
+			title: "Sand Casts"
+			x: 4.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"1188A9FDEE254A9F"
-				"55C98175116E85CB"
-			]
+			dependencies: ["0D88B45349B3E660"]
 			description: [
 				"To make more advanced materials from cobalt, you will want to acquire some &eblazing blood &rfrom melting a blaze. The easiest way to do this is to trick newly spawned blazes into a smeltery, though you can also craft weapons capable of extracting &eblazing blood &rfrom live blazes."
 				""
@@ -1310,10 +1348,9 @@
 			shape: "pentagon"
 			subtitle: "Fill a tank with &eBlazing Blood"
 			tasks: [{
-				advancement: "tconstruct:foundry/blaze"
-				criterion: ""
-				id: "7F479C710CA0CF30"
-				type: "advancement"
+				id: "7ED52F088914A08A"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
 			}]
 			title: "&eBathing in the Blood of my Blazes"
 			x: 2.0d
@@ -1321,6 +1358,8 @@
 		}
 		{
 			dependencies: ["5D2ED1168A45A14A"]
+			description: ["Boost a Tool's Upgrade Slot count by 6 using the &dHarmonious&r, &dResurrected&r, &dWraught&r, &dCrystalline&r, and &dGilded&r modifiers!"]
+			hide_until_deps_complete: true
 			id: "734CBF5AC8627228"
 			rewards: [
 				{
@@ -1369,7 +1408,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Give a tool 6 additional upgrade slots"
+			subtitle: "Maxed Out!"
 			tasks: [{
 				advancement: "tconstruct:tools/upgrade_slots"
 				criterion: ""
@@ -1377,11 +1416,11 @@
 				type: "advancement"
 			}]
 			title: "&eUpgrading to the Max!"
-			x: 10.0d
-			y: 0.0d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
-			description: ["Deal 21 damage or more in a single hit."]
+			description: ["&oMaybe &6Niko &r&ohas a &eTool &r&owe can use?"]
 			id: "36EE964CF3FB56AC"
 			rewards: [
 				{
@@ -1425,7 +1464,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Maybe &6Niko &rhas a &eTool &rwe can use?"
+			subtitle: "Deal 21 damage or more in a single hit."
 			tasks: [{
 				advancement: "tconstruct:tools/one_shot"
 				criterion: ""
@@ -1614,14 +1653,14 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "square"
-			subtitle: "Craft a full set of &eTinkers' Armor"
+			subtitle: "Craft a full set of &eTinkers' Plate Armor"
 			tasks: [{
 				advancement: "tconstruct:foundry/plate_armor"
 				criterion: ""
 				id: "60307357290D204B"
 				type: "advancement"
 			}]
-			title: "&eCover Me in Tinkers'"
+			title: "&eCover Me in Tinkering"
 			x: 7.0d
 			y: -1.0d
 		}
@@ -1688,7 +1727,7 @@
 				"It will not alloy, allowing for bulk storage of ores without worrying about accidental mixtures. "
 				""
 				"&e&lTip:&r Ores melted in the foundry will produce byproducts, granting a more valuable resource than the original ore."
-				"&6&lHint:&r &eThe Foundry&r needs to have it's corners filled to function"
+				"&6&lHint:&r Unlike The Smeltery, &eThe Foundry&r requires blocks on its edges and corners!"
 			]
 			id: "1188A9FDEE254A9F"
 			rewards: [
@@ -1778,7 +1817,13 @@
 				"7F42CAE7EEF5DD33"
 				"1CF88664139833C6"
 			]
+			description: [
+				"&eManyullyn&r is a powerful material that temporarily boosts your Damage dealt a bit with every hit you give or deal! (depending on if it's in your Weapon or Armor!)"
+				""
+				"&dYou can cast an Ingot or a Part for this quest!"
+			]
 			id: "3E1D5987122DB04B"
+			min_required_tasks: 1
 			rewards: [
 				{
 					amount: 150L
@@ -1822,11 +1867,27 @@
 			]
 			shape: "pentagon"
 			subtitle: "Alloy and produce &eManyullyn"
-			tasks: [{
-				id: "45A78721E94EF8D6"
-				item: "tconstruct:manyullyn_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "45A78721E94EF8D6"
+					item: "tconstruct:manyullyn_ingot"
+					type: "item"
+				}
+				{
+					id: "74CC2A2F59492D0F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:manyullyn"
+							}
+						}
+					}
+					title: "Any Manyullyn Part"
+					type: "item"
+				}
+			]
 			title: "&eManyullyn"
 			x: 0.0d
 			y: -1.0d
@@ -2119,7 +2180,7 @@
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: ["Used as a slotless upgrade, giving any tool both one upgrade and ability slot."]
+			description: ["Used as a slotless upgrade, giving your tool another &dAbility slot&r."]
 			hide_until_deps_complete: true
 			id: "6DC19F61040F28BA"
 			rewards: [{
@@ -2141,8 +2202,8 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["734CBF5AC8627228"]
-			description: ["&e&lTip:&r Need to undo a modifier or ability? No need to scrap your tool simply remove it!"]
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["&e&lTip:&r Need to undo a modifier or ability? No need to scrap your Tool! simply remove it!"]
 			id: "44F2CF9E5AEDCCAC"
 			rewards: [{
 				amount: 50L
@@ -2158,8 +2219,8 @@
 				type: "item"
 			}]
 			title: "&eWhoops! where's undo?"
-			x: 11.0d
-			y: -1.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
@@ -2202,7 +2263,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "diamond"
-			subtitle: "Obtain a &eEcho Shard"
+			subtitle: "Obtain an &eEcho Shard"
 			tasks: [{
 				id: "48368A253BABAAB6"
 				item: "minecraft:echo_shard"
@@ -2213,8 +2274,17 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["1CF88664139833C6"]
+			dependencies: [
+				"1CF88664139833C6"
+				"7F42CAE7EEF5DD33"
+			]
+			description: [
+				"&eHepatizon&r is a powerful material that temporarily increases your Mining Speed a bit the longer you mine!"
+				""
+				"&dYou can cast an Ingot or a Part for this quest!"
+			]
 			id: "2705B4498048E843"
+			min_required_tasks: 1
 			rewards: [
 				{
 					amount: 100L
@@ -2254,11 +2324,27 @@
 				}
 			]
 			subtitle: "Alloy and produce &eHepatizon"
-			tasks: [{
-				id: "18BA47AF8A70F225"
-				item: "tconstruct:hepatizon_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18BA47AF8A70F225"
+					item: "tconstruct:hepatizon_ingot"
+					type: "item"
+				}
+				{
+					id: "4F8E9551A4BC0E9F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:hepatizon"
+							}
+						}
+					}
+					title: "Any Hepatizon Part"
+					type: "item"
+				}
+			]
 			title: "&eHepatizon"
 			x: 1.0d
 			y: -2.0d
@@ -2326,9 +2412,12 @@
 				"Need more modifiers slots? &eRose Gold &ris a material that comes with a few extra!"
 				""
 				"&eRose Gold &rcan be made by alloying gold and copper in the smeltery"
+				""
+				"&dYou can cast an Ingot or a Part for this quest!"
 			]
 			hide_until_deps_complete: true
 			id: "665701DB94D4E40E"
+			min_required_tasks: 1
 			rewards: [{
 				amount: 50L
 				currency: "eternalcurrencies:coins"
@@ -2337,11 +2426,27 @@
 				type: "eternalcurrencies:currency"
 			}]
 			subtitle: "Alloy and produce &eRose Gold"
-			tasks: [{
-				id: "10D6A8A9D1B9DA54"
-				item: "tconstruct:rose_gold_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "10D6A8A9D1B9DA54"
+					item: "tconstruct:rose_gold_ingot"
+					type: "item"
+				}
+				{
+					id: "204116E8A57AE4E9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:rose_gold"
+							}
+						}
+					}
+					title: "Any Rose Gold Part"
+					type: "item"
+				}
+			]
 			title: "&eAlloying some Upgrades!"
 			x: 6.047619047619037d
 			y: 5.6190476190476275d
@@ -2353,7 +2458,7 @@
 				""
 				"Overslime when applied to tools consume overslime instead of durability, it can be reapplied by combining the tool with more slime. "
 				""
-				"\"&6&lHint:&r Tools not made of slime can have Overslime applied, but at a small cost to their Stats!\""
+				"&6&lHint:&r Tools not made of slime can have Overslime applied, but at a small cost to their Stats!"
 				""
 				"&e&lTip:&r Different colors of slime each have their own purpose, so try to collect them all."
 			]

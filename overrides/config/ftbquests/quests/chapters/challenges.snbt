@@ -432,7 +432,7 @@
 				}
 				{
 					disable_toast: true
-					elapsedTime: 180000L
+					elapsedTime: 680000L
 					gameTime: "system"
 					icon: "supplementaries:safe"
 					id: "225E3C0CF3505D08"

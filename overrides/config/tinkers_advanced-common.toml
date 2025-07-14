@@ -89,7 +89,7 @@
 	matter_manipulator_base_multiplier = 1.0
 	#Base mining speed multiplier of Matter Manipulator when is conducting AOE mining, 0.5 by default.
 	#Range: 0.0 ~ 2.147483647E9
-	matter_manipulator_aoe_base_multiplier = 0.5
+	matter_manipulator_aoe_base_multiplier = 0.3
 	#Mining fluid bonus multiplier of Matter Manipulator , 0.5 by default , meaning that each 200 °C adds 1 mining speed.
 	#Range: 0.0 ~ 2.147483647E9
 	matter_manipulator_fluid_bonus_multiplier = 0.5
@@ -103,11 +103,11 @@
 	ionized_cannon_base_capacity_factor = 10.0
 	#Base fluid efficiency for Ionized Cannon, 0.0 by default.
 	#Range: 0.0 ~ 2.147483647E9
-	ionized_cannon_base_fluid_efficiency = 0.0
+	ionized_cannon_base_fluid_efficiency = 0.3
 	#Ionized Cannon behaviour
 	#The multiplier of fluid consumption of Ionized Cannon, 1.0 by default.
 	#Range: 0.0 ~ 2.147483647E9
-	ionized_cannon_fluid_factor = 1.0
+	ionized_cannon_fluid_factor = 1.5
 	#Damage multiplier for Ionized Cannon when using correct fluids, 4.0 by default.
 	#Range: 1.0 ~ 2.147483647E9
 	ionized_cannon_damage_bonus = 4.0
@@ -116,7 +116,7 @@
 	ionized_cannon_base_scale = 1.0
 	#Base attack range for Ionized Cannon, 12.0 by default.
 	#Range: 0.0 ~ 2.147483647E9
-	ionized_cannon_base_range = 15.0
+	ionized_cannon_base_range = 16.0
 	#Base duration for Ionized Cannon to charge, 40 ticks by default.
 	#Range: > 0
 	ionized_cannon_base_duration = 40

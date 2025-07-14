@@ -749,7 +749,6 @@
 			description: ["{mce.questing.botania.corporea_automation.desc}"]
 			hide_until_deps_complete: true
 			id: "3940988637539E72"
-			min_required_tasks: 1
 			rewards: [
 				{
 					count: 3
@@ -772,23 +771,18 @@
 				}
 			]
 			subtitle: "{mce.questing.botania.corporea_automation.sub}"
-			tasks: [
-				{
-					id: "28B16B3E4C00A69F"
-					item: "botania:corporea_funnel"
-					type: "item"
+			tasks: [{
+				id: "403E6ADA1EFF9D79"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce:botania/corporea_automation_device"
+					}
 				}
-				{
-					id: "7F2589B36A4D4355"
-					item: "botania:corporea_interceptor"
-					type: "item"
-				}
-				{
-					id: "403E6ADA1EFF9D79"
-					item: "botania:corporea_retainer"
-					type: "item"
-				}
-			]
+				title: "{mce.questing.botania.task.any_corporea_automation_device}"
+				type: "item"
+			}]
 			title: "{mce.questing.botania.corporea_automation.name}"
 			x: -7.0d
 			y: 1.0d

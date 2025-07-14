@@ -6,6 +6,20 @@ const tagNoFarming = "#c:spawning_not_supported"
 
 ServerEvents.tags("entity_type", event => {
 
+    //extra Bosses
+    // for some reason they weren't already idk why
+    event.add("forge:bosses", [
+        "bosses_of_mass_destruction:lich",
+        "bosses_of_mass_destruction:gauntlet",
+        "bosses_of_mass_destruction:void_blossom",
+        "mowziesmobs:ferrous_wroughtnaut",
+        "mowziesmobs:frostmaw",
+        "mowziesmobs:umvuthi",
+        "mowziesmobs:sculptor",
+        "masquerader_mod:masquerader"
+    ])
+
+
     //No Capture
     event.add("c:capturing_not_supported", [
         "#forge:bosses",
@@ -22,18 +36,10 @@ ServerEvents.tags("entity_type", event => {
         "irons_spellbooks:cultist",
         "goblintraders:goblin_trader",
       "goblintraders:vein_goblin_trader",
-        "bosses_of_mass_destruction:lich",
-        "bosses_of_mass_destruction:gauntlet",
-        "bosses_of_mass_destruction:void_blossom",
-        "mowziesmobs:ferrous_wroughtnaut",
-        "mowziesmobs:frostmaw",
-        "mowziesmobs:umvuthi",
-        "mowziesmobs:sculptor",
         "iceandfire:lightning_dragon",
         "iceandfire:fire_dragon",
         "iceandfire:ice_dragon",
         "iceandfire:sea_serpent",
-        "masquerader_mod:masquerader",
         /occultism:.*((?=possessed)|(?=familiar)).*/,
         "occultism:otherworld_bird",
         "occultism:afrit_wild",
@@ -81,5 +87,18 @@ ServerEvents.tags("entity_type", event => {
 
     event.add("pneumaticcraft:vacuum_trap_blacklisted", [
         tagNoFarming
+    ])
+
+    
+
+    //No Teleport
+    // mostly just block bosses from being force warped, cause that is kinda silly.
+
+    // Hexcasting, blocks Greater Teleportation
+    event.add("hexcasting:cannot_teleport", [
+        "#forge:bosses",
+        "iceandfire:lightning_dragon",
+        "iceandfire:fire_dragon",
+        "iceandfire:ice_dragon"
     ])
 })

@@ -24,8 +24,6 @@ StartupEvents.registry("item", event => {
 
   event.create('mossy_letter1').displayName('§2Bodyguard Contract - Bear').glow(true);
 
-  event.create('cat_burger').displayName('§eStrange Burger').glow(true);
-
   event.create('elegant_letter').displayName('§eBodyguard Contract - Kobolediator').glow(true);
 
   event.create('eternal_engine').displayName('§dEternal Engine').glow(true);

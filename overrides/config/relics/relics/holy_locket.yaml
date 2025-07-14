@@ -152,7 +152,7 @@ abilitiesData:
                     upgradeOperation: ADD
 levelingData:
     # Amount of experience required to level up to relic level 1
-    initialCost: 250
+    initialCost: 950
     # Maximum level of the relic
     maxLevel: 15
     # Increment in experience required for each subsequent level of the relic

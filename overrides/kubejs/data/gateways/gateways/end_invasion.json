@@ -124,7 +124,7 @@
         {
           "attribute": "generic.max_health",
           "operation": "MULTIPLY_TOTAL",
-          "value": 0.5
+          "value": 0.1
         },
         {
           "attribute": "generic.movement_speed",

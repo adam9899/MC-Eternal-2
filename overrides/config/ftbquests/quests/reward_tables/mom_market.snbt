@@ -1,0 +1,1436 @@
+{
+	hide_tooltip: true
+	icon: "treasure2:gold_strongbox"
+	id: "6506BBB23EC5C47A"
+	loot_crate: {
+		color: 16733695
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "mom_market"
+	}
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "relics:reflection_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:magma_walker"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:midnight_robe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:drowned_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:jellyfish_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:hunter_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:rage_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:ice_skates"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:bastion_ring"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:arrow_quiver"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:enders_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:elytra_booster"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:magic_mirror"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:ice_breaker"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:blazing_flask"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:spore_sack"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:amphibian_boot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:leather_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:horse_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:wool_mitten"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:umbrella"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:plastic_drinking_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:novelty_drinking_hat" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:snorkel"
+				tag: {
+					Damage: 0
+				}
+			}
+			random_bonus: 1
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:night_vision_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:villager_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:superstitious_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:lucky_scarf"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:scarf_of_invisibility"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:cross_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:panic_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:flame_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:thorn_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:charm_of_sinking"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:cloud_in_a_bottle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:obsidian_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:antidote_vessel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:universal_attractor" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:crystal_heart"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:helium_flamingo"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:digging_claws"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:feral_claws" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:power_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:fire_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:pocket_piston" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:vampiric_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:golden_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:aqua_dashers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:bunny_hoppers"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:kitty_slippers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:running_shoes"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:steadfast_spikes"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:flippers"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:whoopee_cushion", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:running_shoes"
+				tag: {
+					Damage: 0
+					rpgloot.randomize: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:infinity_ham"
+				tag: {
+					Damage: 0
+					pieces: 3
+				}
+			}
+		}
+		{ count: 3, item: "rats:garbage_pile" }
+		{
+			item: {
+				Count: 1
+				id: "relics:shadow_glaive"
+				tag: {
+					Damage: 0
+					charges: 8
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_eerie_mask"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_ancient_mask"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_botanist_emblem"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_hyper_plus"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_hyper_plus"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_polka_dotted_bows"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_alien_antenna"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_clock_eye"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_four_leaf_clover"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_googly_eyes"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_devil_tail"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_anaglyph_glasses"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_blue_butterfly"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_wicked_eyepatch"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_pink_flower_bud"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_eyepatch"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_engineer_goggles"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_puffy_scarf"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_black_bowtie"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_red_glasses"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_black_tie"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_groucho_glasses"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_tiny_potato_mask"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_witch_pin"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_unicorn_horn"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_thinking_hand"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_thick_eyebrows"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_devil_horns"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_orange_shades"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_cat_ears"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:roller_skates"
+				tag: {
+					abilities: {
+						skating: {
+							points: 0
+							stats: {
+								duration: 24.4659d
+								speed: 0.00339d
+							}
+						}
+					}
+				}
+			}
+		}
+		{ item: "artifacts:rooted_boots" }
+		{ item: "artifacts:chorus_totem" }
+		{ item: "artifacts:onion_ring" }
+		{ item: "goety:haunted_painting" }
+		{ item: "kubejs:artifact_endergem", weight: 5.0f }
+		{ item: "botania:tiny_potato" }
+		{ item: "biomancy:fleshkin_chest" }
+		{ item: "mcwbyg:fir_coffee_table" }
+		{ item: "ad_astra:space_painting" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:fighters"
+					}
+				}
+			}
+		}
+		{ item: "cataclysm:blazing_grips" }
+		{ item: "cataclysm:sandstorm_in_a_bottle" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "8b503daf-c14e-4abb-ae87-8f2dea73ca69"
+				}
+			}
+		}
+		{ item: "minecraft:salmon" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:spawn_egg_raccoon"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Adam\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:anvil" }
+		{ item: "kubejs:mossy_letter" }
+		{ item: "kubejs:mossy_letter1" }
+		{ item: "kubejs:s_soup" }
+		{ item: "kubejs:mcejaffa" }
+		{ item: "jellyfishing:triple_gooberberry_sunrise" }
+		{ item: "jellyfishing:krabby_patty" }
+		{ item: "goety:targeting_monocle" }
+		{ item: "goety:wayfarers_belt" }
+		{ item: "goety:spiteful_belt" }
+		{ item: "goety:feline_amulet" }
+		{ item: "rats:top_hat" }
+		{ item: "alexscaves:nuclear_bomb" }
+		{
+			item: {
+				Count: 1
+				id: "rats:assorted_vegetables"
+				tag: {
+					display: {
+						Lore: ["[\"\",{\"text\":\"When your married you'll understand the importance of fresh produce!\",\"color\":\"green\"}]"]
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:kebab"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:puffer_life"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:bats"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:mountains"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:autumn"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:donkey_kong"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:wither_rose"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:autumn_feel"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:nether_portal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:stage"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "ars_additions:snoozebuncle"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:wasteland"
+					}
+				}
+			}
+		}
+		{ item: "mce2lib:chicken_nugget_summon" }
+		{ item: "mce2lib:porkus_summon" }
+		{
+			item: {
+				Count: 1
+				id: "mce2lib:trans_rights_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:music_disc_otherside" }
+		{ item: "botania:record_gaia_2" }
+		{ item: "lavachickenmusicdisc:music_disc_lava_chicken" }
+		{ item: "cataclysm:music_disc_the_harbinger" }
+		{ item: "thegreatbelow:gone_music_disc" }
+		{ item: "alexscaves:music_disc_fusion" }
+		{ item: "aquamirae:music_disc_forsaken_drownage" }
+		{ item: "cataclysm:music_disc_maledictus" }
+		{ item: "thegreatbelow:ghosts_music_disc" }
+		{ item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov" }
+		{ item: "minecraft:music_disc_pigstep" }
+		{ item: "minecraft:music_disc_5" }
+		{ item: "the_bumblezone:music_disc_beenna_box" }
+		{
+			item: {
+				Count: 1
+				id: "tiab:time_in_a_bottle"
+				tag: { }
+			}
+		}
+		{ item: "botania:pinkinator" }
+		{ item: "milkablecreepers:creeper_milk" }
+		{
+			item: {
+				Count: 1
+				id: "rats:assorted_vegetables"
+				tag: {
+					display: {
+						Lore: ["[\"\",{\"text\":\"When your married you'll understand the importance of fresh produce!\",\"color\":\"green\"}]"]
+					}
+				}
+			}
+		}
+		{ item: "rats:rat_upgrade_dragon" }
+		{ item: "rats:rat_upgrade_idol" }
+		{ item: "brewinandchewin:ham_and_cheese_sandwich" }
+		{ item: "rats:cooked_rat" }
+		{ item: "rats:block_of_cheese" }
+		{ item: "rats:little_black_worm" }
+		{ item: "rats:plague_tome" }
+		{ item: "rats:rat_arrow" }
+		{ item: "rats:music_disc_living_mice" }
+		{ item: "rats:music_disc_mice_on_venus" }
+		{ item: "rats:rat_trap" }
+		{ item: "rats:ratbow_essence" }
+		{ item: "rats:rat_upgrade_bee" }
+		{ item: "rats:vial_of_sentience" }
+		{ item: "alexsmobs:rainbow_jelly" }
+		{
+			item: {
+				Count: 1
+				id: "stardew_fishing:trap_bobber"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "stardew_fishing:cork_bobber"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "stardew_fishing:sonar_bobber"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "stardew_fishing:treasure_bobber"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "stardew_fishing:quality_bobber"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jellyfishing:triple_gooberberry_sunrise" }
+		{
+			item: {
+				Count: 1
+				id: "jellyfishing:kelp_mustache"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jellyfishing:krabby_patty" }
+		{
+			item: {
+				Count: 1
+				id: "jellyfishing:jellyfish_net"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lavafishing:obsidian_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "aquamirae:dead_sea_scroll" }
+		{ item: "aquamirae:pirate_pouch" }
+		{ item: "aquamirae:treasure_pouch" }
+		{ item: "aquamirae:painting_aurora" }
+		{ item: "aquamirae:golden_moth_in_a_jar" }
+		{ item: "aquamirae:sea_stew" }
+		{ item: "aquaculture:gold_hook" }
+		{ item: "aquaculture:light_hook" }
+		{ item: "aquaculture:tackle_box" }
+		{ item: "aquaculture:note_hook" }
+		{ item: "kubejs:artifact_endergem" }
+		{ item: "kubejs:s_soup" }
+		{ item: "kubejs:mcejaffa" }
+		{ item: "kubejs:elegant_letter" }
+		{ item: "kubejs:scorched_letter" }
+		{ item: "kubejs:mossy_letter" }
+		{ item: "kubejs:mossy_letter1" }
+		{ item: "advancementframes:advancement_frame" }
+		{ count: 3, item: "amethyst_tools:enchanted_alloy" }
+		{ item: "cloudstorage:balloon_arrow" }
+		{ item: "cloudstorage:cloud_blower" }
+		{ item: "cloudstorage:music_disc_drift" }
+		{ item: "cloudstorage:balloon_stand" }
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:propeller_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:balloon_buddy"
+				tag: {
+					Personality: 3
+					color: 15149353
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:druidic_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+		}
+		{ item: "majruszsdifficulty:recall_potion" }
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:angler_trophy"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:ancient_scarab"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:nature_rune"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:dream_catcher"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:idol_of_fertility"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:unbreakable_fishing_line"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:swimmer_guide"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:secret_ingredient"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:miner_guide"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:tool_scraps"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:adventurer_rune"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:metal_lure"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:lucky_rock"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:certificate_of_taming"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "majruszsaccessories:discount_voucher"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+		}
+		{ item: "supplementaries:cage" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{ item: "goety:targeting_monocle" }
+		{ item: "aquaculture:bluegill_bucket" }
+		{ item: "complicated_bees:ambrosia" }
+		{ item: "alexsmobs:blobfish" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:roadrunner_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:frontier_cap"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:mosquito_repellent_stew" }
+		{ item: "alexsmobs:music_disc_daze" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:spiked_turtle_shell"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:centipede_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:warped_mixture" }
+		{ item: "alexsmobs:emu_egg" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:squid_grapple"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:crocodile_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:vine_lasso" }
+		{ item: "alexsmobs:banner_pattern_bear" }
+		{ item: "alexsmobs:banana" }
+		{ count: 6, item: "alexscaves:seeking_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:flying_fish_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexscaves:quarry_smasher" }
+		{ item: "alexscaves:radiant_essence" }
+		{ item: "alexscaves:sack_of_sating" }
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:candy_cane_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexscaves:sweet_tooth" }
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:sugar_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexscaves:occult_gem" }
+		{ item: "alexscaves:siren_light" }
+		{ item: "alexscaves:tremorsaurus_egg" }
+		{ item: "alexscaves:waste_drum" }
+		{ count: 12, item: "alexscaves:dinosaur_nugget" }
+		{ item: "alexscaves:slam" }
+		{ item: "alexscaves:primordial_soup" }
+		{ item: "alexscaves:grottoceratops_egg" }
+		{ item: "alexscaves:radgill_bucket" }
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_bliss"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:sand_rake"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "mowziesmobs:glowing_jelly" }
+		{ item: "mowziesmobs:captured_grottol" }
+	]
+	title: "mom_market"
+}

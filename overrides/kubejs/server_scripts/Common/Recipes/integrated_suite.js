@@ -106,41 +106,4 @@ ServerEvents.recipes(event => {
         }
     }).id("integrateddynamics:special/part_connector_omni_directional_copy")
 
-
-
-    //Mechanical Squeezer Nerf
-    // this shit is *too* good.
-    event.remove({id: /integrateddynamics:mechanical_squeezer\/ore\/raw_.*/})
-    event.remove({id: /integrateddynamics:.*squeezer\/ore\/gem_emerald/})
-
-
-    let excluded = [
-        "copper"
-    ]
-
-    Object.keys(global.preferredOreProducts.raw_material).forEach(ore => {
-        console.log(ore)
-        if(excluded.includes(ore)) return;
-
-        let outputOre = global.preferredOreProducts.raw_material[ore]
-        mechanicalSqueezing(event, [IDStack(outputOre, 2), IDStack(outputOre, 2, 0.5)], {"tag": `forge:ores/${ore}`}, 40)
-            .id(`mce2:mechanical_squeezer/ore/raw_${ore}`)
-    })
-
-    //Copper yields a lot more usually
-    let rawCopper = global.preferredOreProducts.raw_material.copper
-    let secondary = IDStack(rawCopper, 2, 0.5)
-    mechanicalSqueezing(event, [IDStack(rawCopper, 6), secondary, secondary], {"tag": "forge:ores/copper"}, 40)
-        .id("mce2:mechanical_squeezer/ore/raw_copper")
-
-
-    //fix Emerald Ore outputting Goety emeralds
-    let emerald = global.preferredOreProducts.gem.emerald
-
-    mechanicalSqueezing(event, [IDStack(emerald, 2), IDStack(emerald, 1, 0.5)], {"tag": "forge:ores/emerald"}, 40)
-        .id("mce2:mechanical_squeezer/ore/emerald")
-
-    squeezing(event, [IDStack(emerald), IDStack(emerald, 0.5)], {"tag": "forge:ores/emerald"}, 40)
-        .id("mce2:squeezer/ore/emerald")
-
 })

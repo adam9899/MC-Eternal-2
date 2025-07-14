@@ -316,16 +316,10 @@
 						CompassType: "structure"
 						CustomDescription: "item.the_bumblezone.honey_compass_throne_description"
 						CustomName: "item.the_bumblezone.honey_compass_throne_structure"
-						Locked: 1b
-						TargetDimension: "the_bumblezone:the_bumblezone"
-						TargetPos: {
-							X: 240
-							Y: 0
-							Z: -4592
-						}
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "&eHoney Compass - Throne Pillar!"
 			x: 0.0d

@@ -32,22 +32,6 @@
 			y: 0.0d
 		}
 		{
-			height: 0.7d
-			image: "rats:textures/item/corrupt_rat_skull.png"
-			rotation: 66.0d
-			width: 0.7d
-			x: -1.0612244897959044d
-			y: -0.34693877551020336d
-		}
-		{
-			height: 0.7d
-			image: "rats:textures/item/golden_rat_skull.png"
-			rotation: -24.0d
-			width: 0.7d
-			x: 2.0204081632653157d
-			y: -0.5510204081632608d
-		}
-		{
 			height: 1.5d
 			image: "iceandfire:textures/item/dragon_sword_lightning.png"
 			rotation: 100.0d
@@ -95,24 +79,6 @@
 			width: 0.6d
 			x: -2.085714285714282d
 			y: -0.48571428571428754d
-		}
-		{
-			dependency: "099610C83CC67421"
-			height: 0.2d
-			image: "illuminations:textures/particle/chorus_petal_0.png"
-			rotation: 90.0d
-			width: 0.2d
-			x: -1.6530612244897966d
-			y: -0.9795918367346914d
-		}
-		{
-			dependency: "7F19D1DB91CD0463"
-			height: 0.2d
-			image: "supplementaries:textures/entity/firefly.png"
-			rotation: 0.0d
-			width: 0.2d
-			x: 1.7142857142857153d
-			y: -0.9387755102040813d
 		}
 		{
 			height: 0.3d
@@ -209,11 +175,10 @@
 				Count: 1
 				id: "alexsmobs:tab_icon"
 				tag: {
-					DisplayEntityType: "cataclysm:ender_guardian"
+					DisplayEntityType: "cataclysm:ender_golem"
 				}
 			}
 			id: "2CABBF8B8A8F3755"
-			optional: true
 			rewards: [
 				{
 					command: "/titles add {p} titles:master"
@@ -316,7 +281,7 @@
 					tag: { }
 				}
 				id: "3D5139F6C946ECC3"
-				title: "&5&lMaster Mode &r&5★★★★"
+				title: "&5&lMaster Mode &r&5★★★"
 				type: "kill"
 				value: 1L
 			}]
@@ -344,7 +309,6 @@
 				}
 			}
 			id: "099610C83CC67421"
-			optional: true
 			rewards: [
 				{
 					command: "/titles add {p} titles:expert"
@@ -427,14 +391,6 @@
 					}
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					icon: "supplementaries:present"
-					id: "533F4E8B061AB629"
-					table_id: 1718805351174656688L
-					title: "&eExpert Mode Cache"
-					type: "choice"
-				}
 			]
 			shape: "square"
 			size: 0.9d
@@ -515,6 +471,7 @@
 				tag: { }
 			}
 			id: "2D1F7756EA4BE2CB"
+			optional: true
 			shape: "rsquare"
 			subtitle: "Learn About Difficulty Modes!"
 			tasks: [{

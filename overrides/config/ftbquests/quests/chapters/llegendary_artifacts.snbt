@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "llegendary_artifacts"
@@ -14,6 +13,13 @@
 			}
 		}
 		id: "goety:nameless_staff"
+		tag: {
+			cap: {
+				Items: [ ]
+				Size: 1
+				slot: 0
+			}
+		}
 	}
 	id: "35EB3BAAC2AD189B"
 	images: [

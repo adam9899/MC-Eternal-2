@@ -1,1 +1,1 @@
-{"type":"minecraft:crafting_shaped","key":{"#":{"item":"ad_astra:calorite_ingot"},"A":{"tag":"mekanism:alloys/atomic"},"D":{"item":"waystones:warp_stone"},"I":{"item":"ad_astra:desh_ingot"}},"pattern":["#A#","IDI","#A#"],"result":{"item":"mekanism:teleportation_core"}}
+{"type":"minecraft:crafting_shaped","key":{"#":{"tag":"forge:ingots/calorite"},"A":{"tag":"mekanism:alloys/atomic"},"D":{"item":"waystones:warp_stone"},"I":{"tag":"forge:ingots/desh"}},"pattern":["#A#","IDI","#A#"],"result":{"item":"mekanism:teleportation_core"}}

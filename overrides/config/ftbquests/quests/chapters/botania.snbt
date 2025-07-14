@@ -11,6 +11,136 @@
 		}
 	}
 	id: "1095C058506D2A05"
+	images: [
+		{
+			height: 6.0d
+			image: "botania:textures/gui/paper_left.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0612244897959187d
+			y: -2.2551020408163254d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 2.0020408163265273d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 2.0020408163265273d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_activated"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.004081632653055d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.004081632653055d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 6.0d
+			image: "botania:textures/gui/paper_left.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -1.3598639455782475d
+			y: 6.731632653061233d
+		}
+		{
+			height: 0.5d
+			image: "botania:block/brown_mushroom"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.383673469387766d
+			y: 4.184013605442196d
+		}
+		{
+			height: 0.5d
+			image: "botania:block/manastar"
+			rotation: 20.0d
+			width: 0.5d
+			x: -1.5238095238095255d
+			y: 4.131122448979603d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.3571428571428541d
+			y: 2.012074829931983d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.012074829931983d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.285714285714292d
+			y: 4.772278911564641d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -66,22 +196,11 @@
 				}
 			]
 			subtitle: "{mce.questing.botania.petal_apothecary.sub}"
-			tasks: [
-				{
-					id: "4C826485E4D4D537"
-					item: "botania:apothecary_default"
-					type: "item"
-				}
-				{
-					icon: "minecraft:water_bucket"
-					id: "07296EB9444570B8"
-					observe_type: 2
-					timer: 0L
-					title: "{mce.questing.botania.task.fill_apothecary_with_water}"
-					to_observe: "botania:apothecary_default[fluid=water]"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				id: "4C826485E4D4D537"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
 			title: "{mce.questing.botania.petal_apothecary.name}"
 			x: 0.0d
 			y: 0.0d
@@ -109,6 +228,18 @@
 					item: "botania:mana_pool"
 					type: "item"
 				}
+				{
+					id: "3A222B0EE7E27384"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mce2:botania/basic_generating_flower"
+						}
+					}
+					title: "{mce.questing.botania.task.early_gen_flower}"
+					type: "item"
+				}
 			]
 			title: "{mce.questing.botania.making_mana.name}"
 			x: 1.0d
@@ -126,6 +257,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			shape: "gear"
 			subtitle: "{mce.questing.botania.pure_daisy.sub}"
 			tasks: [
 				{
@@ -135,7 +267,7 @@
 				}
 				{
 					id: "1597755C91249085"
-					item: "botania:livingwood"
+					item: "botania:livingwood_log"
 					type: "item"
 				}
 				{
@@ -401,6 +533,7 @@
 				"4DB02664AC3DE750"
 			]
 			description: ["{mce.questing.botania.runic_altar.desc}"]
+			icon: "botania:runic_altar"
 			id: "712FF3A7BCD998F3"
 			min_required_dependencies: 1
 			rewards: [{
@@ -411,11 +544,20 @@
 				type: "eternalcurrencies:currency"
 			}]
 			subtitle: "{mce.questing.botania.runic_altar.sub}"
-			tasks: [{
-				id: "049E586E50F2CD7F"
-				item: "botania:runic_altar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "049E586E50F2CD7F"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					advancement: "botania:main/rune_pickup"
+					criterion: ""
+					icon: "botania:rune_water"
+					id: "5458B11594715EAD"
+					type: "advancement"
+				}
+			]
 			title: "{mce.questing.botania.runic_altar.name}"
 			x: 5.0d
 			y: 2.0d
@@ -426,7 +568,7 @@
 			id: "5C55D515483FD53D"
 			rewards: [
 				{
-					amount: 50L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "0C9525A75D3F2AA3"
 					ignore_reward_blocking: true
@@ -573,7 +715,7 @@
 			min_required_dependencies: 5
 			rewards: [
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "73C137C9BC69F4DC"
 					ignore_reward_blocking: true
@@ -618,7 +760,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "hexagon"
 			subtitle: "{mce.questing.botania.terra_plate.sub}"
 			tasks: [
 				{
@@ -630,11 +772,11 @@
 					hasCustomPicture: false
 					icon: "minecraft:lapis_block"
 					id: "695FC871D1105C97"
-					title: "{mce.questing.botania.task.terra_plate_structure}"
 					ignoreState: false
 					layer: true
 					name: "terra_plate"
 					rightclick: false
+					title: "{mce.questing.botania.task.terra_plate_structure}"
 					type: "questsadditions:structure"
 				}
 				{
@@ -704,6 +846,7 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
 			subtitle: "{mce.questing.botania.elven_portal.sub}"
 			tasks: [
 				{
@@ -716,17 +859,6 @@
 					id: "3B5DE751C9A9CADE"
 					item: "botania:natura_pylon"
 					type: "item"
-				}
-				{
-					hasCustomPicture: false
-					icon: "botania:glimmering_livingwood"
-					id: "31FEB2F2455AEF4B"
-					title: "{mce.questing.botania.task.elven_portal_structure}"
-					ignoreState: false
-					layer: true
-					name: "elven_portal"
-					rightclick: false
-					type: "questsadditions:structure"
 				}
 			]
 			title: "{mce.questing.botania.elven_portal.name}"
@@ -816,8 +948,8 @@
 				type: "item"
 			}]
 			title: "{mce.questing.botania.hydroangeas.name}"
-			x: -5.0d
-			y: 5.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			description: ["{mce.questing.botania.endoflame.desc}"]
@@ -837,8 +969,8 @@
 				type: "item"
 			}]
 			title: "{mce.questing.botania.endoflame.name}"
-			x: -3.0d
-			y: 5.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			description: ["{mce.questing.botania.thermalily.desc}"]
@@ -857,8 +989,8 @@
 				type: "item"
 			}]
 			title: "{mce.questing.botania.thermalily.name}"
-			x: -9.0d
-			y: 7.0d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			description: ["{mce.questing.botania.rosa_arcana.desc}"]
@@ -877,8 +1009,8 @@
 				type: "item"
 			}]
 			title: "{mce.questing.botania.rosa_arcana.name}"
-			x: -7.0d
-			y: 7.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			description: ["{mce.questing.botania.munchdew.desc}"]
@@ -897,7 +1029,7 @@
 				type: "item"
 			}]
 			title: "{mce.questing.botania.munchdew.name}"
-			x: -5.0d
+			x: -3.0d
 			y: 7.0d
 		}
 		{
@@ -917,8 +1049,8 @@
 				type: "item"
 			}]
 			title: "{mce.questing.botania.entropinnyum.name}"
-			x: -3.0d
-			y: 7.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			description: ["{mce.questing.botania.gourmaryllis.desc}"]
@@ -937,8 +1069,8 @@
 				type: "item"
 			}]
 			title: "{mce.questing.botania.gourmaryllis.name}"
-			x: -1.0d
-			y: 7.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			description: ["{mce.questing.botania.kekimurus.desc}"]
@@ -1057,7 +1189,7 @@
 				type: "item"
 			}]
 			title: "{mce.questing.botania.narslimmus.name}"
-			x: 1.0d
+			x: -2.0d
 			y: 7.0d
 		}
 		{
@@ -1190,6 +1322,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "{mce.questing.botania.ritual_of_gaia.sub}"
 			tasks: [
 				{
@@ -1202,11 +1335,11 @@
 					hasCustomPicture: false
 					icon: "minecraft:beacon"
 					id: "3D9FE7E661F48C7B"
-					title: "{mce.questing.botania.task.gaia_ritual_structure}"
 					ignoreState: false
 					layer: true
 					name: "ritual_of_gaia"
 					rightclick: false
+					title: "{mce.questing.botania.task.gaia_ritual_structure}"
 					type: "questsadditions:structure"
 				}
 			]
