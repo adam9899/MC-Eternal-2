@@ -1,0 +1,26 @@
+{
+  "itemGroup.mod_items": "Create: Gunsmithing",
+  "slot.cgs.attachment.engine": "Motor",
+  "item.cgs.revolver": "Revólver de Latão",
+  "item.cgs.gatling": "Gatling",
+  "item.cgs.barrel": "Cano",
+  "item.cgs.barrel_sturdy": "Cano Resistente",
+  "item.cgs.press_form_7mm": "Molde de Prensa para Cartucho de 7mm",
+  "item.cgs.press_form_10mm": "Molde de Prensa para Cartucho de 10mm",
+  "item.cgs.shell_7mm": "Cartucho de 7mm",
+  "item.cgs.shell_10mm": "Cartucho de 10mm",
+  "item.cgs.round_7mm": "Munição de 7mm",
+  "item.cgs.round_10mm": "Munição de 10mm",
+  "item.cgs.steam_engine": "Gatling: Motor a Vapor",
+  "item.cgs.iron_sight": "Gatling: Mira de Ferro",
+
+
+  "item.cgs.raw_lead": "Chumbo Bruto",
+  "item.cgs.lead_ingot": "Lingote de Chumbo",
+  "item.cgs.lead_nugget": "Pepita de Chumbo",
+
+  "block.cgs.lead_ore": "Minério de Chumbo",
+  "block.cgs.deepslate_lead_ore": "Minério de Chumbo de Ardósia Profunda",
+  "block.cgs.lead_block": "Bloco de Chumbo",
+  "block.cgs.raw_lead_block": "Bloco de Chumbo Bruto "
+}
