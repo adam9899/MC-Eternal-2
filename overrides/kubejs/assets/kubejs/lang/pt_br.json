@@ -1,0 +1,16 @@
+{
+    "item.kubejs.corporea_crystal": "§dCristal da Corporeidade",
+    "item.kubejs.artifact_beating_heart": "§3Objeto Misterioso",
+    "item.kubejs.mobdrop_endermanheart_beating": "§7Coração de Wither",
+    "kubejs.ancient_factory_map": "§4Mapa da Fábrica Antiga ",
+    "kubejs.frostmaw_map": "§bMapa do Frostmaw ",
+    "biome.thegreatbelow.thegreatbeyond": "§bO Grande Além",
+    "gateways.eternal_nether_invasion": "Portal da Invasão Eterna",
+    "enhancedcelestials.notification.rat_moon.rise": "A Lua do Rato nasce!",
+    "enhancedcelestials.notification.rat_moon.set": "A Lua do Rato se põe!",
+     "enhancedcelestials.name.rat_moon": "Lua do Rato",
+    "biome.thegreatbelow.thegreatbelow": "§8O Grande Abaixo",
+    "item.kubejs.corporea_crystal.desc": "Um cristal estranho capaz de trocar informações com outros de sua espécie.\\nO núcleo de importantes dispositivos de Corporea.",
+
+    "tooltip.mce2.occultism.stable_wormhole.fragile": "Instável! O Buraco de Minhoca quebrará ao ser coletado!"
+}
