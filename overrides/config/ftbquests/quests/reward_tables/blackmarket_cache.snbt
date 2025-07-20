@@ -962,8 +962,8 @@
 					}]
 					HideFlags: 1
 					display: {
-						Lore: ["{\"text\":\"§7\\\"Tastes like Cheese!\\\"\"}"]
-						Name: "{\"text\":\"§6Adam's Flute\"}"
+						Lore: ["{\"text\":\"§7\\\"Tastes like cheese?\\\"\"}"]
+						Name: "{\"text\":\"§6Legendary Ratlantean Flute\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {

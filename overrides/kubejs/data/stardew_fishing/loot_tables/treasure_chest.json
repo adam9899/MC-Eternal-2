@@ -20,20 +20,7 @@
           ]
         },
      
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:andesite",
-          "weight": 16,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 8,
-                "max": 23
-              }
-            }
-          ]
-        },
+      
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone",
@@ -48,10 +35,25 @@
             }
           ]
         },
+        
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:neptunium_nugget",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 9
+              }
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_gold",
-          "weight": 10,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -70,8 +72,19 @@
         },
         {
           "type": "minecraft:item",
+          "name": "aquaculture:neptunium_block",
+          "weight": 1
+        },
+      
+         {
+          "type": "minecraft:item",
+          "name": "aquaculture:neptunium_ingot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
           "name": "jellyfishing:triple_gooberberry_sunrise",
-          "weight": 3
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -1009,8 +1022,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
-                "max": 15
+                "min": 8,
+                "max": 25
               }
             }
           ]
@@ -1174,8 +1187,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5,
-                "max": 18
+                "min": 12,
+                "max": 38
               }
             }
           ]

@@ -27,7 +27,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/execute in mce:primordium run tp @p ~ 140 ~"
+					command: "/execute in mce:primordium run tp {p} ~ 140 ~"
 					console: true
 					icon: {
 						Count: 1
@@ -44,7 +44,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound immersive_aircraft:engine_start player @p ~ 140 ~ 1000 1.4 1"
+					command: "/execute at {p} run playsound immersive_aircraft:engine_start player {p} ~ 140 ~ 1000 1.4 1"
 					console: true
 					icon: "immersive_aircraft:cargo_airship"
 					id: "25104EDEED35ACF6"
@@ -53,7 +53,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p {\"text\":\"§6[Hoppy]§7 Thank you for flying with me! Be careful out there! Primordium is endlessly dark and freezing. I won't land I'm afraid! I'm far too handsome to be eaten by undead! So I'll have to air-drop you down! Good Luck!!\",\"color\":\"gold\"}"
+					command: "/tellraw {p} {\"text\":\"§6[Hoppy]§7 Thank you for flying with me! Be careful out there! Primordium is endlessly dark and freezing. I won't land I'm afraid! I'm far too handsome to be eaten by undead! So I'll have to air-drop you down! Good Luck!!\",\"color\":\"gold\"}"
 					console: true
 					icon: "etched:radio"
 					id: "0BE26572B78516D4"
@@ -62,7 +62,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/effect give @p minecraft:slow_falling 20"
+					command: "/effect give {p} minecraft:slow_falling 20"
 					console: true
 					icon: "thermal:junk_net"
 					id: "5290461985F31E61"
@@ -239,7 +239,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/playsound tropicraft:bongo.low ambient @p ~ 120 ~ 1000 0.5"
+					command: "/playsound tropicraft:bongo.low ambient {p} ~ 120 ~ 1000 0.5"
 					icon: {
 						Count: 1
 						id: "sophisticatedbackpacks:backpack"
@@ -254,7 +254,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/playsound minecraft:event.raid.horn ambient @p ~ 120 ~ 1000 1.1"
+					command: "/playsound minecraft:event.raid.horn ambient {p} ~ 120 ~ 1000 1.1"
 					icon: {
 						Count: 1
 						id: "artifacts:helium_flamingo"
@@ -268,7 +268,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute in tropicraft:tropics run tp @p ~ 130 ~"
+					command: "/execute in tropicraft:tropics run tp {p} ~ 130 ~"
 					icon: "minecraft:oak_boat"
 					id: "351D6353E92F0AF1"
 					title: "&eDock Safely"
@@ -276,7 +276,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p {\"text\":\"§6[Ship Captain]§7 We have arrived! We hope you have enjoyed your time with DreamCruise! Please make your way off the ship and to the beach! Enjoy a complimentary Piña colada on us to help get you in the tropical spirit! I've been your captain! Farewell!\",\"color\":\"gold\"}"
+					command: "/tellraw {p} {\"text\":\"§6[Ship Captain]§7 We have arrived! We hope you have enjoyed your time with DreamCruise! Please make your way off the ship and to the beach! Enjoy a complimentary Piña colada on us to help get you in the tropical spirit! I've been your captain! Farewell!\",\"color\":\"gold\"}"
 					icon: "supplementaries:cracked_bell"
 					id: "74D271C2C30B27DF"
 					title: "&7Ship Announcment! "

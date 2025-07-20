@@ -248,7 +248,7 @@
 			id: "630307C5BD2AD306"
 			rewards: [
 				{
-					command: "/titles add @p titles:angry"
+					command: "/titles add {p} titles:angry"
 					icon: "titles:title_scroll_common"
 					id: "3E5B9143E7B23C1A"
 					title: "&eUnlock Title:&r the Angry"

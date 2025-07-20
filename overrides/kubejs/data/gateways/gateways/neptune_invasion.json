@@ -1,0 +1,320 @@
+{
+    "size": "large",
+    "color": "#2ee2eb",
+    "waves": [{
+            "entities": [
+                {
+                    "entity": "cataclysm:drowned_host",
+                    "count": 2
+                },
+                {
+                    "entity": "cataclysm:urchinkin",
+                    "count": 1
+                }
+                
+            ],
+            "modifiers": [
+            ],
+            "rewards": [
+                                     {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "aquaculture:neptunium_nugget",
+      "Count": 1
+    }
+  }
+            ],
+            "max_wave_time": 1600,
+            "setup_time": 400
+        },
+        {
+            "entities": [
+                {
+                    "entity": "cataclysm:drowned_host",
+                    "count": 4
+                },
+                  {
+                    "entity": "cataclysm:urchinkin",
+                    "count": 2
+                },
+                {
+                    "entity": "cataclysm:cindaria",
+                    "count": 1
+                }
+                
+            ],
+            "modifiers": [
+            ],
+            "rewards": [
+                                                  {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "aquaculture:neptunium_nugget",
+      "Count": 1
+    }
+  },
+     {
+  "type": "gateways:command",
+  "command": "weather thunder", 
+  "desc": "Neptune's Wrath"     
+},
+
+  {
+  "type": "gateways:command",
+  "command": "tell <summoner> The ravenous storm stirs...", 
+  "desc": "Message"     
+}
+            ],
+            "max_wave_time": 600,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "cataclysm:deepling_brute",
+                    "count": 2
+                },
+                  {
+                    "entity": "cataclysm:deepling_angler",
+                    "count": 1
+                },
+                    {
+                    "entity": "cataclysm:deepling_warlock",
+                    "count": 1
+                },
+                  {
+                    "entity": "cataclysm:deepling",
+                    "count": 2
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [
+                          {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "aquaculture:neptunium_nugget",
+      "Count": 8
+    }
+  }
+            ],
+            "max_wave_time": 1600,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+            
+                {
+                    "entity": "cataclysm:cindaria",
+                    "count": 2
+                },
+                
+            
+            
+                {
+                    "entity": "cataclysm:hippocamtus",
+                    "count": 2
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+               
+                {
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                    {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "aquaculture:neptunium_ingot",
+      "Count": 1
+    }
+  }
+            ],
+            "max_wave_time": 1600,
+            "setup_time": 400
+        },
+        {
+            "entities": [
+                
+            
+                {
+                    "entity": "cataclysm:deepling_priest",
+                    "count": 1
+                },
+            
+                   {
+                    "entity": "cataclysm:deepling_warlock",
+                    "count": 1
+                },
+                   {
+                    "entity": "cataclysm:coralssus",
+                    "count": 1
+                }
+
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 3
+                },
+        
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                   {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "cataclysm:lacrima",
+      "Count": 3
+    }
+  }
+            ],
+            "max_wave_time": 5400,
+            "setup_time": 400
+        },
+
+        {
+            "entities": [
+        
+                 {
+                    "entity": "cataclysm:clawdian",
+                    "desc": "Neptune's Chosen",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Neptune's Chosen\",\"color\":\"dark_aqua\"}",
+                        "IsImmuneToZombification": true
+                    },
+                    "modifiers": [
+                        
+                       
+                        {
+                            "attribute": "attributeslib:armor_shred",
+                            "operation": "ADDITION",
+                            "value": 0.2
+                        },
+                        {
+                            "attribute": "attributeslib:prot_shred",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        },
+                        {
+                            "attribute": "generic.attack_knockback",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        },
+                        {
+                            "attribute": "generic.knockback_resistance",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        }
+                    ],
+                    "count": 1,
+                    "finalize_spawn": false
+                },
+                    {
+                    "entity": "cataclysm:cindaria",
+                    "count": 1
+                },
+                
+            
+            
+                {
+                    "entity": "cataclysm:hippocamtus",
+                    "count": 1
+                }
+               
+            ],
+            "modifiers": [
+            ],
+            "rewards": [
+            {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "cataclysm:essence_of_the_storm",
+      "Count": 1
+    }
+  }
+            ],
+            "max_wave_time": 5600,
+            "setup_time": 100
+        }
+       
+    ],
+"rewards": [
+  {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "aquaculture:neptunium_block",
+      "Count": 1
+    }
+  },
+     {
+  "type": "gateways:command",
+  "command": "weather clear", 
+  "desc": "Neptune's Blessing"     
+},
+  {
+  "type": "gateways:command",
+  "command": "tell @p The storm clears...", 
+  "desc": "Message"     
+}
+],
+"failures": [
+  {
+    "type": "gateways:explosion",
+    "strength": 4,
+    "fire": false,
+    "block_damage": false
+  },
+  {
+    "type": "gateways:summon",
+    "entity": {
+      "entity": "cataclysm:cindaria",
+      "count": 1
+    }
+  }
+]
+}

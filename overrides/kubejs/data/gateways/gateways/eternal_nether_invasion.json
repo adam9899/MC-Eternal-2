@@ -327,8 +327,7 @@
                             "attribute": "generic.knockback_resistance",
                             "operation": "ADDITION",
                             "value": 0.1
-                        },
-                      
+                        }
                     ],
                     "count": 1,
                     "finalize_spawn": false

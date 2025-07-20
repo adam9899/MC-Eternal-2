@@ -1,0 +1,329 @@
+{
+    "size": "large",
+    "color": "#AA0000",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "netherexp:apparition",
+                    "count": 2
+                },
+                {
+                    "entity": "netherexp:vessel",
+                    "count": 1
+                }
+            ],
+            "modifiers": [],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                      "item": "minecraft:netherite_scrap",
+                        "Count": 1
+                    }
+                }
+            ],
+            "max_wave_time": 1600,
+            "setup_time": 400
+        },
+        {
+            "entities": [
+                {
+                    "entity": "netherexp:apparition",
+                    "count": 2
+                },
+                {
+                    "entity": "netherexp:vessel",
+                    "count": 3
+                }
+            ],
+            "modifiers": [],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                      "item": "minecraft:netherite_scrap",
+                        "Count": 1
+                    }
+                }
+            ],
+            "max_wave_time": 600,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "netherexp:apparition",
+                    "count": 2
+                },
+                {
+                    "entity": "netherexp:vessel",
+                    "count": 3
+                },
+                {
+                    "entity": "cataclysm:ignited_berserker",
+                    "count": 1
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                     {
+                    "attribute": "attributeslib:fire_damage",
+                    "operation": "ADDITION",
+                    "value": 2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                        "item": "minecraft:netherite_scrap",
+                        "Count": 3
+                    }
+                }
+            ],
+            "max_wave_time": 1600,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+           
+                {
+                    "entity": "cataclysm:nameless_sorcerer",
+                       "desc": "Doomsayer",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Doomsayer\",\"color\":\"dark_red\"}",
+                        "IsImmuneToZombification": true
+                    },
+                    "count": 1
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                 {
+                    "attribute": "attributeslib:fire_damage",
+                    "operation": "ADDITION",
+                    "value": 2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                        "item": "minecraft:netherite_ingot",
+                        "Count": 3
+                    }
+                }
+            ],
+            "max_wave_time": 1600,
+            "setup_time": 400
+        },
+        {
+            "entities": [
+                {
+                    "entity": "goety:wither_necromancer",
+                    "count": 1
+                },
+                    {
+                    "entity": "cataclysm:ignited_revenant",
+                    "count": 1
+                },
+                {
+                    "entity": "netherexp:stampede",
+                    "count": 1
+                },
+                {
+                    "entity": "cataclysm:ignited_berserker",
+                    "count": 2
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 3
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                 {
+                    "attribute": "attributeslib:fire_damage",
+                    "operation": "ADDITION",
+                    "value": 2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                        "item": "minecraft:netherite_ingot",
+                        "Count": 5
+                    }
+                }
+            ],
+            "max_wave_time": 9400,
+            "setup_time": 400
+        },
+    
+        {
+            "entities": [
+                {
+                    "entity": "goety:hostile_redstone_monstrosity",
+                    "desc": "Unstable Monstrosity",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Unstable Monstrosity\",\"color\":\"dark_red\"}",
+                        "IsImmuneToZombification": true
+                    },
+                    "modifiers": [
+                        {
+                            "attribute": "attributeslib:armor_shred",
+                            "operation": "ADDITION",
+                            "value": 0.5
+                        },
+                        {
+                            "attribute": "attributeslib:prot_shred",
+                            "operation": "ADDITION",
+                            "value": 0.5
+                        },
+                        {
+                            "attribute": "generic.attack_knockback",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        },
+                        {
+                            "attribute": "generic.knockback_resistance",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        },
+                         {
+                    "attribute": "attributeslib:fire_damage",
+                    "operation": "ADDITION",
+                    "value": 2
+                }
+                    ],
+                    "count": 1,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                        "item": "minecraft:netherite_ingot",
+                        "Count": 5
+                    }
+                }
+            ],
+            "max_wave_time": 5600,
+            "setup_time": 100
+        },
+            {
+            "entities": [
+                {
+                    "entity": "goety:apostle",
+                    "desc": "Israphel the Destroyer",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Israphel the Destroyer\",\"color\":\"dark_red\"}",
+                        "IsImmuneToZombification": true
+                    },
+                    "count": 1
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                 {
+                    "attribute": "attributeslib:fire_damage",
+                    "operation": "ADDITION",
+                    "value": 7
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                        "item": "minecraft:netherite_block",
+                        "Count": 1
+                    }
+                }
+            ],
+            "max_wave_time": 12600,
+            "setup_time": 200
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:stack",
+            "stack": {
+                "item": "minecraft:netherite_block",
+                "Count": 2
+            }
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 4,
+            "fire": true,
+            "block_damage": false
+        },
+        {
+            "type": "gateways:summon",
+            "entity": {
+                "entity": "netherexp:apparition"
+            }
+        }
+    ]
+}

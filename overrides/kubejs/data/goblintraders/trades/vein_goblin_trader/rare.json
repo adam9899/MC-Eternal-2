@@ -8,10 +8,10 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "vc_gliders:paraglider_diamond"
+        "item": "vc_gliders:nether_upgrade"
       },
       "payment_item": {
-        "count": 10,
+        "count": 20,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
@@ -45,20 +45,7 @@
       },
       "price_multiplier": 0.0
     },
-    {
-      "type": "goblintraders:basic",
-      "experience": 10,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "alexscaves:sea_staff"
-      },
-      "payment_item": {
-        "count": 50,
-        "item": "minecraft:emerald"
-      },
-      "price_multiplier": 0.0
-    },
+  
     {
       "type": "goblintraders:basic",
       "experience": 10,
@@ -186,20 +173,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
-      "type": "goblintraders:basic",
-      "experience": 4,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "mysticaloaktree:wise_oak"
-      },
-      "payment_item": {
-        "count": 15,
-        "item": "minecraft:emerald"
-      },
-      "price_multiplier": 0.0
-    },
+  
      {
       "type": "goblintraders:basic",
       "experience": 4,
@@ -355,20 +329,7 @@
       },
       "price_multiplier": 0.0
     },
-    {
-      "type": "goblintraders:basic",
-      "experience": 10,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "kubejs:mossy_letter"
-      },
-      "payment_item": {
-        "count": 50,
-        "item": "minecraft:emerald"
-      },
-      "price_multiplier": 0.0
-    },
+   
     {
       "type": "goblintraders:basic",
       "experience": 10,
@@ -383,20 +344,7 @@
       },
       "price_multiplier": 0.0
     },
-    {
-      "type": "goblintraders:basic",
-      "experience": 10,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "kubejs:elegant_letter"
-      },
-      "payment_item": {
-        "count": 50,
-        "item": "minecraft:emerald"
-      },
-      "price_multiplier": 0.0
-    },
+
     {
       "type": "goblintraders:basic",
       "experience": 10,
@@ -565,20 +513,7 @@
       },
       "price_multiplier": 0.0
     },
-    {
-      "type": "goblintraders:basic",
-      "experience": 4,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "artifacts:snowshoes"
-      },
-      "payment_item": {
-        "count": 15,
-        "item": "minecraft:emerald"
-      },
-      "price_multiplier": 0.0
-    },
+   
     {
       "type": "goblintraders:basic",
       "experience": 4,
@@ -805,20 +740,7 @@
       "price_multiplier": 0.0
     },
    
-     {
-      "type": "goblintraders:basic",
-      "experience": 4,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "relics:horse_flute"
-      },
-      "payment_item": {
-        "count": 15,
-        "item": "minecraft:emerald"
-      },
-      "price_multiplier": 0.0
-    },
+   
     {
       "type": "goblintraders:basic",
       "experience": 4,
@@ -904,20 +826,7 @@
       },
       "price_multiplier": 0.0
     },
-    {
-      "type": "goblintraders:basic",
-      "experience": 10,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "immersive_aircraft:gyrodyne"
-      },
-      "payment_item": {
-        "count": 25,
-        "item": "minecraft:emerald"
-      },
-      "price_multiplier": 0.0
-    },
+
      {
       "type": "goblintraders:basic",
       "experience": 10,
@@ -932,20 +841,7 @@
       },
       "price_multiplier": 0.0
     },
-    {
-      "type": "goblintraders:basic",
-      "experience": 10,
-      "max_trades": 4,
-      "offer_item": {
-        "count": 1,
-        "item": "bosses_of_mass_destruction:soul_star"
-      },
-      "payment_item": {
-        "count": 5,
-        "item": "minecraft:emerald"
-      },
-      "price_multiplier": 0.0
-    },
+  
      {
       "type": "goblintraders:basic",
       "experience": 10,
@@ -1087,20 +983,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
-      "type": "goblintraders:basic",
-      "experience": 10,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "alexsmobs:pupfish_locator"
-      },
-      "payment_item": {
-        "count": 15,
-        "item": "minecraft:emerald"
-      },
-      "price_multiplier": 0.0
-    },
+
     {
       "type": "goblintraders:basic",
       "experience": 10,
@@ -1216,36 +1099,10 @@
 			"max_trades": 1,
 			"experience": 20
 		},
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:ice_skates",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 20
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
+	
 
 	
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:drowned_belt",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 25
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
+	
 		{
 			"type": "goblintraders:basic",
 			"offer_item": {
@@ -1288,21 +1145,7 @@
 			"max_trades": 1,
 			"experience": 20
 		},
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:wool_mitten",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 20
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-
+		
     {
       "type": "goblintraders:basic",
       "enchantments": [
@@ -1315,7 +1158,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_sword",
+        "item": "minecraft:netherite_sword",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1342,7 +1185,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_sword",
+        "item": "minecraft:netherite_sword",
         "nbt": "{Damage:0}"
       },
       "payment_item": {

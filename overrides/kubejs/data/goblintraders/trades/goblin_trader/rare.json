@@ -15,7 +15,36 @@
       },
       "price_multiplier": 0.0
     },
+	   {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "botania:pinkinator"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
        
+	   {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:chorus_totem"
+      },
+      "payment_item": {
+        "count": 35,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+      
     {
       "type": "goblintraders:basic",
       "experience": 10,

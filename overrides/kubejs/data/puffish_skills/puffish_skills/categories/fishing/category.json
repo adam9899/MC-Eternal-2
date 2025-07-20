@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Fishing",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "aquaculture:neptunium_fishing_rod"
+		}
+	},
+	"background": "minecraft:textures/block/dark_prismarine.png"
+}

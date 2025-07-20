@@ -42,7 +42,7 @@ const occultismRitual = (event, output, dummy, pentacle, central, duration, inpu
     if(mergedData)
         Object.assign(recipe, mergedData)
 
-    console.log(recipe)
+    //console.log(recipe)
     return event.custom(recipe)
 }
 

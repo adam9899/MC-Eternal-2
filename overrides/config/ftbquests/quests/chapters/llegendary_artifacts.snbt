@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "llegendary_artifacts"
@@ -14,6 +13,13 @@
 			}
 		}
 		id: "goety:nameless_staff"
+		tag: {
+			cap: {
+				Items: [ ]
+				Size: 1
+				slot: 0
+			}
+		}
 	}
 	id: "35EB3BAAC2AD189B"
 	images: [
@@ -3774,7 +3780,7 @@
 			id: "2908A391628C4CEE"
 			rewards: [
 				{
-					command: "/titles add @p titles:hydra"
+					command: "/titles add {p} titles:hydra"
 					icon: "titles:title_scroll_rare"
 					id: "7CE7DF10F3DEA902"
 					title: "{chapter.41.quest.55.reward.2.title}"
@@ -3891,7 +3897,7 @@
 			id: "5F98D86F298275C0"
 			rewards: [
 				{
-					command: "/titles add @p titles:plagued"
+					command: "/titles add {p} titles:plagued"
 					icon: "titles:title_scroll_rare"
 					id: "095DD151E8707998"
 					title: "{chapter.41.quest.58.reward.2.title}"
@@ -4090,7 +4096,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:king_rat"
+					command: "/titles add {p} titles:king_rat"
 					icon: "titles:title_scroll_rare"
 					id: "51B0A310C167FFBE"
 					title: "{chapter.41.quest.64.reward.3.title}"
@@ -4192,7 +4198,7 @@
 			id: "616B63A5F59B5B1C"
 			rewards: [
 				{
-					command: "/titles add @p titles:wraught"
+					command: "/titles add {p} titles:wraught"
 					icon: "titles:title_scroll_uncommon"
 					id: "35E36EC7C8552504"
 					title: "&eUnlock Title:&r of a Thousand Metals"
@@ -4518,7 +4524,7 @@
 					type: "choice"
 				}
 				{
-					command: "/titles add @p titles:dreadlord"
+					command: "/titles add {p} titles:dreadlord"
 					icon: "titles:title_scroll_uncommon"
 					id: "705E7F598DB92922"
 					title: "&eUnlock Title:&r Dreadlord"

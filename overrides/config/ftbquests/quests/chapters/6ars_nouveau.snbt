@@ -82,13 +82,13 @@
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
 			description: [
-				"The &eScribe's Table&r allows the creation of Glyphs at the cost of some resources and XP. Right Clicking the &eScribe's Table&r with a &eSpell Book&r will open the UI. In order to craft a spell, throw the necessary items near it."
+				"The &eScribe's Table&r allows the creation of &eGlyphs&r at the cost of some resources and XP. Right Clicking the &eScribe's Table&r with a &eSpell Book&r will open the UI. In order to craft a spell, throw the necessary items near it."
 				""
-				"&6Tip:&r The &eScribe's Table&r can pull resources from nearby chests, eliminating the need to throw them manually."
+				"&6Tip:&r The &eScribe's Table&r can pull resources from nearby chests, eliminating the need to throw items manually."
 			]
 			id: "09E7B05E4298F3BE"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "231D9A9DAFE072C9"
 				ignore_reward_blocking: true
@@ -133,13 +133,13 @@
 				""
 				"&eSource Gems&r can be created using either &eAmethyst Shards&r or &eLapis Lazuli&r. When crafting items, the &eImbuement Chamber&r does not consume resources in nearby &eArcane Pedestals&r."
 				""
-				"&6Tip:&r &eImbuement Chambers&r can be emi-automated with certain methods to make this process easier."
+				"&6Tip:&r &eImbuement Chambers&r can be semi-automated with certain methods to make this process easier."
 			]
 			icon: "ars_nouveau:imbuement_chamber"
 			id: "704C7C142ECED1D5"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "5BB7E41B5CDFF627"
 					ignore_reward_blocking: true
@@ -279,7 +279,7 @@
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"&eArs Nouveau&r introduces &eThreads&r for your armor that are separate from tiered upgrades. There's a variety of &eThreads&r that are helpful in many ways, and some even stack on top of Vanilla enchantments like &eRespiration&r and &eFeather Falling&r!"
+				"&5Ars Nouveau&r introduces &eThreads&r for your armor that are separate from tiered upgrades. There's a variety of &eThreads&r that are helpful in many ways, and some even stack on top of Vanilla enchantments like &eRespiration&r and &eFeather Falling&r!"
 				""
 				"Your armor has quite a few slots available at the max Tier, but you may only have one of each &eThread&r in your entire armor set, so choose wisely!"
 			]
@@ -349,7 +349,7 @@
 			description: [
 				"The &eMage's Spell Book&r is a large upgrade to the &eNovice's Spell Book&r, allowing access to Tier 2 Glyphs and better Spell combinations."
 				""
-				"&6Tip:&r Unlocking more &eGlyphs&r gives a large boost to Maximum Mana and unlocking ALL &eGlyphs&r will reward you with around 1500 Maximum Mana!"
+				"&6Tip:&r Unlocking more &eGlyphs&r gives a large boost to Maximum Mana and unlocking ALL &eGlyphs&r will reward you with around 1500 &lextra&r Maximum Mana!"
 			]
 			id: "46ADECF58830F3CF"
 			rewards: [
@@ -455,7 +455,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "128E023CD73AA744"
 					ignore_reward_blocking: true
@@ -475,7 +475,7 @@
 					type: "item"
 				}
 			]
-			title: "Rituals"
+			title: "Ritual Brazier"
 			x: 10.0d
 			y: 0.0d
 		}
@@ -541,9 +541,7 @@
 			description: [
 				"The Wilden Chimera is the Boss of &5Ars Nouveau&r, and very difficult having multiple phases that imitate each of the Wilden Beasts. "
 				""
-				"In order to summon the Wilden Chimera, you must use a &eRitual of Summon Wilden&r and offer a &eWilden Wing&r, &eWilden Horn&r, and &eWilden Spike&r for the special summoning!"
-				""
-				"The &eWilden Tribute&r is a crucial aspect in upgrading the &eMage's Spell Book&r, to its final tier, the &eArchmage Spell Book&r."
+				"The &eWilden Tribute&r is a crucial aspect in upgrading the &eMage's Spell Book&r to its final tier, the &eArchmage Spell Book&r."
 			]
 			id: "105A86F70B2C6B39"
 			rewards: [
@@ -580,7 +578,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "111905BFF2B46150"
 					ignore_reward_blocking: true
@@ -599,12 +597,7 @@
 		}
 		{
 			dependencies: ["105A86F70B2C6B39"]
-			description: [
-				"The &eArchmage's Spell Book&r is the final tier of Spell Book for &5Ars Nouveau&r, allowing for even more powerful spell combinations and unlocks access to Tier 3 &eGlyphs&r."
-				""
-				"&6Tip:&r In order to craft the &eArchmage Spell Book&r, you need many materials from the End Dimension, one of those being &eEnderium Ingots&r. "
-				"The &eRitual of Scrying&r can be used to find the exact location of the ore itself. Add a &eManipulation Essences&r to extend the duration and then wait for the Effect to activate!"
-			]
+			description: ["The &eArchmage's Spell Book&r is the final tier of Spell Book for &5Ars Nouveau&r, allowing for even more powerful spell combinations and unlocks access to Tier 3 &eGlyphs&r."]
 			id: "5DD2BA94561922D4"
 			rewards: [
 				{
@@ -640,7 +633,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "6C76B77E64F2C04C"
 					ignore_reward_blocking: true
@@ -667,11 +660,14 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7461C12182F6AC36"]
 			description: [
 				"&5Ars Nouveau&r has many familiars that can be summoned with &eCharms&r in order to automate certain aspects, such as &eSource Berry&r gathering, creating potions, or even generating items from enemies in the form of a Mob Farm."
 				""
 				"The &eDominion Wand&r allows linking these familiars to their corresponding work stations, as well as linking &eSourcelinks&r to &eSource Relays&r."
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ars_nouveau:dominion_wand"
@@ -679,7 +675,7 @@
 			}
 			id: "06F0A11431B112E4"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "17A21F0CEA33E402"
 				ignore_reward_blocking: true
@@ -698,7 +694,7 @@
 				type: "item"
 			}]
 			title: "Familiars"
-			x: 8.0d
+			x: 10.0d
 			y: -4.0d
 		}
 		{
@@ -765,7 +761,7 @@
 				}
 			]
 			title: "The Bookwyrm"
-			x: 9.0d
+			x: 11.0d
 			y: -4.0d
 		}
 		{
@@ -837,7 +833,7 @@
 				}
 			]
 			title: "The Drygmy"
-			x: 9.0d
+			x: 11.0d
 			y: -5.0d
 		}
 		{
@@ -943,7 +939,7 @@
 				}
 			]
 			title: "The Wixie"
-			x: 7.0d
+			x: 9.0d
 			y: -6.0d
 		}
 		{
@@ -1003,15 +999,15 @@
 				type: "item"
 			}]
 			title: "The Whirlisprig"
-			x: 7.0d
+			x: 9.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"The Starbuncle Token is obtained by giving a wild Starbuncle a &eGold Nugget&r. The Starbuncle will collect &eSource Berries&r and place them into chests that are assigned to them. "
+				"The &eStarbuncle Token&r is obtained by giving a wild Starbuncle a &eGold Nugget&r. The Starbuncle will collect &eSource Berries&r and place them into chests that are assigned to them. "
 				""
-				"Starbuncles can also move items between chests, making it the cutest hopper in the world!"
+				"Starbuncles can also move items between chests, making it the cutest hopper in the world! They also have a &eWheel&r for &5Create&r that they love a lot!"
 				""
 				"&6Tip:&r Giving them &eStarbuncle Shades&r stops them from collecting &eSource Berries&r, but it makes them look cool, right? You can also give them a &eWixie Hat&r to transport potions!"
 			]
@@ -1068,15 +1064,17 @@
 				type: "item"
 			}]
 			title: "The Starbuncle"
-			x: 7.0d
+			x: 9.0d
 			y: -4.0d
 		}
 		{
+			dependencies: ["7461C12182F6AC36"]
 			description: [
 				"&eSource Links&r are essential for generating Source in &5Ars Nouveau&r. There are a variety to use, some being better than others in most cases.."
 				""
 				"&eSource Relays&r can be connected to &eSourcelinks&r with a &eDominion Wand&r in order to send Source across varying distances."
 			]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				id: "ars_nouveau:dominion_wand"
@@ -1084,7 +1082,7 @@
 			}
 			id: "25613F7E8248805C"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "5100B856081545A1"
 				ignore_reward_blocking: true
@@ -1103,7 +1101,7 @@
 				type: "item"
 			}]
 			title: "Sourcelinks and Relays"
-			x: 8.0d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -1161,7 +1159,7 @@
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 4.0d
 			y: 5.0d
 		}
 		{
@@ -1185,7 +1183,7 @@
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -1243,12 +1241,12 @@
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
-			description: ["The &eVitalic Sourcelink&r generates source by using the essence of slain mobs nearby, as well as Baby Animals as they are growing, as well as speeding up their growth in the process."]
+			description: ["The &eVitalic Sourcelink&r generates source by using the essence of slain mobs nearby, as well as Baby Animals as they are growing and speeding up their growth in the process."]
 			id: "3C235B9BB4222DEB"
 			rewards: [{
 				amount: 100L
@@ -1263,7 +1261,7 @@
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -1287,7 +1285,7 @@
 				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -1341,7 +1339,7 @@
 				item: "ars_nouveau:relay"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -1395,7 +1393,7 @@
 				item: "ars_nouveau:relay_splitter"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -1449,7 +1447,7 @@
 				item: "ars_nouveau:relay_deposit"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: 5.0d
 		}
 		{
@@ -1499,7 +1497,7 @@
 				item: "ars_nouveau:relay_warp"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.0d
 			y: 3.0d
 		}
 		{
@@ -1519,7 +1517,7 @@
 				item: "ars_nouveau:relay_collector"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.0d
 			y: 5.0d
 		}
 		{
@@ -1530,7 +1528,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "4942D239F9ECA5AC"
 					ignore_reward_blocking: true
@@ -1664,7 +1662,7 @@
 				type: "item"
 			}]
 			title: "The Siren"
-			x: 9.0d
+			x: 11.0d
 			y: -6.0d
 		}
 		{
@@ -1723,7 +1721,7 @@
 				type: "item"
 			}]
 			title: "The Flarecannon"
-			x: 8.0d
+			x: 10.0d
 			y: -6.0d
 		}
 		{
@@ -1778,20 +1776,13 @@
 				}
 			]
 			subtitle: "They're so useful!"
-			tasks: [
-				{
-					id: "587305B32E1474B0"
-					title: "Helpful Familiars!"
-					type: "checkmark"
-				}
-				{
-					id: "58F24FD0F14DF599"
-					item: "ars_nouveau:ritual_binding"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "58F24FD0F14DF599"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
 			title: "Helpful Familiars"
-			x: 9.0d
+			x: 11.0d
 			y: -3.0d
 		}
 		{
@@ -1846,7 +1837,7 @@
 				type: "item"
 			}]
 			title: "The Amethyst Golem"
-			x: 8.0d
+			x: 10.0d
 			y: -5.0d
 		}
 		{
@@ -1900,7 +1891,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "194209231C265876"
 					ignore_reward_blocking: true
@@ -2075,7 +2066,7 @@
 				}
 			]
 			title: "Proper Archmage Armor"
-			x: 12.0d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
@@ -2255,6 +2246,13 @@
 				"Each one comes with a pre-determined Form Glyph depending on which tool you use. There's too much information to explain here so I'd recommend checking the &eWorn Notebook&r to learn more about these awesome items!"
 			]
 			id: "2A7A23DB0184D16F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "15159EC741F3209D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Better than Spell Books!"
 			tasks: [{
 				id: "779F9970773FB4EC"
@@ -2418,7 +2416,7 @@
 		{
 			dependencies: ["704C7C142ECED1D5"]
 			description: [
-				"&5Ars Nouveau&r allows the use of &eWarp Scrolls&r, which allow you to set a location to teleport to at a later time using Shift + Right click. "
+				"&5Ars Nouveau&r introduces &eWarp Scrolls&r, which allow you to set a location to teleport to at a later time using Shift + Right Click. "
 				"You can also place a Nether Portal frame made with any &eSourcestone&r blocks and throw the set &eWarp Scroll&r into the frame to create a permanent portal to that exact location, given it has Source nearby to keep the portal activated each time it's used."
 				""
 				"&6Tip:&r &eStabilized Warp Scrolls&r skip the manual portal frame placement."
@@ -2426,7 +2424,7 @@
 			id: "00307A4424B56EC2"
 			optional: true
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "7C771586E5DB8A4B"
 				ignore_reward_blocking: true
@@ -2465,7 +2463,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "MORE Gear to use?"
+			subtitle: "MORE Gear To Use?"
 			tasks: [
 				{
 					id: "676486EC637E5E6D"
@@ -2515,7 +2513,7 @@
 			id: "5E0498ECFD150E14"
 			optional: true
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "3B2897AB43E6F12C"
 				ignore_reward_blocking: true
@@ -2557,8 +2555,398 @@
 				title: "How does this work...?"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 9.0d
 			y: -3.0d
+		}
+		{
+			description: ["&5Ars Ocultas&r bridges the gap between &5Occultism&r and &5Ars Nouveau&r by allowing the Djinns from &5Occultism&r in &eContainment Jars&r to continue their work!"]
+			icon: "occultism:book_of_binding_djinni"
+			id: "25A5E3F55E54749E"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4AAB85FA873E8D91"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Otherworldly Rituals"
+			tasks: [{
+				id: "6B4CEA9CF82F9C97"
+				title: "Ars Ocultas"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "1A39D87C0BC3F4AE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4EB6BBB537C96448"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			subtitle: "AutoMAGIC Spellcasting"
+			tasks: [{
+				id: "4D943DC323B39C03"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			title: "Spell Turrets!"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: ["&eEnchanted Spell Turrets&r cost imbued spells at half the cost of the regular amount of Source required."]
+			id: "2A9EBE3F6DE9FC1B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "06AA70CAE11D4D96"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Cheaper Turrets"
+			tasks: [{
+				id: "56843191369E345A"
+				item: "ars_nouveau:spell_turret"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: [
+				"&eTimer Spell Turrets&r cast the imbued spell on a short interval in seconds. Right Clicking will increase the time, while Left Clicking will decrease the time. Setting it to 0 or giving it a redstone signal will disable the timer."
+				""
+				"You can lock this turret with a &eDominion Wand&r to lock it in order to prevent the timer from being changed!"
+				""
+				"It will also cast spells that have Projectile, Touch, and Redstone for free!"
+			]
+			id: "3085034A220B1B37"
+			subtitle: "Timed Turrets"
+			tasks: [{
+				id: "233233A97698E1EF"
+				item: "ars_nouveau:timer_spell_turret"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: ["The &eAdjustable Spell Turret&r is a small upgrade from the Basic Spell Turret&e. You can change the direction it's facing with a &eDominion Wand&r by Right Clicking the desired block."]
+			id: "31A433CABF46DDAA"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1EDB390893829CB3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Slightly Better Turret"
+			tasks: [{
+				id: "4CBFF12E0A4B763C"
+				item: "ars_nouveau:rotating_spell_turret"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: [
+				"These &eElemental Infused Turrets&r are a lot stronger than the other Turrets! "
+				""
+				"They can cast spells at a 65% discount, as well as performing spell combos that would be used in combination with the variety of &eElemental Focuses&r that &5Ars Elemental&r provides for you to use yourself!"
+			]
+			id: "4D9B3259CB30B9F2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1D277CCE7B7953CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "More turret upgrades?"
+			tasks: [{
+				id: "1D13DC8E5C666221"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:earth_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:water_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:fire_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:air_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:manipulation_turret"
+							}
+						]
+					}
+				}
+				title: "Elemental Turrets"
+				type: "item"
+			}]
+			title: "Specialized Turrets"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&5Ars Delight&r adds quite a lot of food items for you to increase your overall Spell Power and Mana Regeneration! "
+				""
+				"Some allow you to regenerate Mana as you heal like the &eMendosteen Tea&r while foods that give the Wilden effect increase your Spell Power plus more Mana and Mana Regen!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "arsdelight:enchanters_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1029FDFB1056B5CE"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4909E5973995E5A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Better Magical Food!"
+			tasks: [{
+				id: "74925BE79DC4D0B3"
+				title: "Ars Delight!"
+				type: "checkmark"
+			}]
+			title: "Ars Delight"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DD2BA94561922D4"]
+			description: [
+				"In order to craft the &eArchmage Spell Book&r, as well as many other items outside of &5Ars Nouveau&r, you need many materials from the End Dimension, one of those being &eEnderium Ingots&r. "
+				""
+				""
+				"{ \"text\": \"Ritual of Scrying\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"192CD8BC280620AB\" } }"
+			]
+			id: "143F454F976B2E9E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0E7CD7EB4DCB3B8D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "So... Where Is It?"
+			tasks: [{
+				id: "31EC4072C269724F"
+				item: "majruszsdifficulty:enderium_shard_ore"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				" The &eRitual of Awakening&r is used for a few things such as creating Guards for your base out of Archwood trees, and creating &eBookwyrm Charms&r and Amethyst Golems!"
+				""
+				""
+				"{ \"text\": \"Bookwyrm Charm\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5317ADE87D16A500\" } }"
+				""
+				"{ \"text\": \"Amethyst Golem\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10260F1595649978\" } }"
+			]
+			id: "5D0B7D274DD636C9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7F61E198BC6515AE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "The start of Familiars"
+			tasks: [{
+				id: "4779F358E1960E97"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58594005824B1BBE"]
+			description: [
+				"&5Ars Nouveau&r rituals enable you to do quite a few things as mentioned in the previous quest, but there's a lot more to it than that.... "
+				""
+				"In the following quests, I'll be explaining a variety of the most common rituals and the best way to use them!"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "ars_nouveau:ritual_brazier"
+			id: "3EC7BF21C76FF1C2"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "41875D0B6C1831CB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			subtitle: "Is this Occultism?"
+			tasks: [{
+				id: "6391FEE6B9BEBA87"
+				title: "Basic Rituals"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Containment&r allows you to place entities inside of a &eContainment Jar&r. "
+				""
+				"But be careful because any entity will be placed inside of the &eContainment Jar&r, and I mean ANY entity, even arrows that have been shot from bows or random items on the ground!"
+				""
+				"&6Tip:&r Having a 'Touch - Dispel' spell on hand will remove whatever is in the &eContainment Jar&r, so don't worry if you capture the wrong thing! Just don't put your &eSpell Book&r in it accidentally....."
+			]
+			id: "3FE00B019479D14E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5047BD2B443C0FBA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Pokemon with extra steps!"
+			tasks: [{
+				id: "774BBCEB930E4B88"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Locate Structure&r allows you to find a select few Vanilla structures such as an End City or a Bastion. "
+				""
+				"It can also be used to search for the illusive Arcane Library for all your &5Ars Nouveau&r needs!"
+			]
+			id: "736892A6C5BF10B1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "30578C83F840399A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Scrying But For Structures!"
+			tasks: [{
+				id: "62A9FDDDCD18C749"
+				item: "ars_additions:ritual_locate_structure"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Summon Wilden&r allows you to summon a random amount of the different Wilden Beasts: the Stalker, the Guardian, and Hunter."
+				""
+				"There's no method to influence to spawn one specific Wilden Beast but if you throw a &eWilden Spike&r, &eWilden Horn&r, and &eWilden Wing&r onto the Ritual Brazier after inserting this Tablet, you best be prepared for a fight!"
+			]
+			id: "158B5CD496403019"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4E2068D67494A01F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Wilden Beasts?"
+			tasks: [{
+				id: "472AA02B77854E67"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Flight&r is one of the most useful Rituals as it allows permanent Creative flight around your base within a certain radius of your base! "
+				""
+				"The Effect it gives lasts a minute but as long as you're in that radius of about a 3x3 chunk area, it will always reset! Just make sure the &eRitual Brazier&r has a constant income of Source!"
+			]
+			id: "799D1207E689F5D0"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0105F235848A5D28"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "I can fly!"
+			tasks: [{
+				id: "29AC407B17A38508"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Scrying&r allows you to find just about anything and everything, but the most usage comes from finding those hard to find ores such as &eEnderium Shard Ore&r from the End, or &eAncient Debris&r!"
+				""
+				"You MUST have the Ore itself in order to Scry for it, meaning you must have already used Silk Touch on an Ore to use it in the &eRitual Brazier&r. "
+				""
+				"The effect lasts no time at all, but if you add a &eManipulation Essence&r with the Ore, the Effect duration is increased to 15 minutes!"
+			]
+			id: "192CD8BC280620AB"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "286D6E2D428AB49A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Basically X-Ray!"
+			tasks: [{
+				id: "6818FBEF403F5205"
+				item: "ars_nouveau:ritual_scrying"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
 		}
 	]
 	title: "{chapter.34.title}"

@@ -106,8 +106,8 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:nether_item', Text.of('§7§oThis powerful relic is ancient in origin. It is capable of bending powerful creatures to its users will.. As you gaze into the orb, the orb gazes into you..').color('#FFFFFF'));
 	event.add('relics:infinity_ham', Text.of('\u00A7oExclusive Goblin Trade').color('#FFAA00'));
 	event.add('bagofholding:leather_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. §n1 Updates left until removal.').color('#FFFFFF'));
-	event.add('bagofholding:iron_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. §n11 Updates left until removal.').color('#FFFFFF'));
-	event.add('bagofholding:golden_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. §n11 Updates left until removal.').color('#FFFFFF'));
+	event.add('bagofholding:iron_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. §n1 Updates left until removal.').color('#FFFFFF'));
+	event.add('bagofholding:golden_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. §n1 Updates left until removal.').color('#FFFFFF'));
 	event.add('undergarden:blisterberry', Text.of('\u00A7oCan be used to feed Old Toretoise').color('#FFFFFF'));
 	event.add('minecraft:diamond_ore', Text.of('\u00A7oExclusively generates in Overworld Caves').color('#FFFFFF'));
 	event.add('tconstruct:crafting_station', Text.of('\u00A7oCan be crafted with multiple types of wood').color('#4F0D75'));
@@ -205,4 +205,10 @@ ItemEvents.tooltip(event => {
 
 	event.add("occultism:stable_wormhole", Text.translate("tooltip.mce2.occultism.stable_wormhole.fragile").color("#BB0000"))
 
+	event.add("ae2:facade", Text.translate("tooltip.mce2.ae2.facade.can_be_made_with_more_things").color("#FFFF44"))
+
+	event.add(["#enderio:clear_glass", "#enderio:fused_quartz"], Text.translate("tooltip.mce2.generic.can_be_dyed").color("#FFFF44"))
+
+	event.add("#mce2:item_trash_cans", Text.translate("tooltip.mce2.generic.item_trash_can").color("#FF8888"))
+	event.add("#mce2:fluid_trash_cans", Text.translate("tooltip.mce2.generic.fluid_trash_can").color("#FF8888"))
 })

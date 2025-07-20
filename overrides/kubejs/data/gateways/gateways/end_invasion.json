@@ -1,0 +1,319 @@
+{
+  "size": "large",
+  "color": "#AA00AA",
+  "waves": [
+    {
+      "entities": [
+      
+          {
+          "entity": "specialmobs:minienderman",
+             "desc": "Michealwave Jr",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"text\":\"Michealwave Jr.\",\"color\":\"dark_purple\"}",
+            "IsImmuneToZombification": true
+          },
+          "count": 1
+        },
+        {
+          "entity": "cataclysm:endermaptera",
+          "count": 6
+        }
+      ],
+      "modifiers": [],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "majruszsdifficulty:enderium_shard",
+            "Count": 1
+          }
+        }
+      ],
+      "max_wave_time": 1600,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "specialmobs:lightningenderman",
+  
+          "count": 1
+        },
+       
+         {
+          "entity": "specialmobs:runicenderman",
+          "count": 1
+        },
+         {
+          "entity": "cataclysm:endermaptera",
+          "count": 5
+        }
+      ],
+      "modifiers": [],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "majruszsdifficulty:enderium_shard",
+            "Count": 1
+          }
+        }
+      ],
+      "max_wave_time": 600,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+       {
+          "entity": "specialmobs:lightningenderman",
+          "count": 2
+        },
+         {
+          "entity": "specialmobs:runicenderman",
+          "count": 2
+        },
+          {
+          "entity": "specialmobs:mirageenderman",
+          "count": 1
+        },
+  
+         {
+          "entity": "cataclysm:endermaptera",
+          "count": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.10
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.05
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "majruszsdifficulty:enderium_shard",
+            "Count": 3
+          }
+        }
+      ],
+      "max_wave_time": 1600,
+      "setup_time": 200
+    },
+    {
+      "entities": [
+         {
+          "entity": "mutantmonsters:mutant_enderman",
+             "desc": "Michealwave Sr.",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"text\":\"Michealwave Sr.\",\"color\":\"dark_purple\"}",
+            "IsImmuneToZombification": true
+          },
+          "count": 1
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.1
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.05
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "ADDITION",
+          "value": 0.10
+        },
+        {
+          "attribute": "attributeslib:life_steal",
+          "operation": "ADDITION",
+          "value": 0.5
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "majruszsdifficulty:enderium_shard",
+            "Count": 6
+          }
+        }
+      ],
+      "max_wave_time": 1600,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "specialmobs:lightningenderman",
+          "count": 3
+        },
+  
+            {
+          "entity": "bosses_of_mass_destruction:obsidilith",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"text\":\"Ancient Enderium Totem\",\"color\":\"dark_purple\"}",
+            "IsImmuneToZombification": true
+          },
+          "count": 1
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.1
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDITION",
+          "value": 0.5
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDITION",
+          "value": 3
+        },
+        {
+          "attribute": "attributeslib:life_steal",
+          "operation": "ADDITION",
+          "value": 0.10
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "majruszsdifficulty:enderium_ingot",
+            "Count": 12
+          }
+        }
+      ],
+      "max_wave_time": 9400,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "cataclysm:ender_golem",
+               "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"text\":\"Enderium Golem\",\"color\":\"dark_purple\"}",
+            "IsImmuneToZombification": true
+          },
+        
+    
+          "modifiers": [
+            {
+              "attribute": "attributeslib:armor_shred",
+              "operation": "ADDITION",
+              "value": 0.5
+            },
+            {
+              "attribute": "attributeslib:prot_shred",
+              "operation": "ADDITION",
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.attack_knockback",
+              "operation": "ADDITION",
+              "value": 0.1
+            },
+            {
+              "attribute": "generic.knockback_resistance",
+              "operation": "ADDITION",
+              "value": 0.1
+            }
+          ],
+          "count": 1,
+          "finalize_spawn": false
+        }
+      ],
+      "modifiers": [],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "majruszsdifficulty:enderium_ingot",
+            "Count": 8
+          }
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "cataclysm:ender_guardian",
+          "desc": "Enderium Golem",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"text\":\"Enderium Guardian\",\"color\":\"dark_purple\"}",
+            "IsImmuneToZombification": true
+          },
+          "count": 1
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.1
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.05
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "majruszsdifficulty:enderium_block",
+            "Count": 1
+          }
+        }
+      ],
+      "max_wave_time": 12600,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "item": "majruszsdifficulty:enderium_block",
+        "Count": 2
+      }
+    }
+  ],
+  "failures": [
+    {
+      "type": "gateways:explosion",
+      "strength": 4,
+      "fire": false,
+      "block_damage": false
+    },
+    {
+      "type": "gateways:summon",
+      "entity": {
+        "entity": "specialmobs:minienderman"
+      }
+    }
+  ]
+}

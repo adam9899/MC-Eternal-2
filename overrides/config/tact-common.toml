@@ -25,14 +25,14 @@ guanoBurnFuel = true
 # Full stun time calculation is (Base Time) + (a random number between 0 and Random Extra Time)
 #
 #Range: 0 ~ 1000000
-primitiveClubBaseStunTime = 150
+primitiveClubBaseStunTime = 20
 #----------------------------------
 #
 # Random amount of extra time that Primative Club can stun a mob.
 # Full stun time calculation is (Base Time) + (a random number between 0 and Random Extra Time)
 #
 #Range: 0 ~ 1000000
-primitiveClubRandomExtraStunTime = 150
+primitiveClubRandomExtraStunTime = 80
 #----------------------------------
 #
 # Whether to revert the End Story back to its original form when beating Minecraft.
@@ -316,17 +316,17 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	tremorzillaArmor = 93.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaWeakStompDamage = 20.0
+	tremorzillaWeakStompDamage = 40.0
 	#Range: 1.0 ~ 1000000.0
 	tremorzillaStrongStompDamage = 60.0
 	#Range: 1.0 ~ 1000000.0
 	tremorzillaScratchAttackDamage = 50.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaTailAttackDamage = 100.0
+	tremorzillaTailAttackDamage = 200.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaBiteAttackDamage = 65.0
+	tremorzillaBiteAttackDamage = 95.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaBeamAttackDamage = 120.0
+	tremorzillaBeamAttackDamage = 250.0
 	#Range: 0.0 ~ 1000000.0
 	tremorzillaHighHealthRecoveryAmount = 2.0
 	#Range: 0 ~ 1000000

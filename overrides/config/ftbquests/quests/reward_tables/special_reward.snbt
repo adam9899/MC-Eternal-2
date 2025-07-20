@@ -2,7 +2,7 @@
 	icon: "supplementaries:present_purple"
 	id: "17DA6C5C3ACE52B0"
 	loot_size: 1
-	order_index: 29
+	order_index: 30
 	rewards: [
 		{
 			item: {
@@ -23,6 +23,17 @@
 		}
 		{ item: "mce2lib:porkus_summon" }
 		{ item: "artifacts:cloud_in_a_bottle" }
+		{
+			item: {
+				Count: 1
+				id: "catburger:cat_burger"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Slightly Burnt Cat Burger\"}"
+					}
+				}
+			}
+		}
 	]
 	title: "special_reward"
 }

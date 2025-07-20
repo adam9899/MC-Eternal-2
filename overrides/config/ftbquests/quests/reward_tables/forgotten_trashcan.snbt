@@ -17,35 +17,6 @@
 		{
 			item: {
 				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:paper"
-				tag: {
-					display: {
-						Lore: [
-							"{\"text\":\"§7§o1x Rat - 24 Hours \"}"
-							"{\"text\":\"§4§o§eStatus: §cLATE!\"}"
-							"{\"text\":\"\"}"
-							"{\"text\":\"§4§nRETURN ON TIME OR FACE FINES!\"}"
-							"{\"text\":\"\"}"
-							"{\"text\":\"§7§oYOU WOULDN'T STEAL A CAR\"}"
-							"{\"text\":\"§7§oYOU WOULDN'T STEAL A HANDBAG\"}"
-							"{\"text\":\"§7§oYOU WOULDN'T STEAL A TELEVISION\"}"
-							"{\"text\":\"§7§o§4§lSO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\"}"
-							"{\"text\":\"\"}"
-						]
-						Name: "{\"text\":\"§8§oRent-a-Rat Reciept\"}"
-					}
-				}
-			}
-			only_one: true
-		}
-		{
-			item: {
-				Count: 1
 				id: "farmersrespite:green_tea_cookie"
 				tag: {
 					display: {
@@ -61,6 +32,28 @@
 		}
 		{ item: "alexscaves:green_soylent" }
 		{ item: "rats:raw_rat" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:paper"
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"1x Rat - 24 Hours \" ,\"color\":\"gray\",\"italic\":true}"
+							"{\"text\":\"Status: LATE!\",\"color\":\"red\",\"italic\":true}"
+							"{\"text\":\"RETURN ON TIME OR FACE FINES!\",\"color\":\"dark_red\",\"underlined\":true}"
+							"{\"text\":\"YOU WOULDN'T STEAL A CAR\",\"color\":\"gray\",\"italic\":true}"
+							"{\"text\":\"YOU WOULDN'T STEAL A HANDBAG\",\"color\":\"gray\",\"italic\":true}"
+							"{\"text\":\"YOU WOULDN'T STEAL A TELEVISION\",\"color\":\"gray\",\"italic\":true}"
+							"{\"text\":\"SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}"
+						]
+						Name: "{\"text\":\"Rent-a-Rat Reciept\",\"color\":\"dark_gray\",\"italic\":true}"
+					}
+				}
+			}
+			only_one: true
+			weight: 4.0f
+		}
 	]
 	title: "forgotten_trashcan"
 }

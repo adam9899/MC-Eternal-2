@@ -3,7 +3,7 @@
   "post": [
     {
       "type": "drop_item",
-      "item": "kubejs:cat_burger",
+      "item": "kubejs:strange_burger",
       "count": 1
     }
   ],

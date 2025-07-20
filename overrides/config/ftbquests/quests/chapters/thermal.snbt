@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	autofocus_id: "0AA8A23A683CFA57"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -7,7 +6,7 @@
 	group: "3EBF424A99DA33B7"
 	icon: "thermal:lead_gear"
 	id: "21CD0B400036DF54"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

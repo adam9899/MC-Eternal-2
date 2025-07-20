@@ -13,7 +13,7 @@
 	per_spell_limit = 2147483647
 	#The tier of the glyph
 	#Range: 1 ~ 99
-	glyph_tier = 3
+	glyph_tier = 2
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "glyph_amplify=5"
 	augment_limits = ["ars_nouveau:glyph_pierce=1"]

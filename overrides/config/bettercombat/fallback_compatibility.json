@@ -27,7 +27,7 @@
       "weapon_attributes": "bettercombat:glaive"
     },
     {
-      "item_id_regex": "spear|stake",
+      "item_id_regex": "spear|stake|astrape",
       "weapon_attributes": "bettercombat:spear"
     },
     {

@@ -345,7 +345,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/gamestage add @p expert"
+					command: "/gamestage add {p} expert"
 					icon: "rats:golden_rat_skull"
 					id: "7AAA477D924F4B0E"
 					title: "{chapter.22.quest.2.reward.2.title}"
@@ -707,7 +707,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:demon_slayer"
+					command: "/titles add {p} titles:demon_slayer"
 					icon: "titles:title_scroll_uncommon"
 					id: "4676D913C6156C6D"
 					title: "{chapter.22.quest.7.reward.5.title}"
@@ -827,7 +827,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" You hear a strange voice beckoning you to approach the altar...\"}]"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" You hear a strange voice beckoning you to approach the altar...\"}]"
 					console: true
 					elevate_perms: true
 					icon: "create:empty_blaze_burner"

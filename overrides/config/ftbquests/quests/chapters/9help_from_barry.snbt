@@ -115,7 +115,7 @@
 			]
 			id: "5F46FEA139983775"
 			rewards: [{
-				command: "/loot give @p loot kubejs:quest/frostmaw"
+				command: "/loot give {p} loot kubejs:quest/frostmaw"
 				console: true
 				elevate_perms: true
 				id: "0FF388EE4038AB6A"

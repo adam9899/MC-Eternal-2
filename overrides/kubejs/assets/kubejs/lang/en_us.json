@@ -6,11 +6,18 @@
     "kubejs.frostmaw_map": "§bFrostmaw Map ",
     "biome.thegreatbelow.thegreatbeyond": "§bThe Great Beyond",
     "gateways.eternal_nether_invasion": "Eternal Invasion Gateway",
+    "gateways.neptune_invasion": "Neptune Invasion Gateway",
+    "gateways.israphel_invasion": "Israphel Invasion Gateway",
+    "gateways.end_invasion": "End Invasion Gateway",
     "enhancedcelestials.notification.rat_moon.rise": "The Rat Moon rises!",
     "enhancedcelestials.notification.rat_moon.set": "The Rat Moon sets!",
      "enhancedcelestials.name.rat_moon": "Rat Moon",
     "biome.thegreatbelow.thegreatbelow": "§8The Great Below",
     "item.kubejs.corporea_crystal.desc": "A strange Crystal capable of exchanging information with others of its kind.\nThe core of important Corporea devices.",
 
-    "tooltip.mce2.occultism.stable_wormhole.fragile": "Unstable! The Wormhole will break when picked up!"
+    "tooltip.mce2.occultism.stable_wormhole.fragile": "Unstable! The Wormhole will break when picked up!",
+    "tooltip.mce2.ae2.facade.can_be_made_with_more_things": "Can be made using most blocks",
+    "tooltip.mce2.generic.can_be_dyed": "Can be Dyed",
+    "tooltip.mce2.generic.item_trash_can": "(Item Trash Can)",
+    "tooltip.mce2.generic.fluid_trash_can": "(Fluid Trash Can)"
 }

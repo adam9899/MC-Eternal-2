@@ -353,7 +353,7 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/gamestage add @p master"
+					command: "/gamestage add {p} master"
 					icon: {
 						Count: 1
 						ForgeCaps: {

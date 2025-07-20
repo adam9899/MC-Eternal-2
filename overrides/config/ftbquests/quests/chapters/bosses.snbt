@@ -796,7 +796,7 @@
 			id: "341DBC6A59D51ED9"
 			rewards: [
 				{
-					command: "/titles add @p titles:voidlord"
+					command: "/titles add {p} titles:voidlord"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -812,10 +812,35 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5C532D50CBCFC0D7"
-					table_id: 5682295257556819944L
-					type: "random"
+					id: "4077746F2C42331D"
+					item: {
+						Count: 1
+						id: "dreadsteel:dreadsteel_scythe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 10
+							}]
+							display: {
+								Lore: ["{\"text\":\"§o§f§oCold to the touch, yet indescribably comforting\"}"]
+								Name: "{\"text\":\"§bArmageddon \"}"
+							}
+							dmcloot.rarity: "legendary"
+							dmcloot.swiftness: 15
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:blue_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
 				}
 			]
 			size: 0.95d
@@ -1528,7 +1553,7 @@
 					type: "custom"
 				}
 				{
-					command: "/effect give @p mowziesmobs:sunblock 500"
+					command: "/effect give {p} mowziesmobs:sunblock 500"
 					icon: {
 						Count: 1b
 						ForgeCaps: {
@@ -1556,7 +1581,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:pet"
+					command: "/titles add {p} titles:pet"
 					icon: {
 						Count: 1
 						ForgeCaps: {

@@ -11,7 +11,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.fortune",
+					"attribute": "puffish_attributes:player.fortune",
 					"value": 0.1,
 					"operation": "addition"
 				}
@@ -30,9 +30,9 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.mining_speed",
+					"attribute": "puffish_attributes:player.mining_speed",
 					"value": 0.03,
-					"operation": "multiply_base"
+					"operation": "addition"
 				}
 			}
 		]

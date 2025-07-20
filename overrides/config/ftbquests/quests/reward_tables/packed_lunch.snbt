@@ -145,6 +145,18 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "rats:assorted_vegetables"
+				tag: {
+					display: {
+						Lore: ["[\"\",{\"text\":\"When your married you'll understand the importance of fresh produce!\",\"color\":\"green\"}]"]
+					}
+				}
+			}
+		}
+		{ item: "milkablecreepers:creeper_milk" }
 	]
 	title: "{loot_table.36}"
 }

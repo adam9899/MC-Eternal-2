@@ -33,4 +33,29 @@ ServerEvents.tags("item", event => {
         "kubejs:crushed_raw_iesnium",
         "kubejs:crushed_raw_cobalt"
     ])
+
+
+    //Trash Cans
+    // for tooltip, cause there are people who do not know wtf a nullifier does.
+    event.add("mce2:general_trash_cans", [
+        "thermal:device_nullifier",
+        "ae2:condenser"
+    ])
+
+    event.add("mce2:fluid_trash_cans", [
+        "#mce2:general_trash_cans"
+    ])
+
+    event.add("mce2:item_trash_cans", [
+        "#mce2:general_trash_cans",
+        "minecraft:lava_bucket",
+        "rats:trash_can",
+        "trashcompactor:trash_compactor",
+        "ars_nouveau:void_jar",
+        "storagedrawers:void_upgrade",
+        'sophisticatedstorage:void_upgrade',
+        'sophisticatedstorage:advanced_void_upgrade',
+        'sophisticatedbackpacks:void_upgrade',
+        'sophisticatedbackpacks:advanced_void_upgrade'
+    ])
 })

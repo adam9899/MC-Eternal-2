@@ -7,187 +7,702 @@
 	id: "24965CC4F763480E"
 	images: [
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			height: 8.0d
+			image: "ae2:block/drive/drive_front_flat"
+			order: 1
 			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 1.0d
+			width: 8.0d
+			x: 13.0d
+			y: -11.0d
 		}
 		{
-			height: 1.0d
+			dependency: "67F89819C94F591A"
+			height: 1.2d
 			image: "ae2:block/controller_column_lights"
-			rotation: 0.0d
+			rotation: -90.0d
 			width: 1.0d
-			x: 0.0d
-			y: -1.0d
+			x: 16.0d
+			y: -11.0d
 		}
 		{
-			height: 1.5d
-			image: "ae2:block/controller_lights"
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			height: 5.0d
+			image: "ae2:block/crafting/monitor"
+			order: 1
 			rotation: 0.0d
-			width: 1.5d
-			x: 0.0d
+			width: 5.0d
+			x: 21.0d
+			y: -11.0d
+		}
+		{
+			height: 9.0d
+			image: "ae2:block/controller"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			dependency: "5F39514D991EB2B8"
+			height: 9.0d
+			image: "ae2:block/controller_lights"
+			order: 2
 			rotation: 0.0d
-			width: 1.0d
-			x: 1.9642857142857224d
-			y: -0.4940476190476204d
+			width: 9.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
 			width: 1.0d
-			x: 2.4642857142857224d
-			y: -0.029761904761912206d
+			x: 18.0d
+			y: -11.0d
 		}
 		{
-			height: 1.0d
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 16.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
 			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			color: 657930
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 2.1316282072803006E-14d
-			y: 1.8630952380952337d
+			width: 1.17d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 2.1316282072803006E-14d
-			y: -1.8511904761904816d
+			width: 1.17d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.502380952380967d
-			y: 4.0166666666666515d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 11.66d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.473809523809535d
-			y: 4.016666666666644d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.51666666666668d
-			y: 3.070238095238075d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.480952380952395d
-			y: 3.0345238095237903d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.445238095238118d
-			y: 2.070238095238082d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.516666666666687d
-			y: 2.0345238095237974d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.480952380952417d
-			y: 1.070238095238082d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.492857142857176d
-			y: -1.989285714285728d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 14.528571428571482d
-			y: -1.989285714285728d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 15.016666666666701d
-			y: -2.554761904761918d
+			width: 1.17d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 15.0d
-			y: -3.5d
+			width: 1.17d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
 			x: -1.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: -1.85d
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: -90.0d
-			width: 1.0d
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_small_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_small_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
 			x: 1.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 4.0d
+			image: "modpack:textures/ae2_quantum_ring.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
 			image: "ae2:block/controller_column_lights"
 			rotation: -90.0d
 			width: 1.0d
-			x: 1.85d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
 			y: 0.0d
 		}
 	]
@@ -204,13 +719,6 @@
 			]
 			id: "0C59541433431FDD"
 			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "1E894659A70F605D"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
 				{
 					id: "0C621DFE70ED44F3"
 					item: {
@@ -243,6 +751,13 @@
 					}
 					type: "item"
 				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "618C2DB45D46767D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
 			subtitle: "Find a &eCrashed Meteorite"
 			tasks: [{
@@ -253,7 +768,7 @@
 				type: "structure"
 			}]
 			title: "A Strange Discovery"
-			x: 0.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -269,7 +784,7 @@
 			]
 			id: "35BF66CD4FAE83DE"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "23F66DC87C0CCDDD"
 				ignore_reward_blocking: true
@@ -289,7 +804,7 @@
 				}
 			]
 			title: "Certus Quartz"
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -308,9 +823,9 @@
 			]
 			id: "33EE235B3C35EE49"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "0C4987804173188E"
+				id: "1B8A8210D6C23691"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -327,7 +842,7 @@
 				type: "item"
 			}]
 			title: "Budding Certus Quartz"
-			x: 0.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -343,47 +858,13 @@
 				"&6Tip:&r While the &eInscriber Presses are not consumed in their respective recipes&r, they can only command an single inscriber at a time, When your demand out-scales your initial set of Inscribers, each can be used to &eproduce an copy&r of itself when inscribed onto an Iron Block."
 			]
 			id: "0F049DA208BF4053"
-			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "70E2A1AAC72390C2"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "4E709720839DF2EB"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5FC436111F11696C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "A little force oughta do"
 			tasks: [
 				{
@@ -408,7 +889,7 @@
 				}
 			]
 			title: "Inscriber Presses"
-			x: 0.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -420,7 +901,7 @@
 			]
 			id: "2F7DE4928A6825D4"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "00F4145C1B9A1ABF"
 				ignore_reward_blocking: true
@@ -433,7 +914,7 @@
 				item: { Count: 4, id: "ae2:sky_stone_block" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -447,9 +928,9 @@
 			]
 			id: "31977C760DC1FC77"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "7CA33B9D73D71092"
+				id: "5DBAC375E894FCE6"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -467,16 +948,16 @@
 				}
 			]
 			title: "Charging"
-			x: 6.0d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["31977C760DC1FC77"]
-			description: ["Leads you to the nearest &eMeteorite&r."]
+			dependencies: ["5CF065DD209B4B1C"]
+			description: [" Leads you to the nearest &n&l&o&m&5Mysterious Cube&r&r&r&r&r, which can only be found in &eCrashed Meteorites&r."]
 			id: "0DCF79D83ADEF1BF"
 			optional: true
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "10B7F18DB5DCBC0D"
 				ignore_reward_blocking: true
@@ -488,16 +969,16 @@
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["31977C760DC1FC77"]
-			description: ["You can also hold 'G' When hovering over &dAE2&r Items to find their page insantly."]
+			dependencies: ["5CF065DD209B4B1C"]
+			description: ["You can also hold 'G' When hovering over &dAE2&r Items to find their page instantly."]
 			id: "6DF2B5559A688FBF"
 			optional: true
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "263757C21B161E41"
 				ignore_reward_blocking: true
@@ -509,11 +990,14 @@
 				item: "ae2:guide"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["31977C760DC1FC77"]
+			dependencies: [
+				"31977C760DC1FC77"
+				"7D247A72BC4EC1A3"
+			]
 			description: [
 				"Before we move on, we must establish an new mechanic; &bIn World Transformations&r."
 				""
@@ -522,6 +1006,13 @@
 				"I'll provide you with two non-essential but potentially useful examples as &eOptional Quests&r."
 			]
 			id: "353A578CDE6BFEE9"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "050F000C1545E04B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Natural"
 			tasks: [{
 				id: "6116B7AEE4AD7F90"
@@ -530,13 +1021,21 @@
 			}]
 			title: "In World Transformation"
 			x: 6.0d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["353A578CDE6BFEE9"]
 			description: ["If you find yourself needing more &eCertus Quartz Dust/Crystals&r, you can rejuvenate &eChipped/Damaged Budding Certus Quartz&r or breathe fresh life into an &eCertus Quartz Block&r by combing them with an &bCharged Certus Quartz Crystal&r in an &9pool of water&r."]
+			hide_until_deps_complete: true
 			id: "637B7439FCF1D436"
 			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "5CC7EAAA8E7CFC9D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Similar to a defibrillator"
 			tasks: [{
 				id: "71773CA653FCF07A"
@@ -544,14 +1043,22 @@
 				type: "checkmark"
 			}]
 			title: "Rejuvenation"
-			x: 7.0d
-			y: -3.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["353A578CDE6BFEE9"]
 			description: ["If you need to convert some Dust into Crystals, you can do so by mixing &bCharged Certus Quartz Crystals&r and &eCertus Quartz Dust&r to produce 2x &eCertus Quartz Crystal&r"]
+			hide_until_deps_complete: true
 			id: "47B8823D3CE98856"
 			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "0C7F32D36029963A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Too much dust?"
 			tasks: [{
 				id: "218F485DA8E0923C"
@@ -560,7 +1067,7 @@
 			}]
 			title: "Equivalent Exchange"
 			x: 5.0d
-			y: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["607B99F14104C94C"]
@@ -578,47 +1085,13 @@
 				"&6Printed Logic Circuits&r + &8Printed Silicon&r + &4Redstone&r => &6Logic Processor&r"
 			]
 			id: "7D247A72BC4EC1A3"
-			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "2E416076FCA82C83"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "24E27AAB8866994E"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0B1C56F13720C264"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "High Tech Printing"
 			tasks: [{
 				id: "51B35295F6D1B026"
@@ -626,7 +1099,7 @@
 				type: "item"
 			}]
 			title: "Inscribing"
-			x: 6.0d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -636,11 +1109,11 @@
 				""
 				"&6Tip:&r If you already have an source of power, You can transfer it into your machine by using an &eEnergy Acceptor&r. Try placing it adjacent to your source of power and the machine you are attempting to power."
 				""
-				"&6Note:&r All &dApplied Energistics&r equipment will automatically link to eachother and allow power to flow between themselves."
+				"&6Note:&r All &dApplied Energistics&r equipment will automatically link themselves to each other and allow power to flow between themselves."
 			]
 			id: "607B99F14104C94C"
 			rewards: [{
-				amount: 80L
+				amount: 10L
 				currency: "eternalcurrencies:coins"
 				id: "7CCFAF0252F25766"
 				ignore_reward_blocking: true
@@ -653,14 +1126,11 @@
 				type: "checkmark"
 			}]
 			title: "Initial Power! &e(Information Quest)&r"
-			x: 3.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"31977C760DC1FC77"
-				"7D247A72BC4EC1A3"
-			]
+			dependencies: ["353A578CDE6BFEE9"]
 			description: [
 				"Your &dME Controller&r is the heart of your entire Network, every machine you have used so far takes up an &eChannel&r, without an controller your &eNetwork&r is limited to &e8 Channels&r."
 				""
@@ -672,20 +1142,22 @@
 				""
 				"Your &eNetwork&r details tell you a lot of things, the amount of &eChannels&r you have used, your &7Stored/Max Power&r, your &ePassive Drain&r which we will get to in a moment, and your &7Energy Useage/Generation&r."
 				""
-				"While most of thease are fundamental, &ePassive Drain&r is a bit more unique, most machines you connect to your system will have an minor amount of &ePassive Drain&r, but it's nothing to worry about as long as you have an power setup appropriate for your scale and you have an suitable &7Power Bank&r."
+				"While most of these are fundamental, &ePassive Drain&r is a bit more unique, most machines you connect to your system will have an minor amount of &ePassive Drain&r, but it's nothing to worry about as long as you have an power setup appropriate for your scale and you have an suitable &7Power Bank&r."
 				"{@pagebreak}"
-				"The &7Power Bank&r of your &dME Controller&r alone is insuffecent, since it cannot store an meaninful excess of energy. With &76k AE (energy)&r storage provided by your controller, you have no buffer for when multiple machine begin running. The solution? a &eEnergy Cell&r, with it's weakest iteration providing &7200k AE (energy)&r storage, an single copy will be a sufficient buffer for an long time."
+				"The &7Power Bank&r of your &dME Controller&r alone is insuffecent, since it cannot store an meaninful excess of energy. With &76k AE (energy)&r storage provided by your controller, you have no buffer for when multiple machine begin running. The solution? a &eEnergy Cell&r, with it's weakest iteration providing &7200k AE (energy)&r storage, a single copy will be a sufficient buffer for an long time."
 				""
 				"With the metaphorical heart of your operation constructed you now need to &7Power&r it."
 				""
-				"If you haven't already this is the time to make use of your &aFavourate Energy Mod&r and produce the power for your future contraptions to use."
+				"If you haven't already this is the time to make use of your &aFavorite Energy Mod&r and produce the power for your future contraptions to use."
 				""
 				"&6Tip:&r In order to transfer external &7Power Generation&r into &dAE2&r, all you need is an &eEnergy Acceptor&r. Just connect your acceptor to your Network, hook your power into, it and watch your battery fill!"
 			]
+			hide_dependent_lines: true
 			icon: "ae2:controller"
 			id: "5F39514D991EB2B8"
 			rewards: [
 				{
+					count: 2
 					id: "475C78C193D87A74"
 					item: {
 						Count: 1
@@ -718,7 +1190,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "197C1B27983277A8"
 					ignore_reward_blocking: true
@@ -742,7 +1214,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
@@ -757,7 +1229,7 @@
 			icon: "ae2:fluix_glass_cable"
 			id: "563E2BEF024962AD"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "55FF51D69DEE7203"
 				ignore_reward_blocking: true
@@ -777,13 +1249,13 @@
 				}
 			]
 			title: "Fluix Cables"
-			x: 9.0d
-			y: 1.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["563E2BEF024962AD"]
 			description: [
-				"&eCovered Cables&r are 1 to 1 with &5Fluix Cables&r bar their visiual differences."
+				"&eCovered Cables&r are 1 to 1 with &5Fluix Cables&r bar their visual differences."
 				""
 				"&3Dense Cables&r Function identically to &5Fluix Cables&r with the single cavate of being able to hold 32 channels instead of 8, making them ideal as the cables that connect to the faces of your &dME Controller&r to allow you to split the &332 Channels&r properly between your &e8 Channel&r capped &5Fluix Cables&r."
 				""
@@ -794,7 +1266,7 @@
 			id: "5A4036C94C8C7485"
 			min_required_tasks: 1
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "0DD582D1DB99364E"
 				ignore_reward_blocking: true
@@ -826,8 +1298,8 @@
 				}
 			]
 			title: "Thicker Cables"
-			x: 8.0d
-			y: 2.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -837,24 +1309,27 @@
 				"All of your &4*spoils of conquest*&r will be stored in &eME Item Storage Cells&r, functionally an chest with much deeper item slots."
 				""
 				"&eStorage Cells&r are stored in &eME Drives&r which act as an holding bay for &510 Storage Cells&r per &eME Drive&r regardles of size or type."
+				"{@pagebreak}"
+				"To access your &bStorage Network&r you must use at least a &eME Terminal&r, but for most cases you want to push an step beyond and instead use an &eCrafting Terminal&r."
 				""
-				"To access your &bStorage Network&r you must use at least a &eME Terminal&r, but for most cases you want to push an step beyond and instead use an &eCrafting Terminal&r which also allows you to access your &bStorage Network&r but it provide an easy to use &eCrafting Table&r within the terminal for all your crafting needs."
+				"Not only does it allow you to access your &bStorage Network&r but it also provides an easy to use &eCrafting Table&r within the terminal."
 				"{image:modpack:textures/ae2_simple_storage.png width:200 height:100 align:center}"
 				"{@pagebreak}"
 				"While all &eItem Storage Cells&r only allow you to store &563 types&r of items per Storage Cell, the size of your &eStorage Cell&r (&c1k&r, &64k&r, &a16k&r etc.) allows you to scale the &7Capacity&r of those cells."
 				""
-				"Basicaly, you &4do not&r want to store &enon-stacking items&r such as Swords, Armour and the various Trinkets you come across inside your &bStorage Network&r; else you risk overflowing the &7Types&r of items that you can store much earlier than the &7Capacity&r of your cells."
+				"Basically, you &4do not&r want to store &enon-stacking items&r such as Swords, Armor and the various Trinkets you come across inside your &bStorage Network&r; else you risk overflowing the &7Types&r of items that you can store much earlier than the &7Capacity&r of your cells."
 				""
 				"Before moving on, it's important to note that the &7Capacity&r of cells is not in terms of items but in terms of &7Bytes&r."
 				""
-				"They are hard to explain and an deeper understanding of them isn't required but fundementally &ethe more&r &7Bytes&r &eyou have, the more Items you can store.&r"
+				"They are hard to explain and an deeper understanding of them isn't required but fundamentally &ethe more&r &7Bytes&r &eyou have, the more Items you can store.&r"
 				"{@pagebreak}"
 				"There is another mechanic to &eStorage Cells&r related to &7Types&r; &7Bytes&r work in such an way that the &7Capacity&r of an cell is used more efficently the less &7Types&r it uses."
 				""
 				"This is most useful when &eModifying Cells&r and shifting around &ePriorities&r which will be explained soon."
 				""
-				"Again, the specifics aren't nessessary but the &eGuide&r has a table can explain this visually. (Try holding 'G' on &eStorage Cells&r)"
+				"Again, the specifics aren't necessary but the &eGuide&r has a table can explain this visually. (Try holding 'G' on &eStorage Cells&r)"
 			]
+			hide_dependent_lines: true
 			icon: "ae2:drive"
 			id: "67F89819C94F591A"
 			rewards: [
@@ -921,8 +1396,8 @@
 				}
 			]
 			title: "Storage Network"
-			x: 11.0d
-			y: -2.0d
+			x: 13.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -933,9 +1408,9 @@
 			]
 			id: "786990F250A68E7C"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "57C714E6DB583048"
+				id: "542F817E22153714"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -946,10 +1421,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["5F39514D991EB2B8"]
+			dependencies: ["67F89819C94F591A"]
 			description: [
 				"Every &dAE2&r &eMachine&r can be &ealtered or upgraded&r in some way, these cards are the methods in which you can do that, some can stack while others don't need to, each machine will have an &enumber (x)&r next to the cards that it can accept, that number is the &emaximum amount&r of that card that it will accept at a time."
 				""
@@ -957,13 +1432,6 @@
 			]
 			id: "4EA9475456821DCD"
 			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "3117D57617760CB5"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
 				{
 					id: "4D589338D88656B3"
 					item: {
@@ -995,6 +1463,13 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "609C70B11ECF1FA9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Upgrades in SIM form"
@@ -1046,8 +1521,8 @@
 				}
 			]
 			title: "Card Collecting"
-			x: 8.0d
-			y: 1.0d
+			x: 13.0d
+			y: -9.69d
 		}
 		{
 			dependencies: ["7889A5659E64B507"]
@@ -1056,107 +1531,19 @@
 				""
 				"The &bCPU&r contains the &eCo-Proccessing Unit&r and &eCrafting Storage&r, they control how many &eRequests&r you can make at a time, and how many &eItems can be flowing around&r in the &bCrafting Network&r at the same time, respectfully."
 				""
-				"They can be placed anywhere adjacent to eachother, and expanded by just adding more of the requireed block."
+				"They can be placed anywhere adjacent to each other, and expanded by just adding more of the required block."
 				""
 				"{@pagebreak}"
-				"Initally one of each a &eCo-Proccessing Unit&r and a &e1k Crafting Storage&r is plenty, but as your demand expands upgrading the apropriate bottleneck is important and simple."
+				"Initially one of each a &eCo-Proccessing Unit&r and a &e1k Crafting Storage&r is plenty, but as your demand expands upgrading the appropriate bottleneck is important and simple."
 				""
 				"If you are requesting a lot of &e*Unique Patterns*&r at once, then you need more &eCo-Proccessing Units&r and if you are requesting a lot of a &e*Single Pattern*&r then you need more &eCrafting Storages&r."
 				""
 				"&6For Example;&r Crafting 30 different types of doors => &eUnique Patterns&r, Crafting an single type of door 30 times => &eSingle Pattern&r."
 			]
 			id: "2ADED090D8AB82FB"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "4B407A5D055CD2C8"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Half a Crafting Network"
-			tasks: [
-				{
-					id: "590947D31285C2F3"
-					item: "ae2:crafting_accelerator"
-					type: "item"
-				}
-				{
-					id: "403BC9C856BEE793"
-					item: "ae2:1k_crafting_storage"
-					type: "item"
-				}
-			]
-			title: "Crafting CPU"
-			x: 14.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["67F89819C94F591A"]
-			description: [
-				"Your &bStorage Network&r is not limited to Items, but can also accept &eFluids&r if the appropriate cell is housed in your network."
-				""
-				"&6Note:&r While only &518 Types&r of liquids are supported per cell, it's actually plenty for almost all uses and as such deeper &eFluid Storage Cells&r are more common than their item counterpart."
-			]
-			id: "44FECE9717443836"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "66006B299DA1FD29"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Buckets upon Buckets of Lava"
-			tasks: [{
-				id: "059222AC3527D804"
-				item: {
-					Count: 1
-					id: "ae2:fluid_storage_cell_1k"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Fluid Storage"
-			x: 11.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["67F89819C94F591A"]
-			description: [
-				"If you find yourself needing a lot of &7Capacity&r for a few &eTypes of Items&r, an larger &eStorage Cell&r may be what you need."
-				""
-				"By default, every iteration of an &eStorage Cell&r gives you an extra (x)K worth of &7Bytes&r, with (x) being the capacity of the cell before it. "
-				""
-				"For Example, an &64k Storage Cell&r needs an &e4k Storage Component&r, but instead of needing 4x &e1k Storage Components&r to craft, you only need 3, and as such you get an extra 1k &7Bytes&r for free."
-			]
-			id: "6CB2052755C8ABC1"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "5E2505BDB478063D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Tons of Stone"
-			tasks: [{
-				id: "6932234167172E63"
-				item: {
-					Count: 1
-					id: "ae2:item_storage_cell_4k"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Deeper Storage"
-			x: 10.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["67F89819C94F591A"]
-			description: ["Your &bStorage Network&r can also accept &eChemicals&r, the cells act identically to their &eFluid&r counterparts and as such the advice for them applies here aswell."]
-			id: "7A08C9D3CE872BE5"
 			rewards: [
 				{
-					id: "0854C77B46A93BCC"
+					id: "2C6DB126A8E259BA"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -1190,11 +1577,99 @@
 				{
 					amount: 100L
 					currency: "eternalcurrencies:coins"
-					id: "334A01B7D5641591"
+					id: "66D2058D2296DE13"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 			]
+			subtitle: "Half a Crafting Network"
+			tasks: [
+				{
+					id: "590947D31285C2F3"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "403BC9C856BEE793"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+			]
+			title: "Crafting CPU"
+			x: 20.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"Your &bStorage Network&r is not limited to Items, but can also accept &eFluids&r if the appropriate cell is housed in your network."
+				""
+				"&6Note:&r While only &518 Types&r of liquids are supported per cell, it's actually plenty for almost all uses and as such deeper &eFluid Storage Cells&r are more common than their item counterpart."
+			]
+			id: "44FECE9717443836"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "66006B299DA1FD29"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Buckets upon Buckets of Lava"
+			tasks: [{
+				id: "059222AC3527D804"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Fluid Storage"
+			x: 12.0d
+			y: -13.55d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"If you find yourself needing a lot of &7Capacity&r for a few &eTypes of Items&r, an larger &eStorage Cell&r may be what you need."
+				""
+				"By default, every iteration of an &eStorage Cell&r gives you an extra (x)K worth of &7Bytes&r, with (x) being the capacity of the cell before it. "
+				""
+				"For Example, an &64k Storage Cell&r needs an &e4k Storage Component&r, but instead of needing 4x &e1k Storage Components&r to craft, you only need 3, and as such you get an extra 1k &7Bytes&r for free."
+			]
+			id: "6CB2052755C8ABC1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5E2505BDB478063D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Tons of Stone"
+			tasks: [{
+				id: "6932234167172E63"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Deeper Storage"
+			x: 11.0d
+			y: -13.55d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: ["Your &bStorage Network&r can also accept &eChemicals&r, the cells act identically to their &eFluid&r counterparts and as such the advice for them applies here as well."]
+			id: "7A08C9D3CE872BE5"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "334A01B7D5641591"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Gaseous "
 			tasks: [{
 				id: "6A84FF703976E87E"
@@ -1206,8 +1681,8 @@
 				type: "item"
 			}]
 			title: "Chemicals Too"
-			x: 12.0d
-			y: -5.0d
+			x: 14.0d
+			y: -13.55d
 		}
 		{
 			dependencies: [
@@ -1223,7 +1698,7 @@
 				""
 				"2) Be &eIndependant&r"
 				""
-				"&6Hint:&r If you want to lay multiple cables near eachother, try to add some colour."
+				"&6Hint:&r If you want to lay multiple cables near each-other, try to add some colour."
 			]
 			id: "1EEF413E836981C9"
 			rewards: [
@@ -1260,7 +1735,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "08465F1FBEB37CD6"
 					ignore_reward_blocking: true
@@ -1281,8 +1756,8 @@
 				type: "item"
 			}]
 			title: "Colourful Cables"
-			x: 9.0d
-			y: 3.0d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1293,7 +1768,7 @@
 			]
 			id: "63FEA2EF6977B017"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "70C9B79DC34B3D8A"
 				ignore_reward_blocking: true
@@ -1305,79 +1780,47 @@
 				item: "ae2:chest"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.0d
+			x: 14.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: ["Most useful when messing around with &eModified Storage Cells&r or &ePriority&r in your &eME Drive&r, the &eME IO Port&r allows you to quickly transfer all the items stored within an &eStorage Cell&r into the &bStorage Network&r and vice versa."]
 			id: "58941F0B71BB33F9"
-			rewards: [
-				{
-					id: "0458A140B7F59E0B"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "2226277DC3814E6A"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2226277DC3814E6A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Macro Management"
 			tasks: [{
 				id: "7BFD2D1CEFA8EE7B"
 				item: "ae2:io_port"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 15.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: [
 				"The &eCell Workbench&r allows you to &aAdd/Remove/Config&r &eUpgrade Cards&r from your &eStorage Cells&r and/or &ePartition&r them."
 				""
-				"Here's an example; Say you have an cobblestone generator and you want to pipe it into your &bStorage Network&r, but wait, you don't want to end up filling all of your &eStorage Cards&r with cobblestone. What do you do?"
+				"Here's an example; Say you have an Cobblestone Generator and you want to pipe it into your &bStorage Network&r."
 				""
-				"&6Hint:&r Before you turn the page and check the answer, think of the &eUpgrade Cards&r we've introduced, could any of them do this job?"
+				"But wait, you don't want to end up filling all of your &eStorage Cards&r with Cobblestone. What do you do?"
+				""
+				"&6Hint:&r Before you turn the page and check the answer, think of the &eUpgrade Cards&r we've introduced, could any of them achieve this task?"
 				"{@pagebreak}"
-				"You could install an &aOverflow Destruction Card&r onto an &eStorage Cell&r, but before you do that you must make sure that the &eStorage Cell&r will only accept cobblestone otherwise you risk your &bStorage Network&r eating your items. But how do we do that?"
+				"You could install an &aOverflow Destruction Card&r onto an &eStorage Cell&r, but before you do that you must make sure that the &eStorage Cell&r will only accept Cobblestone otherwise you risk your &bStorage Network&r eating your items. But how do we do that?"
 				""
-				"&aPartitioning&r, by placing an &eStorage Cell&r into your &eCell Workbench&r you gain the ability to &ePartition&r it's cells; This means that by placing an copy of the item(s) you want the cell to contain, you can make it exclusivly accept only those items."
+				"&aPartitioning&r, by placing an &eStorage Cell&r into your &eCell Workbench&r you gain the ability to &ePartition&r it's cells; This means that by placing an copy of the item(s) you want the cell to contain, you can make it exclusively accept only those items."
 				"{@pagebreak}"
-				"So now, if you have &aPartitioned&r your &eStorage Cell&r to only accept cobblestone, &eModified&r it with an &aOverflow Destruction Card&r and set the &epriority&r of the &eME Drive&r containing it to the top of your &aChain of Priority&r, any and all cobblestone &eImported&r into the &bStorage Network&r will fill the &eStorage Cell&r to it's &7Capacity&r and the excess will be thorwn into the void instead of overflowing your &bStorage Network&r."
+				"So now, if you have &aPartitioned&r your &eStorage Cell&r to only accept Cobblestone, &eModified&r it with an &aOverflow Destruction Card&r and set the &epriority&r of the &eME Drive&r containing it to the top of your &aChain of Priority&r, any and all Cobblestone &eImported&r into the &bStorage Network&r will fill the &eStorage Cell&r to it's &7Capacity&r and the excess will be thrown into the void instead of overflowing your &bStorage Network&r."
 				""
-				"&6Hint:&r If you already have cobblestone in your &bStorage Network&r, try using the &eME IO Port&r to move it all into your new &eStorage Cell&r."
+				"&6Hint:&r If you already have Cobblestone in your &bStorage Network&r, try using the &eME IO Port&r to move it all into your new &eStorage Cell&r."
 			]
 			id: "684C94BB0EE3C77D"
 			rewards: [
@@ -1427,8 +1870,8 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 13.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1437,16 +1880,22 @@
 				""
 				"What does this look like?"
 				""
-				"Imagine you have two &eME Drives&r, and for whatever reason you want one to be completly filled before the other begins to accept items."
+				"Imagine you have two &eME Drives&r, and for whatever reason you want one to be completely filled before the other begins to accept items."
 				""
 				"By setting the &ePriority Value&r of the first to 1, or any value larger than the second drive's &ePriority Value&r, your &eNetwork&r will send all aplicable items to the first &eME Drive&r as long as it has room."
 				""
 				"Once it is full, your &eNetwork&r will look to fill the next &eME Drive&r down the &aChain of Priority&r."
 				""
-				""
 				"&6Hint:&r This is not limited to just ME Drives, almost every machine you work with will have an option for priority and they will all follow the &aChain of Priority&r."
 			]
 			id: "7C914E8C3B3778D1"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "5A81E712F1057280"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Organizational Tool"
 			tasks: [{
 				id: "0B2BF4EF70DE9E60"
@@ -1454,8 +1903,8 @@
 				type: "checkmark"
 			}]
 			title: "Priority"
-			x: 9.0d
-			y: -5.0d
+			x: 13.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1465,8 +1914,6 @@
 				"&6Tip:&r If you have a lot of &eNon-Stacking Items&r such as enchanted books and still want to access them through your &eTerminal&r, try creating an seperate storage such as &eSimple Storage Chests&r or &eCreate's Vault&r deticated to those items and connecting it to your network using the storage bus."
 				""
 				"&6Hint:&r &eStorage Buses&r are useful for many cases, so many infact that I couldn't reasonably fit them all here, but if you ever find yourself trying to access resources between your &bStorage Network&r and an &eSub-Network&r, &eStorage Buses&r are can help."
-				""
-				""
 				"{@pagebreak}"
 				"&6Tip:&r By default, &eStorage Buses&r allow everything to move through them, but they can also be filtered to only accept certain resources."
 				""
@@ -1475,47 +1922,13 @@
 				"Therefore your harvester of choice, assuming it doesn't have it's own inventory, will only be able to harvest &eMature Certus Quartz&r ensuring that you do not run into inefficent harvesting."
 			]
 			id: "3E8E4F3540AE38AD"
-			rewards: [
-				{
-					id: "47D048FF6A15745C"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "41E42B619AD11FF2"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "41E42B619AD11FF2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "For accepting non-drive storage"
 			tasks: [{
 				id: "2619FBCD58071BBE"
@@ -1523,7 +1936,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -1.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1536,7 +1949,7 @@
 			]
 			id: "5B9A6A9F0F1EDEA7"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "339143EBC547C3F7"
 				ignore_reward_blocking: true
@@ -1556,8 +1969,8 @@
 				}
 			]
 			title: "Import/Export Buses"
-			x: 12.0d
-			y: -3.0d
+			x: 11.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["2ADED090D8AB82FB"]
@@ -1566,9 +1979,9 @@
 				""
 				"While &eCo-Proccessing Units&r and &eCrafting Storage&r determines the amount of &eRequests&r you can issue and the number of items that can flow around your &eCrafting Network&r at a time; &eRequests&r can not be fulfilled without the appropriate &eME Pattern Providers&r and &eMolecular Assemblers&r."
 				""
-				"&eMolecular Assemblers&r are &eAutomated Crafting Tables&r, they can hold an &ePattern&r and automatically craft it's item as long as it recives power and the resources requied."
+				"&eMolecular Assemblers&r are &eAutomated Crafting Tables&r, they can hold an &ePattern&r and automatically craft it's item as long as it receives power and the resources required."
 				""
-				"For useage in your &bCrafting Network&r they basically do the same thing, but instead of needing a held &ePattern&r and inputed resources, adjacent &ePattern Providers&r can provide both."
+				"For useage in your &bCrafting Network&r they basically do the same thing, but instead of needing a held &ePattern&r and inputted resources, adjacent &ePattern Providers&r can provide both."
 				"{@pagebreak}"
 				"&ePattern Providers&r store all your &ePatterns&r and order around the adjacent blocks based on the &eRequests&r contained within their &ePatterns&r."
 				""
@@ -1580,11 +1993,11 @@
 				"{@pagebreak}"
 				"1) &bCrafting Network&r checks that you have an &eCo-Proccessing Units&r avilable to order the \"craft\"."
 				""
-				"2) &bCrafting Network&r checks that you have enough &eCrafting Storage&r to hold all the required materials to fullfil the order."
+				"2) &bCrafting Network&r checks that you have enough &eCrafting Storage&r to hold all the required materials to fulfil the order."
 				""
 				"3) &bCrafting Network&r sends the order to the available &ePattern Provider&r containing the &eRequest's Pattern&r"
 				""
-				"4) &ePattern Provider&r informs the adjacent &eMolecular Assemblers&r of the &eRequest&r and provides the nececary materials from the connected &bStorage Network&r and the &ePattern&r's instructions."
+				"4) &ePattern Provider&r informs the adjacent &eMolecular Assemblers&r of the &eRequest&r and provides the necessary materials from the connected &bStorage Network&r and the &ePattern&r's instructions."
 				""
 				"5) &ePattern Provider&r enters an \"sleep\" phase were it awaits the expected outputs, while the &eMolecular Assembler&r works on crafting and returning them."
 				""
@@ -1599,177 +2012,11 @@
 				"(&6Visual Example&r; &5Fluix Cables&r are hidden but connect the &bCrafting Network&r with the &bStorage Network&r)"
 				"{image:modpack:textures/ae2_simple_crafting_setup.png width:200 height:100 align:center}"
 			]
+			hide_dependent_lines: true
 			id: "19ABB31DC31B6DF3"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "664AA0FB527F2567"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "The Other Half"
-			tasks: [
-				{
-					id: "7D58D99090DA5BBC"
-					item: "ae2:pattern_provider"
-					type: "item"
-				}
-				{
-					id: "33C6C9D355A039CE"
-					item: "ae2:molecular_assembler"
-					type: "item"
-				}
-			]
-			title: "Crafting RAM"
-			x: 15.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["67F89819C94F591A"]
-			description: [
-				"Part of why &dApplied Energistics'&r &bStorage Network&r is so popular is it's ability to &eRequest&r the automated crafting of &9*any/everything*&r."
-				""
-				"This is done through the useage of &ePatterns&r, \"guides\" for you machines on how to Craft, Smelt, Brew and so on."
-				""
-				"Before we get to building your crafter's &bCPU&r, it's important to learn and understand how &ePatterns&r, their creation and their implementation works."
-				"{@pagebreak}"
-				"To begin, an &eME Pattern Encoding Terminal&r is required, it is how you can interact with an configure &eBlank Patterns&r."
-				""
-				"Whem opening the terminal, you will notice that it displaces your &bStorage Network&r and the &ePattern Encoding UI&r, while it may look like it it doesn't actually work as an crafting table."
-				""
-				"Instead it is an medium for you to insert the recipes you wish to automate and adjust their results if need be."
-				""
-				"&6Tip:&r In order to familiarise yourself with the &ePattern Encoding Terminal&r, try and create the appropriate &ePattern&r for crafting Planks from Logs, then Planks into Sticks."
-				""
-				"&6Hint:&r if you need to change the quantity Inputed/Outputed you can &eMiddle Mouse&r the respective item within an pattern to adjust it."
-				"{@pagebreak}"
-				"Regardless of weather or not you followed the tip, you might have noticed that on the right side of the &ePattern Enconding UI&r there are 4 options to choose from. Each of the options are there to explain to your &bCrafting Network&r what the expected &eOutput&r is for your given &eInput&r."
-				""
-				"For &ePatterns&r that require an &eCrafting Table&r, &eCrafting Patterns&r are used."
-				""
-				"For &ePatterns&r that require an &eSmelting/Brewing/Processing&r, &eProcessing Patterns&r are used."
-				""
-				"For &ePatterns&r that require an &eSmithing Table&r, &eSmithing Table Patterns&r are used."
-				""
-				"For &ePatterns&r that require an &eStone Cutter&r, &eStone Cutting Patterns&r are used."
-				""
-				"&6Note:&r There are options for allowing/preventing &eSubstitutions&r, thease determine weather different blocks that could still fullfil the recipe (such as &eSpruce Planks&r making an chest instead of &eOak Planks&r) are permitted."
-				"{@pagebreak}"
-				"As you would expect, the &eCrafting&r, &eSmithing&r and &eStone Cutting Patterns&r are used for their respective blocks but &eProcessing Patterns&r are more unique."
-				""
-				"Processing Patterns are special because your &eOutput&r is not ristricted by your operating block."
-				""
-				"This difference is what gives the opertunity for &eBrewing&r and other &aspecial operations to take place&r."
-				""
-				"How that can be done is related to the nature of our &bCrafting Network&r and &ahow it operaterates&r, which we will get into shortly."
-				""
-				"But for now lets focus on &eAutomated Crafting&r."
-			]
-			icon: "ae2:pattern_encoding_terminal"
-			id: "7889A5659E64B507"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "4DE80D702CAADBFE"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Automation's at hand"
-			tasks: [
-				{
-					id: "4B7ADE30A6BCA0D3"
-					item: "ae2:pattern_encoding_terminal"
-					type: "item"
-				}
-				{
-					id: "0E39D67005AD5B38"
-					item: "ae2:blank_pattern"
-					type: "item"
-				}
-			]
-			title: "Auto-Crafting"
-			x: 13.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["35BF66CD4FAE83DE"]
-			description: [
-				"You will most likly make mistakes, and that's fine."
-				""
-				"When it comes to fixing them having an &eWrench&r around to remove &ePannels&r and &eFluix Cables&r in an clean and efficent fastion is helpful. (&eCrouch + Right-Click&r)"
-				""
-				"It can also be used to rotate things around."
-				""
-				"&6Note:&r This includes any and all items that can be &eplaced in/on&r &5Fluix Cables&r."
-			]
-			id: "7602ADB464628384"
-			optional: true
-			rewards: [{
-				amount: 80L
-				currency: "eternalcurrencies:coins"
-				id: "35554DDD674A723D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Just Incase"
-			tasks: [{
-				id: "41D746368E6ED8DE"
-				item: "ae2:certus_quartz_wrench"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["786990F250A68E7C"]
-			description: [
-				"As thier name suggests, when powered, &eAnnihilation Planes&r will break the block directly infront of them."
-				""
-				"Since they lack an &eIndependant Inventory&r, the use of an &eStorage Bus&r &eFiltered&r to only accept the outputs of an mature crop such as &eQuartz Crystals&r will prevent the &eAnnihilation Plane&r from harvesting resources before they have grown."
-				""
-				"{image:modpack:textures/ae2_quartz_farming_setup.png width:200 height:100 align:center}"
-				"{@pagebreak}"
-				"&6Tip:&r &eAnnihilation Planes&r can be &bEnchanted&r, but beware that they may cause an increase in &7Power Consumption&r that overloads an insuffecent &7Power Bank&r."
-				""
-				"&6Note:&r If used to harvest crops that drop seeds, the seeds will need to collected through alternative methods as the &eAnnihilation Plane&r will drop them. "
-				""
-				"&6Hint:&r The seeds can be picked up using an &2Ender IO&r &eVaccum Chest&r and &areplanted with it's upcoming counterpart&r."
-			]
-			id: "22B6724C52A81603"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "2AC8B5DB3EB0ABD1"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Agressive Harvesting"
-			tasks: [{
-				id: "7878EE857B69E474"
-				item: "ae2:annihilation_plane"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["22B6724C52A81603"]
-			description: [
-				"The inverse of their counterpart, &eFormation Plates&r can be used to place items including blocks and seeds into the world. "
-				""
-				"They continue to lack an Independant Inventory, but they contain their own &eFilter&r and as such can pull items directly from your &bStorage Network&r with the help of an &eImport Bus&r."
-				""
-				"It can still function on local &eSub-Networks&r when connected to an &eImport Bus&r."
-				"{@pagebreak}"
-				"&7Quartz Fiber&r filled &5Fluix Cable&r on the right side of the &dME Controller&r providing power to the &eFormation Plane&r and linking it to the &eStorage Bus&r connected to an chest containing Seeds (Hidden &5Fluix Cables&r moving seeds from Vaccum Chest into Barrel using an &eFiltered Import Bus&r)."
-				""
-				"&7Quartz Fiber&r filled &5Fluix Cable&r on the top side of the &dME Controller&r providing power to the &eGrowth Accelerators&r and &eAnnihilation Plane&r, &eExport Bus&r connected to the &eVaccum Chest Filtered&r to accept &eWheat&r allowing the harvesting and storing of farmed goods."
-				"{image:modpack:textures/ae2_simple_farming_setup.png width:200 height:100 align:center}"
-			]
-			id: "034F0C238E6C785E"
 			rewards: [
 				{
-					id: "228CF816598B44BC"
+					id: "02A2C31FB015E317"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -1803,7 +2050,242 @@
 				{
 					amount: 100L
 					currency: "eternalcurrencies:coins"
-					id: "554D93E738DE275D"
+					id: "40C48372D13BE3F4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "The Other Half"
+			tasks: [
+				{
+					id: "7D58D99090DA5BBC"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "33C6C9D355A039CE"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "Crafting RAM"
+			x: 20.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"Part of why &dApplied Energistics'&r &bStorage Network&r is so popular is it's ability to &eRequest&r the automated crafting of &9*any/everything*&r."
+				""
+				"This is done through the useage of &ePatterns&r, \"guides\" for you machines on how to Craft, Smelt, Brew and so on."
+				""
+				"Before we get to building your crafter's &bCPU&r, it's important to learn and understand how &ePatterns&r, their creation and their implementation works."
+				"{@pagebreak}"
+				"To begin, an &eME Pattern Encoding Terminal&r is required, it is how you can interact with an configure &eBlank Patterns&r."
+				""
+				"When opening the terminal, you will notice that it displaces your &bStorage Network&r and the &ePattern Encoding UI&r, while it may look like it it doesn't actually work as an crafting table."
+				""
+				"Instead it is an medium for you to insert the recipes you wish to automate and adjust their results if need be."
+				""
+				"&6Tip:&r In order to familiarize yourself with the &ePattern Encoding Terminal&r, try and create the appropriate &ePattern&r for crafting Planks from Logs, then Planks into Sticks."
+				""
+				"&6Hint:&r if you need to change the quantity Inputed/Outputed you can &eMiddle Mouse&r the respective item within an pattern to adjust it."
+				"{@pagebreak}"
+				"Regardless of weather or not you followed the tip, you might have noticed that on the right side of the &ePattern Enconding UI&r there are 4 options to choose from. Each of the options are there to explain to your &bCrafting Network&r what the expected &eOutput&r is for your given &eInput&r."
+				""
+				"For &ePatterns&r that require an &eCrafting Table&r, &eCrafting Patterns&r are used."
+				""
+				"For &ePatterns&r that require an &eSmelting/Brewing/Processing&r, &eProcessing Patterns&r are used."
+				""
+				"For &ePatterns&r that require an &eSmithing Table&r, &eSmithing Table Patterns&r are used."
+				""
+				"For &ePatterns&r that require an &eStone Cutter&r, &eStone Cutting Patterns&r are used."
+				""
+				"&6Note:&r There are options for allowing/preventing &eSubstitutions&r, thease determine weather different blocks that could still fullfil the recipe (such as &eSpruce Planks&r making an chest instead of &eOak Planks&r) are permitted."
+				"{@pagebreak}"
+				"As you would expect, the &eCrafting&r, &eSmithing&r and &eStone Cutting Patterns&r are used for their respective blocks but &eProcessing Patterns&r are more unique."
+				""
+				"Processing Patterns are special because your &eOutput&r is not restricted by your operating block."
+				""
+				"This difference is what gives the opportunity for &eBrewing&r and other &aspecial operations to take place&r."
+				""
+				"How that can be done is related to the nature of our &bCrafting Network&r and &ahow it operates&r, which we will get into shortly."
+				""
+				"But for now lets focus on &eAutomated Crafting&r."
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "7889A5659E64B507"
+			rewards: [
+				{
+					id: "78D5251100E6646F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6EAEEE2E34C6D712"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Automation's at hand"
+			tasks: [
+				{
+					id: "4B7ADE30A6BCA0D3"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "0E39D67005AD5B38"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "Auto-Crafting"
+			x: 20.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["35BF66CD4FAE83DE"]
+			description: [
+				"You will most likly make mistakes, and that's fine."
+				""
+				"When it comes to fixing them having an &eWrench&r around to remove &ePannels&r and &eFluix Cables&r in an clean and efficent fastion is helpful. (&eCrouch + Right-Click&r)"
+				""
+				"It can also be used to rotate things around."
+				""
+				"&6Note:&r This includes any and all items that can be &eplaced in/on&r &5Fluix Cables&r."
+			]
+			id: "7602ADB464628384"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "35554DDD674A723D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Just Incase"
+			tasks: [{
+				id: "41D746368E6ED8DE"
+				item: "ae2:certus_quartz_wrench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["786990F250A68E7C"]
+			description: [
+				"As their name suggests, when powered, &eAnnihilation Planes&r will break the block directly in-front of them."
+				""
+				"Since they lack an &eIndependant Inventory&r, the use of an &eStorage Bus&r &eFiltered&r to only accept the outputs of an mature crop such as &eQuartz Crystals&r will prevent the &eAnnihilation Plane&r from harvesting resources before they have grown."
+				""
+				"{image:modpack:textures/ae2_quartz_farming_setup.png width:200 height:100 align:center}"
+				"{@pagebreak}"
+				"&6Tip:&r &eAnnihilation Planes&r can be &bEnchanted&r, but beware that they may cause an increase in &7Power Consumption&r that overloads an insuffecent &7Power Bank&r."
+				""
+				"&6Note:&r If used to harvest crops that drop seeds, the seeds will need to collected through alternative methods as the &eAnnihilation Plane&r will drop them. "
+				""
+				"&6Hint:&r The seeds can be picked up using an &2Ender IO&r &eVaccum Chest&r and &areplanted with it's upcoming counterpart&r."
+			]
+			id: "22B6724C52A81603"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2AC8B5DB3EB0ABD1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Agressive Harvesting"
+			tasks: [{
+				id: "7878EE857B69E474"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22B6724C52A81603"]
+			description: [
+				"The inverse of their counterpart, &eFormation Plates&r can be used to place items including blocks and seeds into the world. "
+				""
+				"They continue to lack an &eIndependent Inventory&r, but they contain their own &eFilter&r and as such can pull items directly from your &bStorage Network&r with the help of an &eImport Bus&r."
+				""
+				"It can still function on local &eSub-Networks&r when connected to an &eImport Bus&r."
+				"{@pagebreak}"
+				"&7Quartz Fiber&r filled &5Fluix Cable&r on the right side of the &dME Controller&r providing power to the &eFormation Plane&r and linking it to the &eStorage Bus&r connected to an chest containing Seeds (Hidden &5Fluix Cables&r moving seeds from Vaccum Chest into Barrel using an &eFiltered Import Bus&r)."
+				""
+				"&7Quartz Fiber&r filled &5Fluix Cable&r on the top side of the &dME Controller&r providing power to the &eGrowth Accelerators&r and &eAnnihilation Plane&r, &eExport Bus&r connected to the &eVaccum Chest Filtered&r to accept &eWheat&r allowing the harvesting and storing of farmed goods."
+				"{image:modpack:textures/ae2_simple_farming_setup.png width:200 height:100 align:center}"
+			]
+			id: "034F0C238E6C785E"
+			rewards: [
+				{
+					id: "227758AB233586F3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5210BF7275BB7B96"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
@@ -1814,15 +2296,11 @@
 				item: "ae2:formation_plane"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"6CB2052755C8ABC1"
-				"44FECE9717443836"
-				"7A08C9D3CE872BE5"
-			]
+			dependencies: ["67F89819C94F591A"]
 			description: [
 				"Once charged; &ePortable Cells&r act as a backpack in your inventory."
 				""
@@ -1903,8 +2381,8 @@
 				}
 			]
 			title: "Portable Cells"
-			x: 11.0d
-			y: -6.0d
+			x: 15.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -1918,9 +2396,9 @@
 			]
 			id: "3F8668A1E774B8A6"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "2DF5D87A3F996AFB"
+				id: "52D9E8BA0CDBC2F2"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -1930,17 +2408,17 @@
 				item: "ae2:spatial_anchor"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"You've digitlized your &eStorage&r, &eFluids&r and even your &eChemicals&r, but why stop there?"
+				"You've digitized your &eStorage&r, &eFluids&r and even your &eChemicals&r, but why stop there?"
 				""
-				"With the power of the &eSpatial IO Port&r you can &adigitilize your world!&r"
+				"With the power of the &eSpatial IO Port&r you can &adigitalize your world!&r"
 				""
-				"Your &eSpatial IO Port&r can let you digitlize anything from an &eSingle Block&r to &eStructures&r spanning up to &b128x128x128 Blocks&r."
+				"Your &eSpatial IO Port&r can let you digitize anything from an &eSingle Block&r to &eStructures&r spanning up to &b128x128x128 Blocks&r."
 				"{@pagebreak}"
 				"It's functions in an simple manner, find your location, and build around it using &eSpatial Pylons&r until you cover its &eLength&r, &eWidth&r and &eHeight&r."
 				""
@@ -1952,9 +2430,9 @@
 			icon: "ae2:spatial_io_port"
 			id: "65EB1D8FE39B2EA8"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "104136CE2B5D0451"
+				id: "1F56F8C02059B72B"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -1971,8 +2449,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 2.0d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["65EB1D8FE39B2EA8"]
@@ -1985,7 +2463,7 @@
 			]
 			id: "5E2984EF36314A88"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "16CC4049103D4871"
 				ignore_reward_blocking: true
@@ -1997,20 +2475,54 @@
 				item: "ae2:spatial_storage_cell_2"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5E2984EF36314A88"]
 			description: ["The &eminimum for most strucures&r, &4But not our maxmium...&r"]
 			id: "76D949C432FF4DAB"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "00B06E84766B23FF"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "36B8F700EBC5560E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "70E7782D998A10AD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Sizeable"
 			tasks: [{
 				id: "4C6E0308B1A0E3C2"
@@ -2018,7 +2530,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["563E2BEF024962AD"]
@@ -2029,7 +2541,7 @@
 			]
 			id: "59A1722D0380D230"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "4B3F0F255794FFAE"
 				ignore_reward_blocking: true
@@ -2063,11 +2575,11 @@
 				}
 			]
 			title: "Smarter Cables"
-			x: 10.0d
-			y: 2.0d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["5F39514D991EB2B8"]
+			dependencies: ["67F89819C94F591A"]
 			description: [
 				"At some point getting back to your &ePrimary Terminal&r for every other task gets repetative, and as your operation expands that downtime between going back and forth expands."
 				""
@@ -2075,123 +2587,16 @@
 				""
 				"A little bit of power, an &eWireless Access Point&r later and bam; &bWireless Storage/Crafting Network&r access."
 			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ae2:wireless_crafting_terminal"
 				tag: { }
 			}
 			id: "67291F78A9989FF4"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "39ADA0469FA2968D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Losing the Cables"
-			tasks: [
-				{
-					id: "475469650B549760"
-					item: {
-						Count: 1
-						id: "ae2:wireless_crafting_terminal"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "7D42F4D55CC588D8"
-					item: "ae2:wireless_access_point"
-					type: "item"
-				}
-			]
-			x: 12.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["67291F78A9989FF4"]
-			description: [
-				"The inital radius is most likely not enough, but worry not, you can &eexpand your range&r as long as your &7Power&r permits it and your resources are plentiful using &eWireless Boosters&r."
-				""
-				"&e# of Bosters&r => &eRange&r => &ePower Consumption&r"
-				""
-				"@0  => 16m    => 8 AE/t"
-				"&e@16 => 80m    => 40 AE/t&r"
-				"&6@32 => 197m   => 189.01 AE/t&r"
-				"&b@48 => 348.5m => 883.33 AE/t&r"
-				"&d@64 => 528m   => 4.1 kAE/t&r"
-			]
-			id: "27EEB6AA40D3EB18"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "2F7C3398521BF11A"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Expanding the radius"
-			tasks: [{
-				id: "38EAAD949C0338A6"
-				item: "ae2:wireless_booster"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["5F39514D991EB2B8"]
-			description: [
-				"90% of the time when you need something &eAutomated&r, an &eSub-Network&r can usally solve it."
-				""
-				"&6Here's some basics;&r"
-				""
-				"-When setting up an &eSub-Network&r, the &5Fluix Cables&r connected to your &bPrimary Network&r have two functions; &7Providing Power&r and &eImporting/Exporting&r."
-				""
-				"--&7Providing Power&r is easy using Quartz Fibers, by placing it within an &5Fluix Cable&r it prevents it from connecting your &bStorage/Crafting Network&r while still allowing &7Power&r to flow."
-				""
-				"--That same &5Fluix Cable&r can be used to &eImport/Export&r, by introducing a &eMediating Storage&r, such as an barrel for &eItems&r or an tank for &eFluids/Gases&r, and connecting to the &ePrimary Network&r using an &eImport Bus Filtered&r with the items your operations need, and an &eExport Bus Filtered&r with the outputs that you've produced."
-				""
-				"*Don't forget to use an &eStorage Bus&r/&eMe Interface&r as your &eSub-Network&r needs a way to access the &eMediating Storage&r*"
-
-				"{@pagebreak}"
-				"&eImport Bus&r on the left of the barrel to recive output, &eExport Bus&r on the top of the barrel to provide resources, &eStorage Bus&r on the front of the barrel allowing &eSub-Network&r access into Mediating Storage, &7Quartz Fiber&r on the only connecting &5Fluix Cable&r between the &eSub-Network&r and &bPrimary Network&r to provide &7Power&r."
-				"{image:modpack:textures/ae2_simple_sub_network.png width:200 height:100 align:center}"
-				"{@pagebreak}"
-				"It sounds overwhealming but I assure you it is manageable, an little bit of messing around in order to understand how each of the mentioned technologies interact and you will start to get the hang of it."
-				""
-				"Ofcourse, &anever shy away from looking up videos&r in order to understand what things should look like and how they should be operating."
-				""
-				"As soon as you &aget an inital grasp on the fundementals&r you'll fly through learning the rest of &dApplied Energistics&r in no time."
-				""
-				"Keep in mind that a lot of the information provided is usally &anot the only solution&r to the problems they solve."
-			]
-			id: "591F6FACE42A8C85"
-			subtitle: "The Secret Sauce"
-			tasks: [{
-				id: "1346D5F5164B2174"
-				title: "Read"
-				type: "checkmark"
-			}]
-			title: "More about Sub-Networks"
-			x: 9.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["44B5442523858453"]
-			description: [
-				"&eAutomated Brewing&r is functionally the same as what has come before, place your &eBrewing Stands&r adjacent to your &ePattern Provider&r, set up your &eBlank Pattern&r to &eInput&r your &eMain Ingredient&r + &e3 Bottles&r and awaite &e3 Bottles&r of the brewed &eOutput&r."
-				""
-				"&6Recall:&r If you don't have your &eOutput&r yet, you can drag it onto the &eBlank Pattern&r from &aJEI&r."
-				""
-				"&6Recall:&r if you need to change the quantity Inputed/Outputed you can &eMiddle Mouse&r the respective item to adjust it."
-				""
-				"&6Tip:&r For the majority of cases, manually adding an excess of &eBlaze Powder&r is suffecent due to it's inherit efficency, but under large scale operations you might want to automate that too."
-			]
-			icon: "minecraft:brewing_stand"
-			id: "37ED052F5D0295A2"
 			rewards: [
 				{
-					id: "66C7D151DCDB447E"
+					id: "09966F04C7B39FE1"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -2225,11 +2630,125 @@
 				{
 					amount: 100L
 					currency: "eternalcurrencies:coins"
-					id: "6CD71AA61A5CE579"
+					id: "7574130DCB3E6E0E"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 			]
+			subtitle: "Losing the Cables"
+			tasks: [
+				{
+					id: "475469650B549760"
+					item: {
+						Count: 1
+						id: "ae2:wireless_crafting_terminal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7D42F4D55CC588D8"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -9.69d
+		}
+		{
+			dependencies: ["67291F78A9989FF4"]
+			description: [
+				"The inital radius is most likely not enough, but worry not, you can &eexpand your range&r as long as your &7Power&r permits it and your resources are plentiful using &eWireless Boosters&r."
+				""
+				"&e# of Bosters&r => &eRange&r => &ePower Consumption&r"
+				""
+				"@0  => 16m    => 8 AE/t"
+				"&e@16 => 80m    => 40 AE/t&r"
+				"&6@32 => 197m   => 189.01 AE/t&r"
+				"&b@48 => 348.5m => 883.33 AE/t&r"
+				"&d@64 => 528m   => 4.1 kAE/t&r"
+			]
+			id: "27EEB6AA40D3EB18"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2F7C3398521BF11A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Expanding the radius"
+			tasks: [{
+				id: "38EAAD949C0338A6"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.69d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"90% of the time when you need something &eAutomated&r, an &eSub-Network&r can usally solve it."
+				""
+				"&6Here's some basics;&r"
+				""
+				"-When setting up an &eSub-Network&r, the &5Fluix Cables&r connected to your &bPrimary Network&r have two functions; &7Providing Power&r and &eImporting/Exporting&r."
+				""
+				"--&7Providing Power&r is easy using Quartz Fibers, by placing it within an &5Fluix Cable&r it prevents it from connecting your &bStorage/Crafting Network&r while still allowing &7Power&r to flow."
+				""
+				"--That same &5Fluix Cable&r can be used to &eImport/Export&r, by introducing a &eMediating Storage&r, such as an barrel for &eItems&r or an tank for &eFluids/Gases&r, and connecting to the &ePrimary Network&r using an &eImport Bus Filtered&r with the items your operations need, and an &eExport Bus Filtered&r with the outputs that you've produced."
+				""
+				"*Don't forget to use an &eStorage Bus&r/&eMe Interface&r as your &eSub-Network&r needs a way to access the &eMediating Storage&r*"
+				"{@pagebreak}"
+				"&eImport Bus&r on the left of the barrel to recive output, &eExport Bus&r on the top of the barrel to provide resources, &eStorage Bus&r on the front of the barrel allowing &eSub-Network&r access into Mediating Storage, &7Quartz Fiber&r on the only connecting &5Fluix Cable&r between the &eSub-Network&r and &bPrimary Network&r to provide &7Power&r."
+				"{image:modpack:textures/ae2_simple_sub_network.png width:200 height:100 align:center}"
+				"{@pagebreak}"
+				"It sounds overwhealming but I assure you it is manageable, an little bit of messing around in order to understand how each of the mentioned technologies interact and you will start to get the hang of it."
+				""
+				"Ofcourse, &anever shy away from looking up videos&r in order to understand what things should look like and how they should be operating."
+				""
+				"As soon as you &aget an inital grasp on the fundementals&r you'll fly through learning the rest of &dApplied Energistics&r in no time."
+				""
+				"Keep in mind that a lot of the information provided is usally &anot the only solution&r to the problems they solve."
+			]
+			id: "591F6FACE42A8C85"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "389120462F938C90"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "The Secret Sauce"
+			tasks: [{
+				id: "1346D5F5164B2174"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: "More about Sub-Networks"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44B5442523858453"]
+			description: [
+				"&eAutomated Brewing&r is functionally the same as what has come before, place your &eBrewing Stands&r adjacent to your &ePattern Provider&r, set up your &eBlank Pattern&r to &eInput&r your &eMain Ingredient&r + &e3 Bottles&r and awaite &e3 Bottles&r of the brewed &eOutput&r."
+				""
+				"&6Recall:&r If you don't have your &eOutput&r yet, you can drag it onto the &eBlank Pattern&r from &aJEI&r."
+				""
+				"&6Recall:&r if you need to change the quantity Inputed/Outputed you can &eMiddle Mouse&r the respective item to adjust it."
+				""
+				"&6Tip:&r For the majority of cases, manually adding an excess of &eBlaze Powder&r is suffecent due to it's inherit efficiency, but under large scale operations you might want to automate that too."
+			]
+			icon: "minecraft:brewing_stand"
+			id: "37ED052F5D0295A2"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "6CD71AA61A5CE579"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Automated Brewing"
 			tasks: [{
 				id: "02B7642CB670F4ED"
@@ -2237,8 +2756,8 @@
 				type: "checkmark"
 			}]
 			title: "Processing Patterns 2"
-			x: 15.0d
-			y: -4.0d
+			x: 22.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19ABB31DC31B6DF3"]
@@ -2259,9 +2778,35 @@
 			]
 			icon: "thermal:machine_furnace"
 			id: "44B5442523858453"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "24DC62B7AFC036D6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Automated Smleting"
+			tasks: [{
+				id: "4C677C65F4E705C2"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: "Processing Patterns 1"
+			x: 22.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6206C71520FDFB49"]
+			description: [
+				"Considerably more dense than things should be, &5Singularities&r require 256k Items/Buckets to and at least an &e64k ME Storage Component&r to produce in the &eMatter Condenser&r."
+				""
+				"&6Note:&r Before progressing into the &5Quantum&r realm, you should setup an &bStorage Network&r."
+			]
+			id: "0A523F4F763108E3"
 			rewards: [
 				{
-					id: "692F36844B7D9AF9"
+					count: 2
+					id: "75394D8C017B18F9"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -2293,42 +2838,21 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
-					id: "24DC62B7AFC036D6"
+					id: "210F8DBE378F4A6C"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Automated Smleting"
-			tasks: [{
-				id: "4C677C65F4E705C2"
-				title: "Read"
-				type: "checkmark"
-			}]
-			title: "Processing Patterns 1"
-			x: 15.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6206C71520FDFB49"]
-			description: ["Considerably more dense than things should be, &5Singularities&r require 256k Items/Buckets to and at least an &e64k ME Storage Component&r to produce in the &eMatter Condenser&r."]
-			id: "0A523F4F763108E3"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "18DED9E18038C227"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			subtitle: "Crossing the Barrier"
 			tasks: [{
 				id: "782B9355DCBD6BA1"
 				item: "ae2:singularity"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.0d
+			x: 19.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -2343,9 +2867,9 @@
 			]
 			id: "6206C71520FDFB49"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "0BCFC217E9934BCC"
+				id: "373A018594B431AF"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -2355,8 +2879,8 @@
 				item: "ae2:condenser"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.0d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -2369,7 +2893,7 @@
 			]
 			id: "3C1FCDBD42DF0427"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "2AD1374BD29D95E5"
 				ignore_reward_blocking: true
@@ -2381,15 +2905,15 @@
 				item: "ae2:cable_interface"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 14.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["6206C71520FDFB49"]
 			description: ["&eMatter Balls&r are constructed through the compressing of &e256 Items/Buckets&r each, only requiring an &e1K ME Storage Component&r to allow their production in the &eMatter Condenser&r."]
 			id: "4C2DEDE6A0636F90"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "49F14EFEDAAF107A"
 				ignore_reward_blocking: true
@@ -2401,8 +2925,8 @@
 				item: "ae2:matter_ball"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.0d
+			x: 16.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0A523F4F763108E3"]
@@ -2416,60 +2940,26 @@
 				"&6Recall:&r &eHolding 'G'&r on an item your are curious about will bring up it's &eGuide&r page."
 			]
 			id: "3F512C07B5DB53AF"
-			rewards: [
-				{
-					id: "12CBF6737903E4C4"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "37829A7E51529A77"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "37829A7E51529A77"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "A pair of what?"
 			tasks: [{
 				id: "1028B447DF5F6355"
 				item: "ae2:quantum_entangled_singularity"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.0d
+			x: 19.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
 			description: [
-				"Self explainatory isn't it, an portable \"railgun\" capeable of firing the most &4fersome projectiles&r such as &eMetalic Nuggets&r and &eMatter Balls&r."
+				"Self explanatory isn't it, an portable \"railgun\" capable of firing the most &4fersome projectiles&r such as &eMetalic Nuggets&r and &eMatter Balls&r."
 				""
 				"Can be easily filled in an ME Chest."
 				""
@@ -2477,7 +2967,7 @@
 			]
 			id: "7C084B05C5DE6101"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "08C2D4949804E465"
 				ignore_reward_blocking: true
@@ -2493,13 +2983,13 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.0d
+			x: 16.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
 			description: [
-				"If you ever wanted to &epaint your pre-installed Cables&r, and other painable objects, the &eColour Applicator&r is the tool for you."
+				"If you ever wanted to &epaint your pre-installed Cables&r, and other paintable objects, the &eColour Applicator&r is the tool for you."
 				""
 				"It can consume dyes or &ePaintballs&r to spread color, and can clean up behind itself when using snowballs."
 				""
@@ -2507,7 +2997,7 @@
 			]
 			id: "0799774F5E323334"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "0E63ECC19B0EF4A2"
 				ignore_reward_blocking: true
@@ -2523,8 +3013,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.0d
+			x: 16.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -2534,31 +3024,309 @@
 				"Each produce &e20 AE/t&r, output energy to their south, and &ado not require maintanace&r outside of their initial cost."
 			]
 			id: "58E7B8912E34C67E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0609A3E88A405BFB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Self-Sustaining Power"
 			tasks: [{
 				id: "11CA355E691895DE"
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"&eVibrantion Chambers&r are &7Power Producers&r ment for more extensive tasks, they produce &e40 AE/t&r but consume fuel very rapidly."
+				"&eVibrantion Chambers&r are &7Power Producers&r meant for more extensive tasks, they produce &e40 AE/t&r but consume fuel very rapidly."
 				""
 				"They're &cexpensive&r outside of the initial stages of your &eNetwork&r so make sure you move onto other sources before growing your operations too far."
 			]
 			id: "1E92535385E26C8D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1393ECB297F0A5D2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Wobble Wobble Wobble"
 			tasks: [{
 				id: "14DA67267F6B6BC0"
 				item: "ae2:vibration_chamber"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"If you are looking to dive into &dApplied Energistics&r, and have not found an &eCrashed Meteorite&r yet, here's how to get started:"
+				""
+				"1) Craft a &eWooden Handle&r"
+				"2) Craft and Place a &eCharger&r"
+				"3) Place the Wooden Handle on the Charger"
+				"4) Place a &eCompass&r into the Charger"
+				"5) Turn the Wooden Handle &7(Hold Right-Click)&r until your Compass transforms into a &eMeteorite Compass&r"
+				"6) Follow the Meteorite Compass towards your nearest Meteorite."
+			]
+			id: "5CF065DD209B4B1C"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "4FF59D4104E4CC58"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: " What is all this?!"
+			tasks: [{
+				id: "09C14766BCC711D9"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: " Getting Started with &dApplied Energistics&r"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F512C07B5DB53AF"]
+			description: [
+				"&5Quantum Network Bridges&r can extend a &eNetwork&r over infinite distances and even between dimensions."
+				""
+				"They have many uses, including but not limited to; Accessing and transferring resources between connected &eNetworks&r."
+				""
+				"The &eME Quantum Link Chamber&r is the core of a &5Quantum Network Bridge&r, and the &eME Quantum Rings&r are the interfaces through which &eNetworks&r can interact."
+				""
+				"&6Note:&r Quantum Network Bridges allow 32 channels in total, but only &eME Quantum Rings&r adjacent to the &eME Quantum Link Chamber&r can receive and transfer information."
+				""
+				"&8(Both sides of an Quantum Network Bridge must be continuously chunk loaded to function)&r"
+			]
+			id: "680E92937D4A03A5"
+			rewards: [
+				{
+					id: "4616369D42682DA6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "548DFB6801B17277"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Beyond Wireless"
+			tasks: [
+				{
+					id: "7982BFAB2ED75FD6"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "73B74D89EE4B1A3B"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+			]
+			title: "Quantum Network Bridge"
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["680E92937D4A03A5"]
+			description: [
+				"Amongst the many uses of an &5Quantum Network Bridge&r, &aWireless Crafting and Storage Accesses&r is the most common."
+				""
+				"The &eQuantum Bridge Card&r is an upgrade to your &eWireless Terminals&r that allows them to accept &5Quantum Entangled Singularities&r."
+				""
+				"You can access and interact with your &bStorage Network&r by linking it to a &5Quantum Network Bridge&r, and pairing the bridge's &eME Quantum Link Chamber&r to your &eWireless Terminal&r using &5Quantum Entangled Singularities&r."
+			]
+			id: "2E14EC6EBA56DA56"
+			rewards: [
+				{
+					count: 2
+					id: "4F77BEC0CC21C029"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "6EE244C19208CA7E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Cross-Dimensional Storage Access"
+			tasks: [{
+				id: "708FC5844FAB1FC8"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E14EC6EBA56DA56"]
+			description: [
+				"Don't stop at &bCross-Dimentional Network Access&r."
+				""
+				"The uses of &5Quantum Network Bridges&r is &alimited only by your imagination&r, &dApplied Energistics&r can solve or be a part of the solution to every problem you face through your journey in <rainb>MCE2."
+				"{@pagebreak}"
+				"&6Take care of your Network, and it will take care of you&r"
+			]
+			id: "1A7B7ADC6B65A48F"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "17C0AE16913B87AB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "and Beyond"
+			tasks: [{
+				id: "2F11857AD709E9C9"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: "To Infinity"
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"&eP2P Tunnels&r are a way to move things like Items, Fluids, Chemicals, Redstone Signals, Power, Light and Channels around a &eNetwork&r without them directly interacting with the Network; Acting like portals that directly connect two block faces at range."
+				""
+				"There are many types of P2P Tunnel, but only the &eME P2P Tunnel&r is directly craftable; the others are made by &eRight-Clicking P2P tunnels&r with certain items:"
+				""
+				"&5Channels = any Cable&r"
+				"&cRedstone  = Variety of Redstone Components&r"
+				"&8Item  = Chest or Hopper&r"
+				"&3Fluid  = Bucket or Bottle&r"
+				"&2Chemical = any Chemical Tank&r"
+				"&7Energy = any Energy-containing item&r"
+				"&eLight = Torch or Glowstone&r"
+				"{@pagebreak}"
+				"&eP2P Tunnel&r connections can be &eLinked&r using a &eMemory Card&r, displaying their frequency as a 2x2 array of colors on their back. The P2P Tunnel you &2Shift-Right-Click&r will be the &2Input&r and the P2P Tunnel you &aRight-Click&r will be the &aOutput&r."
+				""
+				"&6Tip:&r Every P2P Tunnel can have &emultiple outputs&r, even when Linked."
+				""
+				"&6Hint:&r If you need further details, or would like an example; &eHold 'G'&r over an P2P Tunnel or consult the in-game &eGuide&r."
+			]
+			id: "4F97D30383CAF71D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "56971A033C33EEB7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Narbacular Drop"
+			tasks: [{
+				id: "25312343B221339A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:me_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:redstone_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:item_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:fe_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:light_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_p2p_tunnel"
+							}
+						]
+					}
+				}
+				title: "Any P2P Tunnel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.26d
 		}
 	]
 	title: "&6Applied Energistics 2"

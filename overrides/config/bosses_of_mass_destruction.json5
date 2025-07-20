@@ -43,7 +43,7 @@
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnPillarOnDeath": true,
-		"anvilAttackExplosionStrength": 4.0
+		"anvilAttackExplosionStrength": 1.0
 	},
 	"gauntletConfig": {
 		"health": 650.0,
@@ -63,6 +63,6 @@
 		"experienceDrop": 1000
 	},
 	"generalConfig": {
-		"tableOfElevationRadius": 3
+		"tableOfElevationRadius": 8
 	}
 }

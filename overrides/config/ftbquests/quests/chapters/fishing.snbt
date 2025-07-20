@@ -2497,7 +2497,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:deep"
+					command: "/titles add {p} titles:deep"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -4329,6 +4329,84 @@
 			title: "&b<wave>The Overworld Angler"
 			x: 0.6428571428571459d
 			y: -8.476190476190467d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&o\"How do you not have fish? It says fresh fish daily on the menu\""
+				""
+				"&o\"Snapper fish for the man!\""
+			]
+			id: "0DF0FE9A0616D13E"
+			optional: true
+			rewards: [
+				{
+					id: "659F49CAD89BF597"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DAAE9A22E67CC9B"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Fresh Fresh Daily!"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "083F0848D2B5CA16"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:raw_fishes"
+						}
+					}
+					title: "&dAny 32x Raw Fish"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					elapsedTime: 10800L
+					icon: "minecraft:clock"
+					id: "69D9B4AC4CB7E020"
+					title: "&8&o3 Hour Cooldown"
+					type: "questsadditions:time"
+				}
+			]
+			title: "&dDaily Quest:&r Fish For the Fishmonger!"
+			x: -6.0d
+			y: 1.0d
 		}
 	]
 	title: "{chapter.16.title}"

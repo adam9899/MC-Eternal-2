@@ -4,7 +4,7 @@
     "dimension": "thegreatbelow:thegreatbelow",
     "result": "true",
     "when": "onjoin",
-    "healthmultiply": 10.0,
+    "healthmultiply": 20.0,
     "damagemultiply": 8.5,
     "speedmultiply": 1.5
   },
@@ -110,7 +110,7 @@
 
     {
     "mob": "artifacts:mimic",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 1.5,
     "damagemultiply": 2.5,
@@ -119,7 +119,7 @@
 
   {
     "mob": "goety:storm_caster",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 3.5,
     "damagemultiply": 4.5,
@@ -128,21 +128,14 @@
 
   {
     "mod": "alshanex_familiars:",
-    "when": "onjoin",
-    "result": "allow",
-    "healthmultiply": 6.6,
-    "damagemultiply": 1.5,
-    "speedmultiply": 1.1
-  },
-
-    {
-    "mod": "alshanex_familiars:",
     "when": "finalize",
     "result": "allow",
     "healthmultiply": 6.6,
     "damagemultiply": 1.5,
     "speedmultiply": 1.1
   },
+
+  
   
   {
     "mod": "illager_additions",
@@ -155,7 +148,7 @@
  
   {
     "mod": "goety",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 1.5,
     "damagemultiply": 2.0,
@@ -163,7 +156,7 @@
   },
   {
     "mod": "cloudstorage",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 1.5,
     "damagemultiply": 2.0,
@@ -171,7 +164,7 @@
   },
 {
     "mod": "goety_cataclysm",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 2.0,
     "damagemultiply": 1.5,
@@ -197,9 +190,8 @@
   },
   {
     "mod": "alexscaves",
-    "when": "onjoin",
-    "result": "allow",
-    "healthmultiply": 2.5,
+    "when": "finalize",
+    "healthmultiply": 3.0,
     "damagemultiply": 4.5,
     "speedmultiply": 1.2
   },
@@ -515,7 +507,7 @@
       {
     "dimension": "thegreatbelow:thegreatbelow",
     "mod": "alexsmobs",
-    "when": "onjoin",
+    "when": "finalize",
     "healthmultiply": 2.5,
     "damagemultiply": 3.5,
     "speedmultiply": 1.1
@@ -530,7 +522,7 @@
   },
    {
     "mob": "alexsmobs:laviathan",
-    "when": "onjoin",
+    "when": "finalize",
     "healthmultiply": 4.0,
     "damagemultiply": 4.5,
     "speedmultiply": 1.0

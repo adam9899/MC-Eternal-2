@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
     {
         C:'ad_astra:calorite_plate',
         E:'alexscaves:enigmatic_engine',
-        G:'ad_astra:ostrum_plate',
+        O:'ad_astra:ostrum_plate',
         A:'immersive_aircraft:engine',
     })
 })

@@ -1822,7 +1822,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/execute at @p run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
+					command: "/execute at {p} run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
 					console: true
 					elevate_perms: true
 					icon: "artifacts:crystal_heart"
@@ -2363,7 +2363,7 @@
 			invisible: true
 			rewards: [
 				{
-					command: "/titles add @p titles:beastmaster"
+					command: "/titles add {p} titles:beastmaster"
 					icon: "titles:title_scroll_uncommon"
 					id: "184B242808F4AB46"
 					title: "{chapter.1.quest.26.reward.3.title}"
@@ -2439,7 +2439,7 @@
 					xp_levels: 1
 				}
 				{
-					command: "/titles add @p titles:trader"
+					command: "/titles add {p} titles:trader"
 					icon: "titles:title_scroll_common"
 					id: "010394115892AE30"
 					title: "{chapter.1.quest.30.reward.3.title}"
@@ -2705,7 +2705,7 @@
 			id: "485F6D56A244289C"
 			rewards: [
 				{
-					command: "/titles add @p titles:gobby"
+					command: "/titles add {p} titles:gobby"
 					icon: "titles:title_scroll_uncommon"
 					id: "18AB3A63DD2748AC"
 					title: "{chapter.1.quest.37.reward.3.title}"
@@ -2797,7 +2797,7 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add @p titles:pleb"
+					command: "/titles add {p} titles:pleb"
 					icon: "titles:title_scroll_common"
 					id: "562E75AE41AA509C"
 					title: "{chapter.1.quest.41.reward.3.title}"
@@ -2805,7 +2805,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound goety:zealot_celebrate player @p ~ ~ ~ 180 0.4 1"
+					command: "/execute at {p} run playsound goety:zealot_celebrate player {p} ~ ~ ~ 180 0.4 1"
 					icon: "occultism:spirit_fire"
 					id: "15CA1627C86FD032"
 					title: "&c???"
@@ -2885,7 +2885,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles remove @p twilightforest:progress_naga"
+					command: "/titles remove {p} twilightforest:progress_naga"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
@@ -3124,6 +3124,8 @@
 			description: [
 				"{chapter.1.quest.46.description.1}"
 				"{image:modpack:textures/2023-08-15_19.32.57.png width:180 height:100 align:1}"
+				""
+				"{chapter.1.quest.46.description.2}"
 			]
 			id: "50C0CB1FA648F8A8"
 			rewards: [
@@ -3168,14 +3170,10 @@
 			size: 0.9d
 			subtitle: "{chapter.1.quest.46.subtitle}"
 			tasks: [{
-				hasCustomPicture: false
-				icon: "goety:necro_brazier"
-				id: "720DF859448D4F71"
-				ignoreState: false
-				layer: true
-				name: "brazier"
-				rightclick: false
-				type: "questsadditions:structure"
+				advancement: "brazier:brazier"
+				criterion: ""
+				id: "4DDE27AE90F2208F"
+				type: "advancement"
 			}]
 			title: "{chapter.1.quest.46.title}"
 			x: 16.800680272108842d
@@ -3204,7 +3202,7 @@
 					type: "choice"
 				}
 				{
-					command: "/titles add @p twilightforest:progress_troll"
+					command: "/titles add {p} twilightforest:progress_troll"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -3378,7 +3376,7 @@
 					type: "loot"
 				}
 				{
-					command: "/titles add @p titles:friend"
+					command: "/titles add {p} titles:friend"
 					icon: "titles:title_scroll_uncommon"
 					id: "311D7B4F8F95892A"
 					title: "{chapter.1.quest.51.reward.3.title}"
@@ -3505,7 +3503,7 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add @p titles:slimy"
+					command: "/titles add {p} titles:slimy"
 					icon: "titles:title_scroll_uncommon"
 					id: "3F776B6D577373E7"
 					title: "&eUnlock Title:&r the Partycrasher"
@@ -3563,7 +3561,7 @@
 					type: "custom"
 				}
 				{
-					command: "/tellraw @p [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
+					command: "/tellraw {p} [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
 					icon: "mceletters:elegant_letter"
 					id: "65CBB395B37355EA"
 					title: "{chapter.1.quest.54.reward.2.title}"
@@ -3720,7 +3718,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound tombstone:ghost_howl player @p ~ ~ ~ 200 1.8 1"
+					command: "/execute at {p} run playsound tombstone:ghost_howl player {p} ~ ~ ~ 200 1.8 1"
 					console: true
 					icon: "occultism:spirit_fire"
 					id: "560F18F552090F0B"
@@ -3794,7 +3792,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "2B26880DB70189CB"
@@ -3803,7 +3801,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "kubejs:mossy_letter"
@@ -3882,7 +3880,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					icon: "mekanism:cardboard_box"
 					id: "697FDD5060CAD73D"
 					title: "&dYou've got mail!"
@@ -3929,13 +3927,13 @@
 					exclude_from_claim_all: true
 					icon: "quark:crate"
 					id: "6B1393250318C85B"
-					table_id: 7614141430405098414L
-					title: "{chapter.1.quest.60.reward.2.title}"
+					table_id: 7279712221922706554L
+					title: "&6&oWhat Mom Found At The Market!"
 					type: "loot"
 				}
 				{
 					auto: "invisible"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "mekanism:cardboard_box"
@@ -3945,7 +3943,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
 					elevate_perms: true
 					icon: {
@@ -3990,144 +3988,135 @@
 			hide_until_deps_visible: true
 			id: "4FF7C485A4E5EA9C"
 			optional: true
-			rewards: [
-				{
-					id: "3291AAD9FC09CCDB"
-					item: {
-						Count: 1
-						id: "eccentrictome:tome"
-						tag: {
-							Enchantments: [ ]
-							"eccentrictome:mods": {
-								ae2: {
-									0: {
-										Count: 1b
-										id: "ae2:guide"
-										tag: {
-											Enchantments: [ ]
-										}
+			rewards: [{
+				id: "3291AAD9FC09CCDB"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						Enchantments: [ ]
+						"eccentrictome:mods": {
+							ae2: {
+								0: {
+									Count: 1b
+									id: "ae2:guide"
+									tag: {
+										Enchantments: [ ]
 									}
 								}
-								alexscaves: {
-									0: {
-										Count: 1b
-										id: "alexscaves:cave_book"
-										tag: {
-											Enchantments: [ ]
-										}
+							}
+							alexscaves: {
+								0: {
+									Count: 1b
+									id: "alexscaves:cave_book"
+									tag: {
+										Enchantments: [ ]
 									}
 								}
-								alexsmobs: {
-									0: {
-										Count: 1b
-										id: "alexsmobs:animal_dictionary"
+							}
+							alexsmobs: {
+								0: {
+									Count: 1b
+									id: "alexsmobs:animal_dictionary"
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							cloudstorage: {
+								0: {
+									Count: 1b
+									id: "cloudstorage:guide_book"
+								}
+							}
+							complicated_bees: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "complicated_bees:field_guide"
 									}
 								}
-								ars_nouveau: {
-									0: {
-										Count: 1b
-										id: "ars_nouveau:worn_notebook"
+							}
+							ftbquests: {
+								0: {
+									Count: 1b
+									id: "ftbquests:book"
+								}
+							}
+							goety: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "goety:black_book"
 									}
 								}
-								cloudstorage: {
-									0: {
-										Count: 1b
-										id: "cloudstorage:guide_book"
+							}
+							hexcasting: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "hexcasting:thehexbook"
 									}
 								}
-								complicated_bees: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "complicated_bees:field_guide"
-										}
-									}
+							}
+							iceandfire: {
+								0: {
+									Count: 1b
+									id: "iceandfire:bestiary"
 								}
-								ftbquests: {
-									0: {
-										Count: 1b
-										id: "ftbquests:book"
-									}
+							}
+							tconstruct: {
+								0: {
+									Count: 1b
+									id: "tconstruct:encyclopedia"
 								}
-								goety: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "goety:black_book"
-										}
-									}
+								1: {
+									Count: 1b
+									id: "tconstruct:materials_and_you"
 								}
-								hexcasting: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "hexcasting:thehexbook"
-										}
-									}
+								2: {
+									Count: 1b
+									id: "tconstruct:mighty_smelting"
 								}
-								iceandfire: {
-									0: {
-										Count: 1b
-										id: "iceandfire:bestiary"
-									}
+								3: {
+									Count: 1b
+									id: "tconstruct:tinkers_gadgetry"
 								}
-								tconstruct: {
-									0: {
-										Count: 1b
-										id: "tconstruct:encyclopedia"
-									}
-									1: {
-										Count: 1b
-										id: "tconstruct:materials_and_you"
-									}
-									2: {
-										Count: 1b
-										id: "tconstruct:mighty_smelting"
-									}
-									3: {
-										Count: 1b
-										id: "tconstruct:tinkers_gadgetry"
-									}
-									4: {
-										Count: 1b
-										id: "tconstruct:fantastic_foundry"
-									}
-									5: {
-										Count: 1b
-										id: "tconstruct:puny_smelting"
-									}
+								4: {
+									Count: 1b
+									id: "tconstruct:fantastic_foundry"
 								}
-								tinkersjewelry: {
-									0: {
-										Count: 1b
-										id: "tinkersjewelry:book"
-										tag: {
-											Enchantments: [ ]
-											mantle: {
-												book: {
-													current_page: "modifiers.group_slotless"
-												}
+								5: {
+									Count: 1b
+									id: "tconstruct:puny_smelting"
+								}
+							}
+							tinkersjewelry: {
+								0: {
+									Count: 1b
+									id: "tinkersjewelry:book"
+									tag: {
+										Enchantments: [ ]
+										mantle: {
+											book: {
+												current_page: "modifiers.group_slotless"
 											}
 										}
 									}
 								}
 							}
-							"eccentrictome:version": 1
 						}
+						"eccentrictome:version": 1
 					}
-					type: "item"
 				}
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "1C5935080CBE7B04"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+				type: "item"
+			}]
 			size: 0.6d
 			subtitle: "Craft the &eEccentric Tome"
 			tasks: [{
@@ -4368,7 +4357,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" @p just requested Pigstep! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Pigstep! Coming right up!\"}] "
 					icon: "etched:radio"
 					id: "16F83B3977639F96"
 					title: "&e&nRADIO BROADCAST"
@@ -4405,7 +4394,7 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/execute at @p run playsound jellyfishing:music.jellyfishfields master @a"
+					command: "/execute at {p} run playsound jellyfishing:music.jellyfishfields master @a"
 					icon: "minecraft:jukebox"
 					id: "08C06ACDE7EA2F8B"
 					title: "&eSong Request"
@@ -4413,7 +4402,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" @p just requested Jellyfish Fields! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Jellyfish Fields! Coming right up!\"}] "
 					icon: "etched:radio"
 					id: "20BA00E670A225C1"
 					title: "&e&nRADIO BROADCAST"
@@ -4446,28 +4435,19 @@
 			hide_until_deps_visible: true
 			id: "2A2C2BDE2D92A59F"
 			optional: true
-			rewards: [
-				{
-					command: ""
-					icon: "titles:title_scroll_common"
-					id: "0708839C53992326"
-					title: "&eUnlock Title:&r the Spud Bud"
-					type: "command"
-				}
-				{
-					id: "1B055F8946C76D93"
-					item: {
-						Count: 1
-						id: "botania:tiny_potato"
-						tag: {
-							display: {
-								Name: "{\"text\":\"grumm\"}"
-							}
+			rewards: [{
+				id: "1B055F8946C76D93"
+				item: {
+					Count: 1
+					id: "botania:tiny_potato"
+					tag: {
+						display: {
+							Name: "{\"text\":\"grumm\"}"
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "heart"
 			subtitle: "Pet a &eTiny Potato"
 			tasks: [{
@@ -4705,7 +4685,7 @@
 			id: "2488248F1A2762CB"
 			rewards: [
 				{
-					command: "/titles add @p titles:ungriefed"
+					command: "/titles add {p} titles:ungriefed"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -4832,7 +4812,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:highwayman"
+					command: "/titles add {p} titles:highwayman"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -5489,16 +5469,9 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:chest_slaye"
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "titles:title_scroll_uncommon"
-					}
+					command: "/titles add {p} titles:chest_slayer"
+					console: true
+					icon: "titles:title_scroll_uncommon"
 					id: "6CEB3FD8B81DAFC6"
 					title: "&eUnlock Title:&r the Chest Slayer"
 					type: "command"
@@ -5619,7 +5592,7 @@
 					id: "rats:cheese"
 					tag: {
 						display: {
-							Lore: ["{\"text\":\"He wasn't going to kill you with that kitchen kife silly! He was just preparing you a slice of cheese!\"}"]
+							Lore: ["{\"text\":\"He wasn't going to kill you with that kitchen knife silly! He was just preparing you a slice of cheese!\"}"]
 						}
 					}
 				}
@@ -5655,7 +5628,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/tellraw @p {\"text\":\"You are a Pureblood Vampire... Thus you have started the game with \\\"Sanguinare Vampiris\\\"!\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
+					command: "/tellraw {p} {\"text\":\"You are a Pureblood Vampire... Thus you have started the game with \\\"Sanguinare Vampiris\\\"!\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
 					icon: "vampirism:cursed_spruce_sign"
 					id: "44E8D9F08CE52A50"
 					title: "&eVampire Message"
@@ -5663,7 +5636,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/effect give @p vampirism:sanguinare"
+					command: "/effect give {p} vampirism:sanguinare"
 					icon: "vampirism:vampire_minion_binding"
 					id: "52A2B74C6A1C0539"
 					title: "&eYour Gift!"
@@ -5671,14 +5644,14 @@
 				}
 				{
 					auto: "enabled"
-					command: "/vampirism level vampirism:vampire 2 @p"
+					command: "/vampirism level vampirism:vampire 2 {p}"
 					icon: "vampiricageing:tainted_concentrate"
 					id: "41D6F6144B9C8C50"
 					title: "&eTainted Blood"
 					type: "command"
 				}
 				{
-					command: "/titles add @p titles:pureblood"
+					command: "/titles add {p} titles:pureblood"
 					icon: "titles:title_scroll_uncommon"
 					id: "5410C673D96ED620"
 					title: "&eUnlock Title:&r the Pureblood"
@@ -5745,7 +5718,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:orc"
+					command: "/titles add {p} titles:orc"
 					icon: "titles:title_scroll_uncommon"
 					id: "500633A5FF7F16F9"
 					title: "&eUnlock Title:&r the Orc"
@@ -5753,7 +5726,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/attribute @p combatroll:recharge base set 0.5"
+					command: "/attribute {p} combatroll:recharge base set 0.5"
 					icon: "nethers_delight:hoglin_hide"
 					id: "74959103B024328D"
 					title: "&eThick Skin"
@@ -5826,14 +5799,14 @@
 				}
 				{
 					auto: "invisible"
-					command: "/attribute @p combatroll:recharge base set 0.5"
+					command: "/attribute {p} combatroll:recharge base set 0.5"
 					icon: "betterleveling:raw_gold"
 					id: "3632636992E1B1FA"
 					title: "&6Dwarven Intuition"
 					type: "command"
 				}
 				{
-					command: "/titles add @p titles:dwarf"
+					command: "/titles add {p} titles:dwarf"
 					icon: "titles:title_scroll_common"
 					id: "4D98C0B443CD9B38"
 					title: "&eUnlock Title:&r the Dwarf"
@@ -5932,7 +5905,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:human"
+					command: "/titles add {p} titles:human"
 					icon: "titles:title_scroll_common"
 					id: "2E828F712E1C1E2E"
 					title: "&eUnlock Title:&r the Human"
@@ -6078,7 +6051,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:the_withered"
+					command: "/titles add {p} titles:the_withered"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -6548,16 +6521,41 @@
 		}
 		{
 			dependencies: ["33DBFD4B00935B0A"]
-			description: ["Collar Tags can be used to rename your pets cheapily!"]
+			description: [
+				"Collar Tags can be used to rename your pets cheapily!"
+				""
+				"They can also be used to enchant your pets with neat enchantments! "
+				"Simply combine a pet enchanted book with a Collar Tag in an Anvil!"
+				"Or enchant it in an Enchanting Table! "
+				"There are dozens of pet enchants out there, each with different ways to customize your pets!"
+				""
+				"&6Hint:&r Right-Click the Collar Tag on your pet and hold shift to view their currently equipped tag!"
+			]
 			hide_until_deps_complete: true
 			id: "53FAF3E67330A40A"
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "5A99D7DD004E13E8"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "5A99D7DD004E13E8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "52DEF9BB7CD25EFF"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "domesticationinnovation:health_boost"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 0.7d
 			subtitle: "Craft a &eCollar Tag"
 			tasks: [{
@@ -6573,6 +6571,8 @@
 			description: [
 				"The Pet Bed when bound to a pet allows them to respawn upon dying!"
 				"They will be found sleeping peacefully in their bed the following morning!"
+				""
+				"&6Hint:&r Push a pet onto a Pet Bed to link them, you can tell if they are linked by the &7Zzz&r particles that begin appearing!"
 			]
 			hide_until_deps_complete: true
 			id: "742A19CCE223830C"
@@ -7952,6 +7952,375 @@
 			title: "&6Enchantments 4 Dayz!"
 			x: 12.186819727891155d
 			y: 0.329251700680274d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&dLetter From Mom!&r Oh wow! "
+				"EXPERT MODE!? "
+				"ALREADY?! We are SO proud of you! "
+				"Please be careful!! It is very dangerous out there!! "
+				"The Nether is a seriously scary place! But I trust that you can handle it!!"
+				""
+				"Make sure you wear &oweather appropriate clothing&r and upgrade your glider with a &eNether Upgrade&r"
+				""
+				"Also, I have wonderful news! Your uncle has appeared! He survived the dragon attack after all!!"
+				"He claims he was lucky he brought his &dCat Burger&r curio, otherwise he would've been <shake>TOAST!"
+				""
+				"He brought home some treasure from his travels, please pick your favourite item and use it wisely! "
+				"&dXOXO&r - Your very proud mother!!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:scorched_letter"
+			id: "3731FFBC670F0E3B"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "08E8787B7C82A4B8"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "47DD182236A8ED78"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "033F0F69CCDC4F72"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "77037CA60B6FF2E5"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "15309DB51D4A7937"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "lavafishing:prometheus_bounty"
+					id: "46A757E425DD62C2"
+					table_id: 1718805351174656688L
+					title: "&6Uncle's Treasure"
+					type: "choice"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				icon: "cataclysm:netherite_effigy"
+				id: "284A3E87AC2C9ECD"
+				title: "&cExpert Mode"
+				type: "dimension"
+			}]
+			title: "&6Letter From Mom!"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"You sure do love lootin' chests huh!"
+				""
+				"<wave>Something of a Loot Goblin"
+			]
+			id: "6FAD6281EBAADBF8"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "761629878643585C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "65B775477F81E413"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:loot"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "57F120885C3706DF"
+					title: "&eUnlock Title:&r the Loot Goblin"
+					type: "command"
+				}
+			]
+			size: 0.8d
+			subtitle: "Find a special trophy!"
+			tasks: [{
+				id: "1C36403F13A080BC"
+				item: "lootr:trophy"
+				type: "item"
+			}]
+			title: "&6Loot Goblin"
+			x: -1.1694727891156589d
+			y: 1.4304421768707485d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&dLetter From Mom!&r I can't believe its been 10 WHOLE DAYS since you started your new adventure! That is so wonderful! "
+				""
+				"I went to the market and picked you up a cute necklace I thought it would suit you!! Hopefully you like it!!"
+				""
+				"&dHugs and kisses - Mom "
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "36558CB7A7A5D2DB"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "1672991E815731B8"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "064D7537CFC8F666"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "4448B64A29787274"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "50BC0887AEB9A600"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F5EE0EB2149A569"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				days: 10
+				icon: "minecraft:red_bed"
+				id: "50DF080BE9915238"
+				type: "questsadditions:days"
+			}]
+			title: "&6Letter From Mom!"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&dLetter From Mom!&r I can't believe its been 25 LONG DAYS since you started your new adventure! You are doing amazing! We are all very proud of you, as always!"
+				""
+				"I went to the market and picked you up a cozy pair of slippers, I thought you might like them! "
+				""
+				"&dHugs and kisses - Mom "
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "621F369C844200D6"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "7A306BFC51FBA4C0"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "146C7809CEA7BC2F"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "38FC837947EEE185"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "3F1F737B8D28F24A"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4725AF9A0E8EC9FB"
+					item: "artifacts:kitty_slippers"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				days: 25
+				icon: "minecraft:red_bed"
+				id: "0CD27A657B7A1CB3"
+				type: "questsadditions:days"
+			}]
+			title: "&6Letter From Mom!"
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&dLetter From Mom!&r I can't believe its been 50 LONG DAYS since you started your new adventure! You are doing amazing! We are all very proud of you, as always!"
+				""
+				"I went to the market and picked you up some sort of special totem, the shopkeeper told me it was capable of protecting its wearer from harm. "
+				"I have been a little worried about you I must confess! Hopefully you never have to use it!"
+				"But like I always say, better safe than sorry!!!"
+				""
+				"&dHugs and kisses - Mom "
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "281E319CBD1DECBE"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "320310BDB26C5B7A"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "35AE0A14808F4193"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "546E8AF2AC43C2BF"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "7B039CEB3414546F"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0A29897B65AFA4CB"
+					item: "artifacts:chorus_totem"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				days: 50
+				icon: "minecraft:red_bed"
+				id: "583B7250A85BADE2"
+				type: "questsadditions:days"
+			}]
+			title: "&6Letter From Mom!"
+			x: 12.0d
+			y: 4.0d
 		}
 	]
 	title: "&6A New Start! &a(Recommended!)"

@@ -697,7 +697,7 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add @p titles:wildlife_photographer"
+					command: "/titles add {p} titles:wildlife_photographer"
 					icon: "titles:title_scroll_uncommon"
 					id: "3A27C008C589C25D"
 					title: "{chapter.18.quest.3.reward.3.title}"

@@ -16,6 +16,22 @@
       "max_trades": 5,
       "experience": 4
     },
+	  {
+  "type": "goblintraders:basic",
+  "experience": 4,
+  "max_trades": 1,
+  "payment_item": {
+    "item": "minecraft:paper",
+    "count": 1,
+    "nbt": "{\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"1x Rat - 24 Hours \\\" ,\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"Status: LATE!\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"RETURN ON TIME OR FACE FINES!\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true}\",\"{\\\"text\\\":\\\"YOU WOULDN'T STEAL A CAR\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"YOU WOULDN'T STEAL A HANDBAG\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"YOU WOULDN'T STEAL A TELEVISION\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\\\",\\\"color\\\":\\\"dark_red\\\",\\\"bold\\\":true,\\\"italic\\\":true}\"],\"Name\":\"{\\\"text\\\":\\\"Rent-a-Rat Reciept\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\"}}"
+  },
+  "offer_item": {
+    "item": "rats:rat_upgrade_combined",
+    "count": 1,
+    "nbt": "{\"Items\":[{\"Count\":1b,\"Slot\":0b,\"id\":\"rats:rat_upgrade_demon\"},{\"Count\":1b,\"Slot\":1b,\"id\":\"rats:rat_upgrade_god\"}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"Rat Upgrade: Skooma\\\"}\"}}"
+  },
+  "price_multiplier": 0.0
+},
      {
       "type": "goblintraders:basic",
       "offer_item": {

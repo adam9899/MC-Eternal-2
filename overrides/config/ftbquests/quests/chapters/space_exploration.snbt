@@ -1025,7 +1025,7 @@
 			id: "6044376827C3EB6C"
 			rewards: [
 				{
-					command: "/titles add @p titles:martian"
+					command: "/titles add {p} titles:martian"
 					icon: "titles:title_scroll_uncommon"
 					id: "2C8DF87178A2AD6C"
 					title: "{chapter.31.quest.38.reward.2.title}"

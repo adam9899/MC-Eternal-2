@@ -1,0 +1,177 @@
+{
+	"root_xp": {
+		"title": "§9Modest Angler:§r +10% XP From Fishing",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aquaculture:tackle_box"
+			}
+		},
+		"rewards": [
+				{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "stardew_fishing:exp_multiplier",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"xp_lesser": {
+		"title": "§dSerene Angler:§r +5% XP From Fishing",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aquaculture:bobber"
+			}
+		},
+		"rewards": [
+				{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "stardew_fishing:exp_multiplier",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"xp": {
+		"title": "§a§lExperienced Angler:§r +200% XP From Fishing",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stardew_fishing:quality_bobber"
+			}
+		},
+		"rewards": [
+				{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "stardew_fishing:exp_multiplier",
+					"value": 2.0,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"line_strength": {
+		"title": "§3Gentle Angler:§r Fish Escape 7% Slower",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aquaculture:worm"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "stardew_fishing:line_strength",
+					"value": 0.07,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"treasure": {
+		"title": "§6§lMaster Angler:§r +60% Special Treasure Chance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aquaculture:gold_hook"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "stardew_fishing:treasure_chance_bonus",
+					"value": 0.6,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"bobber_size": {
+		"title": "§7Tactile Angler:§r +6% Increased Bobber Size",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "majruszsaccessories:angler_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "stardew_fishing:bar_size",
+					"value": 0.06,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"lucky_angler": {
+		"title": "§eLucky Angler:§r +5% Special Treasure Chance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "artifacts:anglers_hat"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "stardew_fishing:treasure_chance_bonus",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+}

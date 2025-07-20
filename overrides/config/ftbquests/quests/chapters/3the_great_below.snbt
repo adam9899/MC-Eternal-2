@@ -409,7 +409,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/effect give @p minecraft:darkness 6"
+					command: "/effect give {p} minecraft:darkness 6"
 					console: true
 					icon: {
 						Count: 1

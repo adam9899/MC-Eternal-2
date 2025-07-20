@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
     //RF Coil
     event.shaped(Item.of('thermal:rf_coil', 1), [
         '  B',
-        ' E ',
+        ' R ',
         'B  '
     ],
     {
