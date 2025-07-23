@@ -406,11 +406,11 @@
 		{
 			description: [
 				""
-				"Auto Input and Auto Output control the behavior of how the machine's faces interact with the adjacent blocks. "
+				"Auto-Input and Auto-Output control the behavior of how the machine's faces interact with the adjacent blocks. "
 				""
-				"Auto Input will pull from the adjacent blocks on the sides set to input. This means that if there is a chest on a face that is set to input with Auto Input on, the machine will automactically bring the contents from the chest into the machine."
+				"Auto-Input will pull from the adjacent blocks on the sides set to input. This means that if there is a chest on a face that is set to input with Auto-Input on, the machine will automactically bring the contents from the chest into the machine."
 				""
-				"Auto Output works the same as Auto Input. However, it pushes resources from the internal output slot into the inventories of adjacent blocks instead of pulling."
+				"Auto-Output works the same as Auto-Input. However, it pushes resources from the internal output slot into the inventories of adjacent blocks instead of pulling."
 			]
 			icon: "minecraft:writable_book"
 			id: "3328573474FFEBCC"
@@ -575,7 +575,7 @@
 		}
 		{
 			dependencies: ["623878F31D5F2EF2"]
-			description: ["Fluid cells can store large amounts of liquids. Fluid cells can be upgraded to store even more with &eIntegral Components!&r"]
+			description: ["Fluid Cells can store large amounts of liquids. Fluid Cells can be upgraded to store even more with &eIntegral Components!&r"]
 			id: "56FDF04F9F56BF8A"
 			rewards: [{
 				amount: 75L
@@ -608,7 +608,7 @@
 		}
 		{
 			dependencies: ["7BC63DBDAC493B1C"]
-			description: ["Redstone Flux cells can store large amounts of power. Redstone Flux cells can be upgraded to store even more with &eIntegral Components!&r"]
+			description: ["Redstone Flux Cells can store large amounts of power. Redstone Flux Cells can be upgraded to store even more with &eIntegral Components!&r"]
 			id: "1ADA4A86A0600792"
 			rewards: [{
 				amount: 75L
@@ -777,8 +777,8 @@
 		{
 			dependencies: ["0A13D9AFD4429192"]
 			description: [
-				"Using the sawdust from the sawmill, we can fashion a <rainb>Carboard Box!&r "
-				"You can use it on any block(unless the block is blacklisted) to preserve the data of the block as you transport it. "
+				"Using the sawdust from the sawmill, we can fashion a <rainb>Carboard Box!&r"
+				"You can use it on any block(unless the block is blacklisted) to preserve the data of the block as you transport it."
 				"You can easily move spawners this way!"
 				""
 				"&eTip:&r"
@@ -1170,7 +1170,7 @@
 			description: [
 				"The Energetic Infuser is a great way to charge any piece of equipment that needs power!"
 				""
-				"&8Chaper Credit: JelliotWasTaken"
+				"&8Chapter Credit: JelliotWasTaken"
 			]
 			id: "435E3601DB388176"
 			rewards: [{
@@ -1264,7 +1264,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Can be used on machines to increase RF capacity and RF transfer speeds! "]
+			description: ["Can be used on machines to increase RF capacity and RF transfer speeds!"]
 			hide_dependency_lines: true
 			id: "035DB122F0BB306D"
 			rewards: [{
@@ -1285,7 +1285,7 @@
 		}
 		{
 			dependencies: ["035DB122F0BB306D"]
-			description: ["Can be used on machines to increase RF capacity and RF transfer speeds! "]
+			description: ["Can be used on machines to increase RF capacity and RF transfer speeds!"]
 			id: "3DE80B978014D3A7"
 			rewards: [{
 				amount: 75L
@@ -1305,7 +1305,7 @@
 		}
 		{
 			dependencies: ["3DE80B978014D3A7"]
-			description: ["Can be used on machines to increase RF capacity and RF transfer speeds! "]
+			description: ["Can be used on machines to increase RF capacity and RF transfer speeds!"]
 			id: "0F8A3EE328A98CE5"
 			rewards: [{
 				amount: 75L
@@ -1325,7 +1325,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Increases processing speed, but reduces RF efficiency."]
+			description: ["Increases processing speed, but reduces RF efficiency!"]
 			hide_dependency_lines: true
 			id: "173EB6713A5838B1"
 			rewards: [{
@@ -1430,7 +1430,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Voids excess secondary drops from the output of a machine"]
+			description: ["Voids excess secondary drops from the output of a machine."]
 			hide_dependency_lines: true
 			id: "73EE954D4B014AA5"
 			rewards: [{
@@ -1535,7 +1535,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Increases the level of a potion effect, but at the cost of duration."]
+			description: ["Increases the level of a potion effect, but at the cost of duration!"]
 			hide_dependency_lines: true
 			id: "7A8633C7D8E1E83E"
 			rewards: [{
@@ -1619,7 +1619,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Increase the range of machines and equipment by an additional block in all directions."]
+			description: ["Increase the range of machines and equipment by an additional block in all directions!"]
 			hide_dependency_lines: true
 			id: "2DF3FA0EF421F27A"
 			rewards: [{
@@ -1640,7 +1640,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Collects experience from machine operations or the world. Base capacity is 2.5k, but can be increased with Integral Components."]
+			description: ["Collects experience from machine operations or the world! Base capacity is 2.5k, but can be increased with Integral Components."]
 			hide_dependency_lines: true
 			id: "27E7FFE5C3E569E2"
 			rewards: [{
