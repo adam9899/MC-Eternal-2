@@ -328,7 +328,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4789D17B88722641"]
 			description: [
 				"As I'm sure you've noticed, there are a &olot&r of items in MC Eternal!"
 				"Thus, you'll want to learn about all of the awesome ways to store your trash and your treasure!"
@@ -827,7 +826,7 @@
 		{
 			dependencies: [
 				"1914150BEBE05F9E"
-				"26B5D1430104B5A1"
+				"7458512315E86DE0"
 			]
 			description: ["In order to access your &bStorage Network&r and work with all that it contains, an &eCrafting Terminal&r is needed."]
 			id: "1E0A920D550C7AC7"
@@ -844,8 +843,8 @@
 				item: "integratedterminals:part_terminal_storage"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["127BD669F19CC02C"]
@@ -871,7 +870,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7E8025C11C76068A"]
@@ -896,11 +895,11 @@
 				item: "integrateddynamics:variable"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["7E8025C11C76068A"]
+			dependencies: ["61EA66EF3B00B30D"]
 			description: [
 				"The &eDrying Baisen&r can be used for more than just drying &eMenril Blocks&r."
 				""
@@ -922,11 +921,15 @@
 				item: "integratedterminals:menril_glass"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 13.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["551DB871D2CB8FEB"]
+			dependencies: [
+				"551DB871D2CB8FEB"
+				"21FE18F020BCFFE9"
+				"6730FE29A9E74FC8"
+			]
 			description: [
 				"First up on the choping block are the &eSqueezer&r and the &eDrying Basin&r."
 				""
@@ -995,8 +998,95 @@
 				}
 			]
 			title: "Cables"
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: ["Welcome to the farm. Get that sapling and start growing."]
+			hide_dependency_lines: false
+			id: "21FE18F020BCFFE9"
+			rewards: [
+				{
+					count: 16
+					id: "28D985300F06DB6A"
+					item: "integrateddynamics:menril_sapling"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "206CF13E243DAF99"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "108FFBC237FE8EE4"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			title: "Menril Farming"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26B5D1430104B5A1"]
+			id: "634652B5EB9CE6F4"
+			tasks: [{
+				id: "7164A9C2EDCF5048"
+				item: "integrateddynamics:variable_transformer_input"
+				type: "item"
+			}]
 			x: 9.0d
-			y: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26B5D1430104B5A1"]
+			id: "0306B2C61B77707E"
+			tasks: [{
+				id: "0A24E99560085307"
+				item: "integrateddynamics:variable_transformer_output"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: ["Its a good snack on the road. But also used later in usefull recipes."]
+			id: "6730FE29A9E74FC8"
+			tasks: [{
+				id: "2C7188D614CB8A08"
+				item: "integrateddynamics:menril_berries"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0306B2C61B77707E"
+				"634652B5EB9CE6F4"
+			]
+			id: "61EA66EF3B00B30D"
+			tasks: [{
+				id: "14ECDA837BEAA2A6"
+				item: "integrateddynamics:part_static_light_panel"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61EA66EF3B00B30D"]
+			id: "7458512315E86DE0"
+			tasks: [{
+				id: "76451C58F1AE6D6C"
+				item: "integrateddynamics:part_display_panel"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
 		}
 	]
 	title: "&6Storage Solutions!"
