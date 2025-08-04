@@ -1031,6 +1031,7 @@
 		}
 		{
 			dependencies: ["26B5D1430104B5A1"]
+			description: ["A useful part don't loose me like the others"]
 			id: "634652B5EB9CE6F4"
 			tasks: [{
 				id: "7164A9C2EDCF5048"
@@ -1042,6 +1043,7 @@
 		}
 		{
 			dependencies: ["26B5D1430104B5A1"]
+			description: ["A useful part don't loose me like the others"]
 			id: "0306B2C61B77707E"
 			tasks: [{
 				id: "0A24E99560085307"
@@ -1068,6 +1070,7 @@
 				"0306B2C61B77707E"
 				"634652B5EB9CE6F4"
 			]
+			description: ["A useful static panel used later on to make a crafting panel"]
 			id: "61EA66EF3B00B30D"
 			tasks: [{
 				id: "14ECDA837BEAA2A6"
@@ -1079,6 +1082,7 @@
 		}
 		{
 			dependencies: ["61EA66EF3B00B30D"]
+			description: ["A useful part panel used later on to make a crafting panel"]
 			id: "7458512315E86DE0"
 			tasks: [{
 				id: "76451C58F1AE6D6C"
@@ -1091,3 +1095,4 @@
 	]
 	title: "&6Storage Solutions!"
 }
+
