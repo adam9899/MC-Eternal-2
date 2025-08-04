@@ -901,11 +901,11 @@
 		{
 			dependencies: ["61EA66EF3B00B30D"]
 			description: [
-				"The &eDrying Baisen&r can be used for more than just drying &eMenril Blocks&r."
+				"The &eDrying Basin&r can be used for more than just drying &eMenril Blocks&r."
 				""
 				"Moving forward we are going to need &eMenril Glass&r; A single piece will do, but use this as a moment to explore it alternative uses."
 				"{@pagebreak}"
-				"&6Hint:&r Try placing &eGlass&r within an Drying Baisen, &ebefore&r adding in some Menril Resin."
+				"&6Hint:&r Try placing &eGlass&r within an Drying Basin, &ebefore&r adding in some Menril Resin."
 			]
 			id: "1914150BEBE05F9E"
 			rewards: [{
@@ -931,7 +931,7 @@
 				"6730FE29A9E74FC8"
 			]
 			description: [
-				"First up on the choping block are the &eSqueezer&r and the &eDrying Basin&r."
+				"First up on the chopping block are the &eSqueezer&r and the &eDrying Basin&r."
 				""
 				"The Squeezer can be used to compress &eMenril Logs/Planks&r into &eMenril Resin&r, an fluid form of Menril."
 				""
@@ -1031,7 +1031,7 @@
 		}
 		{
 			dependencies: ["26B5D1430104B5A1"]
-			description: ["A useful part don't loose me like the others"]
+			description: ["A useful part don't lose me like the others"]
 			id: "634652B5EB9CE6F4"
 			tasks: [{
 				id: "7164A9C2EDCF5048"
@@ -1043,7 +1043,7 @@
 		}
 		{
 			dependencies: ["26B5D1430104B5A1"]
-			description: ["A useful part don't loose me like the others"]
+			description: ["A useful part don't lose me like the others"]
 			id: "0306B2C61B77707E"
 			tasks: [{
 				id: "0A24E99560085307"
@@ -1095,5 +1095,6 @@
 	]
 	title: "&6Storage Solutions!"
 }
+
 
 
