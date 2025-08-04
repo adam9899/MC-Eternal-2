@@ -1055,7 +1055,7 @@
 		}
 		{
 			dependencies: ["127BD669F19CC02C"]
-			description: ["Its a good snack on the road. But also used later in usefull recipes."]
+			description: ["Its a good snack on the road better than HAM. But also used later in usefull recipes!"]
 			id: "6730FE29A9E74FC8"
 			tasks: [{
 				id: "2C7188D614CB8A08"
@@ -1095,4 +1095,5 @@
 	]
 	title: "&6Storage Solutions!"
 }
+
 
