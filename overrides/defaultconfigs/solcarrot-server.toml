@@ -11,7 +11,7 @@
 
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
-	blacklist = ["minecraft:pumpkin_pie", "biomeswevegone:blueberry_pie", "biomeswevegone:green_apple_pie", "netherexp:hogham", "netherexp:cooked_hogham", "jadensnetherexpansiondelight:hogham_slice", "hexcasting:creative_unlocker", "jadensnetherexpansiondelight:blue_scale_fungus_roll", "jadensnetherexpansiondelight:red_scale_fungus_roll", "delightful:chunkwich", "delightful:coconut_curry", "delightful:honey_glazed_walnut", "tombstone:easter_egg_food", "delightful:cooked_venison_chops", "delightful:gloomgourd_pie_slice", "delightful:source_berry_pie_slice"]
+	blacklist = ["minecraft:pumpkin_pie", "biomeswevegone:blueberry_pie", "biomeswevegone:green_apple_pie", "netherexp:hogham", "netherexp:cooked_hogham", "jadensnetherexpansiondelight:hogham_slice", "hexcasting:creative_unlocker", "jadensnetherexpansiondelight:blue_scale_fungus_roll", "jadensnetherexpansiondelight:red_scale_fungus_roll", "delightful:chunkwich", "delightful:coconut_curry", "delightful:honey_glazed_walnut", "tombstone:easter_egg_food", "delightful:cooked_venison_chops", "delightful:gloomgourd_pie_slice", "delightful:source_berry_pie_slice", "vampirism:weak_human_heart"]
 	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
 	whitelist = []
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
