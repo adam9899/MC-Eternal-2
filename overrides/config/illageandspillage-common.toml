@@ -5,7 +5,7 @@
 		#How many Igniters each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
-		igniter_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		igniter_raidcount = [0, 0, 1, 1, 1, 1, 0, 0]
 		#Controls if Igniter should cause block damage with its fireballs.
 		#As of now its fireballs will still use the normal fire block; basically don't set this to true if you care about your world.
 		#Default = false
@@ -16,13 +16,13 @@
 		#How many Twittollagers each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
-		twittollager_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		twittollager_raidcount = [0, 0, 0, 0, 1, 1, 0, 0]
 
 	["Mob Settings"."Preserver Settings"]
 		#How many Preservers each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
-		preserver_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		preserver_raidcount = [0, 0, 0, 0, 0, 0, 0, 1]
 		#Illagers the Preserver will ignore.
 		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
 		#You can use the /summon command to scroll through and find the IDs for mobs you want!
@@ -33,7 +33,7 @@
 		#How many Engineers each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
-		engineer_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		engineer_raidcount = [0, 0, 0, 0, 1, 0, 1, 0]
 		#Maximum amount of machines the engineer can build
 		#Set to a negative number to disable limit entirely
 		#Default = 3
@@ -49,7 +49,7 @@
 		#How many Absorbers each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
-		absorber_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		absorber_raidcount = [0, 0, 0, 0, 0, 1, 0, 0]
 		#The damage mode for Absorber.
 		#On false, Absorber will always take 1 damage from anything. On true, Absorber will take a maximum of 1 damage per hit.
 		#Default = false
@@ -59,7 +59,7 @@
 		#How many Crocofangs each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
-		crocofang_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		crocofang_raidcount = [0, 0, 0, 0, 0, 0, 1, 0]
 		#Mobs put in this list will be randomly chosen to be the mob riding a Crocofang.
 		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
 		#You can use the /summon command to scroll through and find the IDs for mobs you want!
@@ -76,7 +76,7 @@
 		#How many Spiritcallers each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
-		spiritcaller_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		spiritcaller_raidcount = [0, 0, 0, 0, 0, 0, 0, 1]
 		#Controls if Spiritcaller should despawn if it spawns in the 7th wave before the bonus wave.
 		#Overrides spiritcaller_raidcount
 		#Default = true
@@ -108,7 +108,7 @@
 		#How many Freakagers each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
-		freakager_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		freakager_raidcount = [0, 0, 0, 0, 0, 0, 1, 0]
 		#Controls if Freakager should despawn if it spawns in the 7th wave before the bonus wave.
 		#Overrides freakager_raidcount
 		#Default = true
@@ -129,7 +129,7 @@
 		#How many Magispellers each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
-		magispeller_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		magispeller_raidcount = [0, 0, 0, 0, 0, 0, 0, 1]
 		#Controls if Magispeller should despawn if it spawns in the 7th wave before the bonus wave.
 		#Overrides magispeller_raidcount
 		#Default = true
@@ -170,7 +170,7 @@
 		#Requires game restart
 		#Must have no more and no less than 8 integers
 		#Note that Boss Randomizers on the final Raid wave will be considered the 'Final Boss'
-		bossrandomizer_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+		bossrandomizer_raidcount = [0, 0, 0, 0, 0, 0, 0, 1]
 		#Mobs put in this list will be randomly selected by the Boss Randomizer.
 		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
 		#You can use the /summon command to scroll through and find the IDs for mobs you want!
