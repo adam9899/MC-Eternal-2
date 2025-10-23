@@ -5,6 +5,480 @@
 	group: "701563945253F512"
 	icon: "ars_nouveau:summon_focus"
 	id: "511BD5CE8926D782"
+	images: [
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.2d
+			image: "ars_ocultas:item/_glyph_template_augment"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "ars_nouveau:item/glyph_template"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "ars_ocultas:item/_glyph_template_component"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/present"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/magebloom_fiber"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -69,6 +543,7 @@
 				}
 			]
 			shape: "pentagon"
+			size: 1.2d
 			subtitle: "Who needs wands, right?"
 			tasks: [{
 				id: "2EC8F31C4C5F5F1C"
@@ -88,7 +563,7 @@
 			]
 			id: "09E7B05E4298F3BE"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "231D9A9DAFE072C9"
 				ignore_reward_blocking: true
@@ -124,7 +599,7 @@
 			}]
 			title: "Spell Casting 101"
 			x: 0.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["09E7B05E4298F3BE"]
@@ -139,7 +614,7 @@
 			id: "704C7C142ECED1D5"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "5BB7E41B5CDFF627"
 					ignore_reward_blocking: true
@@ -342,15 +817,16 @@
 			]
 			title: "Altering Threads"
 			x: 7.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["7461C12182F6AC36"]
+			dependencies: ["58594005824B1BBE"]
 			description: [
 				"The &eMage's Spell Book&r is a large upgrade to the &eNovice's Spell Book&r, allowing access to Tier 2 Glyphs and better Spell combinations."
 				""
 				"&6Tip:&r Unlocking more &eGlyphs&r gives a large boost to Maximum Mana and unlocking ALL &eGlyphs&r will reward you with around 1500 &lextra&r Maximum Mana!"
 			]
+			icon: "ars_nouveau:apprentice_spell_book"
 			id: "46ADECF58830F3CF"
 			rewards: [
 				{
@@ -402,6 +878,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.2d
 			subtitle: "Was I not a Mage before?"
 			tasks: [{
 				id: "0ACF7B0558E19C24"
@@ -409,11 +886,11 @@
 				type: "item"
 			}]
 			title: "A Stronger Spell Book"
-			x: 8.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["46ADECF58830F3CF"]
+			dependencies: ["7461C12182F6AC36"]
 			description: [
 				"The &eRitual Brazier&r allows you to manipulate the space around you, such as summoning animals, changing the Time of day, or even allowing constant flight. "
 				""
@@ -455,7 +932,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "128E023CD73AA744"
 					ignore_reward_blocking: true
@@ -476,7 +953,7 @@
 				}
 			]
 			title: "Ritual Brazier"
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -533,11 +1010,11 @@
 				type: "item"
 			}]
 			title: "Ender Source Jars"
-			x: 10.0d
-			y: -1.0d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["58594005824B1BBE"]
+			dependencies: ["46ADECF58830F3CF"]
 			description: [
 				"The Wilden Chimera is the Boss of &5Ars Nouveau&r, and very difficult having multiple phases that imitate each of the Wilden Beasts. "
 				""
@@ -578,7 +1055,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "111905BFF2B46150"
 					ignore_reward_blocking: true
@@ -597,7 +1074,11 @@
 		}
 		{
 			dependencies: ["105A86F70B2C6B39"]
-			description: ["The &eArchmage's Spell Book&r is the final tier of Spell Book for &5Ars Nouveau&r, allowing for even more powerful spell combinations and unlocks access to Tier 3 &eGlyphs&r."]
+			description: [
+				"The &eArchmage's Spell Book&r is the final tier of Spell Book for &5Ars Nouveau&r, allowing for even more powerful spell combinations and unlocks access to Tier 3 &eGlyphs&r."
+				""
+				"&6Tip:&r You can find Enderium using the Ritual of Scrying!"
+			]
 			id: "5DD2BA94561922D4"
 			rewards: [
 				{
@@ -633,7 +1114,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "6C76B77E64F2C04C"
 					ignore_reward_blocking: true
@@ -649,6 +1130,7 @@
 				}
 			]
 			shape: "octagon"
+			size: 1.2d
 			subtitle: "I'm a what?"
 			tasks: [{
 				id: "64808A383C864FCF"
@@ -675,7 +1157,7 @@
 			}
 			id: "06F0A11431B112E4"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "17A21F0CEA33E402"
 				ignore_reward_blocking: true
@@ -694,8 +1176,8 @@
 				type: "item"
 			}]
 			title: "Familiars"
-			x: 10.0d
-			y: -4.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -761,8 +1243,8 @@
 				}
 			]
 			title: "The Bookwyrm"
-			x: 11.0d
-			y: -4.0d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -833,8 +1315,8 @@
 				}
 			]
 			title: "The Drygmy"
-			x: 11.0d
-			y: -5.0d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -939,8 +1421,8 @@
 				}
 			]
 			title: "The Wixie"
-			x: 9.0d
-			y: -6.0d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -999,8 +1481,8 @@
 				type: "item"
 			}]
 			title: "The Whirlisprig"
-			x: 9.0d
-			y: -5.0d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -1064,8 +1546,8 @@
 				type: "item"
 			}]
 			title: "The Starbuncle"
-			x: 9.0d
-			y: -4.0d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -1082,7 +1564,7 @@
 			}
 			id: "25613F7E8248805C"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "5100B856081545A1"
 				ignore_reward_blocking: true
@@ -1102,7 +1584,7 @@
 			}]
 			title: "Sourcelinks and Relays"
 			x: 5.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1160,7 +1642,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1184,7 +1666,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1242,7 +1724,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1262,7 +1744,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1286,7 +1768,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1340,7 +1822,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1394,7 +1876,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1448,7 +1930,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["105A86F70B2C6B39"]
@@ -1478,7 +1960,7 @@
 			}]
 			title: "Mastering The Elements"
 			x: 12.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1498,7 +1980,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1518,7 +2000,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -1528,7 +2010,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "4942D239F9ECA5AC"
 					ignore_reward_blocking: true
@@ -1575,7 +2057,7 @@
 			}]
 			title: "The Shady Wizard"
 			x: 5.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
@@ -1584,7 +2066,7 @@
 				""
 				"&6Tip:&r The &eWorn Notebook&r can also be accessed on the left side of your &eSpell Book&r UI."
 			]
-			icon_scale: 0.75d
+			icon_scale: 0.8d
 			id: "2B0658FFB8B4D18C"
 			optional: true
 			rewards: [{
@@ -1662,8 +2144,8 @@
 				type: "item"
 			}]
 			title: "The Siren"
-			x: 11.0d
-			y: -6.0d
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -1721,8 +2203,8 @@
 				type: "item"
 			}]
 			title: "The Flarecannon"
-			x: 10.0d
-			y: -6.0d
+			x: 9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -1782,8 +2264,8 @@
 				type: "item"
 			}]
 			title: "Helpful Familiars"
-			x: 11.0d
-			y: -3.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -1837,8 +2319,8 @@
 				type: "item"
 			}]
 			title: "The Amethyst Golem"
-			x: 10.0d
-			y: -5.0d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0680B29423DD2DD4"]
@@ -1891,7 +2373,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "194209231C265876"
 					ignore_reward_blocking: true
@@ -2067,7 +2549,7 @@
 			]
 			title: "Proper Archmage Armor"
 			x: 13.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -2236,7 +2718,7 @@
 			]
 			title: "Proper Mage Clothes"
 			x: 5.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5DD2BA94561922D4"]
@@ -2246,6 +2728,13 @@
 				"Each one comes with a pre-determined Form Glyph depending on which tool you use. There's too much information to explain here so I'd recommend checking the &eWorn Notebook&r to learn more about these awesome items!"
 			]
 			id: "2A7A23DB0184D16F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "15159EC741F3209D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Better than Spell Books!"
 			tasks: [{
 				id: "779F9970773FB4EC"
@@ -2312,8 +2801,8 @@
 				type: "item"
 			}]
 			title: "Enchanter's Tools"
-			x: 14.0d
-			y: -1.0d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["704C7C142ECED1D5"]
@@ -2378,7 +2867,7 @@
 			}]
 			title: "Basic Essences"
 			x: 3.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -2404,7 +2893,7 @@
 			}]
 			title: "Magical Spawners"
 			x: 7.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["704C7C142ECED1D5"]
@@ -2417,7 +2906,7 @@
 			id: "00307A4424B56EC2"
 			optional: true
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "7C771586E5DB8A4B"
 				ignore_reward_blocking: true
@@ -2435,7 +2924,7 @@
 			}]
 			title: "Warp Scrolls"
 			x: 3.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -2492,7 +2981,7 @@
 			]
 			title: "Magic Equipment"
 			x: 6.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
@@ -2506,7 +2995,7 @@
 			id: "5E0498ECFD150E14"
 			optional: true
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "3B2897AB43E6F12C"
 				ignore_reward_blocking: true
@@ -2526,7 +3015,7 @@
 			}]
 			title: "Rainbow Spellbook"
 			x: 0.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -2548,25 +3037,39 @@
 				title: "How does this work...?"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			description: ["&5Ars Ocultas&r bridges the gap between &5Occultism&r and &5Ars Nouveau&r by allowing the Djinns from &5Occultism&r in &eContainment Jars&r to continue their work!"]
 			icon: "occultism:book_of_binding_djinni"
 			id: "25A5E3F55E54749E"
 			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4AAB85FA873E8D91"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Otherworldly Rituals"
 			tasks: [{
 				id: "6B4CEA9CF82F9C97"
 				title: "Ars Ocultas"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			id: "1A39D87C0BC3F4AE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4EB6BBB537C96448"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "rsquare"
 			subtitle: "AutoMAGIC Spellcasting"
 			tasks: [{
@@ -2575,21 +3078,28 @@
 				type: "item"
 			}]
 			title: "Spell Turrets!"
-			x: 5.0d
-			y: -4.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
 			description: ["&eEnchanted Spell Turrets&r cost imbued spells at half the cost of the regular amount of Source required."]
 			id: "2A9EBE3F6DE9FC1B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "06AA70CAE11D4D96"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Cheaper Turrets"
 			tasks: [{
 				id: "56843191369E345A"
 				item: "ars_nouveau:spell_turret"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
@@ -2607,21 +3117,28 @@
 				item: "ars_nouveau:timer_spell_turret"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
 			description: ["The &eAdjustable Spell Turret&r is a small upgrade from the Basic Spell Turret&e. You can change the direction it's facing with a &eDominion Wand&r by Right Clicking the desired block."]
 			id: "31A433CABF46DDAA"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1EDB390893829CB3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Slightly Better Turret"
 			tasks: [{
 				id: "4CBFF12E0A4B763C"
 				item: "ars_nouveau:rotating_spell_turret"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
@@ -2631,6 +3148,13 @@
 				"They can cast spells at a 65% discount, as well as performing spell combos that would be used in combination with the variety of &eElemental Focuses&r that &5Ars Elemental&r provides for you to use yourself!"
 			]
 			id: "4D9B3259CB30B9F2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1D277CCE7B7953CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "More turret upgrades?"
 			tasks: [{
 				id: "1D13DC8E5C666221"
@@ -2666,8 +3190,8 @@
 				type: "item"
 			}]
 			title: "Specialized Turrets"
-			x: 5.0d
-			y: -5.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -2685,6 +3209,13 @@
 			}
 			id: "1029FDFB1056B5CE"
 			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4909E5973995E5A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Better Magical Food!"
 			tasks: [{
 				id: "74925BE79DC4D0B3"
@@ -2692,26 +3223,8 @@
 				type: "checkmark"
 			}]
 			title: "Ars Delight"
-			x: -1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5DD2BA94561922D4"]
-			description: [
-				"In order to craft the &eArchmage Spell Book&r, as well as many other items outside of &5Ars Nouveau&r, you need many materials from the End Dimension, one of those being &eEnderium Ingots&r. "
-				""
-				""
-				"{ \"text\": \"Ritual of Scrying\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"192CD8BC280620AB\" } }"
-			]
-			id: "143F454F976B2E9E"
-			subtitle: "So... Where Is It?"
-			tasks: [{
-				id: "31EC4072C269724F"
-				item: "majruszsdifficulty:enderium_shard_ore"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 0.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2724,14 +3237,21 @@
 				"{ \"text\": \"Amethyst Golem\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10260F1595649978\" } }"
 			]
 			id: "5D0B7D274DD636C9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7F61E198BC6515AE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "The start of Familiars"
 			tasks: [{
 				id: "4779F358E1960E97"
 				item: "ars_nouveau:ritual_awakening"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["58594005824B1BBE"]
@@ -2744,6 +3264,13 @@
 			hide_dependent_lines: true
 			icon: "ars_nouveau:ritual_brazier"
 			id: "3EC7BF21C76FF1C2"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "41875D0B6C1831CB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "rsquare"
 			subtitle: "Is this Occultism?"
 			tasks: [{
@@ -2751,8 +3278,8 @@
 				title: "Basic Rituals"
 				type: "checkmark"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 11.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2764,14 +3291,21 @@
 				"&6Tip:&r Having a 'Touch - Dispel' spell on hand will remove whatever is in the &eContainment Jar&r, so don't worry if you capture the wrong thing! Just don't put your &eSpell Book&r in it accidentally....."
 			]
 			id: "3FE00B019479D14E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5047BD2B443C0FBA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Pokemon with extra steps!"
 			tasks: [{
 				id: "774BBCEB930E4B88"
 				item: "ars_nouveau:ritual_containment"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2781,14 +3315,21 @@
 				"It can also be used to search for the illusive Arcane Library for all your &5Ars Nouveau&r needs!"
 			]
 			id: "736892A6C5BF10B1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "30578C83F840399A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Scrying But For Structures!"
 			tasks: [{
 				id: "62A9FDDDCD18C749"
 				item: "ars_additions:ritual_locate_structure"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2798,14 +3339,21 @@
 				"There's no method to influence to spawn one specific Wilden Beast but if you throw a &eWilden Spike&r, &eWilden Horn&r, and &eWilden Wing&r onto the Ritual Brazier after inserting this Tablet, you best be prepared for a fight!"
 			]
 			id: "158B5CD496403019"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4E2068D67494A01F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Wilden Beasts?"
 			tasks: [{
 				id: "472AA02B77854E67"
 				item: "ars_nouveau:ritual_wilden_summon"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2815,14 +3363,21 @@
 				"The Effect it gives lasts a minute but as long as you're in that radius of about a 3x3 chunk area, it will always reset! Just make sure the &eRitual Brazier&r has a constant income of Source!"
 			]
 			id: "799D1207E689F5D0"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0105F235848A5D28"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "I can fly!"
 			tasks: [{
 				id: "29AC407B17A38508"
 				item: "ars_nouveau:ritual_flight"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.0d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2834,14 +3389,21 @@
 				"The effect lasts no time at all, but if you add a &eManipulation Essence&r with the Ore, the Effect duration is increased to 15 minutes!"
 			]
 			id: "192CD8BC280620AB"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "286D6E2D428AB49A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Basically X-Ray!"
 			tasks: [{
 				id: "6818FBEF403F5205"
 				item: "ars_nouveau:ritual_scrying"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 11.0d
+			y: 5.0d
 		}
 	]
 	title: "{chapter.34.title}"
