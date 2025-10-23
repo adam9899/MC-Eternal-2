@@ -1,0 +1,3410 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6ars_nouveau"
+	group: "701563945253F512"
+	icon: "ars_nouveau:summon_focus"
+	id: "511BD5CE8926D782"
+	images: [
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.2d
+			image: "ars_ocultas:item/_glyph_template_augment"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "ars_nouveau:item/glyph_template"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "ars_ocultas:item/_glyph_template_component"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/present"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/magebloom_fiber"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&5Ars Nouveau&r is a very useful Magic mod that allows you to create custom spells using different &eGlyphs&r that affect how your spell works. "
+				""
+				"There are three different &eSpell Book&r Tiers, along with three different tiers of &eGlyphs&r that allow you to do a lot with just a &eSpell Book&r in hand!"
+				""
+				"&5Ars Nouveau&r has many features other than just spell casting!"
+				""
+				"&7Chapter Credit: Traylon "
+			]
+			id: "16A7C49E6CDC24DD"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6ABF15BEC73EB2E3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "41A775370F801D26"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:novice"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "47DEE3AFD85ACFD7"
+					title: "&eUnlock Title:&r the Novice"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Who needs wands, right?"
+			tasks: [{
+				id: "2EC8F31C4C5F5F1C"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "Mage's First Spellbook"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: [
+				"The &eScribe's Table&r allows the creation of &eGlyphs&r at the cost of some resources and XP. Right Clicking the &eScribe's Table&r with a &eSpell Book&r will open the UI. In order to craft a spell, throw the necessary items near it."
+				""
+				"&6Tip:&r The &eScribe's Table&r can pull resources from nearby chests, eliminating the need to throw items manually."
+			]
+			id: "09E7B05E4298F3BE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "231D9A9DAFE072C9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Basic Spell Crafting"
+			tasks: [{
+				id: "340CE39CD9B2E224"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "Beginner Glyphs"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: ["The default Keybind for opening the &eSpell Book&r is \"C\". This will give you access to the &eSpell Book's&r UI in order to view unlocked &eGlyphs&r, as well as creating spell combinations."]
+			icon: "ars_nouveau:glyph_break"
+			id: "593615007F1EE282"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "13332BAD88BB09B5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "How to use your Spellbook"
+			tasks: [{
+				id: "54912B6F8E91CED7"
+				type: "checkmark"
+			}]
+			title: "Spell Casting 101"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09E7B05E4298F3BE"]
+			description: [
+				"&eSource Gems&r are the fundamentals of &5Ars Nouveau&r, needed to craft many items such as the variety of &eEssences&r."
+				""
+				"&eSource Gems&r can be created using either &eAmethyst Shards&r or &eLapis Lazuli&r. When crafting items, the &eImbuement Chamber&r does not consume resources in nearby &eArcane Pedestals&r."
+				""
+				"&6Tip:&r &eImbuement Chambers&r can be semi-automated with certain methods to make this process easier."
+			]
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "704C7C142ECED1D5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5BB7E41B5CDFF627"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6EF3E4630F1ABD26"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "It's flowing with Magic..."
+			tasks: [
+				{
+					id: "7FA42959E1DF370F"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "47C24052675D777F"
+					item: { Count: 16, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7E623AF5CBAA4449"
+					item: { Count: 32, id: "ars_nouveau:sourcestone" }
+					type: "item"
+				}
+			]
+			title: "Magic Gems"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["704C7C142ECED1D5"]
+			description: [
+				"The &eEnchanting Apparatus&r is the other core crafting part of &5Ars Nouveau&r, allowing for the creation of a plethora of items, such as upgrading basic armor into something better suited for Spell Casting."
+				""
+				"Tip: If you find yourself lacking enchants on gear, this is a very simple way of obtaining most enchants! "
+				"Not every enchantment can be created in the &eEnchanting Apparatus&r though such as &eMending&r, so be sure to check JEI!"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "7461C12182F6AC36"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "43DD3D827BF45463"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7E6DB510089844FF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "It's certainly Enchanting!"
+			tasks: [
+				{
+					id: "48D1A1A73292EABA"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "40734E285E933A88"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3DB5E34E9AAEB839"
+					item: { Count: 8, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			title: "Enchanted Crafting"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&5Ars Nouveau&r introduces &eThreads&r for your armor that are separate from tiered upgrades. There's a variety of &eThreads&r that are helpful in many ways, and some even stack on top of Vanilla enchantments like &eRespiration&r and &eFeather Falling&r!"
+				""
+				"Your armor has quite a few slots available at the max Tier, but you may only have one of each &eThread&r in your entire armor set, so choose wisely!"
+			]
+			icon: "ars_nouveau:alteration_table"
+			id: "3D16E9297DD511FD"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5A7A1EA6FDFD43E5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "436A0B61692BE136"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Armor Upgrades!"
+			tasks: [
+				{
+					id: "5132E28CCDED428F"
+					item: "ars_nouveau:alteration_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5E714593025BF5EF"
+					item: { Count: 4, id: "ars_nouveau:blank_thread" }
+					type: "item"
+				}
+			]
+			title: "Altering Threads"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58594005824B1BBE"]
+			description: [
+				"The &eMage's Spell Book&r is a large upgrade to the &eNovice's Spell Book&r, allowing access to Tier 2 Glyphs and better Spell combinations."
+				""
+				"&6Tip:&r Unlocking more &eGlyphs&r gives a large boost to Maximum Mana and unlocking ALL &eGlyphs&r will reward you with around 1500 &lextra&r Maximum Mana!"
+			]
+			icon: "ars_nouveau:apprentice_spell_book"
+			id: "46ADECF58830F3CF"
+			rewards: [
+				{
+					id: "78BB86ED8F4E1454"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0AE58635DFC78BE9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:mage"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "6DD9F788CCAE3340"
+					title: "&eUnlock Title:&r the Mage"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "Was I not a Mage before?"
+			tasks: [{
+				id: "0ACF7B0558E19C24"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "A Stronger Spell Book"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"The &eRitual Brazier&r allows you to manipulate the space around you, such as summoning animals, changing the Time of day, or even allowing constant flight. "
+				""
+				"Most Rituals require an income of Source in order to function while some don't require Source at all."
+			]
+			icon: "ars_nouveau:ritual_brazier"
+			id: "58594005824B1BBE"
+			rewards: [
+				{
+					id: "1BF9B00FCECFFB96"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "128E023CD73AA744"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "I-Is it supposed to do that?"
+			tasks: [
+				{
+					id: "41753F72864AF56E"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "561D16414B68CE16"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			title: "Ritual Brazier"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58594005824B1BBE"]
+			description: ["&eEnder Source Jars&r are very useful to have as they all function similarly to an &eEnder Chest&r, but for Source."]
+			id: "75F23B5AFDBB0251"
+			optional: true
+			rewards: [
+				{
+					id: "74124A59E78B8F98"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7ED6DC44B563CC26"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Wireless Source?"
+			tasks: [{
+				count: 2L
+				id: "0B9E3B20B302D60C"
+				item: "ars_additions:ender_source_jar"
+				type: "item"
+			}]
+			title: "Ender Source Jars"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46ADECF58830F3CF"]
+			description: [
+				"The Wilden Chimera is the Boss of &5Ars Nouveau&r, and very difficult having multiple phases that imitate each of the Wilden Beasts. "
+				""
+				"The &eWilden Tribute&r is a crucial aspect in upgrading the &eMage's Spell Book&r to its final tier, the &eArchmage Spell Book&r."
+			]
+			id: "105A86F70B2C6B39"
+			rewards: [
+				{
+					id: "36420EC10D4E6E4D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "111905BFF2B46150"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "The Big Bad...Chimera?"
+			tasks: [{
+				id: "3504BC2B707E7067"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			title: "Wilden Chimera"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105A86F70B2C6B39"]
+			description: [
+				"The &eArchmage's Spell Book&r is the final tier of Spell Book for &5Ars Nouveau&r, allowing for even more powerful spell combinations and unlocks access to Tier 3 &eGlyphs&r."
+				""
+				"&6Tip:&r You can find Enderium using the Ritual of Scrying!"
+			]
+			id: "5DD2BA94561922D4"
+			rewards: [
+				{
+					id: "5016684AE973ABAA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "6C76B77E64F2C04C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:archmage"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "521EE2791A5EB03B"
+					title: "&eUnlock Title:&r the Archmage"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "I'm a what?"
+			tasks: [{
+				id: "64808A383C864FCF"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "You're an Archmage!"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&5Ars Nouveau&r has many familiars that can be summoned with &eCharms&r in order to automate certain aspects, such as &eSource Berry&r gathering, creating potions, or even generating items from enemies in the form of a Mob Farm."
+				""
+				"The &eDominion Wand&r allows linking these familiars to their corresponding work stations, as well as linking &eSourcelinks&r to &eSource Relays&r."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ars_nouveau:dominion_wand"
+				tag: { }
+			}
+			id: "06F0A11431B112E4"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "17A21F0CEA33E402"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Aww, they're so cute!"
+			tasks: [{
+				id: "2FD7CB58D855F04D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Familiars"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"The &eBookwyrm Charm&r is obtained by using a &eBook And Quill&r on a &eRitual of Awakening&r and must be linked with the &eStorage Lectern&r using a &eDominion Wand&r in order to connect chests into one unified storage block. One Bookwyrm is able to connect up to 8 Chests."
+				""
+				"&6Tip:&r &5Ars Additions&r adds the &eWarp Index&r that lets you have remote access to the &eStorage Lectern&r with infinite range as long as the chunks are loaded, while the &eStabilized Warp Index&r allows for cross-dimension access."
+			]
+			icon: "ars_nouveau:bookwyrm_charm"
+			id: "5317ADE87D16A500"
+			rewards: [
+				{
+					id: "68825C251030B872"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "505FE1913AD57C65"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Is it smart at least?"
+			tasks: [
+				{
+					id: "052CB4902D5469C4"
+					item: { Count: 2, id: "ars_nouveau:bookwyrm_charm" }
+					type: "item"
+				}
+				{
+					id: "315E94081246EA2B"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+			]
+			title: "The Bookwyrm"
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"A &eDrygmy Token&r is obtained by giving a Wild Drygmy a &eWilden Horn&r. Right clicking a &eMossy Cobblestone&r block with one or more Drygmy Charms will generate items from mobs in nearby &eContainment Jars&r if a chest touching the &eDrygmy Hedge&r and constant stream of Source is provided."
+				""
+				"&6Tip:&r The more&e Containment Jars&r that have unique mobs nearby, the \"happier\" the Drygmys will be and generate items a little faster."
+			]
+			icon: "ars_nouveau:drygmy_charm"
+			id: "334E026D8E9CD094"
+			rewards: [
+				{
+					id: "1D6D44FA465354CB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3F99C6541143C69D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "He loves hoarding items!"
+			tasks: [
+				{
+					id: "75A744774B9A0F47"
+					item: "ars_nouveau:drygmy_charm"
+					type: "item"
+				}
+				{
+					id: "015AB6B0E5C6004D"
+					item: "ars_nouveau:mob_jar"
+					type: "item"
+				}
+				{
+					id: "672399D14AF8B8AD"
+					item: "ars_nouveau:ritual_containment"
+					type: "item"
+				}
+			]
+			title: "The Drygmy"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"The &eWixie Token&r is obtained by using Dispel on a Witch at less than half health. Right clicking a &eCauldron&r, the Wixie will automatically create a single potion type out of materials in a nearby chest and nearby Source. "
+				""
+				"Right Clicking the &eWixie Cauldron&r will tell the Wixie what potion to make. She will always make 3 potions worth in the &ePotion Jar&r, and it can hold a lot of potions!"
+				""
+				"&6Tip:&r In order to fully automate potions, multiple Wixies are needed."
+			]
+			icon: "ars_nouveau:wixie_charm"
+			id: "37485C6C9D4948A3"
+			rewards: [
+				{
+					id: "6F8FAA94EB0CC66C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75CC15886DE41F83"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "679154E1B52A3EC2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "She's not a wicked witch, right?"
+			tasks: [
+				{
+					id: "535EF3464C851A24"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+				{
+					id: "04654C43079ECD4D"
+					item: "ars_nouveau:potion_jar"
+					type: "item"
+				}
+				{
+					id: "4451D6D3433D3FBC"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			title: "The Wixie"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"The &eWhirlisprig Token&r is obtained by growing a tree near a wild Whirlisprig. "
+				"Right clicking a flower will convert it to the Whirlisprig's home and collect crops within a short radius around it, given it has a chest and Source nearby."
+				""
+				"&6Tip:&r Similarly to the Drygmy, the more unique crops and plants that are placed will make the Whirlisprig happier."
+			]
+			id: "76B7524192177EB0"
+			rewards: [
+				{
+					id: "1413AB944F3BEF9A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "16C496D60F662AD5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Loves to stop and smell the roses."
+			tasks: [{
+				id: "2C1DDD5294725FB9"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			title: "The Whirlisprig"
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"The &eStarbuncle Token&r is obtained by giving a wild Starbuncle a &eGold Nugget&r. The Starbuncle will collect &eSource Berries&r and place them into chests that are assigned to them. "
+				""
+				"Starbuncles can also move items between chests, making it the cutest hopper in the world! They also have a &eWheel&r for &5Create&r that they love a lot!"
+				""
+				"&6Tip:&r Giving them &eStarbuncle Shades&r stops them from collecting &eSource Berries&r, but it makes them look cool, right? You can also give them a &eWixie Hat&r to transport potions!"
+			]
+			id: "30E5BE9C7BE609E7"
+			rewards: [
+				{
+					id: "225BD248F4E15C12"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "51F6E2582E781802"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Huge berry fanatic."
+			tasks: [{
+				id: "7D9B5DBD789506DA"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Starbuncle"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&eSource Links&r are essential for generating Source in &5Ars Nouveau&r. There are a variety to use, some being better than others in most cases.."
+				""
+				"&eSource Relays&r can be connected to &eSourcelinks&r with a &eDominion Wand&r in order to send Source across varying distances."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ars_nouveau:dominion_wand"
+				tag: { }
+			}
+			id: "25613F7E8248805C"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5100B856081545A1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "How do these work exactly?"
+			tasks: [{
+				id: "4C93F5987AE2C7C1"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Sourcelinks and Relays"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"The &eAgronomic Sourcelink&r generates source from surrounding crops in a 15x15 area."
+				""
+				"&6Tip:&r The crops must be actively growing in order to generate source. Crops that are full grown will not generate source, &obut there are exceptions to this rule.&r"
+			]
+			id: "603D53BA4280A9FA"
+			rewards: [
+				{
+					id: "0069AD192FE72AF6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3AE63F0F20C3558B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "We Are Farmers!"
+			tasks: [{
+				id: "4ACA62E8354F321B"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"The Volcanic Sourcelink is one of the highest generating &eSourcelinks&r in &eArs Nouveau&r, using fuel items such as &eCoal&r or even &eLava Buckets&r!"
+				""
+				"If only there was a way to get infinite &eLava&r..."
+			]
+			id: "0E765133B7D231C4"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7B4ABE80137A10E1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "For the Miners!"
+			tasks: [{
+				id: "5EE7EBAE6348772B"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"The &eAlchemical Sourcelink&r generates source from nearby &eBrewing Stands&r, as well as nearby &ePotion Jars&r. It's most effective when consuming complex Potions with multiple steps."
+				""
+				"&6Tip:&r Using Wixies, this can be automated very efficiently."
+			]
+			id: "378701ACE5FC66ED"
+			rewards: [
+				{
+					id: "276825DC153E2225"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2F733B6C08C585CB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "For the Potion Brewers!"
+			tasks: [{
+				id: "434C11BEE855E3E4"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["The &eVitalic Sourcelink&r generates source by using the essence of slain mobs nearby, as well as Baby Animals as they are growing and speeding up their growth in the process."]
+			id: "3C235B9BB4222DEB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4AA349D882469DC1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "For the Mobs!"
+			tasks: [{
+				id: "700A355EE5AC3CBA"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"The &eMycelial Sourcelink&r generates source by consuming Food items. The higher the nutrition that a food item gives, the more Source that is generated from it."
+				""
+				"Tip: &eSource Berries&r give more Source than food items such as &eBread&r or &eCooked Potatoes&r."
+			]
+			id: "5E0EF0F53BF54777"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5531AE970F98E472"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "I love food so much."
+			tasks: [{
+				id: "66FEAA09F204F24F"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["The &eSource Relay&r is the most basic Relay in &5Ars Nouveau&r, only being capable of sending Source from a Sourcelink to a single &eSource Jar&r."]
+			id: "6ADAC8475A936E2E"
+			rewards: [
+				{
+					id: "1F74077625E6B9FB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "44A3ED8E2D39D92C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "The most basic of Relays."
+			tasks: [{
+				id: "3F6B405D07F57326"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["The &eSource Relay: Splitter&r is capable of sending Source to multiple &eSource Jars&r."]
+			id: "47346D0A4C20B77C"
+			rewards: [
+				{
+					id: "57922068C726DD3A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "588BAF22FFE6AB39"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Multi-Tasking at its finest."
+			tasks: [{
+				id: "74B5BDCE6A625DCA"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["The &eSource Relay: Depositer&r will deposit Source to &eSource Jars&r in a short radius around it."]
+			id: "786BA1B92CF31441"
+			rewards: [
+				{
+					id: "3A9F16EC4FD15B5E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "60FB3E082D1CC291"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "It can only deposit."
+			tasks: [{
+				id: "7B3385C12CE5F121"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["105A86F70B2C6B39"]
+			description: [
+				"The &eMark of Mastery&r from &5Ars Elemental&r is necessary in upgrading the basic &5Ars Nouveau&r Armor into an Armor set focused in a single Element. "
+				""
+				"The &eMark of Mastery&r requires a lot of Source to be crafted as well, so make sure to have plenty in stock!"
+				""
+				"There are four different elements for Armor: Water, Earth, Fire, and Air. "
+				"Each Armor Set has their own effects that make them unique from each other. "
+				""
+				"&6Tip:&r None of the &eEssences&r will be consumed if crafted using the &eImbuement Chamber&r, only the &eWilden Tribute&r."
+			]
+			id: "0680B29423DD2DD4"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "29554BA63B6972EF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "The Last Steps"
+			tasks: [{
+				id: "5DBF7CF40043162C"
+				item: { Count: 5, id: "ars_elemental:mark_of_mastery" }
+				type: "item"
+			}]
+			title: "Mastering The Elements"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["The &eSource Relay: Warper&r can transport Source over seemingly infinite distance, with the cost of losing some Source in the process."]
+			id: "4D148871454D861E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0C33D48BF1CDFCE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Multiple Bases? No Problem!"
+			tasks: [{
+				id: "44EFA6965759B0A4"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["The &eSource Relay: Collector&r will collect Source from &eSource Jars&r in a short radius around it."]
+			id: "5F63E805BEC232DE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "474EA09037303D2E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Collecting is its specialty!"
+			tasks: [{
+				id: "389F82D61E5668C8"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: ["The Shady Wizard is a Villager job from &5Ars Nouveau&r. His main sales are &eTablets&r for the &eRitual Brazier&r and &eFamiliar Tokens&r. His Job Block is the &eArcane Core&r."]
+			icon: "artifacts:villager_hat"
+			id: "0ED06E13C4315ED4"
+			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4942D239F9ECA5AC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "096280563DF32009"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Not so shady after all"
+			tasks: [{
+				id: "0BF372AB99944BBC"
+				title: "Villager Job"
+				type: "checkmark"
+			}]
+			title: "The Shady Wizard"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: [
+				"&5Ars Nouveau&r has a very extensive list of features and items, ranging from simple to complex. Having a &eWorn Notebook&r will allow you to learn about every item possible in the base mod, including the addons such as &5Ars Elemental&r and &5Ars Ocultas&r, which is the bridge between &5Ars Nouveau&r and &5Occultism&r!"
+				""
+				"&6Tip:&r The &eWorn Notebook&r can also be accessed on the left side of your &eSpell Book&r UI."
+			]
+			icon_scale: 0.8d
+			id: "2B0658FFB8B4D18C"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "2D95D039F70E8B67"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Is everything here about books?"
+			tasks: [{
+				id: "5C1EAE2A29D3E84D"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			title: "Your Wizard's Handbook"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&5Ars Elemental&r introduces the Siren into the family of Familiars! The Siren Token can be obtained by giving a wild Siren a Sea Pickle, while right clicking &ePrismarine&r with the &eSiren Charm&r will convert it into a &eShrine&r. "
+				""
+				"Similar to the Drygmy and Whirlisprig, it can generate items if placed in an aquatic environment filled with a variety of plant life and animals! It also requires Source and a nearby &eChest&r. "
+			]
+			id: "7C99C8BB1A484622"
+			rewards: [
+				{
+					id: "3580172EA8D36D71"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0BC61CD00B4A4067"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Little Mermaid?"
+			tasks: [{
+				id: "5AD1E1D8B973FBB7"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			title: "The Siren"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&5Ars Elemental&r introduces the Flarecannon into the family of Familiars! This Familiar will act as a sort of turret and shoot Flare projectiles at nearby enemies. The Flarecannon can be reactivated by giving it &eBlaze Powder&r or &eMagma Cream&r if defeated."
+				""
+				"&6Tip:&r It has the nickname, \"Firenando\"."
+			]
+			id: "12DD07F231404534"
+			rewards: [
+				{
+					id: "07511094C2157A29"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "73A5AED53E894173"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "It Burns!"
+			tasks: [{
+				id: "68D20AD00094575D"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			title: "The Flarecannon"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"Familiars in &5Ars Nouveau&r and &5Ars Elemental&r have uses outside of their corresponding work stations. The Bookwyrm for example will collect items and XP Orbs for you, while the Wixie can boost the duration of &ePotions&r! "
+				""
+				"Each Familiar has a unique role to play, whether it be combat or exploration. Use your &eWorn Notebook&r to learn more about what they can do for you! They can also be accessed in your &eSpell Book&r at any time!"
+			]
+			icon: "ars_nouveau:ritual_binding"
+			id: "6246436589B4A371"
+			optional: true
+			rewards: [
+				{
+					id: "48DB36C209F11C8E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "200863EC7F642CFD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "They're so useful!"
+			tasks: [{
+				id: "58F24FD0F14DF599"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			title: "Helpful Familiars"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: ["The &eAmethyst Golem Charm&r can be obtained by using a &eRitual of Awakening&r near &eBudding Amethyst&r. It can grow and harvest &eAmethyst&r that is near its home."]
+			id: "10260F1595649978"
+			rewards: [
+				{
+					id: "24CBA2149ADD304B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6407AACD52FA5557"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "It loves Amethyst!"
+			tasks: [{
+				id: "3BCB967131126A45"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			title: "The Amethyst Golem"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0680B29423DD2DD4"]
+			description: [
+				"&5Ars Elemental&r adds four different armor sets and they are the pinnacle of Elemental Mastery. "
+				""
+				"Each armor has its own special full set bonus that corresponds with the four elements: Water, Earth, Fire, and Air. "
+				""
+				"For example, the &eAethermancer&r armor allows you to take reduced fall damage, while the &eGeomancer&r armor satiates you while you're underground. "
+			]
+			icon: {
+				Count: 1
+				id: "ars_elemental:fire_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3812FAFD073C4D4D"
+			rewards: [
+				{
+					id: "6C7619A58688E6B1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "194209231C265876"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "NOW You are a true Mage!"
+			tasks: [
+				{
+					id: "4668462F66FFF7A6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:fire_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Elemental Hats"
+					type: "item"
+				}
+				{
+					id: "71EB3E88EDE7D20A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:fire_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Elemental Robes"
+					type: "item"
+				}
+				{
+					id: "47A03AB5F46C03D7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:fire_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Elemental Leggings"
+					type: "item"
+				}
+				{
+					id: "0729C804EB5F4F5F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:fire_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Elemental Boots"
+					type: "item"
+				}
+			]
+			title: "Proper Archmage Armor"
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&5Ars Nouveau&r has three basic armor sets that are upgraded from Vanilla's armor sets: &eGold Armor&r to Sorceror, &eIron Armor&r to Arcanist, and &eDiamond Armor&r to Battlemage. "
+				""
+				"These armor sets give you a boost to Maximum Mana and Mana Regen and allows armor to repair itself with Mana."
+				""
+				"&eMagebloom fibers&r are important for allowing this upgrade to happen with the &eEnchanting Apparatus&r and can be obtained by making a &eMagebloom Seed&r and growing it to harvest &eMagebloom&r."
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:arcanist_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17C612A8124DF128"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4E240BFEBB2F1860"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Looking the part"
+			tasks: [
+				{
+					id: "6125BA0D08C2CF01"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_hood"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_hood"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_hood"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE76507A940984F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CCBFAB458E3558E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02C3D07D23ADA9F5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1AE06E3FCE761CC0"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			title: "Proper Mage Clothes"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DD2BA94561922D4"]
+			description: [
+				"Placing the tool on a &eScribe's Table&r and Shift + Right Clicking with a Spell from your &eSpell Book&r with no Form Glyph will inscribe the current spell onto the &eEnchanter's Tool&r."
+				""
+				"Each one comes with a pre-determined Form Glyph depending on which tool you use. There's too much information to explain here so I'd recommend checking the &eWorn Notebook&r to learn more about these awesome items!"
+			]
+			id: "2A7A23DB0184D16F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "15159EC741F3209D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Better than Spell Books!"
+			tasks: [{
+				id: "779F9970773FB4EC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:wand"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_crossbow"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_eye"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_bow"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_mirror"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arsdelight:enchanters_knife"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:spell_horn"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Enchanter's Tools"
+				type: "item"
+			}]
+			title: "Enchanter's Tools"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["704C7C142ECED1D5"]
+			description: [
+				"&5Ars Nouveau&r adds multiple Essences, with &5Ars Elemental&r introducing the &eAnima Essence&r to the mix. These are important and require quite a bit of Source to be created efficiently. "
+				""
+				"Essences are needed for crafting most &eGlyphs&r at a &eScribe's Table&r, as well as creating the &eMark of Mastery&r in the &eImbuement Chamber&r."
+			]
+			id: "094B89CE1A5DCC7E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "66F4D2ACDD33E62A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Magic Crystals!"
+			tasks: [{
+				id: "5AE8100C2D356BAC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:anima_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:abjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:conjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:air_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:earth_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:fire_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:manipulation_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:water_essence"
+							}
+						]
+					}
+				}
+				title: "Essences"
+				type: "item"
+			}]
+			title: "Basic Essences"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&5Ars Additions&r introduces the &eSource Spawner&r, which allows you to make a small Mob farm if you give it a nearby Source Jar, as well as a &eContainment Jar&r that has an Entity inside of it."
+				""
+				"The amount of Source that's required varies between mobs, so it's best to have quite a bit of Source ready just in case. But don't worry, it won't work on bosses!"
+			]
+			id: "137F9CA72E040B1D"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "641327C855C9F5A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Mob Farms?"
+			tasks: [{
+				id: "59CE2E49B966C42C"
+				item: "ars_additions:source_spawner"
+				type: "item"
+			}]
+			title: "Magical Spawners"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["704C7C142ECED1D5"]
+			description: [
+				"&5Ars Nouveau&r introduces &eWarp Scrolls&r, which allow you to set a location to teleport to at a later time using Shift + Right Click. "
+				"You can also place a Nether Portal frame made with any &eSourcestone&r blocks and throw the set &eWarp Scroll&r into the frame to create a permanent portal to that exact location, given it has Source nearby to keep the portal activated each time it's used."
+				""
+				"&6Tip:&r &eStabilized Warp Scrolls&r skip the manual portal frame placement."
+			]
+			id: "00307A4424B56EC2"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7C771586E5DB8A4B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Teleporting?"
+			tasks: [{
+				id: "14CC8688648E4261"
+				item: {
+					Count: 1
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Warp Scrolls"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"Both &5Ars Nouveau&r and &5Ars Elemental&r add a plethora of magical equipment for you to create and use. The most basic items are the &eRing of Discount&r, &eAmulet of Mana Boost&r and &eAmulet of Mana Regen&r. "
+				""
+				"If you find yourself carrying or needing a lot of these items, feel free to craft the &eTrinkets Pouch&r for easier access using the \"J\" Keybind!"
+				""
+				"Check your &eWorn Notebook&r or the documentation in your &eSpellbook&r to view them all!"
+			]
+			icon: "ars_elemental:curio_bag"
+			id: "2DD13087B7BD983C"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "36007E94ED86B019"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "MORE Gear To Use?"
+			tasks: [
+				{
+					id: "676486EC637E5E6D"
+					item: "ars_nouveau:ring_of_greater_discount"
+					type: "item"
+				}
+				{
+					id: "14C6A65035B7FF30"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:amulet_of_mana_boost"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:amulet_of_mana_regen"
+								}
+							]
+						}
+					}
+					title: "Amulet of Mana Boost or Regen"
+					type: "item"
+				}
+				{
+					id: "65299A52EC571F77"
+					item: "ars_elemental:curio_bag"
+					type: "item"
+				}
+			]
+			title: "Magic Equipment"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: [
+				"Combining any &eSpell Book&r with a dye allows you to change the color of it, as well as your armor with the exception of &5Ars Elemental&r armor. Try making it red as a test and then find your own favorite color!"
+				""
+				"In addition to changing the color of your &eSpell Book&r, you can also change the color of spell projectiles on the left side of your &eSpell Book&r UI!"
+				""
+				"&6Tip: &rMost customization is found on the left side of your Spell Book UI, such as projectile sounds and summoning Familiars. A built-in &eWorn Notebook&r is also provided as well."
+			]
+			id: "5E0498ECFD150E14"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3B2897AB43E6F12C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "I can change the color?"
+			tasks: [{
+				id: "24BA393589087690"
+				item: {
+					Count: 1
+					id: "ars_nouveau:novice_spell_book"
+					tag: {
+						color: 14
+					}
+				}
+				type: "item"
+			}]
+			title: "Rainbow Spellbook"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"The &eDominion Wand&r allows you to link Familiars to their corresponding work stations or other necessary blocks, as well as linking &eSourcelinks&r with &eSource Relays&r. "
+				""
+				"The most common method to linking is a simple Right Click but you may have to Shift + Right Click when dealing with chests or other storages. Another Shift + Right Click clears the links from the targeted block."
+			]
+			icon: {
+				Count: 1
+				id: "ars_additions:advanced_dominion_wand"
+				tag: { }
+			}
+			id: "61E3C158682EB634"
+			optional: true
+			subtitle: "Dominion Wand 101"
+			tasks: [{
+				id: "30B12A62366FBD5A"
+				title: "How does this work...?"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			description: ["&5Ars Ocultas&r bridges the gap between &5Occultism&r and &5Ars Nouveau&r by allowing the Djinns from &5Occultism&r in &eContainment Jars&r to continue their work!"]
+			icon: "occultism:book_of_binding_djinni"
+			id: "25A5E3F55E54749E"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4AAB85FA873E8D91"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Otherworldly Rituals"
+			tasks: [{
+				id: "6B4CEA9CF82F9C97"
+				title: "Ars Ocultas"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "1A39D87C0BC3F4AE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4EB6BBB537C96448"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			subtitle: "AutoMAGIC Spellcasting"
+			tasks: [{
+				id: "4D943DC323B39C03"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			title: "Spell Turrets!"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: ["&eEnchanted Spell Turrets&r cost imbued spells at half the cost of the regular amount of Source required."]
+			id: "2A9EBE3F6DE9FC1B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "06AA70CAE11D4D96"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Cheaper Turrets"
+			tasks: [{
+				id: "56843191369E345A"
+				item: "ars_nouveau:spell_turret"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: [
+				"&eTimer Spell Turrets&r cast the imbued spell on a short interval in seconds. Right Clicking will increase the time, while Left Clicking will decrease the time. Setting it to 0 or giving it a redstone signal will disable the timer."
+				""
+				"You can lock this turret with a &eDominion Wand&r to lock it in order to prevent the timer from being changed!"
+				""
+				"It will also cast spells that have Projectile, Touch, and Redstone for free!"
+			]
+			id: "3085034A220B1B37"
+			subtitle: "Timed Turrets"
+			tasks: [{
+				id: "233233A97698E1EF"
+				item: "ars_nouveau:timer_spell_turret"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: ["The &eAdjustable Spell Turret&r is a small upgrade from the Basic Spell Turret&e. You can change the direction it's facing with a &eDominion Wand&r by Right Clicking the desired block."]
+			id: "31A433CABF46DDAA"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1EDB390893829CB3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Slightly Better Turret"
+			tasks: [{
+				id: "4CBFF12E0A4B763C"
+				item: "ars_nouveau:rotating_spell_turret"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: [
+				"These &eElemental Infused Turrets&r are a lot stronger than the other Turrets! "
+				""
+				"They can cast spells at a 65% discount, as well as performing spell combos that would be used in combination with the variety of &eElemental Focuses&r that &5Ars Elemental&r provides for you to use yourself!"
+			]
+			id: "4D9B3259CB30B9F2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1D277CCE7B7953CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "More turret upgrades?"
+			tasks: [{
+				id: "1D13DC8E5C666221"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:earth_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:water_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:fire_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:air_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:manipulation_turret"
+							}
+						]
+					}
+				}
+				title: "Elemental Turrets"
+				type: "item"
+			}]
+			title: "Specialized Turrets"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&5Ars Delight&r adds quite a lot of food items for you to increase your overall Spell Power and Mana Regeneration! "
+				""
+				"Some allow you to regenerate Mana as you heal like the &eMendosteen Tea&r while foods that give the Wilden effect increase your Spell Power plus more Mana and Mana Regen!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "arsdelight:enchanters_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1029FDFB1056B5CE"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4909E5973995E5A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Better Magical Food!"
+			tasks: [{
+				id: "74925BE79DC4D0B3"
+				title: "Ars Delight!"
+				type: "checkmark"
+			}]
+			title: "Ars Delight"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				" The &eRitual of Awakening&r is used for a few things such as creating Guards for your base out of Archwood trees, and creating &eBookwyrm Charms&r and Amethyst Golems!"
+				""
+				""
+				"{ \"text\": \"Bookwyrm Charm\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5317ADE87D16A500\" } }"
+				""
+				"{ \"text\": \"Amethyst Golem\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10260F1595649978\" } }"
+			]
+			id: "5D0B7D274DD636C9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7F61E198BC6515AE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "The start of Familiars"
+			tasks: [{
+				id: "4779F358E1960E97"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58594005824B1BBE"]
+			description: [
+				"&5Ars Nouveau&r rituals enable you to do quite a few things as mentioned in the previous quest, but there's a lot more to it than that.... "
+				""
+				"In the following quests, I'll be explaining a variety of the most common rituals and the best way to use them!"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "ars_nouveau:ritual_brazier"
+			id: "3EC7BF21C76FF1C2"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "41875D0B6C1831CB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			subtitle: "Is this Occultism?"
+			tasks: [{
+				id: "6391FEE6B9BEBA87"
+				title: "Basic Rituals"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Containment&r allows you to place entities inside of a &eContainment Jar&r. "
+				""
+				"But be careful because any entity will be placed inside of the &eContainment Jar&r, and I mean ANY entity, even arrows that have been shot from bows or random items on the ground!"
+				""
+				"&6Tip:&r Having a 'Touch - Dispel' spell on hand will remove whatever is in the &eContainment Jar&r, so don't worry if you capture the wrong thing! Just don't put your &eSpell Book&r in it accidentally....."
+			]
+			id: "3FE00B019479D14E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5047BD2B443C0FBA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Pokemon with extra steps!"
+			tasks: [{
+				id: "774BBCEB930E4B88"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Locate Structure&r allows you to find a select few Vanilla structures such as an End City or a Bastion. "
+				""
+				"It can also be used to search for the illusive Arcane Library for all your &5Ars Nouveau&r needs!"
+			]
+			id: "736892A6C5BF10B1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "30578C83F840399A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Scrying But For Structures!"
+			tasks: [{
+				id: "62A9FDDDCD18C749"
+				item: "ars_additions:ritual_locate_structure"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Summon Wilden&r allows you to summon a random amount of the different Wilden Beasts: the Stalker, the Guardian, and Hunter."
+				""
+				"There's no method to influence to spawn one specific Wilden Beast but if you throw a &eWilden Spike&r, &eWilden Horn&r, and &eWilden Wing&r onto the Ritual Brazier after inserting this Tablet, you best be prepared for a fight!"
+			]
+			id: "158B5CD496403019"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4E2068D67494A01F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Wilden Beasts?"
+			tasks: [{
+				id: "472AA02B77854E67"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Flight&r is one of the most useful Rituals as it allows permanent Creative flight around your base within a certain radius of your base! "
+				""
+				"The Effect it gives lasts a minute but as long as you're in that radius of about a 3x3 chunk area, it will always reset! Just make sure the &eRitual Brazier&r has a constant income of Source!"
+			]
+			id: "799D1207E689F5D0"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0105F235848A5D28"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "I can fly!"
+			tasks: [{
+				id: "29AC407B17A38508"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"The &eTablet of Scrying&r allows you to find just about anything and everything, but the most usage comes from finding those hard to find ores such as &eEnderium Shard Ore&r from the End, or &eAncient Debris&r!"
+				""
+				"You MUST have the Ore itself in order to Scry for it, meaning you must have already used Silk Touch on an Ore to use it in the &eRitual Brazier&r. "
+				""
+				"The effect lasts no time at all, but if you add a &eManipulation Essence&r with the Ore, the Effect duration is increased to 15 minutes!"
+			]
+			id: "192CD8BC280620AB"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "286D6E2D428AB49A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Basically X-Ray!"
+			tasks: [{
+				id: "6818FBEF403F5205"
+				item: "ars_nouveau:ritual_scrying"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+	]
+	title: "{chapter.34.title}"
+}
