@@ -23,7 +23,7 @@
 	#Settings here require a game restart
 	[common-server.world]
 		#Whether to inject the vampire forest into the default overworld generation and to replace some Taiga areas
-		addVampireForestToOverworld = false
+		addVampireForestToOverworld = true
 		#Only considered if terrablender installed. Heigher values increase Vampirism region weight (likelyhood to appear)
 		#Range: 1 ~ 1000
 		vampireForestWeight_terrablender = 1
