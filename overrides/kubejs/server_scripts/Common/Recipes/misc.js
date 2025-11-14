@@ -1,5 +1,13 @@
 ServerEvents.recipes(event => {
 
+    //Re-add Pumpkin Pie vanilla recipe (duck mod pls)
+    event.shapeless(Item.of('minecraft:pumpkin_pie', 1), [
+        'minecraft:pumpkin',
+        'minecraft:sugar',
+        'minecraft:egg'
+    ]).id("mce2:crafting/pumpkin_pie")
+
+
     //Eternal Engine
     event.shaped(Item.of('kubejs:eternal_engine', 1), [
         'CEC',
