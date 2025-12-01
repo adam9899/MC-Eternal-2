@@ -260,13 +260,25 @@
 		{
 			description: ["{mce.questing.botania.lexica_botania.desc}"]
 			id: "6D4AF11629E04986"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "77CB4CB067A362F6"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "77CB4CB067A362F6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					auto: "enabled"
+					command: "/advancement grant @p only botania:main/flower_pickup_lexicon"
+					console: true
+					icon: "botania:lexicon"
+					id: "5A3F2D1B8C4E9F7A"
+					silent: true
+					title: "Initialize Lexica Botania"
+					type: "command"
+				}
+			]
 			subtitle: "{mce.questing.botania.lexica_botania.sub}"
 			tasks: [{
 				id: "2C1EBB89070F54F9"
