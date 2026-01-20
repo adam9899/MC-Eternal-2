@@ -20,7 +20,7 @@
     "dropgear": 6
   },
   "gear": {
-   "mainhand": "{id: \"iceandfire:ghost_sword\", Count: 1b, tag: {display:{Name:'{\"text\":\"Guybrush\"}',Lore:['{\"text\":\"This spectral blade belongs to the most feared captain to every sail the seas, Dread Captain LeChuck!\"}']},Enchantments:[{lvl: 2s, id: \"minecraft:knockback\"}]}}",
+   "mainhand": "{id: \"iceandfire:ghost_sword\", Count: 1b, tag: {display:{Name:'{\"text\":\"Guybrush\"}',Lore:['{\"text\":\"This spectral blade belongs to the most feared captain to ever sail the seas, Dread Captain LeChuck!\"}']},Enchantments:[{lvl: 2s, id: \"minecraft:knockback\"}]}}",
 	"helmet": "{id: \"minecolonies:pirate_hat\", Count: 1b, tag: {display:{Name:'{\"text\":\"Dread Captain Hat\"}',Lore:['{\"text\":\"Smells like monkey?\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:protection\"}]}}",
 	"leggings": "{id: \"minecolonies:pirate_legs\", Count: 1b, tag: {Damage: 20}}",
 	"boots": "{id: \"minecolonies:pirate_boots\", Count: 1b, tag: {Damage: 20}}",
@@ -134,7 +134,6 @@
     "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
     "legendary_monsters:chests/cloudy_temple_loot_table": 20,
     "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
-    "dungeons_enhanced:chests/monster_maze/treasure": 1,
-    "dungeons_plus:chests/vanilla_dungeon": 1
+    "dungeons_enhanced:chests/monster_maze/treasure": 1
   }
 }

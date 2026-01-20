@@ -24,7 +24,7 @@
 	#Example entry: "glyph_burst"
 	invalid_combos = []
 	#If true, will not launch the caster if they are not on the ground.
-	force_ground = false
+	force_ground = true
 	#Base knockup amount
 	#Range: 0.0 ~ 1.7976931348623157E308
 	knock_up = 1.5

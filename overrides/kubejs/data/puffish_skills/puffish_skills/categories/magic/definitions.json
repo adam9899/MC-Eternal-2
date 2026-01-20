@@ -112,7 +112,7 @@
 		}
 	},
 	"manaregen2": {
-		"title": "+2% Mana Regen",
+		"title": "+1% Mana Regen",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -124,7 +124,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:mana_regen",
-					"value": 0.02,
+					"value": 0.01,
 					"operation": "multiply_total"
 				}
 			}
@@ -134,7 +134,7 @@
 		}
 	},
 	"cooldown2": {
-		"title": "+2% Cooldown Reduction",
+		"title": "+1% Cooldown Reduction",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -146,7 +146,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 0.02,
+					"value": 0.01,
 					"operation": "multiply_total"
 				}
 			}
@@ -178,7 +178,7 @@
 		}
 	},
 	"casttime2": {
-		"title": "+2% Cast Time Reduction",
+		"title": "+1% Cast Time Reduction",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -190,7 +190,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:cast_time_reduction",
-					"value": 0.02,
+					"value": 0.01,
 					"operation": "multiply_total"
 				}
 			}
@@ -222,7 +222,7 @@
 		}
 	},
 	"spellpower3": {
-		"title": "§dBlessing of the Archmage:§r +10% Spell Power",
+		"title": "§dBlessing of the Archmage:§r +8% Spell Power",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -240,7 +240,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.10,
+					"value": 0.08,
 					"operation": "multiply_total"
 				}
 			}
@@ -373,7 +373,7 @@
 		"metadata": { "icon": "blood_icon_5" }
 	},
 	"blood_power10": {
-		"title": "Sanguinist: +30% Blood Spell Power",
+		"title": "Sanguinist: +12% Blood Spell Power",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -391,7 +391,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:blood_spell_power",
-					"value": 0.3,
+					"value": 0.12,
 					"operation": "multiply_base"
 				}
 			}
@@ -414,7 +414,7 @@
 		"metadata": { "icon": "nature_icon_5" }
 	},
 	"nature_power10": {
-		"title": "Druid: +30% Nature Spell Power",
+		"title": "Druid: +12% Nature Spell Power",
 		"icon": { "type": "item", "data": { "item": "irons_spellbooks:nature_rune" } },
 		"frame": {
 			"type": "advancement",
@@ -427,7 +427,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:nature_spell_power",
-					"value": 0.3,
+					"value": 0.12,
 					"operation": "multiply_base"
 				}
 			}
@@ -450,7 +450,7 @@
 		"metadata": { "icon": "lightning_icon_5" }
 	},
 	"lightning_power10": {
-		"title": "Electromancer: +30% Lightning Spell Power",
+		"title": "Electromancer: +12% Lightning Spell Power",
 		"icon": { "type": "item", "data": { "item": "irons_spellbooks:lightning_rune" } },
 		"frame": {
 			"type": "advancement",
@@ -463,7 +463,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 0.3,
+					"value": 0.12,
 					"operation": "multiply_base"
 				}
 			}
@@ -486,7 +486,7 @@
 		"metadata": { "icon": "ice_icon_5" }
 	},
 	"ice_power10": {
-		"title": "Cryomancer: +30% Ice Spell Power",
+		"title": "Cryomancer: +12% Ice Spell Power",
 		"icon": { "type": "item", "data": { "item": "irons_spellbooks:ice_rune" } },
 		"frame": {
 			"type": "advancement",
@@ -499,7 +499,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 0.3,
+					"value": 0.12,
 					"operation": "multiply_base"
 				}
 			}
@@ -522,7 +522,7 @@
 		"metadata": { "icon": "holy_icon_5" }
 	},
 	"holy_power10": {
-		"title": "Priest: +30% Holy Spell Power",
+		"title": "Priest: +12% Holy Spell Power",
 		"icon": { "type": "item", "data": { "item": "irons_spellbooks:holy_rune" } },
 		"frame": {
 			"type": "advancement",
@@ -535,7 +535,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 0.3,
+					"value": 0.12,
 					"operation": "multiply_base"
 				}
 			}
@@ -558,7 +558,7 @@
 		"metadata": { "icon": "fire_icon_5" }
 	},
 	"fire_power10": {
-		"title": "Pyromancer: +30% Fire Spell Power",
+		"title": "Pyromancer: +12% Fire Spell Power",
 		"icon": { "type": "item", "data": { "item": "irons_spellbooks:fire_rune" } },
 		"frame": {
 			"type": "advancement",
@@ -571,7 +571,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 0.3,
+					"value": 0.12,
 					"operation": "multiply_base"
 				}
 			}
@@ -594,7 +594,7 @@
 		"metadata": { "icon": "evocation_icon_5" }
 	},
 	"evocation_power10": {
-		"title": "Sorcerer: +30% Evocation Spell Power",
+		"title": "Sorcerer: +12% Evocation Spell Power",
 		"icon": { "type": "item", "data": { "item": "irons_spellbooks:evocation_rune" } },
 		"frame": {
 			"type": "advancement",
@@ -607,7 +607,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 0.3,
+					"value": 0.12,
 					"operation": "multiply_base"
 				}
 			}
@@ -636,7 +636,7 @@
 		"metadata": { "icon": "ender_icon_5" }
 	},
 	"ender_power10": {
-		"title": "Ender Mage: +30% Ender Spell Power",
+		"title": "Ender Mage: +12% Ender Spell Power",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -654,7 +654,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 0.3,
+					"value": 0.12,
 					"operation": "multiply_base"
 				}
 			}
@@ -682,7 +682,7 @@
 		"metadata": { "icon": "eldritch_icon_5" }
 	},
 	"eldritch_power10": {
-		"title": "Electromancer: +30% Lightning Spell Power",
+		"title": "Electromancer: +12% Lightning Spell Power",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -700,7 +700,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 0.3,
+					"value": 0.12,
 					"operation": "multiply_base"
 				}
 			}

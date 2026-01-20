@@ -72,7 +72,7 @@
     "tooltip.mce2.rats.reactor.tnt": "Emits dangerous energy...Do Not Break!",
     "tooltip.mce2.botania.laputa_shard": "§4Warning:§7 Use at your own risk! Using near base is not advised!",
     "tooltip.mce2.kubejs.artifact_ghoul_heart": "§7§oStill beating in your hands..",
-    "tooltip.mce2.cgs.revolver.1": "§7§oCan be duel wielded!",
+    "tooltip.mce2.cgs.revolver.1": "§7§oCan be dual wielded!",
     "tooltip.mce2.cgs.revolver.2": "§7Press Z to tinker.",
     "tooltip.mce2.minecraft.lightning_rod": "§eWill teleport jolts to nearby Lightning Rod!",
     "tooltip.mce2.kubejs.portable_wormhole_generator_inert.1": "§8Currently a useless piece of junk!",
@@ -596,7 +596,7 @@
     "tips.mce2.curio": "Every Curio usually has either a unique ability or bonus stats for the wielder, except for cosmetic ones!",
     "tips.mce2.curioscustom": "There are over 100+ custom curios to collect! can you find them all?",
     "tips.mce2.custom": "MC Eternal 2 has lots of custom content, you are unlikely to experience all of it in one playthrough!",
-    "tips.mce2.dagger": "The humble Dagger on its own is a modest weapon. Duel Wielding them however is a different story!",
+    "tips.mce2.dagger": "The humble Dagger on its own is a modest weapon. Dual Wielding them however is a different story!",
     "tips.mce2.daily": "Daily Quests can be completed every day! You can find the Daily Quests you've unlocked in your Quest  Book.",
     "tips.mce2.daily_rewards": "Every day you log in you can claim a Daily Reward! use /DailyRewards Claim to check your progress!",
     "tips.mce2.dangerous_creatures": "Dangerous monsters wearing armor and wielding weapons begin spawning in The Overworld after visiting The Nether!",
@@ -720,4 +720,5 @@
     "tips.mce2.witherboss": "In its first phase, The Wither cares not for you. You are nothing more than a small ant compared to its greatness.. It will wreak havoc on the land.. You will need to damage it to get its attention! BE WARNED: The Wither takes no prisoners...",
     "tips.mce2.wormhole": "Recall Potions will teleport you back home! You can find them in chests, or if you have access to The Nether you can craft them!",
     "tips.mce2.ziggurat": "The Ziggurat lives on!"
+
 }

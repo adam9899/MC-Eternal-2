@@ -1,111 +1,11 @@
 {
-	"entity.gateways.gateway" : "Gateway to Eternity",
-	"item.gateways.gate_pearl": "Gate Pearl",
-	"gateways.gate_pearl": "Gate Pearl - %s",
-	"itemGroup.gateways": "Gateways to Eternity",
-
-	"info.gateways.gate_pearl": "A Gate Pearl allows you to summon a Gateway by using it on a block.\n\nIt can only be used when the new Gateway would not be too close to another Gateway, based on the current spacing.\n",
-	"info.gateways.gate_pearl.2": "An open Gateway will fail in a burst of lightning if it cannot spawn a mob, any active mob walks too far away, or the wave timer elapses.\n\nRewards will spawn from the Gateway as they are obtained.",
-
-	"tooltip.gateways.with_count": "%s %s",
-	"tooltip.gateways.dot_with_count": "• %s %s",
-	"tooltip.gateways.dot": "• %s",
-
-	"tooltip.gateways.scroll": "[scroll]",
-	"tooltip.gateways.shift": "[shift]",
-    "tooltip.gateways.ctrl": "[ctrl]",
-    "tooltip.gateways.alt": "[alt]",
-    "tooltip.gateways.true": "Enabled",
-    "tooltip.gateways.false": "Disabled",
-
-	"tooltip.gateways.num_wave": "%s Wave",
-	"tooltip.gateways.num_waves": "%s Waves",
-	"tooltip.gateways.wave": "Wave %s/%s",
-	"tooltip.gateways.entities": "Entities: ",
-	"tooltip.gateways.modifiers": "Modifiers: ",
-	"tooltip.gateways.rewards": "Rewards: ",
-
-	"tooltip.gateways.num_failures": "%s Penalties",
-	"tooltip.gateways.num_failure": "%s Penalty",
-	"tooltip.gateways.failures": "Failure Penalties",
-
-	"tooltip.gateways.num_rule": "%s Rule Change",
-	"tooltip.gateways.num_rules": "%s Rule Changes",
-	"tooltip.gateways.rules": "Rule Changes",
-
-	"tooltip.gateways.key_rewards": "Key Rewards",
-
-    "tooltip.gateways.endless.base_wave": "Base Wave",
-	"tooltip.gateways.endless.num_modif": "%s Endless Modifier",
-	"tooltip.gateways.endless.num_modifs": "%s Endless Modifiers",
-    "tooltip.gateways.endless.modifier": "Endless Modifier %s/%s",
-    "tooltip.gateways.endless.wave_time": "%s Max Wave Time",
-    "tooltip.gateways.endless.setup_time": "%s Setup Time",
-
-	"boss.gateways.wave": "Wave: %d/%d | Time: %s | Enemies: %d",
-	"boss.gateways.done": "Gate Completed!",
-	"boss.gateways.starting": "Wave %d starting in %s",
-	"boss.gateways.endless.top": "Wave: %d/%d | Time Remaining: %d",
-    "boss.gateways.endless.bot": "Enemies: %d/%d | Modifiers Active: %d",
-	"boss.gateways.endless.incoming": "Enemies Incoming: %d",
-
-	"reward.gateways.stack": "%s %s",
-	"reward.gateways.entity": "%s %s Loot Rolls",
-	"reward.gateways.loot_table": "%s %s Rolls",
-	"reward.gateways.chance": "%s Chance of %s",
-	"reward.gateways.experience": "%s Experience",
-	"reward.gateways.summon": "Summons %s",
-
-	"failure.gateways.explosion": "Explosion of Radius %s",
-	"failure.gateways.mob_effect": "%s",
-	"failure.gateways.summon": "Summons %s",
-	"failure.gateways.chance": "%s Chance of %s",
-
-	"rule.gateways.default": "[was %s]",
-	"rule.gateways.spawn_range": "Spawn Range: %s",
-	"rule.gateways.leash_range": "Leash Range: %s",
-	"rule.gateways.allow_discarding": "Allow Discarding: %s",
-	"rule.gateways.allow_dim_change": "Allow Changing Dimensions: %s",
-	"rule.gateways.player_damage_only": "Player Damage Only: %s",
-	"rule.gateways.remove_mobs_on_failure": "Remove Mobs on Failure: %s",
-	"rule.gateways.fail_on_out_of_bounds": "Fail on Out of Bounds: %s",
-	"rule.gateways.spacing": "Spacing: %s",
-
-	"error.gateways.no_space": "There's not enough space to open this Gateway",
-	"error.gateways.wave_failed": "The Gateway imploded because there was not enough space to spawn the next wave",
-	"error.gateways.too_far": "The Gateway imploded because a wave entity ran too far away",
-	"error.gateways.wave_elapsed": "Wave Timer Expired",
-	"error.gateways.entity_discarded": "The Gateway imploded because an entity was removed without being killed",
-
-    "appmode.gateways.after_wave": "Applied on wave %s.",
-    "appmode.gateways.after_every_n_waves": "Applies every %s waves. Max %s applications.",
-    "appmode.gateways.only_on_wave": "Applied only on wave %s.",
-    "appmode.gateways.only_on_every_n_waves": "Applied only on every %s waves.",
-
-	"stat.gateways.gates_defeated": "Gateways Defeated",
-
-    "modifier.gateways.gear_set": "Equipped With %s",
-
 	"gateways.basic/blaze": "Blaze Gateway [Expert Mode Only]",
 	"gateways.basic/slime": "Slime Gateway [Expert Mode Only]",
 	"gateways.basic/enderman": "Enderman Gateway [Expert Mode Only]",
     
-	"gateways.emerald_grove": "Gateway of the Emerald Grove",
 	"gateways.overworldian_nights": "Gateway of Overworldian Nights [Expert Mode Only]",
 	"gateways.hellish_fortress": "Gateway of the Hellish Fortress [Expert Mode Only]",
 	"gateways.wizard_gaunlet": "Gateway of the Wizard Gaunlet",
 
-    "gateways.endless/blaze": "Endless Blaze Gateway [Expert Mode Only]",
-
-    "rewards.gateways.loot_table.simple_dungeon": "Dungeon Loot",
-    "rewards.gateways.loot_table.nether_bridge": "Nether Fortress Loot",
-
-    "name.gateways.necrotic_farmer": "Necrotic Farmer",
-    "name.gateways.undead_legionnaire": "Undead Legionnaire",
-    "name.gateways.withered_ranger": "Withered Ranger",
-    "name.gateways.butcher": "Butcher",
-    "name.gateways.huge_slime": "Huge Slime",
-    "name.gateways.magicbane_slime": "Magicbane Slime",
-    "name.gateways.acidic_slime": "Acidic Slime",
-    "name.gateways.flaming_enderman": "Flaming Enderman"
-} 
+    "gateways.endless/blaze": "Endless Blaze Gateway [Expert Mode Only]"
+}
