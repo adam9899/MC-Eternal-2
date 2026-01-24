@@ -15,7 +15,7 @@
   },
   "customattributes": {},
   "gear": {
-      "mainhand": "{id: \"cgs:shotgun\", Count: 1b, tag: {display:{Name:'{\"text\":\"Sunken Revolver\"}',Lore:['{\"text\":\"This gun was found in the belly of Bubbles, the foul beast must have eaten its original owner whole!\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:unbreaking\"}]}}"
+      "mainhand": "{id: \"cgs:shotgun\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.bubbles.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.bubbles.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:unbreaking\"}]}}"
   },
   "ai-goals": {
       "brutalbosses:itemshootgoal": {

@@ -21,7 +21,7 @@
   },
   "gear": {
 	
-	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.bunny.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.bunny.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
   },
   "ai-goals": {
     "minecraft:target": {},
