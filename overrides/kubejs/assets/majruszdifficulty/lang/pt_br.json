@@ -1,0 +1,27 @@
+{
+    "item.majruszsdifficulty.enderium_shard": "Fragmento de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_ingot": "Lingote de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_sword": "Espada de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_shovel": "Pá de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_pickaxe": "Picareta de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_axe": "Machado de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_hoe": "Enxada de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_hoe.effect": " Aumenta a Área de Aragem",
+    "item.majruszsdifficulty.enderium_helmet": "Capacete de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_chestplate": "Peitoral de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_leggings": "Calças de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_boots": "Botas de Ender Cristalizado",
+    "item.majruszsdifficulty.enderium_shard_locator": "Localizador de Fragmento de Ender Cristalizado",
+
+    "block.majruszsdifficulty.enderium_block": "Bloco de Ender Cristalizado",
+    "block.majruszsdifficulty.enderium_shard_ore": "Minério de Fragmento de Ender Cristalizado",
+
+    "majruszsdifficulty.smithing.enderium.upgrade": "Aprimoramento de Ender Cristalizado",
+    "majruszsdifficulty.smithing.enderium.ingredients": "Lingote de Ender Cristalizado",
+    "majruszsdifficulty.smithing.enderium.additions_slot": "Adicione Lingote de Ender Cristalizado",
+
+    "advancements.progressive_difficulty.enderium_shard.title": "Fragmentos Estranhos",
+    "advancements.progressive_difficulty.enderium_shard.description": "Adquira um Fragmento de Ender Cristalizado",
+    "advancements.progressive_difficulty.enderium_ingot.title": "Lingote Misterioso",
+    "advancements.progressive_difficulty.enderium_ingot.description": "Adquira um Lingote de Ender Cristalizado"
+}

@@ -12,16 +12,11 @@
     "item.majruszsdifficulty.enderium_leggings": "Crystallized Ender Leggings",
     "item.majruszsdifficulty.enderium_boots": "Crystallized Ender Boots",
     "item.majruszsdifficulty.enderium_shard_locator": "Crystallized Ender Shard Locator",
-
     "block.majruszsdifficulty.enderium_block": "Block of Crystallized Ender",
     "block.majruszsdifficulty.enderium_shard_ore": "Crystallized Ender Shard Ore",
-
     "majruszsdifficulty.smithing.enderium.upgrade": "Crystallized Ender Upgrade",
     "majruszsdifficulty.smithing.enderium.ingredients": "Crystallized Ender Ingot",
     "majruszsdifficulty.smithing.enderium.additions_slot": "Add Crystallized Ender Ingot",
-
-    "advancements.progressive_difficulty.enderium_shard.title": "Strange Shards",
     "advancements.progressive_difficulty.enderium_shard.description": "Acquire Crystallized Ender Shard",
-    "advancements.progressive_difficulty.enderium_ingot.title": "Mysterious Ingot",
     "advancements.progressive_difficulty.enderium_ingot.description": "Acquire Crystallized Ender Ingot"
 }

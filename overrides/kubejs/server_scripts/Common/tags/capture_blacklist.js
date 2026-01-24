@@ -52,7 +52,6 @@ ServerEvents.tags("entity_type", event => {
         "iceandfire:fire_dragon",
         "iceandfire:ice_dragon",
         "iceandfire:sea_serpent",
-        /occultism:.*((?=possessed)|(?=familiar)).*/,
         "occultism:otherworld_bird",
         "occultism:afrit_wild",
         "occultism:shub_niggurath_spawn",
@@ -101,7 +100,8 @@ ServerEvents.tags("entity_type", event => {
         tagNoCapture,
         "minecraft:evoker",
         "alexscaves:atlatitan",
-        "minecraft:elder_guardian"
+        "minecraft:elder_guardian",
+        /occultism:.*((?=possessed)|(?=familiar)).*/
     ])
 
     event.add("ars_nouveau:drygmy_blacklist", [

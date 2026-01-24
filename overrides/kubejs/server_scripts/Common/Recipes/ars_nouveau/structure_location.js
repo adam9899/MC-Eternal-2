@@ -30,4 +30,6 @@ ServerEvents.recipes(event => {
     arsLocateStructure(event, "#mce2:irons_spellbooks/wizard_structure", ["irons_spellbooks:blank_rune","irons_spellbooks:arcane_essence"], "mce2:irons_spellbooks/wizard_structure")
 
     arsLocateStructure(event, "irons_spellbooks:ancient_battleground", ["minecraft:netherite_scrap","irons_spellbooks:cinder_essence"], "mce2:irons_spellbooks/ancient_battleground")
+
+    arsLocateStructure(event, "idas:iceandfire/dread_citadel", ["#iceandfire:dragon_hearts", "#forge:wither_bones"], "mce2:idas/dread_citadel")
 })

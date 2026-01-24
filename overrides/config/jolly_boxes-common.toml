@@ -2,7 +2,7 @@
 [General]
 	#Chance of Jolly Boxes to spawn when you sleep (Set to 0 to disable spawning)
 	#Range: 0.0 ~ 1.0
-	present_chance = 1.0
+	present_chance = 0.0
 	#Minimum amount of presents that can spawn
 	#Range: 0 ~ 32
 	present_minimum = 1
@@ -17,4 +17,5 @@
 	party_horn_replace_bells = false
 	#Replace the Sleigh Bell sound with a Party Horn sound (December excluded)?
 	party_horn_december = false
+
 
