@@ -1,6 +1,8 @@
 {
 	"root_xp": {
-		"title": "§9Modest Angler:§r +10% XP From Fishing",
+		"title": {
+			"translate": "puffish_skills.fishing.definition.root_xp.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -14,18 +16,20 @@
 			}
 		},
 		"rewards": [
-				{
+			{
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "stardew_fishing:exp_multiplier",
-					"value": 0.10,
+					"value": 0.1,
 					"operation": "multiply_total"
 				}
 			}
 		]
 	},
 	"xp_lesser": {
-		"title": "§dSerene Angler:§r +10% XP From Fishing",
+		"title": {
+			"translate": "puffish_skills.fishing.definition.xp_lesser.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -39,18 +43,20 @@
 			}
 		},
 		"rewards": [
-				{
+			{
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "stardew_fishing:exp_multiplier",
-					"value": 0.10,
+					"value": 0.1,
 					"operation": "multiply_total"
 				}
 			}
 		]
 	},
 	"xp": {
-		"title": "§a§lExperienced Angler:§r +450% XP From Fishing",
+		"title": {
+			"translate": "puffish_skills.fishing.definition.xp.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -64,7 +70,7 @@
 			}
 		},
 		"rewards": [
-				{
+			{
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "stardew_fishing:exp_multiplier",
@@ -75,7 +81,9 @@
 		]
 	},
 	"line_strength": {
-		"title": "§3Gentle Angler:§r Fish Escape 7% Slower",
+		"title": {
+			"translate": "puffish_skills.fishing.definition.line_strength.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -100,7 +108,9 @@
 		]
 	},
 	"treasure": {
-		"title": "§6§lMaster Angler:§r Double Special Treasure Chance",
+		"title": {
+			"translate": "puffish_skills.fishing.definition.treasure.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -125,7 +135,9 @@
 		]
 	},
 	"bobber_size": {
-		"title": "§7Tactile Angler:§r +6% Increased Bobber Size",
+		"title": {
+			"translate": "puffish_skills.fishing.definition.bobber_size.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -150,7 +162,9 @@
 		]
 	},
 	"lucky_angler": {
-		"title": "§eLucky Angler:§r +5% Special Treasure Chance",
+		"title": {
+			"translate": "puffish_skills.fishing.definition.lucky_angler.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {

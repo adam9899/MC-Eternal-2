@@ -1,6 +1,8 @@
 {
 	"root_health+2": {
-		"title": "Rogue: +8% Attack Speed",
+		"title": {
+			"translate": "puffish_skills.combat.definition.root_health_2.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -14,7 +16,7 @@
 			}
 		},
 		"rewards": [
-				{
+			{
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_speed",
@@ -25,7 +27,9 @@
 		]
 	},
 	"root_resistance+1%": {
-		"title": "Tank: +25% Resistance",
+		"title": {
+			"translate": "puffish_skills.combat.definition.root_resistance_1.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -50,7 +54,9 @@
 		]
 	},
 	"root_melee_damage+3%": {
-		"title": "Warrior: +12% Melee Damage",
+		"title": {
+			"translate": "puffish_skills.combat.definition.root_melee_damage_3.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -75,7 +81,9 @@
 		]
 	},
 	"root_ranged_damage+3%": {
-		"title": "Archer: +7% Ranged Damage",
+		"title": {
+			"translate": "puffish_skills.combat.definition.root_ranged_damage_3.title"
+		},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -100,8 +108,10 @@
 		]
 	},
 	"health+2": {
-		"title": "+1 Heart",
-			"icon": {
+		"title": {
+			"translate": "puffish_skills.combat.definition.health_2.title"
+		},
+		"icon": {
 			"type": "item",
 			"data": {
 				"item": "artifacts:crystal_heart"
@@ -119,7 +129,9 @@
 		]
 	},
 	"resistance+1%": {
-		"title": "+1% Resistance",
+		"title": {
+			"translate": "puffish_skills.combat.definition.resistance_1.title"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -138,8 +150,10 @@
 		]
 	},
 	"melee_damage+3%": {
-		"title": "+3% Melee Damage",
-			"icon": {
+		"title": {
+			"translate": "puffish_skills.combat.definition.melee_damage_3.title"
+		},
+		"icon": {
 			"type": "item",
 			"data": {
 				"item": "iceandfire:dragonbone_sword_fire"
@@ -157,7 +171,9 @@
 		]
 	},
 	"ranged_damage+3%": {
-		"title": "+3% Ranged Damage",
+		"title": {
+			"translate": "puffish_skills.combat.definition.ranged_damage_3.title"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -176,7 +192,9 @@
 		]
 	},
 	"attack_speed+5%": {
-		"title": "+5% Attack Speed",
+		"title": {
+			"translate": "puffish_skills.combat.definition.attack_speed_5.title"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -195,7 +213,9 @@
 		]
 	},
 	"movement_speed+5%": {
-		"title": "+5% Movement Speed",
+		"title": {
+			"translate": "puffish_skills.combat.definition.movement_speed_5.title"
+		},
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -214,7 +234,9 @@
 		]
 	},
 	"10%rollrecharge": {
-		"title": "+10% Combat Roll Recharge",
+		"title": {
+			"translate": "puffish_skills.combat.definition.10_rollrecharge.title"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -226,14 +248,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "combatroll:recharge",
-					"value": 0.10,
+					"value": 0.1,
 					"operation": "multiply_base"
 				}
 			}
 		]
 	},
-		"roll+1.0": {
-		"title": "+1 Combat Roll Charge",
+	"roll+1.0": {
+		"title": {
+			"translate": "puffish_skills.combat.definition.roll_1_0.title"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -252,7 +276,9 @@
 		]
 	},
 	"stamina+5%": {
-		"title": "+5% Stamina",
+		"title": {
+			"translate": "puffish_skills.combat.definition.stamina_5.title"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -271,7 +297,9 @@
 		]
 	},
 	"healing+5%": {
-		"title": "+5% Healing",
+		"title": {
+			"translate": "puffish_skills.combat.definition.healing_5.title"
+		},
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -290,7 +318,9 @@
 		]
 	},
 	"jump+5%": {
-		"title": "+5% Jump",
+		"title": {
+			"translate": "puffish_skills.combat.definition.jump_5.title"
+		},
 		"icon": {
 			"type": "effect",
 			"data": {
