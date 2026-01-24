@@ -23,12 +23,12 @@
       "payment_item": {
         "item": "minecraft:paper",
         "count": 1,
-        "nbt": "{\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"1x Rat - 24 Hours \\\" ,\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"Status: LATE!\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"RETURN ON TIME OR FACE FINES!\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true}\",\"{\\\"text\\\":\\\"YOU WOULDN'T STEAL A CAR\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"YOU WOULDN'T STEAL A HANDBAG\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"YOU WOULDN'T STEAL A TELEVISION\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\\\",\\\"color\\\":\\\"dark_red\\\",\\\"bold\\\":true,\\\"italic\\\":true}\"],\"Name\":\"{\\\"text\\\":\\\"Rent-a-Rat Reciept\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\"}}"
+        "nbt": "{\"display\":{\"Lore\":[\"{\\\"translate\\\":\\\"goblin.vein.common.lore1.rat_receipt\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"translate\\\":\\\"goblin.vein.common.lore2.rat_receipt\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":true}\",\"{\\\"translate\\\":\\\"goblin.vein.common.lore3.rat_receipt\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true}\",\"{\\\"translate\\\":\\\"goblin.vein.common.lore4.rat_receipt\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"translate\\\":\\\"goblin.vein.common.lore5.rat_receipt\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"translate\\\":\\\"goblin.vein.common.lore6.rat_receipt\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"translate\\\":\\\"goblin.vein.common.lore7.rat_receipt\\\",\\\"color\\\":\\\"dark_red\\\",\\\"bold\\\":true,\\\"italic\\\":true}\"],\"Name\":\"{\\\"translate\\\":\\\"goblin.vein.common.name.rat_receipt\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\"}}"
       },
       "offer_item": {
         "item": "rats:rat_upgrade_combined",
         "count": 1,
-        "nbt": "{\"Items\":[{\"Count\":1b,\"Slot\":0b,\"id\":\"rats:rat_upgrade_demon\"},{\"Count\":1b,\"Slot\":1b,\"id\":\"rats:rat_upgrade_god\"}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"Rat Upgrade: Skooma\\\"}\"}}"
+        "nbt": "{\"Items\":[{\"Count\":1b,\"Slot\":0b,\"id\":\"rats:rat_upgrade_demon\"},{\"Count\":1b,\"Slot\":1b,\"id\":\"rats:rat_upgrade_god\"}],\"display\":{\"Name\":\"{\\\"translate\\\":\\\"goblin.vein.common.name.rat_upgrade_skooma\\\"}\"}}"
       },
       "price_multiplier": 0.0
     },

@@ -54,6 +54,12 @@
     "item.mce2.quest_loot.desc.2": "✎ Lore Text",
     "item.mce2.quest_loot.desc.3": "\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\"",
 
+    "item.mce.quest_loot.name": "§eQuest Loot",
+    "item.mce.quest_loot.lore.random": "§7§o§e§oContains a random special item!",
+    "item.mce.quest_loot.lore.open": "§b§7§o§bRight-Click to Open",
+    "item.mce.quest_loot.lore.header": "§5§6✎ §nLore Text",
+    "item.mce.quest_loot.lore.desc": "§7§6§o§7§o\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\"",
+
     "tooltip.mce2.occultism.stable_wormhole.fragile": "Unstable! The Wormhole will break when picked up!",
     "tooltip.mce2.ae2.facade.can_be_made_with_more_things": "Can be made using most blocks",
     "tooltip.mce2.generic.can_be_dyed": "Can be Dyed",
@@ -246,6 +252,7 @@
     "tooltip.mce2.gateways": "§oOpens a rift in space-time, beware!",
     "tooltip.mce2.pitchperfect": "Changes note depending on where you look!",
 
+    "message.mce.palantir_vision": "You ponder the orb and see a vision of the distant past... An unspeakable eternal army unlike anything you've ever seen... Endless torment.. This is oblivion.. ",
     "message.mce2.bodyguard_arrived": "Your personal bodyguard has arrived!",
     "message.mce2.soul_stone_peer": "You peer into the Soul Stone and see a vision of The Great Beyond... Eternal darkness... Countless souls singing and dancing... Countless screaming and writhing.. It seems some take to death better than others..",
     "message.mce2.ultimate_cheese_cooldown": "The cheese is still cooling down! (%ss)",
@@ -795,10 +802,19 @@
     "gateways.wizard_gaunlet.text.the_blazing_pyromancer_is_mad_at_you": "The Blazing Pyromancer is mad at you",
     "gateways.wizard_gaunlet.text.the_local_apothecarist_is_approaching": "The Local Apothecarist is approaching",
     "gateways.wizard_gaunlet.text.you_ll_pay_for_your_crimes_against_rats_one_day": "You'll pay for your crimes against rats, one day!!!",
-    
+
     "goblin.trader.common.name.bottle_of_skooma": "Bottle of \"Skooma\"",
     "goblin.trader.rare.name.trident_of_poseidon": "Trident of Poseidon",
     "goblin.trader.uncommon.lore1.this_bands_my_favorite_man": "This bands my favorite man!",
     "goblin.trader.uncommon.name.sweater_song": "Sweater Song",
-    "goblin.vein.common.name.bottle_of_nether_skooma": "Bottle of \"Nether Skooma\""
+    "goblin.vein.common.name.bottle_of_nether_skooma": "Bottle of \"Nether Skooma\"",
+    "goblin.vein.common.name.rat_receipt": "Rent-a-Rat Receipt",
+    "goblin.vein.common.lore1.rat_receipt": "1x Rat - 24 Hours ",
+    "goblin.vein.common.lore2.rat_receipt": "Status: LATE!",
+    "goblin.vein.common.lore3.rat_receipt": "RETURN ON TIME OR FACE FINES!",
+    "goblin.vein.common.lore4.rat_receipt": "YOU WOULDN'T STEAL A CAR",
+    "goblin.vein.common.lore5.rat_receipt": "YOU WOULDN'T STEAL A HANDBAG",
+    "goblin.vein.common.lore6.rat_receipt": "YOU WOULDN'T STEAL A TELEVISION",
+    "goblin.vein.common.lore7.rat_receipt": "SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!",
+    "goblin.vein.common.name.rat_upgrade_skooma": "Rat Upgrade: Skooma"
 }

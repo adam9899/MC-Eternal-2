@@ -8,7 +8,7 @@ ItemEvents.rightClicked(event => {
     player.getCooldowns().addCooldown('kubejs:nether_item', 3500);
 
 
-    server.runCommand(`tellraw ${name} {"text":"You ponder the orb and see a vision of the distant past... An unspeakable eternal army unlike anything you've ever seen... Endless torment.. This is oblivion.. ","italic":true,"color":"dark_gray"}`);
+    server.runCommand(`tellraw ${name} {"translate":"message.mce.palantir_vision","italic":true,"color":"dark_gray"}`);
     server.runCommand(`execute at ${name} run playsound minecraft:entity.wither.spawn ambient ${name}`);
     server.runCommand(`execute at ${name} run particle create:soul ~ ~ ~`);
 
