@@ -794,5 +794,11 @@
     "gateways.wizard_gaunlet.text.the_archevoker_will_finish_this_nonsense": "The ArchEvoker WILL finish this nonsense.",
     "gateways.wizard_gaunlet.text.the_blazing_pyromancer_is_mad_at_you": "The Blazing Pyromancer is mad at you",
     "gateways.wizard_gaunlet.text.the_local_apothecarist_is_approaching": "The Local Apothecarist is approaching",
-    "gateways.wizard_gaunlet.text.you_ll_pay_for_your_crimes_against_rats_one_day": "You'll pay for your crimes against rats, one day!!!"
+    "gateways.wizard_gaunlet.text.you_ll_pay_for_your_crimes_against_rats_one_day": "You'll pay for your crimes against rats, one day!!!",
+    
+    "goblin.trader.common.name.bottle_of_skooma": "Bottle of \"Skooma\"",
+    "goblin.trader.rare.name.trident_of_poseidon": "Trident of Poseidon",
+    "goblin.trader.uncommon.lore1.this_bands_my_favorite_man": "This bands my favorite man!",
+    "goblin.trader.uncommon.name.sweater_song": "Sweater Song",
+    "goblin.vein.common.name.bottle_of_nether_skooma": "Bottle of \"Nether Skooma\""
 }

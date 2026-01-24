@@ -15,7 +15,7 @@
       },
       "price_multiplier": 0.0
     },
-	   {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -29,414 +29,413 @@
       },
       "price_multiplier": 0.0
     },
-	  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:durable_spring"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:durable_spring"
+      },
+      "payment_item": {
+        "count": 12,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 12,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:blade_shoes"
+      },
+      "payment_item": {
+        "count": 8,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:blade_shoes"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:anklet_of_fortune"
+      },
+      "payment_item": {
+        "count": 28,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 8,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:rocket_shoes"
+      },
+      "payment_item": {
+        "count": 25,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:anklet_of_fortune"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:tabi"
+      },
+      "payment_item": {
+        "count": 16,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 28,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:waist_warmer"
+      },
+      "payment_item": {
+        "count": 17,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:rocket_shoes"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:life_jacket_belt"
+      },
+      "payment_item": {
+        "count": 19,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 25,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:tool_belt"
+      },
+      "payment_item": {
+        "count": 27,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:tabi"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:black_belt"
+      },
+      "payment_item": {
+        "count": 34,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 16,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:golden_egg_charm"
+      },
+      "payment_item": {
+        "count": 59,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:waist_warmer"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:soul_gem"
+      },
+      "payment_item": {
+        "count": 26,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 17,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:royal_honeycomb"
+      },
+      "payment_item": {
+        "count": 23,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:life_jacket_belt"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:devils_eyeball"
+      },
+      "payment_item": {
+        "count": 30,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 19,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:magick_quiver"
+      },
+      "payment_item": {
+        "count": 28,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:tool_belt"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:shiny_stone"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 27,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:strong_sticky_slime_ball"
+      },
+      "payment_item": {
+        "count": 19,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:black_belt"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:starved_wolf_skull"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 34,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:small_propulsion_device"
+      },
+      "payment_item": {
+        "count": 25,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:golden_egg_charm"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:withered_heart"
+      },
+      "payment_item": {
+        "count": 12,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 59,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:supreme_meat"
+      },
+      "payment_item": {
+        "count": 15,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:soul_gem"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:amplifier_stone"
+      },
+      "payment_item": {
+        "count": 23,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 26,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:fossil_shark_tooth"
+      },
+      "payment_item": {
+        "count": 19,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:royal_honeycomb"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:sharp_fishing_hook"
+      },
+      "payment_item": {
+        "count": 27,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 23,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:all_purpose_seasoning"
+      },
+      "payment_item": {
+        "count": 18,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:devils_eyeball"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:cursed_doll_head"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 30,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:snow_golem_doll"
+      },
+      "payment_item": {
+        "count": 24,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:magick_quiver"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:championship_belt"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 28,
-      "item": "minecraft:emerald"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:silver_cat_tail"
+      },
+      "payment_item": {
+        "count": 17,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:shiny_stone"
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "uniqueaccessories:survival_belt"
+      },
+      "payment_item": {
+        "count": 22,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
     },
-    "payment_item": {
-      "count": 20,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:strong_sticky_slime_ball"
-    },
-    "payment_item": {
-      "count": 19,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:starved_wolf_skull"
-    },
-    "payment_item": {
-      "count": 20,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:small_propulsion_device"
-    },
-    "payment_item": {
-      "count": 25,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:withered_heart"
-    },
-    "payment_item": {
-      "count": 12,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:supreme_meat"
-    },
-    "payment_item": {
-      "count": 15,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:amplifier_stone"
-    },
-    "payment_item": {
-      "count": 23,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:fossil_shark_tooth"
-    },
-    "payment_item": {
-      "count": 19,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:sharp_fishing_hook"
-    },
-    "payment_item": {
-      "count": 27,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:all_purpose_seasoning"
-    },
-    "payment_item": {
-      "count": 18,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:cursed_doll_head"
-    },
-    "payment_item": {
-      "count": 20,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:snow_golem_doll"
-    },
-    "payment_item": {
-      "count": 24,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:championship_belt"
-    },
-    "payment_item": {
-      "count": 20,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:silver_cat_tail"
-    },
-    "payment_item": {
-      "count": 17,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-  {
-    "type": "goblintraders:basic",
-    "experience": 10,
-    "max_trades": 1,
-    "offer_item": {
-      "count": 1,
-      "item": "uniqueaccessories:survival_belt"
-    },
-    "payment_item": {
-      "count": 22,
-      "item": "minecraft:emerald"
-    },
-    "price_multiplier": 0.0
-  },
-	  {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -450,7 +449,7 @@
       },
       "price_multiplier": 0.0
     },
-	    {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -464,7 +463,7 @@
       },
       "price_multiplier": 0.0
     },
-	  {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -478,8 +477,7 @@
       },
       "price_multiplier": 0.0
     },
-
-	   {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -493,7 +491,7 @@
       },
       "price_multiplier": 0.0
     },
-	    {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 10,
@@ -507,7 +505,7 @@
       },
       "price_multiplier": 0.0
     },
-	    {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -521,7 +519,7 @@
       },
       "price_multiplier": 0.0
     },
-	  {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -535,7 +533,7 @@
       },
       "price_multiplier": 0.0
     },
-	      {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -549,7 +547,7 @@
       },
       "price_multiplier": 0.0
     },
-	   {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -563,7 +561,7 @@
       },
       "price_multiplier": 0.0
     },
-	    {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -577,7 +575,7 @@
       },
       "price_multiplier": 0.0
     },
-	     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -591,7 +589,7 @@
       },
       "price_multiplier": 0.0
     },
-	   {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -605,8 +603,7 @@
       },
       "price_multiplier": 0.0
     },
-       
-	   {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -620,7 +617,6 @@
       },
       "price_multiplier": 0.0
     },
-      
     {
       "type": "goblintraders:basic",
       "experience": 10,
@@ -635,7 +631,7 @@
       },
       "price_multiplier": 0.0
     },
-	  {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -649,7 +645,7 @@
       },
       "price_multiplier": 0.0
     },
-	    {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -663,7 +659,7 @@
       },
       "price_multiplier": 0.0
     },
-	   {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -677,8 +673,7 @@
       },
       "price_multiplier": 0.0
     },
-	
-	   {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -692,7 +687,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -734,7 +729,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -748,7 +743,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -790,8 +785,7 @@
       },
       "price_multiplier": 0.0
     },
- 
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -805,8 +799,7 @@
       },
       "price_multiplier": 0.0
     },
-    
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -834,7 +827,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -848,8 +841,7 @@
       },
       "price_multiplier": 0.0
     },
-     
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -877,7 +869,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -919,7 +911,6 @@
       },
       "price_multiplier": 0.0
     },
-     
     {
       "type": "goblintraders:basic",
       "experience": 4,
@@ -934,7 +925,7 @@
       },
       "price_multiplier": 0.0
     },
-	   {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -976,7 +967,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -1424,7 +1415,6 @@
       },
       "price_multiplier": 0.0
     },
-    
     {
       "type": "goblintraders:basic",
       "experience": 4,
@@ -1453,8 +1443,7 @@
       },
       "price_multiplier": 0.0
     },
-   
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -1482,7 +1471,6 @@
       },
       "price_multiplier": 0.0
     },
-   
     {
       "type": "goblintraders:basic",
       "experience": 4,
@@ -1497,7 +1485,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -1567,7 +1555,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -1595,7 +1583,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -1609,7 +1597,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -1623,7 +1611,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -1651,7 +1639,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -1679,7 +1667,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -1707,7 +1695,7 @@
       },
       "price_multiplier": 0.0
     },
-       {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -1749,7 +1737,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 1,
@@ -1764,20 +1752,20 @@
       "price_multiplier": 0.0
     },
     {
-  "type": "goblintraders:basic",
-  "offer_item": {
-     "item": "minecraft:trident",
-    "nbt": "{Damage:0,display:{Name:'{\"text\":\"Trident of Poseidon\"}'},quark:{RuneColor:\"blue\"},Enchantments:[{id:\"minecraft:riptide\",lvl:3s}]}",
-    "count": 1
-  },
-  "payment_item": {
-    "item": "minecraft:emerald",
-    "count": 50
-  },
-  "price_multiplier": 0.0,
-  "max_trades": 1,
-  "experience": 10
-},
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:trident",
+        "nbt": "{Damage:0,display:{Name:'{\"translate\":\"goblin.trader.rare.name.trident_of_poseidon\"}'},quark:{RuneColor:\"blue\"},Enchantments:[{id:\"minecraft:riptide\",lvl:3s}]}",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 50
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 10
+    },
     {
       "type": "goblintraders:basic",
       "experience": 10,
@@ -1792,7 +1780,7 @@
       },
       "price_multiplier": 0.0
     },
-     {
+    {
       "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
@@ -1835,164 +1823,159 @@
       "price_multiplier": 0.0
     },
     {
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:magic_mirror",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 53
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:jellyfish_necklace",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 25
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "relics:magic_mirror",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 53
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
     {
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "alexscaves:sack_of_sating",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 20
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-		
-	
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:roller_skates",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 20
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:spore_sack",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 30
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:ice_skates",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 20
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-
-	
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:drowned_belt",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 25
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:midnight_robe",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 50
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "botania:laputa_shard",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 30
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:hunter_belt",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 35
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-		{
-			"type": "goblintraders:basic",
-			"offer_item": {
-				"item": "relics:wool_mitten",
-				"count": 1
-			},
-			"payment_item": {
-				"item": "minecraft:emerald",
-				"count": 20
-			},
-			"price_multiplier": 0.5,
-			"max_trades": 1,
-			"experience": 20
-		},
-	
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "relics:jellyfish_necklace",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 25
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "alexscaves:sack_of_sating",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 20
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "relics:roller_skates",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 20
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "relics:spore_sack",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 30
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "relics:ice_skates",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 20
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "relics:drowned_belt",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 25
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "relics:midnight_robe",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 50
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "botania:laputa_shard",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 30
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "relics:hunter_belt",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 35
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "relics:wool_mitten",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 20
+      },
+      "price_multiplier": 0.5,
+      "max_trades": 1,
+      "experience": 20
+    },
     {
       "type": "goblintraders:basic",
       "experience": 10,
