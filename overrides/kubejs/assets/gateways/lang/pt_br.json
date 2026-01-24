@@ -1,0 +1,111 @@
+{
+	"entity.gateways.gateway" : "Portal para a Eternidade",
+	"item.gateways.gate_pearl": "Pérola do Portal",
+	"gateways.gate_pearl": "Pérola do Portal - %s",
+	"itemGroup.gateways": "Gateways to Eternity",
+
+	"info.gateways.gate_pearl": "Uma Pérola do Portal permite que você invoque um Portal usando-a em um bloco.\n\nEla só pode ser usada quando o novo Portal não estiver muito próximo de outro Portal, com base no espaçamento atual.\n",
+	"info.gateways.gate_pearl.2": "Um Portal aberto falhará com uma explosão de raios se não puder gerar uma criatura, se qualquer criatura ativa se afastar demais ou se o tempo da onda acabar.\n\nAs recompensas serão geradas pelo Portal assim que forem obtidas.",
+
+	"tooltip.gateways.with_count": "%s %s",
+	"tooltip.gateways.dot_with_count": "• %s %s",
+	"tooltip.gateways.dot": "• %s",
+
+	"tooltip.gateways.scroll": "[scroll]",
+	"tooltip.gateways.shift": "[shift]",
+    "tooltip.gateways.ctrl": "[ctrl]",
+    "tooltip.gateways.alt": "[alt]",
+    "tooltip.gateways.true": "Ativado",
+    "tooltip.gateways.false": "Desativado",
+
+	"tooltip.gateways.num_wave": "%s Onda",
+	"tooltip.gateways.num_waves": "%s Ondas",
+	"tooltip.gateways.wave": "Onda %s/%s",
+	"tooltip.gateways.entities": "Entidades: ",
+	"tooltip.gateways.modifiers": "Modificadores: ",
+	"tooltip.gateways.rewards": "Recompensas: ",
+
+	"tooltip.gateways.num_failures": "%s Penalidades",
+	"tooltip.gateways.num_failure": "%s Penalidade",
+	"tooltip.gateways.failures": "Penalidades de Falha",
+
+	"tooltip.gateways.num_rule": "%s Mudança de regra",
+	"tooltip.gateways.num_rules": "%s Mudanças de regras",
+	"tooltip.gateways.rules": "Mudanças de regras",
+
+	"tooltip.gateways.key_rewards": "Recompensas Principais",
+
+    "tooltip.gateways.endless.base_wave": "Onda Base",
+	"tooltip.gateways.endless.num_modif": "%s Modificador Infinito",
+	"tooltip.gateways.endless.num_modifs": "%s Modificadores Infinitos",
+    "tooltip.gateways.endless.modifier": "Modificador Infinito %s/%s",
+    "tooltip.gateways.endless.wave_time": "%s Tempo Máx. da Onda",
+    "tooltip.gateways.endless.setup_time": "%s Tempo de Preparação",
+
+	"boss.gateways.wave": "Onda: %d/%d | Tempo: %s | Inimigos: %d",
+	"boss.gateways.done": "Portal Concluído!",
+	"boss.gateways.starting": "Onda %d iniciando em %s",
+	"boss.gateways.endless.top": "Onda: %d/%d | Tempo Restante: %d",
+    "boss.gateways.endless.bot": "Inimigos: %d/%d | Modificadores Ativos: %d",
+	"boss.gateways.endless.incoming": "Inimigos Chegando: %d",
+
+	"reward.gateways.stack": "%s %s",
+	"reward.gateways.entity": "%s %s Rolagens de Saque",
+	"reward.gateways.loot_table": "%s %s Rolagens",
+	"reward.gateways.chance": "%s Chance de %s",
+	"reward.gateways.experience": "%s Experiência",
+	"reward.gateways.summon": "Invoca %s",
+
+	"failure.gateways.explosion": "Explosão de Raio %s",
+	"failure.gateways.mob_effect": "%s",
+	"failure.gateways.summon": "Invoca %s",
+	"failure.gateways.chance": "%s Chance de %s",
+
+	"rule.gateways.default": "[era %s]",
+	"rule.gateways.spawn_range": "Alcance de Geração: %s",
+	"rule.gateways.leash_range": "Alcance do Laço: %s",
+	"rule.gateways.allow_discarding": "Permitir Descarte: %s",
+	"rule.gateways.allow_dim_change": "Permitir Mudança de Dimensão: %s",
+	"rule.gateways.player_damage_only": "Apenas Dano do Jogador: %s",
+	"rule.gateways.remove_mobs_on_failure": "Remover Criaturas ao Falhar: %s",
+	"rule.gateways.fail_on_out_of_bounds": "Falhar Fora dos Limites: %s",
+	"rule.gateways.spacing": "Espaçamento: %s",
+
+	"error.gateways.no_space": "Não há espaço suficiente para abrir este Portal",
+	"error.gateways.wave_failed": "O Portal implodiu porque não havia espaço suficiente para gerar a próxima onda",
+	"error.gateways.too_far": "O Portal implodiu porque uma entidade da onda correu para muito longe",
+	"error.gateways.wave_elapsed": "Tempo da Onda Esgotado",
+	"error.gateways.entity_discarded": "O Portal implodiu porque uma entidade foi removida sem ser morta",
+
+    "appmode.gateways.after_wave": "Aplicado na onda %s.",
+    "appmode.gateways.after_every_n_waves": "Aplica a cada %s ondas. Máx %s aplicações.",
+    "appmode.gateways.only_on_wave": "Aplicado apenas na onda %s.",
+    "appmode.gateways.only_on_every_n_waves": "Aplicado apenas a cada %s ondas.",
+
+	"stat.gateways.gates_defeated": "Portais derrotados",
+
+    "modifier.gateways.gear_set": "Equipado Com %s",
+
+	"gateways.basic/blaze": "Portal de Blaze [Apenas Modo Especialista]",
+	"gateways.basic/slime": "Portal de Slime [Apenas Modo Especialista]",
+	"gateways.basic/enderman": "Portal de Enderman [Apenas Modo Especialista]",
+    
+	"gateways.emerald_grove": "Portal do Bosque de Esmeraldas",
+	"gateways.overworldian_nights": "Portal das Noites do Mundo Superior [Apenas Modo Especialista]",
+	"gateways.hellish_fortress": "Portal da Fortaleza Infernal [Apenas Modo Especialista]",
+	"gateways.wizard_gaunlet": "Portal da Manopla do Mago",
+
+    "gateways.endless/blaze": "Portal de Blaze Infinito [Apenas Modo Especialista]",
+
+    "rewards.gateways.loot_table.simple_dungeon": "Saque de Masmorra",
+    "rewards.gateways.loot_table.nether_bridge": "Saque de Fortaleza do Nether",
+
+    "name.gateways.necrotic_farmer": "Fazendeiro Necrótico",
+    "name.gateways.undead_legionnaire": "Legionário Morto-Vivo",
+    "name.gateways.withered_ranger": "Patrulheiro Wither",
+    "name.gateways.butcher": "Açougueiro",
+    "name.gateways.huge_slime": "Slime Gigante",
+    "name.gateways.magicbane_slime": "Slime da Ruína Mágica",
+    "name.gateways.acidic_slime": "Slime Ácido",
+    "name.gateways.flaming_enderman": "Enderman Flamejante"
+}

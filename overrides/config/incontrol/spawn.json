@@ -14,6 +14,30 @@
     "armorboots": ["immersive_armors:wither_boots"]
   },
   {
+    "mod": "majruszsdifficulty",
+    "when": "onjoin",
+    "biome": [
+      "alexscaves:abyssal_chasm",
+      "alexscaves:forlorn_hollows",
+      "alexscaves:primordial_caves",
+      "alexscaves:toxic_caves",
+      "alexscaves:candy_cavity"
+    ],
+    "result": "deny"
+  },
+   {
+    "mod": "specialmobs",
+    "when": "onjoin",
+    "biome": [
+      "alexscaves:abyssal_chasm",
+      "alexscaves:forlorn_hollows",
+      "alexscaves:primordial_caves",
+      "alexscaves:toxic_caves",
+      "alexscaves:candy_cavity"
+    ],
+    "result": "deny"
+  },
+   {
     "mod": "species",
     "when": "onjoin",
     "biome": [
@@ -133,6 +157,14 @@
     "when": "finalize",
     "result": "allow",
     "healthmultiply": 2.5,
+    "damagemultiply": 2.5,
+    "speedmultiply": 1.0
+  },
+  {
+    "mod": "alshanex_familiars",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.0,
     "damagemultiply": 2.5,
     "speedmultiply": 1.0
   },
