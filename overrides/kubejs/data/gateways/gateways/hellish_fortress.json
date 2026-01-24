@@ -1,332 +1,332 @@
 {
-    "size": "large",
-    "color": "#CF352E",
-    "waves": [{
-            "entities": [
-                {
-                    "entity": "specialmobs:zombifiedpiglin",
-                    "count": 5
-                },
-                {
-                    "entity": "specialmobs:witherskeleton",
-                    "count": 3
-                }
-            ],
-            "modifiers": [
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:zombified_piglin",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 1
-                }
-            ],
-            "max_wave_time": 600,
-            "setup_time": 100
+  "size": "large",
+  "color": "#CF352E",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "specialmobs:zombifiedpiglin",
+          "count": 5
         },
         {
-            "entities": [
-                {
-                    "entity": "specialmobs:zombifiedpiglin",
-                    "count": 8
-                },
-                {
-                    "entity": "specialmobs:witherskeleton",
-                    "count": 5
-                },
-                {
-                    "entity": "specialmobs:blaze",
-                    "count": 3
-                }
-            ],
-            "modifiers": [
-                {
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.05
-                },
-                {
-                    "attribute": "attributeslib:fire_damage",
-                    "operation": "ADDITION",
-                    "value": 2
-                }
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:zombified_piglin",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
-                    "rolls": 1
-                }
-            ],
-            "max_wave_time": 1200,
-            "setup_time": 200
-        },
-        {
-            "entities": [
-                {
-                    "entity": "specialmobs:zombifiedpiglin",
-                    "count": 8
-                },
-                {
-                    "entity": "specialmobs:witherskeleton",
-                    "count": 5
-                },
-                {
-                    "entity": "specialmobs:witherskeleton",
-                    "desc": "name.gateways.withered_ranger",
-                    "nbt": {
-                        "CustomNameVisible": 1,
-                        "CustomName": "{\"translate\":\"name.gateways.withered_ranger\",\"color\":\"red\"}"
-                    },
-                    "modifiers": [
-                        {
-                            "type": "gateways:gear_set",
-                            "gear_set": "gateways:chain_with_bow"
-                        },
-                        {
-                            "attribute": "attributeslib:arrow_damage",
-                            "operation": "multiply_base",
-                            "value": 0.2
-                        }
-                    ],
-                    "count": 3,
-                    "finalize_spawn": false
-                },
-                {
-                    "entity": "minecraft:blaze",
-                    "count": 3
-                }
-            ],
-            "modifiers": [
-                {
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.15
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.05
-                },
-                {
-                    "attribute": "attributeslib:fire_damage",
-                    "operation": "ADDITION",
-                    "value": 3
-                },
-                {
-                    "attribute": "attributeslib:arrow_damage",
-                    "operation": "ADDITION",
-                    "value": 0.10
-                },
-                {
-                    "attribute": "attributeslib:life_steal",
-                    "operation": "ADDITION",
-                    "value": 0.10
-                }
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:zombified_piglin",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 3
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
-                    "rolls": 1
-                }
-            ],
-            "max_wave_time": 1600,
-            "setup_time": 400
-        },
-        {
-            "entities": [
-                {
-                    "entity": "minecraft:piglin_brute",
-                    "desc": "name.gateways.butcher",
-                    "nbt": {
-                        "CustomNameVisible": 1,
-                        "CustomName": "{\"translate\":\"name.gateways.butcher\",\"color\":\"red\"}",
-                        "IsImmuneToZombification": true
-                    },
-                    "modifiers": [
-                        {
-                            "type": "gateways:gear_set",
-                            "gear_set": "gateways:gold_with_axe"
-                        },
-                        {
-                            "attribute": "generic.max_health",
-                            "operation": "ADDITION",
-                            "value": 30
-                        },
-                        {
-                            "attribute": "attributeslib:armor_shred",
-                            "operation": "ADDITION",
-                            "value": 0.5
-                        },
-                        {
-                            "attribute": "attributeslib:prot_shred",
-                            "operation": "ADDITION",
-                            "value": 0.25
-                        },
-                        {
-                            "attribute": "generic.attack_knockback",
-                            "operation": "ADDITION",
-                            "value": 2.5
-                        },
-                        {
-                            "attribute": "generic.knockback_resistance",
-                            "operation": "ADDITION",
-                            "value": 0.25
-                        },
-                        {
-                            "attribute": "attributeslib:life_steal",
-                            "operation": "ADDITION",
-                            "value": 0.10
-                        }
-                    ],
-                    "count": 1,
-                    "finalize_spawn": false
-                },
-                {
-                    "entity": "specialmobs:witherskeleton",
-                    "desc": "name.gateways.withered_ranger",
-                    "nbt": {
-                        "CustomNameVisible": 1,
-                        "CustomName": "{\"translate\":\"name.gateways.withered_ranger\",\"color\":\"red\"}"
-                    },
-                    "modifiers": [
-                        {
-                            "type": "gateways:gear_set",
-                            "gear_set": "gateways:chain_with_bow"
-                        },
-                        {
-                            "attribute": "attributeslib:arrow_damage",
-                            "operation": "multiply_base",
-                            "value": 0.2
-                        }
-                    ],
-                    "count": 5,
-                    "finalize_spawn": false
-                },
-                {
-                    "entity": "specialmobs:blaze",
-                    "count": 3
-                }
-            ],
-            "modifiers": [
-                {
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.25
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
-                    "operation": "ADDITION",
-                    "value": 0.5
-                },
-                {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 3
-                },
-                {
-                    "attribute": "attributeslib:fire_damage",
-                    "operation": "ADDITION",
-                    "value": 4
-                },
-                {
-                    "attribute": "attributeslib:life_steal",
-                    "operation": "ADDITION",
-                    "value": 0.10
-                }
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:piglin_brute",
-                    "rolls": 2
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 4
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
-                    "rolls": 4
-                }
-            ],
-            "max_wave_time": 2400,
-            "setup_time": 400
+          "entity": "specialmobs:witherskeleton",
+          "count": 3
         }
-    ],
-    "rewards": [
+      ],
+      "modifiers": [],
+      "rewards": [
         {
-            "type": "gateways:loot_table",
-            "loot_table": "minecraft:chests/nether_bridge",
-            "rolls": 1,
-            "desc": "rewards.gateways.loot_table.nether_bridge"
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombified_piglin",
+          "rolls": 1
         },
         {
-            "type": "gateways:stack",
-            "stack": {
-                "item": "minecraft:spawner",
-                "count": 1,
-                "nbt": {
-                    "BlockEntityTag": {
-                        "SpawnData": {
-                            "entity": {
-                                "id": "minecraft:wither_skeleton"
-                            }
-                        }
-                    },
-                    "display": {
-                        "Name": "{\"text\":\"Wither Skeleton Spawner\"}"
-                    }
-                }
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 1
+        }
+      ],
+      "max_wave_time": 600,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "specialmobs:zombifiedpiglin",
+          "count": 8
+        },
+        {
+          "entity": "specialmobs:witherskeleton",
+          "count": 5
+        },
+        {
+          "entity": "specialmobs:blaze",
+          "count": 3
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.1
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.05
+        },
+        {
+          "attribute": "attributeslib:fire_damage",
+          "operation": "ADDITION",
+          "value": 2
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombified_piglin",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:blaze",
+          "rolls": 1
+        }
+      ],
+      "max_wave_time": 1200,
+      "setup_time": 200
+    },
+    {
+      "entities": [
+        {
+          "entity": "specialmobs:zombifiedpiglin",
+          "count": 8
+        },
+        {
+          "entity": "specialmobs:witherskeleton",
+          "count": 5
+        },
+        {
+          "entity": "specialmobs:witherskeleton",
+          "desc": "name.gateways.withered_ranger",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"translate\":\"name.gateways.withered_ranger\",\"color\":\"red\"}"
+          },
+          "modifiers": [
+            {
+              "type": "gateways:gear_set",
+              "gear_set": "gateways:chain_with_bow"
+            },
+            {
+              "attribute": "attributeslib:arrow_damage",
+              "operation": "multiply_base",
+              "value": 0.2
             }
-        }
-    ],
-    "failures": [
-        {
-            "type": "gateways:explosion",
-            "strength": 4,
-            "fire": true,
-            "block_damage": true
+          ],
+          "count": 3,
+          "finalize_spawn": false
         },
         {
-            "type": "gateways:summon",
-            "entity": {
-                "entity": "minecraft:blaze",
-                "count": 2
-            }
+          "entity": "minecraft:blaze",
+          "count": 3
         }
-    ]
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.15
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.05
+        },
+        {
+          "attribute": "attributeslib:fire_damage",
+          "operation": "ADDITION",
+          "value": 3
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "ADDITION",
+          "value": 0.1
+        },
+        {
+          "attribute": "attributeslib:life_steal",
+          "operation": "ADDITION",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombified_piglin",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 3
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:blaze",
+          "rolls": 1
+        }
+      ],
+      "max_wave_time": 1600,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "minecraft:piglin_brute",
+          "desc": "name.gateways.butcher",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"translate\":\"name.gateways.butcher\",\"color\":\"red\"}",
+            "IsImmuneToZombification": true
+          },
+          "modifiers": [
+            {
+              "type": "gateways:gear_set",
+              "gear_set": "gateways:gold_with_axe"
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "ADDITION",
+              "value": 30
+            },
+            {
+              "attribute": "attributeslib:armor_shred",
+              "operation": "ADDITION",
+              "value": 0.5
+            },
+            {
+              "attribute": "attributeslib:prot_shred",
+              "operation": "ADDITION",
+              "value": 0.25
+            },
+            {
+              "attribute": "generic.attack_knockback",
+              "operation": "ADDITION",
+              "value": 2.5
+            },
+            {
+              "attribute": "generic.knockback_resistance",
+              "operation": "ADDITION",
+              "value": 0.25
+            },
+            {
+              "attribute": "attributeslib:life_steal",
+              "operation": "ADDITION",
+              "value": 0.1
+            }
+          ],
+          "count": 1,
+          "finalize_spawn": false
+        },
+        {
+          "entity": "specialmobs:witherskeleton",
+          "desc": "name.gateways.withered_ranger",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"translate\":\"name.gateways.withered_ranger\",\"color\":\"red\"}"
+          },
+          "modifiers": [
+            {
+              "type": "gateways:gear_set",
+              "gear_set": "gateways:chain_with_bow"
+            },
+            {
+              "attribute": "attributeslib:arrow_damage",
+              "operation": "multiply_base",
+              "value": 0.2
+            }
+          ],
+          "count": 5,
+          "finalize_spawn": false
+        },
+        {
+          "entity": "specialmobs:blaze",
+          "count": 3
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.25
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDITION",
+          "value": 0.5
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDITION",
+          "value": 3
+        },
+        {
+          "attribute": "attributeslib:fire_damage",
+          "operation": "ADDITION",
+          "value": 4
+        },
+        {
+          "attribute": "attributeslib:life_steal",
+          "operation": "ADDITION",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:piglin_brute",
+          "rolls": 2
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 4
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:blaze",
+          "rolls": 4
+        }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 400
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "minecraft:chests/nether_bridge",
+      "rolls": 1,
+      "desc": "rewards.gateways.loot_table.nether_bridge"
+    },
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "item": "minecraft:spawner",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "SpawnData": {
+              "entity": {
+                "id": "minecraft:wither_skeleton"
+              }
+            }
+          },
+          "display": {
+            "Name": "{\"translate\":\"gateways.hellish_fortress.text.wither_skeleton_spawner\"}"
+          }
+        }
+      }
+    }
+  ],
+  "failures": [
+    {
+      "type": "gateways:explosion",
+      "strength": 4,
+      "fire": true,
+      "block_damage": true
+    },
+    {
+      "type": "gateways:summon",
+      "entity": {
+        "entity": "minecraft:blaze",
+        "count": 2
+      }
+    }
+  ]
 }

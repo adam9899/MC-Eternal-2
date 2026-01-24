@@ -4,13 +4,12 @@
   "waves": [
     {
       "entities": [
-      
-          {
+        {
           "entity": "specialmobs:minienderman",
-             "desc": "Michealwave Jr",
+          "desc": "gateways.end_invasion.desc.michealwave_jr",
           "nbt": {
             "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Michealwave Jr.\",\"color\":\"dark_purple\"}",
+            "CustomName": "{\"color\":\"dark_purple\",\"translate\":\"gateways.end_invasion.text.michealwave_jr\"}",
             "IsImmuneToZombification": true
           },
           "count": 1
@@ -37,15 +36,13 @@
       "entities": [
         {
           "entity": "specialmobs:lightningenderman",
-  
           "count": 1
         },
-       
-         {
+        {
           "entity": "specialmobs:runicenderman",
           "count": 1
         },
-         {
+        {
           "entity": "cataclysm:endermaptera",
           "count": 5
         }
@@ -65,20 +62,19 @@
     },
     {
       "entities": [
-       {
+        {
           "entity": "specialmobs:lightningenderman",
           "count": 2
         },
-         {
+        {
           "entity": "specialmobs:runicenderman",
           "count": 2
         },
-          {
+        {
           "entity": "specialmobs:mirageenderman",
           "count": 1
         },
-  
-         {
+        {
           "entity": "cataclysm:endermaptera",
           "count": 6
         }
@@ -87,7 +83,7 @@
         {
           "attribute": "generic.max_health",
           "operation": "MULTIPLY_TOTAL",
-          "value": 0.10
+          "value": 0.1
         },
         {
           "attribute": "generic.movement_speed",
@@ -109,12 +105,12 @@
     },
     {
       "entities": [
-         {
+        {
           "entity": "mutantmonsters:mutant_enderman",
-             "desc": "Michealwave Sr.",
+          "desc": "gateways.end_invasion.desc.michealwave_sr",
           "nbt": {
             "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Michealwave Sr.\",\"color\":\"dark_purple\"}",
+            "CustomName": "{\"color\":\"dark_purple\",\"translate\":\"gateways.end_invasion.text.michealwave_sr\"}",
             "IsImmuneToZombification": true
           },
           "count": 1
@@ -134,7 +130,7 @@
         {
           "attribute": "attributeslib:arrow_damage",
           "operation": "ADDITION",
-          "value": 0.10
+          "value": 0.1
         },
         {
           "attribute": "attributeslib:life_steal",
@@ -160,12 +156,11 @@
           "entity": "specialmobs:lightningenderman",
           "count": 3
         },
-  
-            {
+        {
           "entity": "bosses_of_mass_destruction:obsidilith",
           "nbt": {
             "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Ancient Enderium Totem\",\"color\":\"dark_purple\"}",
+            "CustomName": "{\"color\":\"dark_purple\",\"translate\":\"gateways.end_invasion.text.ancient_enderium_totem\"}",
             "IsImmuneToZombification": true
           },
           "count": 1
@@ -190,7 +185,7 @@
         {
           "attribute": "attributeslib:life_steal",
           "operation": "ADDITION",
-          "value": 0.10
+          "value": 0.1
         }
       ],
       "rewards": [
@@ -209,13 +204,11 @@
       "entities": [
         {
           "entity": "cataclysm:ender_golem",
-               "nbt": {
+          "nbt": {
             "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Enderium Golem\",\"color\":\"dark_purple\"}",
+            "CustomName": "{\"color\":\"dark_purple\",\"translate\":\"gateways.end_invasion.text.enderium_golem\"}",
             "IsImmuneToZombification": true
           },
-        
-    
           "modifiers": [
             {
               "attribute": "attributeslib:armor_shred",
@@ -259,10 +252,10 @@
       "entities": [
         {
           "entity": "cataclysm:ender_guardian",
-          "desc": "Enderium Golem",
+          "desc": "gateways.end_invasion.desc.enderium_golem",
           "nbt": {
             "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Enderium Guardian\",\"color\":\"dark_purple\"}",
+            "CustomName": "{\"color\":\"dark_purple\",\"translate\":\"gateways.end_invasion.text.enderium_guardian\"}",
             "IsImmuneToZombification": true
           },
           "count": 1
