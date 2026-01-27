@@ -79,7 +79,7 @@
 			y: 5.607142857142868d
 		}
 	]
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -98,27 +98,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -126,7 +109,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Space! The Final Frontier!"
+			subtitle: "{ftbquests.chapter.space_exploration.quest4822020129820061754.subtitle}"
 			tasks: [{
 				id: "6BC0D5E5B882DF1F"
 				item: "ad_astra:nasa_workbench"
@@ -160,7 +143,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "1D1BAF150C07CACF"
-					title: "{chapter.31.quest.2.reward.4.title}"
+					title: "{ftbquests.chapter.space_exploration.quest860326324407849807.reward.2097462556402109135.title}"
 					type: "command"
 				}
 				{
@@ -176,27 +159,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -242,7 +208,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "3ADAAA2871BE4AF2"
-					title: "{chapter.31.quest.3.reward.4.title}"
+					title: "{ftbquests.chapter.space_exploration.quest7109661192238860382.reward.4240889089806453490.title}"
 					type: "command"
 				}
 				{
@@ -258,27 +224,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -324,7 +273,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "408FD478B3E38A22"
-					title: "{chapter.31.quest.4.reward.4.title}"
+					title: "{ftbquests.chapter.space_exploration.quest4671346727798128047.reward.4652170554976209442.title}"
 					type: "command"
 				}
 				{
@@ -340,27 +289,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -397,27 +329,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -449,27 +364,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -542,27 +440,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -594,27 +475,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -642,7 +506,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.9.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest7089564242625669321.subtitle}"
 			tasks: [{
 				id: "34C69639A15E471B"
 				item: "ad_astra:steel_tank"
@@ -660,7 +524,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.10.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest8520797619380283214.subtitle}"
 			tasks: [{
 				id: "2F66CC4ACE29A4FF"
 				item: "ad_astra:steel_tank"
@@ -678,7 +542,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest8524884958137419163.subtitle}"
 			tasks: [{
 				id: "7CA0E6D783693365"
 				item: "ad_astra:rocket_fin"
@@ -696,7 +560,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.12.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest2825229663672679118.subtitle}"
 			tasks: [{
 				id: "36783E98DBD4AC3D"
 				item: "ad_astra:rocket_fin"
@@ -714,7 +578,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.13.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest4838299077471308976.subtitle}"
 			tasks: [{
 				id: "083C991D8332BF53"
 				item: "ad_astra:rocket_fin"
@@ -732,7 +596,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.14.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest903626784107177114.subtitle}"
 			tasks: [{
 				id: "6A12CEFA5E9E54D3"
 				item: "ad_astra:rocket_fin"
@@ -750,7 +614,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest8700959194979734597.subtitle}"
 			tasks: [{
 				id: "49D1D6274A991096"
 				item: {
@@ -760,10 +624,10 @@
 						value: "forge:storage_blocks/steel"
 					}
 				}
-				title: "Any #forge:storage_blocks/steel"
+				title: "{ftbquests.chapter.space_exploration.quest8700959194979734597.task.5319268099144880278.title}"
 				type: "item"
 			}]
-			title: "Steel Block"
+			title: "{ftbquests.chapter.space_exploration.quest8700959194979734597.title}"
 			x: -8.0d
 			y: 6.0d
 		}
@@ -777,7 +641,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			size: 0.8d
-			subtitle: "{chapter.31.quest.17.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest8167739399685102462.subtitle}"
 			tasks: [{
 				id: "7E27FB8B55EB0DAB"
 				item: "ad_astra:steel_engine"
@@ -795,7 +659,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.22.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest3140161443277460516.subtitle}"
 			tasks: [{
 				id: "3678BD8675627BCD"
 				item: "ad_astra:rocket_nose_cone"
@@ -806,34 +670,14 @@
 		}
 		{
 			id: "3C855F312B929DF8"
-			rewards: [
-				{
-					id: "2826C69B12266C79"
-					type: "custom"
-				}
-				{
-					count: 3
-					id: "37C59EC57ABCA6B9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "boss_tools:chesse"
-					}
-					type: "item"
-				}
-				{
-					amount: 150L
-					currency: "eternalcurrencies:coins"
-					id: "0C134CD9C8AC9E37"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
-			subtitle: "{chapter.31.quest.23.subtitle}"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "0C134CD9C8AC9E37"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.space_exploration.quest4360996478967258616.subtitle}"
 			tasks: [{
 				id: "63FD0387003BA200"
 				item: "ad_astra:rocket_nose_cone"
@@ -851,7 +695,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.29.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest7726724727484126721.subtitle}"
 			tasks: [{
 				id: "1DD4CB7798DE74B2"
 				item: "ad_astra:desh_block"
@@ -869,7 +713,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.30.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest5626553733466166808.subtitle}"
 			tasks: [{
 				id: "4FAEC77E8FCAF4A9"
 				item: "ad_astra:desh_tank"
@@ -887,7 +731,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.31.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest2672967538365960311.subtitle}"
 			tasks: [{
 				id: "100A8D4C936F9E66"
 				item: "ad_astra:desh_tank"
@@ -899,7 +743,7 @@
 		{
 			hide_dependency_lines: true
 			id: "7B1EBC019E8F4150"
-			subtitle: "{chapter.31.quest.32.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest8871735031107633488.subtitle}"
 			tasks: [{
 				id: "79FD8930144AE8A7"
 				item: "ad_astra:rocket_fin"
@@ -911,7 +755,7 @@
 		{
 			hide_dependent_lines: true
 			id: "1FACA1A39174F4B0"
-			subtitle: "{chapter.31.quest.33.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest2282376835062101168.subtitle}"
 			tasks: [{
 				id: "74ADB61341AEB38C"
 				item: "ad_astra:rocket_fin"
@@ -922,7 +766,7 @@
 		}
 		{
 			id: "218EC6915DCF22D0"
-			subtitle: "{chapter.31.quest.34.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest2418088377590948560.subtitle}"
 			tasks: [{
 				id: "45199B3B9AB44F15"
 				item: "ad_astra:rocket_fin"
@@ -933,7 +777,7 @@
 		}
 		{
 			id: "07C1285EDA150255"
-			subtitle: "{chapter.31.quest.35.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest558772216621498965.subtitle}"
 			tasks: [{
 				id: "245F1153A30084CF"
 				item: "ad_astra:rocket_fin"
@@ -952,7 +796,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			size: 0.8d
-			subtitle: "{chapter.31.quest.36.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest3340883334882245680.subtitle}"
 			tasks: [{
 				id: "6AC8E41175839C02"
 				item: "ad_astra:desh_engine"
@@ -963,7 +807,7 @@
 		}
 		{
 			dependencies: ["0BF07E3BDD3F534F"]
-			description: ["{image:ad_astra:textures/painting/moon.png width:100 height:100 align:center}"]
+			description: ["{ftbquests.chapter.space_exploration.quest7177978226943381587.image0}"]
 			hide_dependency_lines: true
 			id: "639D4D2AB672D053"
 			rewards: [
@@ -973,27 +817,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1008,7 +835,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.31.quest.37.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest7177978226943381587.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				icon: "ad_astra:moon_globe"
@@ -1020,15 +847,15 @@
 		}
 		{
 			dependencies: ["62AA972F8CC7085E"]
-			description: ["{image:ad_astra:textures/painting/mars.png width:100 height:100 align:center}"]
+			description: ["{ftbquests.chapter.space_exploration.quest6936730246540684140.image0}"]
 			hide_dependency_lines: true
 			id: "6044376827C3EB6C"
 			rewards: [
 				{
-					command: "/titles add @p titles:martian"
+					command: "/titles add {p} titles:martian"
 					icon: "titles:title_scroll_uncommon"
 					id: "2C8DF87178A2AD6C"
-					title: "{chapter.31.quest.38.reward.2.title}"
+					title: "{ftbquests.chapter.space_exploration.quest6936730246540684140.reward.3210495275623951724.title}"
 					type: "command"
 				}
 				{
@@ -1037,27 +864,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1072,7 +882,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.31.quest.38.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest6936730246540684140.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
@@ -1084,7 +894,7 @@
 		}
 		{
 			dependencies: ["40D3F5195D173DAF"]
-			description: ["{image:ad_astra:textures/painting/venus.png width:100 height:100 align:center}"]
+			description: ["{ftbquests.chapter.space_exploration.quest8026733522726484678.image0}"]
 			hide_dependency_lines: true
 			id: "6F64AF9C88D4FAC6"
 			rewards: [
@@ -1094,27 +904,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1129,7 +922,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.31.quest.39.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest8026733522726484678.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
@@ -1141,7 +934,7 @@
 		}
 		{
 			dependencies: ["40D3F5195D173DAF"]
-			description: ["{image:ad_astra:textures/painting/mercury.png width:100 height:100 align:center}"]
+			description: ["{ftbquests.chapter.space_exploration.quest2336105919424498381.image0}"]
 			hide_dependency_lines: true
 			id: "206B83F4DCFC0ACD"
 			rewards: [
@@ -1151,27 +944,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1186,7 +962,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.31.quest.40.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest2336105919424498381.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
@@ -1205,7 +981,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest1685381211817972188.subtitle}"
 			tasks: [{
 				id: "19577F3F1B9BA23F"
 				item: {
@@ -1215,10 +991,10 @@
 						value: "forge:storage_blocks/steel"
 					}
 				}
-				title: "Any #forge:storage_blocks/steel"
+				title: "{ftbquests.chapter.space_exploration.quest1685381211817972188.task.1826068082944877119.title}"
 				type: "item"
 			}]
-			title: "Steel Block"
+			title: "{ftbquests.chapter.space_exploration.quest1685381211817972188.title}"
 			x: -9.0d
 			y: 6.0d
 		}
@@ -1231,7 +1007,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest7077959718243071713.subtitle}"
 			tasks: [{
 				id: "0B439DEEBED4D2AA"
 				item: {
@@ -1241,10 +1017,10 @@
 						value: "forge:storage_blocks/steel"
 					}
 				}
-				title: "Any #forge:storage_blocks/steel"
+				title: "{ftbquests.chapter.space_exploration.quest7077959718243071713.task.811666006586217130.title}"
 				type: "item"
 			}]
-			title: "Steel Block"
+			title: "{ftbquests.chapter.space_exploration.quest7077959718243071713.title}"
 			x: -9.0d
 			y: 5.0d
 		}
@@ -1257,7 +1033,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest4110077881903739640.subtitle}"
 			tasks: [{
 				id: "1D4AEB6F9E7390C6"
 				item: {
@@ -1267,10 +1043,10 @@
 						value: "forge:storage_blocks/steel"
 					}
 				}
-				title: "Any #forge:storage_blocks/steel"
+				title: "{ftbquests.chapter.space_exploration.quest4110077881903739640.task.2110758240008769734.title}"
 				type: "item"
 			}]
-			title: "Steel Block"
+			title: "{ftbquests.chapter.space_exploration.quest4110077881903739640.title}"
 			x: -8.0d
 			y: 5.0d
 		}
@@ -1283,7 +1059,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest8578040531677746572.subtitle}"
 			tasks: [{
 				id: "649B92DF5F18B5E4"
 				item: {
@@ -1293,10 +1069,10 @@
 						value: "forge:storage_blocks/steel"
 					}
 				}
-				title: "Any #forge:storage_blocks/steel"
+				title: "{ftbquests.chapter.space_exploration.quest8578040531677746572.task.7249549513253762532.title}"
 				type: "item"
 			}]
-			title: "Steel Block"
+			title: "{ftbquests.chapter.space_exploration.quest8578040531677746572.title}"
 			x: -8.0d
 			y: 4.0d
 		}
@@ -1309,7 +1085,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest9031701916843634263.subtitle}"
 			tasks: [{
 				id: "32DD20FB8A2E2792"
 				item: {
@@ -1319,10 +1095,10 @@
 						value: "forge:storage_blocks/steel"
 					}
 				}
-				title: "Any #forge:storage_blocks/steel"
+				title: "{ftbquests.chapter.space_exploration.quest9031701916843634263.task.3665121936476612498.title}"
 				type: "item"
 			}]
-			title: "Steel Block"
+			title: "{ftbquests.chapter.space_exploration.quest9031701916843634263.title}"
 			x: -9.0d
 			y: 4.0d
 		}
@@ -1335,7 +1111,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.29.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest4961756331357395259.subtitle}"
 			tasks: [{
 				id: "7E6A96B44ECAE62A"
 				item: "ad_astra:desh_block"
@@ -1353,7 +1129,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.29.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest4809862938401754119.subtitle}"
 			tasks: [{
 				id: "7748833A570C7B2A"
 				item: "ad_astra:desh_block"
@@ -1371,7 +1147,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.29.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest380189136438182263.subtitle}"
 			tasks: [{
 				id: "2B4F78C485E5B1DC"
 				item: "ad_astra:desh_block"
@@ -1389,7 +1165,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.29.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest9216622283446686150.subtitle}"
 			tasks: [{
 				id: "5FD74C75B87E5BC5"
 				item: "ad_astra:desh_block"
@@ -1407,7 +1183,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.31.quest.29.subtitle}"
+			subtitle: "{ftbquests.chapter.space_exploration.quest7424578824363161205.subtitle}"
 			tasks: [{
 				id: "3741EA233C6CD8E4"
 				item: "ad_astra:desh_block"
@@ -1417,5 +1193,5 @@
 			y: 4.0d
 		}
 	]
-	title: "&6Space Exploration"
+	title: "{ftbquests.chapter.space_exploration.title}"
 }

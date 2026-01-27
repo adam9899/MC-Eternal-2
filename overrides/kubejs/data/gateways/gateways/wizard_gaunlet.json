@@ -1,0 +1,345 @@
+{
+	"size": "small",
+	"color": "#a8d1ff",
+	"waves": [{
+		"entities": [
+			{
+				"entity": "rats:rat",
+				"desc": "♥ Cute innocent rat ♥",
+				"nbt": {
+					"CustomNameVisible": 1,
+					"CustomName": "{\"text\":\"♥ Cute Innocent Rat ♥\",\"color\":\"light_purple\"}",
+					"DeathLootTable":""
+				},
+				"count": 1
+			}                
+		],
+		"modifiers": [
+		],
+		"rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+			"item": "rats:rat_skull",
+			"count": 1
+			}
+		},
+		{
+			"type": "gateways:command",
+			"command": "tellraw @p {\"text\":\"A Holy Priest saw your crime\",\"color\":\"white\"}",
+			"desc": "Heretics Bane"
+		}],
+		"max_wave_time": 400,
+		"setup_time": 100
+	},{
+		"entities": [
+			{
+				"entity": "irons_spellbooks:priest",
+				"desc": "Holy Priest",
+				"nbt": {
+					"DeathLootTable":"",
+					"ArmorItems":[{
+						"Count":1,
+						"id":"irons_spellbooks:priest_boots"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:priest_leggings"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:priest_chestplate"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:priest_helmet"
+					}]
+				},
+				"count": 1				
+			}                
+		],
+		"modifiers": [
+			{
+				"attribute": "generic.max_health",
+				"operation": "MULTIPLY_TOTAL",
+				"value": 0.10
+			}
+		],
+		"rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+			"item": "irons_spellbooks:arcane_essence",
+			"count": 4
+			}
+		},
+		{
+			"type": "gateways:command",
+			"command": "tellraw @p {\"text\":\"The Local Apothecarist is approaching\",\"color\":\"green\"}",
+			"desc": "Forgot their dairy"
+		}],
+		"max_wave_time": 800,
+		"setup_time": 200
+	},{
+		"entities": [
+			{
+				"entity": "irons_spellbooks:apothecarist",
+				"desc": "Local Apothecarist",
+				"nbt": {
+					"DeathLootTable":"",
+					"ArmorItems":[{
+						"Count":1,
+						"id":"irons_spellbooks:apothecarist_boots"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:apothecarist_leggings"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:apothecarist_chestplate"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:apothecarist_helmet"
+					}]
+				},
+				"count": 1				
+			}                
+		],
+		"modifiers": [
+			{
+				"attribute": "generic.max_health",
+				"operation": "MULTIPLY_TOTAL",
+				"value": 0.20
+			}
+		],
+		"rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+			"item": "irons_spellbooks:arcane_essence",
+			"count": 6
+			}
+		},
+		{
+			"type": "gateways:command",
+			"command": "tellraw @p {\"text\":\"An Ice Cold Cryomancer is approaching\",\"color\":\"dark_aqua\"}",
+			"desc": "Ice Ice Baby"
+		}],
+		"max_wave_time": 800,
+		"setup_time": 200
+	},{
+		"entities": [
+			{
+				"entity": "irons_spellbooks:cryomancer",
+				"desc": "Ice Cold Cryomancers",
+				"nbt": {
+					"DeathLootTable":"",
+					"ArmorItems":[{
+						"Count":1,
+						"id":"irons_spellbooks:cryomancer_boots"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:cryomancer_leggings"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:cryomancer_chestplate"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:cryomancer_helmet"
+					}]
+				},
+				"count": 1
+			}                
+		],
+		"modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.30
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                }
+		],
+		"rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+			"item": "irons_spellbooks:arcane_essence",
+			"count": 8
+			}
+		},
+		{
+			"type": "gateways:command",
+			"command": "tellraw @p {\"text\":\"The Blazing Pyromancer is mad at you\",\"color\":\"red\"}",
+			"desc": "Flame On!"
+		}],
+		"max_wave_time": 1200,
+		"setup_time": 200
+	},{
+		"entities": [
+			{
+				"entity": "irons_spellbooks:pyromancer",
+				"desc": "Bring your own sunscreen",
+				"nbt": {
+					"DeathLootTable":"",
+					"ArmorItems":[{
+						"Count":1,
+						"id":"irons_spellbooks:pyromancer_boots"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:pyromancer_leggings"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:pyromancer_chestplate"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:pyromancer_helmet"
+					}]
+				},
+				"count": 1
+			}                
+		],
+		"modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.40
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.20
+                },
+                 {
+                    "attribute": "attributeslib:fire_damage",
+                    "operation": "ADDITION",
+                    "value": 7
+                }
+		],
+		"rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+			"item": "irons_spellbooks:arcane_essence",
+			"count": 10
+			}
+		},
+		{
+			"type": "gateways:command",
+			"command": "tellraw @p {\"text\":\"The ArchEvoker WILL finish this nonsense.\",\"color\":\"dark_green\"}",
+			"desc": "End of the line"
+		}],
+		"max_wave_time": 1200,
+		"setup_time": 200
+	},{
+		"entities": [
+			{
+				"entity": "irons_spellbooks:archevoker",
+				"desc": "Minions galore",
+				"nbt": {
+					"DeathLootTable":"",
+					"ArmorItems":[{
+						"Count":1,
+						"id":"irons_spellbooks:archevoker_boots"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:archevoker_leggings"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:archevoker_chestplate"
+					},
+					{
+						"Count":1,
+						"id":"irons_spellbooks:archevoker_helmet"
+					}]
+				},
+				"count": 1
+			},
+			    {
+                    "entity": "illager_additions:royal_guard_spearman",
+                     "desc": "Security!!",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Royal Security Guard\",\"color\":\"gold\"}",
+                        "IsImmuneToZombification": true
+                    },
+                    "count": 2
+                }
+		],
+		"modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.50
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.20
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.30
+                }
+		],
+		"rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+			"item": "irons_spellbooks:arcane_essence",
+			"count": 12
+			}
+		},
+		{
+			"type": "gateways:command",
+			"command": "tellraw @p {\"text\":\"You'll pay for your crimes against rats, one day!!!\",\"color\":\"white\"}",
+			"desc": "Farewell"
+		}],
+		"max_wave_time": 1200,
+		"setup_time": 200
+	}],
+	"rewards": [{
+		"type": "gateways:stack",
+		"stack": {
+			"item": "irons_spellbooks:silver_ring",
+			"count": 1
+		}
+	},
+	{
+		"type": "gateways:stack",
+		"stack": {
+			"item": "irons_spellbooks:blank_rune",
+			"count": 2
+		}
+	},
+	{
+		"type": "gateways:command",
+		"command": "tell @p You won, but at what cost.",
+		"desc": "Good Job"
+	}],
+	"failures": [{
+		"type": "gateways:mob_effect",
+		"effect": "slowness",
+		"duration": 15,
+		"amplifier": 4
+	},
+	{
+		"type": "gateways:mob_effect",
+		"effect": "mining_fatigue",
+		"duration": 15,
+		"amplifier": 4
+	},
+	{
+		"type": "gateways:command",
+		"command": "tell <summoner> Don't you dare harm another beautiful rat again.",
+		"desc": "Too Bad"
+	}]
+}

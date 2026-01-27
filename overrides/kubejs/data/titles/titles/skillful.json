@@ -1,0 +1,6 @@
+ {
+  "type": "command",
+  "id": "titles:skill",
+  "rarity": "rare",
+  "defaultDisplay": "the Skillful"
+}

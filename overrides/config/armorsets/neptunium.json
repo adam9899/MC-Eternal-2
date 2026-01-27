@@ -1,0 +1,28 @@
+{
+  "armorSetName": "Neptunium",
+  "head": {
+    "itemKey": "aquaculture:neptunium_helmet"
+  },
+  "chest": {
+    "itemKey": "aquaculture:neptunium_chestplate"
+  },
+  "legs": {
+    "itemKey": "aquaculture:neptunium_leggings"
+  },
+  "boots": {
+    "itemKey": "aquaculture:neptunium_boots"
+  },
+  "fullSetBonuses": [
+    {
+       "type": "effect",
+      "name": "tombstone:aquatic_life",
+      "value": 4.0,
+      "interactionType": "self",
+	  "description": "Neptunes Blessing: Drastically faster swim speed in water!",
+      "interactionDuration": 300,
+      "hideBonusDescription": false
+    }
+  ],
+
+  "hideGeneratedTooltip": false
+}

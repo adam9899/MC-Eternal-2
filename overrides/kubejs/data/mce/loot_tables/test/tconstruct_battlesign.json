@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "tconstruct:add_tool_data",
+                            "materials": [
+                                {
+                                    "type": "tconstruct:random",
+                                    "allow_hidden": true,
+                                    "material": {
+                                        "type": "mantle:inverted",
+                                        "inverted_type": "mantle:tag",
+                                        "tag": "tconstruct:exclude_from_loot"
+                                    }
+                                },
+                                {
+                                    "type": "tconstruct:random",
+                                    "allow_hidden": true,
+                                    "material": {
+                                        "type": "mantle:inverted",
+                                        "inverted_type": "mantle:tag",
+                                        "tag": "tconstruct:exclude_from_loot"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "name": "tconstruct:battlesign"
+                }
+            ],
+            "name": "main"
+        }
+    ]
+}

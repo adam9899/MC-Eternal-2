@@ -1,0 +1,89 @@
+{
+  "general": {
+    "action": "ntgl:gun",
+    "rate": 10,
+    "gripType": "ntgl:one_handed",
+    "maxAmmo": 1,
+    "equipTime": 0,
+    "reloadTime": 80,
+    "recoilAngle": -7.0,
+    "recoilAdsReduction": 0.15,
+    "alwaysSpread": true,
+    "enchantable": false,
+    "spread": 3.5,
+    "ammo": [
+      "cgs:paper_cartridge"
+    ]
+  },
+  "ammoData": {
+    "cgs:paper_cartridge": {
+      "ammo": {
+        "type": "ntgl:standard"
+      },
+      "projectile":{
+        "visible": true,
+        "damage": 35.0,
+        "size": 0.5,
+        "speed": 10.0,
+        "life": 100,
+        "damageReduceOverLife": true,
+        "gravity": true
+      }
+    }
+  },
+  "animations": {
+    "ntgl:reload": "ntgl:revolver_reload"
+  },
+  "sounds": {
+    "fire"    : "cgs:gun.flintlock.fire",
+    "ammo_in" : "cgs:gun.flintlock.ammo_in",
+    "cock"    : "cgs:gun.flintlock.cock",
+    "ramrod"  : "cgs:gun.flintlock.ramrod"
+  },
+  "modules": {
+    "attachmentScreen": true,
+    "zoom": {
+      "offset": [ -0.1, 3.6, 1.4],
+      "fovModifier": 0.7
+    },
+    "attachments": {
+      "ntgl:scope": [
+        {
+          "name": "scope",
+          "item": "cgs:scope",
+          "offset": [ -0.6,
+           0.9,
+           0 ]
+        }
+      ],
+      "ntgl:barrel": [
+        {
+          "name": "long_barrel",
+          "item": "cgs:flintlock_long_barrel",
+          "hide": ["muzzle", "melee2"]
+        },
+        {
+          "name": "grenade_launcher",
+          "item": "cgs:flintlock_grenade_launcher"
+        }
+      ],
+      "ntgl:stock": [
+        {
+          "name": "stock",
+          "item": "cgs:stock"
+        }
+      ],
+      "ntgl:muzzle": [
+        {
+          "name": "melee",
+          "item": "cgs:bayonet",
+          "bones": ["melee2"]
+        },
+        {
+          "name": "axe",
+          "item": "cgs:flintlock_axe"
+        }
+      ]
+    }
+  }
+}

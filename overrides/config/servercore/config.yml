@@ -4,7 +4,7 @@
 # Most miscellaneous feature toggles.
 features:
   # Stops the server from loading spawn chunks.
-  disable-spawn-chunks: false
+  disable-spawn-chunks: true
   # Prevents lagspikes caused by players moving into unloaded chunks.
   prevent-moving-into-unloaded-chunks: false
   # The amount of ticks between auto-saves when /save-on is active.
@@ -18,7 +18,7 @@ features:
   item-merge-radius: 0.5
   lobotomize-villagers:
     # Makes villagers tick less often if they are stuck in a 1x1 space.
-    enabled: false
+    enabled: true
     # Decides the interval in between villager ticks when lobotomized.
     tick-interval: 20
 
@@ -64,7 +64,7 @@ dynamic:
 # A special mobcap that only affects the breeding of animals and villagers.
 breeding-cap:
   # Enables breeding caps.
-  enabled: false
+  enabled: true
   # The breeding cap for villagers.
   # ► limit = The limit of mobs of the same type within range. Setting this to negative will disable the breeding cap.
   # ► range = The range it will check for entities of the same type.

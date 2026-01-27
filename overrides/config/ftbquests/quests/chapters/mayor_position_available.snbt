@@ -183,7 +183,7 @@
 			y: -1.4285714285714306d
 		}
 	]
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -192,7 +192,10 @@
 				"6B67E2D893F1941E"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{chapter.17.quest.1.description.1}"]
+			description: [
+				"{ftbquests.chapter.mayor_position_available.quest3943352435617385756.description1}"
+				"{ftbquests.chapter.mayor_position_available.quest3943352435617385756.description2}"
+			]
 			id: "36B99A25BD254D1C"
 			rewards: [
 				{
@@ -200,7 +203,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "68DDA0891FAD74FB"
-					title: "{chapter.17.quest.1.reward.3.title}"
+					title: "{ftbquests.chapter.mayor_position_available.quest3943352435617385756.reward.7556372260599985403.title}"
 					type: "command"
 				}
 				{
@@ -209,24 +212,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -240,7 +229,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.1.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest3943352435617385756.subtitle}"
 			tasks: [{
 				id: "6E676F4E47AF7393"
 				item: "minecolonies:blockhuttownhall"
@@ -250,7 +239,13 @@
 			y: -1.152380952380959d
 		}
 		{
-			description: ["{chapter.17.quest.2.description.1}"]
+			description: [
+				"{ftbquests.chapter.mayor_position_available.quest7739403904482382878.description1}"
+				""
+				"{ftbquests.chapter.mayor_position_available.quest7739403904482382878.description2}"
+				""
+				"{ftbquests.chapter.mayor_position_available.quest7739403904482382878.description3}"
+			]
 			id: "6B67E2D893F1941E"
 			optional: true
 			rewards: [
@@ -260,24 +255,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -292,18 +273,24 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{chapter.17.quest.2.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest7739403904482382878.subtitle}"
 			tasks: [{
 				id: "64F01A965555AF83"
 				item: "minecolonies:supplychestdeployer"
 				type: "item"
 			}]
-			title: "{chapter.17.quest.2.title}"
+			title: "{ftbquests.chapter.mayor_position_available.quest7739403904482382878.title}"
 			x: 0.4761904761904674d
 			y: -0.9523809523809561d
 		}
 		{
-			description: ["{chapter.17.quest.3.description.1}"]
+			description: [
+				"{ftbquests.chapter.mayor_position_available.quest1918846649344769445.description1}"
+				""
+				"{ftbquests.chapter.mayor_position_available.quest1918846649344769445.description2}"
+				""
+				"{ftbquests.chapter.mayor_position_available.quest1918846649344769445.description3}"
+			]
 			id: "1AA11CDC70A4BDA5"
 			optional: true
 			rewards: [
@@ -313,24 +300,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -345,19 +318,22 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{chapter.17.quest.3.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest1918846649344769445.subtitle}"
 			tasks: [{
 				id: "57F6504817B55C4A"
 				item: "minecolonies:supplycampdeployer"
 				type: "item"
 			}]
-			title: "{chapter.17.quest.3.title}"
+			title: "{ftbquests.chapter.mayor_position_available.quest1918846649344769445.title}"
 			x: 6.571428571428569d
 			y: -1.0d
 		}
 		{
 			dependencies: ["36B99A25BD254D1C"]
-			description: ["{chapter.17.quest.4.description.1}"]
+			description: [
+				"{ftbquests.chapter.mayor_position_available.quest8846088757248034273.description1}"
+				"{ftbquests.chapter.mayor_position_available.quest8846088757248034273.description2}"
+			]
 			id: "7AC39EDB2B5885E1"
 			rewards: [
 				{
@@ -375,24 +351,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -406,7 +368,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.4.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest8846088757248034273.subtitle}"
 			tasks: [
 				{
 					id: "5EFE696638FBD2A2"
@@ -423,7 +385,7 @@
 					advancement: "minecolonies:minecolonies/citizen_eat_food_first"
 					criterion: ""
 					id: "4BB2F0634C1616AB"
-					title: "{chapter.17.quest.4.task.3.title}"
+					title: "{ftbquests.chapter.mayor_position_available.quest8846088757248034273.task.5454686407968036523.title}"
 					type: "advancement"
 				}
 			]
@@ -432,7 +394,7 @@
 		}
 		{
 			dependencies: ["7AC39EDB2B5885E1"]
-			description: ["{chapter.17.quest.5.description.1}"]
+			description: ["{ftbquests.chapter.mayor_position_available.quest3906423856654640752.description1}"]
 			id: "363667CCEE02E670"
 			rewards: [
 				{
@@ -441,24 +403,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -472,7 +420,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.5.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest3906423856654640752.subtitle}"
 			tasks: [
 				{
 					id: "21AC1F41DF8B0D9E"
@@ -491,7 +439,7 @@
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["{chapter.17.quest.6.description.1}"]
+			description: ["{ftbquests.chapter.mayor_position_available.quest1591880329328478119.description1}"]
 			id: "16177EB9B28E47A7"
 			optional: true
 			rewards: [
@@ -506,24 +454,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -537,7 +471,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.6.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest1591880329328478119.subtitle}"
 			tasks: [{
 				id: "5A95546DA8465642"
 				item: "minecolonies:blockhutfisherman"
@@ -548,7 +482,7 @@
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["{chapter.17.quest.7.description.1}"]
+			description: ["{ftbquests.chapter.mayor_position_available.quest5943626480411644727.description1}"]
 			id: "527C00CB128A9337"
 			optional: true
 			rewards: [
@@ -558,24 +492,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -589,7 +509,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.7.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest5943626480411644727.subtitle}"
 			tasks: [{
 				id: "2728715D01C81A7D"
 				item: "minecolonies:blockhutfarmer"
@@ -603,7 +523,7 @@
 				"527C00CB128A9337"
 				"16177EB9B28E47A7"
 			]
-			description: ["{chapter.17.quest.8.description.1}"]
+			description: ["{ftbquests.chapter.mayor_position_available.quest525256321789497482.description1}"]
 			id: "074A15D77C4A908A"
 			optional: true
 			rewards: [
@@ -618,24 +538,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -649,7 +555,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.8.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest525256321789497482.subtitle}"
 			tasks: [{
 				id: "50DA33A7DB2B8BF6"
 				item: "minecolonies:blockhutcook"
@@ -687,31 +593,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.9.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest277043016867283360.subtitle}"
 			tasks: [{
 				id: "654838AEED76AAE7"
 				item: "minecolonies:blockhutlumberjack"
@@ -744,8 +636,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -758,31 +650,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.10.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest5446505472062696635.subtitle}"
 			tasks: [
 				{
 					id: "7D4B7C445C817284"
@@ -819,31 +697,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest5717330726434018328.subtitle}"
 			tasks: [{
 				id: "1631350DA38BED2D"
 				item: "minecolonies:blockhutwarehouse"
@@ -872,31 +736,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.12.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest1794021054735412351.subtitle}"
 			tasks: [{
 				id: "7ADC149BC99697CA"
 				item: "minecolonies:blockhutdeliveryman"
@@ -907,7 +757,7 @@
 		}
 		{
 			dependencies: ["4B8CEF6761AED987"]
-			description: ["{chapter.17.quest.13.description.1}"]
+			description: ["{ftbquests.chapter.mayor_position_available.quest518960672522183816.description1}"]
 			id: "0733B7FB6A152488"
 			optional: true
 			rewards: [
@@ -923,8 +773,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -943,24 +793,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -974,7 +810,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.13.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest518960672522183816.subtitle}"
 			tasks: [
 				{
 					id: "4D377A083B08D849"
@@ -1012,31 +848,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.14.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest6928217550473890420.subtitle}"
 			tasks: [{
 				id: "244BA51187DF5812"
 				item: "minecolonies:blockhuthospital"
@@ -1075,31 +897,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest5443989276883605895.subtitle}"
 			tasks: [{
 				id: "16D1E5F625471EA5"
 				item: "minecolonies:blockhutsawmill"
@@ -1110,7 +918,7 @@
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["{chapter.17.quest.16.description.1}"]
+			description: ["{ftbquests.chapter.mayor_position_available.quest2540792441687468057.description1}"]
 			hide_dependency_lines: true
 			id: "2342B54396C76819"
 			rewards: [
@@ -1126,8 +934,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1140,24 +948,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1171,12 +965,12 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.16.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest2540792441687468057.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_builder_2"
 				criterion: ""
 				id: "4D3B1D5903C0226C"
-				title: "{chapter.17.quest.16.task.1.title}"
+				title: "{ftbquests.chapter.mayor_position_available.quest2540792441687468057.task.5565074032698597996.title}"
 				type: "advancement"
 			}]
 			x: 3.6857142857142833d
@@ -1193,8 +987,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1207,24 +1001,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1239,14 +1019,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.17.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest7013861010115928777.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_25"
 				criterion: ""
 				id: "74B4FA169BDCAEC1"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.17.title}"
+			title: "{ftbquests.chapter.mayor_position_available.quest7013861010115928777.title}"
 			x: 3.0d
 			y: 10.0d
 		}
@@ -1272,8 +1052,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1286,24 +1066,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1318,14 +1084,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.18.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest8106985922084552939.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_town_hall_5"
 				criterion: ""
 				id: "1566F2A881007EA7"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.18.title}"
+			title: "{ftbquests.chapter.mayor_position_available.quest8106985922084552939.title}"
 			x: 5.0d
 			y: 10.0d
 		}
@@ -1340,8 +1106,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1354,24 +1120,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1386,14 +1138,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.19.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest2721711342676637710.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_75"
 				criterion: ""
 				id: "3BFA8148F3D22B7D"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.19.title}"
+			title: "{ftbquests.chapter.mayor_position_available.quest2721711342676637710.title}"
 			x: 5.0d
 			y: 8.0d
 		}
@@ -1408,8 +1160,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1422,24 +1174,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1454,20 +1192,23 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.20.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest2665313273877843228.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_50"
 				criterion: ""
 				id: "565E0A2B34E4313B"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.20.title}"
+			title: "{ftbquests.chapter.mayor_position_available.quest2665313273877843228.title}"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["{chapter.17.quest.21.description.1}"]
+			description: [
+				"{ftbquests.chapter.mayor_position_available.quest1518433180720237150.description1}"
+				"{ftbquests.chapter.mayor_position_available.quest1518433180720237150.description2}"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1484,24 +1225,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1517,13 +1244,13 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "{chapter.17.quest.21.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest1518433180720237150.subtitle}"
 			tasks: [
 				{
 					advancement: "minecolonies:minecolonies/build_citizen"
 					criterion: ""
 					id: "0A66F94454F22A5B"
-					title: "{chapter.17.quest.21.task.1.title}"
+					title: "{ftbquests.chapter.mayor_position_available.quest1518433180720237150.task.749560459882015323.title}"
 					type: "advancement"
 				}
 				{
@@ -1532,7 +1259,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.17.quest.21.title}"
+			title: "{ftbquests.chapter.mayor_position_available.quest1518433180720237150.title}"
 			x: 3.602040816326536d
 			y: 1.3367346938775526d
 		}
@@ -1547,8 +1274,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1561,24 +1288,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1593,14 +1306,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.22.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest60210359929432801.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:military/build_all_barracks_towers"
 				criterion: ""
 				id: "50FC28648B47BD9A"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.22.title}"
+			title: "{ftbquests.chapter.mayor_position_available.quest60210359929432801.title}"
 			x: 7.0d
 			y: 8.0d
 		}
@@ -1626,24 +1339,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1658,17 +1357,17 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.23.subtitle}"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest420491539056604151.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:military/army_80"
 				criterion: ""
 				id: "120CAB09B2516713"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.23.title}"
+			title: "{ftbquests.chapter.mayor_position_available.quest420491539056604151.title}"
 			x: 3.0d
 			y: 8.0d
 		}
 	]
-	title: "{chapter.17.title}"
+	title: "{ftbquests.chapter.mayor_position_available.title}"
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Guard Villagers are an elite group of trained villagers who have a sworn duty to protect the village. Do not attack or steal from villagers when they are present!"
+    "translate": "tips.mce2.guard_villager"
   }
 }

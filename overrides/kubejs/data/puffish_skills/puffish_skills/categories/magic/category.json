@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Magic §7§o(Iron's Spells and Spellbooks)",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "irons_spellbooks:hither_thither_wand"
+		}
+	},
+	"background": "minecraft:textures/block/amethyst_block.png"
+}

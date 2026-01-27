@@ -1,0 +1,541 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampires_cookbook"
+	group: "6ACD28698B988220"
+	icon: {
+		Count: 1
+		id: "minecraft:written_book"
+		tag: {
+			AntiqueInk: 1b
+			author: "Cheferatu"
+			display: {
+				Lore: ["[\"\",{\"translate\":\"lore.mce2.mailbox.1\",\"italic\":false,\"color\":\"white\"}]"]
+				Name: "[\"\",{\"translate\":\"lore.mce2.mailbox.2\",\"italic\":false,\"color\":\"red\"}]"
+			}
+			generation: 3
+			pages: [
+				"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.1\"},{\"color\":\"dark_red\",\"insertion\":\"animandan\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/tell animandan \"},\"hoverEvent\":{\"action\":\"show_entity\",\"contents\":{\"type\":\"minecraft:player\",\"id\":\"98feea67-d965-4233-b106-fd482ad87b2f\",\"name\":{\"translate\":\"page.mce2.vampires_cookbook.1\"}}},\"extra\":[{\"translate\":\"page.mce2.vampires_cookbook.1\"}],\"text\":\"\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.2\"}],\"text\":\"\"}"
+				"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"translate\":\"page.mce2.mailbox.3\"}"
+			]
+			resolved: 1b
+			title: "To Serve Man"
+		}
+	}
+	id: "63A5D10D86A18BFD"
+	images: [
+		{
+			color: 7996677
+			height: 15.0d
+			image: "minecraft:textures/gui/book.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.226530612244929d
+			y: 5.2755102040816055d
+		}
+		{
+			height: 10.0d
+			image: "modpack:textures/barry_no_hat_no_mouth.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			height: 1.6d
+			image: "vampirism:textures/skills/vampire_lord.png"
+			rotation: -1.0d
+			width: 1.4d
+			x: -3.2257369614512115d
+			y: 8.909863945578216d
+		}
+		{
+			height: 5.0d
+			image: "ratatouille:item/chef_hat_with_goggles"
+			rotation: 20.0d
+			width: 7.0d
+			x: -2.094784580498832d
+			y: 6.493197278911552d
+		}
+		{
+			height: 1.5d
+			image: "modpack:textures/barry_ear.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.2185941043083517d
+			y: 7.174149659863929d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A2702FA5DD5FFE5"]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest4201576264237548053.description1}"]
+			id: "3A4EFF59F6978215"
+			tasks: [
+				{
+					id: "5049C56C6870A6EC"
+					item: "vampiresdelight:blood_syrup"
+					type: "item"
+				}
+				{
+					id: "4BD0F54034D7C671"
+					item: "vampiresdelight:bagel_sandwich"
+					type: "item"
+				}
+				{
+					id: "06559E9B3D4AF5FA"
+					item: "vampiresdelight:cursed_cupcake"
+					type: "item"
+				}
+				{
+					id: "3C01319A669C8307"
+					item: "vampiresdelight:blood_hot_dog"
+					type: "item"
+				}
+				{
+					id: "7DC52002E9857A27"
+					item: "vampiresdelight:dark_ice_cream"
+					type: "item"
+				}
+				{
+					id: "7806E9B7C893DB8D"
+					item: {
+						Count: 1
+						id: "vampiresdelight:blood_wine_bottle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "214DA230DB6FBC92"
+					item: "vampiresdelight:blood_wine_glass"
+					type: "item"
+				}
+				{
+					id: "299DA03E2FA9AAE3"
+					item: "vampiresdelight:blood_pie"
+					type: "item"
+				}
+				{
+					id: "0CD7FE3F6C0E3C50"
+					item: "vampiresdelight:blood_pie_slice"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.vampires_cookbook.quest4201576264237548053.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: [
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description1}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description2}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description3}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description4}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description5}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description6}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description7}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description8}"
+			]
+			icon: {
+				Count: 1
+				id: "vampirism:blood_bottle"
+				tag: {
+					Damage: 9
+				}
+			}
+			id: "1A2702FA5DD5FFE5"
+			tasks: [
+				{
+					id: "77F8FB83E4CEE0AC"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "293554B80DC2D391"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					match_nbt: true
+					title: "{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.task.2969372678802297745.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2702FA5DD5FFE5"]
+			description: [
+				"{ftbquests.chapter.vampires_cookbook.quest167030033390376677.description1}"
+				""
+				""
+				"{ftbquests.chapter.vampires_cookbook.quest167030033390376677.image0}"
+			]
+			id: "025168EE2F0E16E5"
+			tasks: [
+				{
+					count: 8L
+					id: "4165682641473750"
+					item: { Count: 8, id: "vampirism:bloody_dark_stone_bricks" }
+					type: "item"
+				}
+				{
+					id: "1488B9EBBC563A24"
+					item: "vampirism:vampire_blood_bottle"
+					type: "item"
+				}
+				{
+					dimension: "mce:the_vampire_forest"
+					id: "0B3904FC15E54D37"
+					type: "dimension"
+				}
+			]
+			title: "{ftbquests.chapter.vampires_cookbook.quest167030033390376677.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["025168EE2F0E16E5"]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest2310641575735329598.description1}"]
+			id: "20110C4554F4033E"
+			tasks: [{
+				id: "02AAF8C3E3AE28EA"
+				item: "vampirism:vampire_orchid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20110C4554F4033E"]
+			description: [
+				"{ftbquests.chapter.vampires_cookbook.quest7146252191085093249.description1}"
+				""
+				"{ftbquests.chapter.vampires_cookbook.quest7146252191085093249.description2}"
+			]
+			icon: "vampiresdelight:orchid_petals"
+			id: "632C96815CFBE181"
+			tasks: [
+				{
+					id: "3EDE12AA94BA985A"
+					item: "vampiresdelight:orchid_petals"
+					type: "item"
+				}
+				{
+					id: "7ED1EFDD210ED38B"
+					item: "vampiresdelight:orchid_seeds"
+					type: "item"
+				}
+				{
+					id: "7C8A7CDBED2DD324"
+					item: "vampirism:cursed_earth"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["632C96815CFBE181"]
+			id: "26797B79D6276164"
+			tasks: [
+				{
+					id: "6FF213D3462E1293"
+					item: "vampiresdelight:orchid_tea"
+					type: "item"
+				}
+				{
+					id: "2C1213BD23455FA1"
+					item: "vampiresdelight:orchid_cookie"
+					type: "item"
+				}
+				{
+					id: "44DCB06A9061CCC3"
+					item: "vampiresdelight:orchid_eclair"
+					type: "item"
+				}
+				{
+					id: "74A0388EF9D49100"
+					item: "vampiresdelight:orchid_ice_cream"
+					type: "item"
+				}
+				{
+					id: "663D08C737A05F0C"
+					item: "vampiresdelight:orchid_cream_soup"
+					type: "item"
+				}
+				{
+					id: "3999B611546CAB43"
+					item: "vampiresdelight:orchid_curry"
+					type: "item"
+				}
+				{
+					id: "5AF911DCECE296B0"
+					item: "vampiresdelight:orchid_cake"
+					type: "item"
+				}
+				{
+					id: "3A9259D900C71FFC"
+					item: "vampiresdelight:orchid_cake_slice"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.vampires_cookbook.quest2772382808837415268.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: ["{ftbquests.chapter.vampires_cookbook.quest7371355988404488974.description1}"]
+			id: "664C513761CC4B0E"
+			invisible: true
+			tasks: [{
+				id: "529C96D17621CE91"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "Cheferatu"
+						display: {
+							Lore: ["[\"\",{\"translate\":\"lore.mce2.mailbox.1\",\"italic\":false,\"color\":\"white\"}]"]
+							Name: "[\"\",{\"translate\":\"lore.mce2.mailbox.2\",\"italic\":false,\"color\":\"red\"}]"
+						}
+						generation: 3
+						pages: [
+							"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.1\"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.2\"}],\"text\":\"\"}"
+							"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"translate\":\"page.mce2.mailbox.3\"}"
+						]
+						title: "To Serve Man"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest8132643229579864808.description1}"]
+			icon: "solcarrot:food_book"
+			id: "70DCF3EDC017EAE8"
+			rewards: [{
+				id: "36926AA4CE9CC44F"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C6B41EDC4E39A1B"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.vampires_cookbook.quest8132643229579864808.title}"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3A4EFF59F6978215"
+				"632C96815CFBE181"
+			]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest1619550503981664765.description1}"]
+			id: "1679CC9A45A1C9FD"
+			tasks: [
+				{
+					id: "69176AE98EE8EE58"
+					item: "vampiresdelight:tricolor_dango"
+					type: "item"
+				}
+				{
+					id: "7A91021C3D6EE63B"
+					item: "vampiresdelight:mulled_wine_glass"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.vampires_cookbook.quest1619550503981664765.title}"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["025168EE2F0E16E5"]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest7498713922271562295.description1}"]
+			id: "6810C8951945CA37"
+			tasks: [
+				{
+					id: "4142E1D6F630577D"
+					item: "vampiresdelight:black_mushroom"
+					type: "item"
+				}
+				{
+					id: "59983A757521D4E1"
+					item: "vampiresdelight:black_mushroom_soup"
+					type: "item"
+				}
+				{
+					id: "5AAB688C8B4B9DEA"
+					item: "vampiresdelight:black_mushroom_noodles"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.vampires_cookbook.quest7498713922271562295.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["025168EE2F0E16E5"]
+			description: [
+				"{ftbquests.chapter.vampires_cookbook.quest5954712023217951466.description1}"
+				""
+				"{ftbquests.chapter.vampires_cookbook.quest5954712023217951466.description2}"
+			]
+			id: "52A3630923A752EA"
+			tasks: [
+				{
+					id: "76C398FAB2C2300A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "vampirism:pure_blood"
+						}
+					}
+					title: "{ftbquests.chapter.vampires_cookbook.quest5954712023217951466.task.8557851919442391050.title}"
+					type: "item"
+				}
+				{
+					id: "4720641570AC4779"
+					item: "vampiresdelight:pure_sorbet"
+					type: "item"
+				}
+				{
+					id: "682831D1E5324BBA"
+					item: "vampiresdelight:weird_jelly_block"
+					type: "item"
+				}
+				{
+					id: "35A888AFE7716281"
+					item: "vampiresdelight:weird_jelly"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.vampires_cookbook.quest5954712023217951466.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: [
+				"{ftbquests.chapter.vampires_cookbook.quest7795476431236488912.description1}"
+				""
+				"{ftbquests.chapter.vampires_cookbook.quest7795476431236488912.image0}"
+			]
+			icon: "vampirism:blood_grinder"
+			id: "6C2F188312C7DED0"
+			rewards: [
+				{
+					id: "07FF919C2CE79CD8"
+					item: "vampirism:blood_container"
+					type: "item"
+				}
+				{
+					id: "212D8C4B13E3568A"
+					item: "vampirism:blood_sieve"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.vampires_cookbook.quest7795476431236488912.subtitle}"
+			tasks: [
+				{
+					id: "2B9458B71FED47B9"
+					item: "vampirism:blood_container"
+					type: "item"
+				}
+				{
+					id: "669F0D1E1C13FDB7"
+					item: "vampirism:blood_grinder"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.vampires_cookbook.quest7795476431236488912.title}"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest3797027134102185585.description1}"]
+			icon: "vampiresdelight:human_eye"
+			id: "34B1C00F9AAE2671"
+			tasks: [
+				{
+					id: "769B04E7A47D46DB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "{ftbquests.chapter.vampires_cookbook.quest3797027134102185585.task.8546430110809278171.title}"
+					type: "item"
+				}
+				{
+					id: "425F4CBC636EFDE8"
+					item: "vampiresdelight:human_eye"
+					title: "{ftbquests.chapter.vampires_cookbook.quest3797027134102185585.task.4782625701296537064.title}"
+					type: "item"
+				}
+				{
+					id: "7D1726975F813253"
+					item: "vampiresdelight:eyes_on_stick"
+					type: "item"
+				}
+				{
+					id: "7BC3731D40225D44"
+					item: "vampiresdelight:eye_croissant"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.vampires_cookbook.quest3797027134102185585.title}"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"34B1C00F9AAE2671"
+				"26797B79D6276164"
+				"3A4EFF59F6978215"
+				"6810C8951945CA37"
+				"52A3630923A752EA"
+				"1679CC9A45A1C9FD"
+			]
+			icon: "titles:title_scroll_uncommon"
+			id: "58977C85420776DF"
+			rewards: [{
+				command: "/titles add {p} titles:vampire_gourmand"
+				console: true
+				elevate_perms: true
+				icon: "titles:title_scroll_uncommon"
+				id: "6EC2D8D6D62DC84E"
+				title: "{ftbquests.chapter.vampires_cookbook.quest6383707908601247455.reward.7981179906881865806.title}"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7DC899986C966C04"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.vampires_cookbook.quest6383707908601247455.title}"
+			x: 0.36938775510206767d
+			y: 5.018367346938753d
+		}
+	]
+	title: "{ftbquests.chapter.vampires_cookbook.title}"
+}

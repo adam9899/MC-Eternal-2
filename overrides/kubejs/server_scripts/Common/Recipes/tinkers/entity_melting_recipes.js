@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 
     // Cinderblaze drops only 4mb
     tinkersEntityMelting(event, 
-        ["specialmobs:cinderblaze"], 
+        "specialmobs:cinderblaze", 
         "tconstruct:blazing_blood", 
         4, 
         2

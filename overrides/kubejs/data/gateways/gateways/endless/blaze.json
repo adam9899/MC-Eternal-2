@@ -4,7 +4,7 @@
 	"color": "#FFFF84",
 	"base_wave": {
         "entities": [{
-            "entity": "minecraft:blaze",
+            "entity": "specialmobs:blaze",
             "count": 3
         }],
         "rewards": [{
@@ -23,7 +23,7 @@
                 "max": 10
             },
             "entities": [{
-                "entity": "minecraft:blaze",
+                "entity": "specialmobs:blaze",
                 "count": 3
             }],
             "rewards": [{

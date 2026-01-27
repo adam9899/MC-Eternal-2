@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Watch out! Certain humanoid creatures can dodge, roll and use special attacks! Avoid heavy attacks or you might get stunned!"
+    "translate": "tips.mce2.epicfight"
   }
 }

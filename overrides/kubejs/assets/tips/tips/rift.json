@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP:",
+    "translate": "tips.mce2.rift.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "After killing a boss, a rift will appear! click the rift to activate it! click it again to teleport you home!"
+    "translate": "tips.mce2.rift"
   }
 }

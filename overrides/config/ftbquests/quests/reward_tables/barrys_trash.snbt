@@ -1,0 +1,491 @@
+{
+	id: "5A4F9ECDC259C63C"
+	loot_crate: {
+		color: 3552822
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "barry_s_trash"
+	}
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_fez"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 8s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
+					}
+				}
+			}
+		}
+		{ count: 14, item: "rats:cheese", weight: 5.0f }
+		{ count: 12, item: "rats:blue_cheese", weight: 5.0f }
+		{ count: 6, item: "rats:nether_cheese", weight: 5.0f }
+		{ item: "rats:block_of_cheese", weight: 5.0f }
+		{ item: "rats:block_of_nether_cheese", weight: 5.0f }
+		{ item: "rats:block_of_blue_cheese", weight: 5.0f }
+		{ item: "rats:rat_trap" }
+		{ item: "rats:auto_curdler" }
+		{ item: "rats:rat_crafting_table" }
+		{ item: "rats:raw_rat" }
+		{ item: "rats:cooked_rat" }
+		{ count: 6, item: "rats:rat_pelt" }
+		{ item: "rats:rat_skull" }
+		{ item: "rats:corrupt_rat_skull" }
+		{ count: 12, item: "rats:rat_arrow" }
+		{ count: 7, item: "rats:garbage_pile" }
+		{ item: "rats:filth_corruption" }
+		{ item: "rats:potato_pancake", weight: 5.0f }
+		{ item: "rats:confit_byaldi", weight: 5.0f }
+		{ count: 14, item: "rats:rat_burger", weight: 5.0f }
+		{ item: "rats:plague_stew" }
+		{ item: "rats:little_black_squash_balls" }
+		{ item: "rats:plague_doctorate" }
+		{ item: "rats:plague_tome" }
+		{ item: "rats:purifying_liquid" }
+		{ item: "rats:crimson_liquid" }
+		{ item: "rats:pirat_hat" }
+		{ item: "rats:ratbow_essence" }
+		{ item: "rats:vial_of_sentience" }
+		{ item: "rats:gem_of_ratlantis" }
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:ratlantean_invasion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:black_death_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:plague_doctor_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:rat_flute" }
+		{ count: 25, item: "rats:rat_nugget", weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_papers"
+				tag: { }
+			}
+		}
+		{ item: "rats:rat_upgrade_demon" }
+		{ item: "rats:ancient_sawblade" }
+		{ item: "rats:token_fragment" }
+		{ item: "rats:token_piece" }
+		{ item: "rats:rattling_gun" }
+		{ item: "rats:military_hat" }
+		{ item: "rats:ratfish" }
+		{
+			item: {
+				Count: 1
+				id: "rats:feral_bagh_nakhs"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:rat_wheel" }
+		{ item: "rats:charged_creeper_chunk" }
+		{ item: "rats:rat_and_crossbones_banner_pattern" }
+		{ count: 24, item: "rats:plastic_waste" }
+		{ item: "rats:manhole" }
+		{ item: "rats:compressed_rat" }
+		{ item: "rats:music_disc_mice_on_venus" }
+		{ item: "rats:music_disc_living_mice" }
+		{ item: "rats:rat_attractor" }
+		{ item: "rats:little_black_worm" }
+		{ item: "rats:centipede" }
+		{ count: 9, item: "rats:contaminated_food" }
+		{ item: "rats:pirat_boat" }
+		{ item: "rats:pirat_door" }
+		{ item: "rats:cheese_banner_pattern" }
+		{ item: "rats:jack_o_ratern" }
+		{ item: "rats:rat_sack" }
+		{ item: "mce2lib:chicken_nugget_summon" }
+		{ item: "mce2lib:porkus_summon" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "cheesy_cache"
+				}
+			}
+		}
+		{ item: "goety:spiteful_belt" }
+		{ item: "goety:feline_amulet" }
+		{ item: "immersive_aircraft:biplane" }
+		{ item: "quark:apple_crate" }
+		{
+			item: {
+				Count: 1
+				id: "gonefishing:sunken_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "veinmining:vein_mining"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.4\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "species:crankbow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "species:scattershot"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.5\"}"
+					}
+				}
+			}
+		}
+		{ item: "alexscaves:quarry_smasher" }
+		{ item: "alexscaves:quarry" }
+		{ count: 4, item: "alexscaves:magnetic_light" }
+		{
+			item: {
+				Count: 1
+				id: "species:wicked_mask"
+				tag: {
+					AbsorptionAmount: 0.0f
+					Age: 0
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					Attributes: [
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.armor_toughness"
+						}
+						{
+							Base: 1.0d
+							Name: "minecraft:generic.attack_damage"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:fire_magic_resist"
+						}
+						{
+							Base: 0.35d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:evocation_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:nature_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:blood_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:lightning_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:ice_magic_resist"
+						}
+						{
+							Base: NaNd
+							Name: "puffish_attributes:stealth"
+						}
+						{
+							Base: 0.1d
+							Name: "caelus:fall_flying"
+						}
+						{
+							Base: 12.0d
+							Modifiers: [{
+								Amount: 0.017905791729087694d
+								Name: "Random spawn bonus"
+								Operation: 1
+								UUID: [I;
+									-1922665747
+									1520913418
+									-1764314040
+									1827948830
+								]
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:eldritch_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:holy_magic_resist"
+						}
+						{
+							Base: 8.0d
+							Name: "minecraft:generic.max_health"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.armor"
+						}
+						{
+							Base: 0.0d
+							Name: "forge:step_height_addition"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:ender_magic_resist"
+						}
+					]
+					BaguData: { }
+					Brain: {
+						memories: { }
+					}
+					CanPickUpLoot: 0b
+					CheeseFeedings: 0
+					CitadelData: { }
+					ColorVariant: "rats:brown"
+					DeathTime: 0s
+					DigCooldown: -116
+					EntityJSData: { }
+					FallFlying: 0b
+					ForcedAge: 0
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					Health: 8.0f
+					HurtByTimestamp: 0
+					HurtTime: 0s
+					InLove: 0
+					IsMale: 0b
+					LeftHanded: 0b
+					OnGround: 1b
+					PersistenceRequired: 0b
+					Plague: 0b
+					RaidCooldown: 0
+					Sitting: 0b
+					Toga: 0b
+					WildTrust: 0
+					YouthPotion: 0b
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_trash.1\"}"
+					}
+					"forge:spawn_type": "COMMAND"
+					id: "rats:rat"
+					rolledTraits: 1b
+				}
+			}
+		}
+		{ item: "species:hopelight" }
+		{ item: "species:cracked_wraptor_egg" }
+		{
+			item: {
+				Count: 1
+				id: "species:ricoshield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "species:smoke_bomb" }
+		{ item: "species:birtday_cake" }
+		{ item: "species:cranktrap" }
+		{ count: 3, item: "betterarcheology:bomb" }
+		{ count: 7, item: "alexscaves:rusty_rebar" }
+		{ count: 4, item: "alexscaves:rusty_scrap_metal_plate" }
+		{ count: 5, item: "alexscaves:rusty_scrap_metal" }
+		{ item: "alexscaves:rusty_barrel" }
+		{ count: 8, item: "alexscaves:rusty_scaffolding" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:silver_axe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "veinmining:vein_mining"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.6\"}"
+					}
+				}
+			}
+		}
+		{ count: 3, item: "brewinandchewin:ham_and_cheese_sandwich" }
+		{ item: "create:precision_mechanism" }
+		{ item: "immersive_aircraft:eco_engine" }
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:trumpet"
+				tag: {
+					enabled_tracks: [I; ]
+					melody: "immersive_melodies:melodies/cursed_mce2_theme.midi"
+					playing: 1b
+					start_time: 67639L
+				}
+			}
+		}
+		{ item: "immersive_machinery:tunnel_digger" }
+		{ item: "immersive_aircraft:nether_engine" }
+		{ item: "immersive_aircraft:rotary_cannon" }
+		{ item: "immersive_aircraft:boiler" }
+		{ item: "alshanex_familiars:rusty_helmet" }
+	]
+	title: "{ftbquests.loot_table.6507594593139803708.title}"
+}

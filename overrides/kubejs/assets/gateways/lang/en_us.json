@@ -1,0 +1,11 @@
+{
+	"gateways.basic/blaze": "Blaze Gateway [Expert Mode Only]",
+	"gateways.basic/slime": "Slime Gateway [Expert Mode Only]",
+	"gateways.basic/enderman": "Enderman Gateway [Expert Mode Only]",
+    
+	"gateways.overworldian_nights": "Gateway of Overworldian Nights [Expert Mode Only]",
+	"gateways.hellish_fortress": "Gateway of the Hellish Fortress [Expert Mode Only]",
+	"gateways.wizard_gaunlet": "Gateway of the Wizard Gaunlet",
+
+    "gateways.endless/blaze": "Endless Blaze Gateway [Expert Mode Only]"
+}

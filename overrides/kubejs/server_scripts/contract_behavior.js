@@ -6,9 +6,8 @@ ItemEvents.rightClicked(event => {
 
   player.addItemCooldown(item, 25)
 
-  player.runCommandSilent(
-    `tellraw @s ` + JSON.stringify({
-      text: "Contract: NO take backsies! §o(Hover to read small print)",
+  let input = {
+      translate: "item.kubejs.contract.use.0",
       italic: true,
       color: "gold",
       clickEvent: {
@@ -19,12 +18,14 @@ ItemEvents.rightClicked(event => {
         action: "show_text",
         contents: [
           {
-            text:
-              "Small Print: Anything you ever create is proprietary property of ME and your soul is MINE... FOR ALL OF ETERNITY!! BARRY WITHHOLDS THE RIGHT TO DESTROY YOUR MORTAL COIL AT ANY GIVEN MOMENT.. THIS CONTRACT HAS BEEN SIGNED BY THE PLAYER AND IS LEGALLY BINDING IN MINECRAFT AND THE REAL WORLD!! The writing becomes so small its unreadable...",
+            translate: "item.kubejs.contract.use.1",
             color: "gray"
           }
         ]
       }
-    })
-  )
+    }
+
+  //console.log(input, JSON.stringify(input))
+
+  server.runCommand(`tellraw ${player.username} ` +JSON.stringify(input))
 })

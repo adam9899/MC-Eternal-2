@@ -4,5 +4,5 @@
 	loot_size: 0
 	order_index: 1
 	rewards: [ ]
-	title: "&6A New Start! &a&o(Recommended!)&r&l &a←"
+	title: "{ftbquests.loot_table.3966908531465101218.title}"
 }

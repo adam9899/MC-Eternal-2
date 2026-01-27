@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MM",
+        "MM"
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:magma_cream"
+        }
+    },
+    "category": "building",
+    "result": {
+        "item": "minecraft:magma_block"
+    }
+}

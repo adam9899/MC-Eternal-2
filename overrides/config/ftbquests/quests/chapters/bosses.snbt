@@ -102,7 +102,7 @@
 			y: 5.938775510204081d
 		}
 		{
-			dependency: "6B99D9083276026D"
+			dependency: "7505BE829530541C"
 			height: 1.3d
 			image: "modpack:textures/mc-eternal-gems-comm-gem-10.png"
 			rotation: 0.0d
@@ -152,12 +152,12 @@
 	quests: [
 		{
 			description: [
-				"&4The Dead King&r possesses the &eCorrupted Eye&r and can be found in &eThe Catacombs&r Tread lightly, this foe is a master of Undead and Blood Magic!"
+				"{ftbquests.chapter.bosses.quest8573039856442382865.description1}"
 				""
-				"&6Questmaster's Note:&r PS this imbecile owes me money! &oTeach him a lesson he'll never forget!"
+				"{ftbquests.chapter.bosses.quest8573039856442382865.description2}"
 				""
-				"&6☠ Difficulty: &3&lMEDIUM"
-				"{image:modpack:textures/2025-03-14_00.51.33.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.bosses.quest8573039856442382865.description3}"
+				"{ftbquests.chapter.bosses.quest8573039856442382865.image0}"
 			]
 			icon: {
 				Count: 1
@@ -174,7 +174,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29675BF8BA282F99"
-					title: "&eUnlock Title:&r Blood Champion"
+					title: "{ftbquests.chapter.bosses.quest8573039856442382865.reward.2983454401989455769.title}"
 					type: "command"
 				}
 				{
@@ -188,27 +188,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -235,7 +218,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.1.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest8573039856442382865.subtitle}"
 			tasks: [{
 				id: "202DB88496FB2526"
 				item: {
@@ -247,20 +230,20 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Corrupted Eye"
+			title: "{ftbquests.chapter.bosses.quest8573039856442382865.title}"
 			x: 7.408163265306136d
 			y: 2.551020408163275d
 		}
 		{
 			description: [
-				"Pirate lore says this item allows the user to bend the ocean to their will.. "
+				"{ftbquests.chapter.bosses.quest8432355345379120156.description1}"
 				""
-				"The honourable Captain Cornelia went searching for this relic over a century ago.. She was never heard from again.."
+				"{ftbquests.chapter.bosses.quest8432355345379120156.description2}"
 				""
-				"Best start looking for her, she was last seen heading into the &eCold Sea!"
+				"{ftbquests.chapter.bosses.quest8432355345379120156.description3}"
 				""
-				"&6☠ Difficulty: &3&lMEDIUM"
-				"{image:modpack:textures/2025-03-14_00.54.16.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.bosses.quest8432355345379120156.description4}"
+				"{ftbquests.chapter.bosses.quest8432355345379120156.image0}"
 			]
 			icon: {
 				Count: 1
@@ -277,7 +260,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "05C6F9447B89C2BB"
-					title: "&eUnlock Title:&r the Dread Pirate"
+					title: "{ftbquests.chapter.bosses.quest8432355345379120156.reward.416294088104067771.title}"
 					type: "command"
 				}
 				{
@@ -291,27 +274,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -338,7 +304,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.2.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest8432355345379120156.subtitle}"
 			tasks: [{
 				id: "3FFEE71D12B54F2E"
 				item: {
@@ -350,16 +316,16 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Black Eye"
+			title: "{ftbquests.chapter.bosses.quest8432355345379120156.title}"
 			x: 8.996598639455804d
 			y: 0.06462585034014268d
 		}
 		{
 			description: [
-				"&eThe Frostmaw&r is a dangerous beast. &oI would never personally cross one.&r That is why I have you! Their massive size and powerful ice breath makes them near impossible opponents. It is said &eThe Frostmaw&r has &eThe Frozen Eye&r in its possession, something it protects with its life! Tread carefully... "
+				"{ftbquests.chapter.bosses.quest7753466862724579949.description1}"
 				""
-				"&6☠ Difficulty: &4&lHARD"
-				"{image:modpack:textures/2025-03-14_00.55.51.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.bosses.quest7753466862724579949.description2}"
+				"{ftbquests.chapter.bosses.quest7753466862724579949.image0}"
 			]
 			icon: {
 				Count: 1
@@ -376,7 +342,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "6C22DED1D418EE12"
-					title: "&eUnlock Title:&r the Frozen"
+					title: "{ftbquests.chapter.bosses.quest7753466862724579949.reward.7792035298092314130.title}"
 					type: "command"
 				}
 				{
@@ -390,27 +356,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -437,7 +386,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.3.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest7753466862724579949.subtitle}"
 			tasks: [{
 				id: "18E3151544F6AAF8"
 				item: {
@@ -449,22 +398,22 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Frozen Eye"
+			title: "{ftbquests.chapter.bosses.quest7753466862724579949.title}"
 			x: 11.91496598639457d
 			y: 0.14625850340136992d
 		}
 		{
 			description: [
-				"&eThe Void Blossom&r is an extremely dangerous foe. "
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description1}"
 				""
-				"This giant overgrown plant has been sucking up all of the void energy below and has become MASSIVE! "
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description2}"
 				""
-				"It is said &eThe Overgrown Eye&r contains their life essence and can even be regrown after death! Also, we go waaaay back! I've known him since he was just a lil sprout in the ground!"
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description3}"
 				""
-				"&6Hint:&r You can find &eThe Void Blossom&r at &dBedrock "
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description4}"
 				""
-				"&6☠ Difficulty: &4&lHARD"
-				"{image:modpack:textures/2025-03-14_00.41.44.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description5}"
+				"{ftbquests.chapter.bosses.quest4161195811415355734.image0}"
 			]
 			icon: {
 				Count: 1
@@ -481,7 +430,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "3746FC00D92544E2"
-					title: "&eUnlock Title:&r the Weedkiller"
+					title: "{ftbquests.chapter.bosses.quest4161195811415355734.reward.3983148001029080290.title}"
 					type: "command"
 				}
 				{
@@ -495,27 +444,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -542,7 +474,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.4.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest4161195811415355734.subtitle}"
 			tasks: [{
 				id: "7AA27D450A1F0A88"
 				item: {
@@ -554,17 +486,17 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Overgrown Eye"
+			title: "{ftbquests.chapter.bosses.quest4161195811415355734.title}"
 			x: 7.690476190476225d
 			y: 3.9829931972789225d
 		}
 		{
 			description: [
-				"{image:modpack:textures/2022-11-03_23.33.09.png width:200 height:110 align:center}"
-				"&eIgnis&r cannot be killed. At least not permanently. Death is simply optional for this fire demon, he is always waiting for an arrogant interloper to challenge him!"
-				"Perhaps if we defeat him it is possible he will drop &eThe Demonic Eye!&r"
+				"{ftbquests.chapter.bosses.quest99908953448821826.image0}"
+				"{ftbquests.chapter.bosses.quest99908953448821826.description1}"
+				"{ftbquests.chapter.bosses.quest99908953448821826.description2}"
 				""
-				"&6☠ Difficulty: &4&l<shake>VERY HARD"
+				"{ftbquests.chapter.bosses.quest99908953448821826.description3}"
 			]
 			icon: {
 				Count: 1
@@ -599,7 +531,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "00D5CEEED941D81B"
-					title: "&eUnlock Title:&r the Demon Slayer"
+					title: "{ftbquests.chapter.bosses.quest99908953448821826.reward.60181695281879067.title}"
 					type: "command"
 				}
 				{
@@ -613,27 +545,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -660,7 +575,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.5.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest99908953448821826.subtitle}"
 			tasks: [{
 				id: "0B51833A2F5CF98F"
 				item: {
@@ -672,17 +587,17 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Demonic Eye"
+			title: "{ftbquests.chapter.bosses.quest99908953448821826.title}"
 			x: 8.792517006802761d
 			y: 5.329931972789126d
 		}
 		{
 			description: [
-				"&6Umvuthi The Sunbird&r is said to be the living vessel for an unknown Sun God. His worshippers protect him.. "
-				"An ancient prophecy says &eThe Blessed Eye&r grants him near limitless power.. Defeat him to aquire this eye! Good luck! You'll need it!"
+				"{ftbquests.chapter.bosses.quest7809013067298621068.description1}"
+				"{ftbquests.chapter.bosses.quest7809013067298621068.description2}"
 				""
-				"&6☠ Difficulty: &3&lMEDIUM"
-				"{image:modpack:textures/2025-03-14_00.44.20.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.bosses.quest7809013067298621068.description3}"
+				"{ftbquests.chapter.bosses.quest7809013067298621068.image0}"
 			]
 			icon: {
 				Count: 1
@@ -699,7 +614,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0BD0DF048DAFC694"
-					title: "&eUnlock Title:&r the God Killer"
+					title: "{ftbquests.chapter.bosses.quest7809013067298621068.reward.851425540222994068.title}"
 					type: "command"
 				}
 				{
@@ -713,27 +628,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -760,7 +658,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.7.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest7809013067298621068.subtitle}"
 			tasks: [{
 				id: "54DAA9A9BDC6E761"
 				item: {
@@ -772,36 +670,26 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Blessed Eye"
+			title: "{ftbquests.chapter.bosses.quest7809013067298621068.title}"
 			x: 10.44557823129253d
 			y: -0.22108843537414202d
 		}
 		{
-			dependencies: [
-				"7505BE829530541C"
-				"6B99D9083276026D"
-				"76F98E53D8839A11"
-				"39BF898B24417156"
-				"061E529BEA06143B"
-				"635E94D6AB74B9D9"
-				"6C5F3002C2B7C68C"
-				"0162F2A9F032B442"
-				"320F677D8A962681"
-				"46C671151AE613A1"
-			]
-			description: ["{chapter.8.quest.8.description.1}"]
+			dependencies: ["46C671151AE613A1"]
+			description: ["{ftbquests.chapter.bosses.quest3755364829256556249.description1}"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			icon: "alexsmobs:void_worm_eye"
 			id: "341DBC6A59D51ED9"
+			optional: true
 			rewards: [
 				{
-					command: "/titles add @p titles:voidlord"
+					command: "/titles add {p} titles:voidlord"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "72FD7EB5624CE117"
-					title: "{chapter.8.quest.8.reward.4.title}"
+					title: "{ftbquests.chapter.bosses.quest3755364829256556249.reward.8285918206934966551.title}"
 					type: "command"
 				}
 				{
@@ -812,34 +700,63 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5C532D50CBCFC0D7"
-					table_id: 5682295257556819944L
-					type: "random"
+					id: "4077746F2C42331D"
+					item: {
+						Count: 1
+						id: "dreadsteel:dreadsteel_scythe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 10
+							}]
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.bosses.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.bosses.2\"}"
+							}
+							dmcloot.rarity: "legendary"
+							dmcloot.swiftness: 15
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:blue_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
 				}
 			]
 			size: 0.95d
-			subtitle: "Unlock The End"
+			subtitle: "{ftbquests.chapter.bosses.quest3755364829256556249.subtitle}"
 			tasks: [{
-				id: "3A7DBD2D2C5F2858"
-				item: "alexsmobs:void_worm_eye"
-				title: "&k&d???"
-				type: "item"
+				entity: "minecraft:ender_dragon"
+				icon: "alexsmobs:void_worm_eye"
+				id: "232C885B1F64CEA9"
+				title: "{ftbquests.chapter.bosses.quest3755364829256556249.task.2534550615252848297.title}"
+				type: "kill"
+				value: 1L
 			}]
-			title: "&d<shake>The End"
+			title: "{ftbquests.chapter.bosses.quest3755364829256556249.title}"
 			x: 10.369047619047613d
 			y: 2.702380952380949d
 		}
 		{
 			description: [
-				"Not much is known about &cThe Harbinger&r apart from the echos of an ancient civilization that once tried playing God. Legend says an unpowered Harbinger can be found inside one of their &eAncient Factories.&r "
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description1}"
 				""
-				"Did they ever manage to power this abomination? Was it their undoing? "
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description2}"
 				""
-				"The nature of their disappearance will be debated until more questions can be answered."
-				" "
-				"&6☠ Difficulty: &4&lHARD"
-				"{image:modpack:textures/2025-03-14_00.36.23.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description3}"
+				""
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description4}"
+				""
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description5}"
+				"{ftbquests.chapter.bosses.quest3607215615440725633.image0}"
 			]
 			icon: {
 				Count: 1
@@ -856,7 +773,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "1B4BA990B8644E49"
-					title: "&eUnlock Title:&r the Harbinger of Doom"
+					title: "{ftbquests.chapter.bosses.quest3607215615440725633.reward.1966852101311319625.title}"
 					type: "command"
 				}
 				{
@@ -870,27 +787,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -917,7 +817,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&4The Nether - Progression"
+			subtitle: "{ftbquests.chapter.bosses.quest3607215615440725633.subtitle}"
 			tasks: [{
 				id: "49F1A8CD12054ACB"
 				item: {
@@ -929,17 +829,17 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Wither Eye"
+			title: "{ftbquests.chapter.bosses.quest3607215615440725633.title}"
 			x: 13.221088435374163d
 			y: 4.044217687074841d
 		}
 		{
 			description: [
 				""
-				"&eThe Lost Eye&r was forged at &dThe Nether Soul-Forge&r thousands of years ago... I wonder where it is? Who lost it? "
+				"{ftbquests.chapter.bosses.quest7160324107286133209.description1}"
 				""
-				"&6☠ Difficulty: &4&lHARD"
-				"{image:modpack:textures/2025-03-14_00.58.45.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.bosses.quest7160324107286133209.description2}"
+				"{ftbquests.chapter.bosses.quest7160324107286133209.image0}"
 			]
 			icon: {
 				Count: 1
@@ -969,7 +869,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "112006616A786B76"
-					title: "{chapter.8.quest.10.reward.3.title}"
+					title: "{ftbquests.chapter.bosses.quest7160324107286133209.reward.1233993313367386998.title}"
 					type: "command"
 				}
 				{
@@ -983,27 +883,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1030,7 +913,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.10.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest7160324107286133209.subtitle}"
 			tasks: [{
 				id: "702D1C1AA83E16EB"
 				item: {
@@ -1042,18 +925,18 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Lost Eye"
+			title: "{ftbquests.chapter.bosses.quest7160324107286133209.title}"
 			x: 13.057823129251716d
 			y: 1.2278911564625972d
 		}
 		{
 			description: [
-				"&eThe Nether Gauntlet&r can be found rarely in The Nether!"
-				"Find and slay it! Make sure to keep an EYE open for any threats..."
-				"{image:modpack:textures/2024-08-17_16.33.52.png width:200 height:110 align:1}"
-				"&o&7Well this block just looks only a little suspicious!"
+				"{ftbquests.chapter.bosses.quest440880643128562747.description1}"
+				"{ftbquests.chapter.bosses.quest440880643128562747.description2}"
+				"{ftbquests.chapter.bosses.quest440880643128562747.image0}"
+				"{ftbquests.chapter.bosses.quest440880643128562747.description3}"
 				""
-				"&6☠ Difficulty: &3&lMEDIUM"
+				"{ftbquests.chapter.bosses.quest440880643128562747.description4}"
 			]
 			id: "061E529BEA06143B"
 			rewards: [
@@ -1063,7 +946,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5B0BB798D05CA73C"
-					title: "&eUnlock Title:&r the Netherbane"
+					title: "{ftbquests.chapter.bosses.quest440880643128562747.reward.6560539149153904444.title}"
 					type: "command"
 				}
 				{
@@ -1077,27 +960,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1124,7 +990,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.10.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest440880643128562747.subtitle}"
 			tasks: [{
 				id: "7E28F286737EA4A9"
 				item: {
@@ -1136,16 +1002,16 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Blazing Eye"
+			title: "{ftbquests.chapter.bosses.quest440880643128562747.title}"
 			x: 12.200680272108876d
 			y: 5.207482993197296d
 		}
 		{
 			description: [
-				"{image:modpack:textures/ferrous_eye.png width:200 height:110 align:1}"
-				"&eThe Ferrous Eye&r belongs to &eThe Ferrous Wroughtnaut&r. This construct is older than the rivers and the mountains! It's older than me and I'm older than old! No one really knows who built these, but they are scattered throughout The Overworld."
+				"{ftbquests.chapter.bosses.quest3352049957073858225.image0}"
+				"{ftbquests.chapter.bosses.quest3352049957073858225.description1}"
 				""
-				"&6☠ Difficulty: &3&lMEDIUM"
+				"{ftbquests.chapter.bosses.quest3352049957073858225.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1162,7 +1028,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "06439A84E2F5C8D9"
-					title: "{chapter.8.quest.13.reward.2.title}"
+					title: "{ftbquests.chapter.bosses.quest3352049957073858225.reward.451374283201300697.title}"
 					type: "command"
 				}
 				{
@@ -1176,27 +1042,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1223,7 +1072,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest3352049957073858225.subtitle}"
 			tasks: [{
 				id: "12EA848687AB1062"
 				item: {
@@ -1240,18 +1089,18 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Ferrous Eye"
+			title: "{ftbquests.chapter.bosses.quest3352049957073858225.title}"
 			x: 7.9d
 			y: 1.1d
 		}
 		{
 			description: [
-				"This pupil is believed to have been worshipped in ancient times when the powerful God King Maledictus ruled over his servants with an iron fist! He was eventually defeated by an unnamed hero who banished him into a tombstone for all of eternity."
+				"{ftbquests.chapter.bosses.quest5867324555363402219.description1}"
 				""
-				"This tombstone is said to be located at the &eFrosted Prison.&r"
+				"{ftbquests.chapter.bosses.quest5867324555363402219.description2}"
 				""
-				"&6☠ Difficulty: &4&l<shake>VERY HARD"
-				"{image:modpack:textures/2025-03-14_00.43.09.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.bosses.quest5867324555363402219.description3}"
+				"{ftbquests.chapter.bosses.quest5867324555363402219.image0}"
 			]
 			icon: {
 				Count: 1
@@ -1268,7 +1117,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "41F792DC0BE7C683"
-					title: "&eUnlock Title:&r the Soulflayer"
+					title: "{ftbquests.chapter.bosses.quest5867324555363402219.reward.4753429405503047299.title}"
 					type: "command"
 				}
 				{
@@ -1289,27 +1138,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1324,7 +1156,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.4.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest5867324555363402219.subtitle}"
 			tasks: [{
 				id: "710165FB8FDE1035"
 				item: {
@@ -1336,21 +1168,21 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Soul Eye"
+			title: "{ftbquests.chapter.bosses.quest5867324555363402219.title}"
 			x: 10.486394557823168d
 			y: 5.840136054421784d
 		}
 		{
 			description: [
-				"Legend says &eThe Old Eye&r is protected by the &eAncient Revenant&r"
-				"I'm sending you to The Desert to seek it out! "
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description1}"
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description2}"
 				""
-				"I can't go myself because &oI don't like sand.&r It's coarse and rough and irritating and it gets everywhere."
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description3}"
 				""
-				"&eTip:&r Look out for Suspicious Sand!"
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description4}"
 				""
-				"&6☠ Difficulty: &4&lHARD"
-				"{image:modpack:textures/2025-03-14_00.39.53.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description5}"
+				"{ftbquests.chapter.bosses.quest4531714763290880117.image0}"
 			]
 			id: "3EE3E2913158A875"
 			rewards: [
@@ -1359,7 +1191,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "6F3BD211F59D65F1"
-					title: "&eUnlock Title:&r the Ancient"
+					title: "{ftbquests.chapter.bosses.quest4531714763290880117.reward.8015230936412939761.title}"
 					type: "command"
 				}
 				{
@@ -1373,27 +1205,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1420,7 +1235,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.3.subtitle}"
+			subtitle: "{ftbquests.chapter.bosses.quest4531714763290880117.subtitle}"
 			tasks: [{
 				id: "371F374B9BEDADC0"
 				item: {
@@ -1432,14 +1247,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLEGENDARY - &6Old Eye"
+			title: "{ftbquests.chapter.bosses.quest4531714763290880117.title}"
 			x: 13.486394557823147d
 			y: 2.595238095238109d
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
 			description: [
-				"There appears to be a &e&ostrong smell&r of &e&olemon&r coming from the letter within the envelope.."
+				"{ftbquests.chapter.bosses.quest7768807002001649286.description1}"
 				""
 			]
 			hide_until_deps_visible: true
@@ -1453,15 +1268,15 @@
 						tag: {
 							display: {
 								Lore: [
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§e§o§7§oHolding the lantern up to the letter you realise someone has used invisible ink to write the title of the letter! The contents of the letter seem the same but the title was hidden.. How strange..\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"message.mce2.bosses.1\"}"
 								]
-								Name: "{\"italic\":false,\"color\":\"dark_green\",\"font\":\"runelic:runelic\",\"text\":\"Nothing can stop me now..\"}"
+								Name: "{\"italic\":false,\"color\":\"dark_green\",\"font\":\"runelic:runelic\",\"translate\":\"name.mce2.bosses.1\"}"
 							}
 						}
 					}
 					id: "5D43D03C81FEC70F"
-					title: "&e??? Reveal Invisible Ink ???"
+					title: "{ftbquests.chapter.bosses.quest7768807002001649286.reward.6720444027264485135.title}"
 					type: "random"
 				}
 				{
@@ -1474,7 +1289,7 @@
 			]
 			shape: "hexagon"
 			size: 0.8d
-			subtitle: "You've noticed something.. odd about this letter.."
+			subtitle: "{ftbquests.chapter.bosses.quest7768807002001649286.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -1505,17 +1320,17 @@
 						}
 						id: "minecraft:lantern"
 					}
-					title: "&eHold Lantern Up To Letter"
+					title: "{ftbquests.chapter.bosses.quest7768807002001649286.task.3875383372360748755.title}"
 					type: "item"
 				}
 			]
-			title: "&dSecret Message"
+			title: "{ftbquests.chapter.bosses.quest7768807002001649286.title}"
 			x: 12.8d
 			y: -1.6d
 		}
 		{
 			dependencies: ["2E84DFAD10C02EB1"]
-			description: ["&6Questmaster:&r You've found my prized missing Salmon! Now quickly return it to me and I will grant you a wonderful reward! Quickly now!"]
+			description: ["{ftbquests.chapter.bosses.quest7137369629242663414.description1}"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			hide_until_deps_visible: true
@@ -1528,7 +1343,7 @@
 					type: "custom"
 				}
 				{
-					command: "/effect give @p mowziesmobs:sunblock 500"
+					command: "/effect give {p} mowziesmobs:sunblock 500"
 					icon: {
 						Count: 1b
 						ForgeCaps: {
@@ -1539,7 +1354,7 @@
 						id: "mowziesmobs:sunblock_staff"
 					}
 					id: "0C9D08C99586098B"
-					title: "&2The Questmaster's Blessing"
+					title: "{ftbquests.chapter.bosses.quest7137369629242663414.reward.908892361688746379.title}"
 					type: "command"
 				}
 				{
@@ -1556,7 +1371,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:pet"
+					command: "/titles add {p} titles:pet"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -1567,7 +1382,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "3E3BCE1B88B2B6B4"
-					title: "&eUnlock Title:&r the Questmaster's Pet"
+					title: "{ftbquests.chapter.bosses.quest7137369629242663414.reward.4484404471630313140.title}"
 					type: "command"
 				}
 				{
@@ -1580,7 +1395,7 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Return Missing Item"
+			subtitle: "{ftbquests.chapter.bosses.quest7137369629242663414.subtitle}"
 			tasks: [{
 				consume_items: true
 				id: "357627B15106F1CD"
@@ -1619,10 +1434,10 @@
 						Unbreakable: 1b
 						display: {
 							Lore: [
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
-								"{\"text\":\"§7§o\\\"The Questmaster lost this weapon while trying to have a failed chat with The Ferrous Wroughtnaut... they aren't much of a conversationalist it turns out!\\\"\"}"
+								"{\"translate\":\"lore.mce2.bosses.3\"}"
+								"{\"translate\":\"lore.mce2.bosses.4\"}"
 							]
-							Name: "{\"text\":\"§2Questmaster's Special Salmon\"}"
+							Name: "{\"translate\":\"name.mce2.bosses.2\"}"
 						}
 						itemModifier: "modifiers:sharp"
 					}
@@ -1635,16 +1450,16 @@
 		}
 		{
 			description: [
-				"In order to open a portal to &eThe End&r, you will need to seek out &lTWELVE&r (only 12 are needed) powerful items..."
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description1}"
 				""
-				"These items are known as &6\"The Legendary Eyes\""
-				"Finding them &owont be easy!"
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description2}"
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description3}"
 				""
-				"Each Eye is said to be protected by &4&oFormidable Foes!&r Each determined to protect their respective Eye. Go forth and gather them all for &mme!&r us!"
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description4}"
 				""
-				"Upon collecting a &6Legendary Eye&r you will unlock a &dCrystal Skull&r in the Bosses Book to showcase your progress!"
-				"&2&oGood luck! - QM"
-				"{image:modpack:textures/end_portal.png width:200 height:110 align:1 fit:true}"
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description5}"
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description6}"
+				"{ftbquests.chapter.bosses.quest4404459266648913869.image0}"
 			]
 			icon: "endrem:ancient_portal_frame"
 			id: "3D1FC85E004937CD"
@@ -1657,14 +1472,14 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Learn about The Legendary Eyes!"
+			subtitle: "{ftbquests.chapter.bosses.quest4404459266648913869.subtitle}"
 			tasks: [{
 				disable_toast: true
 				id: "5C25465F983C7E12"
-				title: "&eInformation Quest! &r(Click To Complete)"
+				title: "{ftbquests.chapter.bosses.quest4404459266648913869.task.6639790602017603090.title}"
 				type: "checkmark"
 			}]
-			title: "&6The Legendary Eyes!"
+			title: "{ftbquests.chapter.bosses.quest4404459266648913869.title}"
 			x: -0.20376984126982478d
 			y: -0.9704365079364905d
 		}
@@ -1680,27 +1495,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1712,7 +1510,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0A4479D4F9FF8D44"
-					title: "&eUnlock Title:&r the Deep One"
+					title: "{ftbquests.chapter.bosses.quest1799469693953952695.reward.739850194429906244.title}"
 					type: "command"
 				}
 				{
@@ -1735,7 +1533,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Find The Sunken Eye!"
+			subtitle: "{ftbquests.chapter.bosses.quest1799469693953952695.subtitle}"
 			tasks: [{
 				id: "2ABC3ABF671186F0"
 				item: {
@@ -1762,27 +1560,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1794,7 +1575,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "04B713FBA413BDAE"
-					title: "&eUnlock Title:&r the Experienced"
+					title: "{ftbquests.chapter.bosses.quest752487626142731838.reward.339762268400237998.title}"
 					type: "command"
 				}
 				{
@@ -1817,7 +1598,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Find The Angler Eye!"
+			subtitle: "{ftbquests.chapter.bosses.quest752487626142731838.subtitle}"
 			tasks: [{
 				id: "531C226A8B381A3A"
 				item: {
@@ -1844,27 +1625,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1876,7 +1640,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0D4027ADE5C68066"
-					title: "&eUnlock Title:&r the Desecrator"
+					title: "{ftbquests.chapter.bosses.quest7523518634516308215.reward.954806748840362086.title}"
 					type: "command"
 				}
 				{
@@ -1899,7 +1663,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Find The Pale Eye!"
+			subtitle: "{ftbquests.chapter.bosses.quest7523518634516308215.subtitle}"
 			tasks: [{
 				id: "12D5F140D8B093DC"
 				item: {
@@ -1926,27 +1690,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1958,7 +1705,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "5FBAD66E034E01EF"
-					title: "&eUnlock Title:&r the Evil"
+					title: "{ftbquests.chapter.bosses.quest4928210697361698603.reward.6898061547261526511.title}"
 					type: "command"
 				}
 				{
@@ -1981,7 +1728,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Find The Evil Eye!"
+			subtitle: "{ftbquests.chapter.bosses.quest4928210697361698603.subtitle}"
 			tasks: [{
 				id: "36DFB80191128E18"
 				item: {
@@ -1998,8 +1745,8 @@
 		}
 		{
 			description: [
-				"There are 4 Secret Eyes that can be collected by doing optional challenges!"
-				"These Eyes can be used in place of another &6Legendary Eye&r for the purpose of opening an &eEnd Portal."
+				"{ftbquests.chapter.bosses.quest2443458359748745510.description1}"
+				"{ftbquests.chapter.bosses.quest2443458359748745510.description2}"
 			]
 			icon: {
 				Count: 1
@@ -2023,13 +1770,13 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Collect 4 Secret Eyes!"
+			subtitle: "{ftbquests.chapter.bosses.quest2443458359748745510.subtitle}"
 			tasks: [{
 				id: "58480ACED9382A33"
-				title: "&eInformation Quest:&r Click To Complete!"
+				title: "{ftbquests.chapter.bosses.quest2443458359748745510.task.6361346357184703027.title}"
 				type: "checkmark"
 			}]
-			title: "&6The Secret Eyes!"
+			title: "{ftbquests.chapter.bosses.quest2443458359748745510.title}"
 			x: 18.666666666666643d
 			y: 1.8630952380952337d
 		}
@@ -2037,19 +1784,19 @@
 			can_repeat: true
 			dependency_requirement: "all_started"
 			description: [
-				"While exploring you might discover that some structures are exceptionally hard to find."
-				"Luckily for you, I am full of solutions!"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description1}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description2}"
 				""
-				"If you gather me these items I can craft a magical compass capable of locating some of the more important structures related to the quests I will be sending you on!"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description3}"
 				""
-				"   &2- &nQuestmaster's Shopping List!&r&2 -"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description4}"
 				""
-				"1x Amethyst Shard:&r Needed for the Compass Needle"
-				"3x Silver Ingot: Needed for the compass base."
-				"1x Glow Ink Sack: For the dial and general coolness-factor"
-				"1x Ender Pearl: It seems to be drawn to the Legendary Eyes! It should help us locate them!"
-				"1x Superglue: To bind it all together!"
-				"1x Chicken Sandwhich: VERY important, maybe even the MOST important ingredient! §m&o&7I get hungry when I work."
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description5}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description6}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description7}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description8}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description9}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description10}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2080,34 +1827,12 @@
 					id: "5BAC7BFE2C31CDC1"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2121,10 +1846,10 @@
 						tag: {
 							display: {
 								Lore: [
-									"{\"text\":\"§8§oHow do you not have fish? It says fresh fish daily on the menu!\"}"
-									"{\"text\":\"§8§oJust get me the snapper bozo!\"}"
+									"{\"translate\":\"lore.mce2.bosses.5\"}"
+									"{\"translate\":\"lore.mce2.bosses.6\"}"
 								]
-								Name: "{\"text\":\"§7Guigino's §744$ Snapper\"}"
+								Name: "{\"translate\":\"name.mce2.bosses.3\"}"
 							}
 						}
 					}
@@ -2140,7 +1865,7 @@
 			]
 			shape: "rsquare"
 			size: 0.8d
-			subtitle: "Gather materials needed to craft a &eExplorer's Compass"
+			subtitle: "{ftbquests.chapter.bosses.quest1829358634823403967.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -2202,7 +1927,7 @@
 							value: "forge:ingots/silver"
 						}
 					}
-					title: "Any #forge:ingots/silver"
+					title: "{ftbquests.chapter.bosses.quest1829358634823403967.task.4336437832782210233.title}"
 					type: "item"
 				}
 				{
@@ -2211,10 +1936,10 @@
 					type: "item"
 				}
 			]
-			title: "&eFinding Your Way!"
+			title: "{ftbquests.chapter.bosses.quest1829358634823403967.title}"
 			x: -1.017857142857146d
 			y: -0.9166666666666643d
 		}
 	]
-	title: "{chapter.8.title}"
+	title: "{ftbquests.chapter.bosses.title}"
 }

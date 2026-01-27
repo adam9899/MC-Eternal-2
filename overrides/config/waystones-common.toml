@@ -3,7 +3,7 @@
 	#Set to true if experience cost should be inverted, meaning the shorter the distance, the more expensive. Can be used to encourage other methods for short-distance travel.
 	inverseXpCost = false
 	#The amount of blocks per xp level requirement. If set to 500, the base xp cost for travelling 1000 blocks will be 2 levels.
-	blocksPerXpLevel = 100
+	blocksPerXpLevel = 300
 	#The minimum base xp cost (may be subceeded by multipliers defined below)
 	minimumBaseXpCost = 1.0
 	#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs

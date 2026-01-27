@@ -13,7 +13,6 @@ ServerEvents.recipes(event => {
     occultismRegularCraftRitual(event, Item.of("occultism:storage_remote"), Item.of("occultism:ritual_dummy/craft_storage_remote"), "occultism:craft_djinni", Item.of(bookOfBinding.djinni), 200, [
         Item.of("occultism:storage_remote_inert"),
         Item.of("waystones:warp_stone"),
-        Item.of("mekanism:elite_control_circuit"),
         Item.of("minecraft:echo_shard")
     ]).id("occultism:ritual/craft_storage_remote")
 

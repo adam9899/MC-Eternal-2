@@ -5,15 +5,13 @@
       "type": "tinkersjewelry:attribute_modifier",
       "attribute": "minecraft:generic.movement_speed",
       "formula": [
- "$level",
-  1.0,
-  "-",
-  0.02,
-  "*",
-  1.2,
-  "+",
-  "$amplification",
-  "*"
+        "$level",
+        0.003,
+        "*",
+        "$amplification",
+        0.005,
+        "*",
+        "+"
       ],
       "operation": "addition",
       "unique": "tinkersjewelry.modifier.speed_gem",

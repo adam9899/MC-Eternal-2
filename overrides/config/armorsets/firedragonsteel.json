@@ -1,0 +1,28 @@
+{
+  "armorSetName": "Fire Dragonsteel",
+  "head": {
+    "itemKey": "iceandfire:dragonsteel_fire_helmet"
+  },
+  "chest": {
+    "itemKey": "iceandfire:dragonsteel_fire_chestplate"
+  },
+  "legs": {
+    "itemKey": "iceandfire:dragonsteel_fire_leggings"
+  },
+  "boots": {
+    "itemKey": "iceandfire:dragonsteel_fire_boots"
+	  
+	  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+	  "description": "Fire Dragonsteel: Gain Fire Resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

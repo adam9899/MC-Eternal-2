@@ -9,7 +9,7 @@
     "cataclysm:monstrous": 2
   },
   "attributes": {
-    "generic.max_health": 100,
+    "generic.max_health": 600,
     "generic.follow_range": 50,
     "generic.knockback_resistance": 10,
     "generic.movement_speed": 0.4

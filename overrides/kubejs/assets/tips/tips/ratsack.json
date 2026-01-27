@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Need to move your rats long distances or through dimensions? use a Rat Sack to store them safely!"
+    "translate": "tips.mce2.ratsack"
   }
 }

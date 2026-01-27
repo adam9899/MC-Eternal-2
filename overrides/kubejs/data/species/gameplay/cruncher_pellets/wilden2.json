@@ -1,0 +1,9 @@
+{
+  "type": "ars_nouveau:wilden_guardian",
+  "item": {
+    "id": "ars_nouveau:wilden_spike",
+    "Count": 1
+  },
+  "minTries": 3,
+  "maxTries": 8
+}

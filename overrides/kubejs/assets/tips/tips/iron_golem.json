@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Iron Golems are much more powerful. Might be worth making one or two for your base!"
+    "translate": "tips.mce2.iron_golem"
   }
 }

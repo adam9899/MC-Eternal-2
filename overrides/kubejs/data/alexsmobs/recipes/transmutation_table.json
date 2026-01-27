@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "SCS",
+    "OOO"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "S": {
+      "item": "alexsmobs:farseer_arm"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "C": {
+        "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "result": {
+    "item": "alexsmobs:transmutation_table",
+    "count": 1
+  }
+}

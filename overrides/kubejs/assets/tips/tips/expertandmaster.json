@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Expert & Master Mode bring a plethora of new creatures to The Overworld"
+    "translate": "tips.mce2.expertandmaster"
   }
 }

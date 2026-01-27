@@ -1,0 +1,1513 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "accessory"
+	group: "372D1188C5A9B800"
+	icon: {
+		Count: 1
+		id: "majruszsaccessories:soul_of_minecraft"
+		tag: {
+			Bonus: {
+				Boosters: [ ]
+				Value: 0.6f
+			}
+		}
+	}
+	id: "1E54C70FEA19DD02"
+	images: [
+		{
+			height: 40.0d
+			image: "modpack:textures/soulofmc3.png"
+			rotation: 0.0d
+			width: 40.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "majruszsaccessories:item/soul_of_minecraft"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/barry-the-rat-demon-transparent-no-white.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "majruszsaccessories:item/soul_of_minecraft"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/barry-the-rat-demon-transparent-no-white.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			height: 5.0d
+			image: "modpack:textures/soultrial.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 7.4d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/thaumcraft_rat_flip.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 8.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest8879551266859464581.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest8879551266859464581.description2}"
+			]
+			hide_dependency_lines: true
+			id: "7B3A80D4D2073785"
+			rewards: [
+				{
+					id: "3555F652D9A64DC7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "74B6C0F5E7F16C30"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "73612F260C5E9D63"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:adventurer_kit"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest7620411104687887420.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest7620411104687887420.description2}"
+			]
+			hide_dependency_lines: true
+			id: "69C12386695D143C"
+			rewards: [
+				{
+					id: "42E1A5502C1CAB4D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "6784DC5E8C658B75"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "1858CFD07AB6B97C"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:ancient_scarab"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.0d
+			y: -1.8d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest5154044656139841651.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest5154044656139841651.description2}"
+			]
+			hide_dependency_lines: true
+			id: "4786D84EB5B73073"
+			rewards: [
+				{
+					id: "3C3EC3ED3589E2F3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "7D55394C6BD2A43D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "78E98DE0B1BF86E5"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:swimmer_guide"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -5.0d
+			y: -0.8d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest8977619836634272568.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest8977619836634272568.description2}"
+			]
+			hide_dependency_lines: true
+			id: "7C96E9AD0B161338"
+			rewards: [
+				{
+					id: "76E4227F17D1C38B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "5B530044FD8B023C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "1BA1D322072177E0"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:angler_trophy"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest967185160096322001.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest967185160096322001.description2}"
+			]
+			hide_dependency_lines: true
+			id: "0D6C21C75B9211D1"
+			rewards: [
+				{
+					id: "7B94CFFC12D127B5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "58A3A2A767E64662"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "64471A342DA66BAC"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:unbreakable_fishing_line"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.9d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest1756726083037719313.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest1756726083037719313.description2}"
+			]
+			hide_dependency_lines: true
+			id: "18612510A3206B11"
+			rewards: [
+				{
+					id: "3BF9C8D5D4B875AD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "7B8F0FAF2FF283F9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "4F45A5DED22BA00A"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:metal_lure"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest2964876094544813444.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest2964876094544813444.description2}"
+			]
+			hide_dependency_lines: true
+			id: "29255B1972641D84"
+			rewards: [
+				{
+					id: "6E7E58E271F959D5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "7A09F198171E9979"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "0E309B2E3F661C51"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:discount_voucher"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest7862839794843493909.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest7862839794843493909.description2}"
+			]
+			hide_dependency_lines: true
+			id: "6D1E6B226173A615"
+			rewards: [
+				{
+					id: "43BA6B2EC1B0E8C4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "698E08784E2140A4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.accessory.quest7862839794843493909.subtitle}"
+			tasks: [{
+				id: "5006C219647ED22C"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:dream_catcher"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest3012684568187973544.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest3012684568187973544.description2}"
+			]
+			hide_dependency_lines: true
+			id: "29CF34A723252FA8"
+			rewards: [
+				{
+					id: "47C485FE07AAFA7C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "12FB473EF406D452"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "64D4AB584E5B7EA0"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:secret_ingredient"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest4800457580375049497.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest4800457580375049497.description2}"
+			]
+			hide_dependency_lines: true
+			id: "429EA6BC45960519"
+			rewards: [
+				{
+					id: "770D5525324C73AE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "559421E0A19A6F2C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "16F471D7FD0C43BE"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:lucky_rock"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest4691309967663110575.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest4691309967663110575.description2}"
+			]
+			hide_dependency_lines: true
+			id: "411AE18F59CF19AF"
+			rewards: [
+				{
+					id: "306265499BA0E4D7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "1F202E93527400C5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "6F4C1E9CDAA3657A"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:miner_guide"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -0.8d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest6707210787861179276.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest6707210787861179276.description2}"
+			]
+			hide_dependency_lines: true
+			id: "5D14CCACDC222B8C"
+			rewards: [
+				{
+					id: "476483327BB68A37"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "639616E10AF4A76C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "1DDD5D617C72426D"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:tool_scraps"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest3031324150317391028.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest3031324150317391028.description2}"
+			]
+			hide_dependency_lines: true
+			id: "2A116D410ABB1CB4"
+			rewards: [
+				{
+					id: "0EF6CC933AD2D81A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "48881371822516E1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "16D1A9D6551EF6B9"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:certificate_of_taming"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"69C12386695D143C"
+				"7B3A80D4D2073785"
+				"4786D84EB5B73073"
+			]
+			description: ["{ftbquests.chapter.accessory.quest1480407918953772085.description1}"]
+			id: "148B7728A3EA3435"
+			rewards: [
+				{
+					amount: 350L
+					currency: "eternalcurrencies:coins"
+					id: "4154C918B08B375D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0BB7ED8F949699DE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68453842600EC54C"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:adventurer_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"18612510A3206B11"
+				"7C96E9AD0B161338"
+				"0D6C21C75B9211D1"
+			]
+			description: ["{ftbquests.chapter.accessory.quest6920376251772050473.description1}"]
+			id: "600A1D8906EC1C29"
+			rewards: [
+				{
+					amount: 350L
+					currency: "eternalcurrencies:coins"
+					id: "3BE80E0414214D23"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "10AA60E70E16B317"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "213A51977E99F1CD"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:angler_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"29CF34A723252FA8"
+				"6D1E6B226173A615"
+				"29255B1972641D84"
+			]
+			description: ["{ftbquests.chapter.accessory.quest4953867557948983244.description1}"]
+			id: "44BFAC4C17E187CC"
+			rewards: [
+				{
+					amount: 350L
+					currency: "eternalcurrencies:coins"
+					id: "16904ECC5F773E72"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3E6394714B884A8E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03D83265068036B0"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:household_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"411AE18F59CF19AF"
+				"5D14CCACDC222B8C"
+				"429EA6BC45960519"
+			]
+			description: ["{ftbquests.chapter.accessory.quest5741925717427406333.description1}"]
+			id: "4FAF6B0499F0C5FD"
+			rewards: [
+				{
+					amount: 350L
+					currency: "eternalcurrencies:coins"
+					id: "18285BF4E5F5117B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "397C7E8796E48282"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C2F3BDC13B48A61"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:miner_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest2120723835869857057.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest2120723835869857057.description2}"
+			]
+			hide_dependency_lines: true
+			id: "1D6E5317B7BA0521"
+			rewards: [
+				{
+					id: "2813EC30E2E50394"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "3C75E34E8F58440A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "0037C6599714D663"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:idol_of_fertility"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.0d
+			y: -1.8d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest2238272719705372971.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest2238272719705372971.description2}"
+			]
+			hide_dependency_lines: true
+			id: "1F0FF12E007C792B"
+			rewards: [
+				{
+					id: "7135AB4053992B5A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "5B2BD336391F8D98"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "0F32B3CA4C6E3DF0"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:tamed_potato_beetle"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"1D6E5317B7BA0521"
+				"1F0FF12E007C792B"
+				"2A116D410ABB1CB4"
+			]
+			description: ["{ftbquests.chapter.accessory.quest6615527032120550063.description1}"]
+			id: "5BCF12C8FF8A22AF"
+			rewards: [
+				{
+					amount: 350L
+					currency: "eternalcurrencies:coins"
+					id: "0ABB03C04C32C22D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1C166C5A7E22A9A3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "229F87345A69FE6D"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:nature_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5BCF12C8FF8A22AF"
+				"600A1D8906EC1C29"
+				"4FAF6B0499F0C5FD"
+				"148B7728A3EA3435"
+				"44BFAC4C17E187CC"
+			]
+			description: [
+				"{ftbquests.chapter.accessory.quest2753457304972126186.description1}"
+				""
+			]
+			id: "26363ED4971167EA"
+			rewards: [
+				{
+					count: 3
+					id: "1B33E296A28E2BC7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "1DFF0867EB3EC40F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:soul"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "1FF0A653214E415B"
+					title: "{ftbquests.chapter.accessory.quest2753457304972126186.reward.2301522285557596507.title}"
+					type: "command"
+				}
+			]
+			subtitle: "{ftbquests.chapter.accessory.quest2753457304972126186.subtitle}"
+			tasks: [{
+				id: "329864470BF42FF8"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:soul_of_minecraft"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28856EB467B85620"]
+			description: ["{ftbquests.chapter.accessory.quest7197775830525495738.description1}"]
+			hide_dependency_lines: true
+			id: "63E3A2FB7F5D49BA"
+			rewards: [
+				{
+					id: "750CE27EDD9044D8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "510F3E19D08B7367"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "610CB598056A5118"
+				item: "majruszsaccessories:owl_feather"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28856EB467B85620"]
+			description: ["{ftbquests.chapter.accessory.quest1974907082187162145.description1}"]
+			hide_dependency_lines: true
+			id: "1B6847871A2B4221"
+			rewards: [
+				{
+					id: "0F4B2F42FA23FE6F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "235B206453160A1B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [
+				{
+					id: "2DE3B319216A372C"
+					item: "majruszsaccessories:dice"
+					type: "item"
+				}
+				{
+					id: "3554CD58BBCCAFE9"
+					item: "majruszsaccessories:golden_dice"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["28856EB467B85620"]
+			description: ["{ftbquests.chapter.accessory.quest1800943052416858703.description1}"]
+			hide_dependency_lines: true
+			id: "18FE3C2A1403BA4F"
+			rewards: [
+				{
+					id: "2EC3EDBB3ED13CD8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "267D174069E93B7C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "51C6C9B0BF0A6D4F"
+				item: "majruszsaccessories:onyx"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["28856EB467B85620"]
+			description: ["{ftbquests.chapter.accessory.quest6226686871510359666.description1}"]
+			hide_dependency_lines: true
+			id: "5669A2B81FF69E72"
+			rewards: [
+				{
+					id: "6B6B9B66A4BCE482"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "09CE4102BBF014D6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [
+				{
+					id: "6209610FBE9E2809"
+					item: "majruszsaccessories:horseshoe"
+					type: "item"
+				}
+				{
+					id: "7C602BCFF9BDA719"
+					item: "majruszsaccessories:golden_horseshoe"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0937152190A59C5A"
+				"60E339DF5E8AB806"
+			]
+			description: ["{ftbquests.chapter.accessory.quest5849758849903269723.description1}"]
+			hide_dependency_lines: true
+			id: "512E84AE3E2E975B"
+			rewards: [
+				{
+					id: "249FBFBB228834E1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "56C91E714604562E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "5FF14A12D99E18C2"
+				item: "majruszsaccessories:gambling_card"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0937152190A59C5A"
+				"60E339DF5E8AB806"
+			]
+			description: ["{ftbquests.chapter.accessory.quest2340845492649962319.description1}"]
+			hide_dependency_lines: true
+			id: "207C5A92BF79AB4F"
+			rewards: [
+				{
+					id: "4E79990067B3E5B2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "1696AD6B2065CD4F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "3F24F6742253308E"
+				item: "majruszsaccessories:removal_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0937152190A59C5A"
+				"60E339DF5E8AB806"
+			]
+			description: [
+				"{ftbquests.chapter.accessory.quest3520055890312733665.description1}"
+				""
+				"{ftbquests.chapter.accessory.quest3520055890312733665.description2}"
+			]
+			hide_dependency_lines: true
+			id: "30D9C02EA39CA3E1"
+			rewards: [
+				{
+					id: "1D64EB613EFB975E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "38D445FAE52EEB3F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "03E5CAF639B07629"
+				item: "majruszsaccessories:reverse_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.accessory.quest664022703965314138.description1}"
+				"{ftbquests.chapter.accessory.quest664022703965314138.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "majruszsaccessories:adventurer_kit"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: 0.6f
+					}
+				}
+			}
+			id: "0937152190A59C5A"
+			rewards: [
+				{
+					id: "0A2D17F7B2A18DBA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "3D1CC81CC3D2002C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "68A80A0A351D20EF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:pocket_left"
+					}
+				}
+				title: "{ftbquests.chapter.accessory.quest664022703965314138.task.7541288614988947695.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.accessory.quest664022703965314138.title}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: ["{ftbquests.chapter.accessory.quest2919861654532937248.description1}"]
+			id: "28856EB467B85620"
+			tasks: [{
+				id: "42561F791C90095E"
+				title: "{ftbquests.chapter.accessory.quest2919861654532937248.task.4780042659531065694.title}"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			description: ["{ftbquests.chapter.accessory.quest6981487478881040390.description1}"]
+			id: "60E339DF5E8AB806"
+			tasks: [{
+				id: "5D2FB830CFE7DC91"
+				title: "{ftbquests.chapter.accessory.quest6981487478881040390.task.6714788089218718865.title}"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+	]
+	title: "{ftbquests.chapter.accessory.title}"
+}

@@ -84,7 +84,7 @@
 	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
 	# Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, you don't need to worry about it.
 	[client.priorities]
-		priorities = [8, 3, 6, 4, 2, 5, 7, 9, 1, 0, 10, 11, 12, 13, 14, 15]
+		priorities = [10, 3, 6, 4, 2, 5, 7, 9, 1, 0, 8, 11, 12, 13, 14, 15]
 
 	# Entry types:
 	#    Match all - Specifying just an asterisk (*) will match all items.  Examples: "*"
@@ -101,15 +101,15 @@
 	[client.definitions]
 		level0_entries = ["!uncommon", "rats:rat_king_crown", "vampirism:vampire_clothing_crown", "curios:crown", "^Legendary"]
 		level1_entries = ["$forge:gems", "!epic", "#FFAA00", "endrem:end_crystal_ingot", "rats:arcane_technology", "mceletters:elegant_letter"]
-		level2_entries = ["endrem:evil_eye", "alexscaves:dreadbow", "kubejs:mobdrop_endermanheart_beating"]
-		level3_entries = ["endrem:nether_eye", "iceandfire:dragonsteel_fire_ingot", "minecraft:netherite_ingot", "minecraft:netherite_block", "iceandfire:fire_dragon_heart", "iceandfire:dragonbone_sword_fire", "iceandfire:dragonsteel_fire_sword", "cataclysm:infernal_forge", "cataclysm:the_incinerator", "cataclysm:bulwark_of_the_flame", "netherexp:treacherous_flame", "kubejs:nether_item", "vc_gliders:paraglider_netherite"]
+		level2_entries = ["endrem:evil_eye", "alexscaves:dreadbow"]
+		level3_entries = ["endrem:nether_eye", "iceandfire:dragonsteel_fire_ingot", "minecraft:netherite_ingot", "minecraft:netherite_block", "iceandfire:fire_dragon_heart", "iceandfire:dragonbone_sword_fire", "iceandfire:dragonsteel_fire_sword", "cataclysm:infernal_forge", "cataclysm:the_incinerator", "cataclysm:bulwark_of_the_flame", "netherexp:treacherous_flame", "kubejs:nether_item", "vc_gliders:paraglider_netherite", "kubejs:mobdrop_endermanheart_beating"]
 		level4_entries = ["endrem:cold_eye", "iceandfire:tide_trident", "iceandfire:dragonsteel_ice_ingot", "endrem:exotic_eye", "artifacts:flippers", "artifacts:snorkel", "artifacts:charm_of_sinking", "iceandfire:ice_dragon_heart", "aquamirae:coral_lance", "aquamirae:music_disc_forsaken_drownage", "aquamirae:fin_cutter", "aquamirae:rune_of_the_storm", "aquaculture:neptunium_ingot", "aquaculture:neptunium_fishing_rod", "aquaculture:neptunium_sword", "mermod:sea_crystal", "mermod:sea_necklace", "iceandfire:dragonsteel_ice_sword"]
 		level5_entries = ["ftbquests:book", "$forge:seeds", "endrem:rogue_eye", "iceandfire:hydra_heart", "tradingpost:trading_post", "iceandfire:bestiary", "explorerscompass:explorerscompass", "vc_gliders:paraglider_wood"]
 		level6_entries = ["endrem:corrupted_eye", "endrem:black_eye", "iceandfire:manuscript", "$iceandfire:mob_skulls", "$forge:heads", "vampirism:injection_sanguinare", "iceandfire:dread_queen_sword", "@dreadsteel"]
-		level7_entries = ["endrem:lost_eye", "endrem:magical_eye", "$forge:ingots", "vc_gliders:paraglider_iron"]
+		level7_entries = ["endrem:lost_eye", "endrem:magical_eye", "$forge:ingots", "vc_gliders:paraglider_iron", "kubejs:ingot_thousand_metals"]
 		level8_entries = ["endrem:wither_eye", "iceandfire:dragonsteel_lightning_ingot", "iceandfire:lightning_dragon_heart", "iceandfire:dragonsteel_lightning_sword", "kubejs:mobdrop_endermanheart_beating"]
 		level9_entries = ["endrem:old_eye", "rats:halo_hat", "endrem:guardian_eye"]
-		level10_entries = ["kubejs:artifact_beating_heart", "constructs_casting:eldritch_staff", "blighted_beasts:sculk_pearl"]
+		level10_entries = ["kubejs:artifact_beating_heart", "constructs_casting:eldritch_staff", "blighted_beasts:sculk_pearl", "thegreatbelow:soul_reaver_axe", "thegreatbelow:sculk_pizza", "thegreatbelow:sculk_soup"]
 		level11_entries = []
 		level12_entries = []
 		level13_entries = []

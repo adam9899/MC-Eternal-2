@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You can only damage Ghosts with magic damage or silver weapons!"
+    "translate": "tips.mce2.ghosts"
   }
 }

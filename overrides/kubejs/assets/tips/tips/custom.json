@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "MC Eternal 2 has lots of custom content, you are unlikely to experience all of it in one playthrough!"
+    "translate": "tips.mce2.custom"
   }
 }

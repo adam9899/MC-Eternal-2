@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Hammer weapon types do large amounts of AOE damage every third attack!"
+    "translate": "tips.mce2.hammer"
   }
 }

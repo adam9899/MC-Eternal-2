@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "tconstruct:crystalstrike"
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "level": 1,
+        "name": "tinkertantrum:veinmining"
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "level": 2,
+        "name": "tconstruct:holy"
+      }
+    ]
+  }
+}

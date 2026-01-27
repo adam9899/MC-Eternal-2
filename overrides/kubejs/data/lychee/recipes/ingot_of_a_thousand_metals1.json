@@ -1,0 +1,15 @@
+{
+  "type": "lychee:block_crushing",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "kubejs:ingot_thousand_metals",
+      "count": 4
+    }
+  ],
+  "item_in": [
+    {
+      "item": "mowziesmobs:wrought_axe"
+    }
+  ]
+}
