@@ -19,8 +19,8 @@
 		{
 			dependencies: ["4A8875DB724D07B8"]
 			description: [
-				"A basic tugboat that can operate on any furnace fuel. Fuel can be loaded with hoppers placed on top of tug docks."
-				"{image:modpack:textures/steam_tug.png width:197 height:100 align:center}"
+				"{ftbquests.chapter.little_logistics.quest1132804425442421982.description1}"
+				"{ftbquests.chapter.little_logistics.quest1132804425442421982.image0}"
 			]
 			id: "0FB8879F827C6CDE"
 			rewards: [
@@ -37,46 +37,29 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Steam Tug"
+			subtitle: "{ftbquests.chapter.little_logistics.quest1132804425442421982.subtitle}"
 			tasks: [{
 				id: "6EC2F4566302C346"
 				item: "littlelogistics:tug"
 				type: "item"
 			}]
-			title: "Steaming Ahead"
+			title: "{ftbquests.chapter.little_logistics.quest1132804425442421982.title}"
 			x: -6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
-			description: ["A simple barge that holds items, very similar to vanilla minecart. Must be docked and part of a tug-train to interface with hoppers."]
+			description: ["{ftbquests.chapter.little_logistics.quest5065055546952293929.description1}"]
 			id: "464AB12F23B69E29"
 			rewards: [{
 				amount: 80L
@@ -85,26 +68,26 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Chest Barge"
+			subtitle: "{ftbquests.chapter.little_logistics.quest5065055546952293929.subtitle}"
 			tasks: [{
 				id: "3447372AEA7D0719"
 				item: "littlelogistics:barge"
 				type: "item"
 			}]
-			title: "Floating Storage"
+			title: "{ftbquests.chapter.little_logistics.quest5065055546952293929.title}"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
 			description: [
-				"Performs fishing passively, uses vanilla fishing rod loot table. Needs to be in open water for nets to be deployed. Can be unloaded with hoppers and barge docks. Must be docked and part of a tug-train to interface with hoppers. "
+				"{ftbquests.chapter.little_logistics.quest1798596922765939990.description1}"
 				""
-				"The barge has shallow water and “overfishing” penalties, so it’s best to use this barge on long routes into oceans. "
+				"{ftbquests.chapter.little_logistics.quest1798596922765939990.description2}"
 				""
-				"The yield is maximised when the water is 20 or more blocks deep. Overfishing is tracked per barge and per block, routes 200 or more blocks long should be sufficient to avoid overfishing."
+				"{ftbquests.chapter.little_logistics.quest1798596922765939990.description3}"
 				""
-				"&6Hint:&r Autofishing will not enable you to gather the special bonus treasure from fishing by hand!"
+				"{ftbquests.chapter.little_logistics.quest1798596922765939990.description4}"
 			]
 			id: "18F5E65F33931516"
 			rewards: [{
@@ -114,19 +97,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Auto-Fishing Barge"
+			subtitle: "{ftbquests.chapter.little_logistics.quest1798596922765939990.subtitle}"
 			tasks: [{
 				id: "5EBC264685752D69"
 				item: "littlelogistics:fishing_barge"
 				type: "item"
 			}]
-			title: "Catch On The Day On-Auto"
+			title: "{ftbquests.chapter.little_logistics.quest1798596922765939990.title}"
 			x: -4.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
-			description: ["A simple barge that seats one player."]
+			description: ["{ftbquests.chapter.little_logistics.quest4899181738854545640.description1}"]
 			id: "43FD63D5A28178E8"
 			rewards: [{
 				amount: 80L
@@ -135,19 +118,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Seater Barge"
+			subtitle: "{ftbquests.chapter.little_logistics.quest4899181738854545640.subtitle}"
 			tasks: [{
 				id: "1AAD6349CA2E567A"
 				item: "littlelogistics:seater_barge"
 				type: "item"
 			}]
-			title: "Nautical Throne"
+			title: "{ftbquests.chapter.little_logistics.quest4899181738854545640.title}"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
-			description: ["Automatically collects items in a radius! Connect a Chest Barge behind the Item Collection Barge as the Item Collection Barge does not provide an iventory of its own!"]
+			description: ["{ftbquests.chapter.little_logistics.quest2830243802434079436.description1}"]
 			id: "27470BBE37D58ACC"
 			rewards: [
 				{
@@ -163,34 +146,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Item Collection Barge"
+			subtitle: "{ftbquests.chapter.little_logistics.quest2830243802434079436.subtitle}"
 			tasks: [{
 				id: "7FC22DFB8F242827"
 				item: "littlelogistics:vacuum_barge"
@@ -201,7 +167,7 @@
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
-			description: ["Use this barge to transport fluids, can be loaded and unloaded with a Fluid Hoppers."]
+			description: ["{ftbquests.chapter.little_logistics.quest1327741295653984262.description1}"]
 			id: "126D15AC79129806"
 			rewards: [{
 				amount: 80L
@@ -215,15 +181,15 @@
 				item: "littlelogistics:fluid_barge"
 				type: "item"
 			}]
-			title: "Aqua Accumulator"
+			title: "{ftbquests.chapter.little_logistics.quest1327741295653984262.title}"
 			x: 1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
 			description: [
-				"A tugboat powered by Forge Energy, can be charged when docked with a Vehicle Charger. The tug has an extra slot for a capacitor, this is useful if the tug ran out of energy mid-way and needs to be recharged."
-				"{image:modpack:textures/energy_tug.png width:197 height:100 align:center}"
+				"{ftbquests.chapter.little_logistics.quest7504262846487614581.description1}"
+				"{ftbquests.chapter.little_logistics.quest7504262846487614581.image0}"
 			]
 			id: "68247F4CB20E5475"
 			rewards: [
@@ -240,47 +206,30 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Energy Tug"
+			subtitle: "{ftbquests.chapter.little_logistics.quest7504262846487614581.subtitle}"
 			tasks: [{
 				id: "0D49134EB1598938"
 				item: "littlelogistics:energy_tug"
 				type: "item"
 			}]
-			title: "Aquatic Energized Expeditions"
+			title: "{ftbquests.chapter.little_logistics.quest7504262846487614581.title}"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			description: [
-				"Vehicles can be linked using “vehicle chains”. Train and Tug/Barge orientation will be updated automatically!"
-				"{image:modpack:textures/linked.png width:197 height:100 align:center}"
+				"{ftbquests.chapter.little_logistics.quest2663572735216363219.description1}"
+				"{ftbquests.chapter.little_logistics.quest2663572735216363219.image0}"
 			]
 			id: "24F6E94A5BFCA6D3"
 			rewards: [{
@@ -290,19 +239,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft some Vehicle Chains"
+			subtitle: "{ftbquests.chapter.little_logistics.quest2663572735216363219.subtitle}"
 			tasks: [{
 				count: 6L
 				id: "02F72B02ED551A59"
 				item: "littlelogistics:spring"
 				type: "item"
 			}]
-			title: "All Linked Up"
+			title: "{ftbquests.chapter.little_logistics.quest2663572735216363219.title}"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
-			description: ["Held in hand, the Conductor's Wrench will display the locations of currently registered locomotives and tugs. Right clicking any rails will cycle it through its various shapes!"]
+			description: ["{ftbquests.chapter.little_logistics.quest4451988307702994969.description1}"]
 			id: "3DC8A3C738D45819"
 			rewards: [{
 				amount: 75L
@@ -311,21 +260,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Conductor's Wrench"
+			subtitle: "{ftbquests.chapter.little_logistics.quest4451988307702994969.subtitle}"
 			tasks: [{
 				id: "1CB5AEFE0B93C316"
 				item: "littlelogistics:conductors_wrench"
 				type: "item"
 			}]
-			title: "Wrench it"
+			title: "{ftbquests.chapter.little_logistics.quest4451988307702994969.title}"
 			x: -7.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5CFD5B47B679D472"]
 			description: [
-				"A basic Steam Locomotive that can operate on any furnace fuel. Fuel can be loaded with hoppers!"
-				"{image:modpack:textures/steam_locomotive.png width:197 height:100 align:center}"
+				"{ftbquests.chapter.little_logistics.quest1879144242102611776.description1}"
+				"{ftbquests.chapter.little_logistics.quest1879144242102611776.image0}"
 			]
 			id: "1A140FBB683F2F40"
 			rewards: [
@@ -342,27 +291,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -373,23 +305,23 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "1715BE9B228BEA5D"
-					title: "&eUnlock Title:&r the Conductor"
+					title: "{ftbquests.chapter.little_logistics.quest1879144242102611776.reward.1663445210892069469.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Craft a Steam Locomotive"
+			subtitle: "{ftbquests.chapter.little_logistics.quest1879144242102611776.subtitle}"
 			tasks: [{
 				id: "152A66C88B7A122D"
 				item: "littlelogistics:steam_locomotive"
 				type: "item"
 			}]
-			title: "Choo Choo"
+			title: "{ftbquests.chapter.little_logistics.quest1879144242102611776.title}"
 			x: -6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5CFD5B47B679D472"]
-			description: ["Same as vanilla chest minecart, can be loaded or unloaded using vanilla hoppers or rapid hoppers from this mod."]
+			description: ["{ftbquests.chapter.little_logistics.quest5170293077805537516.description1}"]
 			id: "47C092292F4298EC"
 			rewards: [{
 				amount: 75L
@@ -398,19 +330,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Chest Train Car"
+			subtitle: "{ftbquests.chapter.little_logistics.quest5170293077805537516.subtitle}"
 			tasks: [{
 				id: "148CF9526BB6A9D1"
 				item: "littlelogistics:chest_car"
 				type: "item"
 			}]
-			title: "Storage On Wheels"
+			title: "{ftbquests.chapter.little_logistics.quest5170293077805537516.title}"
 			x: -4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5CFD5B47B679D472"]
-			description: ["Train cars are similar to vanilla minecarts, but can be linked to a locomotive and docked."]
+			description: ["{ftbquests.chapter.little_logistics.quest2657050948322168081.description1}"]
 			id: "24DFBDC284DB8D11"
 			rewards: [{
 				amount: 75L
@@ -419,21 +351,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Train Car"
+			subtitle: "{ftbquests.chapter.little_logistics.quest2657050948322168081.subtitle}"
 			tasks: [{
 				id: "4ED9E5A4E2300E48"
 				item: "littlelogistics:seater_car"
 				type: "item"
 			}]
-			title: "Passenger Princess"
+			title: "{ftbquests.chapter.little_logistics.quest2657050948322168081.title}"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5CFD5B47B679D472"]
 			description: [
-				"A locomotive powered by Forge Energy, can be charged when docked with a Vehicle Charger. The locomotive has an extra slot for a capacitor, this is useful if the locomotive ran out of energy mid-way and needs to be recharged."
-				"{image:modpack:textures/energy_locomotive.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.little_logistics.quest5253123029841354180.description1}"
+				"{ftbquests.chapter.little_logistics.quest5253123029841354180.image0}"
 			]
 			id: "48E6D7903B1E1DC4"
 			rewards: [{
@@ -442,33 +374,16 @@
 					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
-						Enchantments: [{
-							id: "ars_nouveau:reactive"
-							lvl: 1
-						}]
 						HideFlags: 33
 						display: {
-							Lore: [
-								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-								"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
-								"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-								"{\"text\":\"\"}"
-							]
-							Name: "{\"text\":\"§eQuest Loot\"}"
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 						}
-						"quark:RuneAttached": 1b
-						"quark:RuneColor": {
-							Count: 1b
-							id: "quark:rainbow_rune"
-						}
-						rpgloot.randomize: 0b
 						type: "quest_loot"
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "Craft a Energy Locomotive"
+			subtitle: "{ftbquests.chapter.little_logistics.quest5253123029841354180.subtitle}"
 			tasks: [{
 				id: "7F40C6E3CFB25CB9"
 				item: "littlelogistics:energy_locomotive"
@@ -479,9 +394,9 @@
 		}
 		{
 			description: [
-				"This item stores a route for the vehicle's. "
+				"{ftbquests.chapter.little_logistics.quest273289739866056458.description1}"
 				""
-				"When the item is placed in the vehicle's route slot, the vehicle will follow the route in order from node 0. Right click at any coordinate to add a node to the back of the tug route (cannot add to the middle). Right click at the location of any existing node to remove it. Shift right click to bring up the menu that lets you modify the order of nodes or rename them. The route can be copied by placing it together with an empty one in a crafting grid."
+				"{ftbquests.chapter.little_logistics.quest273289739866056458.description2}"
 			]
 			id: "03CAEB920979A70A"
 			rewards: [{
@@ -491,7 +406,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Route"
+			subtitle: "{ftbquests.chapter.little_logistics.quest273289739866056458.subtitle}"
 			tasks: [
 				{
 					id: "0771ABF18C15E566"
@@ -504,15 +419,15 @@
 					type: "item"
 				}
 			]
-			title: "On Route"
+			title: "{ftbquests.chapter.little_logistics.quest273289739866056458.title}"
 			x: -4.5d
 			y: -2.5d
 		}
 		{
 			description: [
-				"Trains can be docked using a combination of “locomotive docking rails” and “train car docking rails”. Line the docking rails up, place unloaders below the rails and loaders on either side. Blue mode is used to unload and orange to load. "
+				"{ftbquests.chapter.little_logistics.quest5140866844602035820.description1}"
 				""
-				"The rails will automatically tell the locomotive to wait as long as there’s anything to be moved, if a redstone signal is applied to the locomotive rail, the locomotive will keep waiting regardless."
+				"{ftbquests.chapter.little_logistics.quest5140866844602035820.description2}"
 			]
 			id: "475807285E166E6C"
 			rewards: [{
@@ -522,7 +437,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft some Locomotive and Train Car Docking Rails"
+			subtitle: "{ftbquests.chapter.little_logistics.quest5140866844602035820.subtitle}"
 			tasks: [
 				{
 					count: 3L
@@ -537,15 +452,15 @@
 					type: "item"
 				}
 			]
-			title: "Docking Depot"
+			title: "{ftbquests.chapter.little_logistics.quest5140866844602035820.title}"
 			x: -4.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"Standard Switch and T-junction tracks can be switched using redstone. Powered rails work great when trying to make loops."
+				"{ftbquests.chapter.little_logistics.quest7519860857900034760.description1}"
 				""
-				"Switch rails switch between straight or left/right when powered by a redstone signal!"
+				"{ftbquests.chapter.little_logistics.quest7519860857900034760.description2}"
 			]
 			id: "685BE99BBB7EEAC8"
 			rewards: [
@@ -561,11 +476,11 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "6D7D4CD56B6C5CAB"
-					title: "&eUnlock Title:&r the Little Logician"
+					title: "{ftbquests.chapter.little_logistics.quest7519860857900034760.reward.7889546601736985771.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Craft some Junction and Switch Rails"
+			subtitle: "{ftbquests.chapter.little_logistics.quest7519860857900034760.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -586,15 +501,15 @@
 					type: "item"
 				}
 			]
-			title: "Junction Ahead!"
+			title: "{ftbquests.chapter.little_logistics.quest7519860857900034760.title}"
 			x: -3.0d
 			y: 0.5d
 		}
 		{
 			description: [
-				"Automatic switch tracks will be switched by a locomotive with a route. Every time a locomotive approaches an automatic junction, it will look for the closest waypoint it is yet to visit, and switch the track accordingly. "
+				"{ftbquests.chapter.little_logistics.quest9131040494743236859.description1}"
 				""
-				"Waypoint can be configured using the “locomotive route” item, they are not ordered."
+				"{ftbquests.chapter.little_logistics.quest9131040494743236859.description2}"
 			]
 			id: "7EB7F8F39EE0B0FB"
 			rewards: [{
@@ -604,7 +519,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft some Automatic Rails"
+			subtitle: "{ftbquests.chapter.little_logistics.quest9131040494743236859.subtitle}"
 			tasks: [
 				{
 					id: "143522F9214211AA"
@@ -617,15 +532,15 @@
 					type: "item"
 				}
 			]
-			title: "Auto-Switching"
+			title: "{ftbquests.chapter.little_logistics.quest9131040494743236859.title}"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. "
+				"{ftbquests.chapter.little_logistics.quest139261473912140665.description1}"
 				""
-				"Does not affect barges. Shift-right-click to rotate."
+				"{ftbquests.chapter.little_logistics.quest139261473912140665.description2}"
 			]
 			id: "01EEC1929B6E3379"
 			rewards: [{
@@ -635,22 +550,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Tug Guide Rail"
+			subtitle: "{ftbquests.chapter.little_logistics.quest139261473912140665.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "17FC2CAF40D3CB5C"
 				item: "littlelogistics:guide_rail_tug"
 				type: "item"
 			}]
-			title: "Under Pressure"
+			title: "{ftbquests.chapter.little_logistics.quest139261473912140665.title}"
 			x: -3.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"Assists vessels around sharp corners, should always be used on sharp corners or near entrances to narrow waterways (such as those for docks). Affects both tugs and barges. Shift-right-click to flip direction. "
+				"{ftbquests.chapter.little_logistics.quest576190117492136544.description1}"
 				""
-				"Must not have a full solid block directly on top (i.e. no stone, planks etc. fence posts, signs etc. OK)."
+				"{ftbquests.chapter.little_logistics.quest576190117492136544.description2}"
 			]
 			id: "07FF09DBEC359A60"
 			rewards: [{
@@ -660,21 +575,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Vessel Corner Guide Rail"
+			subtitle: "{ftbquests.chapter.little_logistics.quest576190117492136544.subtitle}"
 			tasks: [{
 				count: 3L
 				id: "227E6A952ADFEEB1"
 				item: "littlelogistics:guide_rail_corner"
 				type: "item"
 			}]
-			title: "Tight Corners"
+			title: "{ftbquests.chapter.little_logistics.quest576190117492136544.title}"
 			x: -1.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"This block emits a redstone signal from the back when it detects a vehicle, will display range when right-clicked."
-				"{image:modpack:textures/vehicle_detector.png width:197 height:100 align:center}"
+				"{ftbquests.chapter.little_logistics.quest1008595360476818342.description1}"
+				"{ftbquests.chapter.little_logistics.quest1008595360476818342.image0}"
 			]
 			id: "0DFF4022F753EBA6"
 			rewards: [{
@@ -684,24 +599,24 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Vehicle Detector"
+			subtitle: "{ftbquests.chapter.little_logistics.quest1008595360476818342.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "09FD24D593909673"
 				item: "littlelogistics:vessel_detector"
 				type: "item"
 			}]
-			title: "I See You~"
+			title: "{ftbquests.chapter.little_logistics.quest1008595360476818342.title}"
 			x: 0.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"There are two dock blocks: barge and tug. The tug block must always be present for the barge docks to work. The top texture of the tug dock must be aligned with the barge docks, you can shift right-click the tug dock to flip the dock direction. "
+				"{ftbquests.chapter.little_logistics.quest7964612773820469101.description1}"
 				""
-				"The barge docks must form a straight line from the tug dock, there shouldn’t be any gaps in the line. The tug dock can only insert into the tug (orange/output mode), place a hopper on top of the dock to extract. The barge docks can both insert (orange/output mode) and extract (blue/input mode) into/from the barges, shift-right click to switch the mode. "
+				"{ftbquests.chapter.little_logistics.quest7964612773820469101.description2}"
 				""
-				"Place a hopper below the waterblock next to the barge dock to extract. The dock line should be next to a 1 block wide canal, wider canals can prevent the vessels from docking properly."
+				"{ftbquests.chapter.little_logistics.quest7964612773820469101.description3}"
 			]
 			id: "6E87FD1E951B8F6D"
 			rewards: [{
@@ -711,7 +626,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Tug and Barge Dock"
+			subtitle: "{ftbquests.chapter.little_logistics.quest7964612773820469101.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -726,14 +641,14 @@
 					type: "item"
 				}
 			]
-			title: "Whats Up Dock?"
+			title: "{ftbquests.chapter.little_logistics.quest7964612773820469101.title}"
 			x: -4.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"A hopper but for fluids, can import from the top and export from the sides. Can be loaded by right-clicking with buckets. Can be used to load/unload vessels using Docks."
-				"{image:modpack:textures/fluid_hopper.png width:197 height:100 align:center}"
+				"{ftbquests.chapter.little_logistics.quest2288535419894105959.description1}"
+				"{ftbquests.chapter.little_logistics.quest2288535419894105959.image0}"
 			]
 			id: "1FC282D6D6B00767"
 			rewards: [{
@@ -743,20 +658,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Fluid Hopper"
+			subtitle: "{ftbquests.chapter.little_logistics.quest2288535419894105959.subtitle}"
 			tasks: [{
 				id: "00CDC87065678BD7"
 				item: "littlelogistics:fluid_hopper"
 				type: "item"
 			}]
-			title: "A Fancy Straw"
+			title: "{ftbquests.chapter.little_logistics.quest2288535419894105959.title}"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			description: [
-				"A charger for Energy Tug or Locomotive, connect to any forge energy cable to add power to the charger. Place on top of a dock or beside a rail to charge the vehicle when docking."
-				"{image:modpack:textures/vehicle_charger.png width:197 height:100 align:center}"
+				"{ftbquests.chapter.little_logistics.quest7870284123144003810.description1}"
+				"{ftbquests.chapter.little_logistics.quest7870284123144003810.image0}"
 			]
 			id: "6D38DDB6216520E2"
 			rewards: [{
@@ -766,20 +681,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Vehicle Charger"
+			subtitle: "{ftbquests.chapter.little_logistics.quest7870284123144003810.subtitle}"
 			tasks: [{
 				id: "1B0E64374364CDA5"
 				item: "littlelogistics:vessel_charger"
 				type: "item"
 			}]
-			title: "Energize!"
+			title: "{ftbquests.chapter.little_logistics.quest7870284123144003810.title}"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"Same as vanilla hopper, but 8 times as fast!"
-				"{image:modpack:textures/rapid_hopper.png width:197 height:100 align:center}"
+				"{ftbquests.chapter.little_logistics.quest1248452092992590013.description1}"
+				"{ftbquests.chapter.little_logistics.quest1248452092992590013.image0}"
 			]
 			id: "1153649061EA90BD"
 			rewards: [{
@@ -789,40 +704,40 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Rapid Hopper"
+			subtitle: "{ftbquests.chapter.little_logistics.quest1248452092992590013.subtitle}"
 			tasks: [{
 				id: "4B8E220051DC5B4C"
 				item: "littlelogistics:rapid_hopper"
 				type: "item"
 			}]
-			title: "Quick Quick Quick!"
+			title: "{ftbquests.chapter.little_logistics.quest1248452092992590013.title}"
 			x: -3.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"Locomotive collision avoidance"
+				"{ftbquests.chapter.little_logistics.quest6700612184159409266.description1}"
 				""
-				"Locomotives have built-in collision detection that is designed for junctions. Locomotives AI will automatically decide and give priority to avoid a collision."
+				"{ftbquests.chapter.little_logistics.quest6700612184159409266.description2}"
 				""
-				"Locomotive speed"
+				"{ftbquests.chapter.little_logistics.quest6700612184159409266.description3}"
 				""
-				"Locomotives will automatically control their speed on rails. They will travel faster on long stretches of straight tracks, but slow down as they approach docks, junctions, or corners."
+				"{ftbquests.chapter.little_logistics.quest6700612184159409266.description4}"
 			]
 			id: "5CFD5B47B679D472"
-			subtitle: "Locomotive Info"
+			subtitle: "{ftbquests.chapter.little_logistics.quest6700612184159409266.subtitle}"
 			tasks: [{
 				id: "428D335D6E790746"
-				title: "Locomotive Info"
+				title: "{ftbquests.chapter.little_logistics.quest6700612184159409266.task.4795545654597846854.title}"
 				type: "checkmark"
 			}]
-			title: "Feeling a Little Loco"
+			title: "{ftbquests.chapter.little_logistics.quest6700612184159409266.title}"
 			x: -7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5CFD5B47B679D472"]
-			description: ["Can transport fluids, can be loaded or unloaded using fluid hoppers."]
+			description: ["{ftbquests.chapter.little_logistics.quest5661018526537158929.description1}"]
 			id: "4E8FFA5B45271111"
 			rewards: [
 				{
@@ -838,67 +753,50 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Fluid Tank Train Car"
+			subtitle: "{ftbquests.chapter.little_logistics.quest5661018526537158929.subtitle}"
 			tasks: [{
 				id: "4D807B5DC4168249"
 				item: "littlelogistics:fluid_car"
 				type: "item"
 			}]
-			title: "Liquid On The Go"
+			title: "{ftbquests.chapter.little_logistics.quest5661018526537158929.title}"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			description: [
-				"There are two types of vessels in this mod: tugs and barges. Tugs can move the barges when chained, and barges and do all sort of stuff. Tugs can also be moved manually using leads."
+				"{ftbquests.chapter.little_logistics.quest5370672141015254968.description1}"
 				""
-				"&8Chapter credit: Pixiefer"
+				"{ftbquests.chapter.little_logistics.quest5370672141015254968.description2}"
 			]
 			id: "4A8875DB724D07B8"
-			subtitle: "Tugs and Barges Info"
+			subtitle: "{ftbquests.chapter.little_logistics.quest5370672141015254968.subtitle}"
 			tasks: [{
 				id: "2BD231BE945A2AB6"
-				title: "Tugs and Barges"
+				title: "{ftbquests.chapter.little_logistics.quest5370672141015254968.task.3157640983342623414.title}"
 				type: "checkmark"
 			}]
-			title: "A Little Tug Goes a Long Way"
+			title: "{ftbquests.chapter.little_logistics.quest5370672141015254968.title}"
 			x: -7.5d
 			y: -4.0d
 		}
 		{
 			description: [
-				"&6&lLittle Logistics&r is a mod focused on efficient, affordable and long-distance transport!"
+				"{ftbquests.chapter.little_logistics.quest5162509602933638741.description1}"
 				""
-				"Using fun little vehicles such as trains and boats, you can improve your logistics in a cute and effective way! "
-				"{image:modpack:textures/steam_tug.png width:180 height:100 align:center}"
-				"                &8&oTug Steamboat!"
+				"{ftbquests.chapter.little_logistics.quest5162509602933638741.description2}"
+				"{ftbquests.chapter.little_logistics.quest5162509602933638741.image0}"
+				"{ftbquests.chapter.little_logistics.quest5162509602933638741.description3}"
 			]
 			id: "47A4EB21B8670655"
 			rewards: [{
@@ -908,15 +806,15 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Learn about the mod!"
+			subtitle: "{ftbquests.chapter.little_logistics.quest5162509602933638741.subtitle}"
 			tasks: [{
 				id: "4D648807D80D7341"
-				title: "What is Little Logistics?"
+				title: "{ftbquests.chapter.little_logistics.quest5162509602933638741.task.5576731805862425409.title}"
 				type: "checkmark"
 			}]
 			x: -10.0d
 			y: -2.0d
 		}
 	]
-	title: "&6Little Logistics"
+	title: "{ftbquests.chapter.little_logistics.title}"
 }

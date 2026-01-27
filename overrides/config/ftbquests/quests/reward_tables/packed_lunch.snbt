@@ -19,7 +19,7 @@
 				id: "farmersdelight:hot_cocoa"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§7§oWarm and comforting, the Hot Cocoa can cure just about anything -Mom\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.1\"}"]
 					}
 					rpgloot.randomize: 0b
 				}
@@ -34,7 +34,7 @@
 				id: "farmersdelight:honey_cookie"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§7Mom's famous Honey Cookies. §7§oMade especially for you!\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.2\"}"]
 					}
 					rpgloot.randomize: 0b
 				}
@@ -47,7 +47,7 @@
 				id: "farmersdelight:mixed_salad"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§7§oEat your veggies! - Mom\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.3\"}"]
 					}
 					rpgloot.randomize: 0b
 				}
@@ -60,8 +60,8 @@
 				id: "farmersdelight:pasta_with_meatballs"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§7§oTasty enough to make your knees weak\"}"]
-						Name: "{\"text\":\"§eMom's Spaghetti\"}"
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.4\"}"]
+						Name: "{\"translate\":\"lore.mce2.packed_lunch.5\"}"
 					}
 					rpgloot.randomize: 0b
 				}
@@ -73,7 +73,7 @@
 				id: "thermal:pbj_sandwich"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§7§oPacked lunch! The crusts are cut off just how you like it! §d-Mom §r§d❤\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.6\"}"]
 					}
 					rpgloot.randomize: 0b
 				}
@@ -100,13 +100,13 @@
 					}
 					display: {
 						Lore: [
-							"{\"text\":\"§7Makes you feel strong! Mom always makes this whenever you fell ill. Thanks Mom!\"}"
+							"{\"translate\":\"lore.mce2.packed_lunch.7\"}"
 							"{\"text\":\"\"}"
-							"{\"text\":\"§fEffect: §dStrength\"}"
-							"{\"text\":\"§fDuration: §d3:00\"}"
-							"{\"text\":\"§fAmplifier: §d2\"}"
+							"{\"translate\":\"lore.mce2.packed_lunch.8\"}"
+							"{\"translate\":\"lore.mce2.packed_lunch.9\"}"
+							"{\"translate\":\"lore.mce2.packed_lunch.10\"}"
 						]
-						Name: "{\"text\":\"§eMom's Homemade Vegetable Soup\"}"
+						Name: "{\"translate\":\"name.mce2.packed_lunch.1\"}"
 					}
 				}
 			}
@@ -151,12 +151,12 @@
 				id: "rats:assorted_vegetables"
 				tag: {
 					display: {
-						Lore: ["[\"\",{\"text\":\"When your married you'll understand the importance of fresh produce!\",\"color\":\"green\"}]"]
+						Lore: ["[\"\",{\"translate\":\"lore.mce2.mom_market.1\",\"color\":\"green\"}]"]
 					}
 				}
 			}
 		}
 		{ item: "milkablecreepers:creeper_milk" }
 	]
-	title: "{loot_table.36}"
+	title: "{ftbquests.loot_table.6664182306022005570.title}"
 }

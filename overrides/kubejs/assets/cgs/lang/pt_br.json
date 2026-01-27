@@ -1,0 +1,30 @@
+{
+  "itemGroup.mod_items": "Create: Armaria",
+  "slot.cgs.attachment.engine": "Motor",
+  "item.cgs.revolver": "Revólver de Latão",
+  "item.cgs.launcher": "Lança-Mísseis Portátil",
+  "item.cgs.gatling": "Gatling",
+  "item.cgs.barrel": "Cano",
+  "item.cgs.round_revolver_piercing": "Munição Perfurante de Revólver",
+  "item.cgs.round_gatling_piercing": "Munição Perfurante de Gatling",
+  "item.cgs.round_shotgun_incindary": "Munição Incendiária de Espingarda",
+  "item.cgs.barrel_sturdy": "Cano Robusto",
+  "item.cgs.press_form_7mm": "Forma de Prensagem de Cápsula 7mm",
+  "item.cgs.press_form_10mm": "Forma de Prensagem de Cápsula 10mm",
+  "item.cgs.shell_7mm": "Cápsula de 7mm",
+  "item.cgs.shell_10mm": "Cápsula de 10mm",
+  "item.cgs.round_7mm": "Munição de 7mm",
+  "item.cgs.round_10mm": "Munição de 10mm",
+  "item.cgs.steam_engine": "Gatling: Motor a Vapor",
+  "item.cgs.iron_sight": "Gatling: Mira de Ferro",
+
+
+  "item.cgs.raw_lead": "Chumbo Bruto",
+  "item.cgs.lead_ingot": "Lingote de Chumbo",
+  "item.cgs.lead_nugget": "Pepita de Chumbo",
+
+  "block.cgs.lead_ore": "Minério de Chumbo",
+  "block.cgs.deepslate_lead_ore": "Minério de Chumbo de Ardosiabissal",
+  "block.cgs.lead_block": "Bloco de Chumbo",
+  "block.cgs.raw_lead_block": "Bloco de Chumbo Bruto "
+}

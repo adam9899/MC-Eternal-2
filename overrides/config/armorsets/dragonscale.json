@@ -1,0 +1,71 @@
+{
+  "armorSetName": "Dragonscale",
+  "head": {
+    "itemKey": "iceandfire:armor_black_helmet",
+    "mixAndMatch": [
+      "iceandfire:armor_black_helmet",
+      "iceandfire:armor_amythest_helmet",
+      "iceandfire:armor_electric_helmet",
+      "iceandfire:armor_sapphire_helmet",
+      "iceandfire:armor_white_helmet",
+      "iceandfire:armor_blue_helmet",
+      "iceandfire:armor_gray_helmet",
+      "iceandfire:armor_bronze_helmet",
+      "iceandfire:armor_red_helmet"
+    ]
+  },
+  "chest": {
+    "itemKey": "iceandfire:armor_black_chestplate",
+    "mixAndMatch": [
+      "iceandfire:armor_black_chestplate",
+      "iceandfire:armor_amythest_chestplate",
+      "iceandfire:armor_electric_chestplate",
+      "iceandfire:armor_sapphire_chestplate",
+      "iceandfire:armor_white_chestplate",
+      "iceandfire:armor_blue_chestplate",
+      "iceandfire:armor_gray_chestplate",
+      "iceandfire:armor_bronze_chestplate",
+      "iceandfire:armor_red_chestplate"
+    ]
+  },
+  "legs": {
+    "itemKey": "iceandfire:armor_black_leggings",
+    "mixAndMatch": [
+      "iceandfire:armor_black_leggings",
+      "iceandfire:armor_amythest_leggings",
+      "iceandfire:armor_electric_leggings",
+      "iceandfire:armor_sapphire_leggings",
+      "iceandfire:armor_white_leggings",
+      "iceandfire:armor_blue_leggings",
+      "iceandfire:armor_gray_leggings",
+      "iceandfire:armor_bronze_leggings",
+      "iceandfire:armor_red_leggings"
+    ]
+  },
+  "boots": {
+    "itemKey": "iceandfire:armor_black_boots",
+    "mixAndMatch": [
+      "iceandfire:armor_black_boots",
+      "iceandfire:armor_amythest_boots",
+      "iceandfire:armor_electric_boots",
+      "iceandfire:armor_sapphire_boots",
+      "iceandfire:armor_white_boots",
+      "iceandfire:armor_blue_boots",
+      "iceandfire:armor_gray_boots",
+      "iceandfire:armor_bronze_boots",
+      "iceandfire:armor_red_boots"
+    ]
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cataclysm:monstrous",
+      "description": "Dragonscale: Increased Armor and Armor Toughness",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

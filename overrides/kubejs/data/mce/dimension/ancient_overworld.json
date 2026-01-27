@@ -7,39 +7,100 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
+          "biome": "terralith:volcanic_crater",
+          "parameters": {
+            "temperature": -0.2,
+            "humidity": 0.0,
+            "continentalness": 0.8,
+            "erosion": 0.0,
+            "weirdness": -0.6,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:frozen_peaks",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": 0.0,
+            "continentalness": 0.85,
+            "erosion": 0.4,
+            "weirdness": 0.8,
+            "depth": 0.0,
+            "offset": 0.1
+          }
+        },
+  
+        {
           "biome": "alexscaves:primordial_caves",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0.1,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
+            "temperature": 0.45,
+            "humidity": 0.0,
+            "continentalness": 0.5,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
           }
         },
         {
-          "biome": "minecraft:lukewarm_ocean",
+          "biome": "alexscaves:forlorn_hollows",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
+            "temperature": 0.5,
+            "humidity": 0.0,
+            "continentalness": 0.5,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.2
           }
         },
         {
-          "biome": "alexscaves:abyssal_chasm",
+          "biome": "minecraft:frozen_peaks",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
+            "temperature": 0.6,
+            "humidity": 0.6,
+            "continentalness": 0.6,
+            "erosion": 0.0,
+            "weirdness": 0.7,
+            "depth": 0.0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "terralith:basalt_cliffs",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.8,
+            "continentalness": 0.2,
+            "erosion": 0.0,
+            "weirdness": 0.7,
+            "depth": 0.8,
+            "offset": 0.2
+          }
+        },
+         {
+          "biome": "terralith:volcanic_peaks",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.8,
+            "continentalness": 0.2,
+            "erosion": 0.0,
+            "weirdness": 0.7,
+            "depth": 0.8,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "terralith:volcanic_crater",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.8,
+            "continentalness": 0.2,
+            "erosion": 0.0,
+            "weirdness": 0.6,
+            "depth": 0.8,
+            "offset": 0.2
           }
         }
       ]

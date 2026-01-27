@@ -11,7 +11,7 @@
 		string_id: "forgotten_trashcan"
 	}
 	loot_size: 4
-	order_index: 27
+	order_index: 28
 	rewards: [
 		{ count: 3, item: "rats:cheese", only_one: true }
 		{
@@ -21,10 +21,10 @@
 				tag: {
 					display: {
 						Lore: [
-							"{\"text\":\"§2Store Bought\"}"
-							"{\"text\":\"Doesn't seem very homemade to me\"}"
+							"{\"translate\":\"lore.mce2.forgotten_trashcan.1\"}"
+							"{\"translate\":\"lore.mce2.forgotten_trashcan.2\"}"
 						]
-						Name: "{\"text\":\"§aQuestmaster's Famous Homemade Cookie\"}"
+						Name: "{\"translate\":\"name.mce2.forgotten_trashcan.1\"}"
 					}
 				}
 			}
@@ -39,15 +39,15 @@
 				tag: {
 					display: {
 						Lore: [
-							"{\"text\":\"1x Rat - 24 Hours \" ,\"color\":\"gray\",\"italic\":true}"
-							"{\"text\":\"Status: LATE!\",\"color\":\"red\",\"italic\":true}"
-							"{\"text\":\"RETURN ON TIME OR FACE FINES!\",\"color\":\"dark_red\",\"underlined\":true}"
-							"{\"text\":\"YOU WOULDN'T STEAL A CAR\",\"color\":\"gray\",\"italic\":true}"
-							"{\"text\":\"YOU WOULDN'T STEAL A HANDBAG\",\"color\":\"gray\",\"italic\":true}"
-							"{\"text\":\"YOU WOULDN'T STEAL A TELEVISION\",\"color\":\"gray\",\"italic\":true}"
-							"{\"text\":\"SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.2\" ,\"color\":\"gray\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.3\",\"color\":\"red\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.4\",\"color\":\"dark_red\",\"underlined\":true}"
+							"{\"translate\":\"lore.mce2.dev.5\",\"color\":\"gray\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.6\",\"color\":\"gray\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.7\",\"color\":\"gray\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.8\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}"
 						]
-						Name: "{\"text\":\"Rent-a-Rat Reciept\",\"color\":\"dark_gray\",\"italic\":true}"
+						Name: "{\"translate\":\"name.mce2.dev.1\",\"color\":\"dark_gray\",\"italic\":true}"
 					}
 				}
 			}
@@ -55,5 +55,5 @@
 			weight: 4.0f
 		}
 	]
-	title: "forgotten_trashcan"
+	title: "{ftbquests.loot_table.223017160791464304.title}"
 }

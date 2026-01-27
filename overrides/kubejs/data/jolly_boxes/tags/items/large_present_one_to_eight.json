@@ -1,0 +1,59 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond",
+    "minecraft:blaze_rod",
+    "minecraft:emerald",
+    "minecraft:golden_apple",
+    "iceandfire:dragonscales_red",
+    "iceandfire:dragonscales_green",
+
+    {
+      "id": "jellyfishing:krabby_patty",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:jellyfish",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:blue_jellyfish",
+      "required": false
+    },
+
+    {
+      "id": "more_jellyfish:coal_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:iron_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:gold_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:redstone_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:lapis_lazuli_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:slime_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:honey_jellyfish",
+      "required": false
+    },
+
+
+    {
+      "id": "aquaculture:neptunium_ingot",
+      "required": false
+    }
+  ]
+}

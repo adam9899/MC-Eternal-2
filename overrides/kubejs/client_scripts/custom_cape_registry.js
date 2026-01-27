@@ -18,10 +18,17 @@ CapeJS.addCapes(event => {
   event.register("c5d2d329-a8e8-428c-bd62-3491d7064087", "friend");
   event.register("fabd0a49-3695-401c-9990-d95464632a6a", "friend");
   event.register("00d2ad55-6151-4296-a461-373a763a9810", "friend");
+  event.register("e1aefe50-632d-4205-8e0e-b3730eb8384a", "friend");
   event.register("878c7e3c-1e51-48b0-b33e-7b47e185579d", "friend");
   event.register("bbb87dbe-690f-4205-bdc5-72ffb8ebc29d", "friend");
+  event.register("b8a7135e-22ee-45c4-beaa-2211672af333", "friend");
   event.register("4678f165-1484-4cb3-a45c-9c03d2a9c8a4", "friend");
   event.register("dd700fd2-dd9f-439b-97a8-784f338b0afd", "friend");
   event.register("4aa5155e-f914-4b2d-8dd5-595a8bbe9c8f", "friend");
   event.register("b566f842-f44a-414e-8092-4271cbb11c27", "friend");
+  event.register("98feea67-d965-4233-b106-fd482ad87b2f", "friend");
+  event.register("5523f41a-96d5-4ff5-adb1-9508cf18db37", "friend");
+  event.register("77463cb4-057b-4d13-a233-3ead2ad20a27", "friend");
+  event.register("5b09e8ad-e11d-493e-a07b-e3c7ac9ec739", "friend");
+  event.register("2dc4ce10-d7f5-4600-813c-6d1447f14d95", "friend");
 });

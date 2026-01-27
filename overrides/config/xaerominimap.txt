@@ -8,7 +8,7 @@ debugEntityVariantIds:false
 radarHideInvisibleEntities:true
 allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
-updateNotification:true
+updateNotification:false
 minimap:true
 caveMaps:0
 caveZoom:1
@@ -41,7 +41,7 @@ waypointsDistanceExp:0
 waypointsDistanceMin:0.0
 defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
-arrowScale:1.0000000149011612
+arrowScale:1.1000000163912773
 arrowColour:4
 smoothDots:false
 worldMap:true
@@ -68,7 +68,7 @@ compassDirectionScale:0
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
-playerArrowOpacity:1
+playerArrowOpacity:76
 waypointsBottom:false
 minimapShape:0
 lightOverlayType:0

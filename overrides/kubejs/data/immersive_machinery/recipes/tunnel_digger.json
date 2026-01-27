@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CGC",
+    "IED",
+    "RRR"
+  ],
+  "key": {
+    "I": [
+      {
+        "item": "minecraft:iron_block"
+      }
+    ],
+    "D": [
+      {
+        "item": "immersive_machinery:iron_drill"
+      }
+    ],
+    "C": [
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_machinery:redstone_mechanism"
+      }
+    ],
+    "G": [
+      {
+        "item": "immersive_aircraft:industrial_gears"
+      }
+    ],
+    "R": [
+      {
+        "item": "minecraft:rail"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_machinery:tunnel_digger"
+  }
+}

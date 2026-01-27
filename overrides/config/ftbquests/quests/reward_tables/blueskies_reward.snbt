@@ -165,7 +165,7 @@
 					InfusedHits: 4b
 					Unbreakable: 1b
 					display: {
-						Name: "{\"text\":\"§5Shadow Arc Sword\"}"
+						Name: "{\"translate\":\"name.mce2.blueskies_reward.1\"}"
 					}
 					itemModifier: "modifiers:none"
 					"quark:RuneAttached": 1b
@@ -179,5 +179,5 @@
 			only_one: true
 		}
 	]
-	title: "blueskies_reward"
+	title: "{ftbquests.loot_table.2275128639932864800.title}"
 }

@@ -84,10 +84,10 @@
 			dependency: "35A0BA1BB8DDE343"
 			height: 1.0d
 			image: "minecraft:block/cave_vines_plant"
-			rotation: 90.0d
+			rotation: -135.0d
 			width: 1.0d
-			x: 5.535714285714285d
-			y: 2.0238095238095326d
+			x: 3.578571428571408d
+			y: 3.5010204081632708d
 		}
 		{
 			dependency: "5B5A340DB47B9C89"
@@ -218,10 +218,10 @@
 			dependency: "35A0BA1BB8DDE343"
 			height: 1.0d
 			image: "minecraft:block/cave_vines_lit"
-			rotation: 90.0d
+			rotation: -135.0d
 			width: 1.0d
-			x: 4.528571428571425d
-			y: 2.028571428571425d
+			x: 4.292857142857123d
+			y: 2.7295918367346985d
 		}
 		{
 			dependency: "5D2ED1168A45A14A"
@@ -624,12 +624,12 @@
 	quests: [
 		{
 			description: [
-				"The &e&nPart Builder&r is used to create parts for tools! Parts are needed to assemble tools! The parts you use will determine the strength, speed, durability and special traits of your tool!"
-				"The &e&nTool Station&r is used to assemble tool parts into fully fledged basic tools!"
-				"The &e&nPart Chest&r is used to store unused parts!"
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.description1}"
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.description2}"
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.description3}"
 				""
-				"&l&eTip:&r When these blocks are touching, they will share their inventories! Making it easier to move items between them."
-				"{image:modpack:textures/tc_1.png width:180 height:100 align:center}"
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.description4}"
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.image0}"
 				""
 			]
 			hide_dependency_lines: true
@@ -649,7 +649,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eTinker Station &rand &ePart Builder"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6063084324205586109.subtitle}"
 			tasks: [
 				{
 					id: "5E26E19BA05262AC"
@@ -679,17 +679,17 @@
 					type: "item"
 				}
 			]
-			title: "&eTinkering &r(Part I)"
+			title: "{ftbquests.chapter.6modular_tools.quest6063084324205586109.title}"
 			x: 1.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5B5A340DB47B9C89"]
 			description: [
-				"The &eTinker's Anvil &rallows for tool modification. Try applying modifiers using your tools upgrade slots!"
+				"{ftbquests.chapter.6modular_tools.quest6714533989195293002.description1}"
 				""
-				"\"&l&6Hint:&r Trying applying &cRedstone&r to one of your Tools. It'll make it a bit faster! (But only at breaking stuff!)\""
-				"{image:modpack:textures/tc_4.png width:180 height:100 align:center}"
+				"{ftbquests.chapter.6modular_tools.quest6714533989195293002.description2}"
+				"{ftbquests.chapter.6modular_tools.quest6714533989195293002.image0}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -701,27 +701,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -741,28 +724,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eModify &ryour &eTinkers' Tool"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6714533989195293002.subtitle}"
 			tasks: [{
 				advancement: "tconstruct:tools/modified"
 				criterion: ""
 				id: "0941D5559A9F58C1"
 				type: "advancement"
 			}]
-			title: "&eTinkering &r(Part II)"
+			title: "{ftbquests.chapter.6modular_tools.quest6714533989195293002.title}"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["116CDE1481CC3846"]
+			dependencies: ["033F072A5A4913D0"]
 			description: [
-				"&eThe Smeltery&r is a multi-block structure used in the creation of higher-tier weapons and tools using metal and alloys."
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description1}"
 				""
-				"&e&lTip:&r Raw metals smelted in a Tinker's Smeltery produce a little extra! Ore blocks smelted produce double! "
-				"&e&lTip:&r Increasing the size of your Smeltery will also increase Fuel usage per smelt."
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description2}"
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description3}"
 				""
-				"&6&lHint:&r Adding extra layers of &eSeared Bricks&r will increase the Smeltery's capacity!"
-				"{image:modpack:textures/tc_3.png width:180 height:100 align:center}"
-				"For more detailed information, read &eMighty Smelting"
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description4}"
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.image0}"
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description5}"
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description6}"
 			]
 			hide_until_deps_visible: true
 			id: "35A0BA1BB8DDE343"
@@ -774,27 +758,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -809,11 +776,19 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Craft the blocks needed and build a &eTinker's Smeltery"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest3864293108512318275.subtitle}"
 			tasks: [
 				{
+					icon: "tconstruct:seared_fuel_tank"
 					id: "1F03ED9C97882BBB"
-					item: "tconstruct:seared_fuel_tank"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest3864293108512318275.task.2234891096918862779.title}"
 					type: "item"
 				}
 				{
@@ -848,23 +823,30 @@
 					item: "tconstruct:seared_drain"
 					type: "item"
 				}
+				{
+					advancement: "tconstruct:smeltery/structure"
+					criterion: ""
+					id: "4C12719F83E9C659"
+					type: "advancement"
+				}
 			]
-			title: "&eThe Smeltery"
+			title: "{ftbquests.chapter.6modular_tools.quest3864293108512318275.title}"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["54246711BB8366BD"]
 			description: [
-				"The &eSeared Melter &rand &eSeared Heater&r can be used as a compacted and rudimentary way to melt metals into liquids."
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.description1}"
 				""
-				"The melter can be fueled using furnace fuels, though stronger ores may require fueling the melter using liquid lava."
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.description2}"
 				""
-				"&6Tip: &rThis is a Multi-Block! "
-				"&eHint:&r This will be needed for the next quest!"
-				"{image:modpack:textures/tc_2.png width:180 height:100 align:center}"
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.description3}"
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.description4}"
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.image0}"
 			]
 			hide_until_deps_visible: true
+			icon: "tconstruct:seared_melter"
 			id: "116CDE1481CC3846"
 			rewards: [
 				{
@@ -887,7 +869,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Craft a &eSeared Melter&r and &eSeared Ingot Tank"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest1255622575787882566.subtitle}"
 			tasks: [
 				{
 					id: "5867F7FFCC51181B"
@@ -896,7 +878,26 @@
 				}
 				{
 					id: "1B53F1765C5668CF"
-					item: "tconstruct:seared_heater"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tconstruct:seared_heater"
+								}
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "tconstruct:seared_tanks"
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest1255622575787882566.task.1969182952748640463.title}"
 					type: "item"
 				}
 				{
@@ -917,9 +918,9 @@
 		{
 			dependencies: ["116CDE1481CC3846"]
 			description: [
-				"Using the &eSeared Melter&r create a &eSmeltery Controller&r by pouring molten copper over &eSeared Bricks"
+				"{ftbquests.chapter.6modular_tools.quest233913584131314640.description1}"
 				""
-				"&e&lHint:&r This will be needed for the next quest!"
+				"{ftbquests.chapter.6modular_tools.quest233913584131314640.description2}"
 			]
 			hide_until_deps_visible: true
 			id: "033F072A5A4913D0"
@@ -930,27 +931,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -970,33 +954,25 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Craft a &eSmeltery Controller&r"
-			tasks: [
-				{
-					id: "53B009F706E3DB34"
-					item: "tconstruct:smeltery_controller"
-					type: "item"
-				}
-				{
-					advancement: "tconstruct:smeltery/structure"
-					criterion: ""
-					id: "1FFB23C4B4EF648D"
-					type: "advancement"
-				}
-			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest233913584131314640.subtitle}"
+			tasks: [{
+				id: "53B009F706E3DB34"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["35A0BA1BB8DDE343"]
 			description: [
-				"In order to create tool parts from Metals and Alloys, you first need to create a &eCast&r. These are used to forge metal tool parts!"
+				"{ftbquests.chapter.6modular_tools.quest7307083725288463531.description1}"
 				""
-				"&l&6Hint:&r First make a tool part out of stone and then place it inside a &eSeared Casting Table&r, fill the &eSmeltery&r with &eMolten Gold&r and pour the Gold over the stone tool part! Allow it to dry and you will be left with a cast! You can then pour metals into the cast to create metal/alloy tool parts! Which you can combine to craft a tool inside the &eTinker's Anvil"
+				"{ftbquests.chapter.6modular_tools.quest7307083725288463531.description2}"
 				""
-				"&l&6Hint:&r You can create ingot casts to remove metals from the smeltery! You can also pour directly into a basin to get a block of material!"
+				"{ftbquests.chapter.6modular_tools.quest7307083725288463531.description3}"
 				""
-				"&l&eTip:&r This can be repeated for all tool parts! You should ideally make a tool out of multiple materials to get increased stats and traits! There are thousands of possible tool combinations!"
+				"{ftbquests.chapter.6modular_tools.quest7307083725288463531.description4}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1008,27 +984,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1040,10 +999,10 @@
 					type: "item"
 				}
 				{
-					count: 10
+					count: 5
 					id: "20ED29705B6CE042"
 					item: "minecraft:gold_ingot"
-					random_bonus: 15
+					random_bonus: 2
 					type: "item"
 				}
 				{
@@ -1054,35 +1013,29 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Craft a &eGold Hammer Cast"
-			tasks: [
-				{
-					id: "04234FD4A04EBD4A"
-					item: "tconstruct:hammer_head_cast"
-					type: "item"
-				}
-				{
-					id: "18374C45F3AD2CF5"
-					item: {
-						Count: 1
-						id: "tconstruct:hammer_head"
-						tag: {
-							Material: "tconstruct:stone"
-						}
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7307083725288463531.subtitle}"
+			tasks: [{
+				id: "04234FD4A04EBD4A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:casts/gold"
 					}
-					type: "item"
 				}
-			]
-			title: "&eLearning About Casts!"
+				title: "{ftbquests.chapter.6modular_tools.quest7307083725288463531.task.298169774977760586.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest7307083725288463531.title}"
 			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["6567F9EEFDDB5CAB"]
 			description: [
-				"The &eTinker's Anvil&r is used to assemble more powerful tools! "
+				"{ftbquests.chapter.6modular_tools.quest6582631038822620297.description1}"
 				""
-				"Craft your first &eTinkers' Tool &rusing a &eTinker's Anvil&r"
+				"{ftbquests.chapter.6modular_tools.quest6582631038822620297.description2}"
 			]
 			id: "5B5A340DB47B9C89"
 			rewards: [
@@ -1091,7 +1044,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "53A894AE11A94547"
-					title: "&eUnlock Title:&r the Blacksmith"
+					title: "{ftbquests.chapter.6modular_tools.quest6582631038822620297.reward.6028231576576935239.title}"
 					type: "command"
 				}
 				{
@@ -1107,24 +1060,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1132,24 +1071,44 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Craft your first &eTinkers' Tool &rusing a &eTinker's Anvil&r"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6582631038822620297.subtitle}"
 			tasks: [{
-				advancement: "tconstruct:tools/tinker_tool"
-				criterion: ""
-				id: "425488D147D8FD10"
-				title: "Create a Tinkers' Tool"
-				type: "advancement"
+				id: "35C739BE6E406D96"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:tinkers_anvil"
+								tag: {
+									texture: "tcintegrations:bronze_block"
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:scorched_anvil"
+								tag: {
+									texture: "tcintegrations:bronze_block"
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.6modular_tools.quest6582631038822620297.task.3875129494431886742.title}"
+				type: "item"
 			}]
-			title: "&eA love for Smithing!"
+			title: "{ftbquests.chapter.6modular_tools.quest6582631038822620297.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0D88B45349B3E660"]
 			description: [
-				"Using the &eSmeltery&r create a &eFoundry Controller&r by pouring molten obsidian over &eScorched Bricks"
+				"{ftbquests.chapter.6modular_tools.quest4938089121248284493.description1}"
 				""
-				"&e&lHint:&r This will be needed for the next quest!"
+				"{ftbquests.chapter.6modular_tools.quest4938089121248284493.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "44879DE485398F4D"
@@ -1160,20 +1119,12 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFoundry Controller&r"
-			tasks: [
-				{
-					id: "7BBF8BC1FB3A8DE8"
-					item: "tconstruct:foundry_controller"
-					type: "item"
-				}
-				{
-					advancement: "tconstruct:foundry/structure"
-					criterion: ""
-					id: "1C28AE1E235DED5A"
-					type: "advancement"
-				}
-			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4938089121248284493.subtitle}"
+			tasks: [{
+				id: "7BBF8BC1FB3A8DE8"
+				item: "tconstruct:foundry_controller"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -4.0d
 		}
@@ -1189,18 +1140,19 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "diamond"
-			subtitle: "Obtain &eCobalt Ore"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest2087566191669818310.subtitle}"
 			tasks: [{
 				id: "4C74EE2F8C1AFD91"
-				item: "tconstruct:cobalt_ore"
+				item: "tconstruct:raw_cobalt"
 				type: "item"
 			}]
-			title: "&eAcquire Nether Hardware"
+			title: "{ftbquests.chapter.6modular_tools.quest2087566191669818310.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0D88B45349B3E660"]
+			description: ["{ftbquests.chapter.6modular_tools.quest6181614303346329035.description1}"]
 			hide_until_deps_complete: true
 			id: "55C98175116E85CB"
 			rewards: [
@@ -1218,7 +1170,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Obtain &eIchor Crystals"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6181614303346329035.subtitle}"
 			tasks: [{
 				id: "1ECCD166322F70EC"
 				item: "tconstruct:ichor_slime_crystal_block"
@@ -1228,9 +1180,12 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6567F9EEFDDB5CAB"]
-			description: ["&eBlank Sand Casts &rare temporary, single-use molds made from Sand or Red Sand. They’re quick and easy to make and are great for basic part casting."]
-			icon: "tconstruct:pick_head_sand_cast"
+			dependencies: ["116CDE1481CC3846"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest7502738598785217589.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest7502738598785217589.description2}"
+			]
 			id: "681F15011F347435"
 			rewards: [{
 				amount: 50L
@@ -1239,11 +1194,27 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft and use a &eBlank Sand Cast&r"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7502738598785217589.subtitle}"
 			tasks: [
 				{
 					id: "48F520681FD9092B"
-					item: "tconstruct:blank_sand_cast"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tconstruct:blank_sand_cast"
+								}
+								{
+									Count: 1b
+									id: "tconstruct:blank_red_sand_cast"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest7502738598785217589.task.5257143771607927083.title}"
 					type: "item"
 				}
 				{
@@ -1253,20 +1224,18 @@
 					type: "advancement"
 				}
 			]
-			x: 5.0d
-			y: 2.0d
+			title: "{ftbquests.chapter.6modular_tools.quest7502738598785217589.title}"
+			x: 4.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"1188A9FDEE254A9F"
-				"55C98175116E85CB"
-			]
+			dependencies: ["0D88B45349B3E660"]
 			description: [
-				"To make more advanced materials from cobalt, you will want to acquire some &eblazing blood &rfrom melting a blaze. The easiest way to do this is to trick newly spawned blazes into a smeltery, though you can also craft weapons capable of extracting &eblazing blood &rfrom live blazes."
+				"{ftbquests.chapter.6modular_tools.quest9170114888775097651.description1}"
 				""
-				"&l&6Hint:&r Another way to obtain blazing blood is by melting down ichor. You will need a bit of &eblazing blood &rto get started, but I heard you can obtain some from bartering with piglins."
+				"{ftbquests.chapter.6modular_tools.quest9170114888775097651.description2}"
 				""
-				"{image:modpack:textures/tc_blaze.png width:180 height:100 align:center}"
+				"{ftbquests.chapter.6modular_tools.quest9170114888775097651.image0}"
 			]
 			id: "7F42CAE7EEF5DD33"
 			rewards: [
@@ -1283,24 +1252,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1308,26 +1263,27 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Fill a tank with &eBlazing Blood"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest9170114888775097651.subtitle}"
 			tasks: [{
-				advancement: "tconstruct:foundry/blaze"
-				criterion: ""
-				id: "7F479C710CA0CF30"
-				type: "advancement"
+				id: "7ED52F088914A08A"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
 			}]
-			title: "&eBathing in the Blood of my Blazes"
+			title: "{ftbquests.chapter.6modular_tools.quest9170114888775097651.title}"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5D2ED1168A45A14A"]
+			description: ["{ftbquests.chapter.6modular_tools.quest8308225809221579304.description1}"]
+			hide_until_deps_complete: true
 			id: "734CBF5AC8627228"
 			rewards: [
 				{
 					command: "/titles add {p} titles:tinkerer"
 					icon: "titles:title_scroll_common"
 					id: "09D9D5DB679281CE"
-					title: "&eUnlock Title:&r the Tinkerer"
+					title: "{ftbquests.chapter.6modular_tools.quest8308225809221579304.reward.709833554599772622.title}"
 					type: "command"
 				}
 				{
@@ -1344,24 +1300,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1369,19 +1311,19 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Give a tool 6 additional upgrade slots"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest8308225809221579304.subtitle}"
 			tasks: [{
 				advancement: "tconstruct:tools/upgrade_slots"
 				criterion: ""
 				id: "4FAF7F5F6530ECBC"
 				type: "advancement"
 			}]
-			title: "&eUpgrading to the Max!"
-			x: 10.0d
-			y: 0.0d
+			title: "{ftbquests.chapter.6modular_tools.quest8308225809221579304.title}"
+			x: 11.0d
+			y: -1.0d
 		}
 		{
-			description: ["Deal 21 damage or more in a single hit."]
+			description: ["{ftbquests.chapter.6modular_tools.quest3958266379760260780.description1}"]
 			id: "36EE964CF3FB56AC"
 			rewards: [
 				{
@@ -1397,27 +1339,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1425,14 +1350,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Maybe &6Niko &rhas a &eTool &rwe can use?"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest3958266379760260780.subtitle}"
 			tasks: [{
 				advancement: "tconstruct:tools/one_shot"
 				criterion: ""
 				id: "592E720FFC5A9322"
 				type: "advancement"
 			}]
-			title: "&eYou only get One Shot"
+			title: "{ftbquests.chapter.6modular_tools.quest3958266379760260780.title}"
 			x: 8.273809523809518d
 			y: 3.999999999999986d
 		}
@@ -1452,27 +1377,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1480,20 +1388,20 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Pick up a &epig &rwith a &epiggybackpack"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6358843345783965782.subtitle}"
 			tasks: [{
 				advancement: "tconstruct:world/piggybackpack"
 				criterion: ""
 				id: "2B6128B9EC76B67B"
 				type: "advancement"
 			}]
-			title: "&eLittle buddy!"
+			title: "{ftbquests.chapter.6modular_tools.quest6358843345783965782.title}"
 			x: 10.273809523809518d
 			y: 1.9999999999999858d
 		}
 		{
 			dependencies: ["72B878D6A0C6EDFC"]
-			description: ["&l&eTip:&r Read more about Slimeskulls and their effects in the &6Encyclopedia of Tinkering&r!"]
+			description: ["{ftbquests.chapter.6modular_tools.quest8263922066239934642.description1}"]
 			id: "72AF5955C9BE50B2"
 			rewards: [
 				{
@@ -1515,8 +1423,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1536,14 +1444,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Craft a full &eSlimesuit"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest8263922066239934642.subtitle}"
 			tasks: [{
 				advancement: "tconstruct:world/slimesuit"
 				criterion: ""
 				id: "6AE2CA91F989A84B"
 				type: "advancement"
 			}]
-			title: "&eSlimed Out"
+			title: "{ftbquests.chapter.6modular_tools.quest8263922066239934642.title}"
 			x: 10.0d
 			y: -5.5238095238095255d
 		}
@@ -1563,27 +1471,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1591,14 +1482,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Craft a full set of &eTraveler's Gear"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest5570654571429054549.subtitle}"
 			tasks: [{
 				advancement: "tconstruct:tools/travelers_gear"
 				criterion: ""
 				id: "5D7B2500C94EEBE0"
 				type: "advancement"
 			}]
-			title: "&eTravel Preperation!"
+			title: "{ftbquests.chapter.6modular_tools.quest5570654571429054549.title}"
 			x: 8.273809523809518d
 			y: 1.9999999999999858d
 		}
@@ -1614,14 +1505,14 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "square"
-			subtitle: "Craft a full set of &eTinkers' Armor"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest9192938258860379257.subtitle}"
 			tasks: [{
 				advancement: "tconstruct:foundry/plate_armor"
 				criterion: ""
 				id: "60307357290D204B"
 				type: "advancement"
 			}]
-			title: "&eCover Me in Tinkers'"
+			title: "{ftbquests.chapter.6modular_tools.quest9192938258860379257.title}"
 			x: 7.0d
 			y: -1.0d
 		}
@@ -1642,27 +1533,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1670,26 +1544,27 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Craft &eBlaze Netherite"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest8784105195216425963.subtitle}"
 			tasks: [{
 				id: "13202188B3371B6A"
 				item: "tinkers_advanced:blaze_netherite"
 				type: "item"
 			}]
-			title: "&eBlaze Netherite"
+			title: "{ftbquests.chapter.6modular_tools.quest8784105195216425963.title}"
 			x: 4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["44879DE485398F4D"]
 			description: [
-				"&eThe Foundry&r is a multi-block structure and alternative to the smeltery. "
+				"{ftbquests.chapter.6modular_tools.quest1263446603564665503.description1}"
 				""
-				"It will not alloy, allowing for bulk storage of ores without worrying about accidental mixtures. "
+				"{ftbquests.chapter.6modular_tools.quest1263446603564665503.description2}"
 				""
-				"&e&lTip:&r Ores melted in the foundry will produce byproducts, granting a more valuable resource than the original ore."
-				"&6&lHint:&r &eThe Foundry&r needs to have it's corners filled to function"
+				"{ftbquests.chapter.6modular_tools.quest1263446603564665503.description3}"
+				"{ftbquests.chapter.6modular_tools.quest1263446603564665503.description4}"
 			]
+			icon: "tconstruct:foundry_controller"
 			id: "1188A9FDEE254A9F"
 			rewards: [
 				{
@@ -1705,31 +1580,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft the blocks needed and build a &eTinker's Foundry"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest1263446603564665503.subtitle}"
 			tasks: [
 				{
 					count: 40L
@@ -1749,7 +1610,14 @@
 				}
 				{
 					id: "2AB455612B6AE215"
-					item: "tconstruct:scorched_fuel_tank"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:scorched_tanks"
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest1263446603564665503.task.3077178321229505045.title}"
 					type: "item"
 				}
 				{
@@ -1768,8 +1636,14 @@
 					item: "tconstruct:scorched_basin"
 					type: "item"
 				}
+				{
+					advancement: "tconstruct:foundry/structure"
+					criterion: ""
+					id: "7D9EFC389D3E76CC"
+					type: "advancement"
+				}
 			]
-			title: "&eThe Foundry"
+			title: "{ftbquests.chapter.6modular_tools.quest1263446603564665503.title}"
 			x: 2.0d
 			y: -3.0d
 		}
@@ -1778,7 +1652,14 @@
 				"7F42CAE7EEF5DD33"
 				"1CF88664139833C6"
 			]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest4475832041336582219.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest4475832041336582219.description2}"
+			]
+			icon: "tconstruct:manyullyn_ingot"
 			id: "3E1D5987122DB04B"
+			min_required_tasks: 1
 			rewards: [
 				{
 					amount: 150L
@@ -1793,27 +1674,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1821,18 +1685,34 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Alloy and produce &eManyullyn"
-			tasks: [{
-				id: "45A78721E94EF8D6"
-				item: "tconstruct:manyullyn_ingot"
-				type: "item"
-			}]
-			title: "&eManyullyn"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4475832041336582219.subtitle}"
+			tasks: [
+				{
+					id: "45A78721E94EF8D6"
+					item: "tconstruct:manyullyn_ingot"
+					type: "item"
+				}
+				{
+					id: "74CC2A2F59492D0F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:manyullyn"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest4475832041336582219.task.8416148186498411791.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest4475832041336582219.title}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
-			description: ["{image:modpack:textures/tc_slime.png width:180 height:100 align:center}"]
+			description: ["{ftbquests.chapter.6modular_tools.quest4715606793569921628.image0}"]
 			id: "41713364F7276A5C"
 			rewards: [
 				{
@@ -1848,27 +1728,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1876,25 +1739,29 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Discover a &eSkyslime Island"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4715606793569921628.subtitle}"
 			tasks: [{
 				advancement: "tconstruct:world/sky_island"
 				criterion: ""
 				id: "6A9B032F89F5769A"
 				type: "advancement"
 			}]
-			title: "&eDon't slip — it’s alive."
+			title: "{ftbquests.chapter.6modular_tools.quest4715606793569921628.title}"
 			x: 10.273809523809518d
 			y: 3.999999999999986d
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
 			description: [
-				"&e&lTip:&r Gives tools rechargeable power that can enhance the tool."
-				"&6&lHint:&r Will require some Thermal Series set up."
+				"{ftbquests.chapter.6modular_tools.quest6904236423079979380.description1}"
+				"{ftbquests.chapter.6modular_tools.quest6904236423079979380.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest6904236423079979380.description3}"
 			]
 			hide_until_deps_complete: true
+			icon: "tinkers_advanced:activated_chromatic_steel"
 			id: "5FD0C67252FEE974"
+			min_required_tasks: 1
 			rewards: [
 				{
 					amount: 500L
@@ -1910,8 +1777,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1923,26 +1790,48 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "44E12299780E68CE"
-					title: "&eUnlock Title:&r Monarch of Steel"
+					title: "{ftbquests.chapter.6modular_tools.quest6904236423079979380.reward.4963286306878548174.title}"
 					type: "command"
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Alloy and produce &eActivated Chromatic Steel"
-			tasks: [{
-				id: "243FE163BABDD3AE"
-				item: "tinkers_advanced:activated_chromatic_steel"
-				type: "item"
-			}]
-			title: "&6Energy-Overkill"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6904236423079979380.subtitle}"
+			tasks: [
+				{
+					id: "243FE163BABDD3AE"
+					item: "tinkers_advanced:activated_chromatic_steel"
+					type: "item"
+				}
+				{
+					id: "494B9E60340380DE"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tinkers_advanced:activated_chromatic_steel"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest6904236423079979380.task.5281489124048732382.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest6904236423079979380.title}"
 			x: 10.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: ["&e&lTip:&r Packs a heavy punch at the cost of some movement speed."]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest1737919734479855.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest1737919734479855.description2}"
+			]
 			hide_until_deps_complete: true
+			icon: "tinkers_advanced:densium_ingot"
 			id: "00062CA0F86BFBEF"
+			min_required_tasks: 1
 			rewards: [
 				{
 					amount: 500L
@@ -1958,8 +1847,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1968,41 +1857,57 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Alloy and produce &eDensium"
-			tasks: [{
-				id: "7CED44918652E8A9"
-				item: "tinkers_advanced:densium_ingot"
-				type: "item"
-			}]
-			title: "&6Densium: The floor comes to it."
+			subtitle: "{ftbquests.chapter.6modular_tools.quest1737919734479855.subtitle}"
+			tasks: [
+				{
+					id: "7CED44918652E8A9"
+					item: "tinkers_advanced:densium_ingot"
+					type: "item"
+				}
+				{
+					id: "214B7A2AC12D6944"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tinkers_advanced:densium"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest1737919734479855.task.2399145550553114948.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest1737919734479855.title}"
 			x: 8.0d
 			y: -5.0d
 		}
 		{
 			description: [
-				"Tinkers’ Construct is a mod about creating tools, then modifying them to make them better. The tools will never permanently break, allowing you to tinker with a design until you are satisfied, or recycle them into new tools. After creating your first tools, create a smeltery to upgrade your tool creation, and explore the world to unlock more powerful materials and modifiers."
+				"{ftbquests.chapter.6modular_tools.quest5519425952437127199.description1}"
 				""
-				"&e&lHint:&r The most useful Tinkers' Construct guide books can be recieved by completing the eccentric tome quest!"
+				"{ftbquests.chapter.6modular_tools.quest5519425952437127199.description2}"
 				""
-				"&8Chapter Credit: Autooooooonus "
+				"{ftbquests.chapter.6modular_tools.quest5519425952437127199.description3}"
 			]
 			icon: "tconstruct:encyclopedia"
 			id: "4C98F0A91B16481F"
 			optional: true
 			shape: "circle"
-			subtitle: "Learn about &eTinkers' Construct"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest5519425952437127199.subtitle}"
 			tasks: [{
 				id: "1E28479CFDCBB91A"
-				title: "Read Through"
+				title: "{ftbquests.chapter.6modular_tools.quest5519425952437127199.task.2173065559804721434.title}"
 				type: "checkmark"
 			}]
-			title: "&eGetting Started"
+			title: "{ftbquests.chapter.6modular_tools.quest5519425952437127199.title}"
 			x: -1.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5B5A340DB47B9C89"]
-			description: ["&e&lTip:&r Gems can give a variety of effects, read up on how they can help you!"]
+			description: ["{ftbquests.chapter.6modular_tools.quest3019130782516603636.description1}"]
 			hide_until_deps_complete: true
 			id: "29E61B735E596AF4"
 			rewards: [{
@@ -2012,13 +1917,13 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eMerlinite Gem"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest3019130782516603636.subtitle}"
 			tasks: [{
 				id: "6041AADD7D050295"
 				item: "tinkersjewelry:merlinite"
 				type: "item"
 			}]
-			title: "&eMore than Fashion &r(Part I)"
+			title: "{ftbquests.chapter.6modular_tools.quest3019130782516603636.title}"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -2033,7 +1938,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "square"
-			subtitle: "Craft your first &eTinkers' Ring"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6931897927982345050.subtitle}"
 			tasks: [{
 				id: "00E3BB9245A6F07B"
 				item: {
@@ -2059,23 +1964,23 @@
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:durability": 143.0f
+							"tconstruct:durability": 1243.0f
 							"tinkersjewelry:amplification": 0.963f
 						}
 					}
 				}
 				match_nbt: false
 				tags: [""]
-				title: "Any Completed Ring"
+				title: "{ftbquests.chapter.6modular_tools.quest6931897927982345050.task.64101056621506683.title}"
 				type: "item"
 			}]
-			title: "&eMore than Fashion &r(Part II)"
+			title: "{ftbquests.chapter.6modular_tools.quest6931897927982345050.title}"
 			x: 6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5D2ED1168A45A14A"]
-			description: ["&e&lTip:&r Allows for Silk Touch to applied to mining tools at the cost of a ability slot."]
+			description: ["{ftbquests.chapter.6modular_tools.quest7969182908326692106.description1}"]
 			id: "6E9839A1F0ED450A"
 			rewards: [{
 				amount: 50L
@@ -2084,14 +1989,14 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eSilky Cloth"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7969182908326692106.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "6134AE73FFBD7C93"
 				item: "tconstruct:silky_cloth"
 				type: "item"
 			}]
-			title: "&eSilk Touch"
+			title: "{ftbquests.chapter.6modular_tools.quest7969182908326692106.title}"
 			x: 9.0d
 			y: -1.0d
 		}
@@ -2107,19 +2012,19 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "diamond"
-			subtitle: "Obtain &eEnderslime Crystals"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest8266489979254271484.subtitle}"
 			tasks: [{
 				id: "3E5523F6EC4D858A"
 				item: "tconstruct:ender_slime_crystal_block"
 				type: "item"
 			}]
-			title: "&eEnderslime Crystals"
+			title: "{ftbquests.chapter.6modular_tools.quest8266489979254271484.title}"
 			x: 10.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: ["Used as a slotless upgrade, giving any tool both one upgrade and ability slot."]
+			description: ["{ftbquests.chapter.6modular_tools.quest7908777659668048058.description1}"]
 			hide_until_deps_complete: true
 			id: "6DC19F61040F28BA"
 			rewards: [{
@@ -2130,19 +2035,19 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "diamond"
-			subtitle: "Obtain a &eDragon Head"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7908777659668048058.subtitle}"
 			tasks: [{
 				id: "3E18218BC40AA93B"
 				item: "minecraft:dragon_head"
 				type: "item"
 			}]
-			title: "&eUpgrades and Glory!"
+			title: "{ftbquests.chapter.6modular_tools.quest7908777659668048058.title}"
 			x: 12.0d
 			y: -7.0d
 		}
 		{
-			dependencies: ["734CBF5AC8627228"]
-			description: ["&e&lTip:&r Need to undo a modifier or ability? No need to scrap your tool simply remove it!"]
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["{ftbquests.chapter.6modular_tools.quest4968261617980394668.description1}"]
 			id: "44F2CF9E5AEDCCAC"
 			rewards: [{
 				amount: 50L
@@ -2151,22 +2056,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft the &eModifier Worktable"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4968261617980394668.subtitle}"
 			tasks: [{
 				id: "43101D3F05E05215"
 				item: "tconstruct:modifier_worktable"
 				type: "item"
 			}]
-			title: "&eWhoops! where's undo?"
-			x: 11.0d
-			y: -1.0d
+			title: "{ftbquests.chapter.6modular_tools.quest4968261617980394668.title}"
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
 			description: [
-				"Try all the available &eupgrades &rand &eabilities! &rExplore what every mod has to offer in the world of &6Tinkers' Construct!"
+				"{ftbquests.chapter.6modular_tools.quest3388387364943783041.description1}"
 				""
-				"&l&eTip:&r Antimatter pellets can be used as both a material and upgrade component. Using it as a tool material won't allow for you to upgrade your tool with it."
+				"{ftbquests.chapter.6modular_tools.quest3388387364943783041.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "mekanism:pellet_antimatter"
@@ -2179,19 +2084,19 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "pentagon"
-			subtitle: "Weaponize &eAntimatter"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest3388387364943783041.subtitle}"
 			tasks: [{
 				id: "2185EAF992D447A5"
-				title: "Further Your Understanding"
+				title: "{ftbquests.chapter.6modular_tools.quest3388387364943783041.task.2415595132785280933.title}"
 				type: "checkmark"
 			}]
-			title: "&6Theory will only take you so far..."
+			title: "{ftbquests.chapter.6modular_tools.quest3388387364943783041.title}"
 			x: 12.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: ["Applies the Soul Bound effect to any tool it is applied to, costs one upgrade slot."]
+			description: ["{ftbquests.chapter.6modular_tools.quest5578353283382513995.description1}"]
 			hide_until_deps_complete: true
 			id: "4D6A4AC17FA6114B"
 			rewards: [{
@@ -2202,19 +2107,29 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "diamond"
-			subtitle: "Obtain a &eEcho Shard"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest5578353283382513995.subtitle}"
 			tasks: [{
 				id: "48368A253BABAAB6"
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			title: "&eSoul Bound"
+			title: "{ftbquests.chapter.6modular_tools.quest5578353283382513995.title}"
 			x: 8.0d
 			y: -7.0d
 		}
 		{
-			dependencies: ["1CF88664139833C6"]
+			dependencies: [
+				"1CF88664139833C6"
+				"7F42CAE7EEF5DD33"
+			]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest2811851770140616771.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest2811851770140616771.description2}"
+			]
+			icon: "tconstruct:hepatizon_ingot"
 			id: "2705B4498048E843"
+			min_required_tasks: 1
 			rewards: [
 				{
 					amount: 100L
@@ -2229,44 +2144,52 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Alloy and produce &eHepatizon"
-			tasks: [{
-				id: "18BA47AF8A70F225"
-				item: "tconstruct:hepatizon_ingot"
-				type: "item"
-			}]
-			title: "&eHepatizon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest2811851770140616771.subtitle}"
+			tasks: [
+				{
+					id: "18BA47AF8A70F225"
+					item: "tconstruct:hepatizon_ingot"
+					type: "item"
+				}
+				{
+					id: "4F8E9551A4BC0E9F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:hepatizon"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest2811851770140616771.task.5732683553577897631.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest2811851770140616771.title}"
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["38E247B9906A65AF"]
-			description: ["&e&lTip:&r Slimy Materials (like Slimesteel!) allow for Overslime to be applied to tools with out inccurring any penalties"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest2843619504521227537.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest2843619504521227537.description2}"
+			]
+			icon: "tconstruct:slimesteel_ingot"
 			id: "277690DF8B5C2D11"
+			min_required_tasks: 1
 			rewards: [
 				{
 					id: "2314A5366CF89DC9"
@@ -2287,48 +2210,54 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Alloy and produce &eSlimesteel"
-			tasks: [{
-				id: "53AB6947E2843FAB"
-				item: "tconstruct:slimesteel_ingot"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest2843619504521227537.subtitle}"
+			tasks: [
+				{
+					id: "53AB6947E2843FAB"
+					item: "tconstruct:slimesteel_ingot"
+					type: "item"
+				}
+				{
+					id: "59B20B33656D67A6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:slimesteel"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest2843619504521227537.task.6463240730602989478.title}"
+					type: "item"
+				}
+			]
 			x: 15.371768707483007d
 			y: 3.635714285714265d
 		}
 		{
 			dependencies: ["35A0BA1BB8DDE343"]
 			description: [
-				"Need more modifiers slots? &eRose Gold &ris a material that comes with a few extra!"
+				"{ftbquests.chapter.6modular_tools.quest7374364957448922126.description1}"
 				""
-				"&eRose Gold &rcan be made by alloying gold and copper in the smeltery"
+				"{ftbquests.chapter.6modular_tools.quest7374364957448922126.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest7374364957448922126.description3}"
 			]
 			hide_until_deps_complete: true
+			icon: "tconstruct:rose_gold_ingot"
 			id: "665701DB94D4E40E"
+			min_required_tasks: 1
 			rewards: [{
 				amount: 50L
 				currency: "eternalcurrencies:coins"
@@ -2336,26 +2265,42 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Alloy and produce &eRose Gold"
-			tasks: [{
-				id: "10D6A8A9D1B9DA54"
-				item: "tconstruct:rose_gold_ingot"
-				type: "item"
-			}]
-			title: "&eAlloying some Upgrades!"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7374364957448922126.subtitle}"
+			tasks: [
+				{
+					id: "10D6A8A9D1B9DA54"
+					item: "tconstruct:rose_gold_ingot"
+					type: "item"
+				}
+				{
+					id: "204116E8A57AE4E9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:rose_gold"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest7374364957448922126.task.2324164071164404969.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest7374364957448922126.title}"
 			x: 6.047619047619037d
 			y: 5.6190476190476275d
 		}
 		{
 			dependencies: ["6A9B032F89F5769A"]
 			description: [
-				"Slime allows for you to apply the Overslime ability to your tools"
+				"{ftbquests.chapter.6modular_tools.quest4098917473177986479.description1}"
 				""
-				"Overslime when applied to tools consume overslime instead of durability, it can be reapplied by combining the tool with more slime. "
+				"{ftbquests.chapter.6modular_tools.quest4098917473177986479.description2}"
 				""
-				"\"&6&lHint:&r Tools not made of slime can have Overslime applied, but at a small cost to their Stats!\""
+				"{ftbquests.chapter.6modular_tools.quest4098917473177986479.description3}"
 				""
-				"&e&lTip:&r Different colors of slime each have their own purpose, so try to collect them all."
+				"{ftbquests.chapter.6modular_tools.quest4098917473177986479.description4}"
 			]
 			hide_until_deps_complete: true
 			icon: "tconstruct:sky_slime_ball"
@@ -2373,18 +2318,18 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "15358290185B1E1C"
-					title: "&eUnlock Title:&r Sticky"
+					title: "{ftbquests.chapter.6modular_tools.quest4098917473177986479.reward.1528271203957677596.title}"
 					type: "command"
 				}
 			]
 			shape: "circle"
-			subtitle: "Obtain &eSkyslime"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4098917473177986479.subtitle}"
 			tasks: [{
 				id: "388E12E7355F5C84"
 				item: "tconstruct:sky_slime"
 				type: "item"
 			}]
-			title: "&eSky-Goo"
+			title: "{ftbquests.chapter.6modular_tools.quest4098917473177986479.title}"
 			x: 13.902380952380966d
 			y: 3.635714285714265d
 		}
@@ -2407,24 +2352,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2432,20 +2363,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Create a bow with 1.0 accuracy"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest185153238018763537.subtitle}"
 			tasks: [{
 				advancement: "tconstruct:tools/perfect_aim"
 				criterion: ""
 				id: "72587954FDFD1357"
 				type: "advancement"
 			}]
-			title: "&eAim True"
+			title: "{ftbquests.chapter.6modular_tools.quest185153238018763537.title}"
 			x: 17.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5D2ED1168A45A14A"]
-			description: ["Enchanted Alloy is a magical material that gives tools &dVeinminer"]
+			description: ["{ftbquests.chapter.6modular_tools.quest6446483670756320524.description1}"]
 			id: "597682BE5DC9650C"
 			optional: true
 			rewards: [
@@ -2462,34 +2393,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft &eEnchanted Alloy"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6446483670756320524.subtitle}"
 			tasks: [{
 				id: "17E221E6D7C4271D"
 				item: "amethyst_tools:enchanted_alloy"
@@ -2498,6 +2412,32 @@
 			x: 9.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7F42CAE7EEF5DD33"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest2565454048275645685.description1}"
+				""
+				""
+				"{ftbquests.chapter.6modular_tools.quest2565454048275645685.description2}"
+			]
+			id: "239A52DD530EC4F5"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "178BD90C2EA6646C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest2565454048275645685.subtitle}"
+			tasks: [{
+				id: "6058001AFD2DCD41"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest2565454048275645685.title}"
+			x: 3.0d
+			y: -2.0d
+		}
 	]
-	title: "&6Tinker's Construct &o(Modular Tools)"
+	title: "{ftbquests.chapter.6modular_tools.title}"
 }

@@ -771,7 +771,7 @@
 				id: "alexsmobs:spawn_egg_raccoon"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Adam\"}"
+						Name: "{\"translate\":\"name.mce2.curious_box.1\"}"
 					}
 				}
 			}
@@ -795,7 +795,7 @@
 				id: "rats:assorted_vegetables"
 				tag: {
 					display: {
-						Lore: ["[\"\",{\"text\":\"When your married you'll understand the importance of fresh produce!\",\"color\":\"green\"}]"]
+						Lore: ["[\"\",{\"translate\":\"lore.mce2.mom_market.1\",\"color\":\"green\"}]"]
 					}
 				}
 			}
@@ -946,7 +946,6 @@
 		}
 		{ item: "minecraft:music_disc_otherside" }
 		{ item: "botania:record_gaia_2" }
-		{ item: "lavachickenmusicdisc:music_disc_lava_chicken" }
 		{ item: "cataclysm:music_disc_the_harbinger" }
 		{ item: "thegreatbelow:gone_music_disc" }
 		{ item: "alexscaves:music_disc_fusion" }
@@ -972,7 +971,7 @@
 				id: "rats:assorted_vegetables"
 				tag: {
 					display: {
-						Lore: ["[\"\",{\"text\":\"When your married you'll understand the importance of fresh produce!\",\"color\":\"green\"}]"]
+						Lore: ["[\"\",{\"translate\":\"lore.mce2.mom_market.1\",\"color\":\"green\"}]"]
 					}
 				}
 			}
@@ -1431,6 +1430,66 @@
 		}
 		{ count: 8, item: "mowziesmobs:glowing_jelly" }
 		{ item: "mowziesmobs:captured_grottol" }
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "cgs:frag_grenade"
+				tag: {
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "cheesy_cache"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:antidote_vessel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "gonefishing:salmon_of_knowledge" }
+		{
+			item: {
+				Count: 1
+				id: "gonefishing:sunken_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "gonefishing:mysterious_clam" }
+		{
+			item: {
+				Count: 1
+				id: "amethyst_tools:dwarven_goat_horn"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "amethyst_tools:amethyst_goat_horn"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "amethyst_tools:amethyst_carrot" }
+		{ item: "amethyst_tools:amethyst_apple" }
 	]
-	title: "mom_market"
+	title: "{ftbquests.loot_table.7279712221922706554.title}"
 }

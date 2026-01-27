@@ -60,7 +60,7 @@
 		blocks = ["#treechop:choppables", "#minecraft:logs"]
 		#Blocks that should never be chopped, even if included in the list above
 		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
-		exceptions = ["minecraft:bamboo", "#dynamictrees:branches", "dynamictrees:trunk_shell"]
+		exceptions = ["minecraft:bamboo", "#dynamictrees:branches", "dynamictrees:trunk_shell", "occultism:otherworld_log_natural"]
 
 	[treeDetection.leaves]
 		#Blocks that should be considered leaves
@@ -68,7 +68,7 @@
 		blocks = ["#treechop:leaves_like", "#minecraft:leaves", "pamhc2trees:pam[a-z]+"]
 		#Blocks that should never be considered leaves, even if included in the list above
 		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
-		exceptions = []
+		exceptions = ["occultism:otherworld_leaves_natural"]
 
 [chopCounting]
 	#Method to use for computing the number of chops needed to fell a tree

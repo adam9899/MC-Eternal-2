@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Sleeping in a bed for a full night will restore all of your health and remove negative status effects! Gotta get that beauty sleep!"
+    "translate": "tips.mce2.bed"
   }
 }

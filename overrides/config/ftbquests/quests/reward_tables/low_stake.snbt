@@ -32,10 +32,10 @@
 					HideFlags: 33
 					display: {
 						Lore: [
-							"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-							"{\"text\":\"§7§oRight-Click to Open\"}"
+							"{\"translate\":\"lore.mce2.occultism.1\"}"
+							"{\"translate\":\"lore.mce2.high_risk.1\"}"
 						]
-						Name: "{\"text\":\"§eQuest Loot\"}"
+						Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -92,5 +92,5 @@
 		{ item: "alexsmobs:banana_peel", weight: 80.0f }
 		{ item: "accessoriumeternia:accessory_moldy_bread", weight: 30.0f }
 	]
-	title: "low_stake"
+	title: "{ftbquests.loot_table.8295254696958436208.title}"
 }

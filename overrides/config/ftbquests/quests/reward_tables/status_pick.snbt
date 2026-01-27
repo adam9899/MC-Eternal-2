@@ -1,7 +1,7 @@
 {
 	id: "56FBE869317F1218"
 	loot_size: 1
-	order_index: 26
+	order_index: 27
 	rewards: [
 		{
 			command: "/effect give @p minecraft:jump_boost 500 8"
@@ -58,5 +58,5 @@
 			type: "command"
 		}
 	]
-	title: "status_pick"
+	title: "{ftbquests.loot_table.6267858844915798552.title}"
 }

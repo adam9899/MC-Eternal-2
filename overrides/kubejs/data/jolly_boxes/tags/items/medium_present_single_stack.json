@@ -1,0 +1,81 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:golden_apple",
+    "minecraft:diamond",
+
+    {
+      "id": "jellyfishing:jellyfish_net",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:karate_glove",
+      "required": false
+    },
+
+    {
+      "id": "more_jellyfish:coal_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:iron_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:gold_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:redstone_jellyfish",
+      "required": false
+    },
+    {
+      "id": "more_jellyfish:lapis_lazuli_jellyfish",
+      "required": false
+    },
+
+    {
+      "id": "quark:iron_rod",
+      "required": false
+    },
+
+
+    {
+      "id": "artifacts:plastic_drinking_hat",
+      "required": false
+    },
+    {
+      "id": "artifacts:kitty_slippers",
+      "required": false
+    },
+    {
+      "id": "artifacts:bunny_hoppers",
+      "required": false
+    },
+    {
+      "id": "artifacts:whoopee_cushion",
+      "required": false
+    },
+    {
+      "id": "artifacts:pocket_piston",
+      "required": false
+    },
+
+    {
+      "id": "next_christmas:sweater_tree",
+      "required": false
+    },
+    {
+      "id": "next_christmas:sweater_reindeer",
+      "required": false
+    },
+    {
+      "id": "next_christmas:sweater_snowflake",
+      "required": false
+    },
+    {
+      "id": "next_christmas:sweater_snowman",
+      "required": false
+    }
+  ]
+}

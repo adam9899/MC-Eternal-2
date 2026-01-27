@@ -3,7 +3,7 @@
 	"color": "#33AE53",
 	"waves": [{
 			"entities": [{
-				"entity": "minecraft:slime",
+				"entity": "specialmobs:slime",
                 "nbt": {
                     "Size": 1
                 },
@@ -23,7 +23,7 @@
 		},
 		{
 			"entities": [{
-				"entity": "minecraft:slime",
+				"entity": "specialmobs:slime",
                 "nbt": {
                     "Size": 3
                 },
@@ -70,7 +70,7 @@
 		{
 			"entities": [
                 {
-					"entity": "minecraft:slime",
+					"entity": "specialmobs:slime",
                     "desc": "name.gateways.acidic_slime",
                     "nbt": {
                         "CustomNameVisible": 1,
@@ -133,7 +133,7 @@
 		{
 			"entities": [
                 {
-					"entity": "minecraft:slime",
+					"entity": "specialmobs:slime",
                     "desc": "name.gateways.magicbane_slime",
                     "nbt": {
                         "CustomNameVisible": 1,
@@ -195,7 +195,7 @@
 		},
 		{
 			"entities": [{
-					"entity": "minecraft:slime",
+					"entity": "specialmobs:slime",
                     "desc": "name.gateways.huge_slime",
                     "nbt": {
                         "CustomNameVisible": 1,
@@ -208,7 +208,7 @@
                     "finalize_spawn": false
 				},
                 {
-					"entity": "minecraft:slime",
+					"entity": "specialmobs:slime",
                     "desc": "name.gateways.magicbane_slime",
                     "nbt": {
                         "CustomNameVisible": 1,
@@ -231,7 +231,7 @@
                     "finalize_spawn": false
                 },
                 {
-					"entity": "minecraft:slime",
+					"entity": "specialmobs:slime",
                     "desc": "name.gateways.acidic_slime",
                     "nbt": {
                         "CustomNameVisible": 1,

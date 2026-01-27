@@ -1,0 +1,406 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "quality": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "weight": 30,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 34.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+            {
+          "type": "minecraft:item",
+          "name": "rats:plastic_waste",
+          "weight": 30,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 64.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 20,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 10,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 25.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 12,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold",
+          "weight": 12,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 30.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
+          "weight": 8,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 43.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:sea_serpent_fang",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:sea_serpent_scales_purple",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:siren_tear",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "artifacts:shock_pendant",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "artifacts:aqua_dashers",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "artifacts:flippers",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:snorkel",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "artifacts:anglers_hat",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "endrem:cryptic_eye",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "aquaculture:double_obsidian_hook",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "aquamirae:poseidons_breakfast",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "aquamirae:sea_stew",
+          "weight": 35,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquamirae:treasure_pouch",
+          "weight": 50,
+          "quality": 1
+        },
+
+ {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:idol_of_fertility",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:golden_dice",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:dream_catcher",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:lucky_rock",
+          "weight": 1,
+          "quality": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:miner_guide",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:secret_ingredient",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:swimmer_guide",
+          "weight": 1,
+          "quality": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:tamed_potato_beetle",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:tool_scraps",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:unbreakable_fishing_line",
+          "weight": 1,
+          "quality": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:discount_voucher",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:certificate_of_taming",
+          "weight": 1,
+          "quality": 1
+        },
+  
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:ancient_scarab",
+          "weight": 1,
+          "quality": 1
+        },
+      
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:adventurer_kit",
+          "weight": 1,
+          "quality": 8
+        },
+
+        
+         {
+          "type": "minecraft:item",
+          "name": "aquamirae:rune_of_the_storm",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "aquaculture:neptunium_fishing_rod",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "aquaculture:gold_fishing_rod",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:diamond_fishing_rod",
+          "weight": 5,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:iron_fishing_rod",
+          "weight": 10,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:diamond_hook",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:redstone_hook",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:light_hook",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lavafishing:obsidian_fishing_rod",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:obsidian_hook",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:warden",
+  "item": {
+    "id": "minecraft:echo_shard",
+    "Count": 1
+  },
+  "minTries": 1,
+  "maxTries": 6
+}

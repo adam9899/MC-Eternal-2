@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You cannot kill The Warden... So don't even try..."
+    "translate": "tips.mce2.warden"
   }
 }

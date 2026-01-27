@@ -1,0 +1,39 @@
+{
+  "type": "lychee:block_crushing",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "kubejs:dwarven_map",
+      "count": 1
+    }
+  ],
+  "item_in": [
+    {
+      "item": "kubejs:ingot_thousand_metals"
+    },
+    {
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "supplementaries:slice_map"
+    },
+    {
+      "item": "alexscaves:holocoder"
+    },
+    {
+      "item": "minecraft:raw_copper"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
 	// The number of game ticks players become invulnerable upon rolling
-	"invulnerable_ticks_upon_roll": 50,
+	"invulnerable_ticks_upon_roll": 30,
 	// The duration of the roll ability, expressed as a number of ticks, during which the player cannot use item/attack/jump etc...
 	"roll_duration": 8,
 	// Allows Vanilla Minecraft auto jump feature to work while rolling

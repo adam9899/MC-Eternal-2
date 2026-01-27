@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Sometimes a mini-boss can spawn at a loot chest! Beware! They have all sorts of tricks up their sleeves!"
+    "translate": "tips.mce2.brutal_bosses"
   }
 }

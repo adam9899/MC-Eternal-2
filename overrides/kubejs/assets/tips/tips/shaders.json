@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Shaders are compatible thanks to Oculus, use at your own risk!"
+    "translate": "tips.mce2.shaders"
   }
 }

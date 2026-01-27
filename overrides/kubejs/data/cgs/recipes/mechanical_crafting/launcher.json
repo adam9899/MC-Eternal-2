@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "I": {
+      "item": "createbigcannons:nethersteel_ingot"
+    },
+    "X": {
+      "item": "create:precision_mechanism"
+    },
+    "L": {
+      "item": "create:brass_sheet"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "W": {
+      "tag": "forge:stripped_logs"
+    }
+  },
+  "pattern": [
+    "APLLPA",
+    "ICCCCI",
+    "WAWXA ",
+    " WW   "
+  ],
+  "result": {
+    "item": "cgs:launcher"
+  }
+}

@@ -1,0 +1,712 @@
+{
+	"root_manaregen": {
+		"title": "+5% Mana Regen",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:amethyst_resonance_charm"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "7ryu15c6vqjq2ba7"
+		}
+	},
+	"root_cooldown": {
+		"title": "+5% Cooldown Reduction",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:cooldown_ring"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ykbewh3l4a4tol2z"
+		}
+	},
+	"root_maxmana": {
+		"title": "+15 Max Mana",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:mana_ring"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 15,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "jlg37ux81kszeltq"
+		}
+	},
+	"root_casttime": {
+		"title": "+5% Cast Time Reduction",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:cast_time_ring"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "vymdbbdy910k809j"
+		}
+	},
+	"manaregen2": {
+		"title": "+1% Mana Regen",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:amethyst_resonance_charm"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "l8y6j1n4pqzud2cj"
+		}
+	},
+	"cooldown2": {
+		"title": "+1% Cooldown Reduction",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:cooldown_ring"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "aufjljzz7ouzj46q"
+		}
+	},
+	"maxmana2": {
+		"title": "+3 Max Mana",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:mana_ring"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "s0cq0ao6ps6wfy0t"
+		}
+	},
+	"casttime2": {
+		"title": "+1% Cast Time Reduction",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:cast_time_ring"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "3hyed6qm1n8iod2g"
+		}
+	},
+	"spellpower1": {
+		"title": "+2% Spell Power",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:electromancer_helmet"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uz633fmo0yxlu5q3"
+		}
+	},
+	"spellpower3": {
+		"title": "§dBlessing of the Archmage:§r +8% Spell Power",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:netherite_mage_helmet"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "yxcnpwxzk9aghzth"
+		}
+	},
+	"cooldown10": {
+		"title": "§bManastorm:§r +10% Cooldown Reduction",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:permafrost_shard"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "sz2n0miepbpfrts7"
+		}
+	},
+	"casttime10": {
+		"title": "§6Timewarp:§r +15% Cast Time Reduction",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "kubejs:pocket_watch"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lmm5x8fi4do7s3qv"
+		}
+	},
+	"manaregen10": {
+		"title": "§9Arcane Tempest:§r +10% Mana Regen",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:energized_core"
+			}
+		},
+	
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "2jpoqo99v5s1gni0"
+		}
+	},
+	"maxmana10": {
+		"title": "Arcane Affinity: +50 Max Mana",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:lightning_bottle"
+			}
+		},
+		
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "asywsnsfn3ygvraq"
+		}
+	},
+
+		"blood_power5": {
+		"title": "+5% Blood Spell Power",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:red_dye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": { "icon": "blood_icon_5" }
+	},
+	"blood_power10": {
+		"title": "Sanguinist: +12% Blood Spell Power",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:blood_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": { "icon": "blood_icon_10" }
+	},
+	"nature_power5": {
+		"title": "+5% Nature Spell Power",
+		"icon": { "type": "item", "data": { "item": "minecraft:vine" } },
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": { "icon": "nature_icon_5" }
+	},
+	"nature_power10": {
+		"title": "Druid: +12% Nature Spell Power",
+		"icon": { "type": "item", "data": { "item": "irons_spellbooks:nature_rune" } },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": { "icon": "nature_icon_10" }
+	},
+	"lightning_power5": {
+		"title": "+5% Lightning Spell Power",
+		"icon": { "type": "item", "data": { "item": "minecraft:lightning_rod" } },
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": { "icon": "lightning_icon_5" }
+	},
+	"lightning_power10": {
+		"title": "Electromancer: +12% Lightning Spell Power",
+		"icon": { "type": "item", "data": { "item": "irons_spellbooks:lightning_rune" } },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": { "icon": "lightning_icon_10" }
+	},
+	"ice_power5": {
+		"title": "+5% Ice Spell Power",
+		"icon": { "type": "item", "data": { "item": "minecraft:ice" } },
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": { "icon": "ice_icon_5" }
+	},
+	"ice_power10": {
+		"title": "Cryomancer: +12% Ice Spell Power",
+		"icon": { "type": "item", "data": { "item": "irons_spellbooks:ice_rune" } },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": { "icon": "ice_icon_10" }
+	},
+	"holy_power5": {
+		"title": "+5% Holy Spell Power",
+		"icon": { "type": "item", "data": { "item": "minecraft:glowstone_dust" } },
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": { "icon": "holy_icon_5" }
+	},
+	"holy_power10": {
+		"title": "Priest: +12% Holy Spell Power",
+		"icon": { "type": "item", "data": { "item": "irons_spellbooks:holy_rune" } },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": { "icon": "holy_icon_10" }
+	},
+	"fire_power5": {
+		"title": "+5% Fire Spell Power",
+		"icon": { "type": "item", "data": { "item": "minecraft:blaze_powder" } },
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": { "icon": "fire_icon_5" }
+	},
+	"fire_power10": {
+		"title": "Pyromancer: +12% Fire Spell Power",
+		"icon": { "type": "item", "data": { "item": "irons_spellbooks:fire_rune" } },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": { "icon": "fire_icon_10" }
+	},
+	"evocation_power5": {
+		"title": "+5% Evocation Spell Power",
+		"icon": { "type": "item", "data": { "item": "minecraft:totem_of_undying" } },
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": { "icon": "evocation_icon_5" }
+	},
+	"evocation_power10": {
+		"title": "Sorcerer: +12% Evocation Spell Power",
+		"icon": { "type": "item", "data": { "item": "irons_spellbooks:evocation_rune" } },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": { "icon": "evocation_icon_10" }
+	},
+	
+	"ender_power5": {
+		"title": "+5% Ender Spell Power",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": { "icon": "ender_icon_5" }
+	},
+	"ender_power10": {
+		"title": "Ender Mage: +12% Ender Spell Power",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ender_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": { "icon": "ender_icon_10" }
+	},
+	"eldritch_power5": {
+		"title": "+5% Eldritch Spell Power",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:chorus_fruit"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": { "icon": "eldritch_icon_5" }
+	},
+	"eldritch_power10": {
+		"title": "Electromancer: +12% Lightning Spell Power",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:cooldown_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": { "icon": "eldritch_icon_10" }
+	}
+
+
+}

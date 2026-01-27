@@ -1,0 +1,10 @@
+{
+  "modifier.tconstruct.writable": "Cristalino",
+  "modifier.tconstruct.writable.flavor": "Fruto Proibido?",
+  "modifier.tconstruct.writable.description": "Cheio de tanta energia do Vazio que abre espaço para outra Melhoria!\n(releitura de Writable)",
+  "modifier.tconstruct.recapitated": "Forjado",
+  "modifier.tconstruct.recapitated.flavor": "Pelo menos mil e um Metais!",
+  "modifier.tconstruct.recapitated.description": "Reforça a ferramenta o suficiente para resistir ao estresse de outra Melhoria!\n(releitura de Recapitated)",
+
+  "advancements.tconstruct.tools.upgrade_slots.description": "Dê a uma ferramenta mais 6 espaços de melhoria usando cristalino, forjado, harmonioso, ressuscitado e dourado"
+}

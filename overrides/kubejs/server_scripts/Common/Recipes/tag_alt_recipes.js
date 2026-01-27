@@ -13,4 +13,13 @@ ServerEvents.recipes(event => {
   {
     P: 'minecraft:stick'
   })
+  //Craft chests from ANY planks
+  event.shaped(Item.of('minecraft:chest', 1), [
+        'PPP',
+        'P P',
+        'PPP'
+  ],
+  {
+        P: '#minecraft:planks'
+  })
 })

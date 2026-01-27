@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "The Brazier multiblock can stop monsters from spawning in its radius!"
+    "translate": "tips.mce2.brazier"
   }
 }

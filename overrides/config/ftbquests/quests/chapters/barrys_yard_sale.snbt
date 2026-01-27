@@ -1,0 +1,1362 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "barrys_yard_sale"
+	group: "12BCDDCCCA65FD77"
+	icon: "rats:rat_fez"
+	id: "1F7C2620408EB5A8"
+	images: [
+		{
+			height: 4.0d
+			hover: ["ftbquests.chapter.barrys_yard_sale.image.hovertext1"]
+			image: "dialog:textures/portraits/barry.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.030952380952414d
+			y: 1.0309523809523853d
+		}
+		{
+			dependency: "2CDE940DD434CD08"
+			height: 4.0d
+			hover: ["ftbquests.chapter.barrys_yard_sale.image.hovertext2"]
+			image: "modpack:textures/barry-the-rat-uwu-transparent-no-white.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.description1}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.description2}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.description3}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:tiny_coin"
+			id: "6D28AAFC102E83EC"
+			optional: true
+			rewards: [{
+				command: "/execute at {p} run summon goblintraders:goblin_trader ~3 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Charlie\\\\\\\"\\\"\"}"
+				console: true
+				icon: "rats:tiny_coin"
+				id: "538093A5B68608B8"
+				silent: true
+				title: "{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.reward.6016971442108106936.title}"
+				type: "command"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.subtitle}"
+			tasks: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					disable_toast: true
+					id: "0141BD815B96B26C"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					disable_toast: true
+					elapsedTime: 3600L
+					icon: "minecraft:green_bed"
+					id: "679BAD7C2CE5BE2E"
+					title: "{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.task.7465751556137532974.title}"
+					type: "questsadditions:time"
+				}
+			]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.title}"
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.image0}"
+				"{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "quark:deepslate_furnace"
+			id: "4C7BC395C5E035D1"
+			optional: true
+			rewards: [{
+				id: "7EED2E2BABF3AAC5"
+				item: "kubejs:chocolate_coin"
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.subtitle}"
+			tasks: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "4ABFA578BC714193"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.title}"
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.description1}"
+				""
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:tiny_coin"
+			id: "73D01A47A22E3978"
+			optional: true
+			rewards: [{
+				command: "/execute at {p} run summon ribbits:ribbit ~3 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Frank\\\\\\\"\\\"\"}"
+				console: true
+				icon: "rats:tiny_coin"
+				id: "3AF731FD7801A8D5"
+				silent: true
+				title: "{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.reward.4248919738157213909.title}"
+				type: "command"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.subtitle}"
+			tasks: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				disable_toast: true
+				id: "67AC5B6A04A8EE4F"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.title}"
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					HideFlags: 33
+					display: {
+						Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+					}
+					type: "quest_loot"
+				}
+			}
+			id: "4B5B24150BD52E90"
+			rewards: [{
+				id: "788CC3BE1BFFE5DE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						}
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5429973448536698512.subtitle}"
+			tasks: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "0482D52AC33F2747"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest5429973448536698512.title}"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.description1}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.description2}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.description3}"
+			]
+			icon: "rats:trash_can"
+			id: "13049AEB2F8829E1"
+			rewards: [{
+				id: "4D51F27A637F7E3A"
+				item: "rats:rat_burger"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.subtitle}"
+			tasks: [{
+				id: "541D7005ED9AA37D"
+				title: "{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.task.6061123844274037629.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.title}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "curious_box"
+				}
+			}
+			id: "03DA3D57743E6D7D"
+			rewards: [{
+				id: "296E7ED46A5B1314"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "curious_box"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.subtitle}"
+			tasks: [{
+				amount: 400L
+				currency: "eternalcurrencies:coins"
+				id: "33EFA8A71793A0E6"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.title}"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest879587116138330832.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "barry_s_trash"
+				}
+			}
+			id: "0C34EBD2666F7AD0"
+			rewards: [{
+				id: "431FEA566D80D76E"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "barry_s_trash"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest879587116138330832.subtitle}"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "3A6C1F57602DE2AF"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest879587116138330832.title}"
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "cheesy_cache"
+				}
+			}
+			id: "23BDDB74459B7491"
+			rewards: [{
+				id: "197B2B854518B5BB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "cheesy_cache"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.subtitle}"
+			tasks: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "40FDCA5AFA29B0E1"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.title}"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "artifacts:helium_flamingo"
+			id: "5FEDC19E269FC1E2"
+			rewards: [{
+				id: "500A2837CAF75686"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.subtitle}"
+			tasks: [{
+				amount: 1200L
+				currency: "eternalcurrencies:coins"
+				id: "6E96EBCCC7C568C5"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.title}"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description1}"
+				""
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description4}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description5}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description6}"
+				""
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description7}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mce2lib:trans_rights_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "13E2B8CEC781C4A2"
+			rewards: [{
+				id: "529BE57246B7F1A6"
+				item: {
+					Count: 1
+					id: "mce2lib:trans_rights_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.subtitle}"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "15D985D888F354CB"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.title}"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description4}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description5}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description6}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description7}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "rats:gilded_rat_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77017B2660E26922"
+			rewards: [{
+				id: "087C73E9BA1C1E7F"
+				item: {
+					Count: 1
+					id: "rats:gilded_rat_flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.subtitle}"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "603DAAE5844659DD"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.title}"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mce2lib:chicken_nugget_summon"
+			id: "65A50BFFDFC499E6"
+			rewards: [{
+				id: "4FD9349B6FFF3A95"
+				item: "mce2lib:chicken_nugget_summon"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.subtitle}"
+			tasks: [{
+				amount: 350L
+				currency: "eternalcurrencies:coins"
+				id: "376BA5950114D0F5"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.title}"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mce2lib:porkus_summon"
+			id: "27DAE8BB682BC07A"
+			rewards: [{
+				id: "5059FD3E1A7C12FC"
+				item: "mce2lib:porkus_summon"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.subtitle}"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "5D5494F38BA16309"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.title}"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description4}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description5}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description6}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "vanillabackport:music_disc_lava_chicken"
+			id: "160FEAD5EF3B96C3"
+			rewards: [{
+				id: "2D9CA78605E260DB"
+				item: "vanillabackport:music_disc_lava_chicken"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.subtitle}"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "1A22D494123B5A2B"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.title}"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "cgs:shotgun"
+				tag: {
+					Ammo: "cgs:round_shotgun"
+					AmmoCount: 2
+					FireMode: "ntgl:semi"
+					ThrowMode: "ntgl:safe"
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
+					}
+					variant: "default"
+				}
+			}
+			id: "76AE8F18AD0E7279"
+			rewards: [
+				{
+					id: "2F7B5099818D6B27"
+					item: {
+						Count: 1
+						id: "cgs:shotgun"
+						tag: {
+							Ammo: "cgs:round_shotgun"
+							AmmoCount: 2
+							FireMode: "ntgl:semi"
+							display: {
+								Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
+							}
+							variant: "default"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "199F91DD09062B74"
+					item: "cgs:round_shotgun"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.subtitle}"
+			tasks: [{
+				amount: 2500L
+				currency: "eternalcurrencies:coins"
+				id: "7C01FD149595D34D"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.title}"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description4}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description5}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "petcapturetool:capture_tool"
+			id: "0D54B09097CA96F2"
+			rewards: [{
+				id: "10F50DE1FFBFB2C3"
+				item: "petcapturetool:capture_tool"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.subtitle}"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "0CC79025F886B2F2"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.title}"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_tools:amethyst_goat_horn"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B07F007D678FF25"
+			rewards: [{
+				id: "085D513390A7E75C"
+				item: {
+					Count: 1
+					id: "amethyst_tools:amethyst_goat_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.subtitle}"
+			tasks: [{
+				amount: 350L
+				currency: "eternalcurrencies:coins"
+				id: "402EEE608482552C"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.title}"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2054178622665004686.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C81E892E526168E"
+			rewards: [{
+				id: "430FB04899067347"
+				item: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2054178622665004686.subtitle}"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "2A62CC68B32A1663"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest2054178622665004686.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest1221128012913219663.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1221128012913219663.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "iceandfire:weezer_blue_album"
+			id: "10F251753AF8984F"
+			rewards: [{
+				id: "14172CF0CA316CB6"
+				item: "iceandfire:weezer_blue_album"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1221128012913219663.subtitle}"
+			tasks: [{
+				amount: 650L
+				currency: "eternalcurrencies:coins"
+				id: "3F1B6B9E578DEF8D"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1221128012913219663.title}"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "alexscaves:nuclear_bomb"
+			id: "06C93AB285A6B3F0"
+			rewards: [{
+				id: "59D840DC3D763740"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.subtitle}"
+			tasks: [{
+				amount: 50000L
+				currency: "eternalcurrencies:coins"
+				id: "75A99232C9E867F3"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.title}"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "majruszsdifficulty:recall_potion"
+			id: "0E5D02A5D4C48202"
+			rewards: [{
+				id: "46E28A9D10FC847C"
+				item: "majruszsdifficulty:recall_potion"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1034986400627589634.subtitle}"
+			tasks: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "74B9A9777709424B"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1034986400627589634.title}"
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "rats:rat_fez"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 2s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
+					}
+				}
+			}
+			id: "0315618E959F4C6D"
+			rewards: [{
+				id: "563B996F4115403A"
+				item: {
+					Count: 1
+					id: "rats:rat_fez"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.subtitle}"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "0A15BC4964BCA57A"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.title}"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:druidic_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "1D7CF402C2122B38"
+			rewards: [{
+				id: "00CA8BB7AFB5FCAC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.subtitle}"
+			tasks: [{
+				amount: 300L
+				currency: "eternalcurrencies:coins"
+				id: "4B04842062FB6833"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.title}"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description2}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description3}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description4}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description5}"
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description6}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "clockwork:clockwork_gear"
+			id: "39778CD15BBE1FC5"
+			rewards: [{
+				command: "/execute at {p} run summon clockwork:dragonfly ~1 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Gilbert the Mechanical Dragonfly\\\\\\\"\\\"\"}"
+				console: true
+				icon: "clockwork:crossbow_barrel"
+				id: "7F844D797AA3E20A"
+				title: "{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.reward.9188554323886596618.title}"
+				type: "command"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.subtitle}"
+			tasks: [{
+				amount: 1800L
+				currency: "eternalcurrencies:coins"
+				id: "165976CC8B85CD82"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.title}"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.description2}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.description3}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.description4}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "rats:rat"
+					DisplayMobScale: 2
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.3\"}"
+					}
+				}
+			}
+			id: "2CDE940DD434CD08"
+			rewards: [
+				{
+					command: "/titles add {p} titles:friends"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "3ADB5C5107CD68D1"
+					title: "{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.reward.4241084977192462545.title}"
+					type: "command"
+				}
+				{
+					id: "4DC2499C77E1C2FA"
+					item: "rats:rat_upgrade_ratinator"
+					type: "item"
+				}
+				{
+					id: "0077424C66B3920C"
+					item: {
+						Count: 1
+						id: "rats:rat_nugget_ore"
+						tag: {
+							OreItem: {
+								Count: 1b
+								id: "rats:cheese"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "7BFD1AE4A746528E"
+					item: "jellyfishing:triple_gooberberry_sunrise"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "44852D9E5D200B50"
+					item: "rats:string_cheese"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "339668558B44DA77"
+					item: "rats:potato_knishes"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0C7E75BF7F398E64"
+					item: "botania:tiny_potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "71B698BB3ED7E783"
+					item: "chipped:smiling_carved_pumpkin"
+					type: "item"
+				}
+				{
+					id: "52B75E255434EA10"
+					item: "species:cracked_wraptor_egg"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.title}"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.description1}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "698FB5BFC9C3D64F"
+			rewards: [
+				{
+					id: "533DB388AA5120E7"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+				{
+					id: "6104CBB344064DBE"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "739AA7F683D72193"
+					item: "alexscaves:magnetic_light"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "4A97A2C7839D877B"
+				item: "species:kinetic_core"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.title}"
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest1235043918783982947.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1235043918783982947.description2}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "gonefishing:sunken_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "veinmining:vein_mining"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.4\"}"
+					}
+				}
+			}
+			id: "1123C1E68D202D63"
+			rewards: [{
+				id: "6F38393031C6F1C1"
+				item: {
+					Count: 1
+					id: "gonefishing:sunken_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.4\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1235043918783982947.subtitle}"
+			tasks: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "59DB31B201680447"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1235043918783982947.title}"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest5879667817332904124.description1}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "species:crankbow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "species:scattershot"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.5\"}"
+					}
+				}
+			}
+			id: "5198C6BA616C90BC"
+			rewards: [{
+				id: "1E6B5A792B59B726"
+				item: {
+					Count: 1
+					id: "species:crankbow"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "species:scattershot"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.5\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5879667817332904124.subtitle}"
+			tasks: [{
+				amount: 300L
+				currency: "eternalcurrencies:coins"
+				id: "7E68A9874146A055"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest5879667817332904124.title}"
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8721869539636658863.description1}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest8721869539636658863.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "790A4E22C757C2AF"
+			rewards: [{
+				id: "6F3E694EFAEDAB18"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_axe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.6\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				id: "1ECD295F04A40E25"
+				item: "mysticaloaktree:wise_oak"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8721869539636658863.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "betterarcheology:bomb"
+			id: "64A2F7FE285D7D24"
+			rewards: [{
+				id: "0F019438B4EB9A13"
+				item: "betterarcheology:bomb"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.subtitle}"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5373BE04DAD7309A"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.title}"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "kubejs:artifact_endergem"
+			id: "6467B7A9EF8FF8A1"
+			rewards: [{
+				id: "0987500A6CD054AA"
+				item: "kubejs:artifact_endergem"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7234953266890537121.subtitle}"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "1B02D3B0EC9C4C50"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7234953266890537121.title}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest5678238410744804635.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ias_spellbooks:book_of_dark_mutations"
+				tag: {
+					ISB_Spells: {
+						data: [
+							{
+								id: "ias_spellbooks:dragline"
+								index: 0
+								level: 10
+								locked: 1b
+							}
+							{
+								id: "ias_spellbooks:pumpkin_spice"
+								index: 1
+								level: 3
+								locked: 1b
+							}
+						]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "4ECD27BFFE6C351B"
+			rewards: [{
+				id: "56E2EB583C28CE15"
+				item: {
+					Count: 1
+					id: "ias_spellbooks:book_of_dark_mutations"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "ias_spellbooks:dragline"
+									index: 0
+									level: 10
+									locked: 1b
+								}
+								{
+									id: "ias_spellbooks:pumpkin_spice"
+									index: 1
+									level: 3
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5678238410744804635.subtitle}"
+			tasks: [{
+				amount: 1200L
+				currency: "eternalcurrencies:coins"
+				id: "23F6A86EB917A8D7"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest5678238410744804635.title}"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest5598003291864492318.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionColor: 16333189
+					CustomPotionEffects: [{
+						Ambient: 0b
+						Amplifier: 0b
+						CurativeItems: [{
+							Count: 1b
+							id: "minecraft:milk_bucket"
+						}]
+						Duration: 33600
+						Id: 326
+						ShowIcon: 1b
+						ShowParticles: 1b
+						"forge:id": "species:tanked"
+						pufferfish_unofficial_additions.modified: 0b
+					}]
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.7\"}"
+					}
+				}
+			}
+			id: "4DB01A559F0CE91E"
+			rewards: [{
+				id: "30D78D47A2D79D4A"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionColor: 16333189
+						CustomPotionEffects: [{
+							Ambient: 0b
+							Amplifier: 1b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 33600
+							Id: 326
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "species:tanked"
+							pufferfish_unofficial_additions.modified: 0b
+						}]
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.7\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5598003291864492318.subtitle}"
+			tasks: [{
+				amount: 450L
+				currency: "eternalcurrencies:coins"
+				id: "2A2A47445211E79E"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest5598003291864492318.title}"
+			x: 6.0d
+			y: 8.0d
+		}
+	]
+	title: "{ftbquests.chapter.barrys_yard_sale.title}"
+}

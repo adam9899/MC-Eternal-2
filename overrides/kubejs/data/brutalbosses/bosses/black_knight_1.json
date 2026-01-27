@@ -1,0 +1,89 @@
+{
+  "entity": "iceandfire:dread_knight",
+  "name": "§8The Black Knight",
+  "visualscale": 1.1,
+  "protect_treasure": true,
+  "experience": 10,
+  "droppeditemamount": 2,
+  "effects": {
+    "tombstone:unstable_intangibility": 1,
+    "cataclysm:monstrous": 2
+  },
+  "attributes": {
+    "generic.max_health": 150,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 10,
+    "generic.movement_speed": 1.1
+  },
+  "customattributes": { 
+	  "attack_speed": 2.6,
+    "dropgear": 6
+  },
+  "gear": {
+   "mainhand": "{id: \"iceandfire:dragonsteel_ice_sword\", Count: 1b, tag: {display:{Name:'{\"text\":\"Blade of The Black Knight\"}',Lore:['{\"text\":\"Tis but a scratch!\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}",
+	"helmet": "{id: \"iceandfire:armor_black_helmet\", Count: 1b, tag: {display:{Name:'{\"text\":\"Helmet of The Black Knight\"}',Lore:['{\"text\":\"The Black Knight moves for no man!\"}']},Enchantments:[{lvl: 4s, id: \"minecraft:protection\"}]}}",
+"offhand": "{id: \"minecraft:shield\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Shield of The Black Knight\"}',Lore:['{\"text\":\"§2§oAh HAH!\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+	"leggings": "{id: \"iceandfire:armor_black_leggings\", Count: 1b, tag: {Damage: 200}}",
+	"boots": "{id: \"iceandfire:armor_black_boots\", Count: 1b, tag: {Damage: 200}}",
+    "chestplate": "{id: \"iceandfire:armor_black_chestplate\", Count: 1b, tag: {Damage: 250}}"
+  },
+  "ai-goals": {
+    "minecraft:meleeattack": {},
+
+
+    
+    "minecraft:target": {},
+    "brutalbosses:shootsnowballs": {
+"healthinterval": "50-0",
+"damage": 75,  
+"projectile_count": 30,             
+"projectile_interval": 160,         
+"projectile_distance": 35,         
+"projectile_speed": 1.5,        
+"projectile_aoe": true          
+},
+"minecraft:randomwalk": {},
+
+
+"brutalbosses:jumpattack": {"healthinterval": "20-0",          
+"attackdist": 12,                     
+"extraDamage": 200,                    
+"maxdist": 15,                       
+"mindist": 2,                        
+"maxheight": 15,                      
+"duration": 80,                      
+"interval": 200,                     
+"potions": {                         
+"mowziesmobs:frozen":                  
+{
+  "duration": 200,                   
+  "amplifier": 1,                    
+  "particle": "minecraft:snowflake"      
+}}},
+	  "brutalbosses:lavarescue": {}, 
+    "brutalbosses:shieldmelee": {},
+    "brutalbosses:whirldwind": {           
+"attackdist": 2,                        
+"extradamage": 25,                       
+"potiononhit": "mowziesmobs:frozen",   
+"potionlevel": 3,                       
+"potionduration": 3,                   
+"knockback": 8,                         
+"cooldown": 800,                         
+"knockup": false                       
+},
+    "brutalbosses:chasetarget": {},
+    "brutalbosses:meleehit":
+    {
+      "damage": 8,
+      "potiononhit": "goety:apostle_curse",
+      "cooldown": 300
+    }
+  },
+  "spawnatchest": {
+"idas:chests/dread_citadel/dread_citadel": 5, 
+	  "idas:chests/dread_citadel/dread_citadel_throne": 3,
+      "idas:chests/pillager_fortress/pillager_jail":5
+
+  }
+}

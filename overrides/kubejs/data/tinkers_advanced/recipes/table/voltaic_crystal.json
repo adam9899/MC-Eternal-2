@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "B": {
+      "item": "tconstruct:ender_slime_crystal"
+    },
+    "C": {
+      "item": "tinkers_advanced:disintegrate_crystal"
+    }
+  },
+  "result": {
+    "item": "tinkers_advanced:voltaic_crystal",
+    "count": 1
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "entity": "alexsmobs:bald_eagle",
+  "name": "§eEagly",
+  "visualscale": 1.2,
+  "experience": 20,
+  "droppeditemamount": 0,
+  "effects": {
+    "minecraft:jump_boost": 2,
+    "minecraft:strength": 40
+  },
+  "attributes": {
+    "generic.max_health": 250,
+    "generic.follow_range": 150,
+    "generic.knockback_resistance": 10,
+    "generic.movement_speed": 0.9
+  },
+  "customattributes": {
+    "dropgear": 1
+  },
+  "gear": {
+	
+	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {},
+	"brutalbosses:charge": {},
+  "brutalbosses:jumpattack": {"healthinterval": "10-0",          
+  "attackdist": 12,                     
+  "extraDamage": 10,                    
+  "maxdist": 15,                       
+  "mindist": 2,                        
+  "maxheight": 15,                      
+  "duration": 200,                      
+  "interval": 300,                     
+  "potions": {                         
+  "minecraft:slowness":                  
+  {
+    "duration": 200,                   
+    "amplifier": 3,                    
+    "particle": "supplementaries:sparkle"      
+  }}},
+    "brutalbosses:chasetarget": {},
+    "brutalbosses:meleehit":
+    {
+      "damage": 90,
+      "potiononhit": "minecraft:darkness",
+      "cooldown": 30
+    }
+  },
+  "spawnatchest": {
+   "minecraft:chests/bastion_treasure": 5, 
+	  "minecraft:chests/bastion_bridge": 3,
+	  "minecraft:chests/nether_bridge":3,
+	  "minecraft:chests/woodland_mansion":10,
+      "minecraft:chests/pillager_outpost":10,
+      "idas:chests/ancient_portal/ancient_portal_nether":5,
+	  "dungeoncrawl:chests/stage_5": 10,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+      "idas:chests/pillager_fortress/pillager_jail":5,
+	   "minecraft:chests/simple_dungeon": 3,
+    "minecraft:chests/stronghold_library": 1,
+    "minecraft:chests/stronghold_crossing": 5,
+    "minecraft:chests/stronghold_corridor": 1,
+    "minecraft:chests/desert_pyramid": 1,
+    "minecraft:chests/jungle_temple": 1,
+    "betterdungeons:skeleton_dungeon/chests/common": 1,
+    "betterdungeons:skeleton_dungeon/chests/middle": 1,
+    "betterdungeons:zombie_dungeon/chests/common": 1,
+    "betterdungeons:zombie_dungeon/chests/special": 1,
+    "betterdungeons:zombie_dungeon/chests/tombstone": 1,
+    "betterdungeons:spider_dungeon/chests/egg_room": 3,
+    "dungeons_enhanced:castle_cellar": 1,
+    "endrem:chests/hided": 30,
+    "mostructures:pyramid_custom": 1,
+    "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+    "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+    "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+    "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+    "minecraft:chests/abandoned_mineshaft": 1,
+    "betterstrongholds:chests/crypt": 1,
+    "dungeons_enhanced:large_dungeon_treasury": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1,
+    "dungeons_plus:chests/vanilla_dungeon": 1
+  }
+}

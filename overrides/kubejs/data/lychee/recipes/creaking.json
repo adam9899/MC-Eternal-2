@@ -23,7 +23,7 @@
             "contextual": [
               {
                 "type": "chance",
-                "chance": 100
+                "chance": 1.0
               }
             ],
             "block": {
@@ -51,12 +51,7 @@
 "hide": true
 
 },
-{
-  "type": "execute",
-  "command": "gamestage add @p the_desecrator",
-  "hide": true
-  
-  },
+
 {
     "type": "execute",
     "command": "effect give @p minecraft:blindness 3",

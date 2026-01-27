@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Chunk Loaders can be crafted, they will load chunks even when you are away from your base!"
+    "translate": "tips.mce2.chunk_loader"
   }
 }

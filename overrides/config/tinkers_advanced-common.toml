@@ -4,10 +4,10 @@
 	#Shaping
 	#Max upgrade slot bonus for Shaping modifier, 3 by default.
 	#Range: > 1
-	shaping_max_slot = 1
+	shaping_max_slot = 2
 	#How many durability loss is needed for Shaping modifier to gain 1 slot, 500 by default.
 	#Range: > 1
-	shaping_damages_each_slot = 500
+	shaping_damages_each_slot = 2000
 	#Proto Refining
 	#Bonus enchantment level each trait level for Proto Refining, 3 by default.
 	#Range: > 0
@@ -103,14 +103,14 @@
 	ionized_cannon_base_capacity_factor = 10.0
 	#Base fluid efficiency for Ionized Cannon, 0.0 by default.
 	#Range: 0.0 ~ 2.147483647E9
-	ionized_cannon_base_fluid_efficiency = 0.3
+	ionized_cannon_base_fluid_efficiency = 0.1
 	#Ionized Cannon behaviour
 	#The multiplier of fluid consumption of Ionized Cannon, 1.0 by default.
 	#Range: 0.0 ~ 2.147483647E9
-	ionized_cannon_fluid_factor = 1.5
+	ionized_cannon_fluid_factor = 2.0
 	#Damage multiplier for Ionized Cannon when using correct fluids, 4.0 by default.
 	#Range: 1.0 ~ 2.147483647E9
-	ionized_cannon_damage_bonus = 4.0
+	ionized_cannon_damage_bonus = 2.0
 	#Base explosion scale efficiency for Ionized Cannon, 1.0 by default.
 	#Range: 0.0 ~ 2.147483647E9
 	ionized_cannon_base_scale = 1.0

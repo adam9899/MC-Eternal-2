@@ -1,8 +1,0 @@
-onEvent('item.modification', event => {
-    event.modify('kubejs:sunscreen', item => {
-        item.foodProperties = food => {
-			food.effect('mowziesmobs:sunblock', 18000, 1, 20)
-			food.effect('vampirism:sunscreen', 18000, 1, 20)
-        }
-    })
-})

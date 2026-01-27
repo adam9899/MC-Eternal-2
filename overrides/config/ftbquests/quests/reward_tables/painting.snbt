@@ -1,7 +1,7 @@
 {
 	id: "7E3BBE6D4F944142"
 	loot_size: 1
-	order_index: 31
+	order_index: 32
 	rewards: [
 		{
 			item: {
@@ -50,5 +50,5 @@
 			}
 		}
 	]
-	title: "painting"
+	title: "{ftbquests.loot_table.9096073249100677442.title}"
 }

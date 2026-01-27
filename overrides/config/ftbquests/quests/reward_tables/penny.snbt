@@ -1,7 +1,7 @@
 {
 	id: "5A39920C0FF1F852"
 	loot_size: 1
-	order_index: 19
+	order_index: 20
 	rewards: [{
 		item: {
 			Count: 1
@@ -14,10 +14,10 @@
 				HideFlags: 33
 				display: {
 					Lore: [
-						"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-						"{\"text\":\"§7§oRight-Click to Open\"}"
+						"{\"translate\":\"lore.mce2.occultism.1\"}"
+						"{\"translate\":\"lore.mce2.high_risk.1\"}"
 					]
-					Name: "{\"text\":\"§eQuest Loot\"}"
+					Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 				}
 				"quark:RuneAttached": 1b
 				"quark:RuneColor": {
@@ -30,5 +30,5 @@
 		}
 		weight: 10.0f
 	}]
-	title: "penny"
+	title: "{ftbquests.loot_table.6501388117590800466.title}"
 }

@@ -5,7 +5,7 @@
     {
       "type": "forge:difference",
       "base": {
-        "item": "mowziesmobs:wrought_helmet"
+        "item": "kubejs:ingot_thousand_metals"
       },
       "subtracted": {
         "item": "minecraft:dragon_head"

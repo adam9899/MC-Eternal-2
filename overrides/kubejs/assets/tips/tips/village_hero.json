@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Sometimes you can find The Village Hero or The Trash Man hanging around villages!"
+    "translate": "tips.mce2.village_hero"
   }
 }

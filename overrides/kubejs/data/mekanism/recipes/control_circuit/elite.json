@@ -1,1 +1,1 @@
-{"type":"minecraft:crafting_shaped","key":{"A":{"tag":"mekanism:alloys/reinforced"},"B":{"item":"ad_astra:desh_ingot"},"C":{"tag":"forge:circuits/advanced"}},"pattern":["BBB", "ACA", "BBB"],"result":{"item":"mekanism:elite_control_circuit"}}
+{"type":"minecraft:crafting_shaped","key":{"A":{"tag":"mekanism:alloys/reinforced"},"B":{"tag":"forge:ingots/desh"},"C":{"tag":"forge:circuits/advanced"}},"pattern":["BBB", "ACA", "BBB"],"result":{"item":"mekanism:elite_control_circuit"}}

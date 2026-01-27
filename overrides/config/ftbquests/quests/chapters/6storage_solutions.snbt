@@ -259,15 +259,15 @@
 			y: -4.583333333333336d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["127BD669F19CC02C"]
 			description: [
-				"The Iron Chest is an example of an upgraded type of basic chest! There are many more to craft!"
+				"{ftbquests.chapter.6storage_solutions.quest1230308487237257067.description1}"
 				""
-				"&8Note:&r These do &nnot&r work with &dCloud Storage"
+				"{ftbquests.chapter.6storage_solutions.quest1230308487237257067.description2}"
 			]
 			id: "1112EF0CF9ECC76B"
 			rewards: [
@@ -284,34 +284,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft an &eIron Chest"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1230308487237257067.subtitle}"
 			tasks: [{
 				id: "10E1D863C70FBBD4"
 				item: {
@@ -330,12 +313,12 @@
 		{
 			dependencies: ["4789D17B88722641"]
 			description: [
-				"As I'm sure you've noticed, there are a &olot&r of items in MC Eternal!"
-				"Thus, you'll want to learn about all of the awesome ways to store your trash and your treasure!"
+				"{ftbquests.chapter.6storage_solutions.quest1331893865331605548.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest1331893865331605548.description2}"
 				""
-				"The most notable mods to watch out for are &dCloud Storage&r which lets you send your items up into the cloud (&oliterally!&r) and &dSophisticated Storage&r which adds all sorts of upgraded chests and barrels, perfect for storing large quantities of items! "
+				"{ftbquests.chapter.6storage_solutions.quest1331893865331605548.description3}"
 				""
-				"They are even upgradable!"
+				"{ftbquests.chapter.6storage_solutions.quest1331893865331605548.description4}"
 			]
 			hide_until_deps_complete: true
 			id: "127BD669F19CC02C"
@@ -354,10 +337,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read Me!"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1331893865331605548.subtitle}"
 			tasks: [{
 				id: "63B4C0E2B51D2241"
-				title: "&eInfo Quest&r: Storage Solutions!"
+				title: "{ftbquests.chapter.6storage_solutions.quest1331893865331605548.task.7184579385496511041.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -366,9 +349,9 @@
 		{
 			dependencies: ["127BD669F19CC02C"]
 			description: [
-				"&eBalloon Pieces&r drop from &eBalloons&r which spawn high up in the sky!"
+				"{ftbquests.chapter.6storage_solutions.quest5855474249964766856.description1}"
 				""
-				"&6Hint:&r If you are having no luck with mob spawns, I've heard The Goblin Trader occasionally sells &eBalloon Pieces!"
+				"{ftbquests.chapter.6storage_solutions.quest5855474249964766856.description2}"
 			]
 			id: "5142D2CE8498C688"
 			rewards: [
@@ -385,55 +368,38 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Gather 4x Balloon Piece"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest5855474249964766856.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "44833EB5E42CEBB4"
 				item: { Count: 4, id: "cloudstorage:balloon_bit" }
 				type: "item"
 			}]
-			title: "Don't let It Burst Your Balloon!"
+			title: "{ftbquests.chapter.6storage_solutions.quest5855474249964766856.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5142D2CE8498C688"]
 			description: [
-				"&eThe Cloud Chest&r is the most important block in the mod, it acts as your central \"hub\"."
-				"You will interact with your Cloud Chest to access items!"
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description2}"
 				""
-				"Cloud blocks can be found in the sky and also drop from the &dBloviator&r mob!"
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description3}"
 				""
-				"&6Hint:&r Just like the &eBalloon Piece&r, if you run into problems finding the mob, The Goblin Trader can sometimes sell &eClouds!"
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description4}"
 				""
-				"&8AWS or Azure? 🥁"
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description5}"
 			]
 			id: "58042E701E7AD105"
 			rewards: [
@@ -450,27 +416,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -482,36 +431,36 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eCloud Chest"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest6342245234327081221.subtitle}"
 			tasks: [{
 				id: "4244ECE730F65A55"
 				item: { Count: 9, id: "cloudstorage:cloud_chest" }
 				type: "item"
 			}]
-			title: "The Cloud!"
+			title: "{ftbquests.chapter.6storage_solutions.quest6342245234327081221.title}"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["58042E701E7AD105"]
 			description: [
-				"In order to send items into the cloud, you must first place a &eChest&r"
-				"Then attach a &dBalloon&r to the chest and watch it soar! "
-				"Your Cloud Chest is exclusive to you! So no need to worry about thieves!"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description2}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description3}"
 				""
-				"It is worth mentioning that your &eCloud Chest&r is linked to the colour balloon you pick."
-				"You can dye your balloon multiple colours to get a unique colour! "
-				"This will let you have multiple Cloud Chests!"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description4}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description5}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description6}"
 				""
-				"Every chest you send up into the sky will add storage space to your Cloud Chest&r"
-				"Just make sure to attach a balloon of the same colour to your Cloud Chest&r"
-				"&dRight-Click&r with a Balloon to pair it to the cloud! "
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description7}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description8}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description9}"
 				""
-				"Every chest with a balloon attached that safely makes it into the sky will have its items added to your Cloud Chest&r"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description10}"
 				""
-				"&6Hint:&r Balloons can be popped midair! "
-				"To ensure your items are safe and not griefed by monsters or other players. "
-				"It is wise to send up empty chests and access your Cloud Chest&r directly to store items!"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description11}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description12}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description13}"
 			]
 			id: "58A5DEFA4F4E50F1"
 			rewards: [
@@ -528,27 +477,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -561,7 +493,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Craft a &eBalloon"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest6387756813148639473.subtitle}"
 			tasks: [
 				{
 					id: "15B0ABD7BCA6CC03"
@@ -580,16 +512,16 @@
 					type: "item"
 				}
 			]
-			title: "Oh Don't Mind Me! Just Popping By!"
+			title: "{ftbquests.chapter.6storage_solutions.quest6387756813148639473.title}"
 			x: 6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["58042E701E7AD105"]
 			description: [
-				"Sky Temples can be rarely found high up in the sky! "
+				"{ftbquests.chapter.6storage_solutions.quest8783560930516150637.description1}"
 				""
-				"&6Hint:&r Watch out for angry Bloviators!"
+				"{ftbquests.chapter.6storage_solutions.quest8783560930516150637.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "79E57A21066A296D"
@@ -608,48 +540,37 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&dFind a Sky Temple!"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest8783560930516150637.subtitle}"
 			tasks: [{
 				icon: "cloudstorage:static_cloud_chest"
 				id: "5AD5375CA360B7B5"
 				structure: "cloudstorage:sky_temple"
-				title: "&dFind a Sky Temple!"
+				title: "{ftbquests.chapter.6storage_solutions.quest8783560930516150637.task.6545198504470427573.title}"
 				type: "structure"
 			}]
-			title: "The Skies The Limit!"
+			title: "{ftbquests.chapter.6storage_solutions.quest8783560930516150637.title}"
 			x: 3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["127BD669F19CC02C"]
-			description: ["{mce.questing.botania.corporea_spark.desc}"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest7088540476840328377.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest7088540476840328377.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest7088540476840328377.description3}"
+			]
 			id: "625F8E01CA0BBCB9"
 			rewards: [
 				{
@@ -666,19 +587,30 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporea_spark.sub}"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest7088540476840328377.subtitle}"
 			tasks: [{
 				id: "7CB71B3866F7E65A"
 				item: "botania:corporea_spark"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.corporea_spark.name}"
+			title: "{ftbquests.chapter.6storage_solutions.quest7088540476840328377.title}"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6EA0A00013557D2A"]
-			description: ["{mce.questing.botania.corporea_master_and_index.desc}"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description3}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description4}"
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description5}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description6}"
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description7}"
+			]
 			id: "0DEAA29705F2A17A"
 			rewards: [
 				{
@@ -695,7 +627,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporea_master_and_index.sub}"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1002792636566905210.subtitle}"
 			tasks: [
 				{
 					id: "6E86A34B37D22F59"
@@ -708,13 +640,13 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.botania.corporea_master_and_index.name}"
+			title: "{ftbquests.chapter.6storage_solutions.quest1002792636566905210.title}"
 			x: -7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["625F8E01CA0BBCB9"]
-			description: ["{mce.questing.botania.corporeality_crystal.desc}"]
+			description: ["{ftbquests.chapter.6storage_solutions.quest7971547262630591786.description1}"]
 			id: "6EA0A00013557D2A"
 			rewards: [
 				{
@@ -731,13 +663,13 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporeality_crystal.sub}"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest7971547262630591786.subtitle}"
 			tasks: [{
 				id: "4B4591C85A6C901F"
 				item: "kubejs:corporea_crystal"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.corporeality_crystal.name}"
+			title: "{ftbquests.chapter.6storage_solutions.quest7971547262630591786.title}"
 			x: -5.0d
 			y: -1.0d
 		}
@@ -746,10 +678,25 @@
 				"0DEAA29705F2A17A"
 				"695FC871D1105C97"
 			]
-			description: ["{mce.questing.botania.corporea_automation.desc}"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description4}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description5}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description6}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description7}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description8}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description9}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description10}"
+			]
 			hide_until_deps_complete: true
 			id: "3940988637539E72"
-			min_required_tasks: 1
 			rewards: [
 				{
 					count: 3
@@ -771,31 +718,34 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporea_automation.sub}"
-			tasks: [
-				{
-					id: "28B16B3E4C00A69F"
-					item: "botania:corporea_funnel"
-					type: "item"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest4125464960892640882.subtitle}"
+			tasks: [{
+				id: "403E6ADA1EFF9D79"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:botania/corporea_automation_device"
+					}
 				}
-				{
-					id: "7F2589B36A4D4355"
-					item: "botania:corporea_interceptor"
-					type: "item"
-				}
-				{
-					id: "403E6ADA1EFF9D79"
-					item: "botania:corporea_retainer"
-					type: "item"
-				}
-			]
-			title: "{mce.questing.botania.corporea_automation.name}"
+				title: "{ftbquests.chapter.6storage_solutions.quest4125464960892640882.task.4629254952038931833.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.quest4125464960892640882.title}"
 			x: -7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6EA0A00013557D2A"]
-			description: ["{mce.questing.botania.corporea_crystal_cube.desc}"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description2}"
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description3}"
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description4}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description5}"
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description6}"
+			]
 			id: "0BBC047D0A951D8C"
 			rewards: [
 				{
@@ -812,13 +762,13 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporea_crystal_cube.sub}"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest845555765133778316.subtitle}"
 			tasks: [{
 				id: "455A8FBD8E5B3C51"
 				item: "botania:corporea_crystal_cube"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.corporea_crystal_cube.name}"
+			title: "{ftbquests.chapter.6storage_solutions.quest845555765133778316.title}"
 			x: -5.0d
 			y: -3.0d
 		}
@@ -827,7 +777,7 @@
 				"1914150BEBE05F9E"
 				"26B5D1430104B5A1"
 			]
-			description: ["In order to access your &bStorage Network&r and work with all that it contains, an &eCrafting Terminal&r is needed."]
+			description: ["{ftbquests.chapter.6storage_solutions.quest2164703156864056007.description1}"]
 			id: "1E0A920D550C7AC7"
 			rewards: [{
 				amount: 75L
@@ -836,7 +786,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "The Brains"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest2164703156864056007.subtitle}"
 			tasks: [{
 				id: "1DC86128ACCFF313"
 				item: "integratedterminals:part_terminal_storage"
@@ -848,11 +798,11 @@
 		{
 			dependencies: ["127BD669F19CC02C"]
 			description: [
-				"Securing and maintaining an constant source of &7Power&r for an &bStorage Network&r can be troubling, but what if you didn't need any?"
+				"{ftbquests.chapter.6storage_solutions.quest6133261066555854827.description1}"
 				""
-				"Introducing &dIntegrated Dynamics&r, an mod that relies on &eCrystallized Menril Chunks&r for the purposes of &eConnecting&r, &eReading&r and &eTransporting&r inventories."
+				"{ftbquests.chapter.6storage_solutions.quest6133261066555854827.description2}"
 				""
-				"&6Tip:&r If you get your hands on &64x Glowstone Dust&r, before entering &4Expert Mode&r, &dIntegrated Dynamics&r is an efficient use of them for an &bearly Storage Network&r."
+				"{ftbquests.chapter.6storage_solutions.quest6133261066555854827.description3}"
 			]
 			id: "551DB871D2CB8FEB"
 			rewards: [{
@@ -862,7 +812,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Integrated Dynamics"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest6133261066555854827.subtitle}"
 			tasks: [{
 				id: "440E6AF5E2A32353"
 				item: "integrateddynamics:crystalized_menril_chunk"
@@ -874,11 +824,11 @@
 		{
 			dependencies: ["7E8025C11C76068A"]
 			description: [
-				"&eVariable Cards&r are your way of &acommunicating to your machines&r what you want to do and how you want to do them."
+				"{ftbquests.chapter.6storage_solutions.quest2789365629935990177.description1}"
 				""
-				"But we aren't going to make use of them yet in this chapter, outside of crafting recipes."
+				"{ftbquests.chapter.6storage_solutions.quest2789365629935990177.description2}"
 				""
-				"Though that doesn't mean you can't experiment and explore their potential yourself."
+				"{ftbquests.chapter.6storage_solutions.quest2789365629935990177.description3}"
 			]
 			id: "26B5D1430104B5A1"
 			rewards: [{
@@ -888,7 +838,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Instructing your Network"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest2789365629935990177.subtitle}"
 			tasks: [{
 				id: "38869DCCA28D998B"
 				item: "integrateddynamics:variable"
@@ -900,11 +850,11 @@
 		{
 			dependencies: ["7E8025C11C76068A"]
 			description: [
-				"The &eDrying Baisen&r can be used for more than just drying &eMenril Blocks&r."
+				"{ftbquests.chapter.6storage_solutions.quest1807092491428585374.description1}"
 				""
-				"Moving forward we are going to need &eMenril Glass&r; A single piece will do, but use this as a moment to explore it alternative uses."
+				"{ftbquests.chapter.6storage_solutions.quest1807092491428585374.description2}"
 				"{@pagebreak}"
-				"&6Hint:&r Try placing &eGlass&r within an Drying Baisen, &ebefore&r adding in some Menril Resin."
+				"{ftbquests.chapter.6storage_solutions.quest1807092491428585374.description3}"
 			]
 			id: "1914150BEBE05F9E"
 			rewards: [{
@@ -914,7 +864,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Crafting Material or Building Block?"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1807092491428585374.subtitle}"
 			tasks: [{
 				id: "199593F6EF871C4A"
 				item: "integratedterminals:menril_glass"
@@ -926,15 +876,15 @@
 		{
 			dependencies: ["551DB871D2CB8FEB"]
 			description: [
-				"First up on the choping block are the &eSqueezer&r and the &eDrying Basin&r."
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description1}"
 				""
-				"The Squeezer can be used to compress &eMenril Logs/Planks&r into &eMenril Resin&r, an fluid form of Menril."
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description2}"
 				""
-				"Within a &eDrying Basin&r, Menril Resin can be dried to form &eBlocks of Crystallized Menril&r."
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description3}"
 				""
-				"&6Hint:&r Drying Basins &eOutput&r the fluids they produce through the &eDirectional Drain&r on it's base."
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description4}"
 				"{@pagebreak}"
-				"&6Tip:&r The &eSqueezer&r and the &eDrying Basin&r have many more uses; Pressing &e'U'&r on an item within your inventory or &aJEI&r menu will show you all of it's products."
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description5}"
 			]
 			id: "7E8025C11C76068A"
 			rewards: [{
@@ -944,7 +894,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Moar Menril"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest9115327157134296714.subtitle}"
 			tasks: [
 				{
 					id: "527C0DE28EA32794"
@@ -963,13 +913,13 @@
 		{
 			dependencies: ["1E0A920D550C7AC7"]
 			description: [
-				"The final step is connecting your &eStorage&r and &eTerminal&r to form your &bStorage Network&r."
+				"{ftbquests.chapter.6storage_solutions.quest1744617770773368089.description1}"
 				""
-				"&eLogic Cables&r are the medium in which everything flows, and &eInterfaces&r are the way to introduce external objects into your &eNetwork&r."
+				"{ftbquests.chapter.6storage_solutions.quest1744617770773368089.description2}"
 				"{@pagebreak}"
-				"With that, we've built our &bStorage Network&r, but that's not the end for &dIntegrated Dynamics&r; It specilizes in doing &avery specific tasks that it's alternatives might not be able to&r through &eVariable Cards&r and their &9extensive permissions&r."
+				"{ftbquests.chapter.6storage_solutions.quest1744617770773368089.description3}"
 				""
-				"You can being exploring more by interacting with &eInport/Export Interfaces&r."
+				"{ftbquests.chapter.6storage_solutions.quest1744617770773368089.description4}"
 			]
 			id: "1836209E7FC7CD19"
 			rewards: [{
@@ -979,7 +929,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "The Nerves"
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1744617770773368089.subtitle}"
 			tasks: [
 				{
 					id: "30A87EECC1CC7EA0"
@@ -992,10 +942,10 @@
 					type: "item"
 				}
 			]
-			title: "Cables"
+			title: "{ftbquests.chapter.6storage_solutions.quest1744617770773368089.title}"
 			x: 9.0d
 			y: 1.0d
 		}
 	]
-	title: "&6Storage Solutions!"
+	title: "{ftbquests.chapter.6storage_solutions.title}"
 }

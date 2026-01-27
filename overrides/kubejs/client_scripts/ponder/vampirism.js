@@ -3,7 +3,11 @@
 Ponder.registry(event => {
 
 
-    event.create("#mce2:ponderables/vampire_portal")
+    event.create([
+        "vampirism:bloody_dark_stone_bricks",
+        "vampirism:blood_bottle",
+        "vampirism:vampire_blood_bottle"
+        ])
         .scene(
             "vampire_portal",
             "Portal to The Vampire Forest",

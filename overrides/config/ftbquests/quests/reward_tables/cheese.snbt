@@ -1,7 +1,7 @@
 {
 	id: "0DE330C6A4E5B659"
 	loot_size: 1
-	order_index: 20
+	order_index: 21
 	rewards: [
 		{ count: 3, item: "rats:cheese", weight: 10.0f }
 		{ item: "rats:blue_cheese", weight: 10.0f }
@@ -12,5 +12,5 @@
 		{ item: "rats:cheese", weight: 50.0f }
 		{ item: "rats:cheese", random_bonus: 10, weight: 5.0f }
 	]
-	title: "cheese"
+	title: "{ftbquests.loot_table.1000697171934557785.title}"
 }

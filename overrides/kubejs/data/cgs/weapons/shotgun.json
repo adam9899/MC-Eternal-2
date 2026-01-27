@@ -1,0 +1,128 @@
+{
+  "general": {
+    "action": "ntgl:gun",
+    "rate": 2,
+    "fireMode": ["ntg:semi", "ntgl:multi"],
+    "gripType": "ntgl:one_handed",
+    "maxAmmo": 2,
+    "damage": 50.0,
+    "equipTime": 0,
+    "autoReload": false,
+    "reloadTime": 40,
+    "reloadAmount": 1,
+    "recoilAngle": -15.0,
+    "recoilAdsReduction": 0.15,
+    "alwaysSpread": true,
+    "enchantable": false,
+    "ammo": [
+      "cgs:round_shotgun",
+      "cgs:round_shotgun_incendiary",
+      "cgs:round_shotgun_blank"
+    ]
+  },
+  "modes": {
+    "ntgl:secondary": {
+      "general": {
+        "action": "ntgl:scope"
+      },
+      "zoom": {
+        "offset": [0, 2.2, 1.5],
+        "fovModifier": 0.7
+      }
+    }
+  },
+  "ammoData": {
+    "cgs:round_shotgun": {
+      "ammo": {
+        "type": "ntgl:buckshot"
+      },
+      "projectile": {
+        "damage": 60.0,
+        "size": 0.2,
+        "speed": 20.0,
+        "life": 40,
+        "spread": 15.0,
+        "projectileAmount": 12,
+        "damageReduceOverLife": true
+      }
+    },
+    "cgs:round_shotgun_incendiary": {
+      "ammo": {
+        "type": "ntgl:dragon_breath"
+      },
+      "projectile": {
+        "projectile": "cgs:incendiary",
+        "damage": 65.0,
+        "size": 0.2,
+        "speed": 8.0,
+        "life": 40,
+        "spread": 15.0,
+        "burnSeconds": 4,
+        "projectileAmount": 12,
+        "damageReduceOverLife": true
+      }
+    },
+    "cgs:round_shotgun_blank": {
+      "ammo": {
+        "type": "cgs:blank_shot"
+      },
+      "projectile": {
+        "visible": false,
+        "damage": 0,
+        "size": 0,
+        "speed": 1,
+        "life": 0,
+        "spread": 0,
+        "projectileAmount": 1
+      }
+    }
+  },
+  "animations": {
+    "ntgl:reload": "cgs:shotgun_reload"
+  },
+  "sounds": {
+    "fire"     : "cgs:gun.shotgun.fire",
+    "open"     : "cgs:gun.shotgun.open",
+    "close"    : "cgs:gun.shotgun.close",
+    "round_in" : "cgs:gun.shotgun.round_in",
+    "lever"    : "cgs:gun.shotgun.lever"
+  },
+  "modules": {
+    "attachmentScreen": true,
+
+    "attachments": {
+      "ntgl:stock": [
+        {
+          "name": "stock",
+          "item": "cgs:stock",
+          "hide": ["handle_back"]
+        }
+      ],
+      "ntgl:barrel": [
+        {
+          "name": "long_barrels",
+          "item": "cgs:shotgun_long_barrel"
+        },
+        {
+          "name": "spread_barrels",
+          "item": "cgs:shotgun_spread_barrel"
+        }
+      ],
+      "ntgl:magazine": [
+        {
+          "name": "drum",
+          "hide": ["chambers"],
+          "bones": [
+            "drum_back",
+            "drum_reload"
+          ],
+          "item": "cgs:shotgun_drum"
+        },
+        {
+          "name": "pump",
+          "item": "cgs:shotgun_pump"
+        }
+      ]
+    }
+  }
+}

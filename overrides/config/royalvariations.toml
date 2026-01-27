@@ -1,0 +1,50 @@
+
+[Spawning]
+
+	[Spawning."Royal Zombie"]
+		#Spawn Weight for Royal Zombie, set to 0 to disable spawn, Default: 9
+		#Range: > 0
+		royalZombieSpawnWeight = 3
+		#Spawn minimum group count for Royal Zombie, Default: 1
+		#Range: > 1
+		royalZombieSpawnMinCount = 1
+		#Spawn maximum group count for Royal Zombie, must be equal or higher than min count, Default: 1
+		#Range: > 1
+		royalZombieSpawnMaxCount = 1
+
+	[Spawning."Royal Skeleton"]
+		#Spawn Weight for Royal Skeleton, set to 0 to disable spawn, Default: 9
+		#Range: > 0
+		royalSkeletonSpawnWeight = 4
+		#Spawn minimum group count for Royal Skeleton, Default: 1
+		#Range: > 1
+		royalSkeletonSpawnMinCount = 1
+		#Spawn maximum group count for Royal Skeleton, must be equal or higher than min count, Default: 1
+		#Range: > 1
+		royalSkeletonSpawnMaxCount = 1
+
+	[Spawning."Royal Creeper"]
+		#Spawn Weight for Royal Creeper, set to 0 to disable spawn, Default: 9
+		#Range: > 0
+		royalCreeperSpawnWeight = 3
+		#Spawn minimum group count for Royal Creeper, Default: 1
+		#Range: > 1
+		royalCreeperSpawnMinCount = 1
+		#Spawn maximum group count for Royal Creeper, must be equal or higher than min count, Default: 1
+		#Range: > 1
+		royalCreeperSpawnMaxCount = 1
+
+	[Spawning."Royal Enderman"]
+		#Spawn Weight for Royal Enderman, set to 0 to disable spawn, Default: 5
+		#Range: > 0
+		royalEndermanSpawnWeight = 2
+		#Spawn minimum group count for Royal Enderman, Default: 1
+		#Range: > 1
+		royalEndermanSpawnMinCount = 1
+		#Spawn maximum group count for Royal Enderman, must be equal or higher than min count, Default: 1
+		#Range: > 1
+		royalEndermanSpawnMaxCount = 1
+		#Chance for Royal Enderman to spawn in The End, Default: 5
+		#Range: 0 ~ 100
+		royalEndermanEndSpawnChance = 5
+

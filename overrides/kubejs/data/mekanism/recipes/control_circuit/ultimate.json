@@ -1,1 +1,1 @@
-{"type":"minecraft:crafting_shaped","key":{"A":{"tag":"mekanism:alloys/atomic"},"B":{"item":"ad_astra:ostrum_ingot"},"C":{"tag":"forge:circuits/elite"}},"pattern":["BBB", "ACA", "BBB"],"result":{"item":"mekanism:ultimate_control_circuit"}}
+{"type":"minecraft:crafting_shaped","key":{"A":{"tag":"mekanism:alloys/atomic"},"B":{"tag":"forge:ingots/ostrum"},"C":{"tag":"forge:circuits/elite"}},"pattern":["BBB", "ACA", "BBB"],"result":{"item":"mekanism:ultimate_control_circuit"}}

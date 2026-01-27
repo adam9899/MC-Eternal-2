@@ -10,15 +10,15 @@ abilitiesData:
             stats:
                 duration:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 4.0
+                    maxInitialValue: 2.0
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     maxThresholdValue: 1.7976931348623157E308
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
-                    minInitialValue: 2.0
+                    minInitialValue: 1.0
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     minThresholdValue: 4.9E-324
                     # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
-                    upgradeModifier: 0.1
+                    upgradeModifier: 0.025
                     # Type of mathematical operation used to calculate the stat's value based on the ability level. Supported operations include:
                     # MULTIPLY_BASE: x + ((x * y) * z),
                     # MULTIPLY_TOTAL: x * (y + 1)^z,
@@ -28,7 +28,7 @@ abilitiesData:
                     upgradeOperation: MULTIPLY_BASE
                 incoming_damage:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 0.025
+                    maxInitialValue: 0.08
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     maxThresholdValue: 1.7976931348623157E308
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
@@ -36,7 +36,7 @@ abilitiesData:
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     minThresholdValue: 4.9E-324
                     # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
-                    upgradeModifier: 0.05
+                    upgradeModifier: 0.025
                     # Type of mathematical operation used to calculate the stat's value based on the ability level. Supported operations include:
                     # MULTIPLY_BASE: x + ((x * y) * z),
                     # MULTIPLY_TOTAL: x * (y + 1)^z,
@@ -46,15 +46,15 @@ abilitiesData:
                     upgradeOperation: MULTIPLY_BASE
                 dealt_damage:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 0.075
+                    maxInitialValue: 0.00875
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
-                    maxThresholdValue: 1.7976931348623157E308
+                    maxThresholdValue: 0.3
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
-                    minInitialValue: 0.025
+                    minInitialValue: 0.00375
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     minThresholdValue: 4.9E-324
                     # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
-                    upgradeModifier: 0.1
+                    upgradeModifier: 0.025
                     # Type of mathematical operation used to calculate the stat's value based on the ability level. Supported operations include:
                     # MULTIPLY_BASE: x + ((x * y) * z),
                     # MULTIPLY_TOTAL: x * (y + 1)^z,
@@ -72,15 +72,15 @@ abilitiesData:
             stats:
                 heal:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 2.5E-4
+                    maxInitialValue: 1.0E-5
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     maxThresholdValue: 1.7976931348623157E308
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
-                    minInitialValue: 1.0E-4
+                    minInitialValue: 1.0E-5
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     minThresholdValue: 4.9E-324
                     # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
-                    upgradeModifier: 0.1
+                    upgradeModifier: 0.025
                     # Type of mathematical operation used to calculate the stat's value based on the ability level. Supported operations include:
                     # MULTIPLY_BASE: x + ((x * y) * z),
                     # MULTIPLY_TOTAL: x * (y + 1)^z,
@@ -90,15 +90,15 @@ abilitiesData:
                     upgradeOperation: MULTIPLY_BASE
                 attack_speed:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 0.01
+                    maxInitialValue: 0.007
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
-                    maxThresholdValue: 1.7976931348623157E308
+                    maxThresholdValue: 0.4
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
-                    minInitialValue: 0.005
+                    minInitialValue: 0.002
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     minThresholdValue: 4.9E-324
                     # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
-                    upgradeModifier: 0.05
+                    upgradeModifier: 0.015
                     # Type of mathematical operation used to calculate the stat's value based on the ability level. Supported operations include:
                     # MULTIPLY_BASE: x + ((x * y) * z),
                     # MULTIPLY_TOTAL: x * (y + 1)^z,
@@ -108,15 +108,15 @@ abilitiesData:
                     upgradeOperation: MULTIPLY_BASE
                 movement_speed:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 0.025
+                    maxInitialValue: 0.003
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
-                    maxThresholdValue: 1.7976931348623157E308
+                    maxThresholdValue: 0.3
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
-                    minInitialValue: 0.01
+                    minInitialValue: 0.004
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     minThresholdValue: 4.9E-324
                     # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
-                    upgradeModifier: 0.1
+                    upgradeModifier: 0.02
                     # Type of mathematical operation used to calculate the stat's value based on the ability level. Supported operations include:
                     # MULTIPLY_BASE: x + ((x * y) * z),
                     # MULTIPLY_TOTAL: x * (y + 1)^z,
@@ -134,11 +134,29 @@ abilitiesData:
             stats:
                 damage:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 0.25
+                    maxInitialValue: 0.08
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     maxThresholdValue: 1.7976931348623157E308
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
-                    minInitialValue: 0.1
+                    minInitialValue: 0.03
+                    # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
+                    minThresholdValue: 4.9E-324
+                    # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
+                    upgradeModifier: 0.02
+                    # Type of mathematical operation used to calculate the stat's value based on the ability level. Supported operations include:
+                    # MULTIPLY_BASE: x + ((x * y) * z),
+                    # MULTIPLY_TOTAL: x * (y + 1)^z,
+                    # ADD: x + (y * z).
+                    # 
+                    # ...where x - Base stat value, y - Value of [upgradeModifier], z - Current relic level
+                    upgradeOperation: MULTIPLY_BASE
+                distance:
+                    # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
+                    maxInitialValue: 4.0
+                    # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
+                    maxThresholdValue: 1.7976931348623157E308
+                    # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
+                    minInitialValue: 2.0
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     minThresholdValue: 4.9E-324
                     # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
@@ -150,35 +168,17 @@ abilitiesData:
                     # 
                     # ...where x - Base stat value, y - Value of [upgradeModifier], z - Current relic level
                     upgradeOperation: MULTIPLY_BASE
-                distance:
-                    # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 8.0
-                    # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
-                    maxThresholdValue: 1.7976931348623157E308
-                    # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
-                    minInitialValue: 3.0
-                    # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
-                    minThresholdValue: 4.9E-324
-                    # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
-                    upgradeModifier: 0.3
-                    # Type of mathematical operation used to calculate the stat's value based on the ability level. Supported operations include:
-                    # MULTIPLY_BASE: x + ((x * y) * z),
-                    # MULTIPLY_TOTAL: x * (y + 1)^z,
-                    # ADD: x + (y * z).
-                    # 
-                    # ...where x - Base stat value, y - Value of [upgradeModifier], z - Current relic level
-                    upgradeOperation: MULTIPLY_BASE
                 cooldown:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 15.0
+                    maxInitialValue: 18.0
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     maxThresholdValue: 1.7976931348623157E308
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
-                    minInitialValue: 20.0
+                    minInitialValue: 25.0
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     minThresholdValue: 4.9E-324
                     # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
-                    upgradeModifier: -0.075
+                    upgradeModifier: -0.025
                     # Type of mathematical operation used to calculate the stat's value based on the ability level. Supported operations include:
                     # MULTIPLY_BASE: x + ((x * y) * z),
                     # MULTIPLY_TOTAL: x * (y + 1)^z,
@@ -188,11 +188,11 @@ abilitiesData:
                     upgradeOperation: MULTIPLY_TOTAL
 levelingData:
     # Amount of experience required to level up to relic level 1
-    initialCost: 100
+    initialCost: 800
     # Maximum level of the relic
     maxLevel: 20
     # Increment in experience required for each subsequent level of the relic
-    step: 100
+    step: 250
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
