@@ -1,11 +1,11 @@
 {
 	chapter_groups: [
-		{ id: "12BCDDCCCA65FD77", title: "&e&lIntroduction" }
-		{ id: "53833FE85BBBE6D0", title: "{category.3}" }
-		{ id: "6ACD28698B988220", title: "{category.5}" }
-		{ id: "0194595A09DF4755", title: "{category.6}" }
-		{ id: "3EBF424A99DA33B7", title: "{category.7}" }
-		{ id: "701563945253F512", title: "{category.8}" }
-		{ id: "372D1188C5A9B800", title: "&dAchievements" }
+		{ id: "12BCDDCCCA65FD77", title: "{ftbquests.chapter_groups.1350197859943054711.title}" }
+		{ id: "53833FE85BBBE6D0", title: "{ftbquests.chapter_groups.6017723794301118160.title}" }
+		{ id: "6ACD28698B988220", title: "{ftbquests.chapter_groups.7695851772024750624.title}" }
+		{ id: "0194595A09DF4755", title: "{ftbquests.chapter_groups.113814133838661461.title}" }
+		{ id: "3EBF424A99DA33B7", title: "{ftbquests.chapter_groups.4521405439079494583.title}" }
+		{ id: "701563945253F512", title: "{ftbquests.chapter_groups.8076470995446396178.title}" }
+		{ id: "372D1188C5A9B800", title: "{ftbquests.chapter_groups.3975853325167474688.title}" }
 	]
 }

@@ -1,0 +1,92 @@
+{
+	"e0f8150w51z1rayl": {
+		"definition": "root_xp",
+		"x": -224,
+		"y": 224,
+		"root": true
+	},
+	"zeqfa159zz61627z": {
+		"definition": "line_strength",
+		"x": -192,
+		"y": 192,
+		"root": false
+	},
+	"tnhga48ymcs6u2sv": {
+		"definition": "xp_lesser",
+		"x": -128,
+		"y": 128,
+		"root": false
+	},
+	"iz93z69d9f9fo4fi": {
+		"definition": "xp_lesser",
+		"x": -64,
+		"y": 64,
+		"root": false
+	},
+	"fspdvlt20mgog9j9": {
+		"definition": "bobber_size",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"pr9kkkvjupyr4g9m": {
+		"definition": "line_strength",
+		"x": 32,
+		"y": 0,
+		"root": false
+	},
+	"lyqxvspmmthaj17w": {
+		"definition": "xp_lesser",
+		"x": 32,
+		"y": 32,
+		"root": false
+	},
+	"7gku1wjxjqt5ejw9": {
+		"definition": "lucky_angler",
+		"x": -160,
+		"y": 160,
+		"root": false
+	},
+	"t8rit8d4olrq67jz": {
+		"definition": "lucky_angler",
+		"x": -96,
+		"y": 96,
+		"root": false
+	},
+	"h6rczghh5afzi3y6": {
+		"definition": "lucky_angler",
+		"x": -32,
+		"y": 32,
+		"root": false
+	},
+	"p924bh320chs3ju0": {
+		"definition": "lucky_angler",
+		"x": 32,
+		"y": 160,
+		"root": false
+	},
+	"kxtxfj0o0txe7j3l": {
+		"definition": "bobber_size",
+		"x": 0,
+		"y": 192,
+		"root": false
+	},
+	"mokk13ni322xle5j": {
+		"definition": "line_strength",
+		"x": -32,
+		"y": 224,
+		"root": false
+	},
+	"8zghmt6wjtooj4t6": {
+		"definition": "xp",
+		"x": -64,
+		"y": 224,
+		"root": false
+	},
+	"btti4wwd1irhrk48": {
+		"definition": "treasure",
+		"x": -64,
+		"y": 192,
+		"root": false
+	}
+}

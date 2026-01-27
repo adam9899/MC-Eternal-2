@@ -45,7 +45,7 @@
     "minecraft:the_nether": true
   },
   "gunpowderAmmunition": {
-    "cgs:round_7mm": 350
+    "cgs:round_gatling": 350
   },
   "arrowAmmunition": {
     "minecraft:arrow": 100,

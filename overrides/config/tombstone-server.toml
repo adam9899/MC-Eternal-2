@@ -132,7 +132,7 @@
 	disable_enchanted_grave_key_recipe = false
 	#Scroll duration [1200..120000|default:12000]
 	#Range: 1200 ~ 120000
-	scroll_duration = 12000
+	scroll_duration = 1200
 	#Defines experience lost when storing experience in a Scroll of Knowledge
 	#Range: 0 ~ 90
 	scroll_of_knowledge_loss = 0

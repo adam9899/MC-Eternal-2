@@ -1,7 +1,7 @@
 {
 	id: "1E553705F784CD54"
 	loot_size: 1
-	order_index: 18
+	order_index: 19
 	rewards: [
 		{
 			item: {
@@ -15,10 +15,10 @@
 					HideFlags: 33
 					display: {
 						Lore: [
-							"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-							"{\"text\":\"§7§oRight-Click to Open\"}"
+							"{\"translate\":\"lore.mce2.occultism.1\"}"
+							"{\"translate\":\"lore.mce2.high_risk.1\"}"
 						]
-						Name: "{\"text\":\"§eQuest Loot\"}"
+						Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -46,5 +46,5 @@
 		{ item: "accessoriumeternia:accessory_radioactive_waste", weight: 40.0f }
 		{ item: "mekanism:radioactive_waste_barrel", weight: 40.0f }
 	]
-	title: "high_risk"
+	title: "{ftbquests.loot_table.2185713692925283668.title}"
 }

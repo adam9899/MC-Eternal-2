@@ -1,0 +1,9 @@
+{
+  "type": "cataclysm:ignis",
+  "item": {
+    "id": "cataclysm:ignitium_ingot",
+    "Count": 1
+  },
+  "minTries": 1,
+  "maxTries": 3
+}

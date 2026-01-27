@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RA ",
+    "BCB",
+    " AR"
+  ],
+  "key": {
+    "A": {
+      "item": "tconstruct:queens_slime_ingot"
+    },
+    "R": {
+      "item": "ad_astra:calorite_ingot"
+    },
+    "B": {
+      "item": "tconstruct:cinderslime_ingot"
+    },
+    "C": {
+      "item": "tinkers_advanced:resonance_crystal"
+    }
+  },
+  "result": {
+    "item": "tinkers_advanced:disintegrate_crystal",
+    "count": 1
+  }
+}

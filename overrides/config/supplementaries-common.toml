@@ -655,7 +655,7 @@
 
 	[tweaks.sus_recipes]
 		#Adds recipes to craft suspicious gravel and suspicious sand
-		enabled = true
+		enabled = false
 
 	[tweaks.slimed_effect]
 		enabled = true

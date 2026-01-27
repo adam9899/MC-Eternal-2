@@ -1,0 +1,28 @@
+{
+  "type": "lychee:lightning_channeling",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "kubejs:magic_map",
+      "count": 1
+    }
+  ],
+  "item_in": [
+  
+    {
+      "item": "amethyst_tools:enchanted_alloy"
+    },
+    {
+      "item": "supplementaries:cog_block"
+    },
+    {
+      "item": "immersive_machinery:redstone_mechanism"
+    },
+    {
+      "item": "minecraft:map"
+    },
+    {
+      "item": "immersive_armors:steampunk_helmet"
+    }
+  ]
+}

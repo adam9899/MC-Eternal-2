@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "The Sandwich Station can be used to create entirely custom sandwiches! You can combine foods into one big sandwich!"
+    "translate": "tips.mce2.sandwich"
   }
 }

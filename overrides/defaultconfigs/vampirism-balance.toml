@@ -288,7 +288,7 @@
 		golemAttackNonVillageFaction = true
 		#The base damage dealt by crossbow arrows is multiplied by this
 		#Range: 0.2 ~ 5.0
-		crossbowDamageMult = 1.0
+		crossbowDamageMult = 1.6
 		#Maximum amount of task shown at a taskmaster, except unique tasks
 		#Range: > 1
 		taskMasterMaxTaskAmount = 3
@@ -334,7 +334,7 @@
 	[balance.hunterSkills]
 		#Advanced skill - Weapon cooldown = 1/(oldvalue*(1+modifier)
 		#Range: 0.0 ~ 3.0
-		majorAttackSpeedModifier = 0.4
+		majorAttackSpeedModifier = 0.2
 		#Second stake skill - Whether only NPCs can be one hit killed with this skill
 		instantKill2OnlyNPC = true
 		#The chunk radius a enhanced diffusor affects. 0 results in a one chunk area. Changing this only affects newly placed blocks
@@ -359,7 +359,7 @@
 		garlicDiffuserWeakDist = 2
 		#Basic skill - Weapon cooldown = 1/(oldvalue*(1+modifier))
 		#Range: 0.0 ~ 3.0
-		smallAttackSpeedModifier = 0.2
+		smallAttackSpeedModifier = 0.1
 
 	[balance.vampireActions]
 		#In seconds

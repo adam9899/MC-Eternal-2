@@ -1,0 +1,58 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "minecraft:dragon_egg"
+    },
+    "block_in": "thegreatbelow:beam_block",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "thegreatbelow:soul_reaver_axe",
+            "contextual": {
+                "type": "chance",
+                "chance": 1.0
+            }
+        },
+            {
+            "type": "place",
+            "contextual": [
+              {
+                "type": "chance",
+                "chance": 1.0
+              }
+            ],
+            "block": {
+              "blocks": [
+                "thegreatbelow:murmur_crystal"
+              ]
+            }
+          },
+    {
+"type": "drop_xp",
+"xp": "15",
+"hide": true
+
+    },
+
+{
+"type": "execute",
+"command": "execute at @p run playsound minecraft:entity.warden.roar master @p ~ ~ ~ 10 0.6",
+"hide": true
+
+},
+{
+"type": "execute",
+"command": "execute at @p summon blighted_beasts:behemoth on target",
+"hide": true
+
+},
+{
+    "type": "execute",
+    "command": "effect give @p minecraft:darkness 30",
+    "hide": true
+    
+    }
+
+
+    ]
+}

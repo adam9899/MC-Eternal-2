@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "kubejs:block/reactor_tnt" }
+  }
+}

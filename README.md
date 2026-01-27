@@ -2,6 +2,8 @@
 
 
 The official Github repo for MC Eternal 2 on Forge 1.20.1.
+Do NOT make an issue for tech support, it will be auto closed. Please use our Discord.
+If the issue is mod related, please make an issue on the mods issue tracker!
 Feel free to make PR's where appropriate! Especially relating to bug fixes, balance changes or misc.
 Any person with **substantial contributions** will be given a ***special cape!***  
 

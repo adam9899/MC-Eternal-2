@@ -25,24 +25,24 @@
 					HideFlags: 1
 					author: "adam989911"
 					display: {
-						Lore: ["{\"text\":\"§6§oNo refunds!\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.goodie_bag.1\"}"]
 					}
 					pages: [
-						"{\"text\":\" (\\\\__/)  .~    ~. ))\\n /O O `./      .'\\n{O__,   \\\\    {\\n  / .  . )    \\\\\\n  |-| '-' \\\\    } ))\\n .(   _(   )_.'\\n'---.~_ _ _&\\n\\n§l§7§3SQUIRREL\"}"
-						"{\"text\":\"     c~~p ,---------.\\n ,---'oo  )           \\\\\\n( O O                  )/\\n `=^='                 /\\n       \\\\    ,     .   /\\n       \\\\\\\\  |-----'|  /\\n       ||__|    |_|__|\\n\\n§3Hippopotamus\"}"
-						"{\"text\":\"|\\\\_/|,,_____,~~`\\n(.\\\".)~~     )`~}}\\n \\\\o/\\\\ /---~\\\\\\\\ ~}}\\n   _//    _// ~}\\n\\n§3FOX\"}"
-						"{\"text\":\" .|||||||||.          .|||||||||.\\n |||||||||||||        |||||||||||||\\n|||||||||||' .\\\\      /. `|||||||||||\\n`||||||||||_,__o    o__,_||||||||||'\\n\\n§3HEDGEHOGS\"}"
-						"{\"text\":\"  o\\n_`O'_\\n\\n§3FROG\"}"
-						"{\"text\":\"|\\\\---/|\\n| o_o |\\n \\\\_^_/\\n§3\\n§3CAT\"}"
-						"{\"text\":\" /\\\\_/\\\\\\n( o.o )\\n > ^ <\\n\\n§3CAT\"}"
-						"{\"text\":\"  ;,//;,    ,;/\\n o:::::::;;///\\n>::::::::;;\\\\\\\\\\\\\\n  ''\\\\\\\\\\\\\\\\\\\\'\\\" ';\\\\\\n\\n§3FISH\"}"
-						"{\"text\":\" __v_\\n(____\\\\/{\\n\\n§3WHALE\"}"
-						"{\"text\":\"\\\\_____)\\\\_____\\n/--v____ __`<         \\n        )/           \\n        '\\n§3SHARK\"}"
-						"{\"text\":\"       .\\n      \\\":\\\"\\n    ___:____     |\\\"\\\\/\\\"|\\n  ,'        `.    \\\\  /\\n  |  O        \\\\___/  |\\n~^~^~^~^~^~^~^~^~^~^~^~^~\\n\\n§3WHALE!\"}"
-						"{\"text\":\" /\\\\ \\\\  / /\\\\\\n//\\\\\\\\ .. //\\\\\\\\\\n//\\\\((  ))/\\\\\\\\\\n/  < `' >  \\\\\\n\\n§3SPIDER\"}"
-						"{\"text\":\"^..^      /\\n/_/\\\\_____/\\n   /\\\\   /\\\\\\n  /  \\\\ /  \\\\\\n\\n§3DOG\"}"
-						"{\"text\":\"\\\\|/          (__)    \\n     `\\\\------(oo)\\n       ||    (__)\\n       ||w--||     \\\\|/\\n   \\\\|/\\n\\n§3COW\"}"
-						"{\"text\":\"§d§oThank you for reading.\\n\\nBe sure to purchase our second book \\\"Animals 2\\\".\\n\\nNow at village libraries near you!\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.1\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.2\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.3\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.4\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.5\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.6\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.7\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.8\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.9\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.10\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.11\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.12\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.13\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.14\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.15\"}"
 					]
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -90,7 +90,7 @@
 				id: "immersive_melodies:piano"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Suspicious Piano\"}"
+						Name: "{\"translate\":\"name.mce2.goodie_bag.1\"}"
 					}
 					enabled_tracks: [I; ]
 					melody: "immersive_melodies:melodies/sus.midi"
@@ -100,6 +100,6 @@
 			}
 		}
 	]
-	title: "{loot_table.1}"
+	title: "{ftbquests.loot_table.6750392856093556082.title}"
 	use_title: true
 }

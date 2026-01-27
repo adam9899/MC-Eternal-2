@@ -1,7 +1,7 @@
 {
 	id: "7CB4328E5FD5760C"
 	loot_size: 1
-	order_index: 21
+	order_index: 22
 	rewards: [
 		{ item: "minecraft:porkchop", random_bonus: 10, weight: 5.0f }
 		{ item: "minecraft:cod", random_bonus: 10, weight: 5.0f }
@@ -136,8 +136,8 @@
 						}
 					]
 					display: {
-						Lore: ["{\"text\":\"§e§oSteak procured from the legendary \\\"Ghow\\\"\"}"]
-						Name: "{\"text\":\"§dGhow Steak\"}"
+						Lore: ["{\"translate\":\"lore.mce2.challenges.9\"}"]
+						Name: "{\"translate\":\"lore.mce2.challenges.10\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -157,7 +157,7 @@
 				id: "farmersrespite:blazing_chili"
 				tag: {
 					display: {
-						Name: "{\"text\":\"§eAdam's World Famous Blazing Chilli Extravaganza\"}"
+						Name: "{\"translate\":\"name.mce2.food_slot.1\"}"
 					}
 				}
 			}
@@ -169,10 +169,10 @@
 				tag: {
 					display: {
 						Lore: [
-							"{\"text\":\"§7§oNeeded for the quest §e\\\"Shopping\\\"\"}"
-							"{\"text\":\"§7§oBatch number 23 \"}"
+							"{\"translate\":\"lore.mce2.food_slot.1\"}"
+							"{\"translate\":\"lore.mce2.food_slot.2\"}"
 						]
-						Name: "{\"text\":\"§8Speciality §8Craft Beer\"}"
+						Name: "{\"translate\":\"name.mce2.introduction.3\"}"
 					}
 				}
 			}
@@ -190,7 +190,7 @@
 					}]
 					HideFlags: 1
 					display: {
-						Lore: ["{\"text\":\"§bUnlocks the power of §lThe Sculptor! §r§b§o(briefly)\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.blackmarket_cache.10\"}"]
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -202,5 +202,5 @@
 		}
 		{ item: "farmersdelight:mutton_wrap" }
 	]
-	title: "food_slot"
+	title: "{ftbquests.loot_table.8985862743585551884.title}"
 }

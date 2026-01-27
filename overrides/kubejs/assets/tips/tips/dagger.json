@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "The humble Dagger on its own is a modest weapon. Duel Wielding them however is a different story!"
+    "translate": "tips.mce2.dagger"
   }
 }

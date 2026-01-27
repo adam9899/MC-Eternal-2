@@ -1,0 +1,22 @@
+{
+  "displayTraitsInJadeOrWaila": {
+    "desc:": "Whether display the traits on a mob in jade/waila(has to be installed to show): default:true",
+    "displayTraitsInJadeOrWaila": true
+  },
+  "noTraitWeight": {
+    "desc:": "Set the weight of getting no trait, the higher this is the lower the probability of received a trait for the entity. default:2.0",
+    "noTraitWeight": 60.0
+  },
+  "maxTraits": {
+    "desc:": "Set maximum amount of traits that can be rolled. default:3",
+    "maxTraits": 3
+  },
+  "entityBlackList": {
+    "desc:": "List of mobs which are not allowed to receive traits, example:  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    "entityBlackList": ["dummmmmmy:target_dummy"]
+  },
+  "traitBlackList": {
+    "desc:": "List of traits which are not allowed to appear, example:  [\"evolution:armored\", \"evolution:mutant\"]",
+    "traitBlackList": []
+  }
+}

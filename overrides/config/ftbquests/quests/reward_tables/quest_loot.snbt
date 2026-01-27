@@ -16,7 +16,7 @@
 		string_id: "quest_loot"
 	}
 	loot_size: 1
-	order_index: 14
+	order_index: 18
 	rewards: [
 		{
 			item: {
@@ -45,9 +45,6 @@
 				}
 			}
 		}
-		{ item: "minecraft:oak_sapling" }
-		{ item: "minecraft:dark_oak_sapling" }
-		{ count: 8, item: "minecraft:kelp" }
 		{ item: "advancementframes:advancement_frame" }
 		{ count: 8, item: "archers_paradox:blaze_arrow" }
 		{ item: "minecraft:spectral_arrow" }
@@ -439,8 +436,8 @@
 				id: "artifacts:mimic_spawn_egg"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"\\\"§7§oYour my friend now were having soft tacos later!!\\\"\"}"]
-						Name: "{\"text\":\"§d\\\"Friend\\\"\"}"
+						Lore: ["{\"translate\":\"lore.mce2.quest_loot.1\"}"]
+						Name: "{\"translate\":\"lore.mce2.quest_loot.2\"}"
 					}
 				}
 			}
@@ -455,7 +452,7 @@
 					HideFlags: 3
 					RepairCost: 0
 					display: {
-						Name: "{\"text\":\"Old Mining Hammer\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.1\"}"
 					}
 					etstlib_tool_uuid: "748b822e-eaeb-4137-b3cc-e8b114964d43"
 					rpgloot.randomize: 0b
@@ -534,8 +531,8 @@
 					]
 					HideFlags: 33
 					display: {
-						Lore: ["{\"text\":\"§9§7§oEmbued with special Anti Magic™ properties\"}"]
-						Name: "{\"text\":\"§9§e§9Arcane Shield\"}"
+						Lore: ["{\"translate\":\"lore.mce2.quest_loot.3\"}"]
+						Name: "{\"translate\":\"lore.mce2.quest_loot.4\"}"
 					}
 					dmcloot.arcaneshielding: 50
 					dmcloot.rarity: "rare"
@@ -612,7 +609,7 @@
 						}
 					]
 					display: {
-						Name: "{\"text\":\"§eNearly Broken Bow\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.2\"}"
 					}
 				}
 			}
@@ -718,7 +715,6 @@
 				}
 				id: "farmersdelight:smoked_ham"
 			}
-			weight: 15.0f
 		}
 		{
 			item: {
@@ -730,7 +726,6 @@
 				}
 				id: "kubejs:artifact_endergem"
 			}
-			weight: 80.0f
 		}
 		{ item: "farmersdelight:stove" }
 		{ item: "farmersdelight:basket" }
@@ -895,11 +890,11 @@
 					HideFlags: 33
 					display: {
 						Lore: [
-							"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-							"{\"text\":\"§4§oRobbed from an unsuspecting Player\"}"
-							"{\"text\":\"§7§oRight-Click to Open\"}"
+							"{\"translate\":\"lore.mce2.occultism.1\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.5\"}"
+							"{\"translate\":\"lore.mce2.high_risk.1\"}"
 						]
-						Name: "{\"text\":\"§eStolen Quest Loot\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.3\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -990,7 +985,7 @@
 				id: "thermal:pbj_sandwich"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§7§oPacked lunch! The crusts are cut off just how you like it! §d-Mom §r§d❤\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.6\"}"]
 					}
 				}
 			}
@@ -1301,8 +1296,8 @@
 				id: "botania:tiny_potato"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§o§7this potato woke up and chose violence\"}"]
-						Name: "{\"text\":\"vazkill\"}"
+						Lore: ["{\"translate\":\"lore.mce2.quest_loot.6\"}"]
+						Name: "{\"translate\":\"lore.mce2.quest_loot.7\"}"
 					}
 					notMyNameTicks: 17
 				}
@@ -1314,8 +1309,8 @@
 				id: "botania:tiny_potato"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§7tiny potato is a mod by ..\"}"]
-						Name: "{\"text\":\"Vazkii\"}"
+						Lore: ["{\"translate\":\"lore.mce2.quest_loot.8\"}"]
+						Name: "{\"translate\":\"lore.mce2.quest_loot.9\"}"
 					}
 					notMyNameTicks: 17
 				}
@@ -1327,7 +1322,7 @@
 				id: "botania:tiny_potato"
 				tag: {
 					display: {
-						Name: "{\"text\":\"direwolf20\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.4\"}"
 					}
 				}
 			}
@@ -1338,7 +1333,7 @@
 				id: "botania:tiny_potato"
 				tag: {
 					display: {
-						Name: "{\"text\":\"magic\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.5\"}"
 					}
 				}
 			}
@@ -1349,8 +1344,8 @@
 				id: "botania:tiny_potato"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§c§o10000 degrees\"}"]
-						Name: "{\"text\":\"hot\"}"
+						Lore: ["{\"translate\":\"lore.mce2.quest_loot.10\"}"]
+						Name: "{\"translate\":\"lore.mce2.quest_loot.11\"}"
 					}
 				}
 			}
@@ -1361,8 +1356,8 @@
 				id: "botania:tiny_potato"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§c§o10000 degrees\"}"]
-						Name: "{\"text\":\"snoop\"}"
+						Lore: ["{\"translate\":\"lore.mce2.quest_loot.10\"}"]
+						Name: "{\"translate\":\"lore.mce2.quest_loot.12\"}"
 					}
 				}
 			}
@@ -1554,7 +1549,7 @@
 		{ item: "mcwdoors:metal_warning_door" }
 		{ item: "mcwtrpdoors:bamboo_trapdoor" }
 		{
-			command: "/tellraw @p {\"text\":\"Adam98991 joined the game\",\"color\":\"yellow\"}"
+			command: "/tellraw @p {\"translate\":\"message.mce2.quest_loot.1\",\"color\":\"yellow\"}"
 			console: true
 			elevate_perms: true
 			icon: "rats:rat_burger"
@@ -1578,7 +1573,7 @@
 		}
 		{ item: "tombstone:christmas_gift" }
 		{
-			command: "/tellraw @p {\"text\":\"Emperdog joined the game\",\"color\":\"yellow\"}"
+			command: "/tellraw @p {\"translate\":\"message.mce2.quest_loot.2\",\"color\":\"yellow\"}"
 			console: true
 			elevate_perms: true
 			icon: "create:brass_hand"
@@ -1586,7 +1581,7 @@
 			type: "command"
 		}
 		{
-			command: "/tellraw @p {\"text\":\"Herobrine joined the game\",\"color\":\"yellow\"}"
+			command: "/tellraw @p {\"translate\":\"message.mce2.quest_loot.3\",\"color\":\"yellow\"}"
 			console: true
 			elevate_perms: true
 			icon: "alexsmobs:void_worm_eye"
@@ -1594,7 +1589,7 @@
 			type: "command"
 		}
 		{
-			command: "/tellraw @p {\"text\":\"I opened this Quest Loot and all I got was this stupid message!\",\"color\":\"yellow\"}"
+			command: "/tellraw @p {\"translate\":\"message.mce2.quest_loot.4\",\"color\":\"yellow\"}"
 			console: true
 			elevate_perms: true
 			icon: {
@@ -1610,7 +1605,7 @@
 			type: "command"
 		}
 		{
-			command: "/tellraw @p {\"text\":\"criscky joined the game\",\"color\":\"yellow\"}"
+			command: "/tellraw @p {\"translate\":\"message.mce2.quest_loot.5\",\"color\":\"yellow\"}"
 			icon: "minecolonies:golden_bread"
 			title: "&eA Wild Modpack Dev Appeared!"
 			type: "command"
@@ -2140,10 +2135,10 @@
 					HideFlags: 33
 					display: {
 						Lore: [
-							"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-							"{\"text\":\"§7§oRight-Click to Open\"}"
+							"{\"translate\":\"lore.mce2.occultism.1\"}"
+							"{\"translate\":\"lore.mce2.high_risk.1\"}"
 						]
-						Name: "{\"text\":\"§eQuest Loot\"}"
+						Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -2196,10 +2191,10 @@
 				tag: {
 					display: {
 						Lore: [
-							"{\"text\":\"§8§oHow do you not have fish? It says fresh fish daily on the menu!\"}"
-							"{\"text\":\"§8§oJust get me the snapper bozo!\"}"
+							"{\"translate\":\"lore.mce2.bosses.5\"}"
+							"{\"translate\":\"lore.mce2.bosses.6\"}"
 						]
-						Name: "{\"text\":\"§7Guigino's §744$ Snapper\"}"
+						Name: "{\"translate\":\"name.mce2.bosses.3\"}"
 					}
 				}
 			}
@@ -2359,13 +2354,13 @@
 					display: {
 						Lore: [
 							"{\"text\":\"\"}"
-							"{\"text\":\"§7Effect: §9Health Boost\"}"
-							"{\"text\":\"§7Duration: §91:00\"}"
-							"{\"text\":\"§7Amplifier: §91\"}"
-							"{\"text\":\"§5§6✎ §nLore Text\"}"
-							"{\"text\":\"§7§oI think this rat drowned in a Potion of Health Boost...\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.13\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.14\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.15\"}"
+							"{\"translate\":\"lore.mce2.bosses.3\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.16\"}"
 						]
-						Name: "{\"text\":\"§dRat of Life\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.6\"}"
 					}
 				}
 			}
@@ -2373,7 +2368,7 @@
 		{ item: "mekanism:robit" }
 		{ item: "mekanism:chargepad" }
 		{ count: 16, item: "mcwdoors:iron_portcullis" }
-		{ item: "rats:rat_burger", random_bonus: 3, weight: 30.0f }
+		{ item: "rats:rat_burger", random_bonus: 5 }
 		{ count: 3, item: "alexsmobs:kangaroo_burger" }
 		{ item: "iceandfire:siren_tear" }
 		{ item: "minecraft:heart_of_the_sea" }
@@ -2405,16 +2400,16 @@
 					HideFlags: 1
 					display: {
 						Lore: [
-							"{\"text\":\"§b§l§nTHANK YOU FOR YOUR PURCHASE\"}"
-							"{\"text\":\"§3`\"}"
-							"{\"text\":\"§3Subjected to extreme quality control for the best quality dirt\"}"
-							"{\"text\":\"§3§lTriple infused §r§3with our patented diamond dirt refining technique!™\"}"
-							"{\"text\":\"§3§oEach dirt block is inspected by Sips_ himself before shipment to ensure perfection.. nothing less... \"}"
-							"{\"text\":\"§3`\"}"
-							"{\"text\":\"§7Boring Legal Gibberish For Nerds  §r§7↓\"}"
-							"{\"text\":\"§8§oNo diamonds are present in the product, our dirt is momentarily exposed to a diamond at some point during the manufacturing process as per regulation and then promptly removed as documented in the \\\"Sips Co. 32 Secret Herbs and Spices™\\\" dirt manufacturing process. \"}"
+							"{\"translate\":\"lore.mce2.quest_loot.17\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.18\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.19\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.20\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.21\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.18\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.22\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.23\"}"
 						]
-						Name: "{\"text\":\"Premium Diamond Grade Sips Co.™ Quality Dirt\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.7\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -2525,8 +2520,8 @@
 					colorRed: 255s
 					colorRedInner: 255s
 					display: {
-						Lore: ["{\"text\":\"§7§oInvented by a mad scientist who once was so lonely his only friend was a balloon called Balloony... which eventually left him too..\"}"]
-						Name: "{\"text\":\"§5The Mining Laser-inator!\"}"
+						Lore: ["{\"translate\":\"lore.mce2.quest_loot.24\"}"]
+						Name: "{\"translate\":\"lore.mce2.quest_loot.25\"}"
 					}
 					energy: 0
 					filters: { }
@@ -2581,9 +2576,9 @@
 					display: {
 						Lore: [
 							"{\"text\":\"\"}"
-							"{\"text\":\"§8§oBelonged to The Questmaster, what is inside you ask? Gross! why would you even care?\"}"
+							"{\"translate\":\"lore.mce2.quest_loot.26\"}"
 						]
-						Name: "{\"text\":\"§7§o§8Forgotten Trashcan\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.8\"}"
 					}
 					type: "forgotten_trashcan"
 				}
@@ -2601,18 +2596,18 @@
 				tag: {
 					display: {
 						Lore: [
-							"{\"text\":\"§7§o1x Rat - 24 Hours \"}"
-							"{\"text\":\"§4§o§eStatus: §cLATE!\"}"
+							"{\"translate\":\"lore.mce2.dev.9\"}"
+							"{\"translate\":\"lore.mce2.dev.10\"}"
 							"{\"text\":\"\"}"
-							"{\"text\":\"§4§nRETURN ON TIME OR FACE FINES!\"}"
+							"{\"translate\":\"lore.mce2.dev.11\"}"
 							"{\"text\":\"\"}"
-							"{\"text\":\"§7§oYOU WOULDN'T STEAL A CAR\"}"
-							"{\"text\":\"§7§oYOU WOULDN'T STEAL A HANDBAG\"}"
-							"{\"text\":\"§7§oYOU WOULDN'T STEAL A TELEVISION\"}"
-							"{\"text\":\"§7§o§4§lSO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\"}"
+							"{\"translate\":\"lore.mce2.dev.12\"}"
+							"{\"translate\":\"lore.mce2.dev.13\"}"
+							"{\"translate\":\"lore.mce2.dev.14\"}"
+							"{\"translate\":\"lore.mce2.dev.15\"}"
 							"{\"text\":\"\"}"
 						]
-						Name: "{\"text\":\"§8§oRent-a-Rat Reciept\"}"
+						Name: "{\"translate\":\"name.mce2.dev.2\"}"
 					}
 				}
 			}
@@ -2809,7 +2804,7 @@
 				id: "immersive_melodies:piano"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Worn Keyboard\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.9\"}"
 					}
 					enabled_tracks: [I; ]
 					melody: "immersive_melodies:melodies/all_my_fellas.midi"
@@ -2883,7 +2878,7 @@
 				id: "minecraft:axolotl_bucket"
 				tag: {
 					display: {
-						Name: "{\"text\":\"friend\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.10\"}"
 					}
 				}
 			}
@@ -2894,7 +2889,7 @@
 				id: "ftbquests:lootcrate"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Forgotten Trashcan\"}"
+						Name: "{\"translate\":\"name.mce2.introduction.2\"}"
 					}
 					type: "forgotten_trashcan"
 				}
@@ -3431,7 +3426,7 @@
 						spellWheel: 1b
 					}
 					display: {
-						Name: "{\"text\":\"Sword of Undeath\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.11\"}"
 					}
 				}
 			}
@@ -3663,19 +3658,15 @@
 						spellWheel: 1b
 					}
 					etstlib_tool_uuid: "f79f7468-e25f-4cc3-b419-a9ff25305858"
-					tic_modifiers: [
-						{
-							level: 1
-							name: "constructs_casting:cooldown_upgrade"
-						}
-						{
-							level: 1
-							name: "constructs_casting:mana_upgrade"
-						}
-					]
+					tic_modifiers: [ ]
 					tic_persistent: { }
-					tic_stats: { }
+					tic_stats: {
+						"constructs_casting:cooldown_reduction": 0.1f
+						"constructs_casting:max_mana": 125.0f
+						"constructs_casting:spell_slots": 6.0f
+					}
 					tic_volatile_data: {
+						abilities: 1
 						upgrades: 5
 					}
 				}
@@ -3728,7 +3719,7 @@
 						Id: "cataclysm:amethyst_crab"
 					}
 					display: {
-						Name: "{\"text\":\"Greg\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.12\"}"
 					}
 				}
 			}
@@ -3804,7 +3795,7 @@
 						}
 					]
 					display: {
-						Name: "{\"text\":\"Bottle of \\\"Skooma\\\"\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.13\"}"
 					}
 				}
 			}
@@ -3823,7 +3814,7 @@
 					}]
 					Ready: 0b
 					display: {
-						Name: "{\"text\":\"Ancient Buckler\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.14\"}"
 					}
 					"quark:RuneColor": "red"
 				}
@@ -4165,7 +4156,7 @@
 				id: "immersive_melodies:lute"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Billy's Lute\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.15\"}"
 					}
 					enabled_tracks: [I; ]
 					melody: "immersive_melodies:melodies/today.mid"
@@ -4180,7 +4171,7 @@
 				id: "immersive_melodies:piano"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Reznor Piano\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.16\"}"
 					}
 					enabled_tracks: [I; ]
 					melody: "immersive_melodies:melodies/something_i_can_never_have.mid"
@@ -4195,7 +4186,7 @@
 				id: "immersive_melodies:piano"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Adam and Liam\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.17\"}"
 					}
 					enabled_tracks: [I; ]
 					melody: "immersive_melodies:melodies/the_sign.mid"
@@ -4210,7 +4201,7 @@
 				id: "immersive_melodies:handpan"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Crazy Handpan\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.18\"}"
 					}
 					enabled_tracks: [I; ]
 					melody: "immersive_melodies:melodies/axel_f.midi"
@@ -4304,7 +4295,7 @@
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:durability": 143.0f
+						"tconstruct:durability": 1243.0f
 						"tinkersjewelry:amplification": 0.963f
 					}
 				}
@@ -4484,8 +4475,8 @@
 				}
 			}
 		}
-		{ item: "kubejs:artifact_endergem", weight: 150.0f }
-		{ count: 8, item: "irons_spellbooks:arcane_essence", weight: 50.0f }
+		{ item: "kubejs:artifact_endergem", weight: 3.0f }
+		{ count: 8, item: "irons_spellbooks:arcane_essence" }
 		{ count: 2, item: "irons_spellbooks:frozen_bone" }
 		{ item: "jadensnetherexpansiondelight:nether_dog_food" }
 		{ item: "jadensnetherexpansiondelight:glowcheese_sandwich" }
@@ -4679,7 +4670,7 @@
 						]
 					}
 					display: {
-						Name: "{\"text\":\"Cursed \\\"Sandwich\\\"\"}"
+						Name: "{\"translate\":\"name.mce2.introduction.9\"}"
 					}
 				}
 			}
@@ -4721,7 +4712,7 @@
 						}
 					}
 					display: {
-						Name: "{\"text\":\"The Boss\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.19\"}"
 					}
 				}
 			}
@@ -4772,7 +4763,7 @@
 				id: "alexsmobs:spawn_egg_raccoon"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Adam\"}"
+						Name: "{\"translate\":\"name.mce2.curious_box.1\"}"
 					}
 				}
 			}
@@ -4824,7 +4815,7 @@
 					}]
 					RepairCost: 1
 					display: {
-						Name: "{\"text\":\"Paxton's Lucky Fishing Rod\"}"
+						Name: "{\"translate\":\"name.mce2.quest_loot.20\"}"
 					}
 				}
 			}
@@ -4959,12 +4950,12 @@
 					tic_name: "Peter's Ruby Ring "
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:durability": 200.0f
+						"tconstruct:durability": 3514.0f
+						"tinkersjewelry:amplification": 0.5f
 					}
 				}
 			}
 		}
-		{ item: "lavachickenmusicdisc:music_disc_lava_chicken" }
 		{
 			item: {
 				Count: 1
@@ -5269,7 +5260,148 @@
 			}
 		}
 		{ item: "kubejs:travel_ticket" }
+		{ item: "petcapturetool:capture_tool" }
+		{ item: "kubejs:ultimate_cheese" }
+		{ item: "kubejs:ingot_thousand_metals" }
+		{ item: "kubejs:chocolate_coin" }
+		{ item: "kubejs:sunscreen" }
+		{ count: 6, item: "goety_spillage:skull_bomb" }
+		{ item: "cataclysm:azure_seastone_mural_underworld" }
+		{ item: "mcwwindows:key" }
+		{ item: "cloudstorage:cotton_candy" }
+		{ item: "immersive_machinery:redstone_sheep" }
+		{
+			item: {
+				Count: 1
+				id: "immersive_machinery:bamboo_bee"
+				tag: {
+					ContainerPositions: [ ]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "goety:hunters_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gonefishing:sunken_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexscaves:waste_drum" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{ item: "gonefishing:salmon_of_knowledge" }
+		{ item: "gonefishing:mysterious_clam" }
+		{ item: "uniqueaccessories:accessory_box" }
+		{ item: "uniqueaccessories:blade_shoes" }
+		{ item: "uniqueaccessories:starved_wolf_skull" }
+		{ item: "uniqueaccessories:strong_sticky_slime_ball" }
+		{ item: "uniqueaccessories:fossil_shark_tooth" }
+		{ item: "uniqueaccessories:royal_honeycomb" }
+		{ item: "uniqueaccessories:snow_golem_doll" }
+		{ item: "uniqueaccessories:survival_belt" }
+		{ item: "uniqueaccessories:rocket_shoes" }
+		{ item: "uniqueaccessories:all_purpose_seasoning" }
+		{ item: "uniqueaccessories:golden_egg_charm" }
+		{ item: "uniqueaccessories:soul_gem" }
+		{ item: "uniqueaccessories:devils_eyeball" }
+		{ item: "uniqueaccessories:cursed_doll_head" }
+		{ item: "uniqueaccessories:anklet_of_fortune" }
+		{ item: "uniqueaccessories:waist_warmer" }
+		{ item: "uniqueaccessories:tabi" }
+		{ item: "uniqueaccessories:life_jacket_belt" }
+		{ item: "uniqueaccessories:amplifier_stone" }
+		{ item: "uniqueaccessories:royal_honeycomb" }
+		{ item: "uniqueaccessories:sharp_fishing_hook" }
+		{ item: "uniqueaccessories:fossil_shark_tooth" }
+		{ item: "uniqueaccessories:small_propulsion_device" }
+		{ item: "uniqueaccessories:withered_heart" }
+		{ item: "vanillabackport:dried_ghast" }
+		{ item: "vanillabackport:music_disc_lava_chicken" }
+		{
+			amount: 250L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+		{
+			amount: 1000L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+		{
+			amount: 2500L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+		{
+			amount: 50L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+		{ item: "mowziesmobs:wrought_helmet" }
+		{ count: 5, item: "mowziesmobs:glowing_jelly" }
+		{ item: "mowziesmobs:gong" }
+		{
+			item: {
+				Count: 1
+				id: "cgs:launcher"
+				tag: {
+					Ammo: "cgs:rocket"
+					AmmoCount: 3
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cgs:flintlock"
+				tag: {
+					Ammo: "cgs:paper_cartridge"
+					AmmoCount: 1
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+		}
+		{ item: "cgs:ballistazooka" }
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:micromissiles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 12, item: "cgs:round_revolver" }
+		{
+			item: {
+				Count: 1
+				id: "minecolonies:santa_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:confit_byaldi" }
+		{ item: "rats:rat_and_crossbones_banner_pattern" }
+		{ item: "cataclysm_spellbooks:mechanical_brace" }
 	]
-	title: "&e"
+	title: "{ftbquests.loot_table.5682295257556819944.title}"
 	use_title: true
 }

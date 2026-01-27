@@ -7,16 +7,16 @@
 	#Range: 0 ~ 1000
 	heartsPerMilestone = 1
 	#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.
-	milestones = [5, 10, 16, 19, 25, 30, 34, 43, 55, 63, 72, 83, 95, 100, 123, 140, 165, 180, 210, 243, 273, 306, 333, 354, 500, 631, 715, 800, 850, 900, 1000, 1500]
+	milestones = [4, 8, 13, 18, 24, 30, 37, 44, 52, 60, 70, 80, 92, 104, 120, 140, 160, 180, 210, 240, 270, 300, 333, 366, 400, 440, 480, 525, 575, 625]
 
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
-	blacklist = []
+	blacklist = ["minecraft:pumpkin_pie", "biomeswevegone:blueberry_pie", "biomeswevegone:green_apple_pie", "netherexp:hogham", "netherexp:cooked_hogham", "jadensnetherexpansiondelight:hogham_slice", "hexcasting:creative_unlocker", "jadensnetherexpansiondelight:blue_scale_fungus_roll", "jadensnetherexpansiondelight:red_scale_fungus_roll", "tombstone:easter_egg_food", "delightful:chunkwich", "delightful:coconut_curry", "delightful:honey_glazed_walnut", "delightful:cooked_venison_chops", "delightful:gloomgourd_pie_slice"]
 	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
 	whitelist = []
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
 	#Range: 0 ~ 1000
-	minimumFoodValue = 4
+	minimumFoodValue = 3
 
 [miscellaneous]
 	#Whether or not to reset the food list on death, effectively losing all bonus hearts.

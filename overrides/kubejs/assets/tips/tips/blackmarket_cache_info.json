@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "The Blackmarket Cache contains random items ranging from, unobtainable items, silly items and useless items."
+    "translate": "tips.mce2.blackmarket_cache_info"
   }
 }

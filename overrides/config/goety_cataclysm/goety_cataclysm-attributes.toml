@@ -1,0 +1,335 @@
+
+[Attributes]
+
+	[Attributes."Summoned Mobs"]
+
+		[Attributes."Summoned Mobs".Deeplings]
+
+			[Attributes."Summoned Mobs".Deeplings."Deepling Servant"]
+				#How much Max Health Deepling Servants have, Default: 26.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingHealth = 26.0
+				#How much natural Armor Deepling Servants have, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				deeplingArmor = 0.0
+				#How much damage Deepling Servants melee attack deals, Default: 4.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingDamage = 4.0
+
+			[Attributes."Summoned Mobs".Deeplings."Deepling Angler Servant"]
+				#How much Max Health Deepling Angler Servants have, Default: 30.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingAnglerHealth = 30.0
+				#How much natural Armor Deepling Angler Servants have, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				deeplingAnglerArmor = 0.0
+				#How much damage Deepling Angler Servants melee attack deals, Default: 4.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingAnglerDamage = 4.0
+
+			[Attributes."Summoned Mobs".Deeplings."Deepling Brute Servant"]
+				#How much Max Health Deepling Brute Servants have, Default: 60.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingBruteHealth = 60.0
+				#How much natural Armor Deepling Brute Servants have, Default: 8.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				deeplingBruteArmor = 8.0
+				#How much damage Deepling Brute Servants melee attack deals, Default: 5.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingBruteDamage = 5.0
+
+			[Attributes."Summoned Mobs".Deeplings."Deepling Priest Servant"]
+				#How much Max Health Deepling Priest Servants have, Default: 45.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingPriestHealth = 45.0
+				#How much natural Armor Deepling Priest Servants have, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				deeplingPriestArmor = 0.0
+				#How much damage Deepling Priest Servants melee attack deals, Default: 4.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingPriestDamage = 4.0
+
+			[Attributes."Summoned Mobs".Deeplings."Deepling Warlock Servant"]
+				#How much Max Health Deepling Warlock Servants have, Default: 45.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingWarlockHealth = 45.0
+				#How much natural Armor Deepling Warlock Servants have, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				deeplingWarlockArmor = 0.0
+				#How much damage Deepling Warlock Servants melee attack deals, Default: 4.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				deeplingWarlockDamage = 4.0
+
+			[Attributes."Summoned Mobs".Deeplings."Lionfish Servant"]
+				#How much Max Health Lionfish Servants have, Default: 12.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				lionfishHealth = 12.0
+				#How much natural Armor Lionfish Servants have, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				lionfishArmor = 0.0
+				#How much damage Lionfish Servants melee attack deals, Default: 2.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				lionfishDamage = 2.0
+
+			[Attributes."Summoned Mobs".Deeplings."Coral Golem Servant"]
+				#How much Max Health Coral Golem Servants have, Default: 110.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				coralGolemHealth = 110.0
+				#How much natural Armor Coral Golem Servants have, Default: 5.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				coralGolemArmor = 5.0
+				#How much damage Coral Golem Servants melee attack deals, Default: 11.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				coralGolemDamage = 11.0
+
+			[Attributes."Summoned Mobs".Deeplings."Coralssus Servant"]
+				#How much Max Health Coralssus Servants have, Default: 160.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				coralssusHealth = 160.0
+				#How much natural Armor Coralssus Servants have, Default: 5.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				coralssusArmor = 5.0
+				#How much damage Coralssus Servants melee attack deals, Default: 10.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				coralssusDamage = 20.0
+
+		[Attributes."Summoned Mobs".Factory]
+
+			[Attributes."Summoned Mobs".Factory."Watcher Servant"]
+				#How much Max Health Watcher Servants have, Default: 25.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				watcherHealth = 25.0
+				#How much natural Armor Watcher Servants have, Default: 5.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				watcherArmor = 5.0
+				#How much damage Watcher Servants melee attack deals, Default: 5.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				watcherMeleeDamage = 5.0
+				#How much damage Watcher Servants range attack deals, Default: 5.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				watcherRangeDamage = 5.0
+
+			[Attributes."Summoned Mobs".Factory."Prowler Servant"]
+				#How much Max Health Prowler Servants have, Default: 160.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				prowlerHealth = 160.0
+				#How much natural Armor Prowler Servants have, Default: 10.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				prowlerArmor = 10.0
+				#How much damage Prowler Servants melee attack deals, Default: 14.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				prowlerMeleeDamage = 14.0
+				#How much damage Prowler Servants missiles deals, Default: 3.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				prowlerMissileDamage = 3.0
+
+		[Attributes."Summoned Mobs".Desert]
+
+			[Attributes."Summoned Mobs".Desert."Koboleton Servant"]
+				#How much Max Health Koboleton Servants have, Default: 25.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				koboletonHealth = 25.0
+				#How much natural Armor Koboleton Servants have, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				koboletonArmor = 0.0
+				#How much damage Koboleton Servants melee attack deals, Default: 3.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				koboletonDamage = 3.0
+
+			[Attributes."Summoned Mobs".Desert."Kobolediator Servant"]
+				#How much Max Health Kobolediator Servants have, Default: 180.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				kobolediatorHealth = 180.0
+				#How much natural Armor Kobolediator Servants have, Default: 10.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				kobolediatorArmor = 10.0
+				#How much damage Kobolediator Servants melee attack deals, Default: 14.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				kobolediatorDamage = 14.0
+
+			[Attributes."Summoned Mobs".Desert."Wadjet Servant"]
+				#How much Max Health Wadjet Servants have, Default: 150.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				wadjetHealth = 150.0
+				#How much natural Armor Wadjet Servants have, Default: 5.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				wadjetArmor = 5.0
+				#How much damage Wadjet Servants melee attack deals, Default: 11.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				wadjetDamage = 11.0
+
+			[Attributes."Summoned Mobs".Desert."Ancient Remnant Servant"]
+				#How much Max Health Ancient Remnant Servants have, Default: 450.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				ancientRemnantHealth = 450.0
+				#How much natural Armor Ancient Remnant Servants have, Default: 12.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				ancientRemnantArmor = 12.0
+				#How much damage Ancient Remnant Servants melee attack deals, Default: 25.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				ancientRemnantDamage = 25.0
+
+		[Attributes."Summoned Mobs".Ignited]
+
+			[Attributes."Summoned Mobs".Ignited."Ignited Revenant Servant"]
+				#How much Max Health Ignited Revenant Servants have, Default: 80.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				ignitedRevenantHealth = 85.0
+				#How much natural Armor Ignited Revenant Servants have, Default: 12.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				ignitedRevenantArmor = 12.0
+				#How much damage Ignited Revenant Servants melee attack deals, Default: 6.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				ignitedRevenantMeleeDamage = 25.0
+				#How much damage Ignited Revenant Servants range attack deals, Default: 5.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				ignitedRevenantRangeDamage = 30.0
+
+			[Attributes."Summoned Mobs".Ignited."Ignited Berserker Servant"]
+				#How much Max Health Ignited Berserker Servants have, Default: 65.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				ignitedBerserkerHealth = 85.0
+				#How much natural Armor Ignited Berserker Servants have, Default: 8.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				ignitedBerserkerArmor = 9.0
+				#How much damage Ignited Berserker Servants melee attack deals, Default: 7.5
+				#Range: 1.0 ~ 1.7976931348623157E308
+				ignitedBerserkerDamage = 15.5
+
+		[Attributes."Summoned Mobs".Draugr]
+
+			[Attributes."Summoned Mobs".Draugr."Draugr Servant"]
+				#How much Max Health Draugr Servants have, Default: 28.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				draugrHealth = 28.0
+				#How much natural Armor Draugr Servants have, Default: 3.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				draugrArmor = 3.0
+				#How much damage Draugr Servants melee attack deals, Default: 4.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				draugrDamage = 4.0
+
+			[Attributes."Summoned Mobs".Draugr."Elite Draugr Servant"]
+				#How much Max Health Elite Draugr Servants have, Default: 32.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				eliteDraugrHealth = 32.0
+				#How much natural Elite Armor Draugr Servants have, Default: 3.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				eliteDraugrArmor = 3.0
+				#How much damage Elite Draugr Servants melee attack deals, Default: 5.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				eliteDraugrMeleeDamage = 5.0
+				#How much extra damage Elite Draugr Servants range attack deals, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				eliteDraugrRangeDamage = 0.0
+
+			[Attributes."Summoned Mobs".Draugr."Royal Draugr Servant"]
+				#How much Max Health Royal Draugr Servants have, Default: 30.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				royalDraugrHealth = 30.0
+				#How much natural Armor Royal Draugr Servants have, Default: 5.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				royalDraugrArmor = 5.0
+				#How much damage Royal Draugr Servants melee attack deals, Default: 5.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				royalDraugrDamage = 5.0
+
+			[Attributes."Summoned Mobs".Draugr."Aptrgangr Servant"]
+				#How much Max Health Aptrgangr Servants have, Default: 160.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				aptrgangrHealth = 160.0
+				#How much natural Armor Aptrgangr Servants have, Default: 10.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				aptrgangrArmor = 10.0
+				#How much damage Aptrgangr Servants melee attack deals, Default: 18.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				aptrgangrDamage = 38.0
+				#How much damage Aptrgangr Servants Axe Blade attack deals, Default: 8.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				aptrgangrAxeDamage = 42.0
+
+		[Attributes."Summoned Mobs".Acropolis]
+
+			[Attributes."Summoned Mobs".Acropolis."Cindaria Servant"]
+				#How much Max Health Cindaria Servants have, Default: 60.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				cindariaHealth = 60.0
+				#How much natural Armor Cindaria Servants have, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				cindariaArmor = 0.0
+				#How much damage Cindaria Servants melee attack deals, Default: 7.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				cindariaMeleeDamage = 7.0
+				#How much damage Cindaria Servants water spears deals, Default: 8.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				cindariaRangeDamage = 14.0
+
+			[Attributes."Summoned Mobs".Acropolis."Clawdian Servant"]
+				#How much Max Health Clawdian Servants have, Default: 225.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				clawdianHealth = 425.0
+				#How much natural Armor Clawdian Servants have, Default: 12.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				clawdianArmor = 12.0
+				#How much damage Clawdian Servants melee attack deals, Default: 16.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				clawdianDamage = 46.0
+
+			[Attributes."Summoned Mobs".Acropolis."Hippocamtus Servant"]
+				#How much Max Health Hippocamtus Servants have, Default: 85.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				hippocamtusHealth = 85.0
+				#How much natural Armor Hippocamtus Servants have, Default: 15.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				hippocamtusArmor = 15.0
+				#How much damage Hippocamtus Servants melee attack deals, Default: 10.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				hippocamtusDamage = 16.0
+
+			[Attributes."Summoned Mobs".Acropolis."Symbiocto Servant"]
+				#How much Max Health Symbiocto Servants have, Default: 16.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				symbioctoHealth = 16.0
+				#How much natural Armor Symbiocto Servants have, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				symbioctoArmor = 0.0
+				#How much damage Symbiocto Servants melee attack deals, Default: 3.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				symbioctoMeleeDamage = 3.0
+				#How much damage Symbiocto Servants range attack deals, Default: 3.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				symbioctoRangeDamage = 3.0
+
+			[Attributes."Summoned Mobs".Acropolis."Urchinkin Servant"]
+				#How much Max Health Urchinkin Servants have, Default: 12.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				urchinkinHealth = 12.0
+				#How much natural Armor Urchinkin Servants have, Default: 0.0
+				#Range: 0.0 ~ 1.7976931348623157E308
+				urchinkinArmor = 0.0
+				#How much damage Urchinkin Servants melee attack deals, Default: 3.0
+				#Range: 1.0 ~ 1.7976931348623157E308
+				urchinkinDamage = 3.0
+
+		[Attributes."Summoned Mobs"."Ender Golem Servant"]
+			#How much Max Health Ender Golem Servants have, Default: 150.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			enderGolemHealth = 150.0
+			#How much natural Armor Ender Golem Servants have, Default: 12.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			enderGolemArmor = 12.0
+			#How much damage Ender Golem Servants melee attack deals, Default: 10.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			enderGolemDamage = 10.0
+
+		[Attributes."Summoned Mobs"."Netherite Monstrosity Servant"]
+			#How much Max Health Netherite Monstrosity Servants have, Default: 600.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			netheriteMonstrosityHealth = 600.0
+			#How much natural Armor Netherite Monstrosity Servants have, Default: 12.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			netheriteMonstrosityArmor = 12.0
+			#How much damage Netherite Monstrosity Servants melee attack deals, Default: 25.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			netheriteMonstrosityDamage = 65.0
+

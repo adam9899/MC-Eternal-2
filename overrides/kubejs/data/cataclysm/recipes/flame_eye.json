@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "NEN",
+        "SSS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blaze_powder"
+        },
+        "N": {
+            "item": "minecraft:netherite_block"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "S": {
+            "item": "minecraft:soul_sand"
+        }
+    },
+    "result": {
+        "item": "cataclysm:flame_eye",
+        "count": 1
+    }
+}

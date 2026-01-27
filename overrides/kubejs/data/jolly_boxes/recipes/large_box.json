@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "jolly_boxes:medium_box"
+    }
+  },
+  "result": {
+    "item": "jolly_boxes:large_box"
+  }
+}

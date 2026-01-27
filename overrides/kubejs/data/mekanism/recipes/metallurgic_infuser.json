@@ -1,1 +1,1 @@
-{"type":"minecraft:crafting_shaped","key":{"#":{"item":"alexscaves:nuclear_furnace_component"},"I":{"tag":"forge:ingots/steel"},"O":{"tag":"forge:ingots/osmium"},"R":{"tag":"forge:dusts/redstone"}},"pattern":["I#I","ROR","I#I"],"result":{"item":"mekanism:metallurgic_infuser"}}
+{"type":"minecraft:crafting_shaped","key":{"#":{"item":"mekanism:block_uranium"},"I":{"tag":"forge:ingots/steel"},"O":{"tag":"forge:ingots/osmium"},"R":{"tag":"forge:dusts/redstone"}},"pattern":["I#I","ROR","I#I"],"result":{"item":"mekanism:metallurgic_infuser"}}

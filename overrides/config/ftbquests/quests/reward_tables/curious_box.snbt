@@ -72,21 +72,11 @@
 		{
 			item: {
 				Count: 1
-				id: "relics:rage_glove"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "relics:ice_skates"
 				tag: {
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -105,7 +95,6 @@
 					Damage: 0
 				}
 			}
-			weight: 5.0f
 		}
 		{
 			item: {
@@ -161,7 +150,6 @@
 					Damage: 0
 				}
 			}
-			weight: 5.0f
 		}
 		{
 			item: {
@@ -189,7 +177,6 @@
 					Damage: 0
 				}
 			}
-			weight: 5.0f
 		}
 		{
 			item: {
@@ -217,9 +204,8 @@
 					Damage: 0
 				}
 			}
-			weight: 5.0f
 		}
-		{ item: "artifacts:novelty_drinking_hat", weight: 5.0f }
+		{ item: "artifacts:novelty_drinking_hat" }
 		{
 			item: {
 				Count: 1
@@ -229,7 +215,6 @@
 				}
 			}
 			random_bonus: 1
-			weight: 5.0f
 		}
 		{
 			item: {
@@ -239,7 +224,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -249,7 +233,6 @@
 					Damage: 0
 				}
 			}
-			weight: 5.0f
 		}
 		{
 			item: {
@@ -259,7 +242,6 @@
 					Damage: 0
 				}
 			}
-			weight: 3.0f
 		}
 		{
 			item: {
@@ -269,7 +251,6 @@
 					Damage: 0
 				}
 			}
-			weight: 3.0f
 		}
 		{
 			item: {
@@ -279,7 +260,6 @@
 					Damage: 0
 				}
 			}
-			weight: 3.0f
 		}
 		{
 			item: {
@@ -289,7 +269,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -299,7 +278,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -309,7 +287,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -319,7 +296,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -329,7 +305,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -348,7 +323,6 @@
 					Damage: 0
 				}
 			}
-			weight: 5.0f
 		}
 		{
 			item: {
@@ -358,9 +332,8 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
-		{ item: "artifacts:universal_attractor", weight: 10.0f }
+		{ item: "artifacts:universal_attractor" }
 		{
 			item: {
 				Count: 1
@@ -369,7 +342,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -388,9 +360,8 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
-		{ item: "artifacts:feral_claws", weight: 10.0f }
+		{ item: "artifacts:feral_claws" }
 		{
 			item: {
 				Count: 1
@@ -408,9 +379,8 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
-		{ item: "artifacts:pocket_piston", weight: 10.0f }
+		{ item: "artifacts:pocket_piston" }
 		{
 			item: {
 				Count: 1
@@ -419,7 +389,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -429,7 +398,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -439,7 +407,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -458,7 +425,6 @@
 					Damage: 0
 				}
 			}
-			weight: 5.0f
 		}
 		{
 			item: {
@@ -468,7 +434,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -478,7 +443,6 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
 		{
 			item: {
@@ -488,9 +452,8 @@
 					Damage: 0
 				}
 			}
-			weight: 10.0f
 		}
-		{ item: "artifacts:whoopee_cushion", weight: 10.0f }
+		{ item: "artifacts:whoopee_cushion" }
 		{
 			item: {
 				Count: 1
@@ -770,11 +733,8 @@
 		{ item: "artifacts:rooted_boots" }
 		{ item: "artifacts:chorus_totem" }
 		{ item: "artifacts:onion_ring" }
-		{ item: "goety:haunted_painting" }
 		{ item: "kubejs:artifact_endergem" }
 		{ item: "botania:tiny_potato" }
-		{ item: "biomancy:fleshkin_chest" }
-		{ item: "mcwbyg:fir_coffee_table" }
 		{ item: "ad_astra:space_painting" }
 		{
 			item: {
@@ -792,26 +752,14 @@
 		{
 			item: {
 				Count: 1
-				id: "minecraft:fishing_rod"
-				tag: {
-					Damage: 0
-					etstlib_tool_uuid: "8b503daf-c14e-4abb-ae87-8f2dea73ca69"
-				}
-			}
-		}
-		{ item: "minecraft:salmon" }
-		{
-			item: {
-				Count: 1
 				id: "alexsmobs:spawn_egg_raccoon"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Adam\"}"
+						Name: "{\"translate\":\"name.mce2.curious_box.1\"}"
 					}
 				}
 			}
 		}
-		{ item: "minecraft:anvil" }
 		{ item: "kubejs:mossy_letter" }
 		{ item: "kubejs:mossy_letter1" }
 		{ item: "kubejs:s_soup" }
@@ -823,6 +771,40 @@
 		{ item: "goety:spiteful_belt" }
 		{ item: "goety:feline_amulet" }
 		{ item: "rats:top_hat" }
+		{ item: "uniqueaccessories:fossil_shark_tooth" }
+		{ item: "uniqueaccessories:small_propulsion_device" }
+		{ item: "uniqueaccessories:withered_heart" }
+		{ item: "uniqueaccessories:starved_wolf_skull" }
+		{ item: "uniqueaccessories:soul_gem" }
+		{ item: "uniqueaccessories:golden_egg_charm" }
+		{ item: "uniqueaccessories:championship_belt" }
+		{ item: "uniqueaccessories:royal_honeycomb" }
+		{ item: "uniqueaccessories:fossil_shark_tooth" }
+		{ item: "uniqueaccessories:strong_sticky_slime_ball" }
+		{ item: "uniqueaccessories:all_purpose_seasoning" }
+		{ item: "uniqueaccessories:blade_shoes" }
+		{ item: "uniqueaccessories:magick_quiver" }
+		{ item: "uniqueaccessories:anklet_of_fortune" }
+		{ item: "uniqueaccessories:durable_spring" }
+		{ item: "uniqueaccessories:black_belt" }
+		{ item: "uniqueaccessories:amplifier_stone" }
+		{ item: "uniqueaccessories:devils_eyeball" }
+		{ item: "uniqueaccessories:waist_warmer" }
+		{ item: "uniqueaccessories:sharp_fishing_hook" }
+		{ item: "uniqueaccessories:shiny_stone" }
+		{ item: "uniqueaccessories:cursed_doll_head" }
+		{ item: "uniqueaccessories:snow_golem_doll" }
+		{ item: "uniqueaccessories:rocket_shoes" }
+		{ item: "uniqueaccessories:supreme_meat" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
-	title: "{loot_table.34}"
+	title: "{ftbquests.loot_table.7614141430405098414.title}"
 }

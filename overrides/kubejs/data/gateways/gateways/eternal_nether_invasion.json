@@ -358,7 +358,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "kubejs:nether_item",
-      "Count": 1
+      "count": 1
     }
   }
 ],

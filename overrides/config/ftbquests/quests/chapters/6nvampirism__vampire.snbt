@@ -8,76 +8,120 @@
 	id: "3FA87AAD66BAFDAF"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"{chapter.32.quest.2.description.1}"
-			"{image:vampirism:textures/item/vampire_fang.png width:100 height:100 align:1}"
-			""
-			"Chapter coming soon!"
-		]
-		id: "738D0748DDD99C54"
-		incompatible: ["5EE84DC9D93FEECC"]
-		optional: true
-		rewards: [
-			{
-				auto: "disabled"
-				id: "1DE7FC2B885CFEF6"
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.description1}"
+				""
+				"{ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.image0}"
+				""
+				"{ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.description2}"
+			]
+			id: "738D0748DDD99C54"
+			incompatible: ["5EE84DC9D93FEECC"]
+			optional: true
+			rewards: [
+				{
+					auto: "disabled"
+					id: "1DE7FC2B885CFEF6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					auto: "disabled"
+					currency: "eternalcurrencies:coins"
+					id: "7974B252FBFFDC2B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.subtitle}"
+			tasks: [{
+				id: "7AF3552B26EEF3EA"
 				item: {
 					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						Enchantments: [{
-							id: "ars_nouveau:reactive"
-							lvl: 1
-						}]
-						HideFlags: 33
-						display: {
-							Lore: [
-								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-								"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
-								"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-								"{\"text\":\"\"}"
-							]
-							Name: "{\"text\":\"§eQuest Loot\"}"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						"quark:RuneAttached": 1b
-						"quark:RuneColor": {
-							Count: 1b
-							id: "quark:rainbow_rune"
-						}
-						rpgloot.randomize: 0b
-						type: "quest_loot"
 					}
+					id: "vampirism:vampire_fang"
 				}
 				type: "item"
-			}
-			{
-				amount: 50L
-				auto: "disabled"
-				currency: "eternalcurrencies:coins"
-				id: "7974B252FBFFDC2B"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}
-		]
-		subtitle: "{chapter.32.quest.2.subtitle}"
-		tasks: [{
-			id: "7AF3552B26EEF3EA"
-			item: {
-				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+			}]
+			title: "{ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.title}"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["738D0748DDD99C54"]
+			description: [
+				"{ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.description1}"
+				""
+				"{ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.description2}"
+				""
+				""
+				"{ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.image0}"
+			]
+			id: "3503E0F76AF5E597"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "61C763DFF67BD71B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
-				id: "vampirism:vampire_fang"
-			}
-			type: "item"
-		}]
-		title: "{chapter.32.quest.2.title}"
-		x: 4.0d
-		y: 1.0d
-	}]
-	title: "{chapter.32.title}"
+				{
+					id: "1AB8587D950CAE18"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					id: "4E257D421B8B85F7"
+					item: { Count: 8, id: "vampirism:bloody_dark_stone_bricks" }
+					type: "item"
+				}
+				{
+					id: "7EC66C3C6993AF21"
+					item: "vampirism:vampire_blood_bottle"
+					type: "item"
+				}
+				{
+					dimension: "mce:the_vampire_forest"
+					id: "2DD461D021E7715B"
+					type: "dimension"
+				}
+			]
+			title: "{ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.6nvampirism__vampire.title}"
 }

@@ -182,7 +182,7 @@
       "extra_multiplier": {
         "__default": 0.0,
         "expert": 0.2,
-        "master": 0.4
+        "master": 0.5
       }
     },
     "jockey_spawn": {
@@ -309,7 +309,7 @@
         "entity_type": "minecraft:spider",
         "effect": {
           "id": "minecraft:poison",
-          "amplifier": 0,
+          "amplifier": 2,
           "duration": 7.0
         }
       },
@@ -352,12 +352,12 @@
       "health_bonus": {
         "__default": 0.0,
         "expert": 0.1,
-        "master": 0.2
+        "master": 0.3
       },
       "damage_bonus": {
         "__default": 0.0,
         "expert": 0.2,
-        "master": 0.3
+        "master": 0.4
       },
       "excluded_mobs": []
     },

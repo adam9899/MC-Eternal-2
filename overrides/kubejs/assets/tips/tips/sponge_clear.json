@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "If you want to protect your pets from the cold grasp of death, look into Soulbound!"
+    "translate": "tips.mce2.sponge_clear"
   }
 }

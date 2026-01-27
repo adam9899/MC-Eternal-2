@@ -19,6 +19,71 @@
       "experience": 10,
       "offer_item": {
         "count": 1,
+        "item": "ars_additions:fire_resistance_charm"
+      },
+      "payment_item": {
+        "count": 25,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+        {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "offer_item": {
+        "count": 8,
+        "item": "irons_spellbooks:armor_pile"
+      },
+      "payment_item": {
+        "count": 25,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "offer_item": {
+        "count": 1,
+        "item": "ars_additions:wither_protection_charm"
+      },
+      "payment_item": {
+        "count": 35,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "offer_item": {
+        "count": 1,
+        "item": "ars_additions:golden_charm"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "offer_item": {
+        "count": 1,
+        "item": "ars_additions:void_protection_charm"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "offer_item": {
+        "count": 1,
         "item": "majruszsdifficulty:infernal_sponge"
       },
       "payment_item": {

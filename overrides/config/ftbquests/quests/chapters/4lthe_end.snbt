@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "4lthe_end"
 	group: "0194595A09DF4755"
-	icon: "supplementaries:enderman_head"
+	icon: "minecraft:end_crystal"
 	id: "7E48450A71FC0BCF"
 	images: [
 		{
@@ -61,22 +61,11 @@
 		{
 			dependencies: [
 				"5406B7F8719CFC26"
-				"7505BE829530541C"
-				"061E529BEA06143B"
-				"6C5F3002C2B7C68C"
-				"76F98E53D8839A11"
-				"0162F2A9F032B442"
-				"2E84DFAD10C02EB1"
-				"6B99D9083276026D"
-				"635E94D6AB74B9D9"
-				"3EE3E2913158A875"
-				"39BF898B24417156"
-				"516CEC98C05CC1EB"
-				"320F677D8A962681"
+				"25D9F7944BC9A155"
 			]
 			description: [
 				""
-				"&eTip:&r You cannot use a standard &eEye of Ender&r inside an &dAncient Portal Frame"
+				"{ftbquests.chapter.4lthe_end.quest287363028670826703.description1}"
 			]
 			icon: {
 				Count: 1
@@ -97,7 +86,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "0513FC884C2493C4"
-					title: "&eUnlock Title:&r the Conqueror"
+					title: "{ftbquests.chapter.4lthe_end.quest287363028670826703.reward.365913657070359492.title}"
 					type: "command"
 				}
 				{
@@ -111,27 +100,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -139,14 +111,18 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.24.quest.1.subtitle}"
-			title: "{chapter.24.quest.1.title}"
+			subtitle: "{ftbquests.chapter.4lthe_end.quest287363028670826703.subtitle}"
+			tasks: [{
+				id: "179E38248DFCF54C"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.4lthe_end.quest287363028670826703.title}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["5406B7F8719CFC26"]
-			description: ["{image:modpack:textures/end_portal.png width:200 height:110 align:1}"]
+			dependencies: ["03FCEB26ED8148CF"]
+			description: ["{ftbquests.chapter.4lthe_end.quest793348087428637137.image0}"]
 			id: "0B0289E1D66B61D1"
 			rewards: [
 				{
@@ -160,27 +136,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -194,21 +153,13 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.24.quest.2.subtitle}"
+			subtitle: "{ftbquests.chapter.4lthe_end.quest793348087428637137.subtitle}"
 			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "endrem:ancient_portal_frame"
-				}
+				icon: "endrem:ancient_portal_frame"
 				id: "25D1BD3B4F9873F5"
 				observe_type: 0
 				timer: 0L
-				title: "{chapter.24.quest.2.task.1.title}"
+				title: "{ftbquests.chapter.4lthe_end.quest793348087428637137.task.2725167311971972085.title}"
 				to_observe: "endrem:ancient_portal_frame"
 				type: "observation"
 			}]
@@ -217,15 +168,15 @@
 		}
 		{
 			description: [
-				"Getting to &dThe End&r might be a little different than you are used to..."
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description1}"
 				""
-				"In order to open The Portal,"
-				"You will need to seek out &e\"The 12 Legendary Eyes\"&r."
-				"See The Chapter &d\"End Progression\"&r for more information."
-				"{image:modpack:textures/end_portal_room.png width:200 height:110 align:1 fit:true}"
-				"&eTip:&r You cannot use a standard &eEye of Ender&r to locate the portal room. You must use one of &eThe Legendary Eyes!&r"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description2}"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description3}"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description4}"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.image0}"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description5}"
 				""
-				"&6Hint:&r Legendary Eyes do not break! But be careful not to lose one! You can purchase a \"Replica Eye\" once you've collected &eThe Golem Eye&r. It can be purchased from &dThe Quest Shop&r and can be used to safely locate &eThe Portal Room&r"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description6}"
 			]
 			id: "5406B7F8719CFC26"
 			rewards: [
@@ -240,27 +191,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -274,16 +208,16 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Adventure Awaits!"
+			subtitle: "{ftbquests.chapter.4lthe_end.quest6054729026732096550.subtitle}"
 			tasks: [{
 				icon: "cataclysm:cursed_eye"
 				id: "62776C5B79BD955B"
 				structure: "integrated_stronghold:stronghold"
 				type: "structure"
 			}]
-			title: "{chapter.24.quest.3.title}"
+			title: "{ftbquests.chapter.4lthe_end.quest6054729026732096550.title}"
 			x: -2.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B0289E1D66B61D1"]
@@ -300,27 +234,10 @@
 					}
 					id: "ftbquests:lootcrate"
 					tag: {
-						Enchantments: [{
-							id: "ars_nouveau:reactive"
-							lvl: 1
-						}]
 						HideFlags: 33
 						display: {
-							Lore: [
-								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-								"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
-								"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-								"{\"text\":\"\"}"
-							]
-							Name: "{\"text\":\"§eQuest Loot\"}"
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 						}
-						"quark:RuneAttached": 1b
-						"quark:RuneColor": {
-							Count: 1b
-							id: "quark:rainbow_rune"
-						}
-						rpgloot.randomize: 0b
 						type: "quest_loot"
 					}
 				}
@@ -339,7 +256,7 @@
 					id: "minecraft:end_crystal"
 				}
 				id: "4D768685DB45CC67"
-				title: "{chapter.24.quest.4.task.1.title}"
+				title: "{ftbquests.chapter.4lthe_end.quest2683673880863943323.task.5581796697639865447.title}"
 				type: "dimension"
 			}]
 			x: 0.0051020408163253705d
@@ -347,13 +264,13 @@
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: ["{chapter.24.quest.5.description.1}"]
+			description: ["{ftbquests.chapter.4lthe_end.quest5099887963503203233.description1}"]
 			hide_dependency_lines: true
 			id: "46C671151AE613A1"
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/gamestage add @p master"
+					command: "/gamestage add {p} master"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -364,7 +281,7 @@
 						id: "rats:corrupt_rat_skull"
 					}
 					id: "6D587B8039B56B56"
-					title: "{chapter.24.quest.5.reward.2.title}"
+					title: "{ftbquests.chapter.4lthe_end.quest5099887963503203233.reward.7879183338738903894.title}"
 					type: "command"
 				}
 				{
@@ -388,7 +305,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "3E9991B626495847"
-					title: "&eUnlock Title: &rthe Harbinger of Doom"
+					title: "{ftbquests.chapter.4lthe_end.quest5099887963503203233.reward.4510796713300678727.title}"
 					type: "command"
 				}
 				{
@@ -401,7 +318,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{chapter.24.quest.5.subtitle}"
+			subtitle: "{ftbquests.chapter.4lthe_end.quest5099887963503203233.subtitle}"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_egg"
@@ -409,10 +326,48 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "{chapter.24.quest.5.title}"
+			title: "{ftbquests.chapter.4lthe_end.quest5099887963503203233.title}"
 			x: 0.0d
 			y: 1.642857142857146d
 		}
+		{
+			dependencies: [
+				"7505BE829530541C"
+				"061E529BEA06143B"
+				"6C5F3002C2B7C68C"
+				"76F98E53D8839A11"
+				"0162F2A9F032B442"
+				"2E84DFAD10C02EB1"
+				"6B99D9083276026D"
+				"635E94D6AB74B9D9"
+				"3EE3E2913158A875"
+				"39BF898B24417156"
+				"516CEC98C05CC1EB"
+				"320F677D8A962681"
+				"0A715F82561D4E3E"
+				"6868E856376060F7"
+				"44648584BA862F2B"
+				"18F900271434CBB7"
+			]
+			icon: "cataclysm:void_eye"
+			id: "25D9F7944BC9A155"
+			min_required_dependencies: 12
+			rewards: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "05623C4A9C248544"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.4lthe_end.quest2727483265648271701.subtitle}"
+			tasks: [{
+				id: "725C3AEDCE16E509"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.4lthe_end.quest2727483265648271701.title}"
+			x: -2.0d
+			y: -2.0d
+		}
 	]
-	title: "{chapter.24.title}"
+	title: "{ftbquests.chapter.4lthe_end.title}"
 }

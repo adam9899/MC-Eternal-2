@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Collect all 12 of the Legendary Eyes to open a portal to The End. This is no easy task!"
+    "translate": "tips.mce2.eyes"
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Every Curio usually has either a unique ability or bonus stats for the wielder, except for cosmetic ones!"
+    "translate": "tips.mce2.curio"
   }
 }

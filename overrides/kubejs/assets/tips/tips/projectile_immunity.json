@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Some bosses have projectile immunity at a certain distance!"
+    "translate": "tips.mce2.projectile_immunity"
   }
 }

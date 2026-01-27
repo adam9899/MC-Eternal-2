@@ -60,7 +60,10 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.7}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext1"
+				"ftbquests.chapter.mekanism.image.hovertext2"
+			]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -69,7 +72,10 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.8}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext3"
+				"ftbquests.chapter.mekanism.image.hovertext4"
+			]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -78,7 +84,7 @@
 		}
 		{
 			height: 0.25d
-			image: "fairylights:textures/entity/letter/digit_two.png"
+			image: "fairylights:entity/letter/latin_capital_letter_t"
 			rotation: 0.0d
 			width: 0.25d
 			x: -3.55d
@@ -86,7 +92,7 @@
 		}
 		{
 			height: 0.25d
-			image: "fairylights:textures/entity/letter/latin_capital_letter_x.png"
+			image: "fairylights:entity/letter/digit_two"
 			rotation: 0.0d
 			width: 0.25d
 			x: -3.45d
@@ -102,7 +108,7 @@
 		}
 		{
 			height: 0.25d
-			image: "fairylights:textures/entity/letter/latin_capital_letter_x.png"
+			image: "fairylights:entity/letter/digit_three"
 			rotation: 0.0d
 			width: 0.25d
 			x: -6.45d
@@ -110,7 +116,7 @@
 		}
 		{
 			height: 0.25d
-			image: "fairylights:textures/entity/letter/digit_three.png"
+			image: "fairylights:entity/letter/latin_capital_letter_t"
 			rotation: 0.0d
 			width: 0.25d
 			x: -6.55d
@@ -126,7 +132,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{chapter.29.image.15}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext5"]
 			image: "mekanism:textures/block/models/multipart/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -135,7 +141,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{chapter.29.image.16}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext6"]
 			image: "mekanism:textures/block/models/multipart/basic_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -144,7 +150,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{chapter.29.image.17}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext7"]
 			image: "mekanism:textures/block/models/multipart/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -153,7 +159,11 @@
 		}
 		{
 			height: 1.75d
-			hover: ["{chapter.29.image.18}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext8"
+				"ftbquests.chapter.mekanism.image.hovertext9"
+				"ftbquests.chapter.mekanism.image.hovertext10"
+			]
 			image: "mekanism:textures/block/models/multipart/elite_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -162,7 +172,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{chapter.29.image.19}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext11"]
 			image: "mekanism:textures/block/models/multipart/advanced_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -171,7 +181,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["{chapter.29.image.20}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext12"]
 			image: "mekanism:textures/block/models/multipart/elite_pressurized_tube_vertical.png"
 			rotation: 71.25d
 			width: 0.5d
@@ -180,7 +190,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["{chapter.29.image.21}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext13"]
 			image: "mekanism:textures/block/models/multipart/elite_pressurized_tube_vertical.png"
 			rotation: -71.25d
 			width: 0.5d
@@ -189,7 +199,11 @@
 		}
 		{
 			height: 1.5d
-			hover: ["{chapter.29.image.22}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext14"
+				"ftbquests.chapter.mekanism.image.hovertext15"
+				"ftbquests.chapter.mekanism.image.hovertext16"
+			]
 			image: "mekanism:textures/block/models/multipart/elite_mechanical_pipe_vertical.png"
 			rotation: -18.25d
 			width: 0.5d
@@ -198,7 +212,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{chapter.29.image.23}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext17"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -207,7 +221,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{chapter.29.image.24}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext18"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -216,7 +230,11 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{chapter.29.image.25}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext19"
+				"ftbquests.chapter.mekanism.image.hovertext20"
+				"ftbquests.chapter.mekanism.image.hovertext21"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -225,7 +243,10 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.26}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext22"
+				"ftbquests.chapter.mekanism.image.hovertext23"
+			]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -242,7 +263,7 @@
 		}
 		{
 			height: 0.25d
-			image: "fairylights:textures/entity/letter/digit_four.png"
+			image: "fairylights:entity/letter/latin_capital_letter_t"
 			rotation: 0.0d
 			width: 0.25d
 			x: -6.55d
@@ -250,7 +271,7 @@
 		}
 		{
 			height: 0.25d
-			image: "fairylights:textures/entity/letter/latin_capital_letter_x.png"
+			image: "fairylights:entity/letter/digit_four"
 			rotation: 0.0d
 			width: 0.25d
 			x: -6.45d
@@ -258,7 +279,7 @@
 		}
 		{
 			height: 2.5d
-			hover: ["{chapter.29.image.30}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext24"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -267,7 +288,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["{chapter.29.image.31}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext25"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -276,7 +297,11 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.32}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext26"
+				"ftbquests.chapter.mekanism.image.hovertext27"
+				"ftbquests.chapter.mekanism.image.hovertext28"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -285,7 +310,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["{chapter.29.image.33}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext29"]
 			image: "mekanism:textures/block/models/multipart/elite_pressurized_tube.png"
 			rotation: -90.0d
 			width: 0.25d
@@ -350,7 +375,11 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{chapter.29.image.41}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext30"
+				"ftbquests.chapter.mekanism.image.hovertext31"
+				"ftbquests.chapter.mekanism.image.hovertext32"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: -18.25d
 			width: 0.5d
@@ -359,7 +388,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["{chapter.29.image.42}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext33"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: -71.25d
 			width: 0.5d
@@ -368,7 +397,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["{chapter.29.image.43}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext34"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 71.25d
 			width: 0.5d
@@ -377,7 +406,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.44}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext35"]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_mechanical_pipe_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -386,7 +415,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["{chapter.29.image.45}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext36"]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_mechanical_pipe.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -419,7 +448,11 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.49}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext37"
+				"ftbquests.chapter.mekanism.image.hovertext38"
+				"ftbquests.chapter.mekanism.image.hovertext39"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -428,7 +461,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["{chapter.29.image.50}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext40"]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_mechanical_pipe.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -437,7 +470,11 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.51}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext41"
+				"ftbquests.chapter.mekanism.image.hovertext42"
+				"ftbquests.chapter.mekanism.image.hovertext43"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -446,7 +483,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["{chapter.29.image.52}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext44"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -463,7 +500,10 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.54}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext45"
+				"ftbquests.chapter.mekanism.image.hovertext46"
+			]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -472,7 +512,7 @@
 		}
 		{
 			height: 0.25d
-			image: "fairylights:textures/entity/letter/digit_five.png"
+			image: "fairylights:entity/letter/latin_capital_letter_t"
 			rotation: 0.0d
 			width: 0.25d
 			x: -3.55d
@@ -480,7 +520,7 @@
 		}
 		{
 			height: 0.25d
-			image: "fairylights:textures/entity/letter/latin_capital_letter_x.png"
+			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
 			width: 0.25d
 			x: -3.45d
@@ -488,7 +528,11 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.57}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext47"
+				"ftbquests.chapter.mekanism.image.hovertext48"
+				"ftbquests.chapter.mekanism.image.hovertext49"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -497,7 +541,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["{chapter.29.image.58}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext50"]
 			image: "mekanism:textures/block/models/multipart/ultimate_pressurized_tube.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -506,7 +550,11 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.59}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext51"
+				"ftbquests.chapter.mekanism.image.hovertext52"
+				"ftbquests.chapter.mekanism.image.hovertext53"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_logistical_transporter_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -515,7 +563,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["{chapter.29.image.60}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext54"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_logistical_transporter.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -524,7 +572,11 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.29.image.61}"]
+			hover: [
+				"ftbquests.chapter.mekanism.image.hovertext55"
+				"ftbquests.chapter.mekanism.image.hovertext56"
+				"ftbquests.chapter.mekanism.image.hovertext57"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -533,7 +585,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["{chapter.29.image.62}"]
+			hover: ["ftbquests.chapter.mekanism.image.hovertext58"]
 			image: "mekanism:textures/block/models/multipart/ultimate_pressurized_tube.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -605,11 +657,11 @@
 			y: -6.0d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Osmium can only be found in &eThe Great Below!"]
+			description: ["{ftbquests.chapter.mekanism.quest1433234197672907201.description1}"]
 			id: "13E3DEE8C03C51C1"
 			rewards: [
 				{
@@ -625,27 +677,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -653,7 +688,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "{chapter.29.quest.1.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest1433234197672907201.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "6347369334D215FC"
@@ -665,7 +700,7 @@
 		}
 		{
 			dependencies: ["13E3DEE8C03C51C1"]
-			description: ["{chapter.29.quest.2.description.1}"]
+			description: ["{ftbquests.chapter.mekanism.quest4114248314579506838.description1}"]
 			id: "3918BF0B3C42D696"
 			rewards: [
 				{
@@ -681,27 +716,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -741,34 +759,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.3.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest6026442920998421306.subtitle}"
 			tasks: [{
 				id: "0214AA50F3534A0F"
 				item: {
@@ -787,7 +788,11 @@
 		}
 		{
 			dependencies: ["53A239E83D47433A"]
-			description: ["{chapter.29.quest.4.description.1}"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest7014830787626797770.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest7014830787626797770.description2}"
+			]
 			id: "6159AF6F67F80ACA"
 			rewards: [{
 				id: "4D174261EDF963AC"
@@ -795,33 +800,16 @@
 					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
-						Enchantments: [{
-							id: "ars_nouveau:reactive"
-							lvl: 1
-						}]
 						HideFlags: 33
 						display: {
-							Lore: [
-								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-								"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
-								"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-								"{\"text\":\"\"}"
-							]
-							Name: "{\"text\":\"§eQuest Loot\"}"
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 						}
-						"quark:RuneAttached": 1b
-						"quark:RuneColor": {
-							Count: 1b
-							id: "quark:rainbow_rune"
-						}
-						rpgloot.randomize: 0b
 						type: "quest_loot"
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "{chapter.29.quest.4.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest7014830787626797770.subtitle}"
 			tasks: [{
 				id: "0C8F3BC55BE32A8D"
 				item: {
@@ -855,34 +843,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.5.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest4361888834610909971.subtitle}"
 			tasks: [{
 				id: "3CABAC3B1CE025DE"
 				item: {
@@ -916,34 +887,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.6.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest2373192094756856308.subtitle}"
 			tasks: [{
 				id: "30B06138AE4082FF"
 				item: {
@@ -977,34 +931,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.7.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest628214685859027449.subtitle}"
 			tasks: [{
 				id: "03BA3EBCADE55894"
 				item: {
@@ -1038,27 +975,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1099,34 +1019,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.9.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest5505902742316971620.subtitle}"
 			tasks: [{
 				id: "5A9DDCECCB25ECC2"
 				item: {
@@ -1160,34 +1063,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.10.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest4277038929875096893.subtitle}"
 			tasks: [{
 				id: "0A3F6E9C47802377"
 				item: {
@@ -1221,34 +1107,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest438783223539860913.subtitle}"
 			tasks: [{
 				id: "51191D954A8C6286"
 				item: {
@@ -1282,40 +1151,23 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.12.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest8471234820738914769.subtitle}"
 			tasks: [{
 				id: "0F7E7250EA94A60C"
 				item: "mekanism:thermal_evaporation_controller"
 				type: "item"
 			}]
-			title: "{chapter.29.quest.12.title}"
+			title: "{ftbquests.chapter.mekanism.quest8471234820738914769.title}"
 			x: -10.0d
 			y: -3.5d
 		}
@@ -1336,34 +1188,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.13.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest389278235065399263.subtitle}"
 			tasks: [{
 				id: "3ED371B541A99A02"
 				item: {
@@ -1397,27 +1232,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1425,7 +1243,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.29.quest.14.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest901858662158955704.subtitle}"
 			tasks: [{
 				id: "6555A67D47795016"
 				item: {
@@ -1459,34 +1277,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest6069051042671732155.subtitle}"
 			tasks: [{
 				id: "12D22984E3CFC5B5"
 				item: {
@@ -1520,34 +1321,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.16.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest2860311822796415287.subtitle}"
 			tasks: [{
 				id: "74E6199DFC0C88B4"
 				item: {
@@ -1581,34 +1365,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.17.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest6970184268426072563.subtitle}"
 			tasks: [{
 				id: "50DD32D172343473"
 				item: {
@@ -1642,34 +1409,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.18.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest7041722422965124919.subtitle}"
 			tasks: [{
 				id: "128C38ED5F1A0CEB"
 				item: {
@@ -1683,7 +1433,7 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.29.quest.18.title}"
+			title: "{ftbquests.chapter.mekanism.quest7041722422965124919.title}"
 			x: -6.5d
 			y: -5.0d
 		}
@@ -1704,34 +1454,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.19.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest1127042288302594412.subtitle}"
 			tasks: [{
 				id: "727175833E15C31B"
 				item: {
@@ -1745,7 +1478,7 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.29.quest.19.title}"
+			title: "{ftbquests.chapter.mekanism.quest1127042288302594412.title}"
 			x: -8.0d
 			y: -5.5d
 		}
@@ -1766,34 +1499,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.29.quest.20.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest1404790045365047906.subtitle}"
 			tasks: [{
 				id: "668F922BEF2212D1"
 				item: {
@@ -1807,7 +1523,7 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.29.quest.20.title}"
+			title: "{ftbquests.chapter.mekanism.quest1404790045365047906.title}"
 			x: -9.5d
 			y: -5.0d
 		}
@@ -1829,27 +1545,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1892,27 +1591,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1956,27 +1638,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2018,27 +1683,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2081,27 +1729,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2128,7 +1759,11 @@
 		}
 		{
 			dependencies: ["3C888AC8E8B9D313"]
-			description: ["{chapter.29.quest.26.description.1}"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest8669490204753846138.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest8669490204753846138.description2}"
+			]
 			hide_dependency_lines: true
 			id: "785037688614DF7A"
 			rewards: [
@@ -2145,27 +1780,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2207,27 +1825,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2266,27 +1867,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2328,27 +1912,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2390,27 +1957,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2452,27 +2002,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2514,27 +2047,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2575,27 +2091,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2636,27 +2135,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2698,27 +2180,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2759,27 +2224,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2805,7 +2253,7 @@
 		}
 		{
 			dependencies: ["3C888AC8E8B9D313"]
-			description: ["{chapter.29.quest.37.description.1}"]
+			description: ["{ftbquests.chapter.mekanism.quest1012601834664101921.description1}"]
 			hide_dependency_lines: true
 			id: "0E0D7C00EE100821"
 			rewards: [
@@ -2822,27 +2270,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2850,7 +2281,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.37.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest1012601834664101921.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "3E7392206D54F64D"
@@ -2885,27 +2316,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2948,27 +2362,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3012,27 +2409,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3076,27 +2456,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3140,27 +2503,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3204,27 +2550,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3251,7 +2580,11 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: ["{chapter.29.quest.44.description.1}"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest4297332790286763434.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest4297332790286763434.description2}"
+			]
 			hide_dependency_lines: true
 			id: "3BA331678EAE45AA"
 			rewards: [
@@ -3268,27 +2601,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3296,7 +2612,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.44.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest4297332790286763434.subtitle}"
 			tasks: [{
 				id: "60D7ED2525117210"
 				item: {
@@ -3331,27 +2647,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3439,27 +2738,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3547,27 +2829,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3655,27 +2920,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3763,27 +3011,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3863,27 +3094,10 @@
 					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
-						Enchantments: [{
-							id: "ars_nouveau:reactive"
-							lvl: 1
-						}]
 						HideFlags: 33
 						display: {
-							Lore: [
-								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-								"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
-								"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-								"{\"text\":\"\"}"
-							]
-							Name: "{\"text\":\"§eQuest Loot\"}"
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 						}
-						"quark:RuneAttached": 1b
-						"quark:RuneColor": {
-							Count: 1b
-							id: "quark:rainbow_rune"
-						}
-						rpgloot.randomize: 0b
 						type: "quest_loot"
 					}
 				}
@@ -3924,27 +3138,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3971,7 +3168,7 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: ["{chapter.29.quest.52.description.1}"]
+			description: ["{ftbquests.chapter.mekanism.quest7541436297779859193.description1}"]
 			hide_dependency_lines: true
 			id: "68A8905B4967CEF9"
 			rewards: [
@@ -3988,27 +3185,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4016,7 +3196,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.52.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest7541436297779859193.subtitle}"
 			tasks: [{
 				id: "483C31362A5239F9"
 				item: {
@@ -4038,7 +3218,7 @@
 		}
 		{
 			dependencies: ["68A8905B4967CEF9"]
-			description: ["{chapter.29.quest.53.description.1}"]
+			description: ["{ftbquests.chapter.mekanism.quest8084969926853800203.description1}"]
 			id: "7033954FFDD6310B"
 			rewards: [
 				{
@@ -4054,27 +3234,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4082,7 +3245,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.53.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest8084969926853800203.subtitle}"
 			tasks: [{
 				id: "145F943A622FA8C1"
 				item: {
@@ -4101,7 +3264,7 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: ["{chapter.29.quest.54.description.1}"]
+			description: ["{ftbquests.chapter.mekanism.quest7424341907973277127.description1}"]
 			hide_dependency_lines: true
 			id: "67088FA123CB05C7"
 			rewards: [
@@ -4118,27 +3281,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4146,7 +3292,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.54.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest7424341907973277127.subtitle}"
 			tasks: [
 				{
 					id: "2F187ACCDDBB00F7"
@@ -4181,13 +3327,13 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.29.quest.54.title}"
+			title: "{ftbquests.chapter.mekanism.quest7424341907973277127.title}"
 			x: -10.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: ["{chapter.29.quest.55.description.1}"]
+			description: ["{ftbquests.chapter.mekanism.quest1712058195289968082.description1}"]
 			hide_dependency_lines: true
 			id: "17C273DB950E0DD2"
 			rewards: [
@@ -4204,27 +3350,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4232,7 +3361,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.55.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest1712058195289968082.subtitle}"
 			tasks: [{
 				id: "01CB28FAD1E8E4A6"
 				item: {
@@ -4251,7 +3380,11 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: ["{chapter.29.quest.56.description.1}"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest1871311923581373053.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest1871311923581373053.description2}"
+			]
 			hide_dependency_lines: true
 			id: "19F83C47A5054A7D"
 			rewards: [
@@ -4281,27 +3414,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4309,7 +3425,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.56.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest1871311923581373053.subtitle}"
 			tasks: [{
 				id: "0D960EC8F2A4D926"
 				item: {
@@ -4323,13 +3439,13 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.29.quest.56.title}"
+			title: "{ftbquests.chapter.mekanism.quest1871311923581373053.title}"
 			x: -9.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: ["{chapter.29.quest.57.description.1}"]
+			description: ["{ftbquests.chapter.mekanism.quest7101575960888078551.description1}"]
 			hide_dependency_lines: true
 			id: "628DDDB5EE2FF0D7"
 			rewards: [
@@ -4346,27 +3462,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4374,7 +3473,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.57.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest7101575960888078551.subtitle}"
 			tasks: [{
 				id: "189FD88E85BCF488"
 				item: {
@@ -4393,7 +3492,7 @@
 		}
 		{
 			dependencies: ["020DDA9E4187D50D"]
-			description: ["{chapter.29.quest.58.description.1}"]
+			description: ["{ftbquests.chapter.mekanism.quest3895861022808933618.description1}"]
 			hide_dependency_lines: true
 			id: "3610E0F586D104F2"
 			rewards: [
@@ -4410,27 +3509,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4438,7 +3520,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.58.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest3895861022808933618.subtitle}"
 			tasks: [{
 				id: "4FBA4675A27AC29F"
 				item: {
@@ -4460,7 +3542,7 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: ["{chapter.29.quest.59.description.1}"]
+			description: ["{ftbquests.chapter.mekanism.quest8180190831769027148.description1}"]
 			hide_dependency_lines: true
 			id: "7185E0389280024C"
 			rewards: [
@@ -4477,27 +3559,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4505,7 +3570,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{chapter.29.quest.59.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quest8180190831769027148.subtitle}"
 			tasks: [{
 				id: "49AB4B1D0FD43B75"
 				item: {
@@ -4544,27 +3609,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4607,27 +3655,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4670,27 +3701,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4733,27 +3747,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4780,5 +3777,5 @@
 			y: 0.5d
 		}
 	]
-	title: "{chapter.29.title}"
+	title: "{ftbquests.chapter.mekanism.title}"
 }

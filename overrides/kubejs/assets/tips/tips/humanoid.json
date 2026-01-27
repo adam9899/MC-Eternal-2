@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Humanoid monsters can special attack with their weapons!"
+    "translate": "tips.mce2.humanoid"
   }
 }

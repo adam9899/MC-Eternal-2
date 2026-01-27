@@ -1,0 +1,41 @@
+{
+  "type": "tconstruct:alloy",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "tconstruct:config",
+          "prop": "force_integration_materials"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "amount": 270,
+      "fluid": "tinkers_advanced:molten_basalz_signalum"
+    },
+    {
+      "amount": 270,
+      "fluid": "tinkers_advanced:molten_biltz_lumium"
+    },
+    {
+      "amount": 270,
+      "fluid": "tinkers_advanced:molten_blizz_enderium"
+    },
+    {
+      "amount": 270,
+      "fluid": "tinkers_advanced:molten_iridium"
+    }
+  ],
+  "result": {
+    "amount": 45,
+    "fluid": "tinkers_advanced:molten_activated_chromatic_steel"
+  },
+  "temperature": 2720
+}

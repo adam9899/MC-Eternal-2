@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Different Spell Schools have different strengths and weaknesses!"
+    "translate": "tips.mce2.set"
   }
 }

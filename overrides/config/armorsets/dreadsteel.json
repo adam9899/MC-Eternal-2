@@ -29,17 +29,11 @@
     {
       "type": "effect",
       "name": "biomancy:frenzy",
-	  "description": "Frenzy: Increased Attack Speed, Attack Damage and Movement Speed. CONDITION: Warning; known to cause existentialism",
-      "value": 1.0,
+	  "description": "Frenzy: Increased Attack Speed, Attack Damage and Movement Speed.",
+      "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "hideBonusDescription": false,
-	   "conditions": [
-        {
-          "type": "timeRange",
-          "extra": "12610,23041"
-        }
-      ]
+      "hideBonusDescription": false
     }
   ],
   "hideGeneratedTooltip": false

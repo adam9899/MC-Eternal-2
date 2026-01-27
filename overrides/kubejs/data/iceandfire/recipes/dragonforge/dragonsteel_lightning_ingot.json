@@ -3,7 +3,7 @@
   "dragon_type": "lightning",
   "cook_time": 2000,
   "input": {
-    "item": "majruszsdifficulty:enderium_block"
+    "item": "tconstruct:manyullyn_block"
   },
   "blood": {
     "item": "iceandfire:lightning_dragon_blood"

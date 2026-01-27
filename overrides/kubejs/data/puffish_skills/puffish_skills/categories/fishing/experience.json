@@ -1,0 +1,36 @@
+{
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "10 + level * 15"
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:fish_item",
+      "data": {
+        "variables": {
+          "is_fish": {
+            "operations": [
+              {
+                "type": "get_fished_item_stack"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "item": "#fishes"
+                }
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "condition": "is_fish",
+            "expression": "1"
+          }
+        ]
+      }
+    }
+  ]
+}
