@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "The Adventuring Cache can be purchased from the Quest Shop and contains useful items for a new adventurer!"
+    "translate": "tips.mce2.cache1"
   }
 }

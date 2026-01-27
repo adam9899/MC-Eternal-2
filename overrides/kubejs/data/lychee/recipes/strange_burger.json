@@ -3,13 +3,16 @@
   "post": [
     {
       "type": "drop_item",
-      "item": "kubejs:cat_burger",
+      "item": "kubejs:strange_burger",
       "count": 1
     }
   ],
   "item_in": [
     {
       "item": "miners_delight:fish_stew_cup"
+    },
+     {
+      "item": "artifacts:kitty_slippers"
     },
     {
       "item": "delightful:deluxe_cheeseburger"

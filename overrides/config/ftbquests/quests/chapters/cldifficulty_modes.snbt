@@ -32,22 +32,6 @@
 			y: 0.0d
 		}
 		{
-			height: 0.7d
-			image: "rats:textures/item/corrupt_rat_skull.png"
-			rotation: 66.0d
-			width: 0.7d
-			x: -1.0612244897959044d
-			y: -0.34693877551020336d
-		}
-		{
-			height: 0.7d
-			image: "rats:textures/item/golden_rat_skull.png"
-			rotation: -24.0d
-			width: 0.7d
-			x: 2.0204081632653157d
-			y: -0.5510204081632608d
-		}
-		{
 			height: 1.5d
 			image: "iceandfire:textures/item/dragon_sword_lightning.png"
 			rotation: 100.0d
@@ -95,24 +79,6 @@
 			width: 0.6d
 			x: -2.085714285714282d
 			y: -0.48571428571428754d
-		}
-		{
-			dependency: "099610C83CC67421"
-			height: 0.2d
-			image: "illuminations:textures/particle/chorus_petal_0.png"
-			rotation: 90.0d
-			width: 0.2d
-			x: -1.6530612244897966d
-			y: -0.9795918367346914d
-		}
-		{
-			dependency: "7F19D1DB91CD0463"
-			height: 0.2d
-			image: "supplementaries:textures/entity/firefly.png"
-			rotation: 0.0d
-			width: 0.2d
-			x: 1.7142857142857153d
-			y: -0.9387755102040813d
 		}
 		{
 			height: 0.3d
@@ -194,14 +160,14 @@
 	quests: [
 		{
 			description: [
-				"&6&n&lMaster Mode Changes"
-				"&d&l→ &rNew items for sale in &e&oThe Shop!"
-				"&d&l→ &r+1&r Combat Roll Charge"
-				"&d&l→ &rSpace Travel Technology Unlocked!"
-				"&d&l→ &rTeleportation Unlocked! &e(Waystones, Warp Stone)"
-				"&c&l→ &rNew Monsters begin spawning! &e&o(Watch out for &nMutant Monsters&r)"
-				"&c&l→ &rRegional Difficulty increased!"
-				"{image:modpack:textures/master.png width:170 height:100 align:1}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.description1}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.description2}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.description3}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.description4}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.description5}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.description6}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.description7}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.image0}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -209,11 +175,10 @@
 				Count: 1
 				id: "alexsmobs:tab_icon"
 				tag: {
-					DisplayEntityType: "cataclysm:ender_guardian"
+					DisplayEntityType: "cataclysm:ender_golem"
 				}
 			}
 			id: "2CABBF8B8A8F3755"
-			optional: true
 			rewards: [
 				{
 					command: "/titles add {p} titles:master"
@@ -221,16 +186,16 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "6D22DF9F16F321D3"
-					title: "{chapter.7.quest.1.reward.5.title}"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.reward.7864093773720134099.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Questmaster]\",\"color\":\"green\",\"bold\":true},{\"text\":\" {p} just unlocked Master Mode! ★★★\"}]"
+					command: "/tellraw @a [{\"text\":\"\"},{\"translate\":\"message.mce2.cldifficulty_modes.1\",\"color\":\"green\",\"bold\":true},{\"translate\":\"message.mce2.cldifficulty_modes.2\"}]"
 					console: true
 					icon: "farmersdelight:cake_slice"
 					id: "32CDD8391E6706FC"
-					title: "&d&oBragging Rights"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.reward.3660819811956885244.title}"
 					type: "command"
 				}
 				{
@@ -239,7 +204,7 @@
 					console: true
 					icon: "advancementframes:advancement_frame"
 					id: "5919949F4CF3F6DA"
-					title: "&eCelebratory Sounds"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.reward.6420326155705120474.title}"
 					type: "command"
 				}
 				{
@@ -248,7 +213,7 @@
 					console: true
 					icon: "rats:ghost_pirat_ectoplasm"
 					id: "7FABF25282CE4908"
-					title: "&e??"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.reward.9199713100030167304.title}"
 					type: "command"
 				}
 				{
@@ -261,7 +226,7 @@
 						tag: { }
 					}
 					id: "755EC0C5227D7ECB"
-					title: "&6Master Mode"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.reward.8457409103168110283.title}"
 					type: "command"
 				}
 				{
@@ -270,27 +235,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -301,13 +249,13 @@
 					icon: "supplementaries:present_purple"
 					id: "3548001947D5CA39"
 					table_id: 4371317505818580465L
-					title: "&dMaster Mode Cache"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.reward.3839318790912723513.title}"
 					type: "choice"
 				}
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "Master Mode starts when &6The Player&r defeats &5The Ender Dragon"
+			subtitle: "{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.subtitle}"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: {
@@ -316,7 +264,7 @@
 					tag: { }
 				}
 				id: "3D5139F6C946ECC3"
-				title: "&5&lMaster Mode &r&5★★★★"
+				title: "{ftbquests.chapter.cldifficulty_modes.quest3218876964732352341.task.4418376441528773827.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -325,15 +273,15 @@
 		}
 		{
 			description: [
-				"&6&n&lExpert Mode Changes"
-				"&d&l→ &rNew items for sale in &e&oThe &e&oShop!"
-				"&d&l→ &r&e&oThe Great Below&r can now be visited!"
-				"&d&l→ &rExperience from all sources is increased by &225%"
-				"&c&l→ &rNew monsters begin spawning."
-				"&c&l→ &r&e&oRegional Difficulty&r increased!"
+				"{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.description1}"
+				"{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.description2}"
+				"{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.description3}"
+				"{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.description4}"
+				"{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.description5}"
+				"{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.description6}"
 				""
 				""
-				"{image:modpack:textures/expert.png width:170 height:100 align:1}"
+				"{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.image0}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -344,24 +292,23 @@
 				}
 			}
 			id: "099610C83CC67421"
-			optional: true
 			rewards: [
 				{
 					command: "/titles add {p} titles:expert"
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "4D62D854404D9939"
-					title: "{chapter.7.quest.2.reward.6.title}"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.reward.5576257145005775161.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Questmaster]\",\"color\":\"green\",\"bold\":true},{\"text\":\" {p} just unlocked Expert Mode! ★★\"}]"
+					command: "/tellraw @a [{\"text\":\"\"},{\"translate\":\"message.mce2.cldifficulty_modes.1\",\"color\":\"green\",\"bold\":true},{\"translate\":\"message.mce2.cldifficulty_modes.3\"}]"
 					console: true
 					elevate_perms: true
 					icon: "farmersdelight:cake_slice"
 					id: "23945D7FCFD659B9"
-					title: "&d&oBragging Rights"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.reward.2563776891409815993.title}"
 					type: "command"
 				}
 				{
@@ -370,7 +317,7 @@
 					console: true
 					icon: "advancementframes:advancement_frame"
 					id: "4E26632A395FC492"
-					title: "&eCelebratory Sounds"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.reward.5631297417075737746.title}"
 					type: "command"
 				}
 				{
@@ -379,7 +326,7 @@
 					console: true
 					icon: "minecraft:soul_campfire"
 					id: "3AE1D7667E067F9F"
-					title: "&e???"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.reward.4242909159160709023.title}"
 					type: "command"
 				}
 				{
@@ -392,7 +339,7 @@
 						tag: { }
 					}
 					id: "52AC7F0176A6FB53"
-					title: "&6Expert Mode"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.reward.5957276051366673235.title}"
 					type: "command"
 				}
 				{
@@ -401,44 +348,19 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					icon: "supplementaries:present"
-					id: "533F4E8B061AB629"
-					table_id: 1718805351174656688L
-					title: "&eExpert Mode Cache"
-					type: "choice"
-				}
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "Expert Mode starts when &6The Player&r enters &cThe Nether"
+			subtitle: "{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: {
@@ -447,7 +369,7 @@
 					tag: { }
 				}
 				id: "0C99492A5E0F7F81"
-				title: "&c&lExpert Mode &r&c★★"
+				title: "{ftbquests.chapter.cldifficulty_modes.quest690758045047092257.task.907837246207393665.title}"
 				type: "dimension"
 			}]
 			x: 1.6d
@@ -455,8 +377,13 @@
 		}
 		{
 			description: [
-				"{chapter.7.quest.3.description.1}"
-				"{image:modpack:textures/2025-03-14_00.41.44.png width:170 height:100 align:center}"
+				"{ftbquests.chapter.cldifficulty_modes.quest9158582058208789603.description1}"
+				""
+				"{ftbquests.chapter.cldifficulty_modes.quest9158582058208789603.description2}"
+				"{ftbquests.chapter.cldifficulty_modes.quest9158582058208789603.description3}"
+				"{ftbquests.chapter.cldifficulty_modes.quest9158582058208789603.description4}"
+				""
+				"{ftbquests.chapter.cldifficulty_modes.quest9158582058208789603.image0}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -471,11 +398,11 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/gamestage add @p normal"
+					command: "/gamestage add {p} normal"
 					console: true
 					icon: "rats:rat_skull"
 					id: "062D5DD2C84B35D2"
-					title: "{chapter.7.quest.3.reward.2.title}"
+					title: "{ftbquests.chapter.cldifficulty_modes.quest9158582058208789603.reward.445115098064434642.title}"
 					type: "command"
 				}
 				{
@@ -486,14 +413,14 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.7.quest.3.subtitle}"
+			subtitle: "{ftbquests.chapter.cldifficulty_modes.quest9158582058208789603.subtitle}"
 			tasks: [{
 				advancement: "minecraft:adventure/sleep_in_bed"
 				criterion: ""
 				disable_toast: true
 				icon: "minecraft:ender_eye"
 				id: "4B4BA4F4F7D280D8"
-				title: "&9Normal Mode ★"
+				title: "{ftbquests.chapter.cldifficulty_modes.quest9158582058208789603.task.5425611548134637784.title}"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -501,13 +428,18 @@
 		}
 		{
 			description: [
-				"{chapter.7.quest.4.description.1}"
-				"{image:modpack:textures/barry.png width:100 height:100 align:1}"
-				"Barry in Normal Mode"
-				"{image:modpack:textures/barry-the-rat-demon-transparent-no-white.png width:100 height:100 align:1}"
-				"Barry in Expert Mode"
-				"{image:modpack:textures/barry-the-rat-uwu-transparent-no-white.png width:100 height:100 align:1}"
-				"Barry in Master Mode"
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.description1}"
+				""
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.description2}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.description3}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.description4}"
+				""
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.image0}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.description5}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.image2}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.description6}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.image4}"
+				"{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.description7}"
 			]
 			icon: {
 				Count: 1
@@ -515,17 +447,18 @@
 				tag: { }
 			}
 			id: "2D1F7756EA4BE2CB"
+			optional: true
 			shape: "rsquare"
-			subtitle: "Learn About Difficulty Modes!"
+			subtitle: "{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.subtitle}"
 			tasks: [{
 				id: "7DBD819B4A70A424"
-				title: "&eInfo Quest &r(Right-Click To Complete)"
+				title: "{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.task.9060540529308116004.title}"
 				type: "checkmark"
 			}]
-			title: "&6&lDifficulty Modes - &r&eInformation! &l⬅"
+			title: "{ftbquests.chapter.cldifficulty_modes.quest3251448671166522059.title}"
 			x: -0.024489795918370305d
 			y: -0.21020408163264648d
 		}
 	]
-	title: "{chapter.7.title}"
+	title: "{ftbquests.chapter.cldifficulty_modes.title}"
 }

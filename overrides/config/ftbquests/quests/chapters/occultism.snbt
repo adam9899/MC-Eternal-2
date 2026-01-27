@@ -1,0 +1,5482 @@
+{
+	autofocus_id: "362EF4C38452D51E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "701563945253F512"
+	icon: "occultism:ritual_dummy/summon_demonic_wife"
+	id: "4F445883DAC2433C"
+	images: [
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/gold_barrel_bottom"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/0"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/5"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/12"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/0"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/1"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/12"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/1"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/8"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/9"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/3"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/0"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/11"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/1"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/1"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/0"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/9"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/6"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/7"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/4"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/10"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/candle"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/candle"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/candle"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/candle"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency: "53C751FAB47C0453"
+			height: 35.0d
+			image: "modpack:textures/occultismtop.png"
+			rotation: 0.0d
+			width: 35.0d
+			x: 2.0d
+			y: -23.0d
+		}
+		{
+			height: 35.0d
+			image: "modpack:textures/occultismbottom.png"
+			rotation: 0.0d
+			width: 35.0d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependency: "3272A212753DAD8A"
+			height: 8.0d
+			image: "modpack:textures/occultismcrusher.png"
+			order: 10
+			rotation: 0.0d
+			width: 8.0d
+			x: -7.0d
+			y: -6.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"{ftbquests.chapter.occultism.quest3904327047552619806.description1}"
+				"{ftbquests.chapter.occultism.quest3904327047552619806.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest3904327047552619806.description3}"
+				"{@pagebreak}"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:dictionary_of_spirits"
+				tag: {
+					"modonomicon:book_id": "occultism:dictionary_of_spirits"
+				}
+			}
+			id: "362EF4C38452D51E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "011E87EFB7EE96B6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0C17EBB4F325EE05"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.occultism.quest3904327047552619806.subtitle}"
+			tasks: [{
+				id: "6EC3CC6930C1BB4A"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest3904327047552619806.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["362EF4C38452D51E"]
+			description: [
+				"{ftbquests.chapter.occultism.quest352171864690532200.description1}"
+				"{ftbquests.chapter.occultism.quest352171864690532200.description2}"
+			]
+			id: "04E32A71EEC41F68"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "063081D690FDA047"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest352171864690532200.subtitle}"
+			tasks: [{
+				id: "5B1B04CDDFD5B1ED"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest352171864690532200.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04E32A71EEC41F68"]
+			description: [
+				"{ftbquests.chapter.occultism.quest8381513675094618102.description1}"
+				"{ftbquests.chapter.occultism.quest8381513675094618102.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest8381513675094618102.description3}"
+				"{ftbquests.chapter.occultism.quest8381513675094618102.description4}"
+			]
+			icon: "occultism:spirit_fire"
+			id: "74511E47C417EFF6"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "530F7E15255599AE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest8381513675094618102.subtitle}"
+			tasks: [
+				{
+					id: "5549E7BF111D9CA1"
+					title: "{ftbquests.chapter.occultism.quest8381513675094618102.task.6145697974335675553.title}"
+					type: "checkmark"
+				}
+				{
+					count: 28L
+					id: "5815243FF08A39F1"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest8381513675094618102.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74511E47C417EFF6"]
+			description: [
+				"{ftbquests.chapter.occultism.quest653173348705175433.description1}"
+				"{ftbquests.chapter.occultism.quest653173348705175433.description2}"
+				"{ftbquests.chapter.occultism.quest653173348705175433.description3}"
+				"{ftbquests.chapter.occultism.quest653173348705175433.description4}"
+				""
+				"{ftbquests.chapter.occultism.quest653173348705175433.description5}"
+				"{@pagebreak}"
+			]
+			icon: "occultism:candle_white"
+			id: "091089B332530789"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6C16AAF60D752C61"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest653173348705175433.subtitle}"
+			tasks: [
+				{
+					id: "61CF9DEADEB9AB58"
+					item: {
+						Count: 1
+						id: "occultism:butcher_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C8285C17923C527"
+					item: "occultism:tallow"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "40462F6AD136630E"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest653173348705175433.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["091089B332530789"]
+			description: [
+				"{ftbquests.chapter.occultism.quest9220715628425286255.description1}"
+				"{ftbquests.chapter.occultism.quest9220715628425286255.description2}"
+			]
+			id: "7FF69002B72E926F"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "1F1B0B0E71D3554C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest9220715628425286255.subtitle}"
+			tasks: [{
+				id: "3768D019AB741869"
+				title: "{ftbquests.chapter.occultism.quest9220715628425286255.task.3992669878333216873.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest9220715628425286255.title}"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["091089B332530789"]
+			description: [
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description1}"
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description3}"
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description4}"
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description5}"
+			]
+			icon: "occultism:otherworld_sapling"
+			id: "10F0C46128C30040"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4C9F9F31D50D9C4E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5C2E265B9A93FC3F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest1220691420592144448.subtitle}"
+			tasks: [
+				{
+					id: "1453CDE0DFB8F785"
+					item: {
+						Count: 1
+						id: "occultism:otherworld_sapling_natural"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "237258F06FD1E437"
+					item: "occultism:otherworld_log"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest1220691420592144448.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10F0C46128C30040"]
+			description: [
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description1}"
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description2}"
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description3}"
+				""
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description4}"
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description5}"
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description6}"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:chalk_white"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "19892BC1249CF884"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0000FB10E0509D97"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest1840050031300507780.subtitle}"
+			tasks: [
+				{
+					count: 3L
+					id: "142D5A3D0D84B5F5"
+					item: "occultism:otherworld_ashes"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "12A9D95D7AF109B4"
+					item: "occultism:burnt_otherstone"
+					type: "item"
+				}
+				{
+					id: "5289D6B3F9386FED"
+					item: "occultism:chalk_white_impure"
+					type: "item"
+				}
+				{
+					id: "4AA04BFF56022977"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest1840050031300507780.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19892BC1249CF884"]
+			description: [
+				"{ftbquests.chapter.occultism.quest2607923544294834026.description1}"
+				"{ftbquests.chapter.occultism.quest2607923544294834026.description2}"
+			]
+			icon: "occultism:golden_sacrificial_bowl"
+			id: "243134A56B123F6A"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "76333BAD33198545"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest2607923544294834026.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "4CB235F330C65C36"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "23930D9E97FCEBC6"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest2607923544294834026.title}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["243134A56B123F6A"]
+			description: [
+				"{ftbquests.chapter.occultism.quest267136015529809870.description1}"
+				"{ftbquests.chapter.occultism.quest267136015529809870.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest267136015529809870.description3}"
+				"{ftbquests.chapter.occultism.quest267136015529809870.description4}"
+				"{ftbquests.chapter.occultism.quest267136015529809870.description5}"
+				""
+				"{ftbquests.chapter.occultism.quest267136015529809870.description6}"
+				"{ftbquests.chapter.occultism.quest267136015529809870.description7}"
+				""
+				"{ftbquests.chapter.occultism.quest267136015529809870.description8}"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:book_of_binding_bound_foliot"
+				tag: {
+					spiritName: "Azursirthyre"
+				}
+			}
+			id: "03B50ECA705E17CE"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "0363D0E1A55D2480"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest267136015529809870.subtitle}"
+			tasks: [
+				{
+					id: "1E8F0086C4C3D52D"
+					item: "occultism:taboo_book"
+					type: "item"
+				}
+				{
+					id: "1FD4611A6D019252"
+					item: "occultism:purified_ink"
+					type: "item"
+				}
+				{
+					id: "6EF3D61B2985067E"
+					item: "occultism:awakened_feather"
+					type: "item"
+				}
+				{
+					id: "2EC3A8665715661B"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+				{
+					id: "4F07083EC7499A46"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Azursirthyre"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest267136015529809870.title}"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03B50ECA705E17CE"]
+			description: [
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description1}"
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description2}"
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description3}"
+				""
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description4}"
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description5}"
+			]
+			icon: "occultism:ritual_dummy/summon_foliot_crusher"
+			id: "3272A212753DAD8A"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "525C268E2D552D13"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "70B9FADC4EA6E61E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.occultism.quest3635146049401499018.subtitle}"
+			tasks: [
+				{
+					id: "5D115A2C0275315F"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "0C342F2216D442C9"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "1EF5F99FC45B061F"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "612E42594563B538"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:raw_materials/silver"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest3635146049401499018.task.7002607421791384888.title}"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:husbandry/tame_an_animal"
+					criterion: ""
+					icon: "occultism:ritual_dummy/summon_foliot_crusher"
+					id: "33CAE838C82B8A65"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest3635146049401499018.title}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03B50ECA705E17CE"]
+			description: [
+				"{ftbquests.chapter.occultism.quest7205753566080230259.description1}"
+				"{ftbquests.chapter.occultism.quest7205753566080230259.description2}"
+				"{ftbquests.chapter.occultism.quest7205753566080230259.description3}"
+			]
+			id: "63FFFAB0CD376373"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "370FF0200F8CADF1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest7205753566080230259.subtitle}"
+			tasks: [{
+				id: "066EAACE47F7B2A6"
+				title: "{ftbquests.chapter.occultism.quest7205753566080230259.task.463495614613140134.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7205753566080230259.title}"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3272A212753DAD8A"]
+			description: [
+				"{ftbquests.chapter.occultism.quest8273544086428870792.description1}"
+				"{ftbquests.chapter.occultism.quest8273544086428870792.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest8273544086428870792.description3}"
+				"{ftbquests.chapter.occultism.quest8273544086428870792.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:chalk_gold"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72D18882F1206888"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "666D86D6F6B6B9F3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest8273544086428870792.subtitle}"
+			tasks: [
+				{
+					id: "37A9C88A550DC8F0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/gold"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest8273544086428870792.task.4010957439608146160.title}"
+					type: "item"
+				}
+				{
+					id: "27D784DFDD14DF2E"
+					item: "occultism:chalk_gold_impure"
+					type: "item"
+				}
+				{
+					id: "429FEB7C93494749"
+					item: {
+						Count: 1
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest8273544086428870792.title}"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72D18882F1206888"]
+			description: [
+				"{ftbquests.chapter.occultism.quest1958989025882807954.description1}"
+				"{ftbquests.chapter.occultism.quest1958989025882807954.description2}"
+			]
+			id: "1B2FBA23CEA21E92"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "5739B2EAFFE77F66"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest1958989025882807954.subtitle}"
+			tasks: [{
+				id: "1AA627C791602E74"
+				title: "{ftbquests.chapter.occultism.quest1958989025882807954.task.1920266029211070068.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest1958989025882807954.title}"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72D18882F1206888"]
+			description: [
+				"{ftbquests.chapter.occultism.quest3506934891250771886.description1}"
+				"{ftbquests.chapter.occultism.quest3506934891250771886.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest3506934891250771886.description3}"
+			]
+			icon: "occultism:storage_controller"
+			id: "30AB22B3FB6CE7AE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "56723F903EB07579"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "08251998B702D1E2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.occultism.quest3506934891250771886.subtitle}"
+			tasks: [
+				{
+					id: "6D04A993327AD55A"
+					item: {
+						Count: 1
+						id: "occultism:dimensional_matrix"
+						tag: {
+							spiritName: "Nidvyrmorn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "12973648A0A402AA"
+					item: "occultism:storage_controller_base"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "48E2003527B0F9BA"
+					item: "occultism:storage_controller"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest3506934891250771886.title}"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["30AB22B3FB6CE7AE"]
+			description: [
+				"{ftbquests.chapter.occultism.quest6569490076782776063.description1}"
+				"{ftbquests.chapter.occultism.quest6569490076782776063.description2}"
+			]
+			id: "5B2B846B0E174EFF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6C000722A482257A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "476D9EE5114A236A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest6569490076782776063.subtitle}"
+			tasks: [{
+				id: "2FDCC29A2B702939"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6569490076782776063.title}"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5B2B846B0E174EFF"]
+			description: [
+				"{ftbquests.chapter.occultism.quest982204521289093032.description1}"
+				"{ftbquests.chapter.occultism.quest982204521289093032.description2}"
+			]
+			id: "0DA17DCEE4380FA8"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "0641AAE639F09D41"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5D55313705D87CA4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest982204521289093032.subtitle}"
+			tasks: [{
+				id: "22200FB25E39FC1B"
+				item: "occultism:storage_stabilizer_tier2"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest982204521289093032.title}"
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0DA17DCEE4380FA8"]
+			description: [
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description1}"
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description2}"
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description3}"
+				""
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description4}"
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description5}"
+			]
+			id: "3BD968E5AB3B1F80"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7C467F4DDE0E3B8F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "416587D6EF415C85"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest4312593453813538688.subtitle}"
+			tasks: [{
+				id: "090C52BCCD288E07"
+				item: "occultism:storage_stabilizer_tier3"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest4312593453813538688.title}"
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3BD968E5AB3B1F80"]
+			description: [
+				"{ftbquests.chapter.occultism.quest522835088136680408.description1}"
+				"{ftbquests.chapter.occultism.quest522835088136680408.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest522835088136680408.description3}"
+				"{ftbquests.chapter.occultism.quest522835088136680408.description4}"
+			]
+			id: "07417BBE187F33D8"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "7F6D8FC7A8E95D87"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "38C95D3FDFDC2C79"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest522835088136680408.subtitle}"
+			tasks: [{
+				id: "619A280401B25EC2"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest522835088136680408.title}"
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["30AB22B3FB6CE7AE"]
+			description: [
+				"{ftbquests.chapter.occultism.quest7752461306823572143.description1}"
+				"{ftbquests.chapter.occultism.quest7752461306823572143.description2}"
+			]
+			id: "6B96467BF82DFAAF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "14E23293438ED252"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "10191E9837EEC0F2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest7752461306823572143.subtitle}"
+			tasks: [{
+				id: "1EBA8754BA164E06"
+				item: {
+					Count: 1
+					id: "occultism:stable_wormhole"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7752461306823572143.title}"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6B96467BF82DFAAF"]
+			description: [
+				"{ftbquests.chapter.occultism.quest8040964005359393824.description1}"
+				"{ftbquests.chapter.occultism.quest8040964005359393824.description2}"
+			]
+			id: "6F973E28F7261C20"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "06ABC23AEF5C2842"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "23F6B52C2AD56212"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest8040964005359393824.subtitle}"
+			tasks: [{
+				id: "39AB2C0774E3EEE2"
+				item: {
+					Count: 1
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest8040964005359393824.title}"
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6B96467BF82DFAAF"]
+			description: ["{ftbquests.chapter.occultism.quest6340534686831243291.description1}"]
+			id: "57FE1AB43E9E701B"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "3BA8156F466E9F7D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest6340534686831243291.subtitle}"
+			tasks: [{
+				id: "4FC7812060FD7C2D"
+				title: "{ftbquests.chapter.occultism.quest6340534686831243291.task.5748705425427889197.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6340534686831243291.title}"
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6F973E28F7261C20"]
+			description: ["{ftbquests.chapter.occultism.quest8275902639326351017.description1}"]
+			id: "72D9E99A54C3CEA9"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "130501DD6BA39996"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest8275902639326351017.subtitle}"
+			tasks: [{
+				id: "3648C051E0812B5F"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest8275902639326351017.title}"
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2B5918000CFDC02A"]
+			description: [
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description1}"
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description3}"
+				""
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description4}"
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description5}"
+			]
+			id: "31E0B093AC5FE579"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "28B96A6D98CFCD77"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "59A64BE88BF3C959"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest3594066650940302713.subtitle}"
+			tasks: [{
+				id: "5A6F1A6C4C326794"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "occultism:otherworld_goggles"
+					}
+				}
+				match_nbt: false
+				title: "{ftbquests.chapter.occultism.quest3594066650940302713.task.6516456238265558932.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest3594066650940302713.title}"
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["72D18882F1206888"]
+			description: [
+				"{ftbquests.chapter.occultism.quest6431773933614730601.description1}"
+				""
+				"{ftbquests.chapter.occultism.quest6431773933614730601.description2}"
+				"{ftbquests.chapter.occultism.quest6431773933614730601.description3}"
+				""
+				"{ftbquests.chapter.occultism.quest6431773933614730601.description4}"
+			]
+			id: "59424050CCB90D69"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "72BC69199A69A4CB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest6431773933614730601.subtitle}"
+			tasks: [{
+				id: "34B435B8AF1A69D3"
+				title: "{ftbquests.chapter.occultism.quest6431773933614730601.task.3797719453108169171.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6431773933614730601.title}"
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["72D18882F1206888"]
+			description: [
+				"{ftbquests.chapter.occultism.quest3123554205055172650.description1}"
+				"{ftbquests.chapter.occultism.quest3123554205055172650.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest3123554205055172650.description3}"
+				"{ftbquests.chapter.occultism.quest3123554205055172650.description4}"
+			]
+			id: "2B5918000CFDC02A"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "3F3EB1BC4DC1037D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest3123554205055172650.subtitle}"
+			tasks: [{
+				id: "433A2EF419EF26DF"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest3123554205055172650.title}"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["31E0B093AC5FE579"]
+			description: [
+				"{ftbquests.chapter.occultism.quest6547098498407627598.description1}"
+				"{ftbquests.chapter.occultism.quest6547098498407627598.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest6547098498407627598.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:infused_pickaxe"
+				tag: {
+					Damage: 0
+					spiritName: "Jagkornwyrm"
+				}
+			}
+			id: "5ADBF76573147B4E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "54E711286274A2B7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "41ED25DAC470A5BF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest6547098498407627598.subtitle}"
+			tasks: [
+				{
+					id: "5794606999D019EE"
+					item: "occultism:spirit_attuned_pickaxe_head"
+					type: "item"
+				}
+				{
+					id: "7418D99FCDA61ADA"
+					item: {
+						Count: 1
+						id: "occultism:infused_pickaxe"
+						tag: {
+							Damage: 0
+							spiritName: "Jagkornwyrm"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest6547098498407627598.title}"
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D06AE88847D9D31"]
+			description: ["{ftbquests.chapter.occultism.quest7194615247323750013.description1}"]
+			id: "63D86872E0575E7D"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7EC0877E9D272508"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3E01083E5FE7A70E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest7194615247323750013.subtitle}"
+			tasks: [{
+				id: "22E2CC84E5EA1CB3"
+				item: "occultism:dimensional_mineshaft"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7194615247323750013.title}"
+			x: -6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5ADBF76573147B4E"]
+			description: [
+				"{ftbquests.chapter.occultism.quest938629473714937137.description1}"
+				""
+				"{ftbquests.chapter.occultism.quest938629473714937137.description2}"
+				"{ftbquests.chapter.occultism.quest938629473714937137.description3}"
+				""
+				"{ftbquests.chapter.occultism.quest938629473714937137.description4}"
+			]
+			icon: "occultism:iesnium_ingot"
+			id: "0D06AE88847D9D31"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "678A954E21173E9E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "371C026E87CF16C4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest938629473714937137.subtitle}"
+			tasks: [
+				{
+					id: "4C62A6D6308F1E3E"
+					item: {
+						Count: 1
+						id: "occultism:divination_rod"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7B8F1C4589819D90"
+					item: "occultism:raw_iesnium"
+					type: "item"
+				}
+				{
+					id: "46162CC04440CEF9"
+					item: "occultism:iesnium_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest938629473714937137.title}"
+			x: -9.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["63D86872E0575E7D"]
+			description: [
+				"{ftbquests.chapter.occultism.quest4587507024651630646.description1}"
+				"{ftbquests.chapter.occultism.quest4587507024651630646.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest4587507024651630646.description3}"
+				"{ftbquests.chapter.occultism.quest4587507024651630646.description4}"
+			]
+			id: "3FAA195550F83836"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7C5F1AB70D2E226C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5DF1F314C466AE00"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest4587507024651630646.subtitle}"
+			tasks: [{
+				id: "156A9385FB4A2922"
+				item: {
+					Count: 1
+					id: "occultism:miner_djinni_ores"
+					tag: {
+						Damage: 0
+						maxMiningTime: 300
+						rollsPerOperation: 1
+						spiritName: "Creomaraclyne"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest4587507024651630646.title}"
+			x: -4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["63D86872E0575E7D"]
+			description: [
+				"{ftbquests.chapter.occultism.quest7040476626497107504.description1}"
+				"{ftbquests.chapter.occultism.quest7040476626497107504.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest7040476626497107504.description3}"
+			]
+			id: "61B4CC3093CCF630"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "410A5BF87182A276"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5C5692C5FE1DC36F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest7040476626497107504.subtitle}"
+			tasks: [{
+				id: "101DCD09DC358FF8"
+				item: {
+					Count: 1
+					id: "occultism:miner_afrit_deeps"
+					tag: {
+						Damage: 0
+						maxMiningTime: 200
+						rollsPerOperation: 1
+						spiritName: "Sigrjorvin"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7040476626497107504.title}"
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["63D86872E0575E7D"]
+			description: [
+				"{ftbquests.chapter.occultism.quest2129076153642739630.description1}"
+				"{ftbquests.chapter.occultism.quest2129076153642739630.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest2129076153642739630.description3}"
+			]
+			id: "1D8BFF7B3DA167AE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "50ABACCC979ADBD2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1910AFFDC9664970"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest2129076153642739630.subtitle}"
+			tasks: [{
+				id: "3D13D33838EF6EF3"
+				item: {
+					Count: 1
+					id: "occultism:miner_marid_master"
+					tag: {
+						Damage: 0
+						maxMiningTime: 100
+						rollsPerOperation: 1
+						spiritName: "Jarzoirmur"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest2129076153642739630.title}"
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3272A212753DAD8A"]
+			description: [
+				"{ftbquests.chapter.occultism.quest844742277781913215.description1}"
+				"{ftbquests.chapter.occultism.quest844742277781913215.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest844742277781913215.description3}"
+				"{ftbquests.chapter.occultism.quest844742277781913215.description4}"
+			]
+			id: "0BB920A041F1FE7F"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "6A796EADC3745B73"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest844742277781913215.subtitle}"
+			tasks: [{
+				id: "5D05D51AF47F6F75"
+				title: "{ftbquests.chapter.occultism.quest844742277781913215.task.6702997932158709621.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest844742277781913215.title}"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03B50ECA705E17CE"]
+			description: [
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description1}"
+				""
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description2}"
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description3}"
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description4}"
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description5}"
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description6}"
+				""
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description7}"
+			]
+			id: "5882C212CBF2FCC7"
+			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "610EDBBD36A36A4D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1D5F4F5E5CA78872"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest6377873408296942791.subtitle}"
+			tasks: [
+				{
+					id: "7AB2D444E409BDFF"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+				{
+					id: "1B25E22EEF837BB0"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+				{
+					id: "6A0F7CD2F7257378"
+					item: "occultism:book_of_binding_afrit"
+					type: "item"
+				}
+				{
+					id: "64BBF7888CDD2486"
+					item: "occultism:book_of_binding_marid"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest6377873408296942791.title}"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3272A212753DAD8A"]
+			description: [
+				"{ftbquests.chapter.occultism.quest20701095601415897.description1}"
+				"{ftbquests.chapter.occultism.quest20701095601415897.description2}"
+			]
+			id: "00498B8969C8A6D9"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "65AFEB2D29365ED8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest20701095601415897.subtitle}"
+			tasks: [{
+				id: "6FBA61C667977669"
+				title: "{ftbquests.chapter.occultism.quest20701095601415897.task.8050854788647581289.title}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["59424050CCB90D69"]
+			description: [
+				"{ftbquests.chapter.occultism.quest4481823838795305522.description1}"
+				""
+				"{ftbquests.chapter.occultism.quest4481823838795305522.description2}"
+			]
+			id: "3E32A30921459232"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "576127058B1A3A53"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0879838EF808EB52"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest4481823838795305522.subtitle}"
+			tasks: [{
+				id: "0BEAA88296E53E8B"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest4481823838795305522.title}"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["59424050CCB90D69"]
+			description: [
+				"{ftbquests.chapter.occultism.quest7233672429995629906.description1}"
+				""
+				"{ftbquests.chapter.occultism.quest7233672429995629906.description2}"
+				"{ftbquests.chapter.occultism.quest7233672429995629906.description3}"
+			]
+			id: "64632ABFDB6D1D52"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "4CC22078470C9194"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "280C6C4F53B776FE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest7233672429995629906.subtitle}"
+			tasks: [{
+				id: "036E939EE01F8D09"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7233672429995629906.title}"
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3E32A30921459232"]
+			description: ["{ftbquests.chapter.occultism.quest5797188896009056471.description1}"]
+			id: "5073C0960A7570D7"
+			optional: true
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "24DDA003E3E499A4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest5797188896009056471.subtitle}"
+			tasks: [{
+				id: "7B9CF920A5ACAD5F"
+				item: {
+					Count: 1
+					id: "enderio:dark_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest5797188896009056471.title}"
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3E32A30921459232"
+				"64632ABFDB6D1D52"
+			]
+			description: [
+				"{ftbquests.chapter.occultism.quest5286806532366273216.description1}"
+				"{ftbquests.chapter.occultism.quest5286806532366273216.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest5286806532366273216.description3}"
+			]
+			id: "495E8287CDE80AC0"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "500734C1B7A15295"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "749FA3ED1036C16C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest5286806532366273216.subtitle}"
+			tasks: [{
+				id: "1292FEC2B008557D"
+				item: {
+					Count: 1
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest5286806532366273216.title}"
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"3E32A30921459232"
+				"495E8287CDE80AC0"
+			]
+			description: [
+				"{ftbquests.chapter.occultism.quest4044484924216062876.description1}"
+				"{ftbquests.chapter.occultism.quest4044484924216062876.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest4044484924216062876.description3}"
+				"{ftbquests.chapter.occultism.quest4044484924216062876.description4}"
+			]
+			id: "3820E59C2752339C"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5ED0BAC02CAE197C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5EEC2E692622F539"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.occultism.quest4044484924216062876.subtitle}"
+			tasks: [{
+				id: "7E9C69082501CD74"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest4044484924216062876.title}"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["495E8287CDE80AC0"]
+			description: [
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description1}"
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description3}"
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description4}"
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description5}"
+				""
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description6}"
+			]
+			id: "53C751FAB47C0453"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "21D76B24B65890AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest6036883962725139539.subtitle}"
+			tasks: [{
+				id: "4284073BEEA0F0B5"
+				title: "{ftbquests.chapter.occultism.quest6036883962725139539.task.4792963857417040053.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6036883962725139539.title}"
+			x: 6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["53C751FAB47C0453"]
+			dependency_requirement: "all_started"
+			description: [
+				"{ftbquests.chapter.occultism.quest7051665384546628144.description1}"
+				""
+				"{ftbquests.chapter.occultism.quest7051665384546628144.description2}"
+				"{ftbquests.chapter.occultism.quest7051665384546628144.description3}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "61DC8C4E50D1F230"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "281EBF40775E6EC2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.occultism.quest7051665384546628144.subtitle}"
+			tasks: [{
+				id: "3645ED5EA6713364"
+				title: "{ftbquests.chapter.occultism.quest7051665384546628144.task.3910792842216289124.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7051665384546628144.title}"
+			x: 0.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["61DC8C4E50D1F230"]
+			description: [
+				"{ftbquests.chapter.occultism.quest6648222650915510486.description1}"
+				"{ftbquests.chapter.occultism.quest6648222650915510486.description2}"
+			]
+			icon: "occultism:ritual_dummy/possess_enderman"
+			id: "5C433B46F78658D6"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "29D6E49CC6AD2454"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.occultism.quest6648222650915510486.subtitle}"
+			tasks: [{
+				id: "43BE361BC66D2095"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6648222650915510486.title}"
+			x: -7.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["61DC8C4E50D1F230"]
+			description: ["{ftbquests.chapter.occultism.quest6742842450344683425.description1}"]
+			icon: "occultism:ritual_dummy/summon_djinni_crusher"
+			id: "5D93637BC53827A1"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "686850534B31D0A0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.occultism.quest6742842450344683425.subtitle}"
+			tasks: [{
+				id: "05F7B1A0314ECC31"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6742842450344683425.title}"
+			x: 7.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["61DC8C4E50D1F230"]
+			description: [
+				"{ftbquests.chapter.occultism.quest6113844826794729525.description1}"
+				"{ftbquests.chapter.occultism.quest6113844826794729525.description2}"
+			]
+			icon: "occultism:ritual_dummy/summon_demonic_wife"
+			id: "54D8BD7A38F5A035"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "67EFFDFF2BA0E300"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.occultism.quest6113844826794729525.subtitle}"
+			tasks: [{
+				id: "1CDDC643A8596E22"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6113844826794729525.title}"
+			x: 0.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["{ftbquests.chapter.occultism.quest7245643308122934904.description1}"]
+			icon: "vanillabackport:dried_ghast"
+			id: "648DB2331DDA8E78"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "236FB67725257509"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2BB315DB2B0AC80D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest7245643308122934904.subtitle}"
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "715FA3074B1551C8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.occultism.quest7245643308122934904.title}"
+			x: -5.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["{ftbquests.chapter.occultism.quest2550208942984800839.description1}"]
+			icon: "minecraft:ender_pearl"
+			id: "23642985A5A22A47"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "566FEE94C746AB4B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "72B6EF4AA878EBAA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest2550208942984800839.subtitle}"
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "24238C14EF2853E8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.occultism.quest2550208942984800839.title}"
+			x: -9.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["{ftbquests.chapter.occultism.quest2787037916820239546.description1}"]
+			icon: "minecraft:phantom_membrane"
+			id: "26AD8C380F9D74BA"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4991982FF14850E9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0931C67062D5272E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest2787037916820239546.subtitle}"
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "3DD956A54B96744F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.occultism.quest2787037916820239546.title}"
+			x: -9.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["{ftbquests.chapter.occultism.quest4361000769903417863.description1}"]
+			icon: "sophisticatedstorage:shulker_box"
+			id: "3C8563183B4C5A07"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "678A7D312B6CA5A5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "480B8A1A6FFA08FB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest4361000769903417863.subtitle}"
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "0CBD5CA8C6BDEE39"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.occultism.quest4361000769903417863.title}"
+			x: -5.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["{ftbquests.chapter.occultism.quest3410710614041377438.description1}"]
+			icon: "minecraft:chorus_fruit"
+			id: "2F55473B95973A9E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "48C6AB7423E1EFFE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "16EFF08B316A3721"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest3410710614041377438.subtitle}"
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "1C22D63C3816B58F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.occultism.quest3410710614041377438.title}"
+			x: -9.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["{ftbquests.chapter.occultism.quest1077895186596553283.description1}"]
+			icon: "minecraft:heart_of_the_sea"
+			id: "0EF573F61630E243"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6E0E1E17BE62922E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6E5ACD486D77FC8C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest1077895186596553283.subtitle}"
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "2AF7844A647B97C9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.occultism.quest1077895186596553283.title}"
+			x: -9.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["{ftbquests.chapter.occultism.quest5119197271193239732.description1}"]
+			icon: "mynethersdelight:hoglin_hide"
+			id: "470B0ACBA49F40B4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "1C8B9CF4941EBC28"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7ADA73F6973A365F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest5119197271193239732.subtitle}"
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "2C49E0B63EAAFC5D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.occultism.quest5119197271193239732.title}"
+			x: -5.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["{ftbquests.chapter.occultism.quest2875744021073382785.description1}"]
+			icon: "minecraft:echo_shard"
+			id: "27E8B1F369084D81"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "16D1A120D763032B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7B3C12935E1243E3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest2875744021073382785.subtitle}"
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "5728E560BB0A1687"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.occultism.quest2875744021073382785.title}"
+			x: -5.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: [
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description1}"
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description2}"
+				""
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description3}"
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description4}"
+				""
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:afrit_wild"
+				}
+			}
+			icon_scale: 0.7d
+			id: "64E8AB7B404E9118"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "52104D279D776BDD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "15FEC7D28059AB9F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.occultism.quest7271250144237883672.subtitle}"
+			tasks: [{
+				entity: "occultism:afrit_wild"
+				id: "0B712A0FBE76A1CD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.occultism.quest7271250144237883672.title}"
+			x: -7.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest5384342346873650072.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:dragon_familiar"
+				}
+			}
+			id: "4AB906D6467F3B98"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "48FB58CC37A3B458"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7EB2BF9692F7DC6E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest5384342346873650072.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:dragon_familiar"
+					}
+				}
+				id: "74326DD6C9AA2C2D"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest5384342346873650072.task.8372875426508975149.title}"
+				to_observe: "occultism:dragon_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest5384342346873650072.title}"
+			x: -1.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest2262342022787814739.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:bat_familiar"
+				}
+			}
+			id: "1F65741554B4D553"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "0C3ACE4D73460DB6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "20F733CFBD953F56"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest2262342022787814739.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:bat_familiar"
+					}
+				}
+				id: "51786928A5F54A1F"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest2262342022787814739.task.5870557737581365791.title}"
+				to_observe: "occultism:bat_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest2262342022787814739.title}"
+			x: 1.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest7065751728094472376.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:fairy_familiar"
+				}
+			}
+			id: "620E97C2C02C68B8"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "769B519651B9EB4B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6A43C579A8BDA330"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest7065751728094472376.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:fairy_familiar"
+					}
+				}
+				id: "347EB7C62D336892"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest7065751728094472376.task.3782662798827546770.title}"
+				to_observe: "occultism:fairy_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7065751728094472376.title}"
+			x: 2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest4157103097207323553.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:beaver_familiar"
+				}
+			}
+			id: "39B0FF3DDBB7FBA1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3A7A9D9039B7D2B2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "42ED7ED4C8631993"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest4157103097207323553.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:beaver_familiar"
+					}
+				}
+				id: "15DD2984DEF1A743"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest4157103097207323553.task.1575461095302342467.title}"
+				to_observe: "occultism:beaver_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest4157103097207323553.title}"
+			x: -2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest3347267177474104533.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:greedy_familiar"
+				}
+			}
+			id: "2E73E1C369AB1CD5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "150E1421FF35A352"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "231EE2054CAF6475"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest3347267177474104533.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:greedy_familiar"
+					}
+				}
+				id: "3E77223037705419"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest3347267177474104533.task.4501103943063983129.title}"
+				to_observe: "occultism:greedy_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest3347267177474104533.title}"
+			x: -3.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest2637307830050767066.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:beholder_familiar"
+				}
+			}
+			id: "2499997F958840DA"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "34B0554D7EC98A38"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7352AB44D9621F06"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest2637307830050767066.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:beholder_familiar"
+					}
+				}
+				id: "2D9A65732857BCAD"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest2637307830050767066.task.3286050423392681133.title}"
+				to_observe: "occultism:beholder_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest2637307830050767066.title}"
+			x: 3.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest4892139822301257682.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:guardian_familiar"
+				}
+			}
+			id: "43E45F3FABCF1FD2"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "14FF6159A3404E05"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "55BE758837CB655B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest4892139822301257682.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:guardian_familiar"
+					}
+				}
+				id: "4371117C8B5806F9"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest4892139822301257682.task.4859684699520894713.title}"
+				to_observe: "occultism:guardian_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest4892139822301257682.title}"
+			x: -3.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest2036973968081999008.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:blacksmith_familiar"
+				}
+			}
+			id: "1C44C908183ED4A0"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5A9088DDE8D93038"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "77565BC6DFFA425E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest2036973968081999008.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:blacksmith_familiar"
+					}
+				}
+				id: "6508DCAD60E0911A"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest2036973968081999008.task.7280311434857189658.title}"
+				to_observe: "occultism:blacksmith_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest2036973968081999008.title}"
+			x: 3.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest3051557231097527763.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:headless_familiar"
+				}
+			}
+			id: "2A594F224357BDD3"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "56BBC4D439DA2C94"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "504B20C9F674846A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest3051557231097527763.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:headless_familiar"
+					}
+				}
+				id: "647A41620BF47092"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest3051557231097527763.task.7240171240314663058.title}"
+				to_observe: "occultism:headless_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest3051557231097527763.title}"
+			x: -3.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest1418623224976930640.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:chimera_familiar"
+				}
+			}
+			id: "13AFF64E92DE7750"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "160E49BA1E592829"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6DDCF3E42AF6471C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest1418623224976930640.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:chimera_familiar"
+					}
+				}
+				id: "40BA1A4AE9E0490B"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest1418623224976930640.task.4664069273149262091.title}"
+				to_observe: "occultism:chimera_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest1418623224976930640.title}"
+			x: 3.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest1012191390670040804.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:mummy_familiar"
+				}
+			}
+			id: "0E0C06B4FD98AEE4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "726087D0F6CBC84B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7A3D80EB4149B32D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest1012191390670040804.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:mummy_familiar"
+					}
+				}
+				id: "3E96E51E4900DD1F"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest1012191390670040804.task.4510043995094703391.title}"
+				to_observe: "occultism:mummy_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest1012191390670040804.title}"
+			x: -3.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest6599728408517321413.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:cthulhu_familiar"
+				}
+			}
+			id: "5B96F2054BBAA2C5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "163EDF57FA48D21A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "240B4583479EB9B0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest6599728408517321413.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:cthulhu_familiar"
+					}
+				}
+				id: "57E4B6A697B412AA"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest6599728408517321413.task.6333387802615747242.title}"
+				to_observe: "occultism:cthulhu_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6599728408517321413.title}"
+			x: 3.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest8696452092533015343.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:otherworld_bird"
+				}
+			}
+			id: "78B0011A35A2032F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "06EA71AD628D0B81"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "03455914A2359E88"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest8696452092533015343.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:otherworld_bird"
+					}
+				}
+				id: "7872008E7EF0A89B"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest8696452092533015343.task.8679000043911424155.title}"
+				to_observe: "occultism:otherworld_bird"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest8696452092533015343.title}"
+			x: -3.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest6718120398882492132.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:deer_familiar"
+				}
+			}
+			id: "5D3B8EE89DB24EE4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4AA630A241B0EC0D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "68D3566BE232BDFC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest6718120398882492132.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:deer_familiar"
+					}
+				}
+				id: "1CFF91B09CED2D42"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest6718120398882492132.task.2089548939856260418.title}"
+				to_observe: "occultism:deer_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6718120398882492132.title}"
+			x: 3.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest7493375611196176508.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:devil_familiar"
+				}
+			}
+			id: "67FDD16AB1EC787C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "58F6CB743DCBB967"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "09D7615F68917588"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest7493375611196176508.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:devil_familiar"
+					}
+				}
+				id: "372F332B0B8BF2C5"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest7493375611196176508.task.3976453255961768645.title}"
+				to_observe: "occultism:devil_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7493375611196176508.title}"
+			x: -2.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["{ftbquests.chapter.occultism.quest7127714771743727494.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:shub_niggurath_familiar"
+				}
+			}
+			id: "62EABAD21616DF86"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7614FB7A3D331ED8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7FD17B3251ABF495"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest7127714771743727494.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:shub_niggurath_familiar"
+					}
+				}
+				id: "5B5C27B89A652ED4"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest7127714771743727494.task.6583180429126610644.title}"
+				to_observe: "occultism:shub_niggurath_familiar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7127714771743727494.title}"
+			x: 2.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:demonic_wife"
+				}
+			}
+			icon_scale: 0.7d
+			id: "33847E6BE61AD1BE"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "548CCB26FFA53018"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "196D1614BCC16E34"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.occultism.quest3712230994747249086.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:demonic_wife"
+					}
+				}
+				id: "4AF98593EC68F7AF"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest3712230994747249086.task.5402496098380609455.title}"
+				to_observe: "occultism:demonic_wife"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest3712230994747249086.title}"
+			x: -1.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:demonic_husband"
+				}
+			}
+			id: "2F3F47D15246776C"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1942C6CA9B6E5037"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "102D6E7FC4EA6B77"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.occultism.quest3404518807669471084.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:demonic_husband"
+					}
+				}
+				id: "75B3342DB5474848"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.occultism.quest3404518807669471084.task.8481179894188296264.title}"
+				to_observe: "occultism:demonic_husband"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.occultism.quest3404518807669471084.title}"
+			x: 1.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: [
+				"{ftbquests.chapter.occultism.quest3767427217424758774.description1}"
+				"{ftbquests.chapter.occultism.quest3767427217424758774.description2}"
+			]
+			id: "34489717F3BDB7F6"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7A8FE15A0ECA67C3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4E247256120E7DC6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest3767427217424758774.subtitle}"
+			tasks: [{
+				id: "478E15F4FF9439BD"
+				item: {
+					Count: 1
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest3767427217424758774.title}"
+			x: 0.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["34489717F3BDB7F6"]
+			description: ["{ftbquests.chapter.occultism.quest5259967167041650647.description1}"]
+			id: "48FF284519BC3FD7"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "443D9CA19329F23F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5B42C2A793812612"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest5259967167041650647.subtitle}"
+			tasks: [{
+				id: "72A59E3F37C439B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							hasFamiliar: 0b
+						}
+					}
+					id: "occultism:familiar_ring"
+					tag: {
+						spiritName: "Valtirth"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest5259967167041650647.title}"
+			x: 0.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: [
+				"{ftbquests.chapter.occultism.quest5797723097557929628.description1}"
+				"{ftbquests.chapter.occultism.quest5797723097557929628.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5075A67088048E9C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "548577DD8E7AC5A7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "790D2A90A133AD84"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest5797723097557929628.subtitle}"
+			tasks: [{
+				id: "5EDB371D127AD1F6"
+				item: {
+					Count: 1
+					id: "occultism:book_of_calling_foliot_lumberjack"
+					tag: {
+						spiritName: "Garsalmarryn"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest5797723097557929628.title}"
+			x: 5.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["64E8AB7B404E9118"]
+			description: ["{ftbquests.chapter.occultism.quest6275269636594489775.description1}"]
+			id: "57163C7C970259AF"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3D9781FF7E317783"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0CFA375332AFCBF0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest6275269636594489775.subtitle}"
+			tasks: [{
+				id: "7AEE02AD54EE818D"
+				item: {
+					Count: 1
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6275269636594489775.title}"
+			x: -7.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["{ftbquests.chapter.occultism.quest3291834807054458991.description1}"]
+			icon: "quark:dark_oak_chest"
+			id: "2DAEF250EDBF606F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "55B867BD0D4522BC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "45034C9DB486545E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest3291834807054458991.subtitle}"
+			tasks: [{
+				id: "358C9EE2CEF46999"
+				item: {
+					Count: 1
+					id: "occultism:book_of_calling_foliot_transport_items"
+					tag: {
+						spiritName: "Ketjormorn"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest3291834807054458991.title}"
+			x: 5.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: [
+				"{ftbquests.chapter.occultism.quest7200611429038054778.description1}"
+				"{ftbquests.chapter.occultism.quest7200611429038054778.description2}"
+			]
+			icon: "sophisticatedstorage:paintbrush"
+			id: "63EDB5F1B96E5D7A"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "795A77C2C9D50AD7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1241E7016B293D02"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest7200611429038054778.subtitle}"
+			tasks: [{
+				id: "56427F752A694E58"
+				item: {
+					Count: 1
+					id: "occultism:book_of_calling_foliot_cleaner"
+					tag: {
+						spiritName: "Krsirborn"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest7200611429038054778.title}"
+			x: 5.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["{ftbquests.chapter.occultism.quest6078702824296249724.description1}"]
+			icon: {
+				Count: 1
+				id: "occultism:book_of_calling_djinni_manage_machine"
+				tag: {
+					spiritName: "Firnornrinne"
+				}
+			}
+			id: "545BE4032957797C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2421802DD776BD56"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1A4EE2E2AA962F32"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest6078702824296249724.subtitle}"
+			tasks: [{
+				id: "1F68B1F3FAA4C742"
+				item: {
+					Count: 1
+					id: "occultism:book_of_calling_djinni_manage_machine"
+					tag: {
+						spiritName: "Vemerion"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.occultism.quest6078702824296249724.title}"
+			x: 5.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["{ftbquests.chapter.occultism.quest171321395067566411.description1}"]
+			icon: "minecraft:clock"
+			id: "0260A7E6AF6D394B"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "344014D870D42D7B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest171321395067566411.subtitle}"
+			tasks: [{
+				id: "41084E4A0CCBBD5C"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest171321395067566411.title}"
+			x: 8.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["{ftbquests.chapter.occultism.quest4485231607013917791.description1}"]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_radiance"
+				tag: {
+					abilityUseRemaining: 4800
+				}
+			}
+			id: "3E3EBE61FF6B445F"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "7508DFD40522E220"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest4485231607013917791.subtitle}"
+			tasks: [{
+				id: "441DF2B548E78961"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest4485231607013917791.title}"
+			x: 6.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["0260A7E6AF6D394B"]
+			description: ["{ftbquests.chapter.occultism.quest1721105767395931891.description1}"]
+			icon: "ars_nouveau:ritual_sunrise"
+			id: "17E298939E82B6F3"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "64CA4A78C9EED15C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "275E4679111FD889"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest1721105767395931891.subtitle}"
+			tasks: [
+				{
+					id: "4C06BC4332AF4283"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "53E66D0945A2C561"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "balm:yellow_dyes"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest1721105767395931891.task.6045639436381898081.title}"
+					type: "item"
+				}
+				{
+					id: "1FBE39CE1520C43E"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "77919CA8816B7068"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Gornornthorn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest1721105767395931891.title}"
+			x: 10.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["0260A7E6AF6D394B"]
+			description: ["{ftbquests.chapter.occultism.quest7324192519006302133.description1}"]
+			icon: "ars_nouveau:ritual_moonfall"
+			id: "65A4C24A71F1AFB5"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "55843842FAACCB2F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6348251E9E5FD50F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest7324192519006302133.subtitle}"
+			tasks: [
+				{
+					id: "057C6680DE751203"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:colorable/beds"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest7324192519006302133.task.395303570975822339.title}"
+					type: "item"
+				}
+				{
+					id: "35A1125969A1C26D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "balm:black_dyes"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest7324192519006302133.task.3864390130494194285.title}"
+					type: "item"
+				}
+				{
+					id: "5DD68FD2CB1BF116"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bones"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest7324192519006302133.task.6761750026056888598.title}"
+					type: "item"
+				}
+				{
+					id: "694429A2CC9DF0DC"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "202BAD1740B85F62"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Gornornthorn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest7324192519006302133.title}"
+			x: 8.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["3E3EBE61FF6B445F"]
+			description: ["{ftbquests.chapter.occultism.quest2912427702379283997.description1}"]
+			icon: "minecraft:glass_bottle"
+			id: "286B05908A53061D"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "5C4CF1C8EF704ADF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2C6837C0BF48DD04"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest2912427702379283997.subtitle}"
+			tasks: [
+				{
+					id: "5B9A4F88C21E20F2"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "317D86BF69D57945"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "3C452FA695F15576"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "0B16BD80460138A8"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "046DAA112895A424"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Gargorndor"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest2912427702379283997.title}"
+			x: 4.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["3E3EBE61FF6B445F"]
+			description: ["{ftbquests.chapter.occultism.quest6481117546110437280.description1}"]
+			icon: "irons_spellbooks:lightning_bottle"
+			id: "59F18E11DB76C7A0"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "2373A160F31E515F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7FEF797807B57741"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest6481117546110437280.subtitle}"
+			tasks: [
+				{
+					id: "04496E229BB2EB25"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "54BB98D3552585D7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bones"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest6481117546110437280.task.6105641753264883159.title}"
+					type: "item"
+				}
+				{
+					id: "634319F8E168DC83"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "16B35E9DC48C67E2"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Brynuraklind"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest6481117546110437280.title}"
+			x: 6.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["3E3EBE61FF6B445F"]
+			description: ["{ftbquests.chapter.occultism.quest6919821272198102839.description1}"]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "600824C8C68F3F37"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "3E9307249B082667"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F4CDB4D7B326F01"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest6919821272198102839.subtitle}"
+			tasks: [
+				{
+					id: "6A8F8D9A0BBD8A14"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+				{
+					id: "3E1298B3865CE13E"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+				{
+					id: "0C0A9455EA2FA9FC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:sand"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest6919821272198102839.task.867668974944365052.title}"
+					type: "item"
+				}
+				{
+					id: "086C5ABAC70DA170"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "42AB58364DBF209C"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Brynuraklind"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest6919821272198102839.title}"
+			x: 5.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: [
+				"{ftbquests.chapter.occultism.quest6158661938434731233.description1}"
+				"{ftbquests.chapter.occultism.quest6158661938434731233.description2}"
+			]
+			icon: "occultism:iron_dust"
+			id: "5577F6672C1EECE1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "75430A8F4E77CA15"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "522B859803C91C93"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest6158661938434731233.subtitle}"
+			tasks: [
+				{
+					id: "7739FCA7E677A62A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/iron"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest6158661938434731233.task.8591175562242270762.title}"
+					type: "item"
+				}
+				{
+					id: "2D2F5C98DE420458"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/gold"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest6158661938434731233.task.3255922867245810776.title}"
+					type: "item"
+				}
+				{
+					id: "29047E419EAF0549"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/silver"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest6158661938434731233.task.2955626075762132297.title}"
+					type: "item"
+				}
+				{
+					id: "6EEFEE2ACE9F2C4B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/copper"
+						}
+					}
+					title: "{ftbquests.chapter.occultism.quest6158661938434731233.task.7993869731228494923.title}"
+					type: "item"
+				}
+				{
+					id: "7B0351B7CE61E374"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Gornornthorn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest6158661938434731233.title}"
+			x: 9.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["5577F6672C1EECE1"]
+			description: ["{ftbquests.chapter.occultism.quest4537214647687518408.description1}"]
+			icon: "occultism:silver_dust"
+			id: "3EF76CAED11D18C8"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "741056FC710ECC87"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "10AA6F085A2F6002"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest4537214647687518408.subtitle}"
+			tasks: [
+				{
+					id: "1DF6124ADB3B874D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6F5218476B059526"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2A87578D8AB948DF"
+					item: "occultism:iesnium_dust"
+					type: "item"
+				}
+				{
+					id: "12EB2402970A0755"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Thrurakryne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest4537214647687518408.title}"
+			x: 9.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["3EF76CAED11D18C8"]
+			description: ["{ftbquests.chapter.occultism.quest2502814531562275668.description1}"]
+			icon: "occultism:gold_dust"
+			id: "22BBC88E54748354"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "1F5780FC10808EEF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "295C5D15A69F1C36"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quest2502814531562275668.subtitle}"
+			tasks: [
+				{
+					id: "79EA2CC252372A96"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "631B8EFF97D5D0C5"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "5F30975C344DD44D"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					id: "4C99B591A410CC44"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "4F1066C157471FB3"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_marid"
+						tag: {
+							spiritName: "Drogwornborn"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest2502814531562275668.title}"
+			x: 9.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["{ftbquests.chapter.occultism.quest5423531741248790776.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "minecraft:wandering_trader"
+				}
+			}
+			icon_scale: 0.7d
+			id: "4B4441623130A0F8"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "1B3BC09AD4AD9333"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.occultism.quest5423531741248790776.subtitle}"
+			tasks: [{
+				id: "675763CBC7AAEADE"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.occultism.quest5423531741248790776.title}"
+			x: 9.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["4B4441623130A0F8"]
+			description: ["{ftbquests.chapter.occultism.quest6943496735150298785.description1}"]
+			icon: "occultism:otherworld_sapling"
+			id: "605C417E0DB7D6A1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "25EC109A8FFBF446"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7582ABDFADCB16B9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest6943496735150298785.subtitle}"
+			tasks: [
+				{
+					id: "050ACDF288114497"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "11B5F1F6BDD70E5A"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "4D2158D4A974E83A"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "2925A9A94B0183A1"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "46D38A3AB06E14E6"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Rasalmarborn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest6943496735150298785.title}"
+			x: 10.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["4B4441623130A0F8"]
+			description: ["{ftbquests.chapter.occultism.quest4415590285755942549.description1}"]
+			icon: "occultism:otherstone"
+			id: "3D4753F858260695"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4208CAE6B7338464"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0D8414825D163816"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.occultism.quest4415590285755942549.subtitle}"
+			tasks: [
+				{
+					id: "0B4365F7E8C13BBA"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "785A5E9FBB524A78"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					id: "6D06897A1C6AD895"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					id: "03C5DFB8747054D2"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "50869FF75AE56769"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Rasalmarborn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quest4415590285755942549.title}"
+			x: 10.0d
+			y: -25.0d
+		}
+	]
+	title: "{ftbquests.chapter.occultism.title}"
+}

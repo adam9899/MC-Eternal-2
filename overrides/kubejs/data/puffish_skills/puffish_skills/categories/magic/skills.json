@@ -1,0 +1,818 @@
+{
+	"-17_0": {
+		"definition": "manaregen2",
+		"x": -544,
+		"y": 0,
+		"root": false
+	},
+	"-15_-1": {
+		"definition": "spellpower3",
+		"x": -480,
+		"y": -32,
+		"root": false
+	},
+	"-15_1": {
+		"definition": "spellpower3",
+		"x": -480,
+		"y": 32,
+		"root": false
+	},
+	"-13_-5": {
+		"definition": "spellpower1",
+		"x": -416,
+		"y": -160,
+		"root": false
+	},
+	"-13_0": {
+		"definition": "manaregen2",
+		"x": -416,
+		"y": 0,
+		"root": false
+	},
+	"-13_5": {
+		"definition": "spellpower1",
+		"x": -416,
+		"y": 160,
+		"root": false
+	},
+	"-12_-3": {
+		"definition": "manaregen2",
+		"x": -384,
+		"y": -96,
+		"root": false
+	},
+	"-12_3": {
+		"definition": "manaregen2",
+		"x": -384,
+		"y": 96,
+		"root": false
+	},
+	"-11_-6": {
+		"definition": "manaregen2",
+		"x": -352,
+		"y": -192,
+		"root": false
+	},
+	"-11_-1": {
+		"definition": "manaregen2",
+		"x": -352,
+		"y": -32,
+		"root": false
+	},
+	"-11_1": {
+		"definition": "manaregen2",
+		"x": -352,
+		"y": 32,
+		"root": false
+	},
+	"-11_6": {
+		"definition": "manaregen2",
+		"x": -352,
+		"y": 192,
+		"root": false
+	},
+	"-10_-10": {
+		"definition": "spellpower1",
+		"x": -320,
+		"y": -320,
+		"root": false
+	},
+	"-10_-8": {
+		"definition": "manaregen2",
+		"x": -320,
+		"y": -256,
+		"root": false
+	},
+	"-10_-4": {
+		"definition": "manaregen2",
+		"x": -320,
+		"y": -128,
+		"root": false
+	},
+	"-10_4": {
+		"definition": "manaregen2",
+		"x": -320,
+		"y": 128,
+		"root": false
+	},
+	"-10_8": {
+		"definition": "manaregen2",
+		"x": -320,
+		"y": 256,
+		"root": false
+	},
+	"-10_10": {
+		"definition": "spellpower1",
+		"x": -320,
+		"y": 320,
+		"root": false
+	},
+	"-9_-2": {
+		"definition": "manaregen2",
+		"x": -288,
+		"y": -64,
+		"root": false
+	},
+	"-9_2": {
+		"definition": "manaregen2",
+		"x": -288,
+		"y": 64,
+		"root": false
+	},
+	"-8_-10": {
+		"definition": "cooldown2",
+		"x": -256,
+		"y": -320,
+		"root": false
+	},
+	"-8_-8": {
+		"definition": "spellpower1",
+		"x": -256,
+		"y": -256,
+		"root": false
+	},
+	"-8_-6": {
+		"definition": "manaregen2",
+		"x": -256,
+		"y": -192,
+		"root": false
+	},
+	"-8_0": {
+		"definition": "spellpower1",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"-8_6": {
+		"definition": "manaregen2",
+		"x": -256,
+		"y": 192,
+		"root": false
+	},
+	"-8_8": {
+		"definition": "spellpower1",
+		"x": -256,
+		"y": 256,
+		"root": false
+	},
+	"-8_10": {
+		"definition": "casttime2",
+		"x": -256,
+		"y": 320,
+		"root": false
+	},
+	"-7_-4": {
+		"definition": "manaregen2",
+		"x": -224,
+		"y": -128,
+		"root": false
+	},
+	"-7_4": {
+		"definition": "manaregen2",
+		"x": -224,
+		"y": 128,
+		"root": false
+	},
+	"-6_-11": {
+		"definition": "cooldown2",
+		"x": -192,
+		"y": -352,
+		"root": false
+	},
+	"-6_-8": {
+		"definition": "cooldown2",
+		"x": -192,
+		"y": -256,
+		"root": false
+	},
+	"-6_-1": {
+		"definition": "manaregen2",
+		"x": -192,
+		"y": -32,
+		"root": false
+	},
+	"-6_1": {
+		"definition": "manaregen2",
+		"x": -192,
+		"y": 32,
+		"root": false
+	},
+	"-6_8": {
+		"definition": "casttime2",
+		"x": -192,
+		"y": 256,
+		"root": false
+	},
+	"-6_11": {
+		"definition": "casttime2",
+		"x": -192,
+		"y": 352,
+		"root": false
+	},
+	"-5_-13": {
+		"definition": "spellpower1",
+		"x": -160,
+		"y": -416,
+		"root": false
+	},
+	"-5_-3": {
+		"definition": "manaregen2",
+		"x": -160,
+		"y": -96,
+		"root": false
+	},
+	"-5_3": {
+		"definition": "manaregen2",
+		"x": -160,
+		"y": 96,
+		"root": false
+	},
+	"-5_13": {
+		"definition": "spellpower1",
+		"x": -160,
+		"y": 416,
+		"root": false
+	},
+	"-4_-10": {
+		"definition": "cooldown2",
+		"x": -128,
+		"y": -320,
+		"root": false
+	},
+	"-4_-7": {
+		"definition": "cooldown2",
+		"x": -128,
+		"y": -224,
+		"root": false
+	},
+	"-4_-1": {
+		"definition": "manaregen2",
+		"x": -128,
+		"y": -32,
+		"root": false
+	},
+	"-4_1": {
+		"definition": "manaregen2",
+		"x": -128,
+		"y": 32,
+		"root": false
+	},
+	"-4_7": {
+		"definition": "casttime2",
+		"x": -128,
+		"y": 224,
+		"root": false
+	},
+	"-4_10": {
+		"definition": "casttime2",
+		"x": -128,
+		"y": 320,
+		"root": false
+	},
+	"-3_-12": {
+		"definition": "cooldown2",
+		"x": -96,
+		"y": -384,
+		"root": false
+	},
+	"-3_-5": {
+		"definition": "cooldown2",
+		"x": -96,
+		"y": -160,
+		"root": false
+	},
+	"-3_5": {
+		"definition": "casttime2",
+		"x": -96,
+		"y": 160,
+		"root": false
+	},
+	"-3_12": {
+		"definition": "casttime2",
+		"x": -96,
+		"y": 384,
+		"root": false
+	},
+	"-2_-9": {
+		"definition": "cooldown2",
+		"x": -64,
+		"y": -288,
+		"root": false
+	},
+	"-2_0": {
+		"definition": "evocation_power10",
+		"x": -64,
+		"y": 0,
+		"root": true
+	},
+	"-2_9": {
+		"definition": "casttime2",
+		"x": -64,
+		"y": 288,
+		"root": false
+	},
+	"-1_-15": {
+		"definition": "spellpower3",
+		"x": -32,
+		"y": -480,
+		"root": false
+	},
+	"-1_-11": {
+		"definition": "cooldown2",
+		"x": -32,
+		"y": -352,
+		"root": false
+	},
+	"-1_-6": {
+		"definition": "cooldown2",
+		"x": -32,
+		"y": -192,
+		"root": false
+	},
+	"-1_-4": {
+		"definition": "cooldown2",
+		"x": -32,
+		"y": -128,
+		"root": false
+	},
+	"-1_4": {
+		"definition": "casttime2",
+		"x": -32,
+		"y": 128,
+		"root": false
+	},
+	"-1_6": {
+		"definition": "casttime2",
+		"x": -32,
+		"y": 192,
+		"root": false
+	},
+	"-1_11": {
+		"definition": "casttime2",
+		"x": -32,
+		"y": 352,
+		"root": false
+	},
+	"-1_15": {
+		"definition": "spellpower3",
+		"x": -32,
+		"y": 480,
+		"root": false
+	},
+	"0_-17": {
+		"definition": "cooldown2",
+		"x": 0,
+		"y": -544,
+		"root": false
+	},
+	"0_-13": {
+		"definition": "cooldown2",
+		"x": 0,
+		"y": -416,
+		"root": false
+	},
+	"0_-8": {
+		"definition": "spellpower1",
+		"x": 0,
+		"y": -256,
+		"root": false
+	},
+	"0_-2": {
+		"definition": "ice_power10",
+		"x": 0,
+		"y": -64,
+		"root": true
+	},
+	"0_2": {
+		"definition": "fire_power10",
+		"x": 0,
+		"y": 64,
+		"root": true
+	},
+	"0_8": {
+		"definition": "spellpower1",
+		"x": 0,
+		"y": 256,
+		"root": false
+	},
+	"0_13": {
+		"definition": "casttime2",
+		"x": 0,
+		"y": 416,
+		"root": false
+	},
+	"0_17": {
+		"definition": "casttime2",
+		"x": 0,
+		"y": 544,
+		"root": false
+	},
+	"1_-15": {
+		"definition": "spellpower3",
+		"x": 32,
+		"y": -480,
+		"root": false
+	},
+	"1_-11": {
+		"definition": "cooldown2",
+		"x": 32,
+		"y": -352,
+		"root": false
+	},
+	"1_-6": {
+		"definition": "cooldown2",
+		"x": 32,
+		"y": -192,
+		"root": false
+	},
+	"1_-4": {
+		"definition": "cooldown2",
+		"x": 32,
+		"y": -128,
+		"root": false
+	},
+	"1_4": {
+		"definition": "casttime2",
+		"x": 32,
+		"y": 128,
+		"root": false
+	},
+	"1_6": {
+		"definition": "casttime2",
+		"x": 32,
+		"y": 192,
+		"root": false
+	},
+	"1_11": {
+		"definition": "casttime2",
+		"x": 32,
+		"y": 352,
+		"root": false
+	},
+	"1_15": {
+		"definition": "spellpower3",
+		"x": 32,
+		"y": 480,
+		"root": false
+	},
+	"2_-9": {
+		"definition": "cooldown2",
+		"x": 64,
+		"y": -288,
+		"root": false
+	},
+	"2_0": {
+		"definition": "holy_power10",
+		"x": 64,
+		"y": 0,
+		"root": true
+	},
+	"2_9": {
+		"definition": "casttime2",
+		"x": 64,
+		"y": 288,
+		"root": false
+	},
+	"3_-12": {
+		"definition": "cooldown2",
+		"x": 96,
+		"y": -384,
+		"root": false
+	},
+	"3_-5": {
+		"definition": "cooldown2",
+		"x": 96,
+		"y": -160,
+		"root": false
+	},
+	"3_5": {
+		"definition": "casttime2",
+		"x": 96,
+		"y": 160,
+		"root": false
+	},
+	"3_12": {
+		"definition": "casttime2",
+		"x": 96,
+		"y": 384,
+		"root": false
+	},
+	"4_-10": {
+		"definition": "cooldown2",
+		"x": 128,
+		"y": -320,
+		"root": false
+	},
+	"4_-7": {
+		"definition": "cooldown2",
+		"x": 128,
+		"y": -224,
+		"root": false
+	},
+	"4_-1": {
+		"definition": "maxmana2",
+		"x": 128,
+		"y": -32,
+		"root": false
+	},
+	"4_1": {
+		"definition": "maxmana2",
+		"x": 128,
+		"y": 32,
+		"root": false
+	},
+	"4_7": {
+		"definition": "casttime2",
+		"x": 128,
+		"y": 224,
+		"root": false
+	},
+	"4_10": {
+		"definition": "casttime2",
+		"x": 128,
+		"y": 320,
+		"root": false
+	},
+	"5_-13": {
+		"definition": "spellpower1",
+		"x": 160,
+		"y": -416,
+		"root": false
+	},
+	"5_-3": {
+		"definition": "maxmana2",
+		"x": 160,
+		"y": -96,
+		"root": false
+	},
+	"5_3": {
+		"definition": "maxmana2",
+		"x": 160,
+		"y": 96,
+		"root": false
+	},
+	"5_13": {
+		"definition": "spellpower1",
+		"x": 160,
+		"y": 416,
+		"root": false
+	},
+	"6_-11": {
+		"definition": "cooldown2",
+		"x": 192,
+		"y": -352,
+		"root": false
+	},
+	"6_-8": {
+		"definition": "cooldown2",
+		"x": 192,
+		"y": -256,
+		"root": false
+	},
+	"6_-1": {
+		"definition": "maxmana2",
+		"x": 192,
+		"y": -32,
+		"root": false
+	},
+	"6_1": {
+		"definition": "maxmana2",
+		"x": 192,
+		"y": 32,
+		"root": false
+	},
+	"6_8": {
+		"definition": "casttime2",
+		"x": 192,
+		"y": 256,
+		"root": false
+	},
+	"6_11": {
+		"definition": "casttime2",
+		"x": 192,
+		"y": 352,
+		"root": false
+	},
+	"7_-4": {
+		"definition": "maxmana2",
+		"x": 224,
+		"y": -128,
+		"root": false
+	},
+	"7_4": {
+		"definition": "maxmana2",
+		"x": 224,
+		"y": 128,
+		"root": false
+	},
+	"8_-10": {
+		"definition": "cooldown2",
+		"x": 256,
+		"y": -320,
+		"root": false
+	},
+	"8_-8": {
+		"definition": "spellpower1",
+		"x": 256,
+		"y": -256,
+		"root": false
+	},
+	"8_-6": {
+		"definition": "maxmana2",
+		"x": 256,
+		"y": -192,
+		"root": false
+	},
+	"8_0": {
+		"definition": "spellpower1",
+		"x": 256,
+		"y": 0,
+		"root": false
+	},
+	"8_6": {
+		"definition": "maxmana2",
+		"x": 256,
+		"y": 192,
+		"root": false
+	},
+	"8_8": {
+		"definition": "spellpower1",
+		"x": 256,
+		"y": 256,
+		"root": false
+	},
+	"8_10": {
+		"definition": "casttime2",
+		"x": 256,
+		"y": 320,
+		"root": false
+	},
+	"9_-2": {
+		"definition": "maxmana2",
+		"x": 288,
+		"y": -64,
+		"root": false
+	},
+	"9_2": {
+		"definition": "maxmana2",
+		"x": 288,
+		"y": 64,
+		"root": false
+	},
+	"10_-10": {
+		"definition": "spellpower1",
+		"x": 320,
+		"y": -320,
+		"root": false
+	},
+	"10_-8": {
+		"definition": "maxmana2",
+		"x": 320,
+		"y": -256,
+		"root": false
+	},
+	"10_-4": {
+		"definition": "maxmana2",
+		"x": 320,
+		"y": -128,
+		"root": false
+	},
+	"10_4": {
+		"definition": "maxmana2",
+		"x": 320,
+		"y": 128,
+		"root": false
+	},
+	"10_8": {
+		"definition": "maxmana2",
+		"x": 320,
+		"y": 256,
+		"root": false
+	},
+	"10_10": {
+		"definition": "spellpower1",
+		"x": 320,
+		"y": 320,
+		"root": false
+	},
+	"11_-6": {
+		"definition": "maxmana2",
+		"x": 352,
+		"y": -192,
+		"root": false
+	},
+	"11_-1": {
+		"definition": "maxmana2",
+		"x": 352,
+		"y": -32,
+		"root": false
+	},
+	"11_1": {
+		"definition": "maxmana2",
+		"x": 352,
+		"y": 32,
+		"root": false
+	},
+	"11_6": {
+		"definition": "maxmana2",
+		"x": 352,
+		"y": 192,
+		"root": false
+	},
+	"12_-3": {
+		"definition": "maxmana2",
+		"x": 384,
+		"y": -96,
+		"root": false
+	},
+	"12_3": {
+		"definition": "maxmana2",
+		"x": 384,
+		"y": 96,
+		"root": false
+	},
+	"13_-5": {
+		"definition": "spellpower1",
+		"x": 416,
+		"y": -160,
+		"root": false
+	},
+	"13_0": {
+		"definition": "maxmana2",
+		"x": 416,
+		"y": 0,
+		"root": false
+	},
+	"13_5": {
+		"definition": "spellpower1",
+		"x": 416,
+		"y": 160,
+		"root": false
+	},
+	"15_-1": {
+		"definition": "spellpower3",
+		"x": 480,
+		"y": -32,
+		"root": false
+	},
+	"15_1": {
+		"definition": "spellpower3",
+		"x": 480,
+		"y": 32,
+		"root": false
+	},
+	"17_0": {
+		"definition": "maxmana2",
+		"x": 544,
+		"y": 0,
+		"root": false
+	},
+	"3acjoc2ucpcw7si9": {
+		"definition": "maxmana10",
+		"x": 608,
+		"y": 0,
+		"root": false
+	},
+	"jpb6sisuicvra6ag": {
+		"definition": "cooldown10",
+		"x": 0,
+		"y": -608,
+		"root": false
+	},
+	"bhdzua78jkn6xrhr": {
+		"definition": "manaregen10",
+		"x": -608,
+		"y": 0,
+		"root": false
+	},
+	"sgtaqdgetb5asohe": {
+		"definition": "casttime10",
+		"x": 0,
+		"y": 608,
+		"root": false
+	},
+	"o0pbmbs3th6syq2c": {
+		"definition": "eldritch_power10",
+		"x": 64,
+		"y": -36.95041722813605,
+		"root": true
+	},
+	"hsactux7p12so7m0": {
+		"definition": "nature_power10",
+		"x": -64,
+		"y": -36.95041722813605,
+		"root": true
+	},
+	"l6fxxwu3vucc5x0h": {
+		"definition": "blood_power10",
+		"x": -64,
+		"y": 36.95041722813605,
+		"root": true
+	},
+	"tsjm43wicjqln3uc": {
+		"definition": "ender_power10",
+		"x": 64,
+		"y": 36.95041722813605,
+		"root": true
+	}
+}

@@ -1,0 +1,6 @@
+ {
+  "type": "command",
+  "id": "titles:nuke",
+  "rarity": "rare",
+  "defaultDisplay": "the Destroyer of Worlds"
+}

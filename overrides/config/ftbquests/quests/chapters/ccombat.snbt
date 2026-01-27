@@ -19,11 +19,11 @@
 		x: 2.107142857142861d
 		y: -0.8928571428571459d
 	}]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{chapter.2.quest.2.description.1}"]
+			description: ["{ftbquests.chapter.ccombat.quest3721296494547814032.description1}"]
 			hide_dependency_lines: true
 			id: "33A4B3720D6DC690"
 			rewards: [
@@ -42,7 +42,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Bow Crits!"
+			subtitle: "{ftbquests.chapter.ccombat.quest3721296494547814032.subtitle}"
 			tasks: [{
 				id: "44415B0C565937E5"
 				item: {
@@ -64,13 +64,13 @@
 				}
 				type: "item"
 			}]
-			title: "Improved Bows!"
+			title: "{ftbquests.chapter.ccombat.quest3721296494547814032.title}"
 			x: 1.4193877551020648d
 			y: -2.2295918367347056d
 		}
 		{
 			dependencies: ["4789D17B88722641"]
-			description: ["{chapter.2.quest.3.description.1}"]
+			description: ["{ftbquests.chapter.ccombat.quest2328385948222966007.description1}"]
 			id: "205016AEFFD748F7"
 			rewards: [{
 				amount: 50L
@@ -79,7 +79,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.2.quest.3.subtitle}"
+			subtitle: "{ftbquests.chapter.ccombat.quest2328385948222966007.subtitle}"
 			tasks: [{
 				id: "58D922E0401D7B64"
 				item: "dummmmmmy:target_dummy"
@@ -90,13 +90,13 @@
 		}
 		{
 			description: [
-				"Shields can block an attack, after blocking it will enter into a cooldown."
-				"Shields have different stats that vary between them!"
+				"{ftbquests.chapter.ccombat.quest1246872064639673548.description1}"
+				"{ftbquests.chapter.ccombat.quest1246872064639673548.description2}"
 				""
-				"&eTip:&r Stamina will increase or decrease the number of times you can block before a cooldown is applied!"
-				"&eTip:&r Holding a shield in your off-hand will grant a passive 30% damage reduction!"
+				"{ftbquests.chapter.ccombat.quest1246872064639673548.description3}"
+				"{ftbquests.chapter.ccombat.quest1246872064639673548.description4}"
 				""
-				"&6Hint:&r You can only block incoming damage from the direction you received it!"
+				"{ftbquests.chapter.ccombat.quest1246872064639673548.description5}"
 			]
 			hide_dependency_lines: true
 			id: "114DC7895D34A4CC"
@@ -109,7 +109,7 @@
 			}]
 			shape: "circle"
 			size: 0.8d
-			subtitle: "Craft a &eShield"
+			subtitle: "{ftbquests.chapter.ccombat.quest1246872064639673548.subtitle}"
 			tasks: [{
 				id: "6967C0E278EE8406"
 				item: {
@@ -132,8 +132,8 @@
 		{
 			dependencies: ["114DC7895D34A4CC"]
 			description: [
-				"The Shield of The Deep is an excellent shield to use pre-Expert Mode!"
-				"It has great stats and durability! At the cost of movement speed however."
+				"{ftbquests.chapter.ccombat.quest6961995636177913749.description1}"
+				"{ftbquests.chapter.ccombat.quest6961995636177913749.description2}"
 			]
 			hide_dependency_lines: true
 			id: "609DFA2516344795"
@@ -151,34 +151,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eShield of The Deep"
+			subtitle: "{ftbquests.chapter.ccombat.quest6961995636177913749.subtitle}"
 			tasks: [{
 				id: "757562C0CCDE3365"
 				item: {
@@ -195,7 +178,7 @@
 				}
 				type: "item"
 			}]
-			title: "&bFrom Down Under!"
+			title: "{ftbquests.chapter.ccombat.quest6961995636177913749.title}"
 			x: -1.435714285714269d
 			y: -2.171428571428571d
 		}
@@ -210,7 +193,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Crossbow"
+			subtitle: "{ftbquests.chapter.ccombat.quest8250330562576551879.subtitle}"
 			tasks: [{
 				id: "59A38541F2A1B204"
 				item: {
@@ -237,21 +220,21 @@
 		}
 		{
 			description: [
-				"You charged up your &dRage&r by taking damage consecutively or by doing damage consecutively to the same target. Your next melee attack will do bonus damage!"
+				"{ftbquests.chapter.ccombat.quest7134554780548649734.description1}"
 				""
-				"&6Hint:&r Entites can also become &dEnraged!&r Be careful to dodge their &oSuper-Charged attacks!"
+				"{ftbquests.chapter.ccombat.quest7134554780548649734.description2}"
 				""
-				"&eTip:&r Upon becoming Enraged, you will find a flurry of Critical Hit particles at your feet and will hear a distinctive Ding sound upon landing a Super-Charged Rage hit."
+				"{ftbquests.chapter.ccombat.quest7134554780548649734.description3}"
 				""
-				"☠ = Rage!"
+				"{ftbquests.chapter.ccombat.quest7134554780548649734.description4}"
 			]
 			id: "630307C5BD2AD306"
 			rewards: [
 				{
-					command: "/titles add @p titles:angry"
+					command: "/titles add {p} titles:angry"
 					icon: "titles:title_scroll_common"
 					id: "3E5B9143E7B23C1A"
-					title: "&eUnlock Title:&r the Angry"
+					title: "{ftbquests.chapter.ccombat.quest7134554780548649734.reward.4493344774068255770.title}"
 					type: "command"
 				}
 				{
@@ -264,7 +247,7 @@
 			]
 			secret: true
 			shape: "rsquare"
-			subtitle: "Charge up your &eRage!"
+			subtitle: "{ftbquests.chapter.ccombat.quest7134554780548649734.subtitle}"
 			tasks: [{
 				advancement: "rage:full_rage"
 				criterion: ""
@@ -278,7 +261,7 @@
 					id: "rats:corrupt_rat_skull"
 				}
 				id: "678B2EDB46E53BFB"
-				title: "&6Become Enraged!"
+				title: "{ftbquests.chapter.ccombat.quest7134554780548649734.task.7461108726991502331.title}"
 				type: "advancement"
 			}]
 			x: 0.4297619047619108d
@@ -286,15 +269,15 @@
 		}
 		{
 			description: [
-				"Each weapon type has their own attack animation and combos!"
-				"Depending on the weapon type (IE: sword, axe, spear) the combo multipler varies!"
+				"{ftbquests.chapter.ccombat.quest5822229481821974526.description1}"
+				"{ftbquests.chapter.ccombat.quest5822229481821974526.description2}"
 				""
-				"For example, attacking with a &dSword&r weapon type grants a 50% damage boost every third attack on the \"stab forward\" animation! "
+				"{ftbquests.chapter.ccombat.quest5822229481821974526.description3}"
 				""
-				"Every 4th attack with two daggers does a special \"dual stab\" which does 350% more damage."
-				"Every 3rd attack with a hammer weapon type does 250% bonus damage."
+				"{ftbquests.chapter.ccombat.quest5822229481821974526.description4}"
+				"{ftbquests.chapter.ccombat.quest5822229481821974526.description5}"
 				""
-				"Explore and play with different weapons, some have unique attacks and combos!"
+				"{ftbquests.chapter.ccombat.quest5822229481821974526.description6}"
 			]
 			icon: "goety_cataclysm:arcane_spirit"
 			id: "50CCB6DDC0CE2FFE"
@@ -306,15 +289,15 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "diamond"
-			subtitle: "Learn about Combos"
+			subtitle: "{ftbquests.chapter.ccombat.quest5822229481821974526.subtitle}"
 			tasks: [{
 				id: "45664EB1D172AB9C"
-				title: "&eCombat Info:&r Combos"
+				title: "{ftbquests.chapter.ccombat.quest5822229481821974526.task.5000770961871645596.title}"
 				type: "checkmark"
 			}]
 			x: 0.3928571428571459d
 			y: -3.375000000000007d
 		}
 	]
-	title: "{chapter.2.title}"
+	title: "{ftbquests.chapter.ccombat.title}"
 }

@@ -40,11 +40,11 @@ ItemEvents.rightClicked(event => {
     }
 
     if (selectedEntity) {
-        let entityTag = `temp_${Date.now()}`;
+        let entityTag = `temp_${player.username}_${Date.now()}`;
 
        
         server.runCommand(`execute at ${name} run summon ${selectedEntity} ~ ~1 ~5 {DeathLootTable:"minecraft:empty"}`);
-server.scheduleInTicks(2, () => {
+server.scheduleInTicks(1, () => {
   server.runCommand(`execute at ${name} run tag @e[type=${selectedEntity},distance=..50,limit=1,sort=nearest] add ${entityTag}`);
 });
 

@@ -1,7 +1,7 @@
 {
 	id: "7A4FB9A7FDF16754"
 	loot_size: 1
-	order_index: 25
+	order_index: 26
 	rewards: [
 		{
 			item: {
@@ -26,10 +26,10 @@
 					]
 					display: {
 						Lore: [
-							"{\"text\":\"§5§6✎ §nLore Text\"}"
-							"{\"text\":\"§7§oUsed to belong to my great uncle! Apparently he was eaten by a dragon. The hat is mostly fireproof, made of asbestos he proudly said! Which is why it is the only part of him that was found §orelatively intact...\"}"
+							"{\"translate\":\"lore.mce2.bosses.3\"}"
+							"{\"translate\":\"lore.mce2.hand_me_down.1\"}"
 						]
-						Name: "{\"text\":\"§8Slightly Scorched Hand-Me-Down\"}"
+						Name: "{\"translate\":\"name.mce2.hand_me_down.1\"}"
 					}
 					itemModifier: "modifiers:rash"
 					"quark:RuneAttached": 1b
@@ -60,15 +60,15 @@
 					Damage: 0
 					display: {
 						Lore: [
-							"{\"text\":\"§5§6✎ §nLore Text\"}"
-							"{\"text\":\"§7§oThese shoes belong to your father! You haven't seen him since he set sail in search of treasure! I wonder if he found any...\"}"
+							"{\"translate\":\"lore.mce2.bosses.3\"}"
+							"{\"translate\":\"lore.mce2.hand_me_down.2\"}"
 						]
-						Name: "{\"text\":\"§8Dad's Old Shoes\"}"
+						Name: "{\"translate\":\"name.mce2.hand_me_down.2\"}"
 					}
 					itemModifier: "modifiers:jagged"
 				}
 			}
 		}
 	]
-	title: "hand_me_down"
+	title: "{ftbquests.loot_table.8813467126958483284.title}"
 }

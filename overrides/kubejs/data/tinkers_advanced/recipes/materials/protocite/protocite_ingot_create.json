@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:combining",
+  "extraInput": {
+    "ingredient": {
+      "item": "mekanism:pellet_plutonium"
+    }
+  },
+  "mainInput": {
+    "ingredient": {
+      "item": "tinkers_advanced:densium_ingot"
+    }
+  },
+  "output": {
+    "item": "tinkers_advanced:protocite_pellet"
+  }
+}

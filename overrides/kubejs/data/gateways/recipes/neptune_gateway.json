@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "OSO",
+    "SES",
+    "OSO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "S": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "E": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:neptune_invasion"
+}

@@ -24,7 +24,7 @@
 			damage_reduction_multiplier = 1.4
 			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness_multiplier = 1.0
+			toughness_multiplier = 1.3
 
 	[tools_and_abilities.axe_of_a_thousand_metals]
 		#Set to true for the Axe of a Thousand Metals to have limited durability.
@@ -56,7 +56,7 @@
 	[tools_and_abilities.ice_crystal]
 		#Multiply all damage done with the ice crystal by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 1.6
+		attack_multiplier = 3.6
 		#Set to true for the ice crystal to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
@@ -65,7 +65,7 @@
 		durability = 600
 		#Freeze duration in ticks (applies to frostmaw too!)
 		#Range: > 1
-		freeze_duration = 50
+		freeze_duration = 200
 
 	[tools_and_abilities.umvuthana_mask]
 
@@ -90,15 +90,15 @@
 	[tools_and_abilities.naga_fang_dagger]
 		#Duration in ticks of the poison effect (20 ticks = 1 second).
 		#Range: > 0
-		poison_duration = 40
+		poison_duration = 140
 		#Damage multiplier when attacking from behind
 		#Range: 0.0 ~ 1.7976931348623157E308
-		backstab_damage_mult = 2.0
+		backstab_damage_mult = 2.5
 
 		[tools_and_abilities.naga_fang_dagger.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 3.0
+			attack_damage = 6.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 2.0
@@ -106,10 +106,10 @@
 	[tools_and_abilities.blowgun]
 		#Duration in ticks of the poison effect (20 ticks = 1 second).
 		#Range: > 0
-		poison_duration = 40
+		poison_duration = 120
 		#Multiply all damage done with the blowgun/darts by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_damage = 1.0
+		attack_damage = 3.0
 
 	[tools_and_abilities.geomancerArmor]
 
@@ -124,7 +124,7 @@
 	[tools_and_abilities.earthrend_gauntlet]
 		#Multiply all damage done with the Earthrend Gauntlet by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 3.5
+		attack_multiplier = 3.8
 		#Set to true for the Earthrend Gauntlet to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
@@ -137,7 +137,7 @@
 		[tools_and_abilities.earthrend_gauntlet.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 15.0
+			attack_damage = 16.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 1.800000047683716
@@ -206,7 +206,7 @@
 		[mobs.frostmaw.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 3.5
+			health_multiplier = 5.5
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 7.5
@@ -316,10 +316,10 @@
 		[mobs.ferrous_wroughtnaut.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 2.5
+			health_multiplier = 3.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 13.0
+			attack_multiplier = 15.0
 
 	[mobs.sculptor]
 		#Disable/enable the Sculptor healing while not in combat
@@ -382,7 +382,7 @@
 			health_multiplier = 7.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 5.0
+			attack_multiplier = 15.0
 
 	[mobs.grottol]
 

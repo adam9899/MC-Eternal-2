@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:experience_bottle",
+    "minecraft:gunpowder",
+
+    {
+      "id": "jellyfishing:jellyfish_jelly",
+      "required": false
+    }
+  ]
+}

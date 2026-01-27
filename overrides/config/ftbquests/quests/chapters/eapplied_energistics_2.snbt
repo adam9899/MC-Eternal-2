@@ -7,187 +7,702 @@
 	id: "24965CC4F763480E"
 	images: [
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			height: 8.0d
+			image: "ae2:block/drive/drive_front_flat"
+			order: 1
 			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 1.0d
+			width: 8.0d
+			x: 13.0d
+			y: -11.0d
 		}
 		{
-			height: 1.0d
+			dependency: "67F89819C94F591A"
+			height: 1.2d
 			image: "ae2:block/controller_column_lights"
-			rotation: 0.0d
+			rotation: -90.0d
 			width: 1.0d
-			x: 0.0d
-			y: -1.0d
+			x: 16.0d
+			y: -11.0d
 		}
 		{
-			height: 1.5d
-			image: "ae2:block/controller_lights"
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			height: 5.0d
+			image: "ae2:block/crafting/monitor"
+			order: 1
 			rotation: 0.0d
-			width: 1.5d
-			x: 0.0d
+			width: 5.0d
+			x: 21.0d
+			y: -11.0d
+		}
+		{
+			height: 9.0d
+			image: "ae2:block/controller"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			dependency: "5F39514D991EB2B8"
+			height: 9.0d
+			image: "ae2:block/controller_lights"
+			order: 2
 			rotation: 0.0d
-			width: 1.0d
-			x: 1.9642857142857224d
-			y: -0.4940476190476204d
+			width: 9.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
 			width: 1.0d
-			x: 2.4642857142857224d
-			y: -0.029761904761912206d
+			x: 18.0d
+			y: -11.0d
 		}
 		{
-			height: 1.0d
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 16.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
 			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			color: 657930
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 2.1316282072803006E-14d
-			y: 1.8630952380952337d
+			width: 1.17d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 2.1316282072803006E-14d
-			y: -1.8511904761904816d
+			width: 1.17d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.502380952380967d
-			y: 4.0166666666666515d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 11.66d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.473809523809535d
-			y: 4.016666666666644d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.51666666666668d
-			y: 3.070238095238075d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.480952380952395d
-			y: 3.0345238095237903d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.445238095238118d
-			y: 2.070238095238082d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.516666666666687d
-			y: 2.0345238095237974d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.480952380952417d
-			y: 1.070238095238082d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.492857142857176d
-			y: -1.989285714285728d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 14.528571428571482d
-			y: -1.989285714285728d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 15.016666666666701d
-			y: -2.554761904761918d
+			width: 1.17d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 15.0d
-			y: -3.5d
+			width: 1.17d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
 			x: -1.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: -1.85d
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: -90.0d
-			width: 1.0d
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_small_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_small_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
 			x: 1.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 4.0d
+			image: "modpack:textures/ae2_quantum_ring.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
 			image: "ae2:block/controller_column_lights"
 			rotation: -90.0d
 			width: 1.0d
-			x: 1.85d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
 			y: 0.0d
 		}
 	]
@@ -196,86 +711,69 @@
 	quests: [
 		{
 			description: [
-				"These Meteorites have advanced technology far beyond what we are capable of creating, we must reverse-engineer this tech and see what it can be used for!"
+				"{ftbquests.chapter.eapplied_energistics_2.quest889834847118499805.description1}"
 				""
-				"<rainb>Curious... I seem to be typing in rainbow."
+				"{ftbquests.chapter.eapplied_energistics_2.quest889834847118499805.description2}"
 				""
-				"&8Chapter Credit: lGarlicbreadl"
+				"{ftbquests.chapter.eapplied_energistics_2.quest889834847118499805.description3}"
 			]
 			id: "0C59541433431FDD"
 			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "1E894659A70F605D"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
 				{
 					id: "0C621DFE70ED44F3"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "618C2DB45D46767D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
-			subtitle: "Find a &eCrashed Meteorite"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest889834847118499805.subtitle}"
 			tasks: [{
 				icon: "ae2:sky_stone_chest"
 				id: "35BE2CE0FF4E2929"
 				structure: "ae2:meteorite"
-				title: "Find a &eCrashed Meteorite"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest889834847118499805.task.3872582074452814121.title}"
 				type: "structure"
 			}]
-			title: "A Strange Discovery"
-			x: 0.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest889834847118499805.title}"
+			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0C59541433431FDD"]
 			description: [
-				"&eCertus Quartz Dust&r alongside it's crystal variant &eCertus Quartz Crystal&r are your primary resources for all things &dApplied Energistics&r. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest3872927236553081822.description1}"
 				""
-				"They sprout from &eBudding Certus Quartz&r, similar to amethyst."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3872927236553081822.description2}"
 				""
-				"When harvested prematurely they come in the form of dust, while mature &eCertus Quartz Cluster&r provide Crystals."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3872927236553081822.description3}"
 				""
-				"&6Tip:&r &bMature Quartz Clusters&r are much more efficient than their immature counterpart and &ecan be effected by Fortune&r. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest3872927236553081822.description4}"
 			]
 			id: "35BF66CD4FAE83DE"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "23F66DC87C0CCDDD"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "And so it begins"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest3872927236553081822.subtitle}"
 			tasks: [
 				{
 					id: "749EBE81EDA0F15E"
@@ -288,33 +786,33 @@
 					type: "item"
 				}
 			]
-			title: "Certus Quartz"
-			x: 2.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest3872927236553081822.title}"
+			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0C59541433431FDD"]
 			description: [
-				"Budding Certus Quartz is the source of all Certus Quartz Clusters, and is intended method of sustaining your supply of Certus Quartz."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3741967215150624329.description1}"
 				""
-				"They can be found in 4 stages: &bFlawless&r, &eFlawed&r, &eChipped&r and &eDamaged&r. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest3741967215150624329.description2}"
 				""
-				"When harvested through &4*barbaric*&r means and when sprouting Certus Quartz Clusters; &eBudding Certus Quartz degrade&r in the following order: &bFlawless&r -> &eFlawed&r -> &eChipped&r -> &eDamaged&r -> Certus Quartz Block"
+				"{ftbquests.chapter.eapplied_energistics_2.quest3741967215150624329.description3}"
 				""
-				"&6Tip:&r &bFlawless Budding Certus Quartz&r do not deteriorate after sprouting Clusters and as such make for an &eeasy self-sustaining source of Quartz&r, But, They can not be acquired through direct methods such as mining, &eeven when using Silk Touch&r, instead you ought to find some other way to preserve it's quality."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3741967215150624329.description4}"
 				""
 				"{@pagebreak}"
-				"&6Hint:&r Mechanism Cardboard boxes are useful for transporting fragile packages :)"
+				"{ftbquests.chapter.eapplied_energistics_2.quest3741967215150624329.description5}"
 			]
 			id: "33EE235B3C35EE49"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "0C4987804173188E"
+				id: "1B8A8210D6C23691"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Where does it come from?"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest3741967215150624329.subtitle}"
 			tasks: [{
 				id: "2EAAA036A680E1E9"
 				item: {
@@ -326,65 +824,31 @@
 				}
 				type: "item"
 			}]
-			title: "Budding Certus Quartz"
-			x: 0.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest3741967215150624329.title}"
+			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0C59541433431FDD"]
 			description: [
-				"As you begin to progress through &dApplied Energistics&r, you will come to find that &eCircuits&r and &eProccessors&r are in high demand. In order to produce them you will need their respective &eInscriber Press&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1082163129732776019.description1}"
 				""
-				"&eCalclulation Press&r => &9Printed Calclulation Circuits&r"
-				"&eEngineering Press&r => &bPrinted Engineering Circuits&r"
-				"&eLogic Press&r => &6Printed Logic Circuits&r"
-				"&eSilicon Press&r => &8Printed Silicon&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest1082163129732776019.description2}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest1082163129732776019.description3}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest1082163129732776019.description4}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest1082163129732776019.description5}"
 				""
-				"&6Tip:&r While the &eInscriber Presses are not consumed in their respective recipes&r, they can only command an single inscriber at a time, When your demand out-scales your initial set of Inscribers, each can be used to &eproduce an copy&r of itself when inscribed onto an Iron Block."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1082163129732776019.description6}"
 			]
 			id: "0F049DA208BF4053"
-			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "70E2A1AAC72390C2"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "4E709720839DF2EB"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "A little force oughta do"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5FC436111F11696C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest1082163129732776019.subtitle}"
 			tasks: [
 				{
 					id: "42C73BF472053C22"
@@ -407,53 +871,53 @@
 					type: "item"
 				}
 			]
-			title: "Inscriber Presses"
-			x: 0.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest1082163129732776019.title}"
+			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0C59541433431FDD"]
 			description: [
-				"While not extensively used in crafting recipes, &eSky Stone&r is needed for your &bME Controller&r, an device so useful that your &eNetwork&r can not operate without it; But we are getting ahead of ourselves. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest3422142609909884372.description1}"
 				""
-				"Just a little will do, but it would be unjust to let such an pretty stone rot alone."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3422142609909884372.description2}"
 			]
 			id: "2F7DE4928A6825D4"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "00F4145C1B9A1ABF"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "The cooler Stone"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest3422142609909884372.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "379B3EECC326C967"
 				item: { Count: 4, id: "ae2:sky_stone_block" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["607B99F14104C94C"]
 			description: [
-				"The &eCharger&r can be used to charge *shocker* &eCertus Quartz Crystals&r; While their base form see a lot of use, &eCharged Certus Quartz Crystals&r are just as useful. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest3573461675820579959.description1}"
 				""
-				"&6Tip:&r While you are at it, and if you deem it useful, you can also charge:"
-				"Compass => &eMeteorite Compass&r"
-				"Book => &eGuide&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest3573461675820579959.description2}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest3573461675820579959.description3}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest3573461675820579959.description4}"
 			]
 			id: "31977C760DC1FC77"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "7CA33B9D73D71092"
+				id: "5DBAC375E894FCE6"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Low Battery"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest3573461675820579959.subtitle}"
 			tasks: [
 				{
 					id: "7E142D8CF1B7727E"
@@ -466,195 +930,51 @@
 					type: "item"
 				}
 			]
-			title: "Charging"
-			x: 6.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest3573461675820579959.title}"
+			x: 5.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["31977C760DC1FC77"]
-			description: ["Leads you to the nearest &eMeteorite&r."]
+			dependencies: ["5CF065DD209B4B1C"]
+			description: ["{ftbquests.chapter.eapplied_energistics_2.quest995148012279755199.description1}"]
 			id: "0DCF79D83ADEF1BF"
 			optional: true
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "10B7F18DB5DCBC0D"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Where is it?!"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest995148012279755199.subtitle}"
 			tasks: [{
 				id: "0DF7FEFAE651E17C"
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["31977C760DC1FC77"]
-			description: ["You can also hold 'G' When hovering over &dAE2&r Items to find their page insantly."]
+			dependencies: ["5CF065DD209B4B1C"]
+			description: ["{ftbquests.chapter.eapplied_energistics_2.quest7922594073765515199.description1}"]
 			id: "6DF2B5559A688FBF"
 			optional: true
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "263757C21B161E41"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Self Explanatory"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7922594073765515199.subtitle}"
 			tasks: [{
 				id: "70A234699337CD57"
 				item: "ae2:guide"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["31977C760DC1FC77"]
-			description: [
-				"Before we move on, we must establish an new mechanic; &bIn World Transformations&r."
-				""
-				"Simply Put, Some of the upcoming recipes ask you to &9Submerge&r certain materials together in water in order to mediate for their reactions to take place."
-				""
-				"I'll provide you with two non-essential but potentially useful examples as &eOptional Quests&r."
-			]
-			id: "353A578CDE6BFEE9"
-			subtitle: "Natural"
-			tasks: [{
-				id: "6116B7AEE4AD7F90"
-				title: "Read"
-				type: "checkmark"
-			}]
-			title: "In World Transformation"
-			x: 6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["353A578CDE6BFEE9"]
-			description: ["If you find yourself needing more &eCertus Quartz Dust/Crystals&r, you can rejuvenate &eChipped/Damaged Budding Certus Quartz&r or breathe fresh life into an &eCertus Quartz Block&r by combing them with an &bCharged Certus Quartz Crystal&r in an &9pool of water&r."]
-			id: "637B7439FCF1D436"
-			optional: true
-			subtitle: "Similar to a defibrillator"
-			tasks: [{
-				id: "71773CA653FCF07A"
-				title: "Read"
-				type: "checkmark"
-			}]
-			title: "Rejuvenation"
-			x: 7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["353A578CDE6BFEE9"]
-			description: ["If you need to convert some Dust into Crystals, you can do so by mixing &bCharged Certus Quartz Crystals&r and &eCertus Quartz Dust&r to produce 2x &eCertus Quartz Crystal&r"]
-			id: "47B8823D3CE98856"
-			optional: true
-			subtitle: "Too much dust?"
-			tasks: [{
-				id: "218F485DA8E0923C"
-				title: "Read"
-				type: "checkmark"
-			}]
-			title: "Equivalent Exchange"
-			x: 5.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["607B99F14104C94C"]
-			description: [
-				"The &eInscriber&r is our method of printing &eCircuits and Processors&r."
-				""
-				"There are a 3 Ciruits: &9Printed Calclulation Circuits&r, &bPrinted Engineering Circuits&r, &6Printed Logic Circuits&r."
-				""
-				"If you recall there was also &8Printed Silicon&r. "
-				""
-				"By Combining one of the 3 Ciruits, &8Printed Silicon&r and &4Redstone&r we can produce their respective proccessors: "
-				""
-				"&bPrinted Engineering Circuits&r + &8Printed Silicon&r + &4Redstone&r => &bEngineering Processor&r"
-				"&9Printed Calclulation Circuits&r + &8Printed Silicon&r + &4Redstone&r => &9Calculation Processor&r"
-				"&6Printed Logic Circuits&r + &8Printed Silicon&r + &4Redstone&r => &6Logic Processor&r"
-			]
-			id: "7D247A72BC4EC1A3"
-			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "2E416076FCA82C83"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "24E27AAB8866994E"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "High Tech Printing"
-			tasks: [{
-				id: "51B35295F6D1B026"
-				item: "ae2:inscriber"
-				type: "item"
-			}]
-			title: "Inscribing"
-			x: 6.0d
+			x: -7.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["35BF66CD4FAE83DE"]
-			description: [
-				"If you have yet to acquire an means of producing energy, the use of a &eWooden Crank&r to convert our kinetic energy into power will have to do. "
-				""
-				"&6Tip:&r If you already have an source of power, You can transfer it into your machine by using an &eEnergy Acceptor&r. Try placing it adjacent to your source of power and the machine you are attempting to power."
-				""
-				"&6Note:&r All &dApplied Energistics&r equipment will automatically link to eachother and allow power to flow between themselves."
-			]
-			id: "607B99F14104C94C"
-			rewards: [{
-				amount: 80L
-				currency: "eternalcurrencies:coins"
-				id: "7CCFAF0252F25766"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Poawh!"
-			tasks: [{
-				id: "4CFEBC9D44E88DF6"
-				title: "Read"
-				type: "checkmark"
-			}]
-			title: "Initial Power! &e(Information Quest)&r"
-			x: 3.0d
-			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -662,70 +982,188 @@
 				"7D247A72BC4EC1A3"
 			]
 			description: [
-				"Your &dME Controller&r is the heart of your entire Network, every machine you have used so far takes up an &eChannel&r, without an controller your &eNetwork&r is limited to &e8 Channels&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3835474295198056169.description1}"
 				""
-				"While &e8 Channels&r is enough for early applications of &dApplied Energistics&r, as your operations begin to scale that amount will seem like nothing, and that's where your &dME Controller&r comes into play; Each of it's 6 faces provides &332 Channels&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3835474295198056169.description2}"
 				""
-				"&6Hint:&r Not every &dApplied Energestics&r machine uses an &eChannel&r, but every &bME (x)&r machine does."
-				"{@pagebreak}"
-				"If you haven't already, try right clicking your &dME Controller&r; It will provide you with an overwhealeming amount of infromation but once you understand what it all means it won't look so scary anymore."
-				""
-				"Your &eNetwork&r details tell you a lot of things, the amount of &eChannels&r you have used, your &7Stored/Max Power&r, your &ePassive Drain&r which we will get to in a moment, and your &7Energy Useage/Generation&r."
-				""
-				"While most of thease are fundamental, &ePassive Drain&r is a bit more unique, most machines you connect to your system will have an minor amount of &ePassive Drain&r, but it's nothing to worry about as long as you have an power setup appropriate for your scale and you have an suitable &7Power Bank&r."
-				"{@pagebreak}"
-				"The &7Power Bank&r of your &dME Controller&r alone is insuffecent, since it cannot store an meaninful excess of energy. With &76k AE (energy)&r storage provided by your controller, you have no buffer for when multiple machine begin running. The solution? a &eEnergy Cell&r, with it's weakest iteration providing &7200k AE (energy)&r storage, an single copy will be a sufficient buffer for an long time."
-				""
-				"With the metaphorical heart of your operation constructed you now need to &7Power&r it."
-				""
-				"If you haven't already this is the time to make use of your &aFavourate Energy Mod&r and produce the power for your future contraptions to use."
-				""
-				"&6Tip:&r In order to transfer external &7Power Generation&r into &dAE2&r, all you need is an &eEnergy Acceptor&r. Just connect your acceptor to your Network, hook your power into, it and watch your battery fill!"
+				"{ftbquests.chapter.eapplied_energistics_2.quest3835474295198056169.description3}"
 			]
+			id: "353A578CDE6BFEE9"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "050F000C1545E04B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest3835474295198056169.subtitle}"
+			tasks: [{
+				id: "6116B7AEE4AD7F90"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest3835474295198056169.task.6995981032955412368.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest3835474295198056169.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["353A578CDE6BFEE9"]
+			description: ["{ftbquests.chapter.eapplied_energistics_2.quest7168451024295941174.description1}"]
+			hide_until_deps_complete: true
+			id: "637B7439FCF1D436"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "5CC7EAAA8E7CFC9D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7168451024295941174.subtitle}"
+			tasks: [{
+				id: "71773CA653FCF07A"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest7168451024295941174.task.8176070333585748090.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest7168451024295941174.title}"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["353A578CDE6BFEE9"]
+			description: ["{ftbquests.chapter.eapplied_energistics_2.quest5168023771934197846.description1}"]
+			hide_until_deps_complete: true
+			id: "47B8823D3CE98856"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "0C7F32D36029963A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest5168023771934197846.subtitle}"
+			tasks: [{
+				id: "218F485DA8E0923C"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest5168023771934197846.task.2418231092023693884.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest5168023771934197846.title}"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["607B99F14104C94C"]
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest9017466987106714019.description1}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest9017466987106714019.description2}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest9017466987106714019.description3}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest9017466987106714019.description4}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest9017466987106714019.description5}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest9017466987106714019.description6}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest9017466987106714019.description7}"
+			]
+			id: "7D247A72BC4EC1A3"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0B1C56F13720C264"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest9017466987106714019.subtitle}"
+			tasks: [{
+				id: "51B35295F6D1B026"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest9017466987106714019.title}"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35BF66CD4FAE83DE"]
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest6952319711233493324.description1}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6952319711233493324.description2}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6952319711233493324.description3}"
+			]
+			id: "607B99F14104C94C"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "7CCFAF0252F25766"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6952319711233493324.subtitle}"
+			tasks: [{
+				id: "4CFEBC9D44E88DF6"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest6952319711233493324.task.5548079174619008502.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest6952319711233493324.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["353A578CDE6BFEE9"]
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description1}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description2}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description4}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description5}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description6}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description7}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description8}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description9}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.description10}"
+			]
+			hide_dependent_lines: true
 			icon: "ae2:controller"
 			id: "5F39514D991EB2B8"
 			rewards: [
 				{
+					count: 2
 					id: "475C78C193D87A74"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "197C1B27983277A8"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Your First/Primary Network"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6861604900998918840.subtitle}"
 			tasks: [
 				{
 					id: "203281F83F34CA5A"
@@ -742,28 +1180,28 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"Your entire &eNetwork&r can be/will be connected though an series of &5Fluix Cables&r. They act as a bridge between your machines transferring power and connecting them to the &ePrimary Network&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6214452841353405101.description1}"
 				""
-				"&eQuartz Fibers&r allow you to flow power from one &eNetwork&r to another without connecting them to the &ePrimary Network&r by placing themselves between two &5Fluix Cables&r. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest6214452841353405101.description2}"
 				""
-				"For now this may seem insignificant but as we introduce more complex topics such as &bSub-Networks&r their effectiveness will show."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6214452841353405101.description3}"
 			]
 			icon: "ae2:fluix_glass_cable"
 			id: "563E2BEF024962AD"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "55FF51D69DEE7203"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Veins of your Network"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6214452841353405101.subtitle}"
 			tasks: [
 				{
 					id: "23645E15D1E2268C"
@@ -776,31 +1214,31 @@
 					type: "item"
 				}
 			]
-			title: "Fluix Cables"
-			x: 9.0d
-			y: 1.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest6214452841353405101.title}"
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["563E2BEF024962AD"]
 			description: [
-				"&eCovered Cables&r are 1 to 1 with &5Fluix Cables&r bar their visiual differences."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6503258100123595909.description1}"
 				""
-				"&3Dense Cables&r Function identically to &5Fluix Cables&r with the single cavate of being able to hold 32 channels instead of 8, making them ideal as the cables that connect to the faces of your &dME Controller&r to allow you to split the &332 Channels&r properly between your &e8 Channel&r capped &5Fluix Cables&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6503258100123595909.description2}"
 				""
-				"&6Tip:&r &3Dense Cables&r are &etoo large for most pannels&r to connect to, if you are having trouble setting something up, try using an smaller cable that branches off the &3Dense Cable&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6503258100123595909.description3}"
 				""
-				"&7(Only 1 of 2 tasks must be Completed for this Quest)&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6503258100123595909.description4}"
 			]
 			id: "5A4036C94C8C7485"
 			min_required_tasks: 1
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "0DD582D1DB99364E"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "The Bigger Brother"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6503258100123595909.subtitle}"
 			tasks: [
 				{
 					id: "6E43356A1B1C7BBB"
@@ -825,36 +1263,39 @@
 					type: "item"
 				}
 			]
-			title: "Thicker Cables"
-			x: 8.0d
-			y: 2.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest6503258100123595909.title}"
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"One of &dApplied Energistics&r' most popular uses is it's &bStorage Network&r, an method of transferring all of your items into the digital world, it's much simpler to use and expand than you expectations may have you believe."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description1}"
 				""
-				"All of your &4*spoils of conquest*&r will be stored in &eME Item Storage Cells&r, functionally an chest with much deeper item slots."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description2}"
 				""
-				"&eStorage Cells&r are stored in &eME Drives&r which act as an holding bay for &510 Storage Cells&r per &eME Drive&r regardles of size or type."
-				""
-				"To access your &bStorage Network&r you must use at least a &eME Terminal&r, but for most cases you want to push an step beyond and instead use an &eCrafting Terminal&r which also allows you to access your &bStorage Network&r but it provide an easy to use &eCrafting Table&r within the terminal for all your crafting needs."
-				"{image:modpack:textures/ae2_simple_storage.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description3}"
 				"{@pagebreak}"
-				"While all &eItem Storage Cells&r only allow you to store &563 types&r of items per Storage Cell, the size of your &eStorage Cell&r (&c1k&r, &64k&r, &a16k&r etc.) allows you to scale the &7Capacity&r of those cells."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description4}"
 				""
-				"Basicaly, you &4do not&r want to store &enon-stacking items&r such as Swords, Armour and the various Trinkets you come across inside your &bStorage Network&r; else you risk overflowing the &7Types&r of items that you can store much earlier than the &7Capacity&r of your cells."
-				""
-				"Before moving on, it's important to note that the &7Capacity&r of cells is not in terms of items but in terms of &7Bytes&r."
-				""
-				"They are hard to explain and an deeper understanding of them isn't required but fundementally &ethe more&r &7Bytes&r &eyou have, the more Items you can store.&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description5}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.image0}"
 				"{@pagebreak}"
-				"There is another mechanic to &eStorage Cells&r related to &7Types&r; &7Bytes&r work in such an way that the &7Capacity&r of an cell is used more efficently the less &7Types&r it uses."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description6}"
 				""
-				"This is most useful when &eModifying Cells&r and shifting around &ePriorities&r which will be explained soon."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description7}"
 				""
-				"Again, the specifics aren't nessessary but the &eGuide&r has a table can explain this visually. (Try holding 'G' on &eStorage Cells&r)"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description8}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description9}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description10}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description11}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.description12}"
 			]
+			hide_dependent_lines: true
 			icon: "ae2:drive"
 			id: "67F89819C94F591A"
 			rewards: [
@@ -864,27 +1305,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -898,7 +1322,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Digital Storage"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.subtitle}"
 			tasks: [
 				{
 					id: "73E15D69577B1959"
@@ -920,84 +1344,67 @@
 					type: "item"
 				}
 			]
-			title: "Storage Network"
-			x: 11.0d
-			y: -2.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest7491905216649845018.title}"
+			x: 13.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"Useful and applicable for all your farming needs, &eGrowth Accelerators&r consume &eEnergy&r in order to &aaccelerate adjacent Crops/Nodes&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8676625527515549308.description1}"
 				""
-				"You can stack as many as you can fit, but beware, they love chewing through your &7Power Bank&r, and as such try to get full efficiency out of each one."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8676625527515549308.description2}"
 			]
 			id: "786990F250A68E7C"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "57C714E6DB583048"
+				id: "542F817E22153714"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Accelerating Growth"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest8676625527515549308.subtitle}"
 			tasks: [{
 				id: "091783DE3A313230"
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["5F39514D991EB2B8"]
+			dependencies: ["67F89819C94F591A"]
 			description: [
-				"Every &dAE2&r &eMachine&r can be &ealtered or upgraded&r in some way, these cards are the methods in which you can do that, some can stack while others don't need to, each machine will have an &enumber (x)&r next to the cards that it can accept, that number is the &emaximum amount&r of that card that it will accept at a time."
+				"{ftbquests.chapter.eapplied_energistics_2.quest5668140033576672717.description1}"
 				""
-				"While I could explain each in detail, the in-game guide does a great job."
+				"{ftbquests.chapter.eapplied_energistics_2.quest5668140033576672717.description2}"
 			]
 			id: "4EA9475456821DCD"
 			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "3117D57617760CB5"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
 				{
 					id: "4D589338D88656B3"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "609C70B11ECF1FA9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
-			subtitle: "Upgrades in SIM form"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest5668140033576672717.subtitle}"
 			tasks: [
 				{
 					id: "3F258A9B8226635A"
@@ -1045,35 +1452,52 @@
 					type: "item"
 				}
 			]
-			title: "Card Collecting"
-			x: 8.0d
-			y: 1.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest5668140033576672717.title}"
+			x: 13.0d
+			y: -9.69d
 		}
 		{
 			dependencies: ["7889A5659E64B507"]
 			description: [
-				"&bCrafting Network&rs are an multi-block and have two parts, the &bCPU&r and the &bRAM&r (Metaphorically)."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3089135714951725819.description1}"
 				""
-				"The &bCPU&r contains the &eCo-Proccessing Unit&r and &eCrafting Storage&r, they control how many &eRequests&r you can make at a time, and how many &eItems can be flowing around&r in the &bCrafting Network&r at the same time, respectfully."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3089135714951725819.description2}"
 				""
-				"They can be placed anywhere adjacent to eachother, and expanded by just adding more of the requireed block."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3089135714951725819.description3}"
 				""
 				"{@pagebreak}"
-				"Initally one of each a &eCo-Proccessing Unit&r and a &e1k Crafting Storage&r is plenty, but as your demand expands upgrading the apropriate bottleneck is important and simple."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3089135714951725819.description4}"
 				""
-				"If you are requesting a lot of &e*Unique Patterns*&r at once, then you need more &eCo-Proccessing Units&r and if you are requesting a lot of a &e*Single Pattern*&r then you need more &eCrafting Storages&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3089135714951725819.description5}"
 				""
-				"&6For Example;&r Crafting 30 different types of doors => &eUnique Patterns&r, Crafting an single type of door 30 times => &eSingle Pattern&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest3089135714951725819.description6}"
 			]
 			id: "2ADED090D8AB82FB"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "4B407A5D055CD2C8"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Half a Crafting Network"
+			rewards: [
+				{
+					id: "2C6DB126A8E259BA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "66D2058D2296DE13"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest3089135714951725819.subtitle}"
 			tasks: [
 				{
 					id: "590947D31285C2F3"
@@ -1086,26 +1510,26 @@
 					type: "item"
 				}
 			]
-			title: "Crafting CPU"
-			x: 14.0d
-			y: -2.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest3089135714951725819.title}"
+			x: 20.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: [
-				"Your &bStorage Network&r is not limited to Items, but can also accept &eFluids&r if the appropriate cell is housed in your network."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4971638186989336630.description1}"
 				""
-				"&6Note:&r While only &518 Types&r of liquids are supported per cell, it's actually plenty for almost all uses and as such deeper &eFluid Storage Cells&r are more common than their item counterpart."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4971638186989336630.description2}"
 			]
 			id: "44FECE9717443836"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "66006B299DA1FD29"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Buckets upon Buckets of Lava"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest4971638186989336630.subtitle}"
 			tasks: [{
 				id: "059222AC3527D804"
 				item: {
@@ -1115,28 +1539,28 @@
 				}
 				type: "item"
 			}]
-			title: "Fluid Storage"
-			x: 11.0d
-			y: -5.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest4971638186989336630.title}"
+			x: 12.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: [
-				"If you find yourself needing a lot of &7Capacity&r for a few &eTypes of Items&r, an larger &eStorage Cell&r may be what you need."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7832328368451791809.description1}"
 				""
-				"By default, every iteration of an &eStorage Cell&r gives you an extra (x)K worth of &7Bytes&r, with (x) being the capacity of the cell before it. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest7832328368451791809.description2}"
 				""
-				"For Example, an &64k Storage Cell&r needs an &e4k Storage Component&r, but instead of needing 4x &e1k Storage Components&r to craft, you only need 3, and as such you get an extra 1k &7Bytes&r for free."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7832328368451791809.description3}"
 			]
 			id: "6CB2052755C8ABC1"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "5E2505BDB478063D"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Tons of Stone"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7832328368451791809.subtitle}"
 			tasks: [{
 				id: "6932234167172E63"
 				item: {
@@ -1146,56 +1570,22 @@
 				}
 				type: "item"
 			}]
-			title: "Deeper Storage"
-			x: 10.0d
-			y: -5.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest7832328368451791809.title}"
+			x: 11.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
-			description: ["Your &bStorage Network&r can also accept &eChemicals&r, the cells act identically to their &eFluid&r counterparts and as such the advice for them applies here aswell."]
+			description: ["{ftbquests.chapter.eapplied_energistics_2.quest8793500183981140965.description1}"]
 			id: "7A08C9D3CE872BE5"
-			rewards: [
-				{
-					id: "0854C77B46A93BCC"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "334A01B7D5641591"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
-			subtitle: "Gaseous "
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "334A01B7D5641591"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest8793500183981140965.subtitle}"
 			tasks: [{
 				id: "6A84FF703976E87E"
 				item: {
@@ -1205,9 +1595,9 @@
 				}
 				type: "item"
 			}]
-			title: "Chemicals Too"
-			x: 12.0d
-			y: -5.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest8793500183981140965.title}"
+			x: 14.0d
+			y: -13.55d
 		}
 		{
 			dependencies: [
@@ -1215,15 +1605,15 @@
 				"59A1722D0380D230"
 			]
 			description: [
-				"<rainb>Coloured Cables"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2229072077320192457.description1}"
 				""
-				"They have two uses:"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2229072077320192457.description2}"
 				""
-				"1) Look Good"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2229072077320192457.description3}"
 				""
-				"2) Be &eIndependant&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2229072077320192457.description4}"
 				""
-				"&6Hint:&r If you want to lay multiple cables near eachother, try to add some colour."
+				"{ftbquests.chapter.eapplied_energistics_2.quest2229072077320192457.description5}"
 			]
 			id: "1EEF413E836981C9"
 			rewards: [
@@ -1233,41 +1623,24 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "08465F1FBEB37CD6"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Pretty"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest2229072077320192457.subtitle}"
 			tasks: [{
 				id: "5A92528F101937C1"
 				item: {
@@ -1277,107 +1650,75 @@
 						value: "mce2:ae2/colored_cables"
 					}
 				}
-				title: "Any Colored Cable"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest2229072077320192457.task.6526369584417159105.title}"
 				type: "item"
 			}]
-			title: "Colourful Cables"
-			x: 9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["67F89819C94F591A"]
-			description: [
-				"If you find yourself needing to move around or access items in a &eStorage Cell&r, the &eME Chest&r is for you."
-				""
-				"When an &eStorage Cell&r is placed within, it displayes it's content as if it were an normal chest."
-			]
-			id: "63FEA2EF6977B017"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "70C9B79DC34B3D8A"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Micro Management"
-			tasks: [{
-				id: "6743953A66D48172"
-				item: "ae2:chest"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["67F89819C94F591A"]
-			description: ["Most useful when messing around with &eModified Storage Cells&r or &ePriority&r in your &eME Drive&r, the &eME IO Port&r allows you to quickly transfer all the items stored within an &eStorage Cell&r into the &bStorage Network&r and vice versa."]
-			id: "58941F0B71BB33F9"
-			rewards: [
-				{
-					id: "0458A140B7F59E0B"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "2226277DC3814E6A"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
-			subtitle: "Macro Management"
-			tasks: [{
-				id: "7BFD2D1CEFA8EE7B"
-				item: "ae2:io_port"
-				type: "item"
-			}]
-			x: 9.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest2229072077320192457.title}"
+			x: 10.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: [
-				"The &eCell Workbench&r allows you to &aAdd/Remove/Config&r &eUpgrade Cards&r from your &eStorage Cells&r and/or &ePartition&r them."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7205375602989707287.description1}"
 				""
-				"Here's an example; Say you have an cobblestone generator and you want to pipe it into your &bStorage Network&r, but wait, you don't want to end up filling all of your &eStorage Cards&r with cobblestone. What do you do?"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7205375602989707287.description2}"
+			]
+			id: "63FEA2EF6977B017"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "70C9B79DC34B3D8A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7205375602989707287.subtitle}"
+			tasks: [{
+				id: "6743953A66D48172"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: ["{ftbquests.chapter.eapplied_energistics_2.quest6382760705904030713.description1}"]
+			id: "58941F0B71BB33F9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2226277DC3814E6A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6382760705904030713.subtitle}"
+			tasks: [{
+				id: "7BFD2D1CEFA8EE7B"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest7515545409304119165.description1}"
 				""
-				"&6Hint:&r Before you turn the page and check the answer, think of the &eUpgrade Cards&r we've introduced, could any of them do this job?"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7515545409304119165.description2}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest7515545409304119165.description3}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest7515545409304119165.description4}"
 				"{@pagebreak}"
-				"You could install an &aOverflow Destruction Card&r onto an &eStorage Cell&r, but before you do that you must make sure that the &eStorage Cell&r will only accept cobblestone otherwise you risk your &bStorage Network&r eating your items. But how do we do that?"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7515545409304119165.description5}"
 				""
-				"&aPartitioning&r, by placing an &eStorage Cell&r into your &eCell Workbench&r you gain the ability to &ePartition&r it's cells; This means that by placing an copy of the item(s) you want the cell to contain, you can make it exclusivly accept only those items."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7515545409304119165.description6}"
 				"{@pagebreak}"
-				"So now, if you have &aPartitioned&r your &eStorage Cell&r to only accept cobblestone, &eModified&r it with an &aOverflow Destruction Card&r and set the &epriority&r of the &eME Drive&r containing it to the top of your &aChain of Priority&r, any and all cobblestone &eImported&r into the &bStorage Network&r will fill the &eStorage Cell&r to it's &7Capacity&r and the excess will be thorwn into the void instead of overflowing your &bStorage Network&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7515545409304119165.description7}"
 				""
-				"&6Hint:&r If you already have cobblestone in your &bStorage Network&r, try using the &eME IO Port&r to move it all into your new &eStorage Cell&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7515545409304119165.description8}"
 			]
 			id: "684C94BB0EE3C77D"
 			rewards: [
@@ -1387,27 +1728,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1421,128 +1745,98 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Modifications"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7515545409304119165.subtitle}"
 			tasks: [{
 				id: "724D1482E776BAED"
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 13.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: [
-				"Priority is simple, the device with the higher &ePriority Value&r gets to go first. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest8976041896521988305.description1}"
 				""
-				"What does this look like?"
+				"{ftbquests.chapter.eapplied_energistics_2.quest8976041896521988305.description2}"
 				""
-				"Imagine you have two &eME Drives&r, and for whatever reason you want one to be completly filled before the other begins to accept items."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8976041896521988305.description3}"
 				""
-				"By setting the &ePriority Value&r of the first to 1, or any value larger than the second drive's &ePriority Value&r, your &eNetwork&r will send all aplicable items to the first &eME Drive&r as long as it has room."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8976041896521988305.description4}"
 				""
-				"Once it is full, your &eNetwork&r will look to fill the next &eME Drive&r down the &aChain of Priority&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8976041896521988305.description5}"
 				""
-				""
-				"&6Hint:&r This is not limited to just ME Drives, almost every machine you work with will have an option for priority and they will all follow the &aChain of Priority&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8976041896521988305.description6}"
 			]
 			id: "7C914E8C3B3778D1"
-			subtitle: "Organizational Tool"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "5A81E712F1057280"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest8976041896521988305.subtitle}"
 			tasks: [{
 				id: "0B2BF4EF70DE9E60"
-				title: "Read"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest8976041896521988305.task.805006267643764320.title}"
 				type: "checkmark"
 			}]
-			title: "Priority"
-			x: 9.0d
-			y: -5.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest8976041896521988305.title}"
+			x: 13.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: [
-				"Incase you have an already existing storage system or aren't prepared to move everything into your &bStorage Network&r, &eStorage Buses&r allows you to convert the inventory it's connected to into part of your &bStorage Network&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4507627367181465773.description1}"
 				""
-				"&6Tip:&r If you have a lot of &eNon-Stacking Items&r such as enchanted books and still want to access them through your &eTerminal&r, try creating an seperate storage such as &eSimple Storage Chests&r or &eCreate's Vault&r deticated to those items and connecting it to your network using the storage bus."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4507627367181465773.description2}"
 				""
-				"&6Hint:&r &eStorage Buses&r are useful for many cases, so many infact that I couldn't reasonably fit them all here, but if you ever find yourself trying to access resources between your &bStorage Network&r and an &eSub-Network&r, &eStorage Buses&r are can help."
-				""
-				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest4507627367181465773.description3}"
 				"{@pagebreak}"
-				"&6Tip:&r By default, &eStorage Buses&r allow everything to move through them, but they can also be filtered to only accept certain resources."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4507627367181465773.description4}"
 				""
-				"This can be useful when harvesting &eCertus Quartz Buds&r by filtering the bus to only accept &eCertus Quartz&r which can only be produced by &eMature Certus Quartz Buds&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4507627367181465773.description5}"
 				""
-				"Therefore your harvester of choice, assuming it doesn't have it's own inventory, will only be able to harvest &eMature Certus Quartz&r ensuring that you do not run into inefficent harvesting."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4507627367181465773.description6}"
 			]
 			id: "3E8E4F3540AE38AD"
-			rewards: [
-				{
-					id: "47D048FF6A15745C"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "41E42B619AD11FF2"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
-			subtitle: "For accepting non-drive storage"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "41E42B619AD11FF2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest4507627367181465773.subtitle}"
 			tasks: [{
 				id: "2619FBCD58071BBE"
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
 			x: 12.0d
-			y: -1.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: [
-				"&eImport/Export Buses&r do what their name implies, they are your main method of transporting Items/Fluids (etc.) to and from your &bStorage Network&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6600705435250908839.description1}"
 				""
-				"They can be &eFiltered&r to only &eImport/Export&r certain items into and out of storage."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6600705435250908839.description2}"
 				""
-				"&6Tip:&r All &eFilters&r in &dApplied Energistics&r can accept Items/Fluids that you &4don't have&r by dragging them in from &aJEI&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6600705435250908839.description3}"
 			]
 			id: "5B9A6A9F0F1EDEA7"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "339143EBC547C3F7"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "The wheeles on the bus go round and round"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6600705435250908839.subtitle}"
 			tasks: [
 				{
 					id: "3742D6FB704A9722"
@@ -1555,59 +1849,77 @@
 					type: "item"
 				}
 			]
-			title: "Import/Export Buses"
-			x: 12.0d
-			y: -3.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest6600705435250908839.title}"
+			x: 11.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["2ADED090D8AB82FB"]
 			description: [
-				"With your &bCPU&r online, you now need some &bRAM&r to work with."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description1}"
 				""
-				"While &eCo-Proccessing Units&r and &eCrafting Storage&r determines the amount of &eRequests&r you can issue and the number of items that can flow around your &eCrafting Network&r at a time; &eRequests&r can not be fulfilled without the appropriate &eME Pattern Providers&r and &eMolecular Assemblers&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description2}"
 				""
-				"&eMolecular Assemblers&r are &eAutomated Crafting Tables&r, they can hold an &ePattern&r and automatically craft it's item as long as it recives power and the resources requied."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description3}"
 				""
-				"For useage in your &bCrafting Network&r they basically do the same thing, but instead of needing a held &ePattern&r and inputed resources, adjacent &ePattern Providers&r can provide both."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description4}"
 				"{@pagebreak}"
-				"&ePattern Providers&r store all your &ePatterns&r and order around the adjacent blocks based on the &eRequests&r contained within their &ePatterns&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description5}"
 				""
-				"They can accept &ePatterns&r manually by rightclicking and inserting Patterns, or indirectly the use of an &eME Pattern Access Terminal&r that is connected to your &bCrafting Network&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description6}"
 				""
-				"Once your &ePatterns&r are contained within your &eNetwork&r, and you access it using an &eTerminal&r the option to \"craft\" your items will appear."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description7}"
 				""
-				"When you make an \"craft\" &eRequest&r using your &eTerminal&r, a few things happen;"
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description8}"
 				"{@pagebreak}"
-				"1) &bCrafting Network&r checks that you have an &eCo-Proccessing Units&r avilable to order the \"craft\"."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description9}"
 				""
-				"2) &bCrafting Network&r checks that you have enough &eCrafting Storage&r to hold all the required materials to fullfil the order."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description10}"
 				""
-				"3) &bCrafting Network&r sends the order to the available &ePattern Provider&r containing the &eRequest's Pattern&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description11}"
 				""
-				"4) &ePattern Provider&r informs the adjacent &eMolecular Assemblers&r of the &eRequest&r and provides the nececary materials from the connected &bStorage Network&r and the &ePattern&r's instructions."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description12}"
 				""
-				"5) &ePattern Provider&r enters an \"sleep\" phase were it awaits the expected outputs, while the &eMolecular Assembler&r works on crafting and returning them."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description13}"
 				""
-				"6) Once all the requested \"crafts\" are completed and recived by the &ePattern Provider&r, the operation is completed and the products are sent into your connected &bStorage Network&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description14}"
 				"{@pagebreak}"
-				"&6Tip:&r For Automatic Crafting, the speed at which an &eRequest&r is resolved can be improved by placing more &eMolecular Assemblers&r adjacent to your &ePattern Providers&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description15}"
 				""
-				"&6Note:&r Only &ePattern Providers&r and &eCo-Proccessing Units&r require &eChannels&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description16}"
 				""
-				"&6Note:&r When using &ePattern Providers&r for functions outside of crafting, the same process applies with the &aappropriate functioning blocks&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description17}"
 				""
-				"(&6Visual Example&r; &5Fluix Cables&r are hidden but connect the &bCrafting Network&r with the &bStorage Network&r)"
-				"{image:modpack:textures/ae2_simple_crafting_setup.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.description18}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.image0}"
 			]
+			hide_dependent_lines: true
 			id: "19ABB31DC31B6DF3"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "664AA0FB527F2567"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "The Other Half"
+			rewards: [
+				{
+					id: "02A2C31FB015E317"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "40C48372D13BE3F4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.subtitle}"
 			tasks: [
 				{
 					id: "7D58D99090DA5BBC"
@@ -1620,61 +1932,78 @@
 					type: "item"
 				}
 			]
-			title: "Crafting RAM"
-			x: 15.0d
-			y: -2.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest1849769012374498803.title}"
+			x: 20.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: [
-				"Part of why &dApplied Energistics'&r &bStorage Network&r is so popular is it's ability to &eRequest&r the automated crafting of &9*any/everything*&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description1}"
 				""
-				"This is done through the useage of &ePatterns&r, \"guides\" for you machines on how to Craft, Smelt, Brew and so on."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description2}"
 				""
-				"Before we get to building your crafter's &bCPU&r, it's important to learn and understand how &ePatterns&r, their creation and their implementation works."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description3}"
 				"{@pagebreak}"
-				"To begin, an &eME Pattern Encoding Terminal&r is required, it is how you can interact with an configure &eBlank Patterns&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description4}"
 				""
-				"Whem opening the terminal, you will notice that it displaces your &bStorage Network&r and the &ePattern Encoding UI&r, while it may look like it it doesn't actually work as an crafting table."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description5}"
 				""
-				"Instead it is an medium for you to insert the recipes you wish to automate and adjust their results if need be."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description6}"
 				""
-				"&6Tip:&r In order to familiarise yourself with the &ePattern Encoding Terminal&r, try and create the appropriate &ePattern&r for crafting Planks from Logs, then Planks into Sticks."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description7}"
 				""
-				"&6Hint:&r if you need to change the quantity Inputed/Outputed you can &eMiddle Mouse&r the respective item within an pattern to adjust it."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description8}"
 				"{@pagebreak}"
-				"Regardless of weather or not you followed the tip, you might have noticed that on the right side of the &ePattern Enconding UI&r there are 4 options to choose from. Each of the options are there to explain to your &bCrafting Network&r what the expected &eOutput&r is for your given &eInput&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description9}"
 				""
-				"For &ePatterns&r that require an &eCrafting Table&r, &eCrafting Patterns&r are used."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description10}"
 				""
-				"For &ePatterns&r that require an &eSmelting/Brewing/Processing&r, &eProcessing Patterns&r are used."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description11}"
 				""
-				"For &ePatterns&r that require an &eSmithing Table&r, &eSmithing Table Patterns&r are used."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description12}"
 				""
-				"For &ePatterns&r that require an &eStone Cutter&r, &eStone Cutting Patterns&r are used."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description13}"
 				""
-				"&6Note:&r There are options for allowing/preventing &eSubstitutions&r, thease determine weather different blocks that could still fullfil the recipe (such as &eSpruce Planks&r making an chest instead of &eOak Planks&r) are permitted."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description14}"
 				"{@pagebreak}"
-				"As you would expect, the &eCrafting&r, &eSmithing&r and &eStone Cutting Patterns&r are used for their respective blocks but &eProcessing Patterns&r are more unique."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description15}"
 				""
-				"Processing Patterns are special because your &eOutput&r is not ristricted by your operating block."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description16}"
 				""
-				"This difference is what gives the opertunity for &eBrewing&r and other &aspecial operations to take place&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description17}"
 				""
-				"How that can be done is related to the nature of our &bCrafting Network&r and &ahow it operaterates&r, which we will get into shortly."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description18}"
 				""
-				"But for now lets focus on &eAutomated Crafting&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.description19}"
 			]
 			icon: "ae2:pattern_encoding_terminal"
 			id: "7889A5659E64B507"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "4DE80D702CAADBFE"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Automation's at hand"
+			rewards: [
+				{
+					id: "78D5251100E6646F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6EAEEE2E34C6D712"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.subtitle}"
 			tasks: [
 				{
 					id: "4B7ADE30A6BCA0D3"
@@ -1687,148 +2016,127 @@
 					type: "item"
 				}
 			]
-			title: "Auto-Crafting"
-			x: 13.0d
-			y: -2.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest8685655212228392199.title}"
+			x: 20.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["35BF66CD4FAE83DE"]
 			description: [
-				"You will most likly make mistakes, and that's fine."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8503550036718814084.description1}"
 				""
-				"When it comes to fixing them having an &eWrench&r around to remove &ePannels&r and &eFluix Cables&r in an clean and efficent fastion is helpful. (&eCrouch + Right-Click&r)"
+				"{ftbquests.chapter.eapplied_energistics_2.quest8503550036718814084.description2}"
 				""
-				"It can also be used to rotate things around."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8503550036718814084.description3}"
 				""
-				"&6Note:&r This includes any and all items that can be &eplaced in/on&r &5Fluix Cables&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8503550036718814084.description4}"
 			]
 			id: "7602ADB464628384"
 			optional: true
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "35554DDD674A723D"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Just Incase"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest8503550036718814084.subtitle}"
 			tasks: [{
 				id: "41D746368E6ED8DE"
 				item: "ae2:certus_quartz_wrench"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["786990F250A68E7C"]
 			description: [
-				"As thier name suggests, when powered, &eAnnihilation Planes&r will break the block directly infront of them."
+				"{ftbquests.chapter.eapplied_energistics_2.quest2501312315180717571.description1}"
 				""
-				"Since they lack an &eIndependant Inventory&r, the use of an &eStorage Bus&r &eFiltered&r to only accept the outputs of an mature crop such as &eQuartz Crystals&r will prevent the &eAnnihilation Plane&r from harvesting resources before they have grown."
+				"{ftbquests.chapter.eapplied_energistics_2.quest2501312315180717571.description2}"
 				""
-				"{image:modpack:textures/ae2_quartz_farming_setup.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2501312315180717571.image0}"
 				"{@pagebreak}"
-				"&6Tip:&r &eAnnihilation Planes&r can be &bEnchanted&r, but beware that they may cause an increase in &7Power Consumption&r that overloads an insuffecent &7Power Bank&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest2501312315180717571.description3}"
 				""
-				"&6Note:&r If used to harvest crops that drop seeds, the seeds will need to collected through alternative methods as the &eAnnihilation Plane&r will drop them. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest2501312315180717571.description4}"
 				""
-				"&6Hint:&r The seeds can be picked up using an &2Ender IO&r &eVaccum Chest&r and &areplanted with it's upcoming counterpart&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest2501312315180717571.description5}"
 			]
 			id: "22B6724C52A81603"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "2AC8B5DB3EB0ABD1"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Agressive Harvesting"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest2501312315180717571.subtitle}"
 			tasks: [{
 				id: "7878EE857B69E474"
 				item: "ae2:annihilation_plane"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 3.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22B6724C52A81603"]
 			description: [
-				"The inverse of their counterpart, &eFormation Plates&r can be used to place items including blocks and seeds into the world. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest238422652126787678.description1}"
 				""
-				"They continue to lack an Independant Inventory, but they contain their own &eFilter&r and as such can pull items directly from your &bStorage Network&r with the help of an &eImport Bus&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest238422652126787678.description2}"
 				""
-				"It can still function on local &eSub-Networks&r when connected to an &eImport Bus&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest238422652126787678.description3}"
 				"{@pagebreak}"
-				"&7Quartz Fiber&r filled &5Fluix Cable&r on the right side of the &dME Controller&r providing power to the &eFormation Plane&r and linking it to the &eStorage Bus&r connected to an chest containing Seeds (Hidden &5Fluix Cables&r moving seeds from Vaccum Chest into Barrel using an &eFiltered Import Bus&r)."
+				"{ftbquests.chapter.eapplied_energistics_2.quest238422652126787678.description4}"
 				""
-				"&7Quartz Fiber&r filled &5Fluix Cable&r on the top side of the &dME Controller&r providing power to the &eGrowth Accelerators&r and &eAnnihilation Plane&r, &eExport Bus&r connected to the &eVaccum Chest Filtered&r to accept &eWheat&r allowing the harvesting and storing of farmed goods."
-				"{image:modpack:textures/ae2_simple_farming_setup.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest238422652126787678.description5}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest238422652126787678.image0}"
 			]
 			id: "034F0C238E6C785E"
 			rewards: [
 				{
-					id: "228CF816598B44BC"
+					id: "227758AB233586F3"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
-					id: "554D93E738DE275D"
+					id: "5210BF7275BB7B96"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Clamer Placing"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest238422652126787678.subtitle}"
 			tasks: [{
 				id: "4003D789DCAF395C"
 				item: "ae2:formation_plane"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"6CB2052755C8ABC1"
-				"44FECE9717443836"
-				"7A08C9D3CE872BE5"
-			]
+			dependencies: ["67F89819C94F591A"]
 			description: [
-				"Once charged; &ePortable Cells&r act as a backpack in your inventory."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1624460578720536546.description1}"
 				""
-				"They share the exact properties of their &eStorage Cell&r selfs with an exception."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1624460578720536546.description2}"
 				""
-				"As their &7Byte&r &eCapacity&r goes up, they reduce in &5Type&r &eCapacity&r and have half the &eBase Capacity&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest1624460578720536546.description3}"
 			]
 			id: "168B3E4A224357E2"
 			rewards: [
@@ -1838,27 +2146,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1872,7 +2163,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Storage on the go"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest1624460578720536546.subtitle}"
 			tasks: [
 				{
 					id: "71060179A2EFF560"
@@ -1902,63 +2193,63 @@
 					type: "item"
 				}
 			]
-			title: "Portable Cells"
-			x: 11.0d
-			y: -6.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest1624460578720536546.title}"
+			x: 15.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"While there are other sources of &eChunkloading&r, primarly &dFTB Chunks&r, the &eSpacail Anchor&r is still useful for &eChunkloading&r your entire &eNetwork&r including every last &5Fluix Cable&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4577461115850897574.description1}"
 				""
-				"Meaning if you spread out your &eNetwork&r, not only can you access it from across your entire base, but it will also &eChunkload&r it for you allowing you to use your &dFTB Chunks&r somewhere else."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4577461115850897574.description2}"
 				""
-				"(&6Example&r of loading 4 adjacent &eChunks&r with an single &5Fluix Cable&r each)"
-				"{image:modpack:textures/ae2_spatial_anchor_setup.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest4577461115850897574.description3}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest4577461115850897574.image0}"
 			]
 			id: "3F8668A1E774B8A6"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "2DF5D87A3F996AFB"
+				id: "52D9E8BA0CDBC2F2"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Chunkloading"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest4577461115850897574.subtitle}"
 			tasks: [{
 				id: "0452DD4828A1B353"
 				item: "ae2:spatial_anchor"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"You've digitlized your &eStorage&r, &eFluids&r and even your &eChemicals&r, but why stop there?"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7343996121193852584.description1}"
 				""
-				"With the power of the &eSpatial IO Port&r you can &adigitilize your world!&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7343996121193852584.description2}"
 				""
-				"Your &eSpatial IO Port&r can let you digitlize anything from an &eSingle Block&r to &eStructures&r spanning up to &b128x128x128 Blocks&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7343996121193852584.description3}"
 				"{@pagebreak}"
-				"It's functions in an simple manner, find your location, and build around it using &eSpatial Pylons&r until you cover its &eLength&r, &eWidth&r and &eHeight&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7343996121193852584.description4}"
 				""
-				"Once you've covered your soon to be land, the only thing between you and converting it into an single slot in your inventory is charging your &eSpatial IO Port&r with enough power to complete the operation."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7343996121193852584.description5}"
 				""
 				""
-				"{image:modpack:textures/ae2_spatial_storage_setup.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7343996121193852584.image0}"
 			]
 			icon: "ae2:spatial_io_port"
 			id: "65EB1D8FE39B2EA8"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "104136CE2B5D0451"
+				id: "1F56F8C02059B72B"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Digitizing Structures"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7343996121193852584.subtitle}"
 			tasks: [
 				{
 					id: "10B2FF4049020392"
@@ -1971,71 +2262,88 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 2.0d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["65EB1D8FE39B2EA8"]
 			description: [
-				"In order to store our soon to be momuments, we need an &eSpatail Storage Cell&r to contain it, while an 2x2x2 range doesn't sound too crazy, most immovable objects don't need much more."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6785100476551613064.description1}"
 				""
-				"&6Note:&r While you don't have to use the maximum space each cell allows, you want to try and be efficent with them because..."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6785100476551613064.description2}"
 				""
-				"&4Beware:&r You &4*cannot*&r &eReset&r, &eReformat&r, or &eResize&r an &eSpatail Cell&r after it has been used."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6785100476551613064.description3}"
 			]
 			id: "5E2984EF36314A88"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "16CC4049103D4871"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Small"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6785100476551613064.subtitle}"
 			tasks: [{
 				id: "44BA2512DDF1B89A"
 				item: "ae2:spatial_storage_cell_2"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5E2984EF36314A88"]
-			description: ["The &eminimum for most strucures&r, &4But not our maxmium...&r"]
-			id: "76D949C432FF4DAB"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "00B06E84766B23FF"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Sizeable"
-			tasks: [{
-				id: "4C6E0308B1A0E3C2"
-				item: "ae2:spatial_storage_cell_16"
 				type: "item"
 			}]
 			x: 14.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["5E2984EF36314A88"]
+			description: ["{ftbquests.chapter.eapplied_energistics_2.quest8563957273439718827.description1}"]
+			id: "76D949C432FF4DAB"
+			rewards: [
+				{
+					id: "36B8F700EBC5560E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "70E7782D998A10AD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest8563957273439718827.subtitle}"
+			tasks: [{
+				id: "4C6E0308B1A0E3C2"
+				item: "ae2:spatial_storage_cell_16"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
 			dependencies: ["563E2BEF024962AD"]
 			description: [
-				"If you are &ahaving trouble managing your Channels&r, try using &eSmart Cables&r, they provide you with direct information on how many &eChannels&r are being used by just looking at them."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6458568878283870768.description1}"
 				""
-				"&7(Only 1 of 2 tasks must be Completed for this Quest)&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6458568878283870768.description2}"
 			]
 			id: "59A1722D0380D230"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "4B3F0F255794FFAE"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Knowledgeable"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6458568878283870768.subtitle}"
 			tasks: [
 				{
 					id: "48C4DAFFEEA4606E"
@@ -2046,7 +2354,7 @@
 							value: "ae2:smart_cable"
 						}
 					}
-					title: "Any Smart Cable"
+					title: "{ftbquests.chapter.eapplied_energistics_2.quest6458568878283870768.task.5243556658921365614.title}"
 					type: "item"
 				}
 				{
@@ -2058,37 +2366,55 @@
 							value: "ae2:smart_dense_cable"
 						}
 					}
-					title: "Any Dense Smart Cable"
+					title: "{ftbquests.chapter.eapplied_energistics_2.quest6458568878283870768.task.7308962097855869624.title}"
 					type: "item"
 				}
 			]
-			title: "Smarter Cables"
-			x: 10.0d
-			y: 2.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest6458568878283870768.title}"
+			x: 11.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["5F39514D991EB2B8"]
+			dependencies: ["67F89819C94F591A"]
 			description: [
-				"At some point getting back to your &ePrimary Terminal&r for every other task gets repetative, and as your operation expands that downtime between going back and forth expands."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7433507263053602804.description1}"
 				""
-				"But that's what the &eWireless Terminals&r are for!"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7433507263053602804.description2}"
 				""
-				"A little bit of power, an &eWireless Access Point&r later and bam; &bWireless Storage/Crafting Network&r access."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7433507263053602804.description3}"
 			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ae2:wireless_crafting_terminal"
 				tag: { }
 			}
 			id: "67291F78A9989FF4"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "39ADA0469FA2968D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Losing the Cables"
+			rewards: [
+				{
+					id: "09966F04C7B39FE1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7574130DCB3E6E0E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7433507263053602804.subtitle}"
 			tasks: [
 				{
 					id: "475469650B549760"
@@ -2105,385 +2431,311 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 1.0d
+			x: 14.0d
+			y: -9.69d
 		}
 		{
 			dependencies: ["67291F78A9989FF4"]
 			description: [
-				"The inital radius is most likely not enough, but worry not, you can &eexpand your range&r as long as your &7Power&r permits it and your resources are plentiful using &eWireless Boosters&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest2877438054284651288.description1}"
 				""
-				"&e# of Bosters&r => &eRange&r => &ePower Consumption&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2877438054284651288.description2}"
 				""
-				"@0  => 16m    => 8 AE/t"
-				"&e@16 => 80m    => 40 AE/t&r"
-				"&6@32 => 197m   => 189.01 AE/t&r"
-				"&b@48 => 348.5m => 883.33 AE/t&r"
-				"&d@64 => 528m   => 4.1 kAE/t&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2877438054284651288.description3}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2877438054284651288.description4}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2877438054284651288.description5}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2877438054284651288.description6}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest2877438054284651288.description7}"
 			]
 			id: "27EEB6AA40D3EB18"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "2F7C3398521BF11A"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Expanding the radius"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest2877438054284651288.subtitle}"
 			tasks: [{
 				id: "38EAAD949C0338A6"
 				item: "ae2:wireless_booster"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 1.0d
+			x: 15.0d
+			y: -9.69d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"90% of the time when you need something &eAutomated&r, an &eSub-Network&r can usally solve it."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description1}"
 				""
-				"&6Here's some basics;&r"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description2}"
 				""
-				"-When setting up an &eSub-Network&r, the &5Fluix Cables&r connected to your &bPrimary Network&r have two functions; &7Providing Power&r and &eImporting/Exporting&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description3}"
 				""
-				"--&7Providing Power&r is easy using Quartz Fibers, by placing it within an &5Fluix Cable&r it prevents it from connecting your &bStorage/Crafting Network&r while still allowing &7Power&r to flow."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description4}"
 				""
-				"--That same &5Fluix Cable&r can be used to &eImport/Export&r, by introducing a &eMediating Storage&r, such as an barrel for &eItems&r or an tank for &eFluids/Gases&r, and connecting to the &ePrimary Network&r using an &eImport Bus Filtered&r with the items your operations need, and an &eExport Bus Filtered&r with the outputs that you've produced."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description5}"
 				""
-				"*Don't forget to use an &eStorage Bus&r/&eMe Interface&r as your &eSub-Network&r needs a way to access the &eMediating Storage&r*"
-
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description6}"
 				"{@pagebreak}"
-				"&eImport Bus&r on the left of the barrel to recive output, &eExport Bus&r on the top of the barrel to provide resources, &eStorage Bus&r on the front of the barrel allowing &eSub-Network&r access into Mediating Storage, &7Quartz Fiber&r on the only connecting &5Fluix Cable&r between the &eSub-Network&r and &bPrimary Network&r to provide &7Power&r."
-				"{image:modpack:textures/ae2_simple_sub_network.png width:200 height:100 align:center}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description7}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.image0}"
 				"{@pagebreak}"
-				"It sounds overwhealming but I assure you it is manageable, an little bit of messing around in order to understand how each of the mentioned technologies interact and you will start to get the hang of it."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description8}"
 				""
-				"Ofcourse, &anever shy away from looking up videos&r in order to understand what things should look like and how they should be operating."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description9}"
 				""
-				"As soon as you &aget an inital grasp on the fundementals&r you'll fly through learning the rest of &dApplied Energistics&r in no time."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description10}"
 				""
-				"Keep in mind that a lot of the information provided is usally &anot the only solution&r to the problems they solve."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.description11}"
 			]
 			id: "591F6FACE42A8C85"
-			subtitle: "The Secret Sauce"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "389120462F938C90"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.subtitle}"
 			tasks: [{
 				id: "1346D5F5164B2174"
-				title: "Read"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.task.1389032783708103028.title}"
 				type: "checkmark"
 			}]
-			title: "More about Sub-Networks"
-			x: 9.0d
-			y: 2.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest6421974382006668421.title}"
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["44B5442523858453"]
 			description: [
-				"&eAutomated Brewing&r is functionally the same as what has come before, place your &eBrewing Stands&r adjacent to your &ePattern Provider&r, set up your &eBlank Pattern&r to &eInput&r your &eMain Ingredient&r + &e3 Bottles&r and awaite &e3 Bottles&r of the brewed &eOutput&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4029882942548514210.description1}"
 				""
-				"&6Recall:&r If you don't have your &eOutput&r yet, you can drag it onto the &eBlank Pattern&r from &aJEI&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4029882942548514210.description2}"
 				""
-				"&6Recall:&r if you need to change the quantity Inputed/Outputed you can &eMiddle Mouse&r the respective item to adjust it."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4029882942548514210.description3}"
 				""
-				"&6Tip:&r For the majority of cases, manually adding an excess of &eBlaze Powder&r is suffecent due to it's inherit efficency, but under large scale operations you might want to automate that too."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4029882942548514210.description4}"
 			]
 			icon: "minecraft:brewing_stand"
 			id: "37ED052F5D0295A2"
-			rewards: [
-				{
-					id: "66C7D151DCDB447E"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "6CD71AA61A5CE579"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
-			subtitle: "Automated Brewing"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "6CD71AA61A5CE579"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest4029882942548514210.subtitle}"
 			tasks: [{
 				id: "02B7642CB670F4ED"
-				title: "Read"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest4029882942548514210.task.195735252016100589.title}"
 				type: "checkmark"
 			}]
-			title: "Processing Patterns 2"
-			x: 15.0d
-			y: -4.0d
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest4029882942548514210.title}"
+			x: 22.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19ABB31DC31B6DF3"]
 			description: [
-				"&eAutomated Smelting&r is trivially easy *if* you have the right tools. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.description1}"
 				""
-				"At the most basic level, any &eEnergy Powered Furnace&r that can &eAutomatically Receive Inputs&r and &eAutomatically Output Products&r makes for the easiest solution. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.description2}"
 				""
-				"As with such an machine you can take an &eBlank Pattern&r, encode it's &eRecipe&r 1:1 (I.e. 1 Cobblestone => 1 Stone), and place it into the adjacent &ePattern Provider&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.description3}"
 				""
-				"Once an &eRequest&r is made, the &ePattern Provider&r will &eInput&r Cobblestone, the &eFurnace&r will &eOutput&r the Stone, and the process is completed."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.description4}"
 				""
-				"So simple."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.description5}"
 				"{@pagebreak}"
-				"Alternativly, you and setup an &eAutomatic Smeltery&r using any furnace setup, and link up the &eInputs&r from the &ePattern Provider&r and Outputs from the &eSmeltery&r acordingly."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.description6}"
 				""
-				"As long as an &ePattern Provider&r containing an &eProccessing Pattern&r recives it's &eOutput&r, it doesn't matter how it happens."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.description7}"
 			]
 			icon: "thermal:machine_furnace"
 			id: "44B5442523858453"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "24DC62B7AFC036D6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.subtitle}"
+			tasks: [{
+				id: "4C677C65F4E705C2"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.task.5505505846826042818.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest4950938291664159827.title}"
+			x: 22.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6206C71520FDFB49"]
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest743726498987444451.description1}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest743726498987444451.description2}"
+			]
+			id: "0A523F4F763108E3"
 			rewards: [
 				{
-					id: "692F36844B7D9AF9"
+					count: 2
+					id: "75394D8C017B18F9"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
-					id: "24DC62B7AFC036D6"
+					id: "210F8DBE378F4A6C"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Automated Smleting"
-			tasks: [{
-				id: "4C677C65F4E705C2"
-				title: "Read"
-				type: "checkmark"
-			}]
-			title: "Processing Patterns 1"
-			x: 15.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6206C71520FDFB49"]
-			description: ["Considerably more dense than things should be, &5Singularities&r require 256k Items/Buckets to and at least an &e64k ME Storage Component&r to produce in the &eMatter Condenser&r."]
-			id: "0A523F4F763108E3"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "18DED9E18038C227"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Crossing the Barrier"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest743726498987444451.subtitle}"
 			tasks: [{
 				id: "782B9355DCBD6BA1"
 				item: "ae2:singularity"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.0d
+			x: 19.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"The &eMatter Condenser&r accepts any Item/Fluid/Gas that &eStorage Cells&r can hold and has 3 uses;"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7063551959138958153.description1}"
 				""
-				"1) Act as an extra-terrestrial &8Void&r for trash,"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7063551959138958153.description2}"
 				""
-				"2) Produce slightly condensed &eMatter Balls&r,"
+				"{ftbquests.chapter.eapplied_energistics_2.quest7063551959138958153.description3}"
 				""
-				"3) Push the limits of space to produce extreamly dense &5Singularities&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest7063551959138958153.description4}"
 			]
 			id: "6206C71520FDFB49"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "0BCFC217E9934BCC"
+				id: "373A018594B431AF"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Advanced Space Trashcan"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7063551959138958153.subtitle}"
 			tasks: [{
 				id: "30B2E0697D438ECA"
 				item: "ae2:condenser"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.0d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
 			description: [
-				"&eME Interface&r acts like an 9 slot wide &eMediating Storage&r, it can fill and empty itself to and from the &bStorage Network&r based on the &eStock Options&r you setup."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4332407579308131367.description1}"
 				""
-				"It's very useful when &eSub-Networking&r and can be used as an &eAuto-Refilling Chest&r when placed between an farm and your &bStorage Network&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4332407579308131367.description2}"
 				""
-				"Check the &eGuide&r for more information on it's many unique interactions if it interests you."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4332407579308131367.description3}"
 			]
 			id: "3C1FCDBD42DF0427"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "2AD1374BD29D95E5"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Flat Storage?"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest4332407579308131367.subtitle}"
 			tasks: [{
 				id: "24D48311A07F5FAD"
 				item: "ae2:cable_interface"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 14.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["6206C71520FDFB49"]
-			description: ["&eMatter Balls&r are constructed through the compressing of &e256 Items/Buckets&r each, only requiring an &e1K ME Storage Component&r to allow their production in the &eMatter Condenser&r."]
+			description: ["{ftbquests.chapter.eapplied_energistics_2.quest5489305095623634832.description1}"]
 			id: "4C2DEDE6A0636F90"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "49F14EFEDAAF107A"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Whats the Matter?"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest5489305095623634832.subtitle}"
 			tasks: [{
 				id: "46542681E4E9974E"
 				item: "ae2:matter_ball"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.0d
+			x: 16.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0A523F4F763108E3"]
 			description: [
-				"Though the combustion of an &5Singularity&r and some &eEnder Dust&r, it seems your experiments have yeilded an pair of &5Quantum Entangled Singularities&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4562476309130466223.description1}"
 				""
-				"Surly their &eEntanglement&r can be used for an &eGreater Purpose&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4562476309130466223.description2}"
 				"{@pagebreak}"
-				"Check out the&e Guide&r for further details, it documents their useage well."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4562476309130466223.description3}"
 				""
-				"&6Recall:&r &eHolding 'G'&r on an item your are curious about will bring up it's &eGuide&r page."
+				"{ftbquests.chapter.eapplied_energistics_2.quest4562476309130466223.description4}"
 			]
 			id: "3F512C07B5DB53AF"
-			rewards: [
-				{
-					id: "12CBF6737903E4C4"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "37829A7E51529A77"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
-			subtitle: "A pair of what?"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "37829A7E51529A77"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest4562476309130466223.subtitle}"
 			tasks: [{
 				id: "1028B447DF5F6355"
 				item: "ae2:quantum_entangled_singularity"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.0d
+			x: 19.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
 			description: [
-				"Self explainatory isn't it, an portable \"railgun\" capeable of firing the most &4fersome projectiles&r such as &eMetalic Nuggets&r and &eMatter Balls&r."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8937475948683354369.description1}"
 				""
-				"Can be easily filled in an ME Chest."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8937475948683354369.description2}"
 				""
-				"Enjoy."
+				"{ftbquests.chapter.eapplied_energistics_2.quest8937475948683354369.description3}"
 			]
 			id: "7C084B05C5DE6101"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "08C2D4949804E465"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Painball Fight!"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest8937475948683354369.subtitle}"
 			tasks: [{
 				id: "72B3E293B4765C49"
 				item: {
@@ -2493,27 +2745,27 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.0d
+			x: 16.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
 			description: [
-				"If you ever wanted to &epaint your pre-installed Cables&r, and other painable objects, the &eColour Applicator&r is the tool for you."
+				"{ftbquests.chapter.eapplied_energistics_2.quest547600012468695860.description1}"
 				""
-				"It can consume dyes or &ePaintballs&r to spread color, and can clean up behind itself when using snowballs."
+				"{ftbquests.chapter.eapplied_energistics_2.quest547600012468695860.description2}"
 				""
-				"They can be &eeasily filled in an ME Chest&r, you can shift-scroll to cycle through it's contents when prepared and right-click to place your mark on the world."
+				"{ftbquests.chapter.eapplied_energistics_2.quest547600012468695860.description3}"
 			]
 			id: "0799774F5E323334"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "0E63ECC19B0EF4A2"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Calming"
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest547600012468695860.subtitle}"
 			tasks: [{
 				id: "38DA6B526E5AC149"
 				item: {
@@ -2523,43 +2775,287 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.0d
+			x: 16.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"&eCrystal Resonance Generator&r are less powerful &7Power Producers&r than &eVibration Generators&r, but can &bSelf-Sustain&r your &eNetwork&r. "
+				"{ftbquests.chapter.eapplied_energistics_2.quest6406291928642799230.description1}"
 				""
-				"Each produce &e20 AE/t&r, output energy to their south, and &ado not require maintanace&r outside of their initial cost."
+				"{ftbquests.chapter.eapplied_energistics_2.quest6406291928642799230.description2}"
 			]
 			id: "58E7B8912E34C67E"
-			subtitle: "Self-Sustaining Power"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0609A3E88A405BFB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6406291928642799230.subtitle}"
 			tasks: [{
 				id: "11CA355E691895DE"
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
 			description: [
-				"&eVibrantion Chambers&r are &7Power Producers&r ment for more extensive tasks, they produce &e40 AE/t&r but consume fuel very rapidly."
+				"{ftbquests.chapter.eapplied_energistics_2.quest2202914785931193485.description1}"
 				""
-				"They're &cexpensive&r outside of the initial stages of your &eNetwork&r so make sure you move onto other sources before growing your operations too far."
+				"{ftbquests.chapter.eapplied_energistics_2.quest2202914785931193485.description2}"
 			]
 			id: "1E92535385E26C8D"
-			subtitle: "Wobble Wobble Wobble"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1393ECB297F0A5D2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest2202914785931193485.subtitle}"
 			tasks: [{
 				id: "14DA67267F6B6BC0"
 				item: "ae2:vibration_chamber"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.description1}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.description2}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.description3}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.description4}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.description5}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.description6}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.description7}"
+			]
+			id: "5CF065DD209B4B1C"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "4FF59D4104E4CC58"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.subtitle}"
+			tasks: [{
+				id: "09C14766BCC711D9"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.task.702921523425907161.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest6696964646309153564.title}"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F512C07B5DB53AF"]
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest7498091591778304933.description1}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest7498091591778304933.description2}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest7498091591778304933.description3}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest7498091591778304933.description4}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest7498091591778304933.description5}"
+			]
+			id: "680E92937D4A03A5"
+			rewards: [
+				{
+					id: "4616369D42682DA6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "548DFB6801B17277"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest7498091591778304933.subtitle}"
+			tasks: [
+				{
+					id: "7982BFAB2ED75FD6"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "73B74D89EE4B1A3B"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest7498091591778304933.title}"
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["680E92937D4A03A5"]
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest3320538785595710038.description1}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest3320538785595710038.description2}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest3320538785595710038.description3}"
+			]
+			id: "2E14EC6EBA56DA56"
+			rewards: [
+				{
+					count: 2
+					id: "4F77BEC0CC21C029"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "6EE244C19208CA7E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest3320538785595710038.subtitle}"
+			tasks: [{
+				id: "708FC5844FAB1FC8"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E14EC6EBA56DA56"]
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest1908253954234754191.description1}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest1908253954234754191.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest1908253954234754191.description3}"
+			]
+			id: "1A7B7ADC6B65A48F"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "17C0AE16913B87AB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest1908253954234754191.subtitle}"
+			tasks: [{
+				id: "2F11857AD709E9C9"
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest1908253954234754191.task.3391638757026949577.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.eapplied_energistics_2.quest1908253954234754191.title}"
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description1}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description2}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description3}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description4}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description5}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description6}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description7}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description8}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description9}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description10}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description11}"
+				""
+				"{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.description12}"
+			]
+			id: "4F97D30383CAF71D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "56971A033C33EEB7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.subtitle}"
+			tasks: [{
+				id: "25312343B221339A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:me_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:redstone_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:item_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:fe_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:light_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_p2p_tunnel"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.eapplied_energistics_2.quest5735284662529095453.task.2679962026920457114.title}"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.26d
 		}
 	]
-	title: "&6Applied Energistics 2"
+	title: "{ftbquests.chapter.eapplied_energistics_2.title}"
 }

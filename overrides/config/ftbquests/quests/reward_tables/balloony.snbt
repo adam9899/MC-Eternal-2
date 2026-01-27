@@ -1,7 +1,7 @@
 {
 	id: "09284F59F52D6CC6"
 	loot_size: 1
-	order_index: 28
+	order_index: 29
 	rewards: [
 		{
 			item: {
@@ -117,7 +117,7 @@
 					}
 					Personality: 3
 					display: {
-						Name: "{\"text\":\"Balloony\"}"
+						Name: "{\"translate\":\"name.mce2.balloony.1\"}"
 						color: 13084752
 					}
 				}
@@ -143,5 +143,5 @@
 			}
 		}
 	]
-	title: "balloony"
+	title: "{ftbquests.loot_table.659864593193856198.title}"
 }

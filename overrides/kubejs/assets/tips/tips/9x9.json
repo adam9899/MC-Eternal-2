@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Don't like to build? use the Copy-Paste Gadget and go to §9reddit.com/r/9x9"
+    "translate": "tips.mce2.9x9"
   }
 }

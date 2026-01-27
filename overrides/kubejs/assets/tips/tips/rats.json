@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Rats are great critter alternatives to machines and wires for automation! They can also be bodyguards!"
+    "translate": "tips.mce2.rats"
   }
 }

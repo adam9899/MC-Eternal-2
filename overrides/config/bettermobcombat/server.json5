@@ -22,7 +22,8 @@
 	   Helpful if certain mobs aren't able to properly animate Better Combat attacks.
 	*/
 	"mob_blacklist": [
-		"minecraft:fox"
+		"minecraft:fox",
+		"minecolonies:citizen"
 	],
 	/* Allows the mob blacklist to instead be used as a whitelist. 
 	   This makes it so that only mobs in the whitelist can use the Better Combat system.

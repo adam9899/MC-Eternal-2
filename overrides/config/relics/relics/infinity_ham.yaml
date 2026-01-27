@@ -62,4 +62,4 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0.001
+        '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0.0

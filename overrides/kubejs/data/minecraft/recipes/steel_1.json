@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 3,
+      "item": "minecraft:coal"
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 1,
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "thermal:steel_ingot"
+    }
+  ]
+}

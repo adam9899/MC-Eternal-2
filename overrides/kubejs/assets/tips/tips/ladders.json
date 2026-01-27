@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You can teleport to the top of a ladder by Right-Clicking the bottom block at the cost of some hunger!"
+    "translate": "tips.mce2.ladders"
   }
 }

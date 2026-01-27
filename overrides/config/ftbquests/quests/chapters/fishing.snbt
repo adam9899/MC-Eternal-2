@@ -159,7 +159,7 @@
 			y: -3.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -183,24 +183,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -212,7 +198,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.3.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest1260412253090188772.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "02D7F682906D1A4D"
@@ -243,24 +229,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -272,7 +244,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.4.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest7646355313716368059.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "7613CB9F7B35C890"
@@ -303,24 +275,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -332,7 +290,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.5.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest5022857861353526079.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "0D713389033C59B2"
@@ -363,24 +321,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -392,7 +336,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.6.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest8351290932933217111.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "554E78A2DDE9EE96"
@@ -423,24 +367,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -452,7 +382,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.7.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest1798507999845787464.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "447D3BBAC0F803E5"
@@ -483,24 +413,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -512,7 +428,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.8.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest8712405190325119321.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "0929E1D58BBAE5C2"
@@ -543,24 +459,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -572,7 +474,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.9.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest5231398811208985227.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "77DEE4CEA325D491"
@@ -603,24 +505,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -632,7 +520,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.10.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest555522224145035974.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "4BB0F1A901C93317"
@@ -663,24 +551,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -692,7 +566,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest698532794401135872.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "2B4435A793980CA8"
@@ -723,24 +597,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -752,7 +612,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.12.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest2749886998856694674.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "6F7939D27678905C"
@@ -783,24 +643,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -812,7 +658,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.13.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest2015563853290720668.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "6E2BE78EFF32200D"
@@ -851,7 +697,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.14.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest6616202362168762480.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "1680C91BDAF7C584"
@@ -890,24 +736,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -919,7 +751,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest3487673693210247336.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "42EC997AA1CFA256"
@@ -958,24 +790,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -987,7 +805,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.16.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest8851249067716688863.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "1768A7ADE3A3FC1E"
@@ -1026,24 +844,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1055,7 +859,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.17.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest6384958468313545362.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "3FA3E0E3A73A8546"
@@ -1094,24 +898,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1123,7 +913,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.18.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest4385148178422986873.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "694278757AEEEC5C"
@@ -1162,24 +952,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1191,7 +967,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.19.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest8472721147140318407.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "7A7D2D4719F10F8D"
@@ -1230,24 +1006,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1259,7 +1021,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.20.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest6769507957820994890.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "016DFDBE2FC3CCB8"
@@ -1298,24 +1060,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1327,7 +1075,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.21.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest452847871605848610.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "1F91898363D2D8EE"
@@ -1369,24 +1117,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1398,7 +1132,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.22.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest2193051961075681709.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "5794C0999D193E48"
@@ -1437,24 +1171,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1466,7 +1186,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.23.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest4535490063732966627.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "6D046EC563D5CB63"
@@ -1505,24 +1225,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1534,7 +1240,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.24.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest6986000456570254146.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "12A12ED5914CF635"
@@ -1573,24 +1279,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1602,7 +1294,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.25.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest4265230881888509452.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "12474556A334ABC1"
@@ -1641,24 +1333,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1670,7 +1348,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.26.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest487740923030904993.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "34CE9CAA1BB6A38F"
@@ -1709,24 +1387,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1738,7 +1402,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.27.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest678874174021431678.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "2F57F080A75047F9"
@@ -1777,24 +1441,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1806,7 +1456,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.28.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest1074275622546154111.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "77CBFFAC748E76E2"
@@ -1845,24 +1495,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1874,7 +1510,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.29.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest8390286990096499717.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "0889E4574A68522C"
@@ -1913,24 +1549,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1942,7 +1564,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.30.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest922504690427056953.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "1593516AFA704024"
@@ -1981,24 +1603,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2010,7 +1618,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.31.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest9001253024047698045.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "7D779281A6F70757"
@@ -2052,7 +1660,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "67B4BA738E9E28F4"
-					title: "{chapter.16.quest.32.reward.3.title}"
+					title: "{ftbquests.chapter.fishing.quest958470985667399783.reward.7472802687191230708.title}"
 					type: "command"
 				}
 				{
@@ -2070,7 +1678,7 @@
 			]
 			shape: "rsquare"
 			size: 1.1d
-			subtitle: "{chapter.16.quest.32.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest958470985667399783.subtitle}"
 			tasks: [{
 				id: "363A5BB41A559525"
 				item: {
@@ -2092,7 +1700,7 @@
 		}
 		{
 			dependencies: ["0D4D2C4884395067"]
-			description: ["&6Hint:&r Make sure to craft a fishing rod from &dAquaculture!"]
+			description: ["{ftbquests.chapter.fishing.quest4520880130113370680.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3EBD648693877A38"
@@ -2126,7 +1734,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.33.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest4520880130113370680.subtitle}"
 			tasks: [{
 				id: "529F37CDDCA50855"
 				item: {
@@ -2140,7 +1748,7 @@
 				}
 				type: "item"
 			}]
-			title: "&ePro Angler!"
+			title: "{ftbquests.chapter.fishing.quest4520880130113370680.title}"
 			x: -5.0d
 			y: -1.0d
 		}
@@ -2161,7 +1769,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.34.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest7017577697160588486.subtitle}"
 			tasks: [{
 				id: "398CFC32E0924DC8"
 				item: {
@@ -2175,7 +1783,7 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.16.quest.34.title}"
+			title: "{ftbquests.chapter.fishing.quest7017577697160588486.title}"
 			x: -5.0d
 			y: -7.0d
 		}
@@ -2209,7 +1817,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.35.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest6833874264819830464.subtitle}"
 			tasks: [{
 				id: "6E1C371BC43CBE4B"
 				item: {
@@ -2223,13 +1831,13 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.16.quest.35.title}"
+			title: "{ftbquests.chapter.fishing.quest6833874264819830464.title}"
 			x: -5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5ED6CC6FBA450EC0"]
-			description: ["{chapter.16.quest.36.description.1}"]
+			description: [""]
 			id: "12948A1DDC98DEC9"
 			rewards: [
 				{
@@ -2245,7 +1853,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.36.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest1338846850095570633.subtitle}"
 			tasks: [{
 				id: "1A2745DED08FAE02"
 				item: {
@@ -2257,7 +1865,7 @@
 					}
 					id: "aquaculture:oak_fish_mount"
 				}
-				title: "{chapter.16.quest.36.task.1.title}"
+				title: "{ftbquests.chapter.fishing.quest1338846850095570633.task.1884551792361975298.title}"
 				type: "item"
 			}]
 			x: -5.0d
@@ -2265,7 +1873,11 @@
 		}
 		{
 			dependencies: ["616371BC1EF5ECC6"]
-			description: ["{chapter.16.quest.37.description.1}"]
+			description: [
+				"{ftbquests.chapter.fishing.quest3788268954368485578.description1}"
+				""
+				"{ftbquests.chapter.fishing.quest3788268954368485578.description2}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "3492A28AFAC628CA"
@@ -2300,7 +1912,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.16.quest.37.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest3788268954368485578.subtitle}"
 			tasks: [
 				{
 					id: "6CB01A9C8A80333D"
@@ -2383,13 +1995,13 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.16.quest.37.title}"
+			title: "{ftbquests.chapter.fishing.quest3788268954368485578.title}"
 			x: -0.47380952380952834d
 			y: 0.007142857142852677d
 		}
 		{
 			dependencies: ["3492A28AFAC628CA"]
-			description: ["{chapter.16.quest.38.description.1}"]
+			description: ["{ftbquests.chapter.fishing.quest5792537066117332095.description1}"]
 			id: "506339C57E34FC7F"
 			optional: true
 			rewards: [
@@ -2460,25 +2072,14 @@
 								}
 							]
 							Damage: 0
-							Enchantments: [
-								{
-									id: "miningmaster:freezing"
-									lvl: 3
-								}
-								{
-									id: "embellishedenchanting:thunderbolt"
-									lvl: 1
-								}
-								{
-									id: "minecraft:power"
-									lvl: 3
-								}
-							]
-							HideFlags: 1
+							Enchantments: [{
+								id: "minecraft:power"
+								lvl: 9
+							}]
 							Unbreakable: 1b
 							display: {
-								Lore: ["{\"text\":\"§6Legendary\"}"]
-								Name: "{\"text\":\"§9Ocean Piercer\"}"
+								Lore: ["{\"translate\":\"lore.mce2.fishing.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.fishing.2\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2493,16 +2094,16 @@
 							rpgloot.randomize: 0b
 						}
 					}
-					title: "{chapter.16.quest.38.reward.1.title}"
+					title: "{ftbquests.chapter.fishing.quest5792537066117332095.reward.3416587271496407641.title}"
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:deep"
+					command: "/titles add {p} titles:deep"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "7116565D5C8F0516"
-					title: "{chapter.16.quest.38.reward.2.title}"
+					title: "{ftbquests.chapter.fishing.quest5792537066117332095.reward.8148795534758315286.title}"
 					type: "command"
 				}
 				{
@@ -2523,27 +2124,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2556,7 +2140,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{chapter.16.quest.38.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest5792537066117332095.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -2610,7 +2194,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.16.quest.38.title}"
+			title: "{ftbquests.chapter.fishing.quest5792537066117332095.title}"
 			x: -0.448979591836725d
 			y: 1.8775510204081627d
 		}
@@ -2631,7 +2215,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.39.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest474194363850961282.subtitle}"
 			tasks: [
 				{
 					id: "49D1ABA72D0A1101"
@@ -2703,7 +2287,11 @@
 		}
 		{
 			dependencies: ["0D4D2C4884395067"]
-			description: ["{chapter.16.quest.40.description.1}"]
+			description: [
+				"{ftbquests.chapter.fishing.quest6160890775061285319.description1}"
+				""
+				""
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "557FE184A38249C7"
@@ -2737,7 +2325,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.40.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest6160890775061285319.subtitle}"
 			tasks: [{
 				id: "34F51CB772C0DBB4"
 				item: {
@@ -2778,24 +2366,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2807,7 +2381,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest664234764531681215.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "6F54B7C0928D115D"
@@ -2838,24 +2412,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2867,7 +2427,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest4598099067248223111.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "359A4FA6FE1C737C"
@@ -2898,24 +2458,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2927,7 +2473,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest8768836418236346998.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "7543DCAD029F1A98"
@@ -2958,24 +2504,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2987,7 +2519,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.fishing.quest8357220846914041758.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "37C03522686C6E86"
@@ -2999,20 +2531,20 @@
 		}
 		{
 			description: [
-				"Some say fishing is one of the few readily available activities that help to calm the mind in this world. "
+				"{ftbquests.chapter.fishing.quest274509618098016544.description1}"
 				""
-				"All you need is a body of water and a Fishing Rod!"
+				"{ftbquests.chapter.fishing.quest274509618098016544.description2}"
 				""
-				"Fishing has changed a little since you've last tried! But no matter, I'm sure you will pick it up fast!"
-				"I've given you some Quests to collect all the different types of fish! Some you've seen some you haven't!"
+				"{ftbquests.chapter.fishing.quest274509618098016544.description3}"
+				"{ftbquests.chapter.fishing.quest274509618098016544.description4}"
 				""
-				"The rewards can be &oquite generous!"
+				"{ftbquests.chapter.fishing.quest274509618098016544.description5}"
 				""
-				"&6Hint:&r Each type of fish has their own personality and uniqueness when it comes to trying to fish them up!"
+				"{ftbquests.chapter.fishing.quest274509618098016544.description6}"
 				""
-				"&eTip:&r Sometimes you can get a bonus &dTreasure Chest&r if you are successful with the quick time event! "
+				"{ftbquests.chapter.fishing.quest274509618098016544.description7}"
 				""
-				"<rainb>So get to fishin', try to explore and find some fishing spots!"
+				"{ftbquests.chapter.fishing.quest274509618098016544.description8}"
 			]
 			icon: {
 				Count: 1
@@ -3029,10 +2561,10 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Learn About Fishin'"
+			subtitle: "{ftbquests.chapter.fishing.quest274509618098016544.subtitle}"
 			tasks: [{
 				id: "373C7F00435AD2FC"
-				title: "&eThe Art of Fishing!"
+				title: "{ftbquests.chapter.fishing.quest274509618098016544.task.3980195809795429116.title}"
 				type: "checkmark"
 			}]
 			x: -0.5000000000000071d
@@ -3040,7 +2572,7 @@
 		}
 		{
 			dependencies: ["3EBD648693877A38"]
-			description: ["&eSee the Tacklebox Quest!"]
+			description: ["{ftbquests.chapter.fishing.quest4133364453971098581.description1}"]
 			hide_dependency_lines: true
 			id: "395CA912462C7BD5"
 			rewards: [
@@ -3062,31 +2594,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&aFancy Upgrades!"
+			subtitle: "{ftbquests.chapter.fishing.quest4133364453971098581.subtitle}"
 			tasks: [{
 				id: "7823EAA2A19AAF72"
 				item: {
@@ -3103,7 +2621,7 @@
 		}
 		{
 			dependencies: ["3EBD648693877A38"]
-			description: ["&eSee the Tacklebox Quest!"]
+			description: ["{ftbquests.chapter.fishing.quest2513333768516316675.description1}"]
 			hide_dependency_lines: true
 			id: "22E127BF0A68AE03"
 			rewards: [
@@ -3125,31 +2643,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&aFancy Upgrades!"
+			subtitle: "{ftbquests.chapter.fishing.quest2513333768516316675.subtitle}"
 			tasks: [{
 				id: "5AD13CDF064E8205"
 				item: {
@@ -3166,7 +2670,7 @@
 		}
 		{
 			dependencies: ["3EBD648693877A38"]
-			description: ["&eSee the Tacklebox Quest!"]
+			description: ["{ftbquests.chapter.fishing.quest2072642760564302325.description1}"]
 			hide_dependency_lines: true
 			id: "1CC3819C01B861F5"
 			rewards: [
@@ -3188,31 +2692,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&aFancy Upgrades!"
+			subtitle: "{ftbquests.chapter.fishing.quest2072642760564302325.subtitle}"
 			tasks: [{
 				id: "11233C026F9BB956"
 				item: {
@@ -3229,7 +2719,7 @@
 		}
 		{
 			dependencies: ["3EBD648693877A38"]
-			description: ["&eSee the Tacklebox Quest!"]
+			description: ["{ftbquests.chapter.fishing.quest3711579530245818412.description1}"]
 			hide_dependency_lines: true
 			id: "33822DEAFFE9C82C"
 			rewards: [
@@ -3251,31 +2741,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&aFancy Upgrades!"
+			subtitle: "{ftbquests.chapter.fishing.quest3711579530245818412.subtitle}"
 			tasks: [{
 				id: "7FA6B408072648D7"
 				item: {
@@ -3292,7 +2768,7 @@
 		}
 		{
 			dependencies: ["3EBD648693877A38"]
-			description: ["&eSee the Tacklebox Quest!"]
+			description: ["{ftbquests.chapter.fishing.quest4021118311142274960.description1}"]
 			hide_dependency_lines: true
 			id: "37CDE1CC97743790"
 			rewards: [
@@ -3314,31 +2790,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&aFancy Upgrades!"
+			subtitle: "{ftbquests.chapter.fishing.quest4021118311142274960.subtitle}"
 			tasks: [{
 				id: "1992A0B4103B2E97"
 				item: {
@@ -3381,40 +2843,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&4&oFishing For Fishies"
+			subtitle: "{ftbquests.chapter.fishing.quest54793342649750277.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -3453,40 +2892,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&4&oFishing For Fishies"
+			subtitle: "{ftbquests.chapter.fishing.quest1376262553386674089.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -3526,40 +2942,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&4&oFishing For Fishies"
+			subtitle: "{ftbquests.chapter.fishing.quest1077652594171657427.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -3588,33 +2981,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3631,7 +3001,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&4&oFishing For Fishies"
+			subtitle: "{ftbquests.chapter.fishing.quest8640994328694286695.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -3670,40 +3040,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&4&oFishing For Fishies"
+			subtitle: "{ftbquests.chapter.fishing.quest2769028139223291610.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -3742,40 +3089,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&4&oFishing For Fishies"
+			subtitle: "{ftbquests.chapter.fishing.quest7930562038356356343.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -3814,40 +3138,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&4&oFishing For Fishies"
+			subtitle: "{ftbquests.chapter.fishing.quest4744578405191000577.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -3887,40 +3188,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "&4&oFishing For Fishies"
+			subtitle: "{ftbquests.chapter.fishing.quest7948139190570330831.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -3959,33 +3237,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3997,7 +3252,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&4&oFishing For Fishies"
+			subtitle: "{ftbquests.chapter.fishing.quest5043838063287548750.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -4011,10 +3266,10 @@
 		{
 			dependencies: ["0D4D2C4884395067"]
 			description: [
-				"With the power of obsidian we can fish in lava!"
-				"I wonder what sorts of unique species of fish have adapted to live in such a hostile environment!"
+				"{ftbquests.chapter.fishing.quest8694241490574473061.description1}"
+				"{ftbquests.chapter.fishing.quest8694241490574473061.description2}"
 				""
-				"However, it does seem like we will need a heavier hook to be able to fish in lava!"
+				"{ftbquests.chapter.fishing.quest8694241490574473061.description3}"
 			]
 			hide_dependency_lines: true
 			id: "78A8269255277765"
@@ -4032,33 +3287,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4066,7 +3298,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Craft an &eObsidian Fishing Rod"
+			subtitle: "{ftbquests.chapter.fishing.quest8694241490574473061.subtitle}"
 			tasks: [{
 				id: "2B9E64F54C62576E"
 				item: {
@@ -4078,15 +3310,15 @@
 				}
 				type: "item"
 			}]
-			title: "&4Lava Fishing! "
+			title: "{ftbquests.chapter.fishing.quest8694241490574473061.title}"
 			x: 4.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["78A8269255277765"]
 			description: [
-				"Ah hah! By creating a hook from &dObsidian&r we should be able to fish in lava!"
-				"How incredible! Now go forth and catch all of the unique lava fish for me! "
+				"{ftbquests.chapter.fishing.quest857634336200389524.description1}"
+				"{ftbquests.chapter.fishing.quest857634336200389524.description2}"
 			]
 			id: "0BE6EDE28466F394"
 			rewards: [
@@ -4096,33 +3328,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4136,7 +3345,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Craft an &eObsidian Hook"
+			subtitle: "{ftbquests.chapter.fishing.quest857634336200389524.subtitle}"
 			tasks: [{
 				id: "7F05CCCF136505D5"
 				item: "aquaculture:obsidian_hook"
@@ -4168,44 +3377,16 @@
 			optional: true
 			rewards: [
 				{
-					id: "002AFF599EBA4C42"
-					item: "lavachickenmusicdisc:music_disc_lava_chicken"
-					type: "item"
-				}
-				{
 					count: 3
 					id: "6D36B135C4ADF9BB"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4218,17 +3399,22 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "71F6A54AB1EEE3EB"
+					item: "vanillabackport:music_disc_lava_chicken"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
-			subtitle: "Find all types of Lava Fish!"
+			subtitle: "{ftbquests.chapter.fishing.quest7215562308473408306.subtitle}"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: "mcwlights:lava_lamp"
 				id: "08A4C21D847834A7"
-				title: "Lava Angler!"
+				title: "{ftbquests.chapter.fishing.quest7215562308473408306.task.622836080516281511.title}"
 				type: "dimension"
 			}]
-			title: "&4<wave>The Lava Angler"
+			title: "{ftbquests.chapter.fishing.quest7215562308473408306.title}"
 			x: 6.357142857142861d
 			y: -7.428571428571431d
 		}
@@ -4284,33 +3470,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4318,18 +3481,158 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Find all types of Overworld water based Fish!"
+			subtitle: "{ftbquests.chapter.fishing.quest8176179366364211869.subtitle}"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: "minecraft:heart_of_the_sea"
 				id: "1B62A5273AFF86CE"
-				title: "The Angler!"
+				title: "{ftbquests.chapter.fishing.quest8176179366364211869.task.1973321174653830862.title}"
 				type: "dimension"
 			}]
-			title: "&b<wave>The Overworld Angler"
+			title: "{ftbquests.chapter.fishing.quest8176179366364211869.title}"
 			x: 0.6428571428571459d
 			y: -8.476190476190467d
 		}
+		{
+			can_repeat: true
+			description: [
+				"{ftbquests.chapter.fishing.quest1004582654384197950.description1}"
+				""
+				"{ftbquests.chapter.fishing.quest1004582654384197950.description2}"
+			]
+			id: "0DF0FE9A0616D13E"
+			optional: true
+			rewards: [
+				{
+					id: "659F49CAD89BF597"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DAAE9A22E67CC9B"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.fishing.quest1004582654384197950.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "083F0848D2B5CA16"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:raw_fishes"
+						}
+					}
+					title: "{ftbquests.chapter.fishing.quest1004582654384197950.task.594202784701991446.title}"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					elapsedTime: 10800L
+					icon: "minecraft:clock"
+					id: "69D9B4AC4CB7E020"
+					title: "{ftbquests.chapter.fishing.quest1004582654384197950.task.7627326096043139104.title}"
+					type: "questsadditions:time"
+				}
+			]
+			title: "{ftbquests.chapter.fishing.quest1004582654384197950.title}"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.fishing.quest8297561246132517363.description1}"
+				""
+				"{ftbquests.chapter.fishing.quest8297561246132517363.description2}"
+			]
+			id: "7326DBFDB1C6B9F3"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "596D8A876E512BEB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78F467CA68D99F7D"
+					item: "gonefishing:salmon_of_knowledge"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.fishing.quest8297561246132517363.subtitle}"
+			tasks: [{
+				id: "2AEA889C85F37DF3"
+				item: "gonefishing:mysterious_clam"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.fishing.quest8297561246132517363.title}"
+			x: -0.4642857142857082d
+			y: 3.4464285714285694d
+		}
+		{
+			dependencies: ["7326DBFDB1C6B9F3"]
+			description: [
+				"{ftbquests.chapter.fishing.quest875146532642334735.description1}"
+				"{ftbquests.chapter.fishing.quest875146532642334735.description2}"
+				""
+				"{ftbquests.chapter.fishing.quest875146532642334735.description3}"
+				"{ftbquests.chapter.fishing.quest875146532642334735.description4}"
+				""
+				"{ftbquests.chapter.fishing.quest875146532642334735.description5}"
+			]
+			id: "0C2525227C8FA80F"
+			rewards: [
+				{
+					amount: 1500L
+					currency: "eternalcurrencies:coins"
+					id: "016141BBE91E7BFE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:master_angler"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "2F45CF61085E7AD6"
+					title: "{ftbquests.chapter.fishing.quest875146532642334735.reward.3406356708834835158.title}"
+					type: "command"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.fishing.quest875146532642334735.subtitle}"
+			tasks: [{
+				id: "46AC83A85E8B9383"
+				item: {
+					Count: 1
+					id: "gonefishing:underlight_angler"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -0.4285714285714306d
+			y: 4.875d
+		}
 	]
-	title: "{chapter.16.title}"
+	title: "{ftbquests.chapter.fishing.title}"
 }

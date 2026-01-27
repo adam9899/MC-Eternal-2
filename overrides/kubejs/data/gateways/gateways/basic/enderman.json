@@ -3,7 +3,7 @@
 	"color": "#662266",
 	"waves": [{
 			"entities": [{
-				"entity": "minecraft:enderman",
+				"entity": "specialmobs:enderman",
 				"count": 3
 			}],
             "modifiers": [
@@ -23,7 +23,7 @@
 		},
 		{
 			"entities": [{
-				"entity": "minecraft:enderman",
+				"entity": "specialmobs:enderman",
 				"count": 3
 			}],
 			"modifiers": [{
@@ -62,7 +62,7 @@
 		},
 		{
 			"entities": [{
-					"entity": "minecraft:enderman",
+					"entity": "specialmobs:enderman",
                     "count": 4
 				}
 			],
@@ -102,7 +102,7 @@
 		},
 		{
 			"entities": [{
-					"entity": "minecraft:enderman",
+					"entity": "specialmobs:enderman",
                     "count": 4
 				}
 			],
@@ -143,7 +143,7 @@
 		{
 			"entities": [
                 {
-					"entity": "minecraft:enderman",
+					"entity": "specialmobs:enderman",
                     "desc": "name.gateways.flaming_enderman",
                     "nbt": {
                         "CustomNameVisible": 1,
@@ -172,7 +172,7 @@
                     "finalize_spawn": false
 				},
                 {
-					"entity": "minecraft:enderman",
+					"entity": "specialmobs:enderman",
                     "count": 3
 				}
 			],

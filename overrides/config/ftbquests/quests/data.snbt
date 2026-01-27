@@ -17,7 +17,7 @@
 		passive: 4000
 	}
 	pause_game: false
-	progression_mode: "linear"
-	title: "&2The Quest Book &l(MCE2)"
+	progression_mode: "flexible"
+	title: "<grad from=#D8B4FE to=#7C3AED hue uni>The Quest Book MCE2"
 	version: 13
 }

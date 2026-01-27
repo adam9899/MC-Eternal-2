@@ -11,11 +11,141 @@
 		}
 	}
 	id: "1095C058506D2A05"
+	images: [
+		{
+			height: 6.0d
+			image: "botania:textures/gui/paper_left.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0612244897959187d
+			y: -2.2551020408163254d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 2.0020408163265273d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 2.0020408163265273d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_activated"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.004081632653055d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.004081632653055d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 6.0d
+			image: "botania:textures/gui/paper_left.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -1.3598639455782475d
+			y: 6.731632653061233d
+		}
+		{
+			height: 0.5d
+			image: "botania:block/brown_mushroom"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.383673469387766d
+			y: 4.184013605442196d
+		}
+		{
+			height: 0.5d
+			image: "botania:block/manastar"
+			rotation: 20.0d
+			width: 0.5d
+			x: -1.5238095238095255d
+			y: 4.131122448979603d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.3571428571428541d
+			y: 2.012074829931983d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.012074829931983d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.285714285714292d
+			y: 4.772278911564641d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{mce.questing.botania.petal_apothecary.desc}"]
+			description: [""]
 			icon: "botania:apothecary_default"
 			id: "2524C59A32F0DA28"
 			rewards: [
@@ -32,63 +162,38 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.botania.petal_apothecary.sub}"
-			tasks: [
-				{
-					id: "4C826485E4D4D537"
-					item: "botania:apothecary_default"
-					type: "item"
-				}
-				{
-					icon: "minecraft:water_bucket"
-					id: "07296EB9444570B8"
-					observe_type: 2
-					timer: 0L
-					title: "{mce.questing.botania.task.fill_apothecary_with_water}"
-					to_observe: "botania:apothecary_default[fluid=water]"
-					type: "observation"
-				}
-			]
-			title: "{mce.questing.botania.petal_apothecary.name}"
+			subtitle: "{ftbquests.chapter.botania.quest2676481344635197992.subtitle}"
+			tasks: [{
+				id: "4C826485E4D4D537"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest2676481344635197992.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["534740624C012CBF"]
-			description: ["{mce.questing.botania.making_mana.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest696260986371080398.description1}"
+				""
+				"{ftbquests.chapter.botania.quest696260986371080398.description2}"
+				"{ftbquests.chapter.botania.quest696260986371080398.description3}"
+				""
+				"{ftbquests.chapter.botania.quest696260986371080398.description4}"
+				"{ftbquests.chapter.botania.quest696260986371080398.description5}"
+				"{ftbquests.chapter.botania.quest696260986371080398.description6}"
+			]
 			id: "09A99DAD9B9C80CE"
 			rewards: [{
 				amount: 50L
@@ -97,7 +202,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.making_mana.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest696260986371080398.subtitle}"
 			tasks: [
 				{
 					id: "338A914328CD0034"
@@ -109,14 +214,26 @@
 					item: "botania:mana_pool"
 					type: "item"
 				}
+				{
+					id: "3A222B0EE7E27384"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mce2:botania/basic_generating_flower"
+						}
+					}
+					title: "{ftbquests.chapter.botania.quest696260986371080398.task.4188957946427896708.title}"
+					type: "item"
+				}
 			]
-			title: "{mce.questing.botania.making_mana.name}"
+			title: "{ftbquests.chapter.botania.quest696260986371080398.title}"
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2524C59A32F0DA28"]
-			description: ["{mce.questing.botania.pure_daisy.desc}"]
+			description: [""]
 			icon: "botania:pure_daisy"
 			id: "534740624C012CBF"
 			rewards: [{
@@ -126,7 +243,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.pure_daisy.sub}"
+			shape: "gear"
 			tasks: [
 				{
 					id: "50D1AB43F24FD615"
@@ -135,7 +252,7 @@
 				}
 				{
 					id: "1597755C91249085"
-					item: "botania:livingwood"
+					item: "botania:livingwood_log"
 					type: "item"
 				}
 				{
@@ -144,12 +261,37 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.botania.pure_daisy.name}"
+			title: "{ftbquests.chapter.botania.quest6000835819420593343.title}"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
-			description: ["{mce.questing.botania.lexica_botania.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest7875371975904872838.description1}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description2}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description3}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description4}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description5}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description6}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description7}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description8}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description9}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description10}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description11}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description12}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description13}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description14}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description15}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description16}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description17}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description18}"
+			]
 			id: "6D4AF11629E04986"
 			rewards: [{
 				amount: 50L
@@ -158,7 +300,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.lexica_botania.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest7875371975904872838.subtitle}"
 			tasks: [{
 				id: "2C1EBB89070F54F9"
 				item: {
@@ -168,13 +310,13 @@
 				}
 				type: "item"
 			}]
-			title: "{mce.questing.botania.lexica_botania.name}"
+			title: "{ftbquests.chapter.botania.quest7875371975904872838.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6D4AF11629E04986"]
-			description: ["{mce.questing.botania.elven_lexica.desc}"]
+			description: ["{ftbquests.chapter.botania.quest7917003710928581595.description1}"]
 			id: "6DDED8EDD358F3DB"
 			rewards: [
 				{
@@ -190,33 +332,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -224,7 +343,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{mce.questing.botania.elven_lexica.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest7917003710928581595.subtitle}"
 			tasks: [{
 				id: "0E70AE06CC0904B7"
 				item: {
@@ -235,17 +354,25 @@
 					}
 				}
 				match_nbt: true
-				title: "{mce.questing.botania.task.elven_knowledge_lexica}"
+				title: "{ftbquests.chapter.botania.quest7917003710928581595.task.1040522858138764471.title}"
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "{mce.questing.botania.elven_lexica.name}"
+			title: "{ftbquests.chapter.botania.quest7917003710928581595.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["534740624C012CBF"]
-			description: ["{mce.questing.botania.wand_of_the_forest.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest5088047349113092864.description1}"
+				""
+				"{ftbquests.chapter.botania.quest5088047349113092864.description2}"
+				""
+				"{ftbquests.chapter.botania.quest5088047349113092864.description3}"
+				"{ftbquests.chapter.botania.quest5088047349113092864.description4}"
+				"{ftbquests.chapter.botania.quest5088047349113092864.description5}"
+			]
 			id: "469C601B3C40FB00"
 			rewards: [
 				{
@@ -261,40 +388,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.botania.wand_of_the_forest.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest5088047349113092864.subtitle}"
 			tasks: [{
 				id: "5A466E90ACF4EBFD"
 				item: {
@@ -307,13 +411,17 @@
 				}
 				type: "item"
 			}]
-			title: "{mce.questing.botania.wand_of_the_forest.name}"
+			title: "{ftbquests.chapter.botania.quest5088047349113092864.title}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["09A99DAD9B9C80CE"]
-			description: ["{mce.questing.botania.mana_materials.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest7126936400966812386.description1}"
+				""
+				"{ftbquests.chapter.botania.quest7126936400966812386.description2}"
+			]
 			id: "62E7F6E5846D82E2"
 			rewards: [
 				{
@@ -329,40 +437,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.botania.mana_materials.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest7126936400966812386.subtitle}"
 			tasks: [
 				{
 					id: "754B137377EB2E58"
@@ -390,7 +475,7 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.botania.mana_materials.name}"
+			title: "{ftbquests.chapter.botania.quest7126936400966812386.title}"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -400,7 +485,8 @@
 				"7D6C3DA95F0C8446"
 				"4DB02664AC3DE750"
 			]
-			description: ["{mce.questing.botania.runic_altar.desc}"]
+			description: [""]
+			icon: "botania:runic_altar"
 			id: "712FF3A7BCD998F3"
 			min_required_dependencies: 1
 			rewards: [{
@@ -410,23 +496,35 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.runic_altar.sub}"
-			tasks: [{
-				id: "049E586E50F2CD7F"
-				item: "botania:runic_altar"
-				type: "item"
-			}]
-			title: "{mce.questing.botania.runic_altar.name}"
+			tasks: [
+				{
+					id: "049E586E50F2CD7F"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					advancement: "botania:main/rune_pickup"
+					criterion: ""
+					icon: "botania:rune_water"
+					id: "5458B11594715EAD"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest8156005351944722675.title}"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["712FF3A7BCD998F3"]
-			description: ["{mce.questing.botania.runes.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest6653458311892948285.description1}"
+				""
+				"{ftbquests.chapter.botania.quest6653458311892948285.description2}"
+			]
 			id: "5C55D515483FD53D"
 			rewards: [
 				{
-					amount: 50L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "0C9525A75D3F2AA3"
 					ignore_reward_blocking: true
@@ -438,40 +536,16 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.botania.runes.sub}"
 			tasks: [
 				{
 					id: "6152AF0624908A20"
@@ -554,7 +628,7 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.botania.runes.name}"
+			title: "{ftbquests.chapter.botania.quest6653458311892948285.title}"
 			x: 7.0d
 			y: 2.0d
 		}
@@ -567,13 +641,22 @@
 				"004A0586F1472803"
 				"6152AF0624908A20"
 			]
-			description: ["{mce.questing.botania.terra_plate.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest1224632961744829523.description1}"
+				""
+				"{ftbquests.chapter.botania.quest1224632961744829523.description2}"
+				"{ftbquests.chapter.botania.quest1224632961744829523.description3}"
+				""
+				"{ftbquests.chapter.botania.quest1224632961744829523.description4}"
+				""
+				"{ftbquests.chapter.botania.quest1224632961744829523.description5}"
+			]
 			icon: "botania:terra_plate"
 			id: "10FEC530B908FC53"
 			min_required_dependencies: 5
 			rewards: [
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "73C137C9BC69F4DC"
 					ignore_reward_blocking: true
@@ -585,41 +668,18 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "octagon"
-			subtitle: "{mce.questing.botania.terra_plate.sub}"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.botania.quest1224632961744829523.subtitle}"
 			tasks: [
 				{
 					id: "12CD7FA257769E3D"
@@ -630,11 +690,11 @@
 					hasCustomPicture: false
 					icon: "minecraft:lapis_block"
 					id: "695FC871D1105C97"
-					title: "{mce.questing.botania.task.terra_plate_structure}"
 					ignoreState: false
 					layer: true
 					name: "terra_plate"
 					rightclick: false
+					title: "{ftbquests.chapter.botania.quest1224632961744829523.task.7593007887934315671.title}"
 					type: "questsadditions:structure"
 				}
 				{
@@ -649,13 +709,18 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.botania.terra_plate.name}"
+			title: "{ftbquests.chapter.botania.quest1224632961744829523.title}"
 			x: 9.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["10FEC530B908FC53"]
-			description: ["{mce.questing.botania.elven_portal.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest7265581909575970881.description1}"
+				""
+				"{ftbquests.chapter.botania.quest7265581909575970881.description2}"
+				"{ftbquests.chapter.botania.quest7265581909575970881.description3}"
+			]
 			id: "64D4884086C7B041"
 			rewards: [
 				{
@@ -671,40 +736,18 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.botania.elven_portal.sub}"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.botania.quest7265581909575970881.subtitle}"
 			tasks: [
 				{
 					id: "410205C71E594BA8"
@@ -717,19 +760,8 @@
 					item: "botania:natura_pylon"
 					type: "item"
 				}
-				{
-					hasCustomPicture: false
-					icon: "botania:glimmering_livingwood"
-					id: "31FEB2F2455AEF4B"
-					title: "{mce.questing.botania.task.elven_portal_structure}"
-					ignoreState: false
-					layer: true
-					name: "elven_portal"
-					rightclick: false
-					type: "questsadditions:structure"
-				}
 			]
-			title: "{mce.questing.botania.elven_portal.name}"
+			title: "{ftbquests.chapter.botania.quest7265581909575970881.title}"
 			x: 11.0d
 			y: 2.0d
 		}
@@ -738,7 +770,11 @@
 				"62E7F6E5846D82E2"
 				"754B137377EB2E58"
 			]
-			description: ["{mce.questing.botania.floral_obedience_stick.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest4881124679431418323.description1}"
+				""
+				"{ftbquests.chapter.botania.quest4881124679431418323.description2}"
+			]
 			id: "43BD3D08DDE6F1D3"
 			min_required_dependencies: 1
 			rewards: [
@@ -755,51 +791,32 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.botania.floral_obedience_stick.sub}"
 			tasks: [{
 				id: "60035FF7D644E794"
 				item: "botania:obedience_stick"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.floral_obedience_stick.name}"
+			title: "{ftbquests.chapter.botania.quest4881124679431418323.title}"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			description: ["{mce.questing.botania.hydroangeas.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest8326499692880917124.description1}"
+				""
+				"{ftbquests.chapter.botania.quest8326499692880917124.description2}"
+				"{ftbquests.chapter.botania.quest8326499692880917124.description3}"
+			]
 			id: "738DAB5AE090F284"
 			optional: true
 			rewards: [{
@@ -809,18 +826,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.hydroangeas.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest8326499692880917124.subtitle}"
 			tasks: [{
 				id: "346567F558BFFBCB"
 				item: "botania:hydroangeas"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.hydroangeas.name}"
-			x: -5.0d
-			y: 5.0d
+			title: "{ftbquests.chapter.botania.quest8326499692880917124.title}"
+			x: -3.0d
+			y: 3.0d
 		}
 		{
-			description: ["{mce.questing.botania.endoflame.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest6167608624577498497.description1}"
+				""
+				"{ftbquests.chapter.botania.quest6167608624577498497.description2}"
+			]
 			id: "5597BF5DDD93CD81"
 			optional: true
 			rewards: [{
@@ -830,18 +851,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.endoflame.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest6167608624577498497.subtitle}"
 			tasks: [{
 				id: "6B3BAA2AB473F34D"
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.endoflame.name}"
-			x: -3.0d
-			y: 5.0d
+			title: "{ftbquests.chapter.botania.quest6167608624577498497.title}"
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			description: ["{mce.questing.botania.thermalily.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest3995646614224903605.description1}"
+				"{ftbquests.chapter.botania.quest3995646614224903605.description2}"
+				"{ftbquests.chapter.botania.quest3995646614224903605.description3}"
+			]
 			id: "3773636D00DE1DB5"
 			rewards: [{
 				amount: 50L
@@ -850,18 +875,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.thermalily.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest3995646614224903605.subtitle}"
 			tasks: [{
 				id: "088A499B6680E1AF"
 				item: "botania:thermalily"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.thermalily.name}"
-			x: -9.0d
-			y: 7.0d
+			title: "{ftbquests.chapter.botania.quest3995646614224903605.title}"
+			x: -3.0d
+			y: 5.0d
 		}
 		{
-			description: ["{mce.questing.botania.rosa_arcana.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest3080700386101472968.description1}"
+				"{ftbquests.chapter.botania.quest3080700386101472968.description2}"
+				""
+				"{ftbquests.chapter.botania.quest3080700386101472968.description3}"
+			]
 			id: "2AC0D8ADCCFCAEC8"
 			rewards: [{
 				amount: 50L
@@ -870,18 +900,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.rosa_arcana.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest3080700386101472968.subtitle}"
 			tasks: [{
 				id: "585FB7F3425CD0FD"
 				item: "botania:rosa_arcana"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.rosa_arcana.name}"
-			x: -7.0d
-			y: 7.0d
+			title: "{ftbquests.chapter.botania.quest3080700386101472968.title}"
+			x: -3.0d
+			y: 6.0d
 		}
 		{
-			description: ["{mce.questing.botania.munchdew.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest3677527691542608483.description1}"
+				"{ftbquests.chapter.botania.quest3677527691542608483.description2}"
+				""
+				"{ftbquests.chapter.botania.quest3677527691542608483.description3}"
+			]
 			id: "330933F37A0F3A63"
 			rewards: [{
 				amount: 50L
@@ -890,18 +925,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.munchdew.sub}"
 			tasks: [{
 				id: "385CF325261C0D09"
 				item: "botania:munchdew"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.munchdew.name}"
-			x: -5.0d
+			title: "{ftbquests.chapter.botania.quest3677527691542608483.title}"
+			x: -3.0d
 			y: 7.0d
 		}
 		{
-			description: ["{mce.questing.botania.entropinnyum.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest6007728143980019821.description1}"
+				"{ftbquests.chapter.botania.quest6007728143980019821.description2}"
+			]
 			id: "535FBCEAA90BC06D"
 			rewards: [{
 				amount: 50L
@@ -910,18 +947,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.entropinnyum.sub}"
 			tasks: [{
 				id: "3C5D9095394DD429"
 				item: "botania:entropinnyum"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.entropinnyum.name}"
-			x: -3.0d
-			y: 7.0d
+			title: "{ftbquests.chapter.botania.quest6007728143980019821.title}"
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			description: ["{mce.questing.botania.gourmaryllis.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest8862898077166756742.description1}"
+				"{ftbquests.chapter.botania.quest8862898077166756742.description2}"
+				"{ftbquests.chapter.botania.quest8862898077166756742.description3}"
+			]
 			id: "7AFF56D7F2046386"
 			rewards: [{
 				amount: 50L
@@ -930,18 +970,17 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.gourmaryllis.sub}"
 			tasks: [{
 				id: "59EC0E493D948DBF"
 				item: "botania:gourmaryllis"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.gourmaryllis.name}"
-			x: -1.0d
-			y: 7.0d
+			title: "{ftbquests.chapter.botania.quest8862898077166756742.title}"
+			x: -2.0d
+			y: 6.0d
 		}
 		{
-			description: ["{mce.questing.botania.kekimurus.desc}"]
+			description: ["{ftbquests.chapter.botania.quest514164780489394565.description1}"]
 			id: "0722AE24C9164985"
 			rewards: [{
 				amount: 50L
@@ -950,18 +989,24 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.kekimurus.sub}"
 			tasks: [{
 				id: "02D5C858095578AF"
 				item: "botania:kekimurus"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.kekimurus.name}"
+			title: "{ftbquests.chapter.botania.quest514164780489394565.title}"
 			x: -8.0d
 			y: 9.0d
 		}
 		{
-			description: ["{mce.questing.botania.rafflowsia.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest7332193940488596700.description1}"
+				""
+				"{ftbquests.chapter.botania.quest7332193940488596700.description2}"
+				"{ftbquests.chapter.botania.quest7332193940488596700.description3}"
+				""
+				"{ftbquests.chapter.botania.quest7332193940488596700.description4}"
+			]
 			id: "65C12F8A8F182CDC"
 			rewards: [{
 				amount: 50L
@@ -970,18 +1015,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.rafflowsia.sub}"
 			tasks: [{
 				id: "7F6F297E9635985A"
 				item: "botania:rafflowsia"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.rafflowsia.name}"
+			title: "{ftbquests.chapter.botania.quest7332193940488596700.title}"
 			x: -6.0d
 			y: 9.0d
 		}
 		{
-			description: ["{mce.questing.botania.dandelifeon.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest8942867177925075877.description1}"
+				""
+				"{ftbquests.chapter.botania.quest8942867177925075877.description2}"
+			]
 			id: "7C1B725125B963A5"
 			rewards: [{
 				amount: 50L
@@ -990,18 +1038,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.dandelifeon.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest8942867177925075877.subtitle}"
 			tasks: [{
 				id: "3748C9B5B06513B4"
 				item: "botania:dandelifeon"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.dandelifeon.name}"
+			title: "{ftbquests.chapter.botania.quest8942867177925075877.title}"
 			x: -2.0d
 			y: 9.0d
 		}
 		{
-			description: ["{mce.questing.botania.shulk_me_not.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest413671051139902500.description1}"
+				"{ftbquests.chapter.botania.quest413671051139902500.description2}"
+				""
+				"{ftbquests.chapter.botania.quest413671051139902500.description3}"
+			]
 			id: "05BDA7A1190E6C24"
 			rewards: [{
 				amount: 50L
@@ -1010,18 +1063,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.shulk_me_not.sub}"
+			subtitle: "{ftbquests.chapter.botania.quest413671051139902500.subtitle}"
 			tasks: [{
 				id: "4551CE438AFAD84A"
 				item: "botania:shulk_me_not"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.shulk_me_not.name}"
+			title: "{ftbquests.chapter.botania.quest413671051139902500.title}"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
-			description: ["{mce.questing.botania.spectrolus.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest6311959951768629779.description1}"
+				"{ftbquests.chapter.botania.quest6311959951768629779.description2}"
+				"{ftbquests.chapter.botania.quest6311959951768629779.description3}"
+			]
 			id: "5798962249A93213"
 			rewards: [{
 				amount: 50L
@@ -1030,18 +1087,17 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.spectrolus.sub}"
 			tasks: [{
 				id: "52DC9F7B4BA3E979"
 				item: "botania:spectrolus"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.spectrolus.name}"
+			title: "{ftbquests.chapter.botania.quest6311959951768629779.title}"
 			x: -4.0d
 			y: 9.0d
 		}
 		{
-			description: ["{mce.questing.botania.narslimmus.desc}"]
+			description: ["{ftbquests.chapter.botania.quest8735345195644695492.description1}"]
 			id: "793A2E2C70D133C4"
 			rewards: [{
 				amount: 50L
@@ -1050,19 +1106,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.botania.narslimmus.sub}"
 			tasks: [{
 				id: "79FB78B2DB67581B"
 				item: "botania:narslimmus"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.narslimmus.name}"
-			x: 1.0d
+			title: "{ftbquests.chapter.botania.quest8735345195644695492.title}"
+			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["64D4884086C7B041"]
-			description: ["{mce.questing.botania.elven_materials.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest702429581693393127.description1}"
+				""
+				"{ftbquests.chapter.botania.quest702429581693393127.description2}"
+			]
 			id: "09BF87FBA08F98E7"
 			rewards: [
 				{
@@ -1078,40 +1137,16 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.botania.elven_materials.sub}"
 			tasks: [
 				{
 					id: "2B2AB96F58D3270E"
@@ -1134,13 +1169,17 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.botania.elven_materials.name}"
+			title: "{ftbquests.chapter.botania.quest702429581693393127.title}"
 			x: 13.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["09BF87FBA08F98E7"]
-			description: ["{mce.questing.botania.ritual_of_gaia.desc}"]
+			description: [
+				"{ftbquests.chapter.botania.quest1237442985485991883.description1}"
+				""
+				"{ftbquests.chapter.botania.quest1237442985485991883.description2}"
+			]
 			id: "112C47D6CBB0FFCB"
 			rewards: [
 				{
@@ -1157,40 +1196,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.botania.ritual_of_gaia.sub}"
+			shape: "octagon"
 			tasks: [
 				{
 					count: 4L
@@ -1202,18 +1218,18 @@
 					hasCustomPicture: false
 					icon: "minecraft:beacon"
 					id: "3D9FE7E661F48C7B"
-					title: "{mce.questing.botania.task.gaia_ritual_structure}"
 					ignoreState: false
 					layer: true
 					name: "ritual_of_gaia"
 					rightclick: false
+					title: "{ftbquests.chapter.botania.quest1237442985485991883.task.4440522734282509435.title}"
 					type: "questsadditions:structure"
 				}
 			]
-			title: "{mce.questing.botania.ritual_of_gaia.name}"
+			title: "{ftbquests.chapter.botania.quest1237442985485991883.title}"
 			x: 15.0d
 			y: 2.0d
 		}
 	]
-	title: "{chapter.37.title}"
+	title: "{ftbquests.chapter.botania.title}"
 }

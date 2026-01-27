@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You can't sleep in a bed unless you are safely inside shelter! Otherwise you have a high chance of experiencing an Eerie Nightmare!"
+    "translate": "tips.mce2.nightmares"
   }
 }

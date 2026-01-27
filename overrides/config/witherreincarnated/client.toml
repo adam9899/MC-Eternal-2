@@ -1,0 +1,23 @@
+
+[PREFERENCE]
+	"Music Volume (default: 1.0)" = 1.0
+	"Music Obeys Music Volume Slider (default: false)" = true
+	"Only Play One Music Track (default: false)" = false
+	"Camera Shake Intensity (default: 1.0)" = 0.5
+	"Distant Fire Opacity (default: 0.1)" = 0.1
+	"Wither Shine Opacity (default: 0.1)" = 0.1
+	"Distant Fire Colour (default: 0xFF552A)" = 16733482
+	"Wither Shine Colour (default: 0xFFFFFF)" = 16777215
+	"Wither Death Flare Colour (default: 0x5be3e8)" = 6022120
+	"Remove Wither Wings (default: false)" = false
+	"Vanilla Wither Bossbar (default: false)" = false
+	"Wither Ribcage Item (default: \"minecraft:nether_star\")" = "kubejs:mobdrop_endermanheart_beating"
+
+[PERFORMANCE]
+	"Max Distant Fire (default: 256)" = 30
+	"Max Smoke Columns (default: 256)" = 15
+	"Falling Ash Near Smoke Columns (default: true)" = false
+	"Distant Fire Detail (default: 1.0)" = 0.3
+	"Wither Shine Detail (default: 1.0)" = 1.0
+	"Wither Death Flare Detail (default: 1.0)" = 1.0
+

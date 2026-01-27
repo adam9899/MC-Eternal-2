@@ -16,6 +16,22 @@
       "max_trades": 5,
       "experience": 4
     },
+	  {
+  "type": "goblintraders:basic",
+  "experience": 4,
+  "max_trades": 1,
+  "payment_item": {
+    "item": "minecraft:paper",
+    "count": 1,
+    "nbt": "{\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"1x Rat - 24 Hours \\\" ,\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"Status: LATE!\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"RETURN ON TIME OR FACE FINES!\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true}\",\"{\\\"text\\\":\\\"YOU WOULDN'T STEAL A CAR\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"YOU WOULDN'T STEAL A HANDBAG\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"YOU WOULDN'T STEAL A TELEVISION\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\\\",\\\"color\\\":\\\"dark_red\\\",\\\"bold\\\":true,\\\"italic\\\":true}\"],\"Name\":\"{\\\"text\\\":\\\"Rent-a-Rat Reciept\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\"}}"
+  },
+  "offer_item": {
+    "item": "rats:rat_upgrade_combined",
+    "count": 1,
+    "nbt": "{\"Items\":[{\"Count\":1b,\"Slot\":0b,\"id\":\"rats:rat_upgrade_demon\"},{\"Count\":1b,\"Slot\":1b,\"id\":\"rats:rat_upgrade_god\"}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"Rat Upgrade: Skooma\\\"}\"}}"
+  },
+  "price_multiplier": 0.0
+},
      {
       "type": "goblintraders:basic",
       "offer_item": {
@@ -73,7 +89,7 @@
   "offer_item": {
     "count": 1,
     "item": "iceandfire:dread_knight_sword",
-    "nbt": "{\"Damage\":0,\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"Forged in the depths of the Nether. Used to torment and torture enemies of The Eternal Legion.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\"],\"Name\":\"{\\\"text\\\":\\\"Blade of Eternal Torment\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":false}\"},\"etstlib_tool_uuid\":\"0a343ae3-e330-4f46-8937-3973ed0374da\",\"tic_persistent\":{}}"
+    "nbt": "{display:{Lore:['{\"translate\":\"item.mce2.blade_of_eternal_torment.desc\",\"color\":\"gray\",\"italic\":true}'],Name:'{\"translate\":\"item.mce2.blade_of_eternal_torment\",\"color\":\"dark_purple\"}'},Enchantments:[{id:\"minecraft:fire_aspect\",lvl:3}],mce2_quest_item:\"blade_of_eternal_torment\"}"
   },
   "payment_item": {
     "count": 1,
@@ -155,6 +171,24 @@
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
+    },
+	    {
+      "type": "goblintraders:basic",
+      "experience": 40,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "relics:infinity_ham"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "farmersdelight:smoked_ham"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "cataclysm:ignitium_block"
+      }
     }
   ]
 }

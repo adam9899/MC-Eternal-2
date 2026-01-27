@@ -95,7 +95,7 @@
 		"Look Chance" = 0.015
 
 	[automation.iron_rod]
-		"Use Pre End Recipe" = false
+		"Use Pre End Recipe" = true
 
 	[automation.metal_buttons]
 		"Enable Iron" = true
@@ -1557,7 +1557,7 @@
 	"Buckets Show Inhabitants" = true
 	Camera = true
 	"Chest Searching" = true
-	"Elytra Indicator" = true
+	"Elytra Indicator" = false
 	"Greener Grass" = true
 	"Improved Tooltips" = true
 	"Long Range Pick Block" = true

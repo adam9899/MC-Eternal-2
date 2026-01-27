@@ -3,7 +3,7 @@
   "blacklist_item_id_regex": "pickaxe",
   "fallback_compatibility": [
     {
-      "item_id_regex": "claymore|great_sword|greatsword|pan|heartseeker",
+      "item_id_regex": "claymore|great_sword|greatsword|pan|heart_seeker|spectralibur",
       "weapon_attributes": "bettercombat:claymore"
     },
     {
@@ -27,7 +27,7 @@
       "weapon_attributes": "bettercombat:glaive"
     },
     {
-      "item_id_regex": "spear|stake",
+      "item_id_regex": "spear|stake|astrape",
       "weapon_attributes": "bettercombat:spear"
     },
     {
@@ -35,7 +35,7 @@
       "weapon_attributes": "bettercombat:lance"
     },
     {
-      "item_id_regex": "anchor|ceraunus",
+      "item_id_regex": "anchor|ceraunus|monstrous_flamberge|monstrous",
       "weapon_attributes": "bettercombat:anchor"
     },
     {
@@ -43,7 +43,7 @@
       "weapon_attributes": "bettercombat:battlestaff"
     },
     {
-      "item_id_regex": "claw",
+      "item_id_regex": "claw|feral_bagh_nakhs|feral",
       "weapon_attributes": "bettercombat:claw"
     },
     {
@@ -55,7 +55,7 @@
       "weapon_attributes": "bettercombat:trident"
     },
     {
-      "item_id_regex": "katana|heartstriker|pan",
+      "item_id_regex": "katana|heart_striker|pan|soul_reaver_axe|soul_reaver",
       "weapon_attributes": "bettercombat:katana"
     },
     {

@@ -1,0 +1,115 @@
+{
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:cave_extra_underground",
+            "minecraft:canyon"
+        ]
+    },
+    "downfall": 0.4,
+    "effects": {
+        "fog_color": 0,
+        "grass_color_modifier": "dark_forest",
+        "mood_sound": {
+            "block_search_extent": 8,
+            "offset": 2,
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000
+        },
+        "music": {
+            "max_delay": 100,
+            "min_delay": 1,
+            "replace_current_music": true,
+            "sound":
+
+                "minecraft:music.overworld.dripstone_caves"
+        },
+        "sky_color": 0,
+        "water_color": 0,
+        "water_fog_color": 0,
+        "particle": {
+            "options": {
+                "type": "minecraft:ash"
+            },
+            "probability": 0.02
+        }
+    },
+    "features": [
+        [
+            "minecraft:patch_soul_fire",
+            "minecraft:ore_magma",
+            "minecraft:large_dripstone",
+            "minecraft:dripstone_cluster",
+            "minecraft:pointed_dripstone",
+            "minecraft:glow_lichen"
+        ],
+        [
+            "minecraft:amethyst_geode"
+        ],
+        [
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "minecraft:ore_copper"
+        ],
+
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "has_precipitation": false,
+    "spawn_costs": {},
+    "spawners": {
+        "ambient": [],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "monster": [
+            {
+                "type": "alexsmobs:farseer",
+                "maxCount": 2,
+                "minCount": 1,
+                "weight": 100
+            },
+            {
+                "type": "alexsmobs:skreecher",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 100
+            },
+            {
+                "type": "alexscaves:rocky_roller",
+                "maxCount": 2,
+                "minCount": 1,
+                "weight": 30
+            },
+            {
+                "type": "alexscaves:underminer",
+                "maxCount": 2,
+                "minCount": 1,
+                "weight": 30
+            },
+            {
+                "type": "alexsmobs:soul_vulture",
+                "maxCount": 4,
+                "minCount": 2,
+                "weight": 250
+            }
+        ],
+        "underground_water_creature": [],
+        "water_ambient": [],
+        "water_creature": []
+    },
+    "temperature": 0.8
+}

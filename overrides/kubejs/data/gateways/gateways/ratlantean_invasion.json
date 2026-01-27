@@ -1,0 +1,320 @@
+{
+    "size": "large",
+    "color": "#FFD966",
+    "waves": [{
+            "entities": [
+                {
+                    "entity": "rats:demon_rat",
+                    "count": 1
+                },
+                {
+                    "entity": "rats:feral_ratlantean",
+                    "count": 2
+                }
+                
+            ],
+            "modifiers": [
+            ],
+            "rewards": [
+                                     {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "rats:oratchalcum_nugget",
+      "count": 1
+    }
+  }
+            ],
+            "max_wave_time": 1600,
+            "setup_time": 400
+        },
+        {
+            "entities": [
+                {
+                    "entity": "rats:ratlantean_spirit",
+                    "count": 2
+                },
+                  {
+                    "entity": "rats:feral_ratlantean",
+                    "count": 2
+                },
+                {
+                    "entity": "rats:plague_beast",
+                    "count": 1
+                }
+                
+            ],
+            "modifiers": [
+            ],
+            "rewards": [
+                                                  {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "rats:oratchalcum_nugget",
+      "count": 2
+    }
+  },
+     {
+  "type": "gateways:command",
+  "command": "weather thunder", 
+  "desc": "Ratlantean Rage"     
+},
+
+  {
+  "type": "gateways:command",
+  "command": "tell <summoner> The swarm of rats grows restless...", 
+  "desc": "Message"     
+}
+            ],
+            "max_wave_time": 600,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "rats:feral_ratlantean",
+                    "count": 2
+                },
+                  {
+                    "entity": "rats:ratlantean_ratbot",
+                    "count": 2
+                },
+                    {
+                    "entity": "rats:ghost_pirat",
+                    "count": 2
+                },
+                  {
+                    "entity": "rats:pirat",
+                    "count": 2
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [
+                          {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "rats:oratchalcum_nugget",
+      "count": 4
+    }
+  }
+            ],
+            "max_wave_time": 1600,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+            
+                {
+                    "entity": "rats:pirat",
+                    "count": 3
+                },
+                
+            
+            
+                {
+                    "entity": "rats:ghost_pirat",
+                    "count": 6
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+               
+                {
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                    {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "rats:oratchalcum_ingot",
+      "count": 1
+    }
+  }
+            ],
+            "max_wave_time": 1600,
+            "setup_time": 400
+        },
+        {
+            "entities": [
+                
+            
+                {
+                    "entity": "rats:feral_ratlantean",
+                    "count": 2
+                },
+            
+                   {
+                    "entity": "rats:ratlantean_ratbot",
+                    "count": 2
+                },
+                   {
+                    "entity": "rats:ratlantean_automaton",
+                    "count": 1
+                }
+
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 3
+                },
+        
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                   {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "rats:gem_of_ratlantis",
+      "count": 8
+    }
+  }
+            ],
+            "max_wave_time": 5400,
+            "setup_time": 400
+        },
+
+        {
+            "entities": [
+        
+                 {
+                    "entity": "rats:neo_ratlantean",
+                    "desc": "Mad Rat's Genius",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Mad Rat's Genius\",\"color\":\"dark_red\"}",
+                        "IsImmuneToZombification": true
+                    },
+                    "modifiers": [
+                        
+                       
+                        {
+                            "attribute": "attributeslib:armor_shred",
+                            "operation": "ADDITION",
+                            "value": 0.2
+                        },
+                        {
+                            "attribute": "attributeslib:prot_shred",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        },
+                        {
+                            "attribute": "generic.attack_knockback",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        },
+                        {
+                            "attribute": "generic.knockback_resistance",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        }
+                    ],
+                    "count": 1,
+                    "finalize_spawn": false
+                },
+                    {
+                    "entity": "rats:ratlantean_ratbot",
+                    "count": 1
+                },
+                
+            
+            
+                {
+                    "entity": "rats:feral_ratlantean",
+                    "count": 2
+                }
+               
+            ],
+            "modifiers": [
+            ],
+            "rewards": [
+            {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "rats:oratchalcum_block",
+      "count": 1
+    }
+  }
+            ],
+            "max_wave_time": 5600,
+            "setup_time": 100
+        }
+       
+    ],
+"rewards": [
+  {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "rats:oratchalcum_block",
+      "count": 1
+    }
+  },
+     {
+  "type": "gateways:command",
+  "command": "weather clear", 
+  "desc": "Mad Rats Blessing"     
+},
+  {
+  "type": "gateways:command",
+  "command": "tell @p Stay away from our rats",
+  "desc": "Message"     
+}
+],
+"failures": [
+  {
+    "type": "gateways:explosion",
+    "strength": 4,
+    "fire": false,
+    "block_damage": false
+  },
+  {
+    "type": "gateways:summon",
+    "entity": {
+      "entity": "rats:plague_beast",
+      "count": 2
+    }
+  }
+]
+}

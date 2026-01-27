@@ -1,6 +1,11 @@
 Ponder.tags(event => {
 	
-	event.createTag('mce2:mekanism_multiblocks', 'mekanismgenerators:turbine_blade', 'MC Eternal: Mekanism Structures', 'Making Massive Mekanized Multiblocks!')
+	event.createTag('mce2:mekanism_multiblocks', 'mekanismgenerators:turbine_blade', 'MC Eternal: Mekanism Structures', 'Making Massive Mekanized Multiblocks!', [
+		'mekanism:supercharged_coil',
+		'mekanismgenerators:fusion_reactor_controller',
+		'mekanismgenerators:fission_fuel_assembly',
+		'mekanismgenerators:control_rod_assembly'
+	])
 	
 })
 
@@ -9,7 +14,7 @@ Ponder.registry(event => {
 	// SPS
 	// Fully Complete
 	event.create('mekanism:supercharged_coil')
-		//.tag('mce2:mekanism_multiblocks')
+		.tag('mce2:mekanism_multiblocks')
 		.scene(
 			'mek_sps',
 			'The Supercritical Phase Shifter',
@@ -112,7 +117,7 @@ Ponder.registry(event => {
 	// Fusion Reactor
 	// Unfinished
 	event.create('mekanismgenerators:fusion_reactor_controller')
-		//.tag('mce2:mekanism_multiblocks')
+		.tag('mce2:mekanism_multiblocks')
 		.scene(
 			'mek_fusion',
 			'Fusion Reactor [WIP]',
@@ -163,7 +168,7 @@ Ponder.registry(event => {
 		'mekanismgenerators:control_rod_assembly',
 		'mekanismgenerators:fission_fuel_assembly'
 		])
-		//.tag('mce2:mekanism_multiblocks')
+		.tag('mce2:mekanism_multiblocks')
 		.scene(
 			'mek_fission',
 			'Fission Reactor [WIP]',

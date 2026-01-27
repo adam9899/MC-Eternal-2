@@ -1,0 +1,147 @@
+{
+  "general": {
+    "action": "ntgl:melee",
+    "rate": 0,
+    "weaponMode": "ntgl:melee",
+    "gripType": "ntgl:hammer",
+    "loadingType": "magazine",
+    "maxAmmo": 900,
+    "reloadTime": 50,
+    "ammoPerShot": 20,
+    "equipTime": 10,
+    "enchantable": false,
+    "melee": true,
+    "ammo": [
+      "cgs:air"
+    ]
+  },
+  "melee": {
+    "mode": "ntgl:single",
+    "damage": 1,
+    "delay": 5,
+    "cooldown": 8,
+    "distance": 5,
+    "angle": 50,
+    "maxTargets": 1,
+    "knockback": 1
+  },
+  "modes": {
+    "ntgl:secondary": {
+      "general": {
+        "action": "ntgl:none"
+      },
+      "melee": {
+        "mode": "ntgl:single",
+        "damage": 1,
+        "delay": 10,
+        "cooldown": 10,
+        "distance": 5,
+        "angle": 50,
+        "maxTargets": 1,
+        "knockback": 1
+      }
+    }
+  },
+  "ammoData": {
+    "cgs:air": {
+      "ammo": {
+        "type": "cgs:air",
+        "counter": "ntgl:bar"
+      },
+      "projectile": {
+        "damage": 1.0,
+        "speed": 0.0,
+        "life": 0,
+        "projectileAmount": 0
+      }
+    },
+    "cgs:round_shotgun_blank": {
+      "ammo": {
+        "type": "cgs:blank_shot"
+      },
+      "projectile": {
+        "damage": 2.0,
+        "speed": 0.0,
+        "life": 0,
+        "projectileAmount": 0
+      }
+    }
+  },
+  "animations": {
+    "ntgl:melee": "ntgl:hammer_hit",
+    "ntgl:reload": "cgs:hammer_reload"
+  },
+  "sounds": {
+    "shot": "cgs:gun.hammer.shot",
+    "reload": "cgs:gun.hammer.reload",
+    "magin": "cgs:gun.hammer.magin",
+    "magout": "cgs:gun.hammer.magout",
+    "equip": "cgs:gun.hammer.equip",
+    "boltopen": "cgs:gun.hammer.boltopen",
+    "boltclose": "cgs:gun.hammer.boltclose",
+    "swing_start": "cgs:gun.hammer.swing_start",
+    "swing_end": "cgs:gun.hammer.swing_end"
+  },
+  "modules": {
+    "attachments": {
+      "cgs:head": [
+        {
+          "name": "hammer",
+          "item": "cgs:hammer_stone",
+          "bones": [
+            "spring_holders",
+            "springs"
+          ]
+        },
+        {
+          "name": "hammer",
+          "item": "cgs:hammer_iron",
+          "bones": [
+            "spring_holders",
+            "springs"
+          ]
+        },
+        {
+          "name": "hammer",
+          "item": "cgs:hammer_diamond",
+          "bones": [
+            "spring_holders",
+            "springs"
+          ]
+        },
+        {
+          "name": "hammer",
+          "item": "cgs:hammer_netherite",
+          "bones": [
+            "spring_holders",
+            "springs"
+          ]
+        },
+
+        {
+          "name": "axe",
+          "item": "cgs:axe_stone"
+        },
+        {
+          "name": "axe",
+          "item": "cgs:axe_iron"
+        },
+        {
+          "name": "axe",
+          "item": "cgs:axe_diamond"
+        },
+        {
+          "name": "axe",
+          "item": "cgs:axe_netherite"
+        }
+      ],
+      "ntgl:magazine": [
+        {
+          "name": "shotgun_receiver",
+          "item": "cgs:hammer_chamber",
+          "hide": ["filler"]
+        }
+      ]
+    }
+  }
+}

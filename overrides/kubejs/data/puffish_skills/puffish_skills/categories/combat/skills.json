@@ -60,7 +60,7 @@
 		"root": false
 	},
 	"-12_-12": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": -384,
 		"y": -384,
 		"root": false
@@ -108,7 +108,7 @@
 		"root": false
 	},
 	"-10_-10": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": -320,
 		"y": -320,
 		"root": false
@@ -138,7 +138,7 @@
 		"root": false
 	},
 	"-10_10": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": -320,
 		"y": 320,
 		"root": false
@@ -174,7 +174,7 @@
 		"root": false
 	},
 	"-8_0": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": -256,
 		"y": 0,
 		"root": false
@@ -192,7 +192,7 @@
 		"root": false
 	},
 	"-8_10": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": -256,
 		"y": 320,
 		"root": false
@@ -432,7 +432,7 @@
 		"root": false
 	},
 	"0_-8": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": 0,
 		"y": -256,
 		"root": false
@@ -450,7 +450,7 @@
 		"root": true
 	},
 	"0_8": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": 0,
 		"y": 256,
 		"root": false
@@ -708,7 +708,7 @@
 		"root": false
 	},
 	"8_0": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": 256,
 		"y": 0,
 		"root": false
@@ -744,7 +744,7 @@
 		"root": false
 	},
 	"10_-10": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": 320,
 		"y": -320,
 		"root": false
@@ -774,7 +774,7 @@
 		"root": false
 	},
 	"10_10": {
-		"definition": "luck+0.25",
+		"definition": "10%rollrecharge",
 		"x": 320,
 		"y": 320,
 		"root": false

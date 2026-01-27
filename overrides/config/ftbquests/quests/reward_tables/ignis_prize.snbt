@@ -11,7 +11,7 @@
 		string_id: "ignis_prize"
 	}
 	loot_size: 2
-	order_index: 23
+	order_index: 24
 	rewards: [
 		{
 			item: {
@@ -72,5 +72,5 @@
 			}
 		}
 	]
-	title: "ignis_prize"
+	title: "{ftbquests.loot_table.301770785911277887.title}"
 }

@@ -6,11 +6,11 @@
 	group: "3EBF424A99DA33B7"
 	icon: "thermal:lead_gear"
 	id: "21CD0B400036DF54"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The &eMachine Frame&r is the basis of all machines in the &5Thermal Series&r, so you may want to stock up!"]
+			description: ["{ftbquests.chapter.thermal.quest768042108207299159.description1}"]
 			id: "0AA8A23A683CFA57"
 			rewards: [
 				{
@@ -28,7 +28,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Craft a &eMachine Frame&r"
+			subtitle: "{ftbquests.chapter.thermal.quest768042108207299159.subtitle}"
 			tasks: [{
 				id: "58E66C383739E43F"
 				item: "thermal:machine_frame"
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
-			description: ["The Redstone Furnace works exactly like a normal furnace but is &nfaster and only requires power to smelt&r!"]
+			description: ["{ftbquests.chapter.thermal.quest5942946497589988767.description1}"]
 			id: "5279965A3C00CD9F"
 			rewards: [{
 				amount: 75L
@@ -48,7 +48,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eRedstone Furnace&r"
+			subtitle: "{ftbquests.chapter.thermal.quest5942946497589988767.subtitle}"
 			tasks: [{
 				id: "530D1ED26AE7835D"
 				item: "thermal:machine_furnace"
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
-			description: ["The Pulverizer can be used to &nincrease the amount of resources&r obtained from ores and more!"]
+			description: ["{ftbquests.chapter.thermal.quest7792035014682252205.description1}"]
 			id: "6C22DE8FD78A93AD"
 			rewards: [{
 				amount: 75L
@@ -68,7 +68,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &ePulverizer&r"
+			subtitle: "{ftbquests.chapter.thermal.quest7792035014682252205.subtitle}"
 			tasks: [{
 				id: "7AABE0A54DF46200"
 				item: "thermal:machine_pulverizer"
@@ -80,9 +80,9 @@
 		{
 			dependencies: ["0AA8A23A683CFA57"]
 			description: [
-				"The Sawmill will give &n6 planks per log, instead of just 4&r! "
+				"{ftbquests.chapter.thermal.quest726163314140418450.description1}"
 				""
-				"It also generates sawdust as a byproduct, which can be useful for many things, including the <rainb>Legendary Cardboard Box&r!"
+				"{ftbquests.chapter.thermal.quest726163314140418450.description2}"
 			]
 			id: "0A13D9AFD4429192"
 			rewards: [{
@@ -92,7 +92,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eSawmill&r"
+			subtitle: "{ftbquests.chapter.thermal.quest726163314140418450.subtitle}"
 			tasks: [{
 				id: "494F1563F829A97B"
 				item: "thermal:machine_sawmill"
@@ -103,7 +103,7 @@
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
-			description: ["The Induction Smelter is a useful way to &nmake alloys and smelt resources&r!"]
+			description: ["{ftbquests.chapter.thermal.quest2134204553308226452.description1}"]
 			id: "1D9E37BBD5F54394"
 			rewards: [{
 				amount: 75L
@@ -112,7 +112,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eInduction Smelter&r"
+			subtitle: "{ftbquests.chapter.thermal.quest2134204553308226452.subtitle}"
 			tasks: [{
 				id: "3F32F0837C38F38C"
 				item: "thermal:machine_smelter"
@@ -123,7 +123,7 @@
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
-			description: ["The Centrifugal Separator is most notably used for the production of bitumen from bituminous sand, but also has a few extra features!"]
+			description: ["{ftbquests.chapter.thermal.quest1861633917346933544.description1}"]
 			id: "19D5DA2F39486B28"
 			rewards: [{
 				amount: 75L
@@ -132,7 +132,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eCentrifugal Separator&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1861633917346933544.subtitle}"
 			tasks: [{
 				id: "0D456B1EA11D7FB5"
 				item: "thermal:machine_centrifuge"
@@ -144,9 +144,9 @@
 		{
 			dependencies: ["0AA8A23A683CFA57"]
 			description: [
-				"The Multiservo Press can be used to &ncraft gears, plates, coins, and to pack/unpack resources into their compressed/uncompressed forms&r."
+				"{ftbquests.chapter.thermal.quest6683824941958199629.description1}"
 				""
-				"All you need are the &eDie's!&r"
+				"{ftbquests.chapter.thermal.quest6683824941958199629.description2}"
 			]
 			id: "5CC1B75F4E50794D"
 			rewards: [{
@@ -156,7 +156,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eMultiservo Press&r"
+			subtitle: "{ftbquests.chapter.thermal.quest6683824941958199629.subtitle}"
 			tasks: [{
 				id: "479B68A93D974EC5"
 				item: "thermal:machine_press"
@@ -167,7 +167,7 @@
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
-			description: ["The Blast Chiller can be used to turn molten liquids into their solid forms!"]
+			description: ["{ftbquests.chapter.thermal.quest6747772873764067938.description1}"]
 			id: "5DA4E7AD6DB95A62"
 			rewards: [{
 				amount: 75L
@@ -176,7 +176,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eBlast Chiller&r"
+			subtitle: "{ftbquests.chapter.thermal.quest6747772873764067938.subtitle}"
 			tasks: [{
 				id: "6C59DB9A522E648B"
 				item: "thermal:machine_chiller"
@@ -187,7 +187,7 @@
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
-			description: ["The Fluid Encapsulator &ncombines fluids with blocks and items&r! You can make several interesting recipes this way and can even &nfill buckets and bottles automatically&r!"]
+			description: ["{ftbquests.chapter.thermal.quest8983085397382534260.description1}"]
 			id: "7CAA549311FC1474"
 			rewards: [{
 				amount: 75L
@@ -196,7 +196,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFluid Encapsulator&r"
+			subtitle: "{ftbquests.chapter.thermal.quest8983085397382534260.subtitle}"
 			tasks: [{
 				id: "1688016386E96C4D"
 				item: "thermal:machine_bottler"
@@ -207,7 +207,7 @@
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
-			description: ["The Magma Crucible is great at melting things!"]
+			description: ["{ftbquests.chapter.thermal.quest8265441027222202671.description1}"]
 			id: "72B4BED27384E92F"
 			rewards: [{
 				amount: 75L
@@ -216,7 +216,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eMagma Crucible&r"
+			subtitle: "{ftbquests.chapter.thermal.quest8265441027222202671.subtitle}"
 			tasks: [{
 				id: "2FF24AFD2E151DFB"
 				item: "thermal:machine_crucible"
@@ -228,10 +228,10 @@
 		{
 			dependencies: ["0AA8A23A683CFA57"]
 			description: [
-				"The Stirling Dynamo is a great early game power source! Feed it any burnable items to produce &eRedstone Flux(RF)/Forge Energy(FE)!&r"
+				"{ftbquests.chapter.thermal.quest3041774747024495872.description1}"
 				""
-				"&eNote:&r"
-				"Energy is only output from a dynamo &nwhile it is running.&r A dynamo MUST be running for energy to be output."
+				"{ftbquests.chapter.thermal.quest3041774747024495872.description2}"
+				"{ftbquests.chapter.thermal.quest3041774747024495872.description3}"
 			]
 			id: "2A368E0433261500"
 			rewards: [{
@@ -241,13 +241,13 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eStirling Dynamo&r"
+			subtitle: "{ftbquests.chapter.thermal.quest3041774747024495872.subtitle}"
 			tasks: [{
 				id: "12477599AE31F633"
 				item: "thermal:dynamo_stirling"
 				type: "item"
 			}]
-			title: "POWA"
+			title: "{ftbquests.chapter.thermal.quest3041774747024495872.title}"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -257,10 +257,10 @@
 				"2A368E0433261500"
 			]
 			description: [
-				"The Magmatic Dynamo is an even greater power source! Feed it hot liquids to produce &eRedstone Flux(RF)/Forge Energy(FE)!&r"
+				"{ftbquests.chapter.thermal.quest1060472375700658803.description1}"
 				""
-				"&eNote:&r"
-				"Energy is only output from a dynamo &nwhile it is running.&r A dynamo MUST be running for energy to be output."
+				"{ftbquests.chapter.thermal.quest1060472375700658803.description2}"
+				"{ftbquests.chapter.thermal.quest1060472375700658803.description3}"
 			]
 			id: "0EB78E01CFC09A73"
 			rewards: [{
@@ -270,13 +270,13 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eMagmatic Dynamo&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1060472375700658803.subtitle}"
 			tasks: [{
 				id: "69666BC14E2AC9BF"
 				item: "thermal:dynamo_magmatic"
 				type: "item"
 			}]
-			title: "MOAR POWA!!"
+			title: "{ftbquests.chapter.thermal.quest1060472375700658803.title}"
 			x: -6.0d
 			y: 2.0d
 		}
@@ -286,10 +286,10 @@
 				"2A368E0433261500"
 			]
 			description: [
-				"Have extra food that needs to go? Say hello to the Gourmand Dynamo! Feed it any item with saturation bars to produce &eRedstone Flux(RF)/Forge Energy(FE)!&r"
+				"{ftbquests.chapter.thermal.quest4220297495806672708.description1}"
 				""
-				"&eNote:&r"
-				"Energy is only output from a dynamo &nwhile it is running.&r A dynamo MUST be running for energy to be output."
+				"{ftbquests.chapter.thermal.quest4220297495806672708.description2}"
+				"{ftbquests.chapter.thermal.quest4220297495806672708.description3}"
 			]
 			id: "3A9182365C06FF44"
 			rewards: [{
@@ -299,24 +299,24 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eGourmand Dynamo&r"
+			subtitle: "{ftbquests.chapter.thermal.quest4220297495806672708.subtitle}"
 			tasks: [{
 				id: "0DAD58E2CAF39455"
 				item: "thermal:dynamo_gourmand"
 				type: "item"
 			}]
-			title: "The Hungry Dynamo"
+			title: "{ftbquests.chapter.thermal.quest4220297495806672708.title}"
 			x: -7.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
 			description: [
-				"The Crescent Hammer is a necessary tool for any aspiring engineer! It allows easy rotation of machines with a simple right-click!"
+				"{ftbquests.chapter.thermal.quest2651304259532282947.description1}"
 				""
-				"The Crescent Hammer can also remove the connection between two or more ducts! Ever wanted two duct lines next to each other? Now you can! This even works with several other mods like EnderIO!"
+				"{ftbquests.chapter.thermal.quest2651304259532282947.description2}"
 				""
-				"You can even pick up machines and other storage devices with shift+right-click! Using this method will retain the items/liquids/power inside of the machine/storage."
+				"{ftbquests.chapter.thermal.quest2651304259532282947.description3}"
 			]
 			id: "24CB532D44E6DC43"
 			rewards: [{
@@ -326,7 +326,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eCrescent Hammer&r"
+			subtitle: "{ftbquests.chapter.thermal.quest2651304259532282947.subtitle}"
 			tasks: [{
 				id: "6065AA8B3C058BBD"
 				item: {
@@ -336,15 +336,15 @@
 				}
 				type: "item"
 			}]
-			title: "An Engineer's Best Friend"
+			title: "{ftbquests.chapter.thermal.quest2651304259532282947.title}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C22DE8FD78A93AD"]
 			description: [
-				"&eTip:&r"
-				"You can further increase your Pulverizer yield by putting a Catalyst in the slot below the item you are pulverizing. &eFlint&r and &eBasalz Powder &rwork as Catalysts!"
+				"{ftbquests.chapter.thermal.quest6044464648520968152.description1}"
+				"{ftbquests.chapter.thermal.quest6044464648520968152.description2}"
 			]
 			icon: "thermal:iron_dust"
 			id: "53E24092A87FA7D8"
@@ -355,7 +355,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Increase your ore yield with the Pulverizer!"
+			subtitle: "{ftbquests.chapter.thermal.quest6044464648520968152.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "475A7E8AEB9180D8"
@@ -366,24 +366,24 @@
 						value: "forge:dusts"
 					}
 				}
-				title: "Any #forge:dusts"
+				title: "{ftbquests.chapter.thermal.quest6044464648520968152.task.5141561059719610584.title}"
 				type: "item"
 			}]
-			title: "Not Quite Ore Duplication"
+			title: "{ftbquests.chapter.thermal.quest6044464648520968152.title}"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"Every face(except the front on some machines) can be configured for inputs and outputs! Open up the \"Configure\" panel inside a Thermal Series machine to configure the faces."
+				"{ftbquests.chapter.thermal.quest8768213678385850146.description1}"
 				""
-				"Blue is for input. Orange is for output."
+				"{ftbquests.chapter.thermal.quest8768213678385850146.description2}"
 				""
-				"The center panel is the front face."
+				"{ftbquests.chapter.thermal.quest8768213678385850146.description3}"
 				""
-				"The bottom left panel is the back face."
+				"{ftbquests.chapter.thermal.quest8768213678385850146.description4}"
 				""
-				"The top/bottom and left/right panels around the center panel control the top/bottom and left/right faces respectively."
+				"{ftbquests.chapter.thermal.quest8768213678385850146.description5}"
 			]
 			icon: "minecraft:writable_book"
 			id: "79AEF3E26EE8E722"
@@ -396,21 +396,21 @@
 			}]
 			tasks: [{
 				id: "42569304DA8E0A62"
-				title: "&eInfo Quest - &r(Click To Complete)"
+				title: "{ftbquests.chapter.thermal.quest8768213678385850146.task.4780169703556254306.title}"
 				type: "checkmark"
 			}]
-			title: "Configure Your Faces! Part 1"
+			title: "{ftbquests.chapter.thermal.quest8768213678385850146.title}"
 			x: -4.0d
 			y: 2.0d
 		}
 		{
 			description: [
 				""
-				"Auto Input and Auto Output control the behavior of how the machine's faces interact with the adjacent blocks. "
+				"{ftbquests.chapter.thermal.quest3686292177815595980.description1}"
 				""
-				"Auto Input will pull from the adjacent blocks on the sides set to input. This means that if there is a chest on a face that is set to input with Auto Input on, the machine will automactically bring the contents from the chest into the machine."
+				"{ftbquests.chapter.thermal.quest3686292177815595980.description2}"
 				""
-				"Auto Output works the same as Auto Input. However, it pushes resources from the internal output slot into the inventories of adjacent blocks instead of pulling."
+				"{ftbquests.chapter.thermal.quest3686292177815595980.description3}"
 			]
 			icon: "minecraft:writable_book"
 			id: "3328573474FFEBCC"
@@ -423,10 +423,10 @@
 			}]
 			tasks: [{
 				id: "3641C41C14E6058A"
-				title: "&eInfo Quest - &r(Click To Complete)"
+				title: "{ftbquests.chapter.thermal.quest3686292177815595980.task.3909621576423048586.title}"
 				type: "checkmark"
 			}]
-			title: "Configure Your Faces! Part 2"
+			title: "{ftbquests.chapter.thermal.quest3686292177815595980.title}"
 			x: -2.0d
 			y: 2.0d
 		}
@@ -445,7 +445,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Smelt your increased yield in the Redstone Furnace!"
+			subtitle: "{ftbquests.chapter.thermal.quest8178164709078661425.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "131253ABCC08B97E"
@@ -456,16 +456,16 @@
 						value: "forge:ingots"
 					}
 				}
-				title: "Any #forge:ingots"
+				title: "{ftbquests.chapter.thermal.quest8178164709078661425.task.1374252833629059454.title}"
 				type: "item"
 			}]
-			title: "Not Quite Ore Duplication Part 2"
+			title: "{ftbquests.chapter.thermal.quest8178164709078661425.title}"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
-			description: ["Fluxducts can be used to transport power. Fluxducts automatically pull energy from dynamos and push energy into machines."]
+			description: ["{ftbquests.chapter.thermal.quest8918883996902439708.description1}"]
 			id: "7BC63DBDAC493B1C"
 			rewards: [{
 				amount: 75L
@@ -474,20 +474,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eFluxducts&r"
+			subtitle: "{ftbquests.chapter.thermal.quest8918883996902439708.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "699ACCB512EAC3B7"
 				item: "thermal:energy_duct"
 				type: "item"
 			}]
-			title: "Transporting Power"
+			title: "{ftbquests.chapter.thermal.quest8918883996902439708.title}"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["623878F31D5F2EF2"]
-			description: ["Servos are used to pull liquids from attached inventories into fluiducts! Comes with a filter and redstone control!"]
+			description: ["{ftbquests.chapter.thermal.quest137906081917792962.description1}"]
 			id: "01E9F0D9D11372C2"
 			rewards: [{
 				amount: 75L
@@ -496,7 +496,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eServos&r"
+			subtitle: "{ftbquests.chapter.thermal.quest137906081917792962.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "52B5B768751F7B53"
@@ -508,7 +508,7 @@
 		}
 		{
 			dependencies: ["0AA8A23A683CFA57"]
-			description: ["Fluiducts can be used to transport fluids! Fluiducts automatically input into attached inventories, but they require a &eServo&r to pull!"]
+			description: ["{ftbquests.chapter.thermal.quest7077539799977897714.description1}"]
 			id: "623878F31D5F2EF2"
 			rewards: [{
 				amount: 75L
@@ -517,22 +517,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eFluiducts&r"
+			subtitle: "{ftbquests.chapter.thermal.quest7077539799977897714.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "2C789DB87FA83A60"
 				item: "thermal:fluid_duct"
 				type: "item"
 			}]
-			title: "Transporting Liquids"
+			title: "{ftbquests.chapter.thermal.quest7077539799977897714.title}"
 			x: -4.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"There are no itemducts in the current version of Thermal Dynamics. You will have to use alternatives for item transfer. "
+				"{ftbquests.chapter.thermal.quest8081187968341042911.description1}"
 				""
-				"Enderio item conduits, Integrated Dynamics/Tunnels cables, and Mekanism logistical transporters are all good alternatives!"
+				"{ftbquests.chapter.thermal.quest8081187968341042911.description2}"
 			]
 			icon: "minecraft:barrier"
 			id: "702625A42820E6DF"
@@ -545,16 +545,16 @@
 			}]
 			tasks: [{
 				id: "09B0458472E8D073"
-				title: "&eInfo Quest - &r(Click To Complete)"
+				title: "{ftbquests.chapter.thermal.quest8081187968341042911.task.698134377408286835.title}"
 				type: "checkmark"
 			}]
-			title: "No Itemducts?"
+			title: "{ftbquests.chapter.thermal.quest8081187968341042911.title}"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["01E9F0D9D11372C2"]
-			description: ["Turbo-Servos work over 20 times faster than normal Servos. However, it has less filtering functionality."]
+			description: ["{ftbquests.chapter.thermal.quest593329030259358599.description1}"]
 			id: "083BED9C03893B87"
 			rewards: [{
 				amount: 75L
@@ -563,7 +563,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eTurbo-Servos&r"
+			subtitle: "{ftbquests.chapter.thermal.quest593329030259358599.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "62076C314405E631"
@@ -575,7 +575,7 @@
 		}
 		{
 			dependencies: ["623878F31D5F2EF2"]
-			description: ["Fluid cells can store large amounts of liquids. Fluid cells can be upgraded to store even more with &eIntegral Components!&r"]
+			description: ["{ftbquests.chapter.thermal.quest6268430481135943562.description1}"]
 			id: "56FDF04F9F56BF8A"
 			rewards: [{
 				amount: 75L
@@ -584,7 +584,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFluid Cell&r"
+			subtitle: "{ftbquests.chapter.thermal.quest6268430481135943562.subtitle}"
 			tasks: [{
 				id: "1FD2CDE9FE1D31D9"
 				item: {
@@ -608,7 +608,7 @@
 		}
 		{
 			dependencies: ["7BC63DBDAC493B1C"]
-			description: ["Redstone Flux cells can store large amounts of power. Redstone Flux cells can be upgraded to store even more with &eIntegral Components!&r"]
+			description: ["{ftbquests.chapter.thermal.quest1934940931985770386.description1}"]
 			id: "1ADA4A86A0600792"
 			rewards: [{
 				amount: 75L
@@ -617,7 +617,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eRedstone Flux Cell&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1934940931985770386.subtitle}"
 			tasks: [{
 				id: "0CE1D51B2D21DE1F"
 				item: {
@@ -639,7 +639,7 @@
 		}
 		{
 			dependencies: ["01E9F0D9D11372C2"]
-			description: ["Filters can be used to allow different fluids to go in different directions in a fluiduct system. "]
+			description: ["{ftbquests.chapter.thermal.quest823181053951723121.description1}"]
 			id: "0B6C86CEA29FC671"
 			rewards: [{
 				amount: 75L
@@ -648,7 +648,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eFilters&r"
+			subtitle: "{ftbquests.chapter.thermal.quest823181053951723121.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "71868710870814DE"
@@ -660,7 +660,7 @@
 		}
 		{
 			dependencies: ["7BC63DBDAC493B1C"]
-			description: ["Redstone Flux Limiters can be attached to fluxducts to limit the transfer of energy!"]
+			description: ["{ftbquests.chapter.thermal.quest9067270304204761454.description1}"]
 			id: "7DD56A4D1C92A96E"
 			rewards: [{
 				amount: 75L
@@ -669,7 +669,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eRedstone Flux Limiters&r"
+			subtitle: "{ftbquests.chapter.thermal.quest9067270304204761454.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "3FD4A12D0015A1FA"
@@ -681,7 +681,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["The Tinker's Workbench allows you to add upgrades to your &eThermal Series equipment&r to make them better!"]
+			description: ["{ftbquests.chapter.thermal.quest2325022171743639480.description1}"]
 			id: "20442358C1AFD7B8"
 			rewards: [{
 				amount: 75L
@@ -690,7 +690,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eTinker's Workbench&r"
+			subtitle: "{ftbquests.chapter.thermal.quest2325022171743639480.subtitle}"
 			tasks: [{
 				id: "6B1C0DA39F926BB0"
 				item: "thermal:tinker_bench"
@@ -710,7 +710,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Make some important alloys!"
+			subtitle: "{ftbquests.chapter.thermal.quest1222156736944093961.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -743,7 +743,7 @@
 					type: "item"
 				}
 			]
-			title: "Alloys!"
+			title: "{ftbquests.chapter.thermal.quest1222156736944093961.title}"
 			x: 1.0d
 			y: 3.0d
 		}
@@ -757,7 +757,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft any &eDie&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1906073358780777951.subtitle}"
 			tasks: [{
 				id: "035528C542E8D83B"
 				item: {
@@ -767,25 +767,25 @@
 						value: "thermal:crafting/dies"
 					}
 				}
-				title: "Any #thermal:crafting/dies"
+				title: "{ftbquests.chapter.thermal.quest1906073358780777951.task.240142982830413883.title}"
 				type: "item"
 			}]
-			title: "Die!"
+			title: "{ftbquests.chapter.thermal.quest1906073358780777951.title}"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0A13D9AFD4429192"]
 			description: [
-				"Using the sawdust from the sawmill, we can fashion a <rainb>Carboard Box!&r "
-				"You can use it on any block(unless the block is blacklisted) to preserve the data of the block as you transport it. "
-				"You can easily move spawners this way!"
+				"{ftbquests.chapter.thermal.quest5533383310752108547.description1}"
+				"{ftbquests.chapter.thermal.quest5533383310752108547.description2}"
+				"{ftbquests.chapter.thermal.quest5533383310752108547.description3}"
 				""
-				"&eTip:&r"
-				"Right click on a block to wrap it with the Cardboard Box. Then, you can break it and transport it anywhere you like. Once you placed it back down, just shift+right click to remove the Cardboard Box. "
+				"{ftbquests.chapter.thermal.quest5533383310752108547.description4}"
+				"{ftbquests.chapter.thermal.quest5533383310752108547.description5}"
 				""
-				"&6Hint:&r"
-				"Think of all the breakable things you could preserve!"
+				"{ftbquests.chapter.thermal.quest5533383310752108547.description6}"
+				"{ftbquests.chapter.thermal.quest5533383310752108547.description7}"
 			]
 			id: "4CCA86CDD3745003"
 			rewards: [{
@@ -795,13 +795,13 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft the <rainb>Legendary Cardboard Box!&r"
+			subtitle: "{ftbquests.chapter.thermal.quest5533383310752108547.subtitle}"
 			tasks: [{
 				id: "29F39634995255B9"
 				item: "mekanism:cardboard_box"
 				type: "item"
 			}]
-			title: "Moving Day!"
+			title: "{ftbquests.chapter.thermal.quest5533383310752108547.title}"
 			x: 3.0d
 			y: 3.0d
 		}
@@ -810,7 +810,7 @@
 				"72B4BED27384E92F"
 				"7CAA549311FC1474"
 			]
-			description: ["Melt with the Magma Crucible, and bottle with the Fluid Encapsulator!"]
+			description: ["{ftbquests.chapter.thermal.quest7283637231871565937.description1}"]
 			id: "6514AD78D683A071"
 			rewards: [{
 				amount: 75L
@@ -819,7 +819,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Liquids requried for &eThermal Series Alloys!&r"
+			subtitle: "{ftbquests.chapter.thermal.quest7283637231871565937.subtitle}"
 			tasks: [
 				{
 					id: "63689109448F47BA"
@@ -837,7 +837,7 @@
 					type: "item"
 				}
 			]
-			title: "Liquids for Alloying"
+			title: "{ftbquests.chapter.thermal.quest7283637231871565937.title}"
 			x: 5.0d
 			y: 4.0d
 		}
@@ -851,7 +851,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Brrrr"
+			subtitle: "{ftbquests.chapter.thermal.quest8726950349952980965.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -866,7 +866,7 @@
 					type: "item"
 				}
 			]
-			title: "Quite Chilly, Innit?"
+			title: "{ftbquests.chapter.thermal.quest8726950349952980965.title}"
 			x: 5.0d
 			y: 3.0d
 		}
@@ -880,7 +880,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Obtain &eBitumen&r from the Centrifugal Separator"
+			subtitle: "{ftbquests.chapter.thermal.quest3248223734111577282.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "0BDAE3AEDEA5D111"
@@ -892,7 +892,7 @@
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
-			description: ["The Satchel is a simple way to store your items!"]
+			description: ["{ftbquests.chapter.thermal.quest5032817538686141464.description1}"]
 			id: "45D828E2ECBE4418"
 			rewards: [{
 				amount: 75L
@@ -901,7 +901,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eSatchel&r"
+			subtitle: "{ftbquests.chapter.thermal.quest5032817538686141464.subtitle}"
 			tasks: [{
 				id: "37B0399233ADEC7A"
 				item: {
@@ -917,10 +917,10 @@
 		{
 			dependencies: ["20442358C1AFD7B8"]
 			description: [
-				"Safely detonate any explosive from a distance! Onlookers will never know it was you!"
+				"{ftbquests.chapter.thermal.quest5330729523361693438.description1}"
 				""
 				""
-				"&o&5AdamCo™ is not responsible for any home damages caused by detonations of explosives...&r"
+				"{ftbquests.chapter.thermal.quest5330729523361693438.description2}"
 			]
 			id: "49FA8E4211A93EFE"
 			rewards: [{
@@ -930,7 +930,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eRemote Detonator&r"
+			subtitle: "{ftbquests.chapter.thermal.quest5330729523361693438.subtitle}"
 			tasks: [{
 				id: "455575F089A2BB35"
 				item: {
@@ -945,7 +945,7 @@
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
-			description: ["Uses power to mine blocks! Can be upgraded with augments!"]
+			description: ["{ftbquests.chapter.thermal.quest5826221079385280796.description1}"]
 			id: "50DAE533FBA7111C"
 			rewards: [{
 				amount: 75L
@@ -954,7 +954,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFluxbore&r"
+			subtitle: "{ftbquests.chapter.thermal.quest5826221079385280796.subtitle}"
 			tasks: [{
 				id: "34349DD37434567D"
 				item: {
@@ -969,7 +969,7 @@
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
-			description: ["Uses power to chop wood! Can be upgraded with augments!"]
+			description: ["{ftbquests.chapter.thermal.quest6386722586654291025.description1}"]
 			id: "58A2325AB07E3451"
 			rewards: [{
 				amount: 75L
@@ -978,7 +978,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFluxsaw&r"
+			subtitle: "{ftbquests.chapter.thermal.quest6386722586654291025.subtitle}"
 			tasks: [{
 				id: "5FA51C5D4377D4FB"
 				item: {
@@ -993,7 +993,7 @@
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
-			description: ["Stores power to automatically recharge other equipment! Can be upgraded with augments!"]
+			description: ["{ftbquests.chapter.thermal.quest968239353124911225.description1}"]
 			id: "0D6FE08FCC907879"
 			rewards: [{
 				amount: 75L
@@ -1002,7 +1002,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFlux Capacitor&r"
+			subtitle: "{ftbquests.chapter.thermal.quest968239353124911225.subtitle}"
 			tasks: [{
 				id: "77BE60B28563B1A0"
 				item: {
@@ -1017,7 +1017,7 @@
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
-			description: ["Uses power to pull in items from far away! Can be upgraded with augments!"]
+			description: ["{ftbquests.chapter.thermal.quest3755455160249319850.description1}"]
 			id: "341E0E922C9181AA"
 			rewards: [{
 				amount: 75L
@@ -1026,7 +1026,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFluxoMagnet&r"
+			subtitle: "{ftbquests.chapter.thermal.quest3755455160249319850.subtitle}"
 			tasks: [{
 				id: "35769273E9134364"
 				item: {
@@ -1041,7 +1041,7 @@
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
-			description: ["Uses mBs of potions to tip arrows automatically! Can be upgraded with augments!"]
+			description: ["{ftbquests.chapter.thermal.quest127903957428624395.description1}"]
 			id: "01C667F8BBE65C0B"
 			rewards: [{
 				amount: 75L
@@ -1050,7 +1050,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eAlchemical Quiver&r"
+			subtitle: "{ftbquests.chapter.thermal.quest127903957428624395.subtitle}"
 			tasks: [{
 				id: "79A19AB23FC6E30B"
 				item: {
@@ -1065,7 +1065,7 @@
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
-			description: ["Stores large amounts of liquid! The Resevoir can be used to automatically fill equipment, or act as a large bucket for recipes and in-world interactions! Can be upgraded with augments!"]
+			description: ["{ftbquests.chapter.thermal.quest5838212362422400031.description1}"]
 			id: "51057F36217B341F"
 			rewards: [{
 				amount: 75L
@@ -1074,7 +1074,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eReservoir&r"
+			subtitle: "{ftbquests.chapter.thermal.quest5838212362422400031.subtitle}"
 			tasks: [{
 				id: "5F3F80BFA9C9523E"
 				item: {
@@ -1089,7 +1089,7 @@
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
-			description: ["Uses mBs of potions to automatically give potion effects to you or other entities! Can be upgraded with augments!"]
+			description: ["{ftbquests.chapter.thermal.quest4240056248467666990.description1}"]
 			id: "3AD7B4B17597382E"
 			rewards: [{
 				amount: 75L
@@ -1098,7 +1098,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &ePotion Infuser&r"
+			subtitle: "{ftbquests.chapter.thermal.quest4240056248467666990.subtitle}"
 			tasks: [{
 				id: "38A53FD304DD0541"
 				item: {
@@ -1113,7 +1113,7 @@
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
-			description: ["Uses water to speed up crop growth in an area! Can be upgraded with augments!"]
+			description: ["{ftbquests.chapter.thermal.quest156013375014591557.description1}"]
 			id: "022A455685F45C45"
 			rewards: [{
 				amount: 75L
@@ -1122,7 +1122,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eWatering Can&r"
+			subtitle: "{ftbquests.chapter.thermal.quest156013375014591557.subtitle}"
 			tasks: [{
 				id: "226E19D1A81F38E5"
 				item: {
@@ -1136,7 +1136,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["The Holding enchant will increase the storage capacity of most Thermal Series gear. Try it out!"]
+			description: ["{ftbquests.chapter.thermal.quest6900887907433432062.description1}"]
 			icon: {
 				Count: 1
 				id: "minecraft:enchanted_book"
@@ -1155,22 +1155,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "A rather useful enchant!"
+			subtitle: "{ftbquests.chapter.thermal.quest6900887907433432062.subtitle}"
 			tasks: [{
 				id: "2A13B4EF93BFDC39"
-				title: "&eInfo Quest - &r(Click To Complete)"
+				title: "{ftbquests.chapter.thermal.quest6900887907433432062.task.3031965915219483705.title}"
 				type: "checkmark"
 			}]
-			title: "The Holding Enchantment"
+			title: "{ftbquests.chapter.thermal.quest6900887907433432062.title}"
 			x: -5.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["20442358C1AFD7B8"]
 			description: [
-				"The Energetic Infuser is a great way to charge any piece of equipment that needs power!"
+				"{ftbquests.chapter.thermal.quest4854376829952754038.description1}"
 				""
-				"&8Chaper Credit: JelliotWasTaken"
+				"{ftbquests.chapter.thermal.quest4854376829952754038.description2}"
 			]
 			id: "435E3601DB388176"
 			rewards: [{
@@ -1180,7 +1180,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eEnergetic Infuser&r"
+			subtitle: "{ftbquests.chapter.thermal.quest4854376829952754038.subtitle}"
 			tasks: [{
 				id: "1CA90B4E4180B409"
 				item: "thermal:charge_bench"
@@ -1192,9 +1192,9 @@
 		{
 			dependencies: ["24CB532D44E6DC43"]
 			description: [
-				"Increases the base operation speed, RF use, RF storage, and RF transfer rate by 2x."
+				"{ftbquests.chapter.thermal.quest5481055857599428529.description1}"
 				""
-				"Only the highest tier Integral Component increases these stats!"
+				"{ftbquests.chapter.thermal.quest5481055857599428529.description2}"
 			]
 			hide_dependency_lines: true
 			id: "4C109F433A49B7B1"
@@ -1205,7 +1205,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eHardened Integral Components&r"
+			subtitle: "{ftbquests.chapter.thermal.quest5481055857599428529.subtitle}"
 			tasks: [{
 				id: "7D1A9D293A9FD193"
 				item: "thermal:upgrade_augment_1"
@@ -1217,9 +1217,9 @@
 		{
 			dependencies: ["4C109F433A49B7B1"]
 			description: [
-				"Increases the base operation speed, RF use, RF storage, and RF transfer rate by 3x."
+				"{ftbquests.chapter.thermal.quest528307592954112164.description1}"
 				""
-				"Only the highest tier Integral Component increases these stats!"
+				"{ftbquests.chapter.thermal.quest528307592954112164.description2}"
 			]
 			id: "0754ECF4EA2BE8A4"
 			rewards: [{
@@ -1229,7 +1229,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eReinforced Integral Components&r"
+			subtitle: "{ftbquests.chapter.thermal.quest528307592954112164.subtitle}"
 			tasks: [{
 				id: "02D96709CFDC86D7"
 				item: "thermal:upgrade_augment_2"
@@ -1241,9 +1241,9 @@
 		{
 			dependencies: ["0754ECF4EA2BE8A4"]
 			description: [
-				"Increases the base operation speed, RF use, RF storage, and RF transfer rate by 4x."
+				"{ftbquests.chapter.thermal.quest7018477528875173051.description1}"
 				""
-				"Only the highest tier Integral Component increases these stats!"
+				"{ftbquests.chapter.thermal.quest7018477528875173051.description2}"
 			]
 			id: "6166A42084AA84BB"
 			rewards: [{
@@ -1253,7 +1253,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eResonant Integral Components&r"
+			subtitle: "{ftbquests.chapter.thermal.quest7018477528875173051.subtitle}"
 			tasks: [{
 				id: "7BB633D55BA87C68"
 				item: "thermal:upgrade_augment_3"
@@ -1264,7 +1264,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Can be used on machines to increase RF capacity and RF transfer speeds! "]
+			description: ["{ftbquests.chapter.thermal.quest242544718573678701.description1}"]
 			hide_dependency_lines: true
 			id: "035DB122F0BB306D"
 			rewards: [{
@@ -1274,7 +1274,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eExpanded RF Coil&r"
+			subtitle: "{ftbquests.chapter.thermal.quest242544718573678701.subtitle}"
 			tasks: [{
 				id: "2E974901A41C0403"
 				item: "thermal:rf_coil_augment"
@@ -1285,7 +1285,7 @@
 		}
 		{
 			dependencies: ["035DB122F0BB306D"]
-			description: ["Can be used on machines to increase RF capacity and RF transfer speeds! "]
+			description: ["{ftbquests.chapter.thermal.quest4460828176227292071.description1}"]
 			id: "3DE80B978014D3A7"
 			rewards: [{
 				amount: 75L
@@ -1294,7 +1294,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eStabilized RF Coil&r"
+			subtitle: "{ftbquests.chapter.thermal.quest4460828176227292071.subtitle}"
 			tasks: [{
 				id: "73AFC828BCA1AD9A"
 				item: "thermal:rf_coil_storage_augment"
@@ -1305,7 +1305,7 @@
 		}
 		{
 			dependencies: ["3DE80B978014D3A7"]
-			description: ["Can be used on machines to increase RF capacity and RF transfer speeds! "]
+			description: ["{ftbquests.chapter.thermal.quest1119776602715688165.description1}"]
 			id: "0F8A3EE328A98CE5"
 			rewards: [{
 				amount: 75L
@@ -1314,7 +1314,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eHigh-Flux RF Coil&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1119776602715688165.subtitle}"
 			tasks: [{
 				id: "1C175B775A7CDC9B"
 				item: "thermal:rf_coil_xfer_augment"
@@ -1325,7 +1325,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Increases processing speed, but reduces RF efficiency."]
+			description: ["{ftbquests.chapter.thermal.quest1674976708854823089.description1}"]
 			hide_dependency_lines: true
 			id: "173EB6713A5838B1"
 			rewards: [{
@@ -1335,7 +1335,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFlux Linkage Amplifier&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1674976708854823089.subtitle}"
 			tasks: [{
 				id: "4C56E187BEF88DC8"
 				item: "thermal:machine_speed_augment"
@@ -1346,7 +1346,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Reduces processing speed, but increases RF efficiency!"]
+			description: ["{ftbquests.chapter.thermal.quest1452772202895646242.description1}"]
 			hide_dependency_lines: true
 			id: "1429489F15281E22"
 			rewards: [{
@@ -1356,7 +1356,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFlux Efficiency Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1452772202895646242.subtitle}"
 			tasks: [{
 				id: "54DA987021017B4D"
 				item: "thermal:machine_efficiency_augment"
@@ -1367,7 +1367,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Increases the chance of secondary drops from being produced, but increases the processing cost!"]
+			description: ["{ftbquests.chapter.thermal.quest2883215139086082250.description1}"]
 			hide_dependency_lines: true
 			id: "28033CE4A04120CA"
 			rewards: [{
@@ -1377,7 +1377,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eAuxiliary Process Sieve&r"
+			subtitle: "{ftbquests.chapter.thermal.quest2883215139086082250.subtitle}"
 			tasks: [{
 				id: "509BDF5AFDEC300C"
 				item: "thermal:machine_output_augment"
@@ -1388,7 +1388,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Uses less of a catalyst for an operation, but increases energy cost!"]
+			description: ["{ftbquests.chapter.thermal.quest390837390268100502.description1}"]
 			hide_dependency_lines: true
 			id: "056C888923DEEF96"
 			rewards: [{
@@ -1398,7 +1398,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eCatalytic Reclamation Chamber&r"
+			subtitle: "{ftbquests.chapter.thermal.quest390837390268100502.subtitle}"
 			tasks: [{
 				id: "447CB90B877E06AB"
 				item: "thermal:machine_catalyst_augment"
@@ -1409,7 +1409,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Items in the output slot will go back to the input slot for another processing cycle!"]
+			description: ["{ftbquests.chapter.thermal.quest3765628928822230509.description1}"]
 			hide_dependency_lines: true
 			id: "3442338F42623DED"
 			rewards: [{
@@ -1419,7 +1419,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eCyclical Processing Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest3765628928822230509.subtitle}"
 			tasks: [{
 				id: "4351DC917208295D"
 				item: "thermal:machine_cycle_augment"
@@ -1430,7 +1430,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Voids excess secondary drops from the output of a machine"]
+			description: ["{ftbquests.chapter.thermal.quest8353778518022245029.description1}"]
 			hide_dependency_lines: true
 			id: "73EE954D4B014AA5"
 			rewards: [{
@@ -1440,7 +1440,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eAuxiliary Cactus Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest8353778518022245029.subtitle}"
 			tasks: [{
 				id: "7A4F3EE86B53D56F"
 				item: "thermal:machine_null_augment"
@@ -1451,7 +1451,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Doubles the RF/t but lowers the fuel efficiency!"]
+			description: ["{ftbquests.chapter.thermal.quest5235074936111707539.description1}"]
 			hide_dependency_lines: true
 			id: "48A6B8EAF37D3593"
 			rewards: [{
@@ -1461,7 +1461,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eAuxiliary Reaction Chamber&r"
+			subtitle: "{ftbquests.chapter.thermal.quest5235074936111707539.subtitle}"
 			tasks: [{
 				id: "5EEFF0EB3B1A0C05"
 				item: "thermal:dynamo_output_augment"
@@ -1472,7 +1472,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Increases a dynamo's fuel efficiency!"]
+			description: ["{ftbquests.chapter.thermal.quest7561218577702017634.description1}"]
 			hide_dependency_lines: true
 			id: "68EED83C41035A62"
 			rewards: [{
@@ -1482,7 +1482,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eMulti-cycle Injectors Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest7561218577702017634.subtitle}"
 			tasks: [{
 				id: "3DD7C920B7142E0B"
 				item: "thermal:dynamo_fuel_augment"
@@ -1493,7 +1493,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Prevents wasting fuel when internal energy buffer is full!"]
+			description: ["{ftbquests.chapter.thermal.quest1734187249939654893.description1}"]
 			hide_dependency_lines: true
 			id: "1811121D9EAA28ED"
 			rewards: [{
@@ -1503,7 +1503,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eExcitation Field Limiter Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1734187249939654893.subtitle}"
 			tasks: [{
 				id: "0FE3AB4D6C4FCCF4"
 				item: "thermal:dynamo_throttle_augment"
@@ -1514,7 +1514,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Doubles the duration of potion effects!"]
+			description: ["{ftbquests.chapter.thermal.quest747248855563276475.description1}"]
 			hide_dependency_lines: true
 			id: "0A5EC2E002AA90BB"
 			rewards: [{
@@ -1524,7 +1524,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eAlchemical Extender Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest747248855563276475.subtitle}"
 			tasks: [{
 				id: "7D28C8E3D54880C2"
 				item: "thermal:potion_duration_augment"
@@ -1535,7 +1535,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Increases the level of a potion effect, but at the cost of duration."]
+			description: ["{ftbquests.chapter.thermal.quest8828801052936628286.description1}"]
 			hide_dependency_lines: true
 			id: "7A8633C7D8E1E83E"
 			rewards: [{
@@ -1545,7 +1545,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eAlchemical Amplifier Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest8828801052936628286.subtitle}"
 			tasks: [{
 				id: "5CF54862AB2E3E5E"
 				item: "thermal:potion_amplifier_augment"
@@ -1556,7 +1556,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Allows the configuration of machines or equipment to accept or deny specific liquids!"]
+			description: ["{ftbquests.chapter.thermal.quest656366589155083110.description1}"]
 			hide_dependency_lines: true
 			id: "091BE1EF6D060366"
 			rewards: [{
@@ -1566,7 +1566,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eFluid Filter&r"
+			subtitle: "{ftbquests.chapter.thermal.quest656366589155083110.subtitle}"
 			tasks: [{
 				id: "5A136D584A58909D"
 				item: "thermal:fluid_filter_augment"
@@ -1577,7 +1577,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Allows the configuration of machines or equipment to accept or deny specific items!"]
+			description: ["{ftbquests.chapter.thermal.quest1247077604643329118.description1}"]
 			hide_dependency_lines: true
 			id: "114E8279601C545E"
 			rewards: [{
@@ -1587,7 +1587,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eItem Filter&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1247077604643329118.subtitle}"
 			tasks: [{
 				id: "4F1A301C96B112D7"
 				item: "thermal:item_filter_augment"
@@ -1598,7 +1598,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Increases the liquid capacity of machines, dynamos, and equipment!"]
+			description: ["{ftbquests.chapter.thermal.quest1147529393656523341.description1}"]
 			hide_dependency_lines: true
 			id: "0FECD7E756376A4D"
 			rewards: [{
@@ -1608,7 +1608,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eExpanded Tank Construction Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1147529393656523341.subtitle}"
 			tasks: [{
 				id: "28DBDCE70BC3360A"
 				item: "thermal:fluid_tank_augment"
@@ -1619,7 +1619,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Increase the range of machines and equipment by an additional block in all directions."]
+			description: ["{ftbquests.chapter.thermal.quest3311265093179798138.description1}"]
 			hide_dependency_lines: true
 			id: "2DF3FA0EF421F27A"
 			rewards: [{
@@ -1629,7 +1629,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eRadial Enhancement Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest3311265093179798138.subtitle}"
 			tasks: [{
 				id: "510ED8FA21F0E5FB"
 				item: "thermal:area_radius_augment"
@@ -1640,7 +1640,7 @@
 		}
 		{
 			dependencies: ["24CB532D44E6DC43"]
-			description: ["Collects experience from machine operations or the world. Base capacity is 2.5k, but can be increased with Integral Components."]
+			description: ["{ftbquests.chapter.thermal.quest2875548249398536674.description1}"]
 			hide_dependency_lines: true
 			id: "27E7FFE5C3E569E2"
 			rewards: [{
@@ -1650,7 +1650,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eKnowledge Concentrator Augment&r"
+			subtitle: "{ftbquests.chapter.thermal.quest2875548249398536674.subtitle}"
 			tasks: [{
 				id: "71B365DDA9BC20A1"
 				item: "thermal:xp_storage_augment"
@@ -1662,9 +1662,9 @@
 		{
 			dependencies: ["24CB532D44E6DC43"]
 			description: [
-				"Have a lot of machines that need configured to the same settings? Look no further: the Redprint is here!"
+				"{ftbquests.chapter.thermal.quest1322628379520252014.description1}"
 				""
-				"To bind the Redprint to the proper settings, hold it in your hand and open a configured machine (If you need to reset the Redprint then shift+right-click in the air). Next, right click any other machine and all of the redstone, transfer, and side configurations with be pasted!"
+				"{ftbquests.chapter.thermal.quest1322628379520252014.description2}"
 			]
 			id: "125AEB80EB27B86E"
 			rewards: [{
@@ -1674,16 +1674,16 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft some &eRedprint&r"
+			subtitle: "{ftbquests.chapter.thermal.quest1322628379520252014.subtitle}"
 			tasks: [{
 				id: "374E99DD9156107D"
 				item: "thermal:redprint"
 				type: "item"
 			}]
-			title: "Ctrl + C, Ctrl + V"
+			title: "{ftbquests.chapter.thermal.quest1322628379520252014.title}"
 			x: -3.0d
 			y: -1.0d
 		}
 	]
-	title: "{chapter.28.title}"
+	title: "{ftbquests.chapter.thermal.title}"
 }

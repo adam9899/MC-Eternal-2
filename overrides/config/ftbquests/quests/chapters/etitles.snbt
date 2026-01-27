@@ -33,7 +33,7 @@
 			y: -8.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -82,7 +82,15 @@
 			y: 4.0d
 		}
 		{
-			description: ["{chapter.40.quest.5.description.1}"]
+			description: [
+				"{ftbquests.chapter.etitles.quest6831313394081181756.description1}"
+				""
+				"{ftbquests.chapter.etitles.quest6831313394081181756.description2}"
+				""
+				"{ftbquests.chapter.etitles.quest6831313394081181756.description3}"
+				""
+				"{ftbquests.chapter.etitles.quest6831313394081181756.description4}"
+			]
 			id: "5ECDB3568B93B03C"
 			rewards: [{
 				id: "73621B015668A50D"
@@ -90,7 +98,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "{chapter.40.quest.5.subtitle}"
+			subtitle: "{ftbquests.chapter.etitles.quest6831313394081181756.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -102,7 +110,7 @@
 					id: "titles:title_scroll_uncommon"
 				}
 				id: "65E781F651F35B55"
-				title: "{chapter.40.quest.5.task.1.title}"
+				title: "{ftbquests.chapter.etitles.quest6831313394081181756.task.7342980612387724117.title}"
 				type: "checkmark"
 			}]
 			x: -7.547619047619037d
@@ -112,7 +120,7 @@
 			id: "5CCA92D1F4EF1398"
 			tasks: [{
 				id: "3964D22FB6349200"
-				title: "{chapter.40.quest.6.task.1.title}"
+				title: "{ftbquests.chapter.etitles.quest6686318027240051608.task.4135661460195152384.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -143,5 +151,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Book of Titles (NYI)"
+	title: "{ftbquests.chapter.etitles.title}"
 }

@@ -27,8 +27,7 @@
       "price_multiplier": 0.0,
       "secondary_payment_item": {
         "count": 1,
-        "item": "irons_spellbooks:arcane_debris",
-        "nbt": "{Damage:0}"
+        "item": "irons_spellbooks:arcane_debris"
       }
     },
     {
@@ -38,6 +37,20 @@
       "offer_item": {
         "count": 1,
         "item": "alexscaves:tremorzilla_egg"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "bosses_of_mass_destruction:obsidian_heart"
+      },
+      "price_multiplier": 0.0
+      },
+    {
+      "type": "goblintraders:basic",
+      "experience": 1000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "vampirism:sunscreen_beacon"
       },
       "payment_item": {
         "count": 1,

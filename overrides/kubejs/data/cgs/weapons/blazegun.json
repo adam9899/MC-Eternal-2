@@ -1,0 +1,88 @@
+{
+  "general": {
+    "action": "ntgl:gun",
+    "fireMode": ["ntgl:auto"],
+    "rate": 3,
+    "gripType": "ntgl:mini_gun",
+    "maxAmmo": 20000,
+    "ammoPerShot": 200,
+    "reloadTime": 40,
+    "recoilAngle": 0.0,
+    "equipTime": 10,
+    "alwaysSpread": true,
+    "enchantable": true,
+    "spread": 5.0,
+    "ammo": [
+      "cgs:burnable",
+      "cgs:blaze_cake"
+    ]
+  },
+  "ammoData": {
+    "cgs:burnable": {
+      "ammo": {
+        "type": "ntgl:fire",
+        "counter": "ntgl:bar"
+      },
+      "projectile": {
+        "damageType": "ntgl:fire",
+        "projectile": "cgs:fireball",
+        "visible": true,
+        "damage": 12.0,
+        "size": 1.0,
+        "speed": 2.0,
+        "life": 50
+      }
+    },
+    "cgs:blaze_cake": {
+      "ammo": {
+        "type": "cgs:blaze_cake",
+        "counter": "ntgl:bar"
+      },
+      "projectile": {
+        "damageType": "ntgl:fire",
+        "projectile": "cgs:fireball",
+        "visible": true,
+        "damage": 9.0,
+        "size": 1.0,
+        "speed": 2.0,
+        "life": 30
+      }
+    }
+  },
+  "fuel": {
+    "ntgl:water":{
+      "max": 2000,
+      "amountPerUse": 1,
+      "mandatory": true,
+      "ammo": {
+        "type": "ntgl:water"
+      }
+    }
+  },
+  "animations": {
+    "ntgl:reload": "cgs:blazegun_reload"
+  },
+  "sounds": {
+    "fire": "minecraft:entity.blaze.shoot",
+    "reload": "cgs:item.blazegun.reload",
+    "cock": "cgs:item.blazegun.cock"
+  },
+  "modules": {
+    "attachments": {
+      "cgs:engine": [
+        {
+          "name": "engine",
+          "item": "cgs:steam_engine"
+        }
+      ],
+      "ntgl:magazine": [
+        {
+          "name": "potion_tank",
+          "item": "cgs:potion_tank",
+          "hide": [
+            "hole_filler"
+          ]
+        }
+      ]
+    }
+  }}

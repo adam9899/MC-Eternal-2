@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "kubejs:block/ultimate_cheese_top",
+    "down": "kubejs:block/ultimate_cheese_bottom",
+    "north": "kubejs:block/ultimate_cheese",
+    "south": "kubejs:block/ultimate_cheese",
+    "east": "kubejs:block/ultimate_cheese",
+    "west": "kubejs:block/ultimate_cheese",
+	"particle": "kubejs:block/ultimate_cheese"
+  }
+}

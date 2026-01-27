@@ -4,7 +4,7 @@
 	"waves": [{
 			"entities": [
                 {
-                    "entity": "minecraft:zombie",
+                    "entity": "goety:bone_spider",
                     "count": 5
                 }
             ],
@@ -30,7 +30,7 @@
         {
 			"entities": [
                 {
-                    "entity": "minecraft:spider",
+                    "entity": "goety:web_spider",
                     "count": 5
                 }
             ],
@@ -84,11 +84,11 @@
         {
 			"entities": [
                 {
-                    "entity": "minecraft:zombie",
+                    "entity": "goety:bone_spider",
                     "count": 5
                 },
                 {
-                    "entity": "minecraft:spider",
+                    "entity": "goety:web_spider",
                     "count": 2
                 }
             ],
@@ -169,11 +169,15 @@
                     "finalize_spawn": false
                 },
                 {
-                    "entity": "minecraft:zombie",
+                    "entity": "goety:bone_spider",
                     "count": 3
                 },
+				   {
+                    "entity": "irons_spellbooks:necromancer",
+                    "count": 1
+                },
                 {
-                    "entity": "minecraft:spider",
+                    "entity": "goety:web_spider",
                     "count": 2
                 }
             ],
@@ -262,6 +266,13 @@
             "entity": {
                 "entity": "minecraft:sheep",
                 "count": 6
+            }
+        },
+	      {
+            "type": "gateways:summon",
+            "entity": {
+                "entity": "rats:rat",
+                "count": 1
             }
         },
         {

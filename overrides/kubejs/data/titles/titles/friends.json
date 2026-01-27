@@ -1,0 +1,6 @@
+ {
+  "type": "command",
+  "id": "titles:friends",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Smiling Friend"
+}

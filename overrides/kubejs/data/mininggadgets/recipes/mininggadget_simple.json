@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"d":{"tag":"forge:gems/diamond"},"g":{"item":"forge:ingots/gold"},"i":{"item":"forge:ingots/iron"},"r":{"item":"mekanism:advanced_control_circuit"},"u":{"item":"mininggadgets:upgrade_empty"}},"pattern":["dig","dur","dii"],"result":{"item":"mininggadgets:mininggadget_simple"},"show_notification":true}

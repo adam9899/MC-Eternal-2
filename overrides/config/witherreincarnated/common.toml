@@ -1,0 +1,38 @@
+
+["WITHER: STATS"]
+	"Health (default: 600.0)" = 750.0
+	"Movement Speed (default: 0.0675)" = 0.0675
+	"Wither Skull Damage (default: 16.0)" = 16.0
+	"Wither Skull Explosion Damage (default: 12.0)" = 12.0
+	"Wither Skull Explosion Size (default: 1.5)" = 1.0
+	"Dangerous Wither Skull Damage (default: 22.0)" = 32.0
+	"Dangerous Wither Skull Explosion Damage (default: 18.0)" = 18.0
+	"Dangerous Wither Skull Explosion Size (default: 5.0)" = 5.0
+	"Dangerous Wither Skull Deflected Damage (default: 30.0)" = 30.0
+	"Laser Damage (default: 3.0)" = 300.0
+	"Charge Damage (default: 30.0)" = 50.0
+
+["WITHER: AI"]
+	"Disable Charge Attack (default: false)" = false
+	"Min Charge Cooldown (in ticks, default: 80)" = 80
+	"Max Charge Cooldown (in ticks, default: 260)" = 260
+	"Min Charge Cooldown (Final Phase) (in ticks, default: 40)" = 40
+	"Max Charge Cooldown (Final Phase) (in ticks, default: 200)" = 200
+	"Disable Laser Attack (default: false)" = false
+	"Min Laser Cooldown (in ticks, default: 300)" = 300
+	"Max Laser Cooldown (in ticks, default: 900)" = 1200
+	"Max Laser Length (default: 128)" = 128
+	"Disable Barrage Attack (default: false)" = false
+	"Min Barrage Cooldown (in ticks, default: 1200)" = 1200
+	"Max Barrage Cooldown (in ticks, default: 3600)" = 3600
+
+["WITHER: OTHER"]
+	"Changes Time (default: true)" = false
+	"Possesses Nearby Undead (default: true)" = true
+	"Attacks Produce Fire (default: true)" = false
+	"Fire Ignores Mob Griefing (default: false)" = false
+	"Vanilla Phases (default: false)" = false
+
+[MISC]
+	"Mobs Avoid Wither (default: true)" = true
+

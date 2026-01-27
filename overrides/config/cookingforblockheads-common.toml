@@ -5,7 +5,7 @@ cowJarMilkPerTick = 1
 #Ex Compressum compatibility. Multiplier applied to the milk per tick for Compressed Cow in a Jar.
 compressedCowJarMilkMultiplier = 9.0
 #Set this to true if you'd like the sink to require water to be piped in, instead of providing infinite of it.
-sinkRequiresWater = false
+sinkRequiresWater = true
 #Enabling this will make the kitchen counters have twice as much inventory space.
 largeCounters = false
 #Set this to true if you'd like to disallow automation of the oven (pipes and such won't be able to insert/extract)

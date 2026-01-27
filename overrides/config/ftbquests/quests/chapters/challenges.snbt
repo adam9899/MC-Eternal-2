@@ -42,7 +42,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5F35CA25829786CE"
-					title: "&eUnlock Title:&r Deathbane"
+					title: "{ftbquests.chapter.challenges.quest6853387121516673064.reward.6860611869822387918.title}"
 					type: "command"
 				}
 				{
@@ -67,17 +67,22 @@
 							Damage: 0
 							Unbreakable: 1b
 							display: {
-								Lore: ["{\"text\":\"§7§kk§f§7\\\"LIFE DEATH LIFE DEATH LIFE DEATH\\\"§kf\"}"]
-								Name: "{\"text\":\"§8\\\"Death\\\"\"}"
+								Lore: ["{\"translate\":\"lore.mce2.challenges.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.2\"}"
 							}
 							etstlib_tool_uuid: "e749a354-00e9-4f72-bc8f-a699c97d9067"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "66A4A8B0BDA07C21"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.39.quest.1.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest6853387121516673064.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -88,11 +93,11 @@
 				}
 				id: "5BFFFC2DFE485118"
 				stat: "minecraft:time_since_death"
-				title: "{chapter.39.quest.1.task.1.title}"
+				title: "{ftbquests.chapter.challenges.quest6853387121516673064.task.6629294450982539544.title}"
 				type: "stat"
 				value: 12102000
 			}]
-			title: "{chapter.39.quest.1.title}"
+			title: "{ftbquests.chapter.challenges.quest6853387121516673064.title}"
 			x: -1.0d
 			y: 5.0d
 		}
@@ -106,33 +111,23 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "44D67900CFDC6ADE"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "71D93A38CD1E43F2"
+					item: "kubejs:chocolate_coin"
 					type: "item"
 				}
 			]
@@ -150,30 +145,15 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
 					id: "5CBA9A228D649D5D"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -182,6 +162,11 @@
 				{
 					id: "5501F8BC46B435DB"
 					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					id: "78C79B9C8D4DE505"
+					item: "kubejs:chocolate_coin"
 					type: "item"
 				}
 			]
@@ -197,36 +182,28 @@
 		{
 			id: "33FD61B0BA0B7E0B"
 			optional: true
-			rewards: [{
-				count: 3
-				id: "7293E15F656361D7"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						Enchantments: [{
-							id: "ars_nouveau:reactive"
-							lvl: 1
-						}]
-						HideFlags: 33
-						display: {
-							Lore: [
-								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-								"{\"text\":\"§7§oRight-Click to Open\"}"
-							]
-							Name: "{\"text\":\"§eQuest Loot\"}"
+			rewards: [
+				{
+					id: "7293E15F656361D7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
 						}
-						"quark:RuneAttached": 1b
-						"quark:RuneColor": {
-							Count: 1b
-							id: "quark:rainbow_rune"
-						}
-						rpgloot.randomize: 0b
-						type: "quest_loot"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1F43AD9DD75E6C44"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				days: 150
@@ -241,44 +218,23 @@
 			optional: true
 			rewards: [
 				{
-					id: "6DB6338F17552A41"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
 					id: "2790DCB7339693AF"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "3F8E8D74E69DC0A3"
+					item: "kubejs:chocolate_coin"
 					type: "item"
 				}
 			]
@@ -296,44 +252,23 @@
 			optional: true
 			rewards: [
 				{
-					count: 2
-					id: "729D4EA2848718B1"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "1B1AA34E68F57FDD"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "6FF738F0BD3CE9AE"
+					item: "kubejs:chocolate_coin"
 					type: "item"
 				}
 			]
@@ -349,18 +284,28 @@
 		{
 			id: "3C8F77EBC06819F7"
 			optional: true
-			rewards: [{
-				count: 3
-				id: "03C46CF9EE5D5E95"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "blackmarket_cache"
-					}
+			rewards: [
+				{
+					id: "3F9199022F807FF7"
+					item: "kubejs:chocolate_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "21E9B37C7FA53D54"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				days: 500
@@ -375,76 +320,37 @@
 			optional: true
 			rewards: [
 				{
-					count: 5
-					id: "6D62B65C6E7398ED"
+					id: "4E6202F9E0D746A3"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					id: "06A42FD05F60A8DA"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "20BCBB88589895E3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "dreadsteel:dreadsteel_scythe"
-						tag: {
-							Enchantments: [{
-								id: "minecraft:sharpness"
-								lvl: 10
-							}]
+							HideFlags: 33
 							display: {
-								Lore: ["{\"text\":\"§o§f§oCold to the touch, yet indescribably comforting\"}"]
-								Name: "{\"text\":\"§bArmageddon \"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							dmcloot.rarity: "legendary"
-							dmcloot.swiftness: 15
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": {
-										BuiltInEnchantments: [ ]
-									}
-								}
-								id: "quark:blue_rune"
-							}
-							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
 			shape: "circle"
-			tasks: [
-				{
-					days: 1000
-					id: "20D72E0D9EADF30D"
-					type: "questsadditions:days"
-				}
-				{
-					disable_toast: true
-					elapsedTime: 180000L
-					gameTime: "system"
-					icon: "supplementaries:safe"
-					id: "225E3C0CF3505D08"
-					title: "&eServer Safeguard"
-					type: "questsadditions:time"
-				}
-			]
+			tasks: [{
+				days: 1000
+				id: "20D72E0D9EADF30D"
+				type: "questsadditions:days"
+			}]
 			x: 10.0d
 			y: 6.0d
 		}
 		{
-			description: ["{chapter.39.quest.9.description.1}"]
+			description: [""]
 			id: "2F1421D4A7FB5CD2"
 			optional: true
 			rewards: [
@@ -472,8 +378,13 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "7266BE9A85552932"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "{chapter.39.quest.9.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest3392373616551877842.subtitle}"
 			tasks: [
 				{
 					id: "21137AA9A25CAB4F"
@@ -544,7 +455,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.39.quest.9.title}"
+			title: "{ftbquests.chapter.challenges.quest3392373616551877842.title}"
 			x: 1.0d
 			y: 5.0d
 		}
@@ -569,7 +480,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "21081C69D2D6D614"
-					title: "{chapter.39.quest.10.reward.3.title}"
+					title: "{ftbquests.chapter.challenges.quest1756929490255373182.reward.2380183643899745812.title}"
 					type: "command"
 				}
 				{
@@ -579,9 +490,14 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "00CC7AAA7A7DD85C"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.39.quest.10.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest1756929490255373182.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -597,14 +513,14 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "{chapter.39.quest.10.title}"
+			title: "{ftbquests.chapter.challenges.quest1756929490255373182.title}"
 			x: 9.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"{chapter.39.quest.11.description.1}"
-				"People assume that time is a strict progression of cause to effect, but actually, from a nonlinear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly, timey-wimey... stuff.."
+				""
+				"{ftbquests.chapter.challenges.quest6492590628068786334.description1}"
 			]
 			id: "5A1A50C6EA12009E"
 			optional: true
@@ -626,7 +542,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "1BFA50BC20FC458D"
-					title: "{chapter.39.quest.11.reward.4.title}"
+					title: "{ftbquests.chapter.challenges.quest6492590628068786334.reward.2016012552139195789.title}"
 					type: "command"
 				}
 				{
@@ -636,24 +552,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -666,18 +568,23 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "32D99FFC3432D266"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.39.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest6492590628068786334.subtitle}"
 			tasks: [{
 				icon: "supplementaries:clock_block"
 				id: "37977CF70BD55992"
 				stat: "minecraft:play_time"
-				title: "{chapter.39.quest.11.task.1.title}"
+				title: "{ftbquests.chapter.challenges.quest6492590628068786334.task.4005807794066643346.title}"
 				type: "stat"
 				value: 8640000
 			}]
-			title: "{chapter.39.quest.11.title}"
+			title: "{ftbquests.chapter.challenges.quest6492590628068786334.title}"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -720,8 +627,8 @@
 							]
 							Unbreakable: 1b
 							display: {
-								Lore: ["{\"text\":\"§9§oThe Crystalline Fishing Rod was thought to be nothing more than a myth.. Until now!\"}"]
-								Name: "{\"text\":\"§bCrystalline Fishing Rod\"}"
+								Lore: ["{\"translate\":\"lore.mce2.challenges.3\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.4\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -739,12 +646,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p}  titles:master_angler"
+					command: "/titles add {p} titles:master_angler"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "712EF8F3DD71113D"
-					title: "{chapter.39.quest.13.reward.5.title}"
+					title: "{ftbquests.chapter.challenges.quest3086271306032236913.reward.8155729701490463037.title}"
 					type: "command"
 				}
 				{
@@ -754,8 +661,13 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "1BCC004A24638034"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "{chapter.39.quest.13.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest3086271306032236913.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -769,7 +681,7 @@
 				type: "stat"
 				value: 5000
 			}]
-			title: "{chapter.39.quest.13.title}"
+			title: "{ftbquests.chapter.challenges.quest3086271306032236913.title}"
 			x: -2.0d
 			y: 5.0d
 		}
@@ -800,7 +712,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "2147CCD0C48E468A"
-					title: "{chapter.39.quest.14.reward.3.title}"
+					title: "{ftbquests.chapter.challenges.quest4072003556709142116.reward.2398110523621000842.title}"
 					type: "command"
 				}
 				{
@@ -810,8 +722,13 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "7F485DDB022507F6"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "Craft all 4 Tiers of Rocket Ship!"
+			subtitle: "{ftbquests.chapter.challenges.quest4072003556709142116.subtitle}"
 			tasks: [
 				{
 					id: "395158D44241BF2B"
@@ -850,12 +767,12 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.39.quest.14.title}"
+			title: "{ftbquests.chapter.challenges.quest4072003556709142116.title}"
 			x: 7.0d
 			y: 5.0d
 		}
 		{
-			description: ["{chapter.39.quest.15.description.1}"]
+			description: ["{ftbquests.chapter.challenges.quest3149441517464418428.description1}"]
 			id: "2BB5105FA955787C"
 			incompatible: ["099610C83CC67421"]
 			optional: true
@@ -885,7 +802,7 @@
 					type: "item"
 				}
 				{
-					amount: 5000L
+					amount: 1000L
 					currency: "eternalcurrencies:coins"
 					id: "77C53D0688E0D986"
 					ignore_reward_blocking: true
@@ -896,22 +813,27 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "75C16C5877360ABC"
-					title: "&eUnlock Title:&r the Patient"
+					title: "{ftbquests.chapter.challenges.quest3149441517464418428.reward.8485182300155677372.title}"
 					type: "command"
 				}
+				{
+					id: "737585AAC565A2D5"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "{chapter.39.quest.15.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest3149441517464418428.subtitle}"
 			tasks: [{
 				days: 100
 				id: "673F2D14DBC8E253"
 				type: "questsadditions:days"
 			}]
-			title: "{chapter.39.quest.15.title}"
+			title: "{ftbquests.chapter.challenges.quest3149441517464418428.title}"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
-			description: ["{chapter.39.quest.16.description.1}"]
+			description: ["{ftbquests.chapter.challenges.quest1775034021665636693.description1}"]
 			id: "18A23009C59D0155"
 			optional: true
 			rewards: [
@@ -940,8 +862,8 @@
 							HideFlags: 1
 							Unbreakable: 1b
 							display: {
-								Lore: ["{\"text\":\"§7\\\"This crab is so undercooked I can still hear it singing 'Under the Sea.\\\"\"}"]
-								Name: "{\"text\":\"§6Golden Skillet\"}"
+								Lore: ["{\"translate\":\"lore.mce2.challenges.5\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.6\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -964,7 +886,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "4807F30E0FEAEDBF"
-					title: "{chapter.39.quest.16.reward.3.title}"
+					title: "{ftbquests.chapter.challenges.quest1775034021665636693.reward.5190384337289932223.title}"
 					type: "command"
 				}
 				{
@@ -974,8 +896,13 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "1838CD41D55F0DD8"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "{chapter.39.quest.16.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest1775034021665636693.subtitle}"
 			tasks: [
 				{
 					advancement: "farmersdelight:main/master_chef"
@@ -1003,12 +930,12 @@
 					type: "advancement"
 				}
 			]
-			title: "{chapter.39.quest.16.title}"
+			title: "{ftbquests.chapter.challenges.quest1775034021665636693.title}"
 			x: 6.0d
 			y: 5.0d
 		}
 		{
-			description: ["&eFinally we are taxing the rich.. In Minecraft!"]
+			description: ["{ftbquests.chapter.challenges.quest4176940204329355588.description1}"]
 			id: "39F778FC47194944"
 			optional: true
 			rewards: [
@@ -1048,7 +975,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "41C61D6A61ED9270"
-					title: "{chapter.39.quest.17.reward.4.title}"
+					title: "{ftbquests.chapter.challenges.quest4176940204329355588.reward.4739508000600724080.title}"
 					type: "command"
 				}
 				{
@@ -1064,23 +991,23 @@
 							HideFlags: 1
 							author: "The Grand Nagus"
 							display: {
-								Lore: ["{\"text\":\"§e§oThe 245th Edition\"}"]
+								Lore: ["{\"translate\":\"lore.mce2.challenges.7\"}"]
 							}
 							pages: [
-								"{\"text\":\"What the Nagus wants, we acquire.\\n\\nOnce you have their money... you never give it back.\\n\\nMoney is §leverything\\n\\n§8§oThis page is damaged\\n-----------------\"}"
-								"{\"text\":\"Never spend more for an acquisition than you have to.\\n\\nSedition and treason are always profitable\\n\\nAlways exaggerate your estimates.\\n\\nNever allow family law stand in the way of opportunity.\"}"
-								"{\"text\":\"Keep your ears open.\\n\\nSmall print leads to large risk\\n\\nOpportunity plus instinct equals profit\\n\\nGreed is eternal\\n\\nAnything worth doing is worth doing for money.\"}"
-								"{\"text\":\"Sometimes the quickest way to find profits is to let them find you.\\n\\nDead men close no deals.\\n\\nA deal is a deal... until a better one comes along.\\n\\n\"}"
-								"{\"text\":\"A contract is a contract is a contract... but only between Ferengi\\n\\nA Ferengi without profit is no Ferengi at all\\n\\nSatisfaction is not guaranteed.\\n\\n\"}"
-								"{\"text\":\"He who dives under the table today lives to profit tomorrow.\\n\\nNever place friendship above profit.\\n\\nA wise man can hear profit in the wind.\\n\\n\"}"
-								"{\"text\":\"Nothing is more important than your health... except for your money.\\n\\nThere's nothing more dangerous than an honest businessman.\\n\\nWhat's in it for me?\\n\\n\\\"Confidentiality equals profit.\\\"\"}"
-								"{\"text\":\"Never make fun of a Ferengi's mother. Insult something he cares about instead.\\n\\nIt never hurts to suck up to the boss\\n\\nWar is good for business.\\n\\nPeace is good for business.\"}"
-								"{\"text\":\"The early investor reaps the most interest.\\n\\nDon't tell customers more than they need to know.\\n\\nShe can touch your lobes but never your latinum.\"}"
-								"{\"text\":\"Profit is its own reward.\\n\\nFeed your greed, but not enough to choke it.\\n\\nNever confuse wisdom with luck.\\n\\nExpand or die.\"}"
-								"{\"text\":\"Don't trust a man wearing a better suit than your own.\\n\\nThe bigger the smile, the sharper the knife.\\n\\nNever ask when you can take.\\n\\nNever trust anybody taller than you.\"}"
-								"{\"text\":\"Rate divided by time equals profit. (Also known as \\\"The Velocity of Wealth.\\\")\\n\\nTake joy from profit, and profit from joy.\\n\\nGood customers are as rare as latinum—treasure them.\"}"
-								"{\"text\":\"There is no substitute for success.\\n\\nFree advice is seldom cheap.\\n\\nKeep your lies consistent.\\n\\nThe riskier the road, the greater the profit.\\n\"}"
-								"{\"text\":\"§8§oThe rest of the book is damaged... The pages seem to have been forcefully removed\\n\\n\"}"
+								"{\"translate\":\"page.mce2.challenges.1\"}"
+								"{\"translate\":\"page.mce2.challenges.2\"}"
+								"{\"translate\":\"page.mce2.challenges.3\"}"
+								"{\"translate\":\"page.mce2.challenges.4\"}"
+								"{\"translate\":\"page.mce2.challenges.5\"}"
+								"{\"translate\":\"page.mce2.challenges.6\"}"
+								"{\"translate\":\"page.mce2.challenges.7\"}"
+								"{\"translate\":\"page.mce2.challenges.8\"}"
+								"{\"translate\":\"page.mce2.challenges.9\"}"
+								"{\"translate\":\"page.mce2.challenges.10\"}"
+								"{\"translate\":\"page.mce2.challenges.11\"}"
+								"{\"translate\":\"page.mce2.challenges.12\"}"
+								"{\"translate\":\"page.mce2.challenges.13\"}"
+								"{\"translate\":\"page.mce2.challenges.14\"}"
 							]
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1100,8 +1027,13 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "2E1200CE3696B5A1"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "{chapter.39.quest.17.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest4176940204329355588.subtitle}"
 			tasks: [{
 				amount: 1000000L
 				currency: "eternalcurrencies:coins"
@@ -1134,7 +1066,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5047F40F416D9BD6"
-					title: "{chapter.39.quest.18.reward.3.title}"
+					title: "{ftbquests.chapter.challenges.quest2538370257753474597.reward.5784860592740080598.title}"
 					type: "command"
 				}
 				{
@@ -1156,8 +1088,13 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "198591C79ACD0E32"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "{chapter.39.quest.18.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest2538370257753474597.subtitle}"
 			tasks: [
 				{
 					id: "15F3EC92CED3E9C0"
@@ -1429,7 +1366,7 @@
 				}
 				{
 					id: "6945EB2F28C161D2"
-					item: "lavachickenmusicdisc:music_disc_lava_chicken"
+					item: "vanillabackport:music_disc_lava_chicken"
 					type: "item"
 				}
 				{
@@ -1457,18 +1394,13 @@
 					item: "ars_nouveau:music_disc_aria_biblio"
 					type: "item"
 				}
-				{
-					id: "2078A6716CC2B4FB"
-					item: "warwither:music_disc_war_wither"
-					type: "item"
-				}
 			]
-			title: "{chapter.39.quest.18.title}"
+			title: "{ftbquests.chapter.challenges.quest2538370257753474597.title}"
 			x: -3.0d
 			y: 5.0d
 		}
 		{
-			description: ["Build a fully functioning &6Jaffa Factory"]
+			description: ["{ftbquests.chapter.challenges.quest4511936365458450053.description1}"]
 			id: "3E9D9E3818516685"
 			optional: true
 			rewards: [
@@ -1522,15 +1454,20 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "70F6013CCEBEAFA7"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
-			subtitle: "&oIt shouldn't take 100 episodes... should it!?"
+			subtitle: "{ftbquests.chapter.challenges.quest4511936365458450053.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 100000L
 				id: "15363F95BE298C23"
 				item: "jaffactory:jaffa_cake"
-				title: "{chapter.39.quest.19.task.1.title}"
+				title: "{ftbquests.chapter.challenges.quest4511936365458450053.task.1528479035911932963.title}"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1567,9 +1504,9 @@
 							display: {
 								Lore: [
 									"{\"text\":\"   \"}"
-									"{\"text\":\"§f§oThis prestigious piece of armor is awarded to those who have battled dozens of dragons and protected the realm from their plight!\"}"
+									"{\"translate\":\"lore.mce2.challenges.8\"}"
 								]
-								Name: "{\"text\":\"§cDragonslayer Chestplate\"}"
+								Name: "{\"translate\":\"name.mce2.challenges.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1607,7 +1544,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "10DAFAB1AC4B0F0F"
-					title: "{chapter.39.quest.22.reward.6.title}"
+					title: "{ftbquests.chapter.challenges.quest3844325577878526947.reward.1214558690536525583.title}"
 					type: "command"
 				}
 				{
@@ -1617,8 +1554,13 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "5385F5A2746C434A"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "{chapter.39.quest.22.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest3844325577878526947.subtitle}"
 			tasks: [
 				{
 					entity: "iceandfire:fire_dragon"
@@ -1660,34 +1602,40 @@
 					value: 50L
 				}
 			]
-			title: "{chapter.39.quest.22.title}"
+			title: "{ftbquests.chapter.challenges.quest3844325577878526947.title}"
 			x: 8.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["0901DBD03773B644"]
 			description: [
-				"Challenge Quests are optional Quests that give you a &c&oChallenge&r. These challenges can range from skill based to the &outterly absurd&r. Challenge Quests often require a lot of time to complete! but they have extra &e&ospecial rewards™&r for your trouble!"
-				"{image:modpack:textures/barry-the-rat-demon-transparent-no-white.png width:100 height:100 align:1}"
+				"{ftbquests.chapter.challenges.quest5245909642508231407.description1}"
+				"{ftbquests.chapter.challenges.quest5245909642508231407.image0}"
 			]
 			icon: "titles:title_scroll_rare"
 			id: "48CD37069D7FE2EF"
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "26E85C4D785F0B5C"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "26E85C4D785F0B5C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4D87FF62EC6D6503"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "What are Challenge Quests?"
+			subtitle: "{ftbquests.chapter.challenges.quest5245909642508231407.subtitle}"
 			tasks: [{
 				id: "7E73744AAA758DBE"
-				title: "&7Information Quest&r&e (Click To Complete)"
+				title: "{ftbquests.chapter.challenges.quest5245909642508231407.task.9111754335136878014.title}"
 				type: "checkmark"
 			}]
-			title: "&6&l&nChallenge Quests"
+			title: "{ftbquests.chapter.challenges.quest5245909642508231407.title}"
 			x: -2.5238095238095255d
 			y: -1.5714285714285694d
 		}
@@ -1714,27 +1662,18 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "2B37DB076329CBD3"
+					item: "kubejs:chocolate_coin"
 					type: "item"
 				}
 			]
@@ -1757,7 +1696,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "0EF672DD9B345BB1"
-					title: "{chapter.39.quest.26.reward.2.title}"
+					title: "{ftbquests.chapter.challenges.quest6015117261113044175.reward.1078175456919051185.title}"
 					type: "command"
 				}
 				{
@@ -1779,12 +1718,18 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "1DDF9B9D0E189E9F"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "{chapter.39.quest.26.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest6015117261113044175.subtitle}"
 			tasks: [{
 				icon: "mekanism:resistive_heater"
 				id: "584D87091ADF75D2"
-				title: "{chapter.39.quest.26.task.1.title}"
+				max_input: 1000000000000000000L
+				title: "{ftbquests.chapter.challenges.quest6015117261113044175.task.6362890321719686610.title}"
 				type: "forge_energy"
 				value: 1000000000000000000L
 			}]
@@ -1801,7 +1746,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "3391A536F4D39348"
-					title: "&eUnlock Title:&r the Tiny Potato"
+					title: "{ftbquests.chapter.challenges.quest7710851260419707963.reward.3715932823011693384.title}"
 					type: "command"
 				}
 				{
@@ -1811,23 +1756,27 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "549358CE84A1FB85"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "Craft 1 Million &eTiny Potato"
+			subtitle: "{ftbquests.chapter.challenges.quest7710851260419707963.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 1000000L
 				id: "462A757C87457DD1"
 				item: "botania:tiny_potato"
-				title: "Tiny Potato"
+				title: "{ftbquests.chapter.challenges.quest7710851260419707963.task.5055982709382675921.title}"
 				type: "item"
 			}]
-			title: "&eThe Giant Tiny Potato"
+			title: "{ftbquests.chapter.challenges.quest7710851260419707963.title}"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: [
-				"1D23FD307B88FD43"
 				"3348CB91A5659884"
 				"35EB3BAAC2AD189B"
 				"511BD5CE8926D782"
@@ -1849,7 +1798,7 @@
 				"06911768DBF8A5A5"
 				"2093117385E8FF1D"
 			]
-			description: ["{chapter.39.quest.30.description.1}"]
+			description: ["{ftbquests.chapter.challenges.quest3918710953294087847.description1}"]
 			icon: "titles:title_scroll_uncommon"
 			id: "36620ED98C86C6A7"
 			rewards: [
@@ -1859,40 +1808,45 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "643B91E57C589E0E"
-					title: "{chapter.39.quest.30.reward.1.title}"
+					title: "{ftbquests.chapter.challenges.quest3918710953294087847.reward.7222526842238443022.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[Overworld Radio Broadcast]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" This JUST in! We have some important news! @p has officially beaten all known Quest Chapters! Wowza! Congrats to @p for unlocking The Loremaster Title, it seems they have a LOT of free time! \\nAnyway, thanks for tuning in to this weeks OVERWORLD RADIO BROADCAST OF THE MONTH! come back next month! I'm Chip Chiply and you've just been told... THE NEWS!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"translate\":\"message.mce2.challenges.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.challenges.2\"}] "
 					console: true
 					elevate_perms: true
 					icon: "etched:radio"
 					id: "0101958C6BCD1EBD"
-					title: "&e&nRadio Broadcast"
+					title: "{ftbquests.chapter.challenges.quest3918710953294087847.reward.72503499351203517.title}"
 					type: "command"
+				}
+				{
+					id: "43DBCBC4A79A5151"
+					item: "kubejs:chocolate_coin"
+					type: "item"
 				}
 			]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "{chapter.39.quest.30.subtitle}"
+			subtitle: "{ftbquests.chapter.challenges.quest3918710953294087847.subtitle}"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: "titles:title_fragment"
 				id: "6811343CA3BB7B1A"
-				title: "{chapter.39.quest.30.task.1.title}"
+				title: "{ftbquests.chapter.challenges.quest3918710953294087847.task.7498832289598241562.title}"
 				type: "dimension"
 			}]
-			title: "{chapter.39.quest.30.title}"
+			title: "{ftbquests.chapter.challenges.quest3918710953294087847.title}"
 			x: 4.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"What’s a chicken’s favorite subject to study? &oEgg-onomics"
-				"What do you call a chicken from space? An &oegg-straterrestrial."
-				"The best puns don’t fall far from the &opoul-tree."
-				"&6This Quest is made in part due to a friend of mine who doesn't stop making horrible lag-infested chicken farms. Will this not just incentivise him to make more you might ask? I haven't really thought that far ahead.. &c&oBut &cprobably."
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description1}"
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description2}"
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description3}"
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description4}"
 			]
 			id: "70A1086214FD6AD9"
 			optional: true
@@ -1903,7 +1857,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "29768140ED89DB31"
-					title: "&eUnlock Title:&r King of the Chickens"
+					title: "{ftbquests.chapter.challenges.quest8115777220850313945.reward.2987717518670027569.title}"
 					type: "command"
 				}
 				{
@@ -1918,8 +1872,13 @@
 					item: "mce2lib:chicken_nugget_summon"
 					type: "item"
 				}
+				{
+					id: "2B1714741BB55EFB"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "&oCommit ungodly acts against Chickenkind"
+			subtitle: "{ftbquests.chapter.challenges.quest8115777220850313945.subtitle}"
 			tasks: [
 				{
 					entity: "minecraft:chicken"
@@ -1929,23 +1888,24 @@
 					value: 500000L
 				}
 				{
+					consume_items: true
 					count: 800000L
 					id: "55B252B0B16A6959"
 					item: "minecraft:egg"
 					type: "item"
 				}
 			]
-			title: "&6The Curse of Jam"
+			title: "{ftbquests.chapter.challenges.quest8115777220850313945.title}"
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			description: [
-				"Name a Cow &e\"Ghast\"&r with a Nametag and have a Ghast kill it..."
-				"What happens next? only Glob knows..."
-				"&6Tip:&r &oGood luck :)"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description1}"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description2}"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description3}"
 				""
-				"&e\"Brace yourself for udder devastation! your very blood will &ocurdle in fear!\" &r&d- Magicdealer"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description4}"
 				""
 			]
 			icon: {
@@ -1963,7 +1923,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "6F095FAF0E97DB2C"
-					title: "&eUnlock Title:&r The Ghow Slayer"
+					title: "{ftbquests.chapter.challenges.quest5211646346371013304.reward.8001031418469145388.title}"
 					type: "command"
 				}
 				{
@@ -2001,8 +1961,8 @@
 								}
 							]
 							display: {
-								Lore: ["{\"text\":\"§e§oSteak procured from the legendary \\\"Ghow\\\"\"}"]
-								Name: "{\"text\":\"§dGhow Steak\"}"
+								Lore: ["{\"translate\":\"lore.mce2.challenges.9\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.10\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2013,8 +1973,13 @@
 					}
 					type: "item"
 				}
+				{
+					id: "055BC2B5681D4B00"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "&6Boss? Battle?"
+			subtitle: "{ftbquests.chapter.challenges.quest5211646346371013304.subtitle}"
 			tasks: [{
 				entity: "ghastcow:ghast_cow"
 				icon: {
@@ -2025,7 +1990,7 @@
 					}
 				}
 				id: "482A39DDAF6660DE"
-				title: "&eKill The Ghow"
+				title: "{ftbquests.chapter.challenges.quest5211646346371013304.task.5200032344045936862.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -2040,7 +2005,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "688BDCF0348DE9F5"
-					title: "&eUnlock Title:&r the Enlightened"
+					title: "{ftbquests.chapter.challenges.quest3031528775408008088.reward.7533357725939263989.title}"
 					type: "command"
 				}
 				{
@@ -2050,13 +2015,18 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "21CBD76B9EF96376"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
-			subtitle: "Complete &eThe Sculpter's&r Challenge!"
+			subtitle: "{ftbquests.chapter.challenges.quest3031528775408008088.subtitle}"
 			tasks: [{
 				advancement: "mowziesmobs:sculptor_challenge"
 				criterion: ""
 				id: "68FB618A7D59374A"
-				title: "At One With The World"
+				title: "{ftbquests.chapter.challenges.quest3031528775408008088.task.7564747246535259978.title}"
 				type: "advancement"
 			}]
 			x: 8.0d
@@ -2064,8 +2034,8 @@
 		}
 		{
 			description: [
-				"&o&7It might be worth investing in some better armor... "
-				"&2-The Questmaster"
+				"{ftbquests.chapter.challenges.quest1508817133578834933.description1}"
+				"{ftbquests.chapter.challenges.quest1508817133578834933.description2}"
 			]
 			id: "14F065305DFD53F5"
 			rewards: [
@@ -2075,7 +2045,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "1365D7093281C20B"
-					title: "&eUnlock Title:&r Die-a-Lot"
+					title: "{ftbquests.chapter.challenges.quest1508817133578834933.reward.1397759693870449163.title}"
 					type: "command"
 				}
 				{
@@ -2085,9 +2055,14 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "7371B9B9E1D1C4DC"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
-			subtitle: "&o&eDie 100 Times!"
+			subtitle: "{ftbquests.chapter.challenges.quest1508817133578834933.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2100,7 +2075,7 @@
 				}
 				id: "0DF5C00B564E1983"
 				stat: "minecraft:deaths"
-				title: "&6100 Deaths.. But who's counting? &d[Secret Quest]"
+				title: "{ftbquests.chapter.challenges.quest1508817133578834933.task.1005921246712306051.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -2109,21 +2084,12 @@
 		}
 		{
 			description: [
-				"Cleaning up the planet... one piece of plastic at a time!"
-				"&6PS: TELL TECH PLAYERS TO STOP LITTERING!"
+				"{ftbquests.chapter.challenges.quest63909497621471834.description1}"
+				"{ftbquests.chapter.challenges.quest63909497621471834.description2}"
 			]
 			id: "00E30D597780625A"
 			optional: true
 			rewards: [
-				{
-					command: "/titles add {p} titles:trash"
-					console: true
-					elevate_perms: true
-					icon: "titles:title_scroll_rare"
-					id: "05898EA59FFAFF41"
-					title: "&eUnlock Title:&r the Trashman"
-					type: "command"
-				}
 				{
 					amount: 5000L
 					currency: "eternalcurrencies:coins"
@@ -2131,25 +2097,37 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "6372888FE6CC4C56"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:trashman"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "4878192B49691F91"
+					title: "{ftbquests.chapter.challenges.quest63909497621471834.reward.5221951441642004369.title}"
+					type: "command"
+				}
 			]
-			subtitle: "Collect 500x &ePlastic Waste!"
+			subtitle: "{ftbquests.chapter.challenges.quest63909497621471834.subtitle}"
 			tasks: [{
 				count: 500L
 				id: "61E2CFC3EFFF44F0"
 				item: "rats:plastic_waste"
 				type: "item"
 			}]
-			title: "&6Community Service!"
+			title: "{ftbquests.chapter.challenges.quest63909497621471834.title}"
 			x: 10.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["740DD4098893630E"]
 			description: [
-				"Spend some time learning how to be a goat.. there are a lot of lessons one can learn from goats!"
-				"&6Hint:&r There are no hints... there are no shortcuts.. Study the way of the goat and you shall be rewarded!"
+				"{ftbquests.chapter.challenges.quest627689187293864018.description1}"
+				"{ftbquests.chapter.challenges.quest627689187293864018.description2}"
 				""
-				"&7&oDid you CHEAT and BURY a goat or build a dirt wall around it or something? if so, shame on you! SHAME! if not, well done I'm proud of you xoxo."
+				"{ftbquests.chapter.challenges.quest627689187293864018.description3}"
 			]
 			hide_dependency_lines: true
 			id: "08B5FFFD7E012052"
@@ -2161,7 +2139,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "626960F9F8D32E9A"
-					title: "&eUnlock Title:&r the Goat Whisperer"
+					title: "{ftbquests.chapter.challenges.quest627689187293864018.reward.7091305715009269402.title}"
 					type: "command"
 				}
 				{
@@ -2170,33 +2148,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2213,22 +2168,334 @@
 					}
 					type: "item"
 				}
+				{
+					id: "53F192EF99822E0B"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
-			subtitle: "Learn from a Goat if you wish to become THE G.O.A.T"
+			subtitle: "{ftbquests.chapter.challenges.quest627689187293864018.subtitle}"
 			tasks: [{
 				icon: "skillcloaks:prayer_hood"
 				id: "3ACA45E5C5866A57"
 				observe_type: 5
 				timer: 1000L
-				title: "&eStare at a Goat uninterrupted for 100 seconds"
+				title: "{ftbquests.chapter.challenges.quest627689187293864018.task.4236275252659120727.title}"
 				to_observe: "minecraft:goat"
 				type: "observation"
 			}]
-			title: "&6The Way of The Goat"
+			title: "{ftbquests.chapter.challenges.quest627689187293864018.title}"
 			x: 4.0d
 			y: 4.0d
 		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest5497200196616777365.description1}"]
+			id: "4C49FA74128CEE95"
+			rewards: [
+				{
+					amount: 3500L
+					currency: "eternalcurrencies:coins"
+					id: "53327789AB4B75B4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78D2A656AEC25566"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p}  titles:godzilla"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "5D2DF03A7B532A06"
+					title: "{ftbquests.chapter.challenges.quest5497200196616777365.reward.6714286753447094790.title}"
+					type: "command"
+				}
+				{
+					id: "61157E5AC217713C"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest5497200196616777365.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_tremorzilla"
+				criterion: ""
+				icon: "alexscaves:waste_drum"
+				id: "116EB152780DB546"
+				title: "{ftbquests.chapter.challenges.quest5497200196616777365.task.1256136313842545990.title}"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest3597581435051051636.description1}"]
+			id: "31ED2D411EC20A74"
+			rewards: [
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "4F56D3427353A962"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "4821242C9614CE38"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:nuke"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "074DBF126B7B6BD2"
+					title: "{ftbquests.chapter.challenges.quest3597581435051051636.reward.526286817305783250.title}"
+					type: "command"
+				}
+				{
+					id: "1097E19BD3F4F614"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest3597581435051051636.subtitle}"
+			tasks: [{
+				id: "71320C2F137A9170"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.challenges.quest3597581435051051636.title}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "5F35EB74F5A77156"
+			optional: true
+			rewards: [
+				{
+					id: "2DE7B197CF29606B"
+					item: "skillcloaks:max_cloak"
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "5EB2310E499C4FD2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 8
+					id: "64DA7E2150C71DD4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18F77902FDB3FB3C"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:skill"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "0D6B48FB4BB71223"
+					title: "{ftbquests.chapter.challenges.quest6860648494938943830.reward.966946789145383459.title}"
+					type: "command"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest6860648494938943830.subtitle}"
+			tasks: [
+				{
+					id: "5654CCA80063E2D6"
+					item: "skillcloaks:agility_cloak"
+					type: "item"
+				}
+				{
+					id: "4780A61A346340EA"
+					item: "skillcloaks:attack_cloak"
+					type: "item"
+				}
+				{
+					id: "0570C6646BEF341D"
+					item: "skillcloaks:construction_cloak"
+					type: "item"
+				}
+				{
+					id: "02CB72CBA52047BC"
+					item: "skillcloaks:cooking_cloak"
+					type: "item"
+				}
+				{
+					id: "63ECEFAC310FD5D8"
+					item: "skillcloaks:crafting_cloak"
+					type: "item"
+				}
+				{
+					id: "2420507857E30114"
+					item: "skillcloaks:defence_cloak"
+					type: "item"
+				}
+				{
+					id: "39AD579BBE16D284"
+					item: "skillcloaks:farming_cloak"
+					type: "item"
+				}
+				{
+					id: "2EF9180F7866833B"
+					item: "skillcloaks:firemaking_cloak"
+					type: "item"
+				}
+				{
+					id: "585FFC4CB2A6DDFB"
+					item: "skillcloaks:fishing_cloak"
+					type: "item"
+				}
+				{
+					id: "707B49295B215AEC"
+					item: "skillcloaks:fletching_cloak"
+					type: "item"
+				}
+				{
+					id: "4FB2D23D9B7370D7"
+					item: "skillcloaks:herblore_cloak"
+					type: "item"
+				}
+				{
+					id: "28CE5060389B5F96"
+					item: "skillcloaks:hitpoints_cloak"
+					type: "item"
+				}
+				{
+					id: "7B2916B2A84681B2"
+					item: "skillcloaks:hunter_cloak"
+					type: "item"
+				}
+				{
+					id: "6ED8C96401C6D8D3"
+					item: "skillcloaks:magic_cloak"
+					type: "item"
+				}
+				{
+					id: "389440ED1F96B99C"
+					item: "skillcloaks:mining_cloak"
+					type: "item"
+				}
+				{
+					id: "530F84004A0FD131"
+					item: "skillcloaks:prayer_cloak"
+					type: "item"
+				}
+				{
+					id: "37608133F35B6F74"
+					item: "skillcloaks:ranging_cloak"
+					type: "item"
+				}
+				{
+					id: "1DE42920A3CDF1EC"
+					item: "skillcloaks:runecraft_cloak"
+					type: "item"
+				}
+				{
+					id: "1D93412DCA112A25"
+					item: "skillcloaks:slayer_cloak"
+					type: "item"
+				}
+				{
+					id: "6F1EC2BEF49E944C"
+					item: "skillcloaks:strength_cloak"
+					type: "item"
+				}
+				{
+					id: "47763F81BCF2B095"
+					item: "skillcloaks:thieving_cloak"
+					type: "item"
+				}
+				{
+					id: "24AE4C04D5C638D3"
+					item: "skillcloaks:woodcutting_cloak"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.challenges.quest6860648494938943830.title}"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest8361597504342229435.description1}"]
+			id: "740A5CA0E91C81BB"
+			optional: true
+			rewards: [
+				{
+					id: "6786D0C9A7FA63F6"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					id: "69126D058D047B3F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:stinky"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "369FC710E68FD3B6"
+					title: "{ftbquests.chapter.challenges.quest8361597504342229435.reward.3936083474746692534.title}"
+					type: "command"
+				}
+			]
+			secret: true
+			subtitle: "{ftbquests.chapter.challenges.quest8361597504342229435.subtitle}"
+			tasks: [{
+				icon: "rats:garbage_pile"
+				id: "78D75DD658F2E993"
+				observe_type: 0
+				timer: 200L
+				title: "{ftbquests.chapter.challenges.quest8361597504342229435.task.8707531579740842387.title}"
+				to_observe: "rats:garbage_pile"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.challenges.quest8361597504342229435.title}"
+			x: -1.0d
+			y: -1.0d
+		}
 	]
-	title: "{chapter.39.title}"
+	title: "{ftbquests.chapter.challenges.title}"
 }
