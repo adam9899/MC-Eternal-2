@@ -74,7 +74,7 @@
         },
         {
           "type": "gateways:entity_loot",
-          "entity": "minecraft:blaze",
+          "entity": "specialmobs:blaze",
           "rolls": 1
         }
       ],
@@ -113,7 +113,7 @@
           "finalize_spawn": false
         },
         {
-          "entity": "minecraft:blaze",
+          "entity": "specialmobs:blaze",
           "count": 3
         }
       ],
@@ -157,7 +157,7 @@
         },
         {
           "type": "gateways:entity_loot",
-          "entity": "minecraft:blaze",
+          "entity": "specialmobs:blaze",
           "rolls": 1
         }
       ],
@@ -279,7 +279,7 @@
         },
         {
           "type": "gateways:entity_loot",
-          "entity": "minecraft:blaze",
+          "entity": "specialmobs:blaze",
           "rolls": 4
         }
       ],
@@ -324,7 +324,7 @@
     {
       "type": "gateways:summon",
       "entity": {
-        "entity": "minecraft:blaze",
+        "entity": "specialmobs:blaze",
         "count": 2
       }
     }

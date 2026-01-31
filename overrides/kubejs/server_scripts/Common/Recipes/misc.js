@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
         E: "iceandfire:cockatrice_eye",
         P: "create:precision_mechanism",
         V: "#mce2:item_trash_cans",
-        G: "#c:glass_panes",
+        G: "#forge:glass_panes",
         T: "create:electron_tube"
     }).id("constructionwand:core_destruction")
 

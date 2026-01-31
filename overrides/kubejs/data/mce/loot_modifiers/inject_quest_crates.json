@@ -22,7 +22,13 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{HideFlags:33,display:{Lore:['{\"translate\":\"item.mce.quest_loot.lore.random\"}','{\"translate\":\"item.mce.quest_loot.lore.open\"}','{\"translate\":\"item.mce.quest_loot.lore.header\"}','{\"translate\":\"item.mce.quest_loot.lore.desc\"}','{\"text\":\"\"}'],Name:'{\"translate\":\"item.mce.quest_loot.name\"}'},quark:RuneAttached:1b,quark:RuneColor:{Count:1b,id:\"quark:rainbow_rune\"},rpgloot.randomize:0b,type:\"quest_loot\"}"
+          "tag": {
+            "HideFlags": 33,
+						"display": {
+							"Name": "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						},
+						"type": "quest_loot"
+					}
         }
       ]
     },
