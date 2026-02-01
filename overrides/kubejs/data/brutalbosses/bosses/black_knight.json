@@ -46,7 +46,7 @@
 "minecraft:randomwalk": {},
 "brutalbosses:changegear": {
 "healthinterval": "50-0",            
-"gear": {"mainhand": "{id: \"iceandfire:dragonbone_sword_ice\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.black_knight.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.black_knight.gear.mainhand.lore.2\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}"
+"gear": {"mainhand": "{id: \"iceandfire:dragonbone_sword_ice\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.black_knight.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.black_knight.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}"
       
 
 },

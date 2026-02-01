@@ -25,7 +25,7 @@
 	"leggings": "{id: \"minecolonies:pirate_legs\", Count: 1b, tag: {Damage: 20}}",
 	"boots": "{id: \"minecolonies:pirate_boots\", Count: 1b, tag: {Damage: 20}}",
     "chestplate": "{id: \"minecolonies:pirate_chest\", Count: 1b, tag: {Damage: 30}}",
-	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.dread_pirate_lechuck.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.dread_pirate_lechuck.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
   },
   "ai-goals": {
 	   "brutalbosses:shootwitherskulls": {

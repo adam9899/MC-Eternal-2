@@ -21,7 +21,7 @@
   "gear": {
    "mainhand": "{id: \"illager_additions:master_katana\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.shogun.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.shogun.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:sharpness\"}]}}",
     "chestplate": "{id: \"illager_additions:shogun_chestplate\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.shogun.gear.chestplate.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.shogun.gear.chestplate.lore.1\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}",
-     "helmet": "{id: \"illager_additions:shogun_helmet\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.shogun.gear.helmet.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.shogun.gear.helmet.lore.1\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}"
+     "helmet": "{id: \"illager_additions:shogun_helmet\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.shogun.gear.helmet.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.shogun.gear.chestplate.lore.1\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}"
   },
   
   "ai-goals": {

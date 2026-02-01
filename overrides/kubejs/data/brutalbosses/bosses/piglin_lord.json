@@ -21,7 +21,7 @@
   "gear": {
    "mainhand": "{id: \"iceandfire:dragonbone_sword_fire\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.piglin_lord.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.piglin_lord.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 8s, id: \"minecraft:sharpness\"}]}}",
 	"helmet": "{id: \"rats:rat_king_crown\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.piglin_lord.gear.helmet.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.piglin_lord.gear.helmet.lore.1\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:protection\"}]}}",
-"offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.piglin_lord.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.piglin_lord.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+"offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
 	"leggings": "{id: \"immersive_armors:wither_leggings\", Count: 1b, tag: {Damage: 20}}",
 	"boots": "{id: \"immersive_armors:wither_boots\", Count: 1b, tag: {Damage: 20}}",
     "chestplate": "{id: \"immersive_armors:wither_chestplate\", Count: 1b, tag: {Damage: 30}}"

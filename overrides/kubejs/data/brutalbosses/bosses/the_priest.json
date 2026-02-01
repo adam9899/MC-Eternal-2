@@ -24,8 +24,8 @@
   "helmet": "{id: \"rats:rat_king_crown\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.the_priest.gear.helmet.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.the_priest.gear.helmet.lore.1\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:unbreaking\"}]}}", 
   "offhand": "{id: \"irons_spellbooks:villager_spell_book\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.the_priest.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.the_priest.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:unbreaking\"}]}}",
     "chestplate": "{id: \"irons_spellbooks:priest_chestplate\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.the_priest.gear.chestplate.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.the_priest.gear.chestplate.lore.1\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}",
-     "leggings": "{id: \"irons_spellbooks:priest_leggings\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.the_priest.gear.leggings.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.the_priest.gear.leggings.lore.1\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}",
-      "boots": "{id: \"irons_spellbooks:priest_boots\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.the_priest.gear.boots.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.the_priest.gear.boots.lore.1\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}"
+     "leggings": "{id: \"irons_spellbooks:priest_leggings\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.the_priest.gear.leggings.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.the_priest.gear.chestplate.lore.1\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}",
+      "boots": "{id: \"irons_spellbooks:priest_boots\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.the_priest.gear.boots.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.the_priest.gear.chestplate.lore.1\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}"
   },
   "ai-goals": {
    

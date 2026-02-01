@@ -21,7 +21,7 @@
   },
   "gear": {
    "mainhand": "{id: \"create:wrench\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.lord_lysander.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.lord_lysander.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 2s, id: \"minecraft:knockback\"}]}}",
-	"offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.lord_lysander.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.lord_lysander.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+	"offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
 	"helmet": "{id: \"rats:top_hat\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.lord_lysander.gear.helmet.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.lord_lysander.gear.helmet.lore.1\"}']},Enchantments:[{lvl: 4s, id: \"minecraft:protection\"}]}}",
 	"leggings": "{id: \"immersive_armors:steampunk_leggings\", Count: 1b, tag: {Damage: 20}}",
 	"boots": "{id: \"immersive_armors:steampunk_boots\", Count: 1b, tag: {Damage: 20}}",

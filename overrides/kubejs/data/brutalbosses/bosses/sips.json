@@ -23,8 +23,8 @@
     "mainhand": "{id:\"minecraft:dirt\",Count:1b,tag:{display:{Name:'{\"translate\":\"brutalbosses.boss.sips.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.sips.gear.mainhand.lore.1\"}']},Enchantments:[{id:\"minecraft:knockback\",lvl:5s}]}}",
     "helmet": "{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:\"Sips_\",display:{Name:'{\"translate\":\"brutalbosses.boss.sips.gear.helmet.name\"}'},Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}]}}",
     "chestplate": "{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{Name:'{\"translate\":\"brutalbosses.boss.sips.gear.chestplate.name\"}',color:16738740},Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}]}}",
-    "leggings": "{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{Name:'{\"translate\":\"brutalbosses.boss.sips.gear.leggings.name\"}',color:16738740},Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}]}}",
-    "boots": "{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{Name:'{\"translate\":\"brutalbosses.boss.sips.gear.boots.name\"}',color:16738740},Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}]}}"
+    "leggings": "{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{Name:'{\"translate\":\"brutalbosses.boss.sips.gear.chestplate.name\"}',color:16738740},Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}]}}",
+    "boots": "{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{Name:'{\"translate\":\"brutalbosses.boss.sips.gear.chestplate.name\"}',color:16738740},Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}]}}"
   },
   "ai-goals": {
     "minecraft:meleeattack": {},
