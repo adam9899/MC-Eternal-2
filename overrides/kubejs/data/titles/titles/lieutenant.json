@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:lieutenant",
   "rarity": "uncommon",
-  "defaultDisplay": "Lieutenant"
+  "defaultDisplay": "title.titles.mce2.lieutenant"
 }

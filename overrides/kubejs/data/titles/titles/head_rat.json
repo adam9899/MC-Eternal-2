@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:rat",
   "rarity": "common",
-  "defaultDisplay": "Head Rat"
+  "defaultDisplay": "title.titles.mce2.head_rat"
 }

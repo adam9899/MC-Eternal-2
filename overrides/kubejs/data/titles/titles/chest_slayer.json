@@ -1,14 +1,7 @@
 {
-  
   "type": "command",
-
- "id": "titles:chest_slayer",
+  "id": "titles:chest_slayer",
   "rarity": "uncommon",
-
-  
-  "defaultDisplay": "the Chest Slayer",
-  
-
- 
-  "flavorText": "Kill a Mimic"
+  "defaultDisplay": "title.titles.mce2.chest_slayer",
+  "flavorText": "title.titles.mce2.chest_slayer.flavor"
 }

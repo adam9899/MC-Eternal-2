@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:black_forest",
   "rarity": "rare",
-  "defaultDisplay": "of the Blackforest"
+  "defaultDisplay": "title.titles.mce2.black_forest"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:soul",
   "rarity": "rare",
-  "defaultDisplay": "the Soulful"
+  "defaultDisplay": "title.titles.mce2.soul"
 }

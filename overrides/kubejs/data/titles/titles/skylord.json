@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:skylord",
   "rarity": "uncommon",
-  "defaultDisplay": "the Skylord"
+  "defaultDisplay": "title.titles.mce2.skylord"
 }

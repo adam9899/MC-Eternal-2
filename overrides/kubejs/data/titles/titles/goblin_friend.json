@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:gobby",
   "rarity": "rare",
-  "defaultDisplay": "Friend of Goblins"
+  "defaultDisplay": "title.titles.mce2.goblin_friend"
 }

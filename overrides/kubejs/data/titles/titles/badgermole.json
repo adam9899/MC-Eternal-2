@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:badgermole",
   "rarity": "rare",
-  "defaultDisplay": "of the Badgermoles"
+  "defaultDisplay": "title.titles.mce2.badgermole"
 }

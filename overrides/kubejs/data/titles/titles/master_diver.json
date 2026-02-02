@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:diver",
   "rarity": "rare",
-  "defaultDisplay": "Master Diver"
+  "defaultDisplay": "title.titles.mce2.master_diver"
 }

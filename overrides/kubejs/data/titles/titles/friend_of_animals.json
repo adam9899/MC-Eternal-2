@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:animal_friend",
   "rarity": "rare",
-  "defaultDisplay": "the Friend of Animals"
+  "defaultDisplay": "title.titles.mce2.friend_of_animals"
 }

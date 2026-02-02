@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:loremaster",
   "rarity": "rare",
-  "defaultDisplay": "the Loremaster"
+  "defaultDisplay": "title.titles.mce2.loremaster"
 }

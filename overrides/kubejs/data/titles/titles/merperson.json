@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:mermaidp",
   "rarity": "rare",
-  "defaultDisplay": "the Merperson"
+  "defaultDisplay": "title.titles.mce2.merperson"
 }

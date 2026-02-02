@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:the_magispeller",
   "rarity": "rare",
-  "defaultDisplay": "the Magispeller"
+  "defaultDisplay": "title.titles.mce2.the_magispeller"
 }

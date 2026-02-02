@@ -2,6 +2,6 @@
   "type": "command",
   "id": "titles:king",
   "rarity": "rare",
-  "defaultDisplay": "the Quest King",
-  "variantDisplay": "the Quest Queen"
+  "defaultDisplay": "title.titles.mce2.king",
+  "variantDisplay": "title.titles.mce2.king.variant"
 }

@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:sticky",
   "rarity": "uncommon",
-  "defaultDisplay": "the Sticky"
+  "defaultDisplay": "title.titles.mce2.sticky"
 }

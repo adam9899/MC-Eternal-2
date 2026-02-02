@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:cartographer",
   "rarity": "common",
-  "defaultDisplay": "the Explorer"
+  "defaultDisplay": "title.titles.mce2.cartographer"
 }

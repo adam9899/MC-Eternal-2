@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:aristorat",
   "rarity": "rare",
-  "defaultDisplay": "the AristoRAT"
+  "defaultDisplay": "title.titles.mce2.aristorat"
 }

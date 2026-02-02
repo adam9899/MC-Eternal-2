@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:angler",
   "rarity": "common",
-  "defaultDisplay": "Angler"
+  "defaultDisplay": "title.titles.mce2.angler"
 }

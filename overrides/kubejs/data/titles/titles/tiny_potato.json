@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:tiny_potato",
   "rarity": "common",
-  "defaultDisplay": "the Tiny Potato"
+  "defaultDisplay": "title.titles.mce2.tiny_potato"
 }

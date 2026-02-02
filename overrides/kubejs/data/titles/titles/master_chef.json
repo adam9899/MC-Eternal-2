@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:master_chef",
   "rarity": "rare",
-  "defaultDisplay": "the Master Chef"
+  "defaultDisplay": "title.titles.mce2.master_chef"
 }

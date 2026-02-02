@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:deep",
   "rarity": "rare",
-  "defaultDisplay": "Lord Of The Deep"
+  "defaultDisplay": "title.titles.mce2.lord_of_the_deep"
 }

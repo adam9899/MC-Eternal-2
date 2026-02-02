@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:novice",
   "rarity": "common",
-  "defaultDisplay": "the Novice"
+  "defaultDisplay": "title.titles.mce2.novice"
 }

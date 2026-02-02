@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:vampire_hunter",
   "rarity": "common",
-  "defaultDisplay": "the Vampire Hunter"
+  "defaultDisplay": "title.titles.mce2.vampire_hunter"
 }

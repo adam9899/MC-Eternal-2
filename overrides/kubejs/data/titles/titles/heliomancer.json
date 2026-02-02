@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:heliomancer",
   "rarity": "rare",
-  "defaultDisplay": "the Heliomancer"
+  "defaultDisplay": "title.titles.mce2.heliomancer"
 }

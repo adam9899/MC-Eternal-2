@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:rat_king",
   "rarity": "rare",
-  "defaultDisplay": "King of The Rats"
+  "defaultDisplay": "title.titles.mce2.rat_king"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:millionare",
   "rarity": "rare",
-  "defaultDisplay": "the Millionare"
+  "defaultDisplay": "title.titles.mce2.the_millionare"
 }

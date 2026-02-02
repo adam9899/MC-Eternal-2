@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:everdawn",
   "rarity": "uncommon",
-  "defaultDisplay": "of the Everdawn"
+  "defaultDisplay": "title.titles.mce2.everdawn"
 }

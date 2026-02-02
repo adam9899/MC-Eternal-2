@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:alchemist",
   "rarity": "rare",
-  "defaultDisplay": "the Alchemist"
+  "defaultDisplay": "title.titles.mce2.alchemist"
 }

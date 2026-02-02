@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:vampire_gourmand",
   "rarity": "uncommon",
-  "defaultDisplay": "Vampire Gourmond"
+  "defaultDisplay": "title.titles.mce2.vampire_gourmond"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:jenkins",
   "rarity": "rare",
-  "defaultDisplay": "Jenkins"
+  "defaultDisplay": "title.titles.mce2.jenkins"
 }

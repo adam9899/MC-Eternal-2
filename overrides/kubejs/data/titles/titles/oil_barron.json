@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:oil_baron",
   "rarity": "uncommon",
-  "defaultDisplay": "the Oil Baron"
+  "defaultDisplay": "title.titles.mce2.oil_barron"
 }

@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:starcaller",
   "rarity": "rare",
-  "defaultDisplay": "the Starcaller"
+  "defaultDisplay": "title.titles.mce2.starcaller"
 }

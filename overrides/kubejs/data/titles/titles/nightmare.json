@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:nightmare",
   "rarity": "rare",
-  "defaultDisplay": "the Nightmare"
+  "defaultDisplay": "title.titles.mce2.nightmare"
 }

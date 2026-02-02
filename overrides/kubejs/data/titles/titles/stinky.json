@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:stinky",
   "rarity": "common",
-  "defaultDisplay": "the Stinky"
+  "defaultDisplay": "title.titles.mce2.stinky"
 }

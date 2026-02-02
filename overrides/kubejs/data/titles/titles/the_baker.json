@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:baker",
   "rarity": "rare",
-  "defaultDisplay": "the Baker"
+  "defaultDisplay": "title.titles.mce2.the_baker"
 }

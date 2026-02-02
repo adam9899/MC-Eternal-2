@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:xp",
   "rarity": "rare",
-  "defaultDisplay": "the Experienced"
+  "defaultDisplay": "title.titles.mce2.xp"
 }

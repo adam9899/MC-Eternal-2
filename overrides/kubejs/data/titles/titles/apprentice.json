@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:apprentice",
   "rarity": "common",
-  "defaultDisplay": "the Apprentice"
+  "defaultDisplay": "title.titles.mce2.apprentice"
 }

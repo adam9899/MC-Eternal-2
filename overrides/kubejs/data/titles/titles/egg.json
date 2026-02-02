@@ -2,6 +2,6 @@
   "type": "command",
   "id": "titles:chicken",
   "rarity": "rare",
-  "defaultDisplay": "the Chicken King",
-  "variantDisplay": "the Chicken Queen"
+  "defaultDisplay": "title.titles.mce2.egg",
+  "variantDisplay": "title.titles.mce2.egg.variant"
 }

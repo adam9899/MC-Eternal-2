@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:feared",
   "rarity": "rare",
-  "defaultDisplay": "the Feared"
+  "defaultDisplay": "title.titles.mce2.feared"
 }

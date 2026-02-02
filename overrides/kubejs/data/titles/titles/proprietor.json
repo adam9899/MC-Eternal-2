@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:prop",
   "rarity": "uncommon",
-  "defaultDisplay": "the Proprietor"
+  "defaultDisplay": "title.titles.mce2.proprietor"
 }

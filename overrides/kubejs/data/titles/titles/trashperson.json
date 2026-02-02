@@ -1,15 +1,8 @@
 {
-  
   "type": "command",
-"id": "titles:trash",
-
+  "id": "titles:trash",
   "rarity": "rare",
-
-  
-  "defaultDisplay": "the Trashman",
-  
-  "variantDisplay": "the Trashperson",
-  
- 
-  "flavorText": "Save the planet from climate change!"
+  "defaultDisplay": "title.titles.mce2.trashperson",
+  "variantDisplay": "title.titles.mce2.trashperson.variant",
+  "flavorText": "title.titles.mce2.trashperson.flavor"
 }

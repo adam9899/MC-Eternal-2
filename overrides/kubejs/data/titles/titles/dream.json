@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:dream",
   "rarity": "rare",
-  "defaultDisplay": "of the Dream"
+  "defaultDisplay": "title.titles.mce2.dream"
 }

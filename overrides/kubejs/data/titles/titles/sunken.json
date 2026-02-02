@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:sunken",
   "rarity": "rare",
-  "defaultDisplay": "the Deep One"
+  "defaultDisplay": "title.titles.mce2.sunken"
 }

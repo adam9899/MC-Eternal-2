@@ -1,13 +1,6 @@
 {
-  
   "type": "command",
-
-
   "rarity": "uncommon",
-
-  
-  "defaultDisplay": "of The Black Forest",
-  
- 
-  "flavorText": "???"
+  "defaultDisplay": "title.titles.mce2.blackforest",
+  "flavorText": "title.titles.mce2.blackforest.flavor"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:deathbane",
   "rarity": "rare",
-  "defaultDisplay": "Deathbane"
+  "defaultDisplay": "title.titles.mce2.deathbane"
 }

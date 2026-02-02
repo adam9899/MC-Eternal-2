@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:mutated",
   "rarity": "common",
-  "defaultDisplay": "the Mutated"
+  "defaultDisplay": "title.titles.mce2.mutated"
 }

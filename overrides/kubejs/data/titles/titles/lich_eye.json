@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:lich_eye",
   "rarity": "rare",
-  "defaultDisplay": "the Desecrator"
+  "defaultDisplay": "title.titles.mce2.lich_eye"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:dino_tamer",
   "rarity": "rare",
-  "defaultDisplay": "the Dinosaur Tamer"
+  "defaultDisplay": "title.titles.mce2.dinosaur_tamer"
 }

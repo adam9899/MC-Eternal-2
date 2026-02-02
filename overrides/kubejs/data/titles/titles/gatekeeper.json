@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:gatekeeper",
   "rarity": "uncommon",
-  "defaultDisplay": "the Gatekeeper"
+  "defaultDisplay": "title.titles.mce2.gatekeeper"
 }

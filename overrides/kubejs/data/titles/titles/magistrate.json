@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:magistrate",
   "rarity": "rare",
-  "defaultDisplay": "the Magistrate"
+  "defaultDisplay": "title.titles.mce2.magistrate"
 }

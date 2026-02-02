@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:nether_lord",
   "rarity": "rare",
-  "defaultDisplay": "Nether Lord"
+  "defaultDisplay": "title.titles.mce2.nether_lord"
 }

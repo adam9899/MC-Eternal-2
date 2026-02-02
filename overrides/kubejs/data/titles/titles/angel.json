@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:angel",
   "rarity": "rare",
-  "defaultDisplay": "the Enlightened"
+  "defaultDisplay": "title.titles.mce2.angel"
 }

@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:vampire_slayer",
   "rarity": "rare",
-  "defaultDisplay": "the Vampire Slayer"
+  "defaultDisplay": "title.titles.mce2.vampire_slayer"
 }

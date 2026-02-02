@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:blacksmith",
   "rarity": "common",
-  "defaultDisplay": "the Blacksmith"
+  "defaultDisplay": "title.titles.mce2.blacksmith"
 }

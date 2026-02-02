@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:goblinbane",
   "rarity": "rare",
-  "defaultDisplay": "Blood Champion"
+  "defaultDisplay": "title.titles.mce2.goblinbane"
 }

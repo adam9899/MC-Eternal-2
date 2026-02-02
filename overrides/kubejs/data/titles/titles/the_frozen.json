@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:the_frozen",
   "rarity": "rare",
-  "defaultDisplay": "the Frozen"
+  "defaultDisplay": "title.titles.mce2.the_frozen"
 }

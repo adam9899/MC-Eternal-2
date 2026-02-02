@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:immortal",
   "rarity": "rare",
-  "defaultDisplay": "the Ancient"
+  "defaultDisplay": "title.titles.mce2.the_immortal"
 }

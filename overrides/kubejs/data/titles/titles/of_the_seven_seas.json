@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:seven_seas",
   "rarity": "uncommon",
-  "defaultDisplay": "of The Seven Seas"
+  "defaultDisplay": "title.titles.mce2.of_the_seven_seas"
 }

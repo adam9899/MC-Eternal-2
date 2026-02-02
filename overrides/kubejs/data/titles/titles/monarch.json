@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:origin",
   "rarity": "rare",
-  "defaultDisplay": "the Monarch of Steel"
+  "defaultDisplay": "title.titles.mce2.monarch"
 }

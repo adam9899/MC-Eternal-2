@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:chef",
   "rarity": "uncommon",
-  "defaultDisplay": "the Chef"
+  "defaultDisplay": "title.titles.mce2.chef"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:timelord",
   "rarity": "rare",
-  "defaultDisplay": "Timelord"
+  "defaultDisplay": "title.titles.mce2.timelord"
 }

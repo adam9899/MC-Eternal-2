@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:engineer",
   "rarity": "common",
-  "defaultDisplay": "the Engineer"
+  "defaultDisplay": "title.titles.mce2.rocket_scientist"
 }

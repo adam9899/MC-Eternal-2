@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:ashen",
   "rarity": "rare",
-  "defaultDisplay": "of the Ashen Breath"
+  "defaultDisplay": "title.titles.mce2.ashen_breath"
 }

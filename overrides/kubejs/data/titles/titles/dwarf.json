@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:dwarf",
   "rarity": "common",
-  "defaultDisplay": "the Dwarf"
+  "defaultDisplay": "title.titles.mce2.dwarf"
 }
