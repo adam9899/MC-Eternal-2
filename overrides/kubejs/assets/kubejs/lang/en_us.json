@@ -1,4 +1,7 @@
 {
+    "advancement.minecraft.adventure.contract_advancement.title": "Dubious Legal Matters",
+    "advancement.minecraft.adventure.contract_advancement.description": "I hope you got legal advice before signing this damn thing..",
+
     "item.kubejs.corporea_crystal": "§dCorporeality Crystal",
     "item.kubejs.artifact_beating_heart": "§3Mysterious Object",
     "item.kubejs.mobdrop_endermanheart_beating": "§7Wither Heart",
@@ -811,7 +814,7 @@
     "goblin.vein.common.lore6.rat_receipt": "YOU WOULDN'T STEAL A TELEVISION",
     "goblin.vein.common.lore7.rat_receipt": "SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!",
     "goblin.vein.common.name.rat_upgrade_skooma": "Rat Upgrade: Skooma",
-    
+
     "title.titles.mce2.abyss": "the Greedy",
     "title.titles.mce2.alchemist": "the Alchemist",
     "title.titles.mce2.angel": "the Enlightened",
