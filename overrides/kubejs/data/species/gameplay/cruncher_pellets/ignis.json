@@ -1,0 +1,11 @@
+{
+  "type": "irons_spellbooks:dead_king",
+  "item": {
+    "id": "irons_spellbooks:blank_rune",
+    "Count": 1
+  },
+  "minTries": 1,
+  "maxTries": 4
+
+}
+

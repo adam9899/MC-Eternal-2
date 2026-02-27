@@ -1,0 +1,115 @@
+{
+  "general": {
+    "action": "ntgl:gun",
+    "rate": 10,
+    "gripType": "ntgl:one_handed",
+    "maxAmmo": 6,
+    "fireTimer": 1,
+    "oneHanded": true,
+    "fullCharge": true,
+    "equipTime": 0,
+    "reloadTime": 65,
+    "reloadAmount": 1,
+    "recoilAngle": -7.0,
+    "recoilAdsReduction": 0.15,
+    "alwaysSpread": true,
+    "enchantable": false,
+    "spread": 1.0,
+    "ammo": [
+      "cgs:round_revolver",
+      "cgs:round_revolver_piercing"
+    ]
+  },
+  "ammoData": {
+    "cgs:round_revolver": {
+      "projectile": {
+        "visible": true,
+        "damage": 15.0,
+        "size": 0.2,
+        "speed": 20.0,
+        "life": 180
+      }
+    },
+    "cgs:round_revolver_piercing": {
+      "ammo": {
+        "type": "ntgl:piercing"
+      },
+      "projectile":{
+        "visible": true,
+        "pierceLevel": 2,
+        "damage": 20.0,
+        "size": 0.2,
+        "speed": 20.0,
+        "life": 180
+      }
+    }
+  },
+  "modes": {
+    "ntgl:secondary": {
+      "general": {
+        "action": "ntgl:scope"
+      },
+      "zoom": {
+        "offset": [-0.05, 3.6, 0.0],
+        "fovModifier": 0.7,
+        "movementModifier": 0.5
+      }
+    }
+  },
+  "animations": {
+    "ntgl:reload": "ntgl:revolver_reload"
+  },
+  "sounds": {
+    "fire"          : "cgs:gun.revolver.fire",
+    "chamber_open"  : "cgs:gun.revolver.chamber_open",
+    "chamber_close" : "cgs:gun.revolver.chamber_close",
+    "rounds_in"     : "cgs:gun.revolver.rounds_in",
+    "rounds_out"    : "cgs:gun.revolver.rounds_out"
+  },
+  "modules": {
+    "attachmentScreen": true,
+    "attachments": {
+      "ntgl:scope": [
+        {
+          "name": "scope",
+          "item": "cgs:scope",
+          "offset": [ 0, 1.1, 0]
+        }
+      ],
+      "ntgl:stock": [
+        {
+          "name": "stock",
+          "item": "cgs:stock"
+        }
+      ],
+      "ntgl:barrel": [
+        {
+          "name": "long_barrel",
+          "item": "cgs:long_barrel",
+          "hide": ["muzzle_sight"]
+        },
+        {
+          "name": "silencer",
+          "item": "cgs:silencer"
+        }
+      ],
+      "cgs:chamber": [
+        {
+          "name": "belt",
+          "hide": ["chamber", "bullets"],
+          "item": "cgs:round_belt"
+        }
+      ],
+      "cgs:frame": [
+        {
+          "name": "auto",
+          "bones": [
+            "piston_head",
+            "piston"
+          ],
+          "item": "cgs:auto_fire"
+        }
+      ]
+    }
+  }
+}

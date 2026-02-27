@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "mining"
 	group: "12BCDDCCCA65FD77"
-	icon: "minecraft:raw_gold"
+	icon: {
+		Count: 1
+		id: "gonefishing:sunken_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "1E2DE0DC5D73868D"
 	images: [
 		{
@@ -39,15 +45,15 @@
 			y: -2.5714285714285694d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4789D17B88722641"]
 			description: [
-				"{chapter.3.quest.3.description.1}"
+				"{ftbquests.chapter.mining.quest4156035262804243701.description1}"
 				""
-				"&eTip:&r Tools enchanted with Vein Miner will be able to excavate! You can craft Amethyst Tools which come pre-enchanted!"
+				"{ftbquests.chapter.mining.quest4156035262804243701.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "39AD340D4971B4F5"
@@ -70,7 +76,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.3.quest.3.subtitle}"
+			subtitle: "{ftbquests.chapter.mining.quest4156035262804243701.subtitle}"
 			tasks: [{
 				id: "3486D6580A337C12"
 				item: {
@@ -107,40 +113,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.3.quest.4.subtitle}"
+			subtitle: "{ftbquests.chapter.mining.quest1636486434105046254.subtitle}"
 			tasks: [{
 				id: "6846CE31AE41E313"
 				item: {
@@ -157,7 +140,7 @@
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
-			description: ["{chapter.3.quest.5.description.1}"]
+			description: ["{ftbquests.chapter.mining.quest5924949272282777685.description1}"]
 			id: "5239A5F8AE9FC855"
 			rewards: [
 				{
@@ -180,27 +163,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -214,7 +180,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.3.quest.5.subtitle}"
+			subtitle: "{ftbquests.chapter.mining.quest5924949272282777685.subtitle}"
 			tasks: [{
 				id: "65193D8BFFCA4291"
 				item: {
@@ -259,27 +225,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -295,7 +244,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.3.quest.6.subtitle}"
+			subtitle: "{ftbquests.chapter.mining.quest1183684409501818541.subtitle}"
 			tasks: [
 				{
 					count: 32L
@@ -328,7 +277,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.3.quest.6.title}"
+			title: "{ftbquests.chapter.mining.quest1183684409501818541.title}"
 			x: -0.8d
 			y: -0.8d
 		}
@@ -357,24 +306,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -391,7 +326,7 @@
 								Value: -0.6f
 							}
 							display: {
-								Name: "{\"text\":\"Simon's Lucky Rock\"}"
+								Name: "{\"translate\":\"name.mce2.mining.1\"}"
 							}
 						}
 					}
@@ -407,7 +342,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.3.quest.7.subtitle}"
+			subtitle: "{ftbquests.chapter.mining.quest8193720394899353076.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -466,7 +401,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.3.quest.7.title}"
+			title: "{ftbquests.chapter.mining.quest8193720394899353076.title}"
 			x: 0.8d
 			y: -0.8d
 		}
@@ -505,27 +440,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -541,7 +459,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.3.quest.8.subtitle}"
+			subtitle: "{ftbquests.chapter.mining.quest7778967938915916782.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "7FAC63CEA2FA1521"
@@ -556,13 +474,13 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.3.quest.8.title}"
+			title: "{ftbquests.chapter.mining.quest7778967938915916782.title}"
 			x: -1.221428571428575d
 			y: -0.3795918367346971d
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
-			description: ["&d&o/give xephos 46 64"]
+			description: ["{ftbquests.chapter.mining.quest9041398380452631684.description1}"]
 			hide_dependency_lines: true
 			id: "7D797FEC73ABD484"
 			rewards: [
@@ -572,27 +490,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -608,11 +509,11 @@
 							HideFlags: 3
 							display: {
 								Lore: [
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§o\\\"Once belonged to the legendary dwarf Honeydew, it was used for digging holes.. allegedly.\\\"\"}"
-									"{\"text\":\"§7§o\\\"Forged by the finest Dwarven blacksmiths from Khaz Modan!\\\"\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.mining.1\"}"
+									"{\"translate\":\"lore.mce2.mining.2\"}"
 								]
-								Name: "{\"text\":\"§eDwarven Pickaxe\"}"
+								Name: "{\"translate\":\"name.mce2.mining.2\"}"
 							}
 							etstlib_tool_uuid: "ec5f2ea8-d0d6-4b26-ba94-9b0853f6a4a5"
 							tic_broken: 0b
@@ -713,7 +614,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "Mine 4664 Blocks of Stone"
+			subtitle: "{ftbquests.chapter.mining.quest9041398380452631684.subtitle}"
 			tasks: [{
 				block: "minecraft:stone"
 				block_type: 0
@@ -722,7 +623,7 @@
 				type: "questsadditions:break"
 				value: 4664L
 			}]
-			title: "{chapter.3.quest.9.title}"
+			title: "{ftbquests.chapter.mining.quest9041398380452631684.title}"
 			x: 1.2642857142857196d
 			y: -0.3795918367346971d
 		}
@@ -732,7 +633,7 @@
 				"106D4AB2F2861EAD"
 				"6BF472202E3C5BEE"
 			]
-			description: ["{chapter.3.quest.10.description.1}"]
+			description: ["{ftbquests.chapter.mining.quest6410433765430371974.description1}"]
 			hide_dependency_lines: true
 			id: "58F66F8BB4A5A686"
 			rewards: [
@@ -742,27 +643,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -777,7 +661,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.3.quest.10.subtitle}"
+			subtitle: "{ftbquests.chapter.mining.quest6410433765430371974.subtitle}"
 			tasks: [{
 				biome: "minecraft:dripstone_caves"
 				icon: {
@@ -786,7 +670,7 @@
 					tag: { }
 				}
 				id: "681D67B3FE0C4388"
-				title: "{chapter.3.quest.10.task.1.title}"
+				title: "{ftbquests.chapter.mining.quest6410433765430371974.task.7502266577028137864.title}"
 				type: "biome"
 			}]
 			x: 2.0d
@@ -798,7 +682,7 @@
 				"106D4AB2F2861EAD"
 				"6BF472202E3C5BEE"
 			]
-			description: ["{chapter.3.quest.11.description.1}"]
+			description: ["{ftbquests.chapter.mining.quest3281582345321303253.description1}"]
 			hide_dependency_lines: true
 			id: "2D8A85C1AA11CCD5"
 			rewards: [
@@ -807,7 +691,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "1751F3FB18D062B6"
-					title: "&eUnlock Title:&r the Dwarf"
+					title: "{ftbquests.chapter.mining.quest3281582345321303253.reward.1680392395764556470.title}"
 					type: "command"
 				}
 				{
@@ -816,27 +700,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -851,7 +718,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.3.quest.11.subtitle}"
+			subtitle: "{ftbquests.chapter.mining.quest3281582345321303253.subtitle}"
 			tasks: [{
 				biome: "minecraft:lush_caves"
 				icon: {
@@ -860,14 +727,15 @@
 					tag: { }
 				}
 				id: "3FF3FC9541AFDB07"
-				title: "{chapter.3.quest.11.task.1.title}"
+				title: "{ftbquests.chapter.mining.quest3281582345321303253.task.4608304561712519943.title}"
 				type: "biome"
 			}]
 			x: -2.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["39AD340D4971B4F5"]
+			dependencies: ["58F45881D48D9534"]
+			description: ["{ftbquests.chapter.mining.quest3460186953449756008.description1}"]
 			hide_dependency_lines: true
 			id: "30050DB388D05568"
 			rewards: [
@@ -877,27 +745,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -924,74 +775,60 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Find all rare underground biomes"
+			subtitle: "{ftbquests.chapter.mining.quest3460186953449756008.subtitle}"
 			tasks: [
 				{
-					biome: "alexscaves:candy_cavity"
-					icon: {
-						Count: 1
-						id: "alexscaves:candy_cane"
-						tag: { }
-					}
-					id: "417CF93DC1671219"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_primordial_caves"
+					criterion: ""
+					id: "2405B19FE084E32E"
+					type: "advancement"
 				}
 				{
-					biome: "alexscaves:abyssal_chasm"
-					icon: {
-						Count: 1
-						id: "alexscaves:submarine"
-						tag: { }
-					}
-					id: "08BCA2B7F1D04C48"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+					criterion: ""
+					id: "73F1F7F8116084B9"
+					type: "advancement"
 				}
 				{
-					biome: "alexscaves:forlorn_hollows"
-					icon: {
-						Count: 1
-						id: "alexscaves:pure_darkness"
-						tag: { }
-					}
-					id: "6424937262C7B192"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_toxic_caves"
+					criterion: ""
+					id: "58669C73C47A14FA"
+					type: "advancement"
 				}
 				{
-					biome: "alexscaves:magnetic_caves"
-					icon: {
-						Count: 1
-						id: "alexscaves:quarry_smasher"
-						tag: { }
-					}
-					id: "631F3CFC99808BC1"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+					criterion: ""
+					id: "267C8A94E3E0D3DE"
+					type: "advancement"
 				}
 				{
-					biome: "alexscaves:primordial_caves"
-					icon: {
-						Count: 1
-						id: "alexscaves:tremorsaurus_egg"
-						tag: { }
-					}
-					id: "1BAA35C1387E24A3"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_candy_cavity"
+					criterion: ""
+					id: "3492D870FB1E804A"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+					criterion: ""
+					id: "50875908566D7E2F"
+					type: "advancement"
 				}
 			]
-			title: "&6An Uncommon Adventure!"
+			title: "{ftbquests.chapter.mining.quest3460186953449756008.title}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
 			description: [
-				"The &eTunnel Digger&r can be used to quickly clear out a mineshaft or tunnel. "
+				"{ftbquests.chapter.mining.quest8033327730336826704.description1}"
 				""
-				"It will dig in a 1x3 radius but only when fueled and used by a Player!"
+				"{ftbquests.chapter.mining.quest8033327730336826704.description2}"
 				""
-				"Additionally you can aquire &dAmethyst&r to increase the speed of your &eTunnel Digger!&r"
-				"You can also use different &eDrill Upgrades&r to increase your efficiency!"
+				"{ftbquests.chapter.mining.quest8033327730336826704.description3}"
+				"{ftbquests.chapter.mining.quest8033327730336826704.description4}"
 				""
-				"&eTip:&r Holding &eSHIFT&r will dig 1 Block below you too!"
+				"{ftbquests.chapter.mining.quest8033327730336826704.description5}"
 			]
 			hide_dependency_lines: true
 			id: "6F7C1D0223058550"
@@ -1029,27 +866,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1058,7 +878,7 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Craft a &eTunnel Digger&r"
+			subtitle: "{ftbquests.chapter.mining.quest8033327730336826704.subtitle}"
 			tasks: [{
 				id: "310FA1963FDAD265"
 				item: {
@@ -1068,18 +888,18 @@
 				}
 				type: "item"
 			}]
-			title: "&eMining With Style!"
+			title: "{ftbquests.chapter.mining.quest8033327730336826704.title}"
 			x: -1.9761904761904745d
 			y: 2.761904761904752d
 		}
 		{
 			dependencies: ["5239A5F8AE9FC855"]
 			description: [
-				"&eThe Mining Gadget MK1 &ris a device that shoots a continuous high-powered beam of pure energy. "
-				"This beam is capable of mining blocks at high speed and can be upgraded with many different upgrades for different playstyles and preferences!"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description1}"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description2}"
 				""
-				"&6Hint:&r You can upgrade your Mining Gadget with a &eModification Station"
-				"&eTip:&r This item needs to be charged with &d\"FE - Forge Energy\"&r"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description3}"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description4}"
 			]
 			hide_dependency_lines: true
 			id: "272D7E9E5275806D"
@@ -1095,27 +915,10 @@
 						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1132,26 +935,140 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Craft a &eMining Gadget MK1"
+			subtitle: "{ftbquests.chapter.mining.quest2823051759884533869.subtitle}"
 			tasks: [{
 				id: "56AE37E65F02C816"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:mininggadgets"
 					}
-					id: "mininggadgets:mininggadget_simple"
-					tag: { }
 				}
 				only_from_crafting: true
+				title: "{ftbquests.chapter.mining.quest2823051759884533869.task.6245991195785480214.title}"
 				type: "item"
 			}]
-			title: "&eMining With Style (II)"
+			title: "{ftbquests.chapter.mining.quest2823051759884533869.title}"
 			x: 2.0d
 			y: 2.761904761904752d
 		}
+		{
+			description: [
+				"{ftbquests.chapter.mining.quest4971210052405956054.description1}"
+				""
+				"{ftbquests.chapter.mining.quest4971210052405956054.description2}"
+				""
+				"{ftbquests.chapter.mining.quest4971210052405956054.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					Rainbow: 1b
+				}
+			}
+			id: "44FD49343D820DD6"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "017EA6371E3A5BE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.mining.quest4971210052405956054.subtitle}"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/root"
+					criterion: ""
+					icon: "minecraft:stripped_oak_log"
+					id: "53C881772ABEEB80"
+					title: "{ftbquests.chapter.mining.quest4971210052405956054.task.6037217649308396416.title}"
+					type: "advancement"
+				}
+				{
+					id: "1F4F38E35DA16E30"
+					item: "alexscaves:spelunkery_table"
+					type: "item"
+				}
+				{
+					advancement: "alexscaves:alexscaves/cave_tablet"
+					criterion: ""
+					id: "71574DF96C9B64BF"
+					title: "{ftbquests.chapter.mining.quest4971210052405956054.task.8167082182924002495.title}"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.mining.quest4971210052405956054.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44FD49343D820DD6"]
+			description: [
+				"{ftbquests.chapter.mining.quest6409845484295132468.description1}"
+				""
+				"{ftbquests.chapter.mining.quest6409845484295132468.description2}"
+				""
+				"{ftbquests.chapter.mining.quest6409845484295132468.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.mining.quest6409845484295132468.description4}"
+				""
+				"{ftbquests.chapter.mining.quest6409845484295132468.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_map"
+				tag: {
+					Filled: 1b
+				}
+			}
+			id: "58F45881D48D9534"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5CF2837863AD8D03"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "43098D38126E69A4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mining.quest6409845484295132468.subtitle}"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/cave_codex"
+					criterion: ""
+					id: "7E6FB54AE3ED3399"
+					title: "{ftbquests.chapter.mining.quest6409845484295132468.task.9110699904449983385.title}"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/cave_map"
+					criterion: ""
+					id: "567F0EEFBE248A92"
+					title: "{ftbquests.chapter.mining.quest6409845484295132468.task.6232716832154094226.title}"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.mining.quest6409845484295132468.title}"
+			x: 1.0d
+			y: 3.0d
+		}
 	]
-	title: "{chapter.3.title}"
+	title: "{ftbquests.chapter.mining.title}"
 }

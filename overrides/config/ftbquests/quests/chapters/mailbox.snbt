@@ -1,0 +1,768 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "mailbox"
+	group: "12BCDDCCCA65FD77"
+	icon: "mighty_mail:mangrove_mail_box"
+	id: "41A25067DC4A9F95"
+	images: [
+		{
+			height: 10.0d
+			image: "advancementframes:block/board_back"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.3d
+			image: "modpack:textures/minecraft_title_mailbox.png"
+			rotation: 0.0d
+			width: 8.507462686567164d
+			x: 1.0d
+			y: 7.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"{ftbquests.chapter.mailbox.quest6181153584612434824.description1}"
+				"{ftbquests.chapter.mailbox.quest6181153584612434824.description2}"
+				"{ftbquests.chapter.mailbox.quest6181153584612434824.image0}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "kubejs:elegant_letter"
+				tag: { }
+			}
+			id: "55C7DE6FA0F4E388"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: "create:orange_toolbox"
+					id: "1E4F523BAB1211F7"
+					table_id: 6664182306022005570L
+					title: "{ftbquests.chapter.mailbox.quest6181153584612434824.reward.2184054760524616183.title}"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "quark:crate"
+					id: "6B1393250318C85B"
+					table_id: 7614141430405098414L
+					title: "{ftbquests.chapter.mailbox.quest6181153584612434824.reward.7715672373790820443.title}"
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "mekanism:cardboard_box"
+					id: "042BBCE86D4E40C7"
+					title: "{ftbquests.chapter.mailbox.quest6181153584612434824.reward.300541506602549447.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
+					console: true
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "kubejs:mossy_letter"
+						tag: { }
+					}
+					id: "4FB11B31FDF418A1"
+					title: "{ftbquests.chapter.mailbox.quest6181153584612434824.reward.5742400901402073249.title}"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.mailbox.quest6181153584612434824.subtitle}"
+			tasks: [{
+				elapsedTime: 28800L
+				icon: {
+					Count: 1
+					id: "kubejs:elegant_letter"
+					tag: { }
+				}
+				id: "7B39F363C2088C46"
+				title: "{ftbquests.chapter.mailbox.quest6181153584612434824.task.8879395750120295494.title}"
+				type: "questsadditions:time"
+			}]
+			title: "{ftbquests.chapter.mailbox.quest6181153584612434824.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"{ftbquests.chapter.mailbox.quest2290616990632206772.description1}"
+				"{ftbquests.chapter.mailbox.quest2290616990632206772.image0}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "1FC9E8044B1B61B4"
+			invisible: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "4663D189BEB1D713"
+					table_id: 6664182306022005570L
+					title: "{ftbquests.chapter.mailbox.quest2290616990632206772.reward.5072127994889361171.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "2B26880DB70189CB"
+					title: "{ftbquests.chapter.mailbox.quest2290616990632206772.reward.3109322185232189899.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "2AAC15C9FF587A16"
+					title: "{ftbquests.chapter.mailbox.quest2290616990632206772.reward.3074856602903804438.title}"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "mekanism:cardboard_box"
+					id: "5058D418D42D2D0C"
+					table_id: 8813467126958483284L
+					title: "{ftbquests.chapter.mailbox.quest2290616990632206772.reward.5789610524088806668.title}"
+					type: "choice"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "11E5CB5A450D1E78"
+					ignore_reward_blocking: true
+					title: "{ftbquests.chapter.mailbox.quest2290616990632206772.reward.1289660456877497976.title}"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3A4937EAD954AD94"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.mailbox.quest2290616990632206772.subtitle}"
+			tasks: [{
+				days: 2
+				icon: {
+					Count: 1
+					id: "alexscaves:pure_darkness"
+					tag: { }
+				}
+				id: "6EE9BF1E4EB1303F"
+				title: "{ftbquests.chapter.mailbox.quest2290616990632206772.task.7992129150635814975.title}"
+				type: "questsadditions:days"
+			}]
+			title: "{ftbquests.chapter.mailbox.quest2290616990632206772.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"{ftbquests.chapter.mailbox.quest2316008465948665614.description1}"
+				""
+				"{ftbquests.chapter.mailbox.quest2316008465948665614.description2}"
+				""
+				"{ftbquests.chapter.mailbox.quest2316008465948665614.description3}"
+				""
+				"{ftbquests.chapter.mailbox.quest2316008465948665614.description4}"
+				""
+				"{ftbquests.chapter.mailbox.quest2316008465948665614.description5}"
+				""
+				"{ftbquests.chapter.mailbox.quest2316008465948665614.description6}"
+				""
+				"{ftbquests.chapter.mailbox.quest2316008465948665614.description7}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:scorched_letter"
+			id: "20241D6DD5AAE70E"
+			invisible: true
+			rewards: [
+				{
+					id: "0FE39D54AB3123B9"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							AntiqueInk: 1b
+							author: "Cheferatu"
+							display: {
+								Lore: ["[\"\",{\"translate\":\"lore.mce2.mailbox.1\",\"italic\":false,\"color\":\"white\"}]"]
+								Name: "[\"\",{\"translate\":\"lore.mce2.mailbox.2\",\"italic\":false,\"color\":\"red\"}]"
+							}
+							generation: 3
+							pages: [
+								"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.1\"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.2\"}],\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"translate\":\"page.mce2.mailbox.3\"}"
+							]
+							title: "To Serve Man"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02B2890D310DA2BA"
+					item: {
+						Count: 1
+						id: "vampiresneedumbrellas:magenta_gold_umbrella"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.3\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "3355346697CAE973"
+					title: "{ftbquests.chapter.mailbox.quest2316008465948665614.reward.3698920284192696691.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "3F4DF0D157D587F8"
+					title: "{ftbquests.chapter.mailbox.quest2316008465948665614.reward.4561566779508623352.title}"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.mailbox.quest2316008465948665614.subtitle}"
+			tasks: [{
+				advancement: "vampirism:vampire/become_vampire"
+				criterion: ""
+				id: "3729DE257CBBB5D9"
+				title: "{ftbquests.chapter.mailbox.quest2316008465948665614.task.3974952398719006169.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.mailbox.quest2316008465948665614.title}"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: ["{ftbquests.chapter.mailbox.quest8278577983420765017.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "kubejs:elegant_letter"
+				tag: { }
+			}
+			id: "72E36AD06B2A1359"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "2829A8EA204C2F6D"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							AttributeModifiers: [{
+								Amount: -0.002d
+								AttributeName: "generic.movement_speed"
+								Name: "1751425048388"
+								Slot: "chest"
+								UUID: [I;
+									-12561
+									40661
+									214620
+									-81322
+								]
+							}]
+							Damage: 0
+							HideFlags: 128
+							Trim: {
+								material: "amethyst"
+								pattern: "vex"
+							}
+							display: {
+								Lore: [
+									"[\"\",{\"translate\":\"lore.mce2.mailbox.3\",\"italic\":false}]"
+									"[\"Not the correct size.\"]"
+								]
+								Name: "[\"\",{\"translate\":\"name.mce2.mailbox.1\",\"italic\":false,\"color\":\"aqua\"}]"
+								color: 15961002
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "artifacts:crystal_heart"
+					id: "332B557C155F4356"
+					title: "{ftbquests.chapter.mailbox.quest8278577983420765017.reward.3687134711355753302.title}"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.4\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "235496D94F1A7F34"
+					title: "{ftbquests.chapter.mailbox.quest8278577983420765017.reward.2545825549450379060.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "7680F846441F2853"
+					title: "{ftbquests.chapter.mailbox.quest8278577983420765017.reward.8539097874168752211.title}"
+					type: "command"
+				}
+			]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.mailbox.quest8278577983420765017.subtitle}"
+			tasks: [{
+				id: "5E15CE3842AD84D6"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mailbox.quest8278577983420765017.title}"
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			description: ["{ftbquests.chapter.mailbox.quest6984153521787833639.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "kubejs:elegant_letter"
+				tag: { }
+			}
+			id: "60ECB29FDAF50D27"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "70304ECA7E4A888C"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:discount_voucher"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -1.0f
+							}
+							display: {
+								Name: "[\"\",{\"translate\":\"name.mce2.mailbox.2\",\"italic\":false,\"color\":\"gray\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "artifacts:crystal_heart"
+					id: "60CD9FC58EB8EBDD"
+					title: "{ftbquests.chapter.mailbox.quest6984153521787833639.reward.6975407068718623709.title}"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.4\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "53EC069D4D9D9860"
+					title: "{ftbquests.chapter.mailbox.quest6984153521787833639.reward.6047215672333539424.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "4ADF9B64B6E6822C"
+					title: "{ftbquests.chapter.mailbox.quest6984153521787833639.reward.5395201735480738348.title}"
+					type: "command"
+				}
+			]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.mailbox.quest6984153521787833639.subtitle}"
+			tasks: [{
+				id: "30496B21C5BFE3B4"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mailbox.quest6984153521787833639.title}"
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"{ftbquests.chapter.mailbox.quest3915190171488080603.description1}"
+				""
+				"{ftbquests.chapter.mailbox.quest3915190171488080603.description2}"
+				""
+				"{ftbquests.chapter.mailbox.quest3915190171488080603.description3}"
+				"{ftbquests.chapter.mailbox.quest3915190171488080603.image0}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "36558CB7A7A5D2DB"
+			invisible: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "1672991E815731B8"
+					table_id: 6664182306022005570L
+					title: "{ftbquests.chapter.mailbox.quest3915190171488080603.reward.1617523572477473208.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "064D7537CFC8F666"
+					title: "{ftbquests.chapter.mailbox.quest3915190171488080603.reward.454148020003993190.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "4448B64A29787274"
+					title: "{ftbquests.chapter.mailbox.quest3915190171488080603.reward.4920383022541861492.title}"
+					type: "command"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "50BC0887AEB9A600"
+					ignore_reward_blocking: true
+					title: "{ftbquests.chapter.mailbox.quest3915190171488080603.reward.5817534197500847616.title}"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F5EE0EB2149A569"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.mailbox.quest3915190171488080603.subtitle}"
+			tasks: [{
+				days: 10
+				icon: "minecraft:red_bed"
+				id: "50DF080BE9915238"
+				type: "questsadditions:days"
+			}]
+			title: "{ftbquests.chapter.mailbox.quest3915190171488080603.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"{ftbquests.chapter.mailbox.quest7070429985856684246.description1}"
+				""
+				"{ftbquests.chapter.mailbox.quest7070429985856684246.description2}"
+				""
+				"{ftbquests.chapter.mailbox.quest7070429985856684246.description3}"
+				"{ftbquests.chapter.mailbox.quest7070429985856684246.image0}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "621F369C844200D6"
+			invisible: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "7A306BFC51FBA4C0"
+					table_id: 6664182306022005570L
+					title: "{ftbquests.chapter.mailbox.quest7070429985856684246.reward.8804656002960696512.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "146C7809CEA7BC2F"
+					title: "{ftbquests.chapter.mailbox.quest7070429985856684246.reward.1471683161760447535.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "38FC837947EEE185"
+					title: "{ftbquests.chapter.mailbox.quest7070429985856684246.reward.4106301517176168837.title}"
+					type: "command"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "3F1F737B8D28F24A"
+					ignore_reward_blocking: true
+					title: "{ftbquests.chapter.mailbox.quest7070429985856684246.reward.4548481123153932874.title}"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4725AF9A0E8EC9FB"
+					item: "artifacts:kitty_slippers"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.mailbox.quest7070429985856684246.subtitle}"
+			tasks: [{
+				days: 25
+				icon: "minecraft:red_bed"
+				id: "0CD27A657B7A1CB3"
+				type: "questsadditions:days"
+			}]
+			title: "{ftbquests.chapter.mailbox.quest7070429985856684246.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"{ftbquests.chapter.mailbox.quest2890802560075951294.description1}"
+				""
+				"{ftbquests.chapter.mailbox.quest2890802560075951294.description2}"
+				"{ftbquests.chapter.mailbox.quest2890802560075951294.description3}"
+				"{ftbquests.chapter.mailbox.quest2890802560075951294.description4}"
+				""
+				"{ftbquests.chapter.mailbox.quest2890802560075951294.description5}"
+				"{ftbquests.chapter.mailbox.quest2890802560075951294.image0}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "281E319CBD1DECBE"
+			invisible: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "320310BDB26C5B7A"
+					table_id: 6664182306022005570L
+					title: "{ftbquests.chapter.mailbox.quest2890802560075951294.reward.3603742533754837882.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "35AE0A14808F4193"
+					title: "{ftbquests.chapter.mailbox.quest2890802560075951294.reward.3868040213130330515.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "546E8AF2AC43C2BF"
+					title: "{ftbquests.chapter.mailbox.quest2890802560075951294.reward.6083952921500959423.title}"
+					type: "command"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "7B039CEB3414546F"
+					ignore_reward_blocking: true
+					title: "{ftbquests.chapter.mailbox.quest2890802560075951294.reward.8864101025600263279.title}"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0A29897B65AFA4CB"
+					item: "artifacts:chorus_totem"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.mailbox.quest2890802560075951294.subtitle}"
+			tasks: [{
+				days: 50
+				icon: "minecraft:red_bed"
+				id: "583B7250A85BADE2"
+				type: "questsadditions:days"
+			}]
+			title: "{ftbquests.chapter.mailbox.quest2890802560075951294.title}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description1}"
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description2}"
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description3}"
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description4}"
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description5}"
+				""
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description6}"
+				""
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description7}"
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description8}"
+				""
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description9}"
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.description10}"
+				"{ftbquests.chapter.mailbox.quest3977241130592833083.image0}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:scorched_letter"
+			id: "3731FFBC670F0E3B"
+			invisible: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "08E8787B7C82A4B8"
+					table_id: 6664182306022005570L
+					title: "{ftbquests.chapter.mailbox.quest3977241130592833083.reward.641895418665542840.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "47DD182236A8ED78"
+					title: "{ftbquests.chapter.mailbox.quest3977241130592833083.reward.5178321681770933624.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "033F0F69CCDC4F72"
+					title: "{ftbquests.chapter.mailbox.quest3977241130592833083.reward.233922652729528178.title}"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "77037CA60B6FF2E5"
+					ignore_reward_blocking: true
+					title: "{ftbquests.chapter.mailbox.quest3977241130592833083.reward.8575835168041857765.title}"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "15309DB51D4A7937"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "lavafishing:prometheus_bounty"
+					id: "46A757E425DD62C2"
+					table_id: 1718805351174656688L
+					title: "{ftbquests.chapter.mailbox.quest3977241130592833083.reward.5091134541165060802.title}"
+					type: "choice"
+				}
+				{
+					id: "2DEA5D18EF07D7A3"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							AttributeModifiers: [{
+								Amount: -0.002d
+								AttributeName: "generic.movement_speed"
+								Name: "1751425048388"
+								Slot: "chest"
+								UUID: [I;
+									-12561
+									40661
+									214620
+									-81322
+								]
+							}]
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 4s
+							}]
+							HideFlags: 128
+							Trim: {
+								material: "amethyst"
+								pattern: "vex"
+							}
+							display: {
+								Lore: [
+									"[\"\",{\"translate\":\"lore.mce2.mailbox.3\",\"italic\":false}]"
+									"[\"Not the correct size.\"]"
+								]
+								Name: "[\"\",{\"translate\":\"name.mce2.mailbox.1\",\"italic\":false,\"color\":\"aqua\"}]"
+								color: 15961002
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.mailbox.quest3977241130592833083.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				icon: "cataclysm:netherite_effigy"
+				id: "284A3E87AC2C9ECD"
+				title: "{ftbquests.chapter.mailbox.quest3977241130592833083.task.2903201662223818445.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.mailbox.quest3977241130592833083.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	title: "{ftbquests.chapter.mailbox.title}"
+}

@@ -5,7 +5,7 @@
 	filename: "dev"
 	group: "12BCDDCCCA65FD77"
 	id: "3F5F5331D7F0E669"
-	order_index: 6
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -15,26 +15,26 @@
 			id: "757234016AD66E49"
 			rewards: [{
 				auto: "enabled"
-				command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" All of a sudden you feel afraid of the dark... You feel deeply unsettled.. Better stay in the light.. Who knows what lurks in the dark...\"}]"
+				command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.clthe_nether.1\",\"color\":\"dark_red\",\"bold\":true},{\"translate\":\"message.mce2.dev.1\"}]"
 				icon: "autumnity:red_maple_sapling"
 				id: "1A0517AB986A5101"
-				title: "&cOminous Warning"
+				title: "{ftbquests.chapter.dev.quest8462883830474632777.reward.1874930845633630465.title}"
 				type: "command"
 			}]
 			size: 1.0d
-			subtitle: "for developer use"
+			subtitle: "{ftbquests.chapter.dev.quest8462883830474632777.subtitle}"
 			tasks: [{
 				dimension: "midnight:the_midnight"
 				disable_toast: true
 				id: "39D3F87D1451E5A3"
 				type: "dimension"
 			}]
-			title: "pack setup"
+			title: "{ftbquests.chapter.dev.quest8462883830474632777.title}"
 			x: 0.0d
 			y: -0.1d
 		}
 		{
-			description: ["for developer use"]
+			description: ["{ftbquests.chapter.dev.quest4294137544383696301.description1}"]
 			disable_toast: true
 			id: "3B97D75865A88DAD"
 			rewards: [{
@@ -46,8 +46,8 @@
 					tag: {
 						display: {
 							Lore: [
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
-								"{\"text\":\"§7§o\\\"Each Quest Book is meticulously hand printed by The Questmaster! Don't lose it! They take it personally!\\\"\"}"
+								"{\"translate\":\"lore.mce2.bosses.3\"}"
+								"{\"translate\":\"lore.mce2.dev.1\"}"
 							]
 						}
 					}
@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "&eRewards The Player with &dThe Quest Book"
+			subtitle: "{ftbquests.chapter.dev.quest4294137544383696301.subtitle}"
 			tasks: [{
 				block: "minecraft:logs"
 				block_type: 1
@@ -64,19 +64,29 @@
 				type: "questsadditions:break"
 				value: 1L
 			}]
-			title: "&6The Questmasters Gift!"
+			title: "{ftbquests.chapter.dev.quest4294137544383696301.title}"
 			x: 1.0d
 			y: -0.1d
 		}
 		{
 			id: "70147B2F28595BEB"
-			rewards: [{
-				auto: "invisible"
-				command: "/tellraw {p} {\"text\":\"You feel... afraid ... Like something is watching you... Hunting you... Maybe I shouldn't have done that..\",\"italic\":true,\"color\":\"dark_gray\"}"
-				console: true
-				id: "624172FF6FE62976"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.dev.2\",\"italic\":true,\"color\":\"dark_gray\"}"
+					console: true
+					id: "624172FF6FE62976"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add {p} the_desecrator"
+					console: true
+					id: "6C150BA13188A288"
+					team_reward: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "18FF477E06EEDB12"
 				item: {
@@ -115,7 +125,7 @@
 			id: "31EA68E22CCC44CB"
 			rewards: [{
 				auto: "invisible"
-				command: "/tellraw {p} {\"text\":\"Hi! You have started a new world! Amazing! Give it a few minutes for spawn to generate and expect a bit of lag, The rats are building your world!\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Grab a warm drink or something! :D\",\"color\":\"gold\"}]}}"
+				command: "/tellraw {p} {\"translate\":\"message.mce2.dev.3\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"message.mce2.dev.4\",\"color\":\"gold\"}]}}"
 				console: true
 				elevate_perms: true
 				id: "265DF6C4B9A97718"
@@ -167,15 +177,15 @@
 					tag: {
 						display: {
 							Lore: [
-								"{\"text\":\"1x Rat - 24 Hours \" ,\"color\":\"gray\",\"italic\":true}"
-								"{\"text\":\"Status: LATE!\",\"color\":\"red\",\"italic\":true}"
-								"{\"text\":\"RETURN ON TIME OR FACE FINES!\",\"color\":\"dark_red\",\"underlined\":true}"
-								"{\"text\":\"YOU WOULDN'T STEAL A CAR\",\"color\":\"gray\",\"italic\":true}"
-								"{\"text\":\"YOU WOULDN'T STEAL A HANDBAG\",\"color\":\"gray\",\"italic\":true}"
-								"{\"text\":\"YOU WOULDN'T STEAL A TELEVISION\",\"color\":\"gray\",\"italic\":true}"
-								"{\"text\":\"SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.2\" ,\"color\":\"gray\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.3\",\"color\":\"red\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.4\",\"color\":\"dark_red\",\"underlined\":true}"
+								"{\"translate\":\"lore.mce2.dev.5\",\"color\":\"gray\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.6\",\"color\":\"gray\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.7\",\"color\":\"gray\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.8\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}"
 							]
-							Name: "{\"text\":\"Rent-a-Rat Reciept\",\"color\":\"dark_gray\",\"italic\":true}"
+							Name: "{\"translate\":\"name.mce2.dev.1\",\"color\":\"dark_gray\",\"italic\":true}"
 						}
 					}
 				}
@@ -189,27 +199,64 @@
 					tag: {
 						display: {
 							Lore: [
-								"{\"text\":\"§7§o1x Rat - 24 Hours \"}"
-								"{\"text\":\"§4§o§eStatus: §cLATE!\"}"
+								"{\"translate\":\"lore.mce2.dev.9\"}"
+								"{\"translate\":\"lore.mce2.dev.10\"}"
 								"{\"text\":\"\"}"
-								"{\"text\":\"§4§nRETURN ON TIME OR FACE FINES!\"}"
+								"{\"translate\":\"lore.mce2.dev.11\"}"
 								"{\"text\":\"\"}"
-								"{\"text\":\"§7§oYOU WOULDN'T STEAL A CAR\"}"
-								"{\"text\":\"§7§oYOU WOULDN'T STEAL A HANDBAG\"}"
-								"{\"text\":\"§7§oYOU WOULDN'T STEAL A TELEVISION\"}"
-								"{\"text\":\"§7§o§4§lSO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\"}"
+								"{\"translate\":\"lore.mce2.dev.12\"}"
+								"{\"translate\":\"lore.mce2.dev.13\"}"
+								"{\"translate\":\"lore.mce2.dev.14\"}"
+								"{\"translate\":\"lore.mce2.dev.15\"}"
 								"{\"text\":\"\"}"
 							]
-							Name: "{\"text\":\"§8§oRent-a-Rat Reciept\"}"
+							Name: "{\"translate\":\"name.mce2.dev.2\"}"
 						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.dev.quest37721892044573136.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: ["{ftbquests.chapter.dev.quest3872601178615469033.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "quest_loot"
+				}
+			}
+			id: "35BE3E41082253E9"
+			optional: true
+			rewards: [{
+				id: "0ABFCC834230AB28"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						}
+						type: "quest_loot"
 					}
 				}
 				type: "item"
 			}]
-			title: "&eItem Update (AUTO)"
-			x: 0.0d
-			y: 2.0d
+			subtitle: "{ftbquests.chapter.dev.quest3872601178615469033.subtitle}"
+			tasks: [{
+				id: "607465DCA45BABDF"
+				type: "custom"
+			}]
+			title: "{ftbquests.chapter.dev.quest3872601178615469033.title}"
+			x: -1.0d
+			y: 3.0d
 		}
 	]
-	title: "dev"
+	title: "{ftbquests.chapter.dev.title}"
 }

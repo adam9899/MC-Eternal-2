@@ -281,19 +281,27 @@
 			x: 5.865306122448985d
 			y: -2.9952380952380864d
 		}
+		{
+			height: 2.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.8928571428571388d
+			y: -3.0112244897959286d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&3Create&f is a tech mod unlike many others. It allows for custom &dContraptions&f and &dFactories&f to produce and transport goods."
+				"{ftbquests.chapter.create.quest233675188144024673.description1}"
 				""
-				"&eZinc&f is an essential ore found underground in the &2Overworld&f and is used for almost every item in the pack."
+				"{ftbquests.chapter.create.quest233675188144024673.description2}"
 				""
-				"&eTip:&f If you are unsure of how an item works in Create, &6holding W to ponder&f will provide you a visual. "
+				"{ftbquests.chapter.create.quest233675188144024673.description3}"
 				""
-				"&8Chapter Credit: Hyperion_Muffin"
+				"{ftbquests.chapter.create.quest233675188144024673.description4}"
 			]
 			icon: "create:wrench"
 			id: "033E2E587625AC61"
@@ -316,13 +324,13 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "4BD47E6A0A5AB9D5"
-					title: "&eUnlock Title:&r the Engineer"
+					title: "{ftbquests.chapter.create.quest233675188144024673.reward.5464131241812605397.title}"
 					type: "command"
 				}
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Step into the World of Cogs and Contraptions!"
+			subtitle: "{ftbquests.chapter.create.quest233675188144024673.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -337,16 +345,16 @@
 					type: "item"
 				}
 			]
-			title: "&3Create:&r Getting Started"
+			title: "{ftbquests.chapter.create.quest233675188144024673.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14182930D34299CB"]
 			description: [
-				"A &eWater Wheel&f is your first form of power in Create."
+				"{ftbquests.chapter.create.quest5710951661739586505.description1}"
 				""
-				"By placing flowing water, the &eWater Wheel&f will spin creating &eSU."
+				"{ftbquests.chapter.create.quest5710951661739586505.description2}"
 			]
 			icon: "create:water_wheel"
 			id: "4F416047476A33C9"
@@ -357,7 +365,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eWater Wheel"
+			subtitle: "{ftbquests.chapter.create.quest5710951661739586505.subtitle}"
 			tasks: [
 				{
 					id: "0592035E7E56043D"
@@ -375,7 +383,7 @@
 		}
 		{
 			dependencies: ["4F416047476A33C9"]
-			description: ["An alternative to water is &dWind Powered Contraptions&r. When attached to a &eWindmill Bearing&r and made into a contraption they will produce &eSU&r."]
+			description: ["{ftbquests.chapter.create.quest9120586584855191345.description1}"]
 			icon: "create:white_sail"
 			id: "7E92D52D0D7C9F31"
 			rewards: [{
@@ -385,7 +393,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft &eWindmill Sails"
+			subtitle: "{ftbquests.chapter.create.quest9120586584855191345.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -399,7 +407,7 @@
 					type: "item"
 				}
 			]
-			title: "Wind Powered"
+			title: "{ftbquests.chapter.create.quest9120586584855191345.title}"
 			x: -3.0d
 			y: -2.0d
 		}
@@ -408,7 +416,7 @@
 				"74754A564AB73DCF"
 				"4792D04B4063D2BC"
 			]
-			description: ["Interacting with a &6Blaze&r or &6Blaze Spawner&r with an empty &eBlaze Burner&r will capture the &6Blaze&r allowing advanced mixing."]
+			description: ["{ftbquests.chapter.create.quest2476064738462560505.description1}"]
 			icon: "create:blaze_burner"
 			id: "225CBFC2C8EE70F9"
 			rewards: [
@@ -425,27 +433,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -453,7 +444,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Capture a &eBlaze&f in a &eBurner"
+			subtitle: "{ftbquests.chapter.create.quest2476064738462560505.subtitle}"
 			tasks: [
 				{
 					id: "7DD40DDFEE4E9F10"
@@ -466,7 +457,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Resident Fire Demon"
+			title: "{ftbquests.chapter.create.quest2476064738462560505.title}"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -474,11 +465,11 @@
 			dependencies: ["033E2E587625AC61"]
 			dependency_requirement: "one_started"
 			description: [
-				"&eAndesite Casing&r can be made by interacting with a stripped log while holding an &eAndesite Alloy&r."
+				"{ftbquests.chapter.create.quest1447952569879140811.description1}"
 				""
-				"&eMechanical Belts&r are great for transporting items along conveyors in your &dFactory&r. To place a &eMechanical Belt&r, you attach each end to a &eShaft&r."
+				"{ftbquests.chapter.create.quest1447952569879140811.description2}"
 				""
-				"&eTip:&r &eMechanical Belts&r can be used to transfer rotational power horizontally to two &eShafts&r."
+				"{ftbquests.chapter.create.quest1447952569879140811.description3}"
 			]
 			icon: "create:andesite_casing"
 			id: "14182930D34299CB"
@@ -489,7 +480,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Right-Click a &eStripped Log&7 with an &eAlloy"
+			subtitle: "{ftbquests.chapter.create.quest1447952569879140811.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -509,12 +500,12 @@
 					type: "item"
 				}
 			]
-			title: "&3Create:&r Andesite Age"
+			title: "{ftbquests.chapter.create.quest1447952569879140811.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
-			description: ["&6Hint:&f The courtyard has a secret loot room try to find the button!"]
+			description: ["{ftbquests.chapter.create.quest2692908098856690408.description1}"]
 			id: "255F21A5F52022E8"
 			rewards: [
 				{
@@ -530,27 +521,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -558,13 +532,13 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Locate the &3Tinker's Citadel "
+			subtitle: "{ftbquests.chapter.create.quest2692908098856690408.subtitle}"
 			tasks: [{
 				id: "17F781D8E8318184"
 				structure: "idas:tinkers_citadel"
 				type: "structure"
 			}]
-			title: "Anyone home?"
+			title: "{ftbquests.chapter.create.quest2692908098856690408.title}"
 			x: -3.2d
 			y: 0.2d
 		}
@@ -574,9 +548,9 @@
 				"4F416047476A33C9"
 			]
 			description: [
-				"Cogs can double and halve speed when a &eLarge Cog&r is placed next to a &eSmall Cog&r."
+				"{ftbquests.chapter.create.quest2133148273849602703.description1}"
 				""
-				"Placing a &eLarge Cog&r connected to a &eSmall Cogs&r shaft allows a chain of cogs increasing speeds."
+				"{ftbquests.chapter.create.quest2133148273849602703.description2}"
 			]
 			icon: "create:large_cogwheel"
 			id: "1D9A770D9C0B128F"
@@ -594,34 +568,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "The Best Way to Increase Speed"
+			subtitle: "{ftbquests.chapter.create.quest2133148273849602703.subtitle}"
 			tasks: [
 				{
 					id: "62A4ADEFBFCE8900"
@@ -647,20 +604,20 @@
 					type: "advancement"
 				}
 			]
-			title: "&dRatio'd"
+			title: "{ftbquests.chapter.create.quest2133148273849602703.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1D9A770D9C0B128F"]
 			description: [
-				"The &eEncased Fan&r is an important block that allows conversion of materials through various means."
+				"{ftbquests.chapter.create.quest5157413544914047676.description1}"
 				""
-				"Water: This functions as a &6washer&r allowing conversion of some materials (Sand -> Clay)."
+				"{ftbquests.chapter.create.quest5157413544914047676.description2}"
 				""
-				"Lava: This functions as a &6smelter&r allowing infinite smelting for free."
+				"{ftbquests.chapter.create.quest5157413544914047676.description3}"
 				""
-				"Campfire: This functions as a &6cooker&r allowing the cooking of food items."
+				"{ftbquests.chapter.create.quest5157413544914047676.description4}"
 			]
 			icon: "create:encased_fan"
 			id: "4792D04B4063D2BC"
@@ -671,7 +628,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft an &eEncased Fan"
+			subtitle: "{ftbquests.chapter.create.quest5157413544914047676.subtitle}"
 			tasks: [
 				{
 					id: "5B22A2903463CEE8"
@@ -695,11 +652,11 @@
 		{
 			dependencies: ["14182930D34299CB"]
 			description: [
-				"The &eMechanical Press&r is used in a variety of ways."
+				"{ftbquests.chapter.create.quest4658495913253692805.description1}"
 				""
-				"Pressing some ingots on a &eDepot&r will turn the items into their sheet form."
+				"{ftbquests.chapter.create.quest4658495913253692805.description2}"
 				""
-				"Compacting allows the automation of recipes where you compact an item (ie, Iron Blocks) by pressing the items in a &eBasin&r."
+				"{ftbquests.chapter.create.quest4658495913253692805.description3}"
 			]
 			icon: "create:mechanical_press"
 			id: "40A64D59F1186585"
@@ -710,7 +667,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eMechanical Press"
+			subtitle: "{ftbquests.chapter.create.quest4658495913253692805.subtitle}"
 			tasks: [
 				{
 					id: "7EA8C9C4A51E53DC"
@@ -728,7 +685,7 @@
 					type: "item"
 				}
 			]
-			title: "Mechanical Press"
+			title: "{ftbquests.chapter.create.quest4658495913253692805.title}"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -749,27 +706,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -777,7 +717,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Tools Every Engineer Needs"
+			subtitle: "{ftbquests.chapter.create.quest792860478751764061.subtitle}"
 			tasks: [
 				{
 					id: "0C73E35A8DBFCAF0"
@@ -806,15 +746,15 @@
 					type: "item"
 				}
 			]
-			title: "&fTools of the Trade&r &5[Important]"
+			title: "{ftbquests.chapter.create.quest792860478751764061.title}"
 			x: -3.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"The &eMechanical Saw&f can be used to cut down an entire tree in a single chop."
+				"{ftbquests.chapter.create.quest3950657772519101616.description1}"
 				""
-				"When facing upwards, passing Logs through a &eMechanical Saw&r will cut Items, for Logs, first Stripping them, and then cutting them into more Planks than usual!"
+				"{ftbquests.chapter.create.quest3950657772519101616.description2}"
 			]
 			icon: "minecraft:spruce_log"
 			id: "36D38E50082314B0"
@@ -826,7 +766,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			size: 0.8d
-			subtitle: "Great way of Collecting Mass Amounts of &6Wood"
+			subtitle: "{ftbquests.chapter.create.quest3950657772519101616.subtitle}"
 			tasks: [
 				{
 					id: "140D0298B6857145"
@@ -839,12 +779,12 @@
 					type: "item"
 				}
 			]
-			title: "Simple Wood"
+			title: "{ftbquests.chapter.create.quest3950657772519101616.title}"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
-			description: ["They produce the same amount of &eSU&r as a &eWater Wheel&r..."]
+			description: ["{ftbquests.chapter.create.quest4259513261530144191.description1}"]
 			id: "3B1CD4BE5591DDBF"
 			optional: true
 			rewards: [
@@ -860,10 +800,10 @@
 							}]
 							display: {
 								Lore: [
-									"{\"text\":\"A Letter that you can hardly read\"}"
-									"{\"text\":\"You can barely make out the words cease and desist\"}"
+									"{\"translate\":\"lore.mce2.create.1\"}"
+									"{\"translate\":\"lore.mce2.create.2\"}"
 								]
-								Name: "{\"text\":\"Hastily Scribbled Letter\"}"
+								Name: "{\"translate\":\"name.mce2.create.1\"}"
 							}
 						}
 					}
@@ -875,27 +815,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -910,23 +833,23 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "Our Lawyers Will be in Contact Soon..."
+			subtitle: "{ftbquests.chapter.create.quest4259513261530144191.subtitle}"
 			tasks: [{
 				id: "2FB08B388ED8EB40"
 				item: "ars_creo:starbuncle_wheel"
 				type: "item"
 			}]
-			title: "&4Sacrificed Morals"
+			title: "{ftbquests.chapter.create.quest4259513261530144191.title}"
 			x: -4.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"&eMechanical Harvesters&r will harvest crops placed in their path. When placed on a &dContraption&r, automated crop farms are a possibility."
+				"{ftbquests.chapter.create.quest5681684572343573617.description1}"
 				""
-				"&aSpreaders&r accelerate crop growth when placed in front of them and supplied by &eSU&r. The area affected can be increased by a &eNozzle&r placed in front."
+				"{ftbquests.chapter.create.quest5681684572343573617.description2}"
 				""
-				"&eStorage Interfaces&r connect the inventory of a &dContraption&r to your storage system!"
+				"{ftbquests.chapter.create.quest5681684572343573617.description3}"
 			]
 			icon: "minecraft:wheat"
 			id: "4ED96604045B1C71"
@@ -944,27 +867,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -973,7 +879,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "One Needs to Eat to Think"
+			subtitle: "{ftbquests.chapter.create.quest5681684572343573617.subtitle}"
 			tasks: [
 				{
 					id: "4C615F418704E6BD"
@@ -1009,7 +915,7 @@
 					type: "item"
 				}
 			]
-			title: "Food for Thought"
+			title: "{ftbquests.chapter.create.quest5681684572343573617.title}"
 			x: -5.0d
 			y: 1.0d
 		}
@@ -1027,7 +933,7 @@
 			}]
 			shape: "diamond"
 			size: 0.65d
-			subtitle: "All the basics you'll need!"
+			subtitle: "{ftbquests.chapter.create.quest1790791333733002007.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -1048,7 +954,7 @@
 					type: "item"
 				}
 			]
-			title: "Basic Sheets"
+			title: "{ftbquests.chapter.create.quest1790791333733002007.title}"
 			x: 1.62d
 			y: -2.28d
 		}
@@ -1065,23 +971,23 @@
 			}]
 			shape: "diamond"
 			size: 0.65d
-			subtitle: "For your brass needs!"
+			subtitle: "{ftbquests.chapter.create.quest8295267789732864633.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "76452B3934CAA4CC"
 				item: { Count: 8, id: "create:brass_sheet" }
 				type: "item"
 			}]
-			title: "Brass Sheets"
+			title: "{ftbquests.chapter.create.quest8295267789732864633.title}"
 			x: 1.9d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1D9A770D9C0B128F"]
 			description: [
-				"The &eMechanical Mixer&r uses a basin to mix a variety of recipes."
+				"{ftbquests.chapter.create.quest8391695215155953103.description1}"
 				""
-				"The &eMechanical Mixer&r can brew potions, craft shapeless recipes, or create new alloys."
+				"{ftbquests.chapter.create.quest8391695215155953103.description2}"
 			]
 			icon: "create:mechanical_mixer"
 			id: "74754A564AB73DCF"
@@ -1092,7 +998,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eMechanical Mixer"
+			subtitle: "{ftbquests.chapter.create.quest8391695215155953103.subtitle}"
 			tasks: [
 				{
 					id: "57F098B62C7E3EF0"
@@ -1110,9 +1016,9 @@
 		}
 		{
 			description: [
-				"&6Brass&r can be made by mixing copper and zinc in a heated &eBasin&r. "
+				"{ftbquests.chapter.create.quest7455475687930245662.description1}"
 				""
-				"&eTip:&r Brass can also be cast in a &dCasting Table&r for the same resources!"
+				"{ftbquests.chapter.create.quest7455475687930245662.description2}"
 			]
 			icon: "create:brass_ingot"
 			id: "67772BA32AA4B21E"
@@ -1125,14 +1031,14 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Upgrades People Upgrades!"
+			subtitle: "{ftbquests.chapter.create.quest7455475687930245662.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "7781F657C192A942"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			title: "&eCreate: Brass Age"
+			title: "{ftbquests.chapter.create.quest7455475687930245662.title}"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -1142,7 +1048,7 @@
 				"74754A564AB73DCF"
 				"4792D04B4063D2BC"
 			]
-			description: ["Everything you will need all in one place!"]
+			description: ["{ftbquests.chapter.create.quest5296527382546343796.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "create:wrench"
@@ -1162,27 +1068,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1192,7 +1081,7 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Every Engineer Needs Their Workshop"
+			subtitle: "{ftbquests.chapter.create.quest5296527382546343796.subtitle}"
 			tasks: [
 				{
 					id: "29E2429D36336B83"
@@ -1227,13 +1116,13 @@
 					type: "item"
 				}
 			]
-			title: "&dWorkshop"
+			title: "{ftbquests.chapter.create.quest5296527382546343796.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["40A64D59F1186585"]
-			description: ["Applying &6lava&r to &5Obsidian Dust&r and &dpressing&r it twice will create &eSturdy Sheets&r."]
+			description: ["{ftbquests.chapter.create.quest479426613002295949.description1}"]
 			id: "06A743F6E3DEDA8D"
 			rewards: [
 				{
@@ -1249,27 +1138,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1278,20 +1150,20 @@
 			]
 			shape: "diamond"
 			size: 0.65d
-			subtitle: "Sturdier than a rock!"
+			subtitle: "{ftbquests.chapter.create.quest479426613002295949.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "2EAC142723B5A68A"
 				item: { Count: 4, id: "create:sturdy_sheet" }
 				type: "item"
 			}]
-			title: "Sturdy Sheets"
+			title: "{ftbquests.chapter.create.quest479426613002295949.title}"
 			x: 1.62d
 			y: -1.7d
 		}
 		{
 			dependencies: ["67772BA32AA4B21E"]
-			description: ["Similar to other casings, the &eBrass Casing&r can be made by applying a &eBrass Ingot&r onto stripped logs."]
+			description: ["{ftbquests.chapter.create.quest5128171589899545330.description1}"]
 			id: "472AECE40B366AF2"
 			rewards: [
 				{
@@ -1307,51 +1179,34 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft &6Brass Casings"
+			subtitle: "{ftbquests.chapter.create.quest5128171589899545330.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "714DF6E50F3366E4"
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			title: "Another Casing Another Day"
+			title: "{ftbquests.chapter.create.quest5128171589899545330.title}"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			description: [
-				"The fluid system in &3Create&r is fairly simple to understand."
+				"{ftbquests.chapter.create.quest4197728243501719198.description1}"
 				""
-				"To begin transporting fluids, you need to gather a lot of copper and make a &eMechanical Press&r."
+				"{ftbquests.chapter.create.quest4197728243501719198.description2}"
 				""
-				"Similar to &eAndesite Casing&r, &6Copper Casing&r can be made by using a copper ingot on a stripped log."
+				"{ftbquests.chapter.create.quest4197728243501719198.description3}"
 			]
 			icon: "minecraft:copper_ingot"
 			id: "3A415398D18B5E9E"
@@ -1372,7 +1227,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "All You Need For Pumping Fluids"
+			subtitle: "{ftbquests.chapter.create.quest4197728243501719198.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -1387,16 +1242,16 @@
 					type: "item"
 				}
 			]
-			title: "&6Create: Fluid Age?"
+			title: "{ftbquests.chapter.create.quest4197728243501719198.title}"
 			x: -8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["68C14366C8F5BF80"]
 			description: [
-				"&6Crushing Wheels&r will crush &eores&r and entities stuck between them!"
+				"{ftbquests.chapter.create.quest2836673426751071826.description1}"
 				""
-				"&eTip:&r &6Crushing Wheels&r must be &drotating&r in opposite directions, &eGearboxes&r will reverse &drotational directions&r!"
+				"{ftbquests.chapter.create.quest2836673426751071826.description2}"
 			]
 			icon: "create:crushing_wheel"
 			id: "275DE373C949A652"
@@ -1414,34 +1269,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &lCrushing Wheel"
+			subtitle: "{ftbquests.chapter.create.quest2836673426751071826.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -1456,18 +1294,18 @@
 					type: "item"
 				}
 			]
-			title: "Crushing Wheel"
+			title: "{ftbquests.chapter.create.quest2836673426751071826.title}"
 			x: 7.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3A415398D18B5E9E"]
 			description: [
-				"&eFluid Pipes&r transport fluid through your fluid system, but only one liquid can pass through a &eFluid Pipe&r at a time. "
+				"{ftbquests.chapter.create.quest6072116664700189164.description1}"
 				""
-				"Open-ended &eFluid Pipes&r will leak the liquid that travels through them."
+				"{ftbquests.chapter.create.quest6072116664700189164.description2}"
 				""
-				"&eMechanical Pumps&r are used to pump liquids through &eFluid Pipes&r."
+				"{ftbquests.chapter.create.quest6072116664700189164.description3}"
 			]
 			icon: "create:fluid_pipe"
 			id: "54447DEF622F39EC"
@@ -1486,7 +1324,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft &eBasic Fluid&7 Blocks"
+			subtitle: "{ftbquests.chapter.create.quest6072116664700189164.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -1501,16 +1339,16 @@
 					type: "item"
 				}
 			]
-			title: "Fluid Basics pt.1"
+			title: "{ftbquests.chapter.create.quest6072116664700189164.title}"
 			x: -8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["54447DEF622F39EC"]
 			description: [
-				"An &eItem Drain&r empties buckets of liquid into your fluid system."
+				"{ftbquests.chapter.create.quest3305912684504999022.description1}"
 				""
-				"&eFluid Tanks&r store large amounts of a single liquid. "
+				"{ftbquests.chapter.create.quest3305912684504999022.description2}"
 			]
 			icon: "create:fluid_tank"
 			id: "2DE0F6123260E46E"
@@ -1529,7 +1367,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eFluid Tank&7 and a &eDrain"
+			subtitle: "{ftbquests.chapter.create.quest3305912684504999022.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -1543,20 +1381,20 @@
 					type: "item"
 				}
 			]
-			title: "Fluid Basics pt.2"
+			title: "{ftbquests.chapter.create.quest3305912684504999022.title}"
 			x: -8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2DE0F6123260E46E"]
 			description: [
-				"&dBoilers&r are essential to large-scale factories. They produce large amounts of &eSU&r by  feeding &eBlaze Burners&r burnable items or &6lava&r. "
+				"{ftbquests.chapter.create.quest6032087594564903331.description1}"
 				""
-				"To create your first &dBoiler&r, you need a &eFluid Tank&r with water being pumped into it. Then, heat the tank with powered &eBlaze Burners&r. Finally, place &eSteam Engines&r and attach shafts to transform the &eFluid Tank&r into a &dBoiler&r."
+				"{ftbquests.chapter.create.quest6032087594564903331.description2}"
 				""
-				"&eSU&r generated by the &eSteam Engine&r is capped by the &dBoiler's&r level. Increasing the size and heat of the Boiler will generate more &eSU&r."
+				"{ftbquests.chapter.create.quest6032087594564903331.description3}"
 				""
-				"&6Note:&r This simple design will produce over 65,000 &eSU&r!"
+				"{ftbquests.chapter.create.quest6032087594564903331.description4}"
 			]
 			icon: "create:steam_engine"
 			id: "53B647B53814E1A3"
@@ -1574,34 +1412,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "<wave>Power the Future!"
+			subtitle: "{ftbquests.chapter.create.quest6032087594564903331.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -1627,15 +1448,15 @@
 					type: "item"
 				}
 			]
-			title: "The Industrial Revolution"
+			title: "{ftbquests.chapter.create.quest6032087594564903331.title}"
 			x: -8.0d
 			y: -4.0d
 		}
 		{
 			description: [
-				"Sending &dRotational Power&r into the &eJetpack&r will refuel it allowing for flight!"
+				"{ftbquests.chapter.create.quest1907836811829096829.description1}"
 				""
-				"&eTip:&r Can be enchanted with &dCapacity&r to extend Tank Capacity."
+				"{ftbquests.chapter.create.quest1907836811829096829.description2}"
 			]
 			id: "1A79FF78E27CB17D"
 			rewards: [
@@ -1652,27 +1473,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1680,7 +1484,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Every Builder Wants One"
+			subtitle: "{ftbquests.chapter.create.quest1907836811829096829.subtitle}"
 			tasks: [{
 				id: "25D6D65A06FEE1B9"
 				item: {
@@ -1695,9 +1499,9 @@
 		}
 		{
 			description: [
-				"The &eShotgun&r is an excellent weapon deep into &6Expert Mode&r."
+				"{ftbquests.chapter.create.quest7385763833723295889.description1}"
 				""
-				"&eTip:&r Reload with CTRL + R"
+				"{ftbquests.chapter.create.quest7385763833723295889.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1728,27 +1532,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1756,7 +1543,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "For those Pesky Trespassers"
+			subtitle: "{ftbquests.chapter.create.quest7385763833723295889.subtitle}"
 			tasks: [
 				{
 					id: "0C679F5D189CF21A"
@@ -1777,7 +1564,7 @@
 					type: "item"
 				}
 			]
-			title: "Defend Yourself"
+			title: "{ftbquests.chapter.create.quest7385763833723295889.title}"
 			x: -4.8d
 			y: 0.2d
 		}
@@ -1787,9 +1574,9 @@
 				"0D9FAEDA74C92151"
 			]
 			description: [
-				"Superheating &eBlaze Burners&r with &6Blaze Cakes&r generates higher amounts of heat needed to maximize a &dSteam Engine&r. "
+				"{ftbquests.chapter.create.quest7532812718012788451.description1}"
 				""
-				"You'll need &e72 Fluid Tanks&r arranged in a 3 x 3 x 8 pattern. Water then needs to be pumped into the tank while the &eBlaze Burners&r need to be fed &6Blaze Cakes&r."
+				"{ftbquests.chapter.create.quest7532812718012788451.description2}"
 			]
 			id: "6889ED41A8B26EE3"
 			rewards: [
@@ -1807,27 +1594,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1843,31 +1613,31 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "276A9DCA353350BD"
-					title: "&eUnlock Title:&r the Mad Scientist"
+					title: "{ftbquests.chapter.create.quest7532812718012788451.reward.2840256006812029117.title}"
 					type: "command"
 				}
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "More Power Than You'll Likely Need"
+			subtitle: "{ftbquests.chapter.create.quest7532812718012788451.subtitle}"
 			tasks: [{
 				advancement: "create:steam_engine_maxed"
 				criterion: ""
 				id: "6882B52F12F6D9B6"
 				type: "advancement"
 			}]
-			title: "&dUNLIMITED POWER"
+			title: "{ftbquests.chapter.create.quest7532812718012788451.title}"
 			x: -8.0d
 			y: -6.4d
 		}
 		{
 			dependencies: ["6CA5D4299A349E69"]
 			description: [
-				"&ePrecision Mechanisms&r are important components in many crafting recipes."
+				"{ftbquests.chapter.create.quest4600631376132860156.description1}"
 				""
-				"Crafting a &ePrecision Mechanism&r is a multistage process which has a &c20%&r chance of failure. You need to do the process a total of 5 times."
+				"{ftbquests.chapter.create.quest4600631376132860156.description2}"
 				""
-				"&6Note:&r &eDeployers&r must be used in their crafting."
+				"{ftbquests.chapter.create.quest4600631376132860156.description3}"
 			]
 			id: "3FD8B9DC84EA68FC"
 			rewards: [
@@ -1889,27 +1659,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1917,7 +1670,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Create a &ePrecision Mechanism"
+			subtitle: "{ftbquests.chapter.create.quest4600631376132860156.subtitle}"
 			tasks: [{
 				id: "53039601F81A6B67"
 				item: "create:precision_mechanism"
@@ -1929,9 +1682,9 @@
 		{
 			dependencies: ["3FD8B9DC84EA68FC"]
 			description: [
-				"Placing a &eLarge Cog&r on a &6Rotational Controller&r allows manual input for your desired speed."
+				"{ftbquests.chapter.create.quest7023417679565361553.description1}"
 				""
-				"Power can be fed into both the &eLarge Cog&r or the base of the &6Rotational Controller&r."
+				"{ftbquests.chapter.create.quest7023417679565361553.description2}"
 			]
 			id: "6178312AFBB11191"
 			rewards: [
@@ -1948,27 +1701,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1976,22 +1712,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "The &oActual&r Best Way to Increase Speed"
+			subtitle: "{ftbquests.chapter.create.quest7023417679565361553.subtitle}"
 			tasks: [{
 				id: "4BAB9F478209220F"
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			title: "Rotation in the Palm of Your Hands"
+			title: "{ftbquests.chapter.create.quest7023417679565361553.title}"
 			x: 5.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["54447DEF622F39EC"]
 			description: [
-				"The &eSpout&r is used to apply liquids to items with recipes that require a liquid."
+				"{ftbquests.chapter.create.quest2902354644119863885.description1}"
 				""
-				"Tip: Use a &eDepot&r to hold the items under the &eSpout&r."
+				"{ftbquests.chapter.create.quest2902354644119863885.description2}"
 			]
 			id: "28473C2BE6F8424D"
 			rewards: [
@@ -2009,7 +1745,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eSpout"
+			subtitle: "{ftbquests.chapter.create.quest2902354644119863885.subtitle}"
 			tasks: [{
 				id: "5A0A4234A010C398"
 				item: "create:spout"
@@ -2021,11 +1757,11 @@
 		{
 			dependencies: ["3FD8B9DC84EA68FC"]
 			description: [
-				"&oHave you ever had a tough to reach block and thought \"Huh if only I could extend my reach\"? Well now you can with the Extendo Grip 9000 all tough to reach mobs and blocks suddenly feel much closer! &r"
+				"{ftbquests.chapter.create.quest2147178214118494027.description1}"
 				""
-				"&oOur sleek patent design allows extended use when paired with the &lnew&r &oBacktank Pro. No longer will you worry about running out of durability again!&r"
+				"{ftbquests.chapter.create.quest2147178214118494027.description2}"
 				""
-				"&oWe are not responsible for any damages or injuries caused by the Extendo Grip. Backtank not included&r."
+				"{ftbquests.chapter.create.quest2147178214118494027.description3}"
 			]
 			hide_dependency_lines: true
 			id: "1DCC4F35A1FD8F4B"
@@ -2044,27 +1780,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2073,7 +1792,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&oBacktank Not Included!"
+			subtitle: "{ftbquests.chapter.create.quest2147178214118494027.subtitle}"
 			tasks: [{
 				id: "60BE9787F5A65CE3"
 				item: {
@@ -2085,16 +1804,16 @@
 				}
 				type: "item"
 			}]
-			title: "&6Extended Reach"
+			title: "{ftbquests.chapter.create.quest2147178214118494027.title}"
 			x: 4.5d
 			y: -6.4d
 		}
 		{
 			dependencies: ["4792D04B4063D2BC"]
 			description: [
-				"&3Soul Fire&7 in front of an &eEncased Fan&7 can haunt a variety of blocks into their &cNether&7 counterparts."
+				"{ftbquests.chapter.create.quest5392456249934775225.description1}"
 				""
-				"&7Haunting &eSand&7 will turn it into &eSoul Sand&7 which can be washed into &fQuartz."
+				"{ftbquests.chapter.create.quest5392456249934775225.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "immersive_weathering:soul_fire"
@@ -2113,27 +1832,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2141,7 +1843,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Time to Haunt your own Factory"
+			subtitle: "{ftbquests.chapter.create.quest5392456249934775225.subtitle}"
 			tasks: [
 				{
 					id: "2E567F74CB064976"
@@ -2161,7 +1863,7 @@
 					type: "item"
 				}
 			]
-			title: "&eSpooky Scary Factories?"
+			title: "{ftbquests.chapter.create.quest5392456249934775225.title}"
 			x: 2.0d
 			y: -4.0d
 		}
@@ -2177,7 +1879,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "&7&o<wave>Crush Some Ores!"
+			subtitle: "{ftbquests.chapter.create.quest4972948235429591088.subtitle}"
 			tasks: [
 				{
 					count: 32L
@@ -2198,18 +1900,18 @@
 					type: "item"
 				}
 			]
-			title: "&dCrushin' it"
+			title: "{ftbquests.chapter.create.quest4972948235429591088.title}"
 			x: 8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["28473C2BE6F8424D"]
 			description: [
-				"&eBlaze Cakes&r can be fed to a &eBlaze Burner&r to &dSuperheat&r it."
+				"{ftbquests.chapter.create.quest981695497075499345.description1}"
 				""
-				"To make a &eBlaze Cake&r, use a spout to apply &6Lava&r on a &eBlaze Cake Base&r."
+				"{ftbquests.chapter.create.quest981695497075499345.description2}"
 				""
-				"&eTip:&r &eBlaze Cakes&r also make great ammunition for the &ePotato Cannon&r."
+				"{ftbquests.chapter.create.quest981695497075499345.description3}"
 			]
 			id: "0D9FAEDA74C92151"
 			rewards: [
@@ -2226,50 +1928,33 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft some &eBlaze Cakes"
+			subtitle: "{ftbquests.chapter.create.quest981695497075499345.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "3A2DAAD533BC54A5"
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			title: "&6Blaze Cakes"
+			title: "{ftbquests.chapter.create.quest981695497075499345.title}"
 			x: -9.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["54447DEF622F39EC"]
 			description: [
-				"The &eHose Pulley&r can extract liquids from large bodies of water."
+				"{ftbquests.chapter.create.quest7068130622396647450.description1}"
 				""
-				"&eTip:&r If a single source contains 10,000 blocks or more of a liquid, it becomes infinite when extracting with the &eHose Pulley&r."
+				"{ftbquests.chapter.create.quest7068130622396647450.description2}"
 			]
 			id: "62170B5A3E03481A"
 			rewards: [
@@ -2287,7 +1972,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A Great Way to Get &6Lava"
+			subtitle: "{ftbquests.chapter.create.quest7068130622396647450.subtitle}"
 			tasks: [{
 				id: "7EB6C46DE392CFB9"
 				item: "create:hose_pulley"
@@ -2298,11 +1983,11 @@
 		}
 		{
 			description: [
-				"&bSchematics&r are blueprints of builds."
+				"{ftbquests.chapter.create.quest5624486851350496534.description1}"
 				""
-				"Using the &dSchematic Table&r, you can load a saved &bSchematic's&r data onto a Schematic."
+				"{ftbquests.chapter.create.quest5624486851350496534.description2}"
 				""
-				"When a &bSchematic&r is placed down, it shows a holographic outline of the blocks of the build. Using a &eDeployer&r or &dSchematicannon&r will automatically fill the provided &bSchematic&r provided they have the blocks."
+				"{ftbquests.chapter.create.quest5624486851350496534.description3}"
 			]
 			icon: "create:empty_schematic"
 			id: "4E0E30FDD29A0516"
@@ -2320,27 +2005,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2348,7 +2016,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "For Those Lazy Engineers"
+			subtitle: "{ftbquests.chapter.create.quest5624486851350496534.subtitle}"
 			tasks: [
 				{
 					id: "132943AC44EDE99C"
@@ -2372,11 +2040,11 @@
 		{
 			dependencies: ["472AECE40B366AF2"]
 			description: [
-				"&eMechanical Crafters&r allow for automated crafting and advanced crafting."
+				"{ftbquests.chapter.create.quest7548388559186935680.description1}"
 				""
-				"Items in a &eCrafter&r flow in a direction. Every &eCrafter&r must reach a single point where they output the crafted item. "
+				"{ftbquests.chapter.create.quest7548388559186935680.description2}"
 				""
-				"&cRedstone Power&r and &dRotational Force&r must be supplied to the &eCrafter&r to begin crafting."
+				"{ftbquests.chapter.create.quest7548388559186935680.description3}"
 			]
 			id: "68C14366C8F5BF80"
 			rewards: [
@@ -2393,47 +2061,30 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eMechanical Crafter&7 to Automate Crafting"
+			subtitle: "{ftbquests.chapter.create.quest7548388559186935680.subtitle}"
 			tasks: [{
 				count: 21L
 				id: "7DCEE2548287AC9D"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			title: "Automated Crafting"
+			title: "{ftbquests.chapter.create.quest7548388559186935680.title}"
 			x: 7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["74754A564AB73DCF"]
-			description: ["Mixing &eDough&r and &eLime Dye&r creates &aSlimeballs&r which almost every contraption needs!"]
+			description: ["{ftbquests.chapter.create.quest3873469145081574288.description1}"]
 			icon: "minecraft:slime_ball"
 			id: "35C153AA3905F390"
 			rewards: [
@@ -2451,7 +2102,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Another way to get &aSlimeballs"
+			subtitle: "{ftbquests.chapter.create.quest3873469145081574288.subtitle}"
 			tasks: [
 				{
 					id: "5C28C6D883A5A340"
@@ -2470,16 +2121,16 @@
 					type: "item"
 				}
 			]
-			title: "&aSlimy Business"
+			title: "{ftbquests.chapter.create.quest3873469145081574288.title}"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["74754A564AB73DCF"]
 			description: [
-				"Mixing &eAndesite&r and &eZinc Nuggets&r or &eIron Nuggets&r will also produce &eAndesite Alloys&r. "
+				"{ftbquests.chapter.create.quest8495988260633793626.description1}"
 				""
-				"This halves the cost for the essential component."
+				"{ftbquests.chapter.create.quest8495988260633793626.description2}"
 			]
 			icon: "create:andesite_alloy"
 			id: "75E7D04F32F7545A"
@@ -2498,10 +2149,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Better Returns!"
+			subtitle: "{ftbquests.chapter.create.quest8495988260633793626.subtitle}"
 			tasks: [{
 				id: "7E15A83FBFAF28DD"
-				title: "Mixing Andesite"
+				title: "{ftbquests.chapter.create.quest8495988260633793626.task.9085352815042177245.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -2509,7 +2160,7 @@
 		}
 		{
 			dependencies: ["4F416047476A33C9"]
-			description: ["When you need early power in the &4Nether&r, you can use &6lava&r as a replacement for water."]
+			description: ["{ftbquests.chapter.create.quest4138509809973957424.description1}"]
 			icon: "minecraft:lava_bucket"
 			id: "396EF0BED2F79330"
 			optional: true
@@ -2520,20 +2171,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Getting power in the &4Nether&7 is important for infinite &6Lava&7!"
+			subtitle: "{ftbquests.chapter.create.quest4138509809973957424.subtitle}"
 			tasks: [{
 				advancement: "create:lava_wheel_00000"
 				criterion: ""
 				id: "33BFCCF0EB46D92E"
 				type: "advancement"
 			}]
-			title: "&dPower the Nether"
+			title: "{ftbquests.chapter.create.quest4138509809973957424.title}"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["228A91164EC9F046"]
-			description: ["&aGluing&r blocks together combines them. When these blocks are moved on a &dcontraption&r they will stick together."]
+			description: ["{ftbquests.chapter.create.quest4331964605837394938.description1}"]
 			icon: {
 				Count: 1
 				id: "create:super_glue"
@@ -2556,34 +2207,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Create &aSuper Glue&7 for your &eContraptions"
+			subtitle: "{ftbquests.chapter.create.quest4331964605837394938.subtitle}"
 			tasks: [{
 				id: "4F8044F2D55CA82F"
 				item: {
@@ -2595,13 +2229,13 @@
 				}
 				type: "item"
 			}]
-			title: "&aSuper Glue"
+			title: "{ftbquests.chapter.create.quest4331964605837394938.title}"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["68C14366C8F5BF80"]
-			description: ["&oHello, this is your pilot speaking. Thank you for choosing to travel with us. We are currently flying over a large body of water. Please be advised that we are expecting turbulence due to the presence of dragons and wizards. We hope you enjoy your flight!&r"]
+			description: ["{ftbquests.chapter.create.quest4134621496251413616.description1}"]
 			hide_dependency_lines: true
 			id: "396120583CC27470"
 			optional: true
@@ -2619,27 +2253,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2651,30 +2268,30 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "3ACA953ADBE8EF52"
-					title: "&eUnlock Title:&r the Pilot"
+					title: "{ftbquests.chapter.create.quest4134621496251413616.reward.4236362479525490514.title}"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "A Great Way to Travel"
+			subtitle: "{ftbquests.chapter.create.quest4134621496251413616.subtitle}"
 			tasks: [{
 				id: "597F519A61111F9B"
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			title: "&6Take to the Skies!"
+			title: "{ftbquests.chapter.create.quest4134621496251413616.title}"
 			x: 6.0d
 			y: -6.4d
 		}
 		{
 			dependencies: ["5CB2D86BE039F816"]
 			description: [
-				"Placing a &eTrain Station&r on a &eTrain Track&r allows for construction of customized &dTrains&r. &aSuper Gluing&r components will move them along with the &dTrain&r. "
+				"{ftbquests.chapter.create.quest6455623962722502809.description1}"
 				""
-				"&eTip:&r &dTrains&r travel faster when they have fuel on board."
+				"{ftbquests.chapter.create.quest6455623962722502809.description2}"
 				""
-				"&6Note:&r &eTrains&r can travel through the &cNether&r allowing for transportation of liquids or Entities."
+				"{ftbquests.chapter.create.quest6455623962722502809.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "create:schedule"
@@ -2694,27 +2311,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2724,7 +2324,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "<wave>ALL ABOARD!"
+			subtitle: "{ftbquests.chapter.create.quest6455623962722502809.subtitle}"
 			tasks: [
 				{
 					id: "7ADC5EB132B12ACF"
@@ -2749,18 +2349,18 @@
 					type: "advancement"
 				}
 			]
-			title: "&6Trains!"
+			title: "{ftbquests.chapter.create.quest6455623962722502809.title}"
 			x: 7.5d
 			y: -6.4d
 		}
 		{
 			dependencies: ["5DD44C243C8DAD07"]
 			description: [
-				"&eDeployers&r are an important tool for automation. They function as an alternative for &dplayer interactions&r."
+				"{ftbquests.chapter.create.quest7828896802399362665.description1}"
 				""
-				"&eDeployers&r can place blocks, kill mobs, break blocks, and make sequenced recipes!"
+				"{ftbquests.chapter.create.quest7828896802399362665.description2}"
 				""
-				"&eTip:&r &eDeployers&r can hold any item and use them the way a player would."
+				"{ftbquests.chapter.create.quest7828896802399362665.description3}"
 			]
 			id: "6CA5D4299A349E69"
 			rewards: [{
@@ -2770,7 +2370,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eDeployer"
+			subtitle: "{ftbquests.chapter.create.quest7828896802399362665.subtitle}"
 			tasks: [{
 				id: "677B131D9469E44B"
 				item: "create:deployer"
@@ -2797,27 +2397,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2825,7 +2408,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Master Desserts with this simple trick!"
+			subtitle: "{ftbquests.chapter.create.quest5272674208794744513.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -2846,13 +2429,13 @@
 					type: "item"
 				}
 			]
-			title: "Sweet Tooth"
+			title: "{ftbquests.chapter.create.quest5272674208794744513.title}"
 			x: -10.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7E92D52D0D7C9F31"]
-			description: ["A single &eWindmill Bearing&r needs 128 &eWindmills&r to maximize the amount of &eSU&r it can produce!"]
+			description: ["{ftbquests.chapter.create.quest4679663366837523805.description1}"]
 			hide_dependency_lines: true
 			id: "40F18109C8C2555D"
 			optional: true
@@ -2870,27 +2453,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2899,14 +2465,14 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Create a max power &eWindmill"
+			subtitle: "{ftbquests.chapter.create.quest4679663366837523805.subtitle}"
 			tasks: [{
 				advancement: "create:windmill_maxed"
 				criterion: ""
 				id: "6841DE07A520E2BB"
 				type: "advancement"
 			}]
-			title: "&6Green Energy"
+			title: "{ftbquests.chapter.create.quest4679663366837523805.title}"
 			x: -1.5d
 			y: -6.4d
 		}
@@ -2934,27 +2500,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2964,20 +2513,20 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Sneak while wearing full &eCardboard Armor"
+			subtitle: "{ftbquests.chapter.create.quest1246871268995017742.subtitle}"
 			tasks: [{
 				advancement: "create:cardboard_armor"
 				criterion: ""
 				id: "0582DB19D692EF9F"
 				type: "advancement"
 			}]
-			title: "&6SNAAAAKE!?"
+			title: "{ftbquests.chapter.create.quest1246871268995017742.title}"
 			x: -4.5d
 			y: -6.4d
 		}
 		{
 			dependencies: ["74754A564AB73DCF"]
-			description: ["Pressing &ePulp&f with a &eMechanical Press&f turns it into &eCardboard."]
+			description: ["{ftbquests.chapter.create.quest256718556151777452.description1}"]
 			hide_dependency_lines: true
 			id: "03900C2AAAAD88AC"
 			rewards: [{
@@ -2987,25 +2536,25 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Create your first &eCardboard"
+			subtitle: "{ftbquests.chapter.create.quest256718556151777452.subtitle}"
 			tasks: [{
 				count: 9L
 				id: "39BE3CFE05F30041"
 				item: "create:cardboard"
 				type: "item"
 			}]
-			title: "Cardboard"
+			title: "{ftbquests.chapter.create.quest256718556151777452.title}"
 			x: -5.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["420A35FB6606D5A6"]
 			description: [
-				"&eMobs&f and &eBlaze Burners&f use the &eStock Ticker&f when seated nearby to order stock from a warehouse. This turns the mobs into a &dShop Keeper&r."
+				"{ftbquests.chapter.create.quest4952294348588500851.description1}"
 				""
-				"&eTable Cloth&f can sell this stock after linking it with a &dShop Keeper&r."
+				"{ftbquests.chapter.create.quest4952294348588500851.description2}"
 				""
-				"&6Note:&f Only players can buy from this shop."
+				"{ftbquests.chapter.create.quest4952294348588500851.description3}"
 			]
 			id: "44BA1578BECAC773"
 			rewards: [
@@ -3022,27 +2571,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3050,19 +2582,19 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&oAmazon wants to know your location"
+			subtitle: "{ftbquests.chapter.create.quest4952294348588500851.subtitle}"
 			tasks: [{
 				id: "17A73B21B7E0BCE6"
 				item: "create:red_table_cloth"
 				type: "item"
 			}]
-			title: "First Lemonade Stand"
+			title: "{ftbquests.chapter.create.quest4952294348588500851.title}"
 			x: -5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["44BA1578BECAC773"]
-			description: ["This armor is worthless on its own, but it holds &lan ancient power&r when worn as a set."]
+			description: ["{ftbquests.chapter.create.quest1679673783219787607.description1}"]
 			icon: {
 				Count: 1
 				id: "create:cardboard_chestplate"
@@ -3079,7 +2611,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "circle"
-			subtitle: "Craft a set of &eCardboard Armor"
+			subtitle: "{ftbquests.chapter.create.quest1679673783219787607.subtitle}"
 			tasks: [
 				{
 					id: "35354873B8C2238B"
@@ -3126,13 +2658,13 @@
 					type: "item"
 				}
 			]
-			title: "Cardboard Armor"
+			title: "{ftbquests.chapter.create.quest1679673783219787607.title}"
 			x: -5.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["03900C2AAAAD88AC"]
-			description: ["&ePackagers&r will package the contents of a container when a &cRedstone Signal&r is applied."]
+			description: ["{ftbquests.chapter.create.quest6517502415393566861.description1}"]
 			id: "5A72D1EA6448B08D"
 			rewards: [{
 				amount: 50L
@@ -3142,7 +2674,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "square"
-			subtitle: "Craft a &ePackager&7 and Package Your First Item"
+			subtitle: "{ftbquests.chapter.create.quest6517502415393566861.subtitle}"
 			tasks: [
 				{
 					id: "64F010476653AA9C"
@@ -3156,18 +2688,18 @@
 					type: "advancement"
 				}
 			]
-			title: "Packager"
+			title: "{ftbquests.chapter.create.quest6517502415393566861.title}"
 			x: -5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5A72D1EA6448B08D"]
 			description: [
-				"Placing a &eStock Link&f on a &ePackager&f will create your &dLogistics Network&f."
+				"{ftbquests.chapter.create.quest4758675310135137702.description1}"
 				""
-				"&cRedstone Signals&r disable the &eStock Link&r."
+				"{ftbquests.chapter.create.quest4758675310135137702.description2}"
 				""
-				"&eTip:&f Packages must be transported, but can be requested from anywhere."
+				"{ftbquests.chapter.create.quest4758675310135137702.description3}"
 			]
 			icon: "create:stock_link"
 			id: "420A35FB6606D5A6"
@@ -3179,7 +2711,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "square"
-			subtitle: "Create your first &dLogistics Network"
+			subtitle: "{ftbquests.chapter.create.quest4758675310135137702.subtitle}"
 			tasks: [
 				{
 					id: "57E54882C7B24017"
@@ -3192,15 +2724,15 @@
 					type: "item"
 				}
 			]
-			title: "Stock Link"
+			title: "{ftbquests.chapter.create.quest4758675310135137702.title}"
 			x: -5.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"Make sure to refuel your &eBacktank&r with rotational power!"
+				"{ftbquests.chapter.create.quest556942925063435235.description1}"
 				""
-				"&eTip:&r Wearing a full set of &eNetherite Diving Equipment&r and &eNetherite Leggings&r makes you immune to &6lava&r and helps you see clearly under the &6lava&r!"
+				"{ftbquests.chapter.create.quest556942925063435235.description2}"
 			]
 			icon: {
 				Count: 1
@@ -3224,27 +2756,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3252,7 +2767,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Dive Deep Below..."
+			subtitle: "{ftbquests.chapter.create.quest556942925063435235.subtitle}"
 			tasks: [
 				{
 					id: "197DADCC31E966B9"
@@ -3294,13 +2809,13 @@
 					type: "biome"
 				}
 			]
-			title: "Diver's Delight"
+			title: "{ftbquests.chapter.create.quest556942925063435235.title}"
 			x: -3.2d
 			y: 1.8d
 		}
 		{
 			dependencies: ["472AECE40B366AF2"]
-			description: ["Holding &dRose Quartz&f in one hand and &eSandpaper&f in the other while holding &dright-click&f will polish the &dRose Quartz&f. "]
+			description: ["{ftbquests.chapter.create.quest6761112659108408583.description1}"]
 			id: "5DD44C243C8DAD07"
 			rewards: [{
 				amount: 100L
@@ -3309,7 +2824,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Polish &dRose Quartz&7 using &eSand Paper"
+			subtitle: "{ftbquests.chapter.create.quest6761112659108408583.subtitle}"
 			tasks: [{
 				id: "3EC1EF7E5C772452"
 				item: "create:polished_rose_quartz"
@@ -3320,7 +2835,7 @@
 		}
 		{
 			dependencies: ["225CBFC2C8EE70F9"]
-			description: ["The &6Oven&r bakes food passed through it, provided an &eOven Fan&r is attached."]
+			description: ["{ftbquests.chapter.create.quest4864311893350071916.description1}"]
 			hide_dependency_lines: true
 			icon: "ratatouille:oven"
 			id: "438181E50FD6BE6C"
@@ -3339,27 +2854,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3368,7 +2866,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Not Powered by Rats!"
+			subtitle: "{ftbquests.chapter.create.quest4864311893350071916.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -3383,13 +2881,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Time to Cook"
+			title: "{ftbquests.chapter.create.quest4864311893350071916.title}"
 			x: 0.0d
 			y: -6.4d
 		}
 		{
 			dependencies: ["275DE373C949A652"]
-			description: ["Throw some &5Obsidian&f into a &eCrusher&f to make &eObsidian Dust."]
+			description: ["{ftbquests.chapter.create.quest6679639155178862614.description1}"]
 			id: "5CB2D86BE039F816"
 			rewards: [{
 				amount: 100L
@@ -3398,23 +2896,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Crush Some &5Obsidian"
+			subtitle: "{ftbquests.chapter.create.quest6679639155178862614.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "7AFCA0BD68B3B4D7"
 				item: "create:powdered_obsidian"
 				type: "item"
 			}]
-			title: "Powdered Obsidian"
+			title: "{ftbquests.chapter.create.quest6679639155178862614.title}"
 			x: 7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3C1E3ADB7680C3FA"]
 			description: [
-				"Some of the earliest &dContraptions&r you can make involve the &eCart Assembler&r."
+				"{ftbquests.chapter.create.quest4906439606711623598.description1}"
 				""
-				"Attaching &eDrills&r, &eHarvesters&r, or &eSaws&r will allow mobile usage of the blocks."
+				"{ftbquests.chapter.create.quest4906439606711623598.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "create:mechanical_drill"
@@ -3434,27 +2932,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3463,7 +2944,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Time to get Creative!"
+			subtitle: "{ftbquests.chapter.create.quest4906439606711623598.subtitle}"
 			tasks: [
 				{
 					advancement: "create:contraption_actors"
@@ -3477,15 +2958,15 @@
 					type: "item"
 				}
 			]
-			title: "&6My First Contraption"
+			title: "{ftbquests.chapter.create.quest4906439606711623598.title}"
 			x: 1.5d
 			y: -6.4d
 		}
 		{
 			dependencies: ["396120583CC27470"]
 			description: [
-				"Craft the &eScarlet Biplane!&r"
-				"It has improved speed, takeoff and strength compared to the classic Biplane!"
+				"{ftbquests.chapter.create.quest98525407430233491.description1}"
+				"{ftbquests.chapter.create.quest98525407430233491.description2}"
 			]
 			hide_dependency_lines: true
 			id: "015E0856073ACD93"
@@ -3504,27 +2985,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3534,26 +2998,26 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&6An Even BETTER way to travel!"
+			subtitle: "{ftbquests.chapter.create.quest98525407430233491.subtitle}"
 			tasks: [{
 				id: "1C9335D0D0E3FEFB"
 				item: "man_of_many_planes:scarlet_biplane"
 				type: "item"
 			}]
-			title: "&dSoar The Skies!"
+			title: "{ftbquests.chapter.create.quest98525407430233491.title}"
 			x: 6.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["6CA5D4299A349E69"]
 			description: [
-				"The &eBrass Revolver&r can be used as an efficient weapon!"
-				"Even more, this weapon is very customisable and can be upgraded by pressing Z!"
-				"After applying all of the available upgrade, your revolver will become &o*very*&r powerful! "
+				"{ftbquests.chapter.create.quest7853937403817881644.description1}"
+				"{ftbquests.chapter.create.quest7853937403817881644.description2}"
+				"{ftbquests.chapter.create.quest7853937403817881644.description3}"
 				""
 				""
 				""
-				"&eTip:&r Reload with CTRL + R"
+				"{ftbquests.chapter.create.quest7853937403817881644.description4}"
 			]
 			id: "6CFECA74F2B7F02C"
 			optional: true
@@ -3561,7 +3025,7 @@
 				{
 					count: 16
 					id: "5B1363C4B947001B"
-					item: "cgs:round_10mm"
+					item: "cgs:round_revolver"
 					type: "item"
 				}
 				{
@@ -3570,27 +3034,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3604,7 +3051,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Craft a &eBrass Revolver"
+			subtitle: "{ftbquests.chapter.create.quest7853937403817881644.subtitle}"
 			tasks: [
 				{
 					id: "721367D7CC7F5E85"
@@ -3621,14 +3068,57 @@
 				{
 					count: 8L
 					id: "34036273336FFA72"
-					item: { Count: 16, id: "cgs:round_10mm" }
+					item: "cgs:round_revolver"
 					type: "item"
 				}
 			]
-			title: "&6Semi-Modern Warfare!"
+			title: "{ftbquests.chapter.create.quest7853937403817881644.title}"
 			x: 6.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["1D9A770D9C0B128F"]
+			description: [
+				"{ftbquests.chapter.create.quest3675799904216738190.description1}"
+				"{ftbquests.chapter.create.quest3675799904216738190.description2}"
+				""
+				"{ftbquests.chapter.create.quest3675799904216738190.description3}"
+			]
+			id: "33031089A440E98E"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "25B1819C6E809BB5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5F4698B039C7B099"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create.quest3675799904216738190.subtitle}"
+			tasks: [{
+				id: "5C1B267468813644"
+				item: "create_simple_generator:stress_generator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest3675799904216738190.title}"
+			x: -2.0d
+			y: -3.0d
+		}
 	]
-	title: "{chapter.25.title}"
+	title: "{ftbquests.chapter.create.title}"
 }

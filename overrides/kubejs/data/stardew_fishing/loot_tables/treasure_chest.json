@@ -8,7 +8,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:coal",
-          "weight": 20,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -24,7 +24,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone",
-          "weight": 10,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -53,23 +53,33 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_gold",
-          "weight": 15,
+          "weight": 65,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 8,
+                "min": 4,
                 "max": 32
               }
             }
           ]
         },
-
          {
           "type": "minecraft:item",
-          "name": "iceandfire:deathworm_chitin_yellow",
-          "weight": 3
+          "name": "uniqueaccessories:accessory_box",
+          "weight": 70,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         },
+
+      
         {
           "type": "minecraft:item",
           "name": "aquaculture:neptunium_block",
@@ -305,10 +315,21 @@
           "name": "mce2lib:porkus_summon",
           "weight": 2
         },
+        
          {
           "type": "minecraft:item",
-          "name": "bagofholding:golden_bag_of_holding",
-          "weight": 2
+          "name": "gonefishing:sunken_pickaxe",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gonefishing:salmon_of_knowledge",
+          "weight": 15
+        },
+         {
+          "type": "minecraft:item",
+          "name": "gonefishing:mysterious_clam",
+          "weight": 10
         },
          {
           "type": "minecraft:item",
@@ -482,11 +503,7 @@
           "name": "rats:ratfish",
           "weight": 15
         },
-        {
-          "type": "minecraft:item",
-          "name": "rats:cursed_garbage",
-          "weight": 4
-        },
+     
         {
           "type": "minecraft:item",
           "name": "minecraft:phantom_membrane",
@@ -517,11 +534,7 @@
           "name": "rats:block_of_blue_cheese",
           "weight": 4
         },
-        {
-          "type": "minecraft:item",
-          "name": "rats:garbage_pile",
-          "weight": 13
-        },
+     
         {
           "type": "minecraft:item",
           "name": "artifacts:running_shoes",
@@ -1000,30 +1013,17 @@
             }
           ]
         },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 6
-              }
-            }
-          ]
-        },
+    
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 40,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 8,
-                "max": 25
+                "min": 4,
+                "max": 16
               }
             }
           ]
@@ -1059,7 +1059,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:prismarine_crystals",
-          "weight": 4,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1089,15 +1089,11 @@
           "name": "minecraft:rabbit_foot",
           "weight": 1
         },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 1
-        },
+  
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
-          "weight": 1,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1168,7 +1164,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "weight": 25,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1182,13 +1178,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
-          "weight": 25,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 12,
-                "max": 38
+                "min": 4,
+                "max": 16
               }
             }
           ]
@@ -1196,13 +1192,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 24,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 20,
-                "max": 46
+                "min": 4,
+                "max": 16
               }
             }
           ]
@@ -1280,13 +1276,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 20,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 8
               }
             }
           ]
@@ -1420,7 +1416,7 @@
         {
           "type": "stardew_fishing:optional",
           "name": "aquaculture:neptunium_nugget",
-          "weight": 1,
+          "weight": 25,
           "functions": [
             {
               "function": "minecraft:set_count",

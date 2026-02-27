@@ -7,7 +7,7 @@
     "attacks": [
       {
         "hitbox": "HORIZONTAL_PLANE",
-        "damage_multiplier": 0.8,
+        "damage_multiplier": 1.0,
         "angle": 120,
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_right",
@@ -17,7 +17,7 @@
       },
       {
         "hitbox": "VERTICAL_PLANE",
-        "damage_multiplier": 1.2,
+        "damage_multiplier": 1.7,
         "angle": 120,
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_vertical_left",
@@ -27,7 +27,7 @@
       },
       {
         "hitbox": "VERTICAL_PLANE",
-        "damage_multiplier": 1.6,
+        "damage_multiplier": 1.7,
         "angle": 120,
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_vertical_right",
@@ -37,7 +37,7 @@
       },
       {
         "hitbox": "HORIZONTAL_PLANE",
-        "damage_multiplier": 0.8,
+        "damage_multiplier": 1.0,
         "angle": 120,
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_left",

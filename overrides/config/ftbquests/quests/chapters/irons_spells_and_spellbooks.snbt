@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "irons_spells_and_spellbooks"
@@ -12,17 +11,5398 @@
 		}
 	}
 	id: "40F9E477CEC77C75"
+	images: [
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.2d
+			image: "irons_spellbooks:block/arcane_debris_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/angel_wing.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.050000000000047d
+			y: -2.5622448979591823d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/burning_dash.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.8785714285713837d
+			y: -2.597959183673467d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/divine_smite.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.264285714285755d
+			y: -0.062244897959175205d
+		}
+		{
+			height: 3.0d
+			image: "goety:textures/painting/eldritch.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			height: 4.0d
+			image: "netherexp:block/ancient_fire_0"
+			rotation: 0.0d
+			width: 4.0d
+			x: 14.12857142857142d
+			y: 12.449319727891137d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/melting_netherrack_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.264285714285705d
+			y: 14.971428571428575d
+		}
+		{
+			height: 6.0d
+			image: "goety_cataclysm:item/abyss_essence"
+			rotation: 0.0d
+			width: 6.0d
+			x: 34.0d
+			y: 15.0d
+		}
+		{
+			height: 2.0d
+			image: "alexscaves:textures/misc/advancement/icon/defeat_brainiac.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.68571428571429d
+			y: 2.838435374149661d
+		}
+		{
+			height: 10.0d
+			image: "cataclysm_spellbooks:item/upgrade_orb_technomancy"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.7119047619047834d
+			y: -18.25d
+		}
+		{
+			height: 2.0d
+			image: "tconstruct:gui/tinker_pattern/button_repair"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.9785714285714775d
+			y: 14.294897959183679d
+		}
+		{
+			height: 2.0d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.7758503401360457d
+			y: 13.997959183673458d
+		}
+		{
+			height: 0.4d
+			image: "relics:item/fragrant_flower"
+			rotation: 0.0d
+			width: 0.4d
+			x: 5.226785714285683d
+			y: 10.5107142857143d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/acacia_leaves/magenta_flower_acacia_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.292091836734663d
+			y: 11.767857142857132d
+		}
+		{
+			height: 1.0d
+			image: "immersive_weathering:block/chipped/heavy_magenta_flower_oak_leaf_pile"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.120663265306092d
+			y: 11.767857142857132d
+		}
+		{
+			height: 1.0d
+			image: "biomeswevegone:block/witch_hazel/stripped_log"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.377806122448959d
+			y: 13.367857142857133d
+		}
+		{
+			height: 1.0d
+			image: "biomeswevegone:block/witch_hazel/stripped_log"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.03494897959181d
+			y: 13.339285714285701d
+		}
+		{
+			height: 1.0d
+			image: "immersive_weathering:block/chipped/heavy_magenta_flower_dark_oak_leaf_pile"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.120663265306099d
+			y: 12.539285714285704d
+		}
+		{
+			height: 1.0d
+			image: "immersive_weathering:block/chipped/heavy_magenta_flower_jungle_leaf_pile"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.377806122448959d
+			y: 12.567857142857136d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/planter_side_soul"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.29209183673467d
+			y: 14.053571428571423d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/planter_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.149234693877531d
+			y: 14.053571428571423d
+		}
+		{
+			height: 4.0d
+			image: "cofh_core:textures/mob_effect/cold_resistance.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 29.06020408163267d
+			y: 14.779931972789107d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/melting_netherrack_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.98571428571428d
+			y: 14.992176870748274d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:icons/controller"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.985714285714288d
+			y: 14.4471088435374d
+		}
+		{
+			height: 3.0d
+			image: "mekanism:block/thermal_evaporation_controller_on_led"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.985714285714273d
+			y: 13.197108843537436d
+		}
+		{
+			height: 3.0d
+			image: "minecolonies:textures/entity_icon/raiders/pharao.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 23.985714285714273d
+			y: 14.625680272108859d
+		}
+		{
+			height: 3.0d
+			image: "minecolonies:item/pharaoh_scepter"
+			rotation: 0.0d
+			width: 3.0d
+			x: 25.0d
+			y: 16.0d
+		}
+		{
+			height: 4.0d
+			image: "pneumaticcraft:textures/render/minigun_crosshair.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 28.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm_spellbooks:textures/gui/spell_icons/conjure_amethyst_crab.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: -24.0d
+		}
+		{
+			height: 2.0d
+			image: "alshanex_familiars:item/upgrade_orb_swirl_sound"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.8044217687074706d
+			y: 13.997959183673458d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/upgrade_orb_fire"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			height: 3.0d
+			image: "irons_spellbooks:item/upgrade_orb_ice"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.840136054421748d
+			y: -9.940136054421757d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/upgrade_orb_lightning"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.128571428571426d
+			y: -10.13095238095238d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/upgrade_orb_holy"
+			rotation: 0.0d
+			width: 4.0d
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			height: 5.0d
+			image: "irons_spellbooks:item/upgrade_orb_evocation"
+			rotation: 0.0d
+			width: 5.0d
+			x: 18.330952380952404d
+			y: -16.98809523809524d
+		}
+		{
+			height: 3.0d
+			image: "irons_spellbooks:item/upgrade_orb_blood"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.411564625850318d
+			y: -13.797278911564618d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/upgrade_orb_ender"
+			rotation: 0.0d
+			width: 4.0d
+			x: 18.0d
+			y: -21.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:item/crystallized_coral"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -20.0d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:item/ancient_metal_nugget"
+			rotation: 0.0d
+			width: 5.0d
+			x: 14.0d
+			y: -20.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/poisonous_potato"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: -20.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/mob_effect/poison.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.664285714285732d
+			y: -21.20238095238095d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:item/poison_bottle"
+			rotation: -135.0d
+			width: 2.0d
+			x: 11.378571428571448d
+			y: -21.964285714285708d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm_spellbooks:item/technomancy_rune"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.950000000000031d
+			y: -17.05952380952381d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.0095238095238415d
+			y: -13.03061224489796d
+		}
+		{
+			height: 3.0d
+			image: "crust:textures/icon/portal_nether.png"
+			order: -2
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/particle/ignis_explode_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/entity/maledictus/phantom_arrow.png"
+			rotation: 90.0d
+			width: 3.0d
+			x: 3.295238095238119d
+			y: -12.566326530612244d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "4DB9001ED039990E"
-		tasks: [{
-			id: "4338CA25D3F3542A"
-			item: "irons_spellbooks:inscription_table"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 2.0d
-	}]
-	title: "&6Iron's Spells and Spellbooks"
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description3}"
+				""
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description4}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description5}"
+				""
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description6}"
+			]
+			id: "5161C98079099E9B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "36AAF87752E10115"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: false
+				id: "4D5B8112F7B9E8A2"
+				item: "irons_spellbooks:scroll"
+				match_nbt: false
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.task.5574190882266671266.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5161C98079099E9B"]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest8726827930515467895.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest8726827930515467895.description2}"
+			]
+			icon_scale: 0.75d
+			id: "791BEBC41E54EE77"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "717B331ADB889A2C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0FC0BB727AAE38BF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8726827930515467895.subtitle}"
+			tasks: [{
+				id: "23D50C13F3CE4E1C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:copper_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 5
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:iron_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 6
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8726827930515467895.title}"
+			x: 5.069047619047566d
+			y: 0.009183673469372877d
+		}
+		{
+			dependencies: ["791BEBC41E54EE77"]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest2595947769634600586.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest2595947769634600586.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest2595947769634600586.description3}"
+			]
+			id: "2406A8BE1889B68A"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "44F8C666B450F7D7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2595947769634600586.subtitle}"
+			tasks: [{
+				id: "23516E5A824DBB2D"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description3}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description4}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description5}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description6}"
+				""
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description7}"
+			]
+			id: "38485FF144506F44"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7E8F70DF4D5A999B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 4
+					id: "503E84220BF4E32E"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "010B0423CC26EF8D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "461985041258E475"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:common_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:uncommon_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:rare_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:epic_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:legendary_ink"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.task.5051214709606900853.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.title}"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"38485FF144506F44"
+				"2406A8BE1889B68A"
+			]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4690008549281639135.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4690008549281639135.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4690008549281639135.description3}"
+			]
+			id: "411641ED457A2ADF"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "4F45AB090F5EF69C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0767B0CE723D4DA4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4690008549281639135.subtitle}"
+			tasks: [{
+				id: "34F25B2740E4EEE2"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2055641086258977452.description1}"]
+			icon: "irons_spellbooks:cinder_essence"
+			id: "1C871AAD3C2A1AAC"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "14DDDBFEAF88DC53"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "74D716796B517B4C"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1C871AAD3C2A1AAC"
+				"2406A8BE1889B68A"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7850822665214106840.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7850822665214106840.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7850822665214106840.description3}"
+			]
+			id: "6CF3B99E5AAC1CD8"
+			rewards: [
+				{
+					count: 4
+					id: "0DBBDDDF6B2F310C"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "299D4001F1584DBA"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "6A98925BC26517C7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "720F7FE3B3175582"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CACAF7DE23CF9C0"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2406A8BE1889B68A"]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6999913205766722184.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6999913205766722184.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6999913205766722184.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6999913205766722184.description4}"
+			]
+			id: "6124AFF9384A9288"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "580B4FC26490D4BE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7199204729030BD5"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest4575860934045661794.description1}"]
+			id: "3F80B9468B60FA62"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "412E9E1E0C7119CE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "522608CA9EE4588A"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3F80B9468B60FA62"]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.description3}"
+			]
+			id: "672773DD7379C83C"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2FE6F9C7CA59E1C1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.subtitle}"
+			tasks: [
+				{
+					id: "39D47D113244D93A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0ACA47FD7447B9CF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67A0A217E4A2B165"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B49E325A0EB1965"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.title}"
+			x: -4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["71F301DD88440949"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2006027059556529899.description1}"]
+			id: "1BD6D6FB76B036EB"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:coins"
+				id: "6ACD8EA5815A4F1B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2006027059556529899.subtitle}"
+			tasks: [
+				{
+					id: "755E6E09020C8CC2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18733227DA148BE9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7014661435B860ED"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AC5A2085521476A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2006027059556529899.title}"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3F80B9468B60FA62"]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest8210908596612106569.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest8210908596612106569.description2}"
+			]
+			id: "71F301DD88440949"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1826C290B2160CF6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2C395725E5AD8143"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["71F301DD88440949"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1303421230208476207.description1}"]
+			id: "1216AEB3FB47642F"
+			rewards: [{
+				id: "3B14201475B20484"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						}
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6417FB916F795EAF"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1303421230208476207.task.7212509930316193455.title}"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "61467A50E6599B8E"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "0E4D91F798D697B5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7FB3979638B1FF48"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7009424357929360270.subtitle}"
+			tasks: [
+				{
+					id: "743F2BB7EDA9695E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00FC351DD9A91436"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "066255AD74512546"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08FD38E193A68A0B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7009424357929360270.title}"
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["791BEBC41E54EE77"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest8782633220489869362.description1}"]
+			id: "79E22E61B3D7F832"
+			shape: "hexagon"
+			tasks: [{
+				id: "19C47F0AE90F64E6"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8782633220489869362.task.1856748631219987686.title}"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"189A7A4E7CF3BC1D"
+				"7199204729030BD5"
+			]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest9016775045780220903.description1}"]
+			id: "7D22052197562BE7"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "55DE766FF5AE931B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest9016775045780220903.subtitle}"
+			tasks: [{
+				id: "5F9CC9E7A58D16DB"
+				item: "irons_spellbooks:lesser_spell_slot_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			id: "0939857CA799C325"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "47B9E565BB0C775D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest664709190448169765.subtitle}"
+			tasks: [{
+				id: "35CCD3BE2975DC8C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0939857CA799C325"]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6996837788727795402.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6996837788727795402.image0}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6996837788727795402.description2}"
+				""
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6996837788727795402.image2}"
+			]
+			id: "6119C2E5E4265ECA"
+			rewards: [
+				{
+					amount: 300L
+					currency: "eternalcurrencies:coins"
+					id: "1F888A475211FDE4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "5BAB13CC1ACCF328"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D7552C09672ED3C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7C291600402C8DFF"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest3582070340461663781.description1}"]
+			id: "31B611FEFBAE1625"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "54EBFF50FF5BB66F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3582070340461663781.subtitle}"
+			tasks: [{
+				id: "7C62E1887F30A1D2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructs_casting:tinkerers_spellbook"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 6
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+									etstlib_tool_uuid: "4c8f133d-13db-4352-8d46-9a6160580aee"
+									tic_modifiers: [ ]
+									tic_persistent: { }
+									tic_stats: {
+										"constructs_casting:cooldown_reduction": 0.1f
+										"constructs_casting:max_mana": 125.0f
+										"constructs_casting:spell_slots": 6.0f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "constructs_casting:plated_spellbook"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 12
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+									etstlib_tool_uuid: "c9647966-5e66-4173-b4ec-3ae1987429f3"
+									tic_modifiers: [{
+										level: 2
+										name: "constructs_casting:mana_upgrade"
+									}]
+									tic_persistent: { }
+									tic_stats: { }
+									tic_volatile_data: {
+										upgrades: 1
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3582070340461663781.task.8962974184786403794.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3582070340461663781.title}"
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["189A7A4E7CF3BC1D"]
+			id: "572D2B8856683A55"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3CAD1A984D1B0860"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6281724919816927829.subtitle}"
+			tasks: [{
+				id: "4F9CF5F59EA69EA0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["189A7A4E7CF3BC1D"]
+			id: "7C291600402C8DFF"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "37F41D14F2BA3D78"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8946706325080673791.subtitle}"
+			tasks: [{
+				id: "457129B61E98BE6A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"79E22E61B3D7F832"
+				"2E93490E1274F9F3"
+			]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1772863880846097437.description1}"]
+			id: "189A7A4E7CF3BC1D"
+			rewards: [
+				{
+					count: 2
+					id: "7931436ABB0C4470"
+					item: "irons_spellbooks:hogskin"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "188CBEBA0734CC43"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7D795A82749477C9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "487958EBD67B066B"
+				item: "irons_spellbooks:hogskin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1772863880846097437.title}"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"79E22E61B3D7F832"
+				"26E27FB78FB855CE"
+			]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest7171475999966599264.description1}"]
+			id: "6386336D053F9860"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2126C3CAF02E4311"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0117FA1E6FA737FF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DD1D50508E3D0FC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68D9B6502F9CEFAF"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6386336D053F9860"]
+			id: "13CB39609AFF3183"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "4B6E81780775DC09"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "06DD634F17907F42"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C94BFBB47336629"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.100000000000001d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6386336D053F9860"]
+			id: "7D0F713675FD3E26"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "6F2AC8C81F90AC2B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "171790AF9A553CC4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest9011545858113355302.subtitle}"
+			tasks: [{
+				id: "3BDCCCDEA397D9AC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.1d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"68D9B6502F9CEFAF"
+				"596943F35C9D8838"
+			]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest4210664357734366143.description1}"]
+			id: "3A6F48EC9F27BBBF"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "4BBF5C6AE2E5AA82"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2C0E02A72137DEF3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C670B8D8ADB3A56"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4210664357734366143.subtitle}"
+			tasks: [{
+				id: "34A7D0391D5CBDD2"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:abyss_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 34.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["22355C3503FEFBA9"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest8293613194562225753.description1}"]
+			id: "7318D5424E5FC659"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "29F5A08285758FDE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3BC2141E9812603E"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Archevoker"
+						display: {
+							Name: "{\"translate\":\"item.irons_spellbooks.archevoker_log\"}"
+						}
+						pages: [
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"translate\":\"page.mce2.irons_spells_and_spellbooks.1\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_1\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"translate\":\"page.mce2.irons_spells_and_spellbooks.2\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_2\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"translate\":\"page.mce2.irons_spells_and_spellbooks.3\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_3\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"translate\":\"page.mce2.irons_spells_and_spellbooks.4\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_4\",\"font\":\"illageralt\"}]"
+						]
+						resolved: 1b
+						title: ""
+						untranslatedLogbook: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2D6744F825F58CF4"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest5043863591307842195.description1}"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:evoker_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [
+							{
+								id: "irons_spellbooks:fang_strike"
+								index: 0
+								level: 6
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:fang_ward"
+								index: 1
+								level: 4
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:summon_vex"
+								index: 2
+								level: 4
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "45FF6736776E1293"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6A84F115F97D3294"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1F9A85EBE778A5C8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74D209F8EEC65E2A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5043863591307842195.title}"
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			id: "22355C3503FEFBA9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "72BBB93BB9737B54"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2464977753825278889.subtitle}"
+			tasks: [{
+				id: "5E082763C8F777A5"
+				structure: "irons_spellbooks:evoker_fort"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2464977753825278889.title}"
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7318D5424E5FC659"]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7540746886412408105.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7540746886412408105.description2}"
+			]
+			id: "68A61D5731BE9529"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "2A0386FD8BE2977F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7540746886412408105.subtitle}"
+			tasks: [{
+				id: "4955F09461006559"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Archevoker"
+						display: {
+							Name: "{\"translate\":\"item.irons_spellbooks.translated_archevoker_log\"}"
+						}
+						pages: [
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"translate\":\"page.mce2.irons_spells_and_spellbooks.1\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_1\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"translate\":\"page.mce2.irons_spells_and_spellbooks.2\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_2\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"translate\":\"page.mce2.irons_spells_and_spellbooks.3\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_3\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"translate\":\"page.mce2.irons_spells_and_spellbooks.4\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_4\"}]"
+						]
+						resolved: 1b
+						title: ""
+						translatedLogbook: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["68A61D5731BE9529"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest5909339454011724864.description1}"]
+			id: "520230ECA591D440"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute at {p} run summon firework_rocket {x} {y} {z} {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:1,Trail:0,Colors:[I;14602026],FadeColors:[I;15435844]},{Type:2,Flicker:1,Trail:1,Colors:[I;15790320],FadeColors:[I;11250603]}]}}}}"
+					console: true
+					icon: "artifacts:cross_necklace"
+					id: "48FCFB3082C2FA33"
+					team_reward: true
+					title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5909339454011724864.reward.5259354650632714803.title}"
+					type: "command"
+				}
+				{
+					amount: 300L
+					currency: "eternalcurrencies:coins"
+					id: "59AC00D03C38CB81"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "46E19C4D97718954"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "339D42B1957EEF4C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5909339454011724864.title}"
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			id: "3842F005B53954E9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "71D5A9CD03FBC06E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4054066521892803817.subtitle}"
+			tasks: [{
+				id: "14A69FDDEB3AC841"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: {
+						isInInventory: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3842F005B53954E9"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1833014330424030276.description1}"]
+			id: "19702CD2611FF444"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7F4677D135E36231"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "26FF7AD5C051925A"
+				structure: "irons_spellbooks:catacombs"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1833014330424030276.task.2810099750975672922.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1833014330424030276.title}"
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest457661697768981467.description1}"]
+			id: "0659F0E3AAD283DB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0FFC23F73731E867"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1C32B61EE2552559"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"596943F35C9D8838"
+				"1C32B61EE2552559"
+			]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest6993972603075306967.description1}"]
+			id: "610F9506DF1E25D7"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "613B93BB34C55581"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "740B62C81EB365C2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C1FD639A69337B7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6993972603075306967.subtitle}"
+			tasks: [{
+				id: "6EE8BF851BB795BE"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:ignis_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest6442755454440147000.description1}"]
+			hide_dependency_lines: true
+			id: "596943F35C9D8838"
+			shape: "hexagon"
+			tasks: [{
+				id: "5E98B8555C634B83"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6442755454440147000.task.6816400712786987907.title}"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"596943F35C9D8838"
+				"3BDCCCDEA397D9AC"
+			]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest665904147132539287.description1}"]
+			id: "093DC44B304B6197"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "612AA09B80FA476A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "697F51F8BAAEB92F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1954BD93C6416D42"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest665904147132539287.subtitle}"
+			tasks: [{
+				id: "03F65EA96B031FBB"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:disc_driver"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						az_id: [I;
+							93143809
+							1149519364
+							-2075882725
+							-1870978571
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"596943F35C9D8838"
+				"3BDCCCDEA397D9AC"
+			]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2077868603111802374.description1}"]
+			id: "1CD6127C4A6A8606"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "084301B41A26EBF9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2590F44B70A62159"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "197C58A46BC421C1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2077868603111802374.subtitle}"
+			tasks: [{
+				id: "63B8A7368BCAACE2"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:codex_of_malice_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["596943F35C9D8838"]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5886131445705851053.description1}"
+				""
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5886131445705851053.description2}"
+			]
+			id: "51AFBD5D228DC0AD"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "6626E3379E6484CE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6DADD250DEBE3492"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77D2C21DD3CE4886"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0707066A871BF6EF"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:desert_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "cataclysm_spellbooks:desert_winds"
+									index: 1
+									level: 3
+									locked: 1b
+								}
+								{
+									id: "cataclysm_spellbooks:sandstorm"
+									index: 2
+									level: 3
+									locked: 1b
+								}
+								{
+									id: "cataclysm_spellbooks:thoths_witness"
+									index: 3
+									level: 1
+									locked: 1b
+								}
+								{
+									id: "cataclysm_spellbooks:pharaohs_wrath"
+									index: 4
+									level: 3
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"7C291600402C8DFF"
+				"60D2F8A46F9CAFBF"
+			]
+			description: [""]
+			id: "4C16CCFE24538F0F"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "28B1858B95C2CAE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5482794988273372943.subtitle}"
+			tasks: [{
+				id: "7625D641A9ABE596"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alshanex_familiars:sound_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "alshanex_familiars:familiar_spellbook"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5482794988273372943.task.8513446248121623958.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5482794988273372943.title}"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest8390167270135329223.description1}"]
+			id: "746FDCADDE8671C7"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "76FA46E76D9437E5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "65912DA520AE43C2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ias_spellbooks:magispellers_legacy"
+								tag: {
+									ISB_Spells: {
+										data: [{
+											id: "ias_spellbooks:restorative_rain"
+											index: 0
+											level: 5
+											locked: 1b
+										}]
+										maxSpells: 12
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "ias_spellbooks:book_of_dark_mutations"
+								tag: {
+									ISB_Spells: {
+										data: [
+											{
+												id: "ias_spellbooks:dragline"
+												index: 0
+												level: 10
+												locked: 1b
+											}
+											{
+												id: "ias_spellbooks:pumpkin_spice"
+												index: 1
+												level: 3
+												locked: 1b
+											}
+										]
+										maxSpells: 12
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8390167270135329223.task.7318681056694911938.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8390167270135329223.title}"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "0A2E4B027C2D4E89"
+			rewards: [{
+				id: "159B40401AAE5090"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						}
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest733606263353331337.subtitle}"
+			tasks: [
+				{
+					id: "29D76A41E5AA5A69"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25B6EFDDF2E8F0C4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "455A2E990D97D78B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "291E62FE0086ADF2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest733606263353331337.title}"
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "5B762FA514B5B0B7"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "14C8FC83CF6E83DE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6A1A8967677531FA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6590507490766860471.subtitle}"
+			tasks: [
+				{
+					id: "6ECFAC6FAF1D11B4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C582667C597F9FB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C53BA1623DE7655"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "113B241187FA1F8B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6590507490766860471.title}"
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "72BD166F099189C3"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "3F8C5F0BC19026B6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1B8EEA7AAA112262"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8267789157079812547.subtitle}"
+			tasks: [
+				{
+					id: "3575BC49CF5E619A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E487C062A38121C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D983B0E13D1C205"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75CC29B8D2EFC0D8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8267789157079812547.title}"
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "58121A43860BB58E"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "4981DBCC77636951"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0263B0AFD3544E63"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6346163702232495502.subtitle}"
+			tasks: [
+				{
+					id: "352B87E3928EE712"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD3F30EE36833B4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BD2AB5095B486F3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4808BB270D01E69E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6346163702232495502.title}"
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "00EBB727A88EB250"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "1615406FF0D88373"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0BDE02422E348DCB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest66348000486535760.subtitle}"
+			tasks: [
+				{
+					id: "5E36D464E90594C1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34693B4B12079ECE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2858B81A50A6F696"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70CA36877DCFF0EF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest66348000486535760.title}"
+			x: 17.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "0D0D5A8C053108B6"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "3A1BF222DBF22F35"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest940507454619322550.subtitle}"
+			tasks: [
+				{
+					id: "2ACC3D4B267088B9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6177EC04E9DCD137"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "476FE421CF0A82C0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "584C41FB2A4370E8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest940507454619322550.title}"
+			x: 17.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "398CE06286B1C4FA"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "7B620162842473F0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1688F9D0834377D5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4146936070672598266.subtitle}"
+			tasks: [
+				{
+					id: "63603CB3A956ECA1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09B8088E27C196C3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76BC0554A83D22E7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F86B0DBB639B056"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4146936070672598266.title}"
+			x: 17.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			description: [""]
+			id: "0E52BCB347EA69D4"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "24648F85B480EBD3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1032094742812977620.subtitle}"
+			tasks: [
+				{
+					id: "6D6C55346FB76981"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7802489BB196BE45"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "495A2316FE50CE27"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50C6997992B78F77"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1032094742812977620.title}"
+			x: 10.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "6307C2D852A06C6D"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "63D66A197EB4AF5A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7135886368946809965.subtitle}"
+			tasks: [
+				{
+					id: "2C7803FD3DC72A3D"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_hood"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F6537BB924D135F"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_suit"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E6039F0AB3CE014"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "041D05FFB1782564"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7135886368946809965.title}"
+			x: 7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"1216AEB3FB47642F"
+				"10EF524792F6952A"
+			]
+			id: "04207C5166746AA9"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "62460665749A1E2C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7DF07CABF093CC79"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest297374264459553449.subtitle}"
+			tasks: [
+				{
+					id: "7A4AD0AD48A2EB8F"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:abyssal_warlock_helmet"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "643342856FC3EBAB"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:abyssal_warlock_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2502CF0C51B4114C"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:abyssal_warlock_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12A05B74ECE0BF52"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:abyssal_warlock_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest297374264459553449.title}"
+			x: 7.0d
+			y: -20.0d
+		}
+		{
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest839419752359484729.description1}"]
+			id: "0BA637D13CD55D39"
+			invisible: true
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "7F4412A72AC48AF2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4BED35E454643609"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "embellish"
+			tasks: [{
+				id: "6A000CEE0A90C182"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1699551242750405853.description1}"]
+			id: "179604D9C5B62CDD"
+			invisible: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1754B312A3F0190F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "20BA60AB0988F210"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "embellish"
+			tasks: [{
+				id: "09BDA1212C69BEE2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:magehunter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1806671516521272110.description1}"]
+			id: "1912962C1011132E"
+			invisible: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "13E8371F4DEFEE29"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "16753D2D453DABA0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "embellish"
+			tasks: [{
+				id: "722E7F70CAFA89F9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"483F44B451C33BCD"
+				"0DD6705B00E9AFBE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest7291280179704597144.description1}"]
+			id: "652FD4B14D238A98"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "6FDC8F2E5CAD295F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7F6CD11294971BFA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "irons_spellbooks:salvageable_curio"
+					}
+				}
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7291280179704597144.task.9181943618034146298.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7291280179704597144.title}"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["791BEBC41E54EE77"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest5205955235520134093.description1}"]
+			id: "483F44B451C33BCD"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "56B4E3A66369957D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "74D13704F39517C8"
+					item: "irons_spellbooks:amethyst_resonance_charm"
+					type: "item"
+				}
+				{
+					id: "680BE8D20BF8DC15"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "4864B2F3FAB92E22"
+					item: "cataclysm_spellbooks:engineers_power_glove"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5205955235520134093.title}"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "32F8BBE78DE29AB1"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2641F2F8E026A7DF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7933957F08F4A030"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3628F3254B84FCC1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3672892099312917169.subtitle}"
+			tasks: [{
+				id: "6189A8A1EE58BA68"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["32F8BBE78DE29AB1"]
+			id: "0DD6705B00E9AFBE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "21041817FD688258"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6DF5DFF7A40719D9"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest997107903668793278.title}"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0DD6705B00E9AFBE"]
+			id: "74F5F04E6FA27AE2"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2409B4BD6E3768A7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "21E75721FDB264F1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8427906497364785890.subtitle}"
+			tasks: [{
+				id: "4C4E3029A2D9348B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:spellbreaker"
+								tag: {
+									Damage: 0
+									ISB_Spells: {
+										data: [{
+											id: "irons_spellbooks:counterspell"
+											index: 0
+											level: 1
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:amethyst_rapier"
+								tag: {
+									Damage: 0
+									ISB_Spells: {
+										data: [{
+											id: "irons_spellbooks:echoing_strikes"
+											index: 0
+											level: 5
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8427906497364785890.task.5498385150449890443.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8427906497364785890.title}"
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0DD6705B00E9AFBE"]
+			id: "7DED1D9228E96F78"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "37AF2B21CB17F3C2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest9073941337810235256.subtitle}"
+			tasks: [{
+				id: "77B860B3561BBAFB"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7DED1D9228E96F78"
+				"7199204729030BD5"
+			]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest7797078755551207869.description1}"]
+			id: "6C34C9D1465FE1BD"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "182D364500E8C42B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2CD497EAB9FB2204"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "4C32145F5C4511D3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:fire_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ice_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:lightning_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:holy_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ender_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:blood_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:evocation_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:nature_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:mana_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:cooldown_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:protection_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "alshanex_familiars:sound_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:abyssal_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:technomancy_upgrade_orb"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7797078755551207869.task.5490473295520534995.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7797078755551207869.title}"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			id: "41DFE43E0B58AF45"
+			invisible: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3B661E2C8683B6A7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4AE968EBD3D0D5F7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "embellish"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4746763487401258821.subtitle}"
+			tasks: [{
+				id: "5F24C76275C92FAD"
+				item: {
+					Count: 1
+					id: "mce2lib:amethyst_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["483F44B451C33BCD"]
+			id: "128D84A63C435A60"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "263CF146F450DF90"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "46BD87ACA3F74D51"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:lightning_rod"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ice_staff"
+							}
+							{
+								Count: 1b
+								id: "constructs_casting:eldritch_staff"
+								tag: {
+									Damage: 0
+									etstlib_tool_uuid: "5311b919-b40f-4c75-9602-74abe937f1e5"
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											level: 1
+											name: "constructs_casting:casting"
+										}
+										{
+											level: 3
+											name: "constructs_casting:eldritch_upgrade"
+										}
+									]
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:block_amount": 20.0f
+										"tconstruct:block_angle": 50.0f
+										"tconstruct:durability": 1337.0f
+										"tconstruct:use_item_speed": 0.4f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:artificer_cane"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:bloom_stone_staff"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:coral_staff"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:fake_wudjets_staff"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:void_staff"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1336870513909389920.task.5097379528808287569.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1336870513909389920.title}"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4864B2F3FAB92E22"
+				"596943F35C9D8838"
+			]
+			id: "0081D9957EA24E30"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "06251D4C56D6D19C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "30471C2D23A10688"
+				item: "cataclysm_spellbooks:gauntlet_of_power"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0081D9957EA24E30"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2776869365313836497.description1}"]
+			id: "26896BF9AB3215D1"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "024ECD3795BF7BCC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F60AEE462ACA14D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66FE7078EB85EB0B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2776869365313836497.subtitle}"
+			tasks: [{
+				id: "640582A4A0CF9CDB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:the_berserker"
+								tag: {
+									ISB_Spells: {
+										data: [{
+											id: "cataclysm_spellbooks:cryopiercer"
+											index: 0
+											level: 1
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+									az_id: [I;
+										1759895114
+										-1736622031
+										-1568030423
+										93399168
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:the_nightstalker"
+								tag: {
+									ISB_Spells: {
+										data: [{
+											id: "cataclysm_spellbooks:hemorrhaging_impact"
+											index: 0
+											level: 1
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+									az_id: [I;
+										-1187695001
+										2019904996
+										-1442723206
+										901967454
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:the_combuster"
+								tag: {
+									ISB_Spells: {
+										data: [{
+											id: "cataclysm_spellbooks:scorched_earth"
+											index: 0
+											level: 1
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+									az_id: [I;
+										-1877031900
+										-1585166455
+										-1573549546
+										-561808420
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2776869365313836497.task.7207310422260554971.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2776869365313836497.title}"
+			x: 28.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26E27FB78FB855CE"]
+			description: [""]
+			hide_until_deps_complete: true
+			id: "0356B766CA690404"
+			invisible: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1CA5D857DD6182D3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest240581282221327364.subtitle}"
+			tasks: [{
+				id: "427D9927F1B500AE"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			x: 14.7d
+			y: 4.2d
+		}
+		{
+			dependencies: ["0356B766CA690404"]
+			hide_until_deps_complete: true
+			id: "49073179F0027BE8"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "396B882ED66BAB85"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5262229089393212392.subtitle}"
+			tasks: [{
+				id: "0EC0DF0885863C1B"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			x: 16.700000000000003d
+			y: 1.2d
+		}
+		{
+			dependencies: ["49073179F0027BE8"]
+			hide_until_deps_complete: true
+			id: "3494B5D849D4B12D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5AF866350DF67873"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3788853127081668909.subtitle}"
+			tasks: [{
+				id: "120F313970457FB5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sculk_tentacles"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 18.700000000000003d
+			y: -0.8d
+		}
+		{
+			dependencies: ["0EC0DF0885863C1B"]
+			dependency_requirement: "one_started"
+			hide_until_deps_complete: true
+			id: "702EC9AB336D097B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "43117118DAAF84AA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8083620118315993467.subtitle}"
+			tasks: [{
+				id: "502C7E021D4EDF69"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sonic_boom"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 20.700000000000003d
+			y: 0.19999999999999996d
+		}
+		{
+			dependencies: ["49073179F0027BE8"]
+			hide_until_deps_complete: true
+			id: "3E9F898263F43E80"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "46D33A2A81C5FAE6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4512476544764231296.subtitle}"
+			tasks: [{
+				id: "5C802D2A8BBD9D67"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:planar_sight"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 18.700000000000003d
+			y: 0.19999999999999996d
+		}
+		{
+			dependencies: ["0EC0DF0885863C1B"]
+			hide_until_deps_complete: true
+			id: "4F88EE8B3595F2B9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4F6D34B2E17A50EE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5731092807495840441.subtitle}"
+			tasks: [{
+				id: "2EFB316889168E9A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:telekinesis"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 20.700000000000003d
+			y: 2.2d
+		}
+		{
+			dependencies: ["49073179F0027BE8"]
+			hide_until_deps_complete: true
+			id: "163D3C747DE3F930"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "421D07A6E5D8CFA6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1602503513439729968.subtitle}"
+			tasks: [{
+				id: "48FA67503E92BCC8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:eldritch_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 18.700000000000003d
+			y: 2.2d
+		}
+		{
+			dependencies: ["702EC9AB336D097B"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "3348E55D55B04088"
+			optional: true
+			size: 0.1d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 1L
+				icon: "irons_spellbooks:invisibility_ring"
+				id: "26486BACBD4F1F97"
+				secret: true
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3695455683289825416.task.2758573161419054999.title}"
+				type: "questsadditions:time"
+			}]
+			x: 18.700000000000003d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4F88EE8B3595F2B9"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "689EFD254DB11F90"
+			optional: true
+			size: 0.1d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 1L
+				icon: "irons_spellbooks:invisibility_ring"
+				id: "0B75E2491531A261"
+				secret: true
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7538741162923859856.task.825814910208418401.title}"
+				type: "questsadditions:time"
+			}]
+			x: 18.700000000000003d
+			y: 0.19999999999999996d
+		}
+		{
+			dependencies: [
+				"0E52BCB347EA69D4"
+				"5E98B8555C634B83"
+				"0BEF2FBE6774D651"
+			]
+			id: "762B2615C1363CFA"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "5C4F8981C5C8F3AD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3E4F71A9D5879A67"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8514941395351780602.subtitle}"
+			tasks: [
+				{
+					id: "0175B136765E387E"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:bloom_stone_hat"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5854312ACC65C9EE"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:bloom_stone_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6744A9A14CFFC3D1"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:bloom_stone_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1211CC3D5527CFEE"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:bloom_stone_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8514941395351780602.title}"
+			x: 10.0d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"61467A50E6599B8E"
+				"5E98B8555C634B83"
+			]
+			id: "2F75F33FD87EFBC9"
+			rewards: [
+				{
+					amount: 300L
+					currency: "eternalcurrencies:coins"
+					id: "3B4AB773BA68BE8C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5B1B789B5BBE8D7D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3419906947598449609.subtitle}"
+			tasks: [
+				{
+					id: "439A3242ADA4EEEC"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_helmet"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54091AC2D6C579A3"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58AB8CEDA0F38AE0"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BEE403668F2DCF3"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3419906947598449609.title}"
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"61467A50E6599B8E"
+				"5E98B8555C634B83"
+			]
+			id: "6F34286FE36682B0"
+			rewards: [
+				{
+					amount: 300L
+					currency: "eternalcurrencies:coins"
+					id: "21DF44DA96DFF626"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1E4E6420D702A1CC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8013074098020582064.subtitle}"
+			tasks: [
+				{
+					id: "6020DEEBFEDED9B9"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:cursium_mage_circlet"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E5AEAAC590F72D7"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:cursium_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F0AC7330F2D1745"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:cursium_mage_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28A8BBB105CCC6E4"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:cursium_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8013074098020582064.title}"
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"1216AEB3FB47642F"
+				"5E98B8555C634B83"
+			]
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4625986866060670153.description1}"
+				""
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4625986866060670153.description2}"
+			]
+			id: "4032CE8B8F2B34C9"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "4D8C88FF037425EB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "4A9FC3DE8D7222E9"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:pharaoh_helmet"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21BECCD30F839E95"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:pharaoh_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA5DF859CD3AE32"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:pharaoh_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "452EC1ABE555E775"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:pharaoh_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4625986866060670153.title}"
+			x: 14.0d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"6307C2D852A06C6D"
+				"5E98B8555C634B83"
+			]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest4347878782779660591.description1}"]
+			id: "3C56C4B7860A192F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5DCA31D46614F976"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4347878782779660591.subtitle}"
+			tasks: [
+				{
+					id: "0F977C6CF613B3CB"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45EFC5208869D0E9"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4347878782779660591.title}"
+			x: 4.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["3C56C4B7860A192F"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest511496999916835993.description1}"]
+			id: "071933CFB7B89499"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "11A48AF9301CFCC4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest511496999916835993.subtitle}"
+			tasks: [
+				{
+					id: "12F9A781AD079D3A"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_resist_visors"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								-1089979770
+								2026262428
+								-1517263357
+								141965110
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63E23BABCDD1BE18"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_resist_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								1823268083
+								1498303799
+								-1076579254
+								1017913712
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest511496999916835993.title}"
+			x: 2.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["3C56C4B7860A192F"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest3048283385885714847.description1}"]
+			id: "2A4DAD96C671699F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "66F72C9AFF3983CF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3048283385885714847.subtitle}"
+			tasks: [
+				{
+					id: "6E568B99E3FEE314"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_power_visors"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								-456599528
+								76171145
+								-1996667143
+								-1846923967
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0621BE564C3DE9F2"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_power_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								1891656486
+								-231914601
+								-1844039549
+								-339030171
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3048283385885714847.title}"
+			x: 4.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["3C56C4B7860A192F"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest4988989090248756898.description1}"]
+			id: "453C732510938EA2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "300071D13E6A2FFA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4988989090248756898.subtitle}"
+			tasks: [
+				{
+					id: "45D32EDE7FCA8614"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_speed_visors"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								-2101685039
+								-1452719135
+								-2133443310
+								-1345072032
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "111763EB44DD8F39"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_speed_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								-229606238
+								1030047222
+								-1559514956
+								-29486473
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4988989090248756898.title}"
+			x: 2.0d
+			y: -19.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:bundle"
+				tag: {
+					enchant: 1b
+					soulbound: 1b
+				}
+			}
+			id: "3F37D498C09BBC06"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.subtitle}"
+			tasks: [{
+				id: "654A6DAF6692B890"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.task.7298766746214906000.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest6992660645463051005.description1}"]
+			icon: "minecraft:compass"
+			id: "610AEBCEEFADCAFD"
+			tasks: [{
+				id: "36DA4F4A1FF2C775"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6992660645463051005.task.3952558802753210229.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6992660645463051005.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.description3}"
+			]
+			icon: "dreadsteel:dreadsteel_scythe"
+			id: "010F4C671F424CAD"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.subtitle}"
+			tasks: [{
+				id: "0B28BEA79245FC40"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.task.804102160408509504.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.title}"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.description3}"
+				""
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.description4}"
+			]
+			icon: "irons_spellbooks:furled_map"
+			id: "3EDB8D8AD5C605FB"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "16C3F05B45F8B0B7"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "18E82F7DD5D50A89"
+					item: "irons_spellbooks:shriving_stone"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "34982CF9C0CB8AEB"
+					structure: "irons_spellbooks:evoker_fort"
+					type: "structure"
+				}
+				{
+					id: "5CB1CC6E8B0AE0A6"
+					structure: "irons_spellbooks:impaled_icebreaker"
+					type: "structure"
+				}
+				{
+					id: "6E7EA5772631DD82"
+					structure: "irons_spellbooks:mangrove_hut"
+					type: "structure"
+				}
+				{
+					id: "7FCC5FFDA3A8B7A8"
+					structure: "irons_spellbooks:pyromancer_tower"
+					type: "structure"
+				}
+				{
+					id: "09792507CDF47F7C"
+					structure: "irons_spellbooks:mountain_tower"
+					type: "structure"
+				}
+				{
+					id: "11622E369BD544F8"
+					structure: "irons_spellbooks:ancient_battleground"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.title}"
+			x: 11.982993197278894d
+			y: -13.702040816326516d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6583720922823529842.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6583720922823529842.description2}"
+			]
+			id: "5B5E134C19341572"
+			invisible: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "360170A5ADE245DD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1D03C9E3FBBDE4A5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "embellish"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6583720922823529842.subtitle}"
+			tasks: [{
+				id: "6E54F41545F865CC"
+				item: "irons_spellbooks:invisibility_ring"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.description1}"
+				""
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.image0}"
+			]
+			id: "692705EA9E580BE7"
+			rewards: [
+				{
+					id: "53A38A65061206C4"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3935E627FD40346F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.subtitle}"
+			tasks: [{
+				id: "39A4C9CE1DB8C593"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.task.4153666643441534355.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.title}"
+			x: 11.65238095238091d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5768E11E5F137489"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest5913983542919488988.description1}"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:necronomicon_spell_book"
+				tag: {
+					ISBEnhance: "irons_spellbooks:raise_dead"
+					ISB_Spells: {
+						data: [
+							{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blood_step"
+								index: 1
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 2
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blaze_storm"
+								index: 3
+								level: 5
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "5212B0B2DB38E5DC"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "095DC26A671A9E0B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "70D7637B463D6CD7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E7B5885F60BB288"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:necronomicon_spell_book"
+						tag: {
+							ISBEnhance: "irons_spellbooks:raise_dead"
+							ISB_Spells: {
+								data: [
+									{
+										id: "irons_spellbooks:blood_slash"
+										index: 0
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:blood_step"
+										index: 1
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:ray_of_siphoning"
+										index: 2
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:blaze_storm"
+										index: 3
+										level: 5
+										locked: 1b
+									}
+								]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CE38A8EAF54EA3B"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5913983542919488988.title}"
+			x: 11.0d
+			y: 17.0d
+		}
+		{
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest6976912157881184191.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alshanex_familiars:bard_pet"
+					DisplayMobScale: 2.0d
+				}
+			}
+			id: "60D2F8A46F9CAFBF"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "0915C47B7C113540"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0A3F97B18E076D1C"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6976912157881184191.task.738475652759907612.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6976912157881184191.title}"
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "minecraft:hoglin"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "2E93490E1274F9F3"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0F49794273988A38"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3356106472109177331.subtitle}"
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "72ADF6C6B117495E"
+				type: "kill"
+				value: 3L
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3356106472109177331.title}"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "irons_spellbooks:citadel_keeper"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "54D3C3C35CFEBDDD"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "1B21E7D2BA4F45EE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "070FFCE36A474546"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				icon: "irons_spellbooks:keeper_spawn_egg"
+				id: "4D641E3DD0799A06"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6112444363118132701.title}"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19702CD2611FF444"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "irons_spellbooks:dead_king"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "5768E11E5F137489"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "48D0EDBD70C27B07"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "15050F8396DC44E6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
+				id: "767BFF57D1C5AAA1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6298531599438017673.title}"
+			x: 11.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["22355C3503FEFBA9"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "irons_spellbooks:archevoker"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "2D6744F825F58CF4"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "75201D0E14CA48E6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "56BF50B48CAB89A1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				icon: "irons_spellbooks:archevoker_spawn_egg"
+				id: "129A4056BB3AE1CE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3271659486887382260.title}"
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest859958548677056081.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "cataclysm:amethyst_crab"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "0BEF2FBE6774D651"
+			rewards: [
+				{
+					amount: 120L
+					currency: "eternalcurrencies:coins"
+					id: "5A78BD739526193A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "257AB0A2480DB2F7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:amethyst_crab"
+					icon: "irons_spellbooks:keeper_spawn_egg"
+					id: "36A9D9F59E5F1D43"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "4289470D3493779B"
+					item: { Count: 3, id: "cataclysm:amethyst_crab_shell" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest859958548677056081.title}"
+			x: 10.0d
+			y: -27.0d
+		}
+		{
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1220284491402482986.description1}"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "cataclysm:coral_golem"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "10EF524792F6952A"
+			rewards: [
+				{
+					amount: 120L
+					currency: "eternalcurrencies:coins"
+					id: "0D23E9F85B3B72A5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4E1375FE3EC06E42"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:coral_golem"
+					icon: "cataclysm:coral_golem_spawn_egg"
+					id: "4EB4BB19112ABD75"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "326A5771F51A9666"
+					item: "cataclysm:crystallized_coral_fragments"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1220284491402482986.title}"
+			x: 4.0d
+			y: -23.0d
+		}
+	]
+	title: "{ftbquests.chapter.irons_spells_and_spellbooks.title}"
 }

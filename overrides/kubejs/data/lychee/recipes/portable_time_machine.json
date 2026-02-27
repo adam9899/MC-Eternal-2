@@ -1,0 +1,14 @@
+{
+  "type": "lychee:lightning_channeling",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "kubejs:portable_wormhole_generator"
+    }
+  ],
+  "item_in": [
+    {
+      "item": "kubejs:portable_wormhole_generator_inert"
+    }
+  ]
+}

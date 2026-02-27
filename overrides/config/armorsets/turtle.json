@@ -17,7 +17,7 @@
     {
        "type": "effect",
       "name": "tombstone:aquatic_life",
-      "value": 5.0,
+      "value": 2.0,
       "interactionType": "self",
 	  "description": "Aquatic Adaptation: Faster swim speed in water!",
       "interactionDuration": 300,

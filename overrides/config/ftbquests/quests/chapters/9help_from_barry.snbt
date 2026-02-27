@@ -23,14 +23,14 @@
 	quests: [
 		{
 			description: [
-				"Are you having a hard time finding &6The Legendary Eyes&r?"
-				"Well lucky for you, it is in both of our best interests to find em! "
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description1}"
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description2}"
 				""
-				"I can sell you a &dMap&r for each of the Eyes that are in rare structures."
-				"I will also provide you with a convenient &eWaypoint&r for your &dMinimap!"
-				"{image:modpack:textures/barry-the-rat-uwu-transparent-no-white.png width:100 height:100 align:center}"
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description3}"
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description4}"
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.image0}"
 				""
-				"&8&oOh don't mind me! I was just rummaging through trashcans for cheese!"
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description5}"
 			]
 			icon: {
 				Count: 1
@@ -73,45 +73,45 @@
 						display: {
 							Lore: [
 								"{\"text\":\" \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Plague\"}],\"text\":\"Effect: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.1\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
 								"{\"text\":\" \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Anti-Gravity\"}],\"text\":\"Effect: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.7\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
 								"{\"text\":\" \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Sugar Rush\"}],\"text\":\"Effect: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.8\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
 								"{\"text\":\" \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Fire Resistance\"}],\"text\":\"Effect: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.9\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
 							]
-							Name: "{\"text\":\"Dumpster Cheese\"}"
+							Name: "{\"translate\":\"name.mce2.help_from_barry.1\"}"
 						}
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "Barry can offer help... for a price!"
+			subtitle: "{ftbquests.chapter.9help_from_barry.quest1814751871587322833.subtitle}"
 			tasks: [{
 				id: "3AA86C3F1FA9FE0A"
-				title: "Info Quest - &eClick To Complete"
+				title: "{ftbquests.chapter.9help_from_barry.quest1814751871587322833.task.4226747268657184266.title}"
 				type: "checkmark"
 			}]
-			title: "&d<wave>Barry's Help!"
+			title: "{ftbquests.chapter.9help_from_barry.quest1814751871587322833.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"{image:minecolonies:block/books/map width:150 height:100 align:center}"
+				"{ftbquests.chapter.9help_from_barry.quest6865454650382366581.image0}"
 				""
-				"&6☠ Difficulty: &4&lHARD"
+				"{ftbquests.chapter.9help_from_barry.quest6865454650382366581.description1}"
 				""
-				"&6Tip:&r Barry can also send you a &dWaypoint&r to the structure if you click the link provided in chat after claiming this quest!"
+				"{ftbquests.chapter.9help_from_barry.quest6865454650382366581.description2}"
 			]
 			id: "5F46FEA139983775"
 			rewards: [{
@@ -121,17 +121,17 @@
 				id: "0FF388EE4038AB6A"
 				type: "command"
 			}]
-			subtitle: "Proudly brought to you by amateur cartographer Barry!"
+			subtitle: "{ftbquests.chapter.9help_from_barry.quest6865454650382366581.subtitle}"
 			tasks: [{
 				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "7D8C5AFC4FF47C92"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "Purchase Map:&r &dFrostmaw&r"
+			title: "{ftbquests.chapter.9help_from_barry.quest6865454650382366581.title}"
 			x: -2.0d
 			y: 2.0d
 		}
 	]
-	title: "&9Help From Barry!"
+	title: "{ftbquests.chapter.9help_from_barry.title}"
 }

@@ -7,3 +7,13 @@ ServerEvents.tags("block_entity_type", event => {
         "sophisticatedstorage:shulker_box"
     ])
 })
+
+ServerEvents.tags("item", event => {
+
+    event.add("mce2:gold_bars", [
+        "tconstruct:gold_bars",
+        "quark:gold_bars"
+    ])
+
+    event.add("tconstruct:casts/empty/table", "#mce2:gold_bars")
+})

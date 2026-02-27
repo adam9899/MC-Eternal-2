@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You can see players on the Minimap and Worldmap and they can see you! If you crouch you will become hidden to other players however!"
+    "translate": "tips.mce2.mp1"
   }
 }

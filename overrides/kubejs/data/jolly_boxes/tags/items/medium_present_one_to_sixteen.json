@@ -1,0 +1,68 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_ingot",
+    "minecraft:ender_pearl",
+    "minecraft:iron_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:glow_berries",
+
+    "minecraft:raw_iron",
+    "minecraft:raw_gold",
+
+    {
+      "id": "jellyfishing:jellyfish_jelly",
+      "required": false
+    },
+
+    {
+      "id": "quark:iron_rod",
+      "required": false
+    },
+    {
+      "id": "quark:rainbow_rune",
+      "required": false
+    },
+    {
+      "id": "quark:red_crystal",
+      "required": false
+    },
+    {
+      "id": "quark:orange_crystal",
+      "required": false
+    },
+    {
+      "id": "quark:yellow_crystal",
+      "required": false
+    },
+    {
+      "id": "quark:green_crystal",
+      "required": false
+    },
+    {
+      "id": "quark:blue_crystal",
+      "required": false
+    },
+    {
+      "id": "quark:indigo_crystal",
+      "required": false
+    },
+    {
+      "id": "quark:violet_crystal",
+      "required": false
+    },
+    {
+      "id": "quark:white_crystal",
+      "required": false
+    },
+    {
+      "id": "quark:black_crystal",
+      "required": false
+    },
+
+    {
+      "id": "bettas:moss_ball",
+      "required": false
+    }
+  ]
+}

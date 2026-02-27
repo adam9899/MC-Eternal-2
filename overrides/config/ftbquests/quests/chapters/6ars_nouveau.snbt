@@ -5,18 +5,492 @@
 	group: "701563945253F512"
 	icon: "ars_nouveau:summon_focus"
 	id: "511BD5CE8926D782"
+	images: [
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "ars_ocultas:item/_glyph_template_augment"
+			rotation: 0.0d
+			width: 1.25d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ars_nouveau:item/glyph_template"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ars_ocultas:item/_glyph_template_component"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/present"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/magebloom_fiber"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&5Ars Nouveau&r is a very useful Magic mod that allows you to create custom spells using different &eGlyphs&r that affect how your spell works. "
+				"{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.description1}"
 				""
-				"There are three different &eSpell Book&r Tiers, along with three different tiers of &eGlyphs&r that allow you to do a lot with just a &eSpell Book&r in hand!"
+				"{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.description2}"
 				""
-				"&5Ars Nouveau&r has many features other than just spell casting!"
+				"{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.description3}"
 				""
-				"&7Chapter Credit: Traylon "
+				"{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.description4}"
 			]
 			id: "16A7C49E6CDC24DD"
 			rewards: [
@@ -33,27 +507,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -64,27 +521,27 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "47DEE3AFD85ACFD7"
-					title: "&eUnlock Title:&r the Novice"
+					title: "{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.reward.5178826965911261143.title}"
 					type: "command"
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Who needs wands, right?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.subtitle}"
 			tasks: [{
 				id: "2EC8F31C4C5F5F1C"
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			title: "Mage's First Spellbook"
+			title: "{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
 			description: [
-				"The &eScribe's Table&r allows the creation of &eGlyphs&r at the cost of some resources and XP. Right Clicking the &eScribe's Table&r with a &eSpell Book&r will open the UI. In order to craft a spell, throw the necessary items near it."
+				"{ftbquests.chapter.6ars_nouveau.quest713732984852247486.description1}"
 				""
-				"&6Tip:&r The &eScribe's Table&r can pull resources from nearby chests, eliminating the need to throw items manually."
+				"{ftbquests.chapter.6ars_nouveau.quest713732984852247486.description2}"
 			]
 			id: "09E7B05E4298F3BE"
 			rewards: [{
@@ -94,19 +551,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Basic Spell Crafting"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest713732984852247486.subtitle}"
 			tasks: [{
 				id: "340CE39CD9B2E224"
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			title: "Beginner Glyphs"
+			title: "{ftbquests.chapter.6ars_nouveau.quest713732984852247486.title}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
-			description: ["The default Keybind for opening the &eSpell Book&r is \"C\". This will give you access to the &eSpell Book's&r UI in order to view unlocked &eGlyphs&r, as well as creating spell combinations."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest6428348609994875522.description1}"]
 			icon: "ars_nouveau:glyph_break"
 			id: "593615007F1EE282"
 			optional: true
@@ -117,23 +574,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "How to use your Spellbook"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6428348609994875522.subtitle}"
 			tasks: [{
 				id: "54912B6F8E91CED7"
 				type: "checkmark"
 			}]
-			title: "Spell Casting 101"
+			title: "{ftbquests.chapter.6ars_nouveau.quest6428348609994875522.title}"
 			x: 0.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["09E7B05E4298F3BE"]
 			description: [
-				"&eSource Gems&r are the fundamentals of &5Ars Nouveau&r, needed to craft many items such as the variety of &eEssences&r."
+				"{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.description1}"
 				""
-				"&eSource Gems&r can be created using either &eAmethyst Shards&r or &eLapis Lazuli&r. When crafting items, the &eImbuement Chamber&r does not consume resources in nearby &eArcane Pedestals&r."
+				"{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.description2}"
 				""
-				"&6Tip:&r &eImbuement Chambers&r can be semi-automated with certain methods to make this process easier."
+				"{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.description3}"
 			]
 			icon: "ars_nouveau:imbuement_chamber"
 			id: "704C7C142ECED1D5"
@@ -151,34 +608,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "It's flowing with Magic..."
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.subtitle}"
 			tasks: [
 				{
 					id: "7FA42959E1DF370F"
@@ -198,17 +638,17 @@
 					type: "item"
 				}
 			]
-			title: "Magic Gems"
+			title: "{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.title}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["704C7C142ECED1D5"]
 			description: [
-				"The &eEnchanting Apparatus&r is the other core crafting part of &5Ars Nouveau&r, allowing for the creation of a plethora of items, such as upgrading basic armor into something better suited for Spell Casting."
+				"{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.description1}"
 				""
-				"Tip: If you find yourself lacking enchants on gear, this is a very simple way of obtaining most enchants! "
-				"Not every enchantment can be created in the &eEnchanting Apparatus&r though such as &eMending&r, so be sure to check JEI!"
+				"{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.description2}"
+				"{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.description3}"
 			]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "7461C12182F6AC36"
@@ -226,34 +666,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "It's certainly Enchanting!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.subtitle}"
 			tasks: [
 				{
 					id: "48D1A1A73292EABA"
@@ -272,16 +695,16 @@
 					type: "item"
 				}
 			]
-			title: "Enchanted Crafting"
+			title: "{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"&5Ars Nouveau&r introduces &eThreads&r for your armor that are separate from tiered upgrades. There's a variety of &eThreads&r that are helpful in many ways, and some even stack on top of Vanilla enchantments like &eRespiration&r and &eFeather Falling&r!"
+				"{ftbquests.chapter.6ars_nouveau.quest4401962050215285245.description1}"
 				""
-				"Your armor has quite a few slots available at the max Tier, but you may only have one of each &eThread&r in your entire armor set, so choose wisely!"
+				"{ftbquests.chapter.6ars_nouveau.quest4401962050215285245.description2}"
 			]
 			icon: "ars_nouveau:alteration_table"
 			id: "3D16E9297DD511FD"
@@ -299,34 +722,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Armor Upgrades!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4401962050215285245.subtitle}"
 			tasks: [
 				{
 					id: "5132E28CCDED428F"
@@ -340,16 +746,16 @@
 					type: "item"
 				}
 			]
-			title: "Altering Threads"
+			title: "{ftbquests.chapter.6ars_nouveau.quest4401962050215285245.title}"
 			x: 7.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"The &eMage's Spell Book&r is a large upgrade to the &eNovice's Spell Book&r, allowing access to Tier 2 Glyphs and better Spell combinations."
+				"{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.description1}"
 				""
-				"&6Tip:&r Unlocking more &eGlyphs&r gives a large boost to Maximum Mana and unlocking ALL &eGlyphs&r will reward you with around 1500 &lextra&r Maximum Mana!"
+				"{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.description2}"
 			]
 			id: "46ADECF58830F3CF"
 			rewards: [
@@ -359,27 +765,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -397,27 +786,27 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "6DD9F788CCAE3340"
-					title: "&eUnlock Title:&r the Mage"
+					title: "{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.reward.7915629987001938752.title}"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Was I not a Mage before?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.subtitle}"
 			tasks: [{
 				id: "0ACF7B0558E19C24"
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			title: "A Stronger Spell Book"
-			x: 8.0d
-			y: 0.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.title}"
+			x: 9.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["46ADECF58830F3CF"]
+			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"The &eRitual Brazier&r allows you to manipulate the space around you, such as summoning animals, changing the Time of day, or even allowing constant flight. "
+				"{ftbquests.chapter.6ars_nouveau.quest6366189940669881278.description1}"
 				""
-				"Most Rituals require an income of Source in order to function while some don't require Source at all."
+				"{ftbquests.chapter.6ars_nouveau.quest6366189940669881278.description2}"
 			]
 			icon: "ars_nouveau:ritual_brazier"
 			id: "58594005824B1BBE"
@@ -428,27 +817,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -462,7 +834,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "I-Is it supposed to do that?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6366189940669881278.subtitle}"
 			tasks: [
 				{
 					id: "41753F72864AF56E"
@@ -475,13 +847,13 @@
 					type: "item"
 				}
 			]
-			title: "Ritual Brazier"
-			x: 10.0d
-			y: 0.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest6366189940669881278.title}"
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["58594005824B1BBE"]
-			description: ["&eEnder Source Jars&r are very useful to have as they all function similarly to an &eEnder Chest&r, but for Source."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest8498920708791534161.description1}"]
 			id: "75F23B5AFDBB0251"
 			optional: true
 			rewards: [
@@ -491,27 +863,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -525,23 +880,26 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Wireless Source?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8498920708791534161.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "0B9E3B20B302D60C"
 				item: "ars_additions:ender_source_jar"
 				type: "item"
 			}]
-			title: "Ender Source Jars"
-			x: 10.0d
-			y: -1.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest8498920708791534161.title}"
+			x: 8.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["58594005824B1BBE"]
+			dependencies: [
+				"46ADECF58830F3CF"
+				"58594005824B1BBE"
+			]
 			description: [
-				"The Wilden Chimera is the Boss of &5Ars Nouveau&r, and very difficult having multiple phases that imitate each of the Wilden Beasts. "
+				"{ftbquests.chapter.6ars_nouveau.quest1178402648113310521.description1}"
 				""
-				"The &eWilden Tribute&r is a crucial aspect in upgrading the &eMage's Spell Book&r to its final tier, the &eArchmage Spell Book&r."
+				"{ftbquests.chapter.6ars_nouveau.quest1178402648113310521.description2}"
 			]
 			id: "105A86F70B2C6B39"
 			rewards: [
@@ -551,27 +909,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -585,19 +926,23 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "The Big Bad...Chimera?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1178402648113310521.subtitle}"
 			tasks: [{
 				id: "3504BC2B707E7067"
 				item: "ars_nouveau:wilden_tribute"
 				type: "item"
 			}]
-			title: "Wilden Chimera"
+			title: "{ftbquests.chapter.6ars_nouveau.quest1178402648113310521.title}"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["105A86F70B2C6B39"]
-			description: ["The &eArchmage's Spell Book&r is the final tier of Spell Book for &5Ars Nouveau&r, allowing for even more powerful spell combinations and unlocks access to Tier 3 &eGlyphs&r."]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.description2}"
+			]
 			id: "5DD2BA94561922D4"
 			rewards: [
 				{
@@ -606,27 +951,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -644,27 +972,27 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "521EE2791A5EB03B"
-					title: "&eUnlock Title:&r the Archmage"
+					title: "{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.reward.5917415970172743739.title}"
 					type: "command"
 				}
 			]
 			shape: "octagon"
-			subtitle: "I'm a what?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.subtitle}"
 			tasks: [{
 				id: "64808A383C864FCF"
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			title: "You're an Archmage!"
+			title: "{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.title}"
 			x: 14.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"&5Ars Nouveau&r has many familiars that can be summoned with &eCharms&r in order to automate certain aspects, such as &eSource Berry&r gathering, creating potions, or even generating items from enemies in the form of a Mob Farm."
+				"{ftbquests.chapter.6ars_nouveau.quest500076666743231204.description1}"
 				""
-				"The &eDominion Wand&r allows linking these familiars to their corresponding work stations, as well as linking &eSourcelinks&r to &eSource Relays&r."
+				"{ftbquests.chapter.6ars_nouveau.quest500076666743231204.description2}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -683,7 +1011,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Aww, they're so cute!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest500076666743231204.subtitle}"
 			tasks: [{
 				id: "2FD7CB58D855F04D"
 				item: {
@@ -693,16 +1021,16 @@
 				}
 				type: "item"
 			}]
-			title: "Familiars"
-			x: 10.0d
-			y: -4.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest500076666743231204.title}"
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"The &eBookwyrm Charm&r is obtained by using a &eBook And Quill&r on a &eRitual of Awakening&r and must be linked with the &eStorage Lectern&r using a &eDominion Wand&r in order to connect chests into one unified storage block. One Bookwyrm is able to connect up to 8 Chests."
+				"{ftbquests.chapter.6ars_nouveau.quest5987445443655017728.description1}"
 				""
-				"&6Tip:&r &5Ars Additions&r adds the &eWarp Index&r that lets you have remote access to the &eStorage Lectern&r with infinite range as long as the chunks are loaded, while the &eStabilized Warp Index&r allows for cross-dimension access."
+				"{ftbquests.chapter.6ars_nouveau.quest5987445443655017728.description2}"
 			]
 			icon: "ars_nouveau:bookwyrm_charm"
 			id: "5317ADE87D16A500"
@@ -713,27 +1041,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -747,7 +1058,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Is it smart at least?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5987445443655017728.subtitle}"
 			tasks: [
 				{
 					id: "052CB4902D5469C4"
@@ -760,16 +1071,16 @@
 					type: "item"
 				}
 			]
-			title: "The Bookwyrm"
-			x: 11.0d
-			y: -4.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest5987445443655017728.title}"
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"A &eDrygmy Token&r is obtained by giving a Wild Drygmy a &eWilden Horn&r. Right clicking a &eMossy Cobblestone&r block with one or more Drygmy Charms will generate items from mobs in nearby &eContainment Jars&r if a chest touching the &eDrygmy Hedge&r and constant stream of Source is provided."
+				"{ftbquests.chapter.6ars_nouveau.quest3696895013685088404.description1}"
 				""
-				"&6Tip:&r The more&e Containment Jars&r that have unique mobs nearby, the \"happier\" the Drygmys will be and generate items a little faster."
+				"{ftbquests.chapter.6ars_nouveau.quest3696895013685088404.description2}"
 			]
 			icon: "ars_nouveau:drygmy_charm"
 			id: "334E026D8E9CD094"
@@ -780,27 +1091,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -814,7 +1108,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "He loves hoarding items!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3696895013685088404.subtitle}"
 			tasks: [
 				{
 					id: "75A744774B9A0F47"
@@ -832,18 +1126,18 @@
 					type: "item"
 				}
 			]
-			title: "The Drygmy"
-			x: 11.0d
-			y: -5.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest3696895013685088404.title}"
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"The &eWixie Token&r is obtained by using Dispel on a Witch at less than half health. Right clicking a &eCauldron&r, the Wixie will automatically create a single potion type out of materials in a nearby chest and nearby Source. "
+				"{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.description1}"
 				""
-				"Right Clicking the &eWixie Cauldron&r will tell the Wixie what potion to make. She will always make 3 potions worth in the &ePotion Jar&r, and it can hold a lot of potions!"
+				"{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.description2}"
 				""
-				"&6Tip:&r In order to fully automate potions, multiple Wixies are needed."
+				"{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.description3}"
 			]
 			icon: "ars_nouveau:wixie_charm"
 			id: "37485C6C9D4948A3"
@@ -854,27 +1148,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -886,27 +1163,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -920,7 +1180,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "She's not a wicked witch, right?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.subtitle}"
 			tasks: [
 				{
 					id: "535EF3464C851A24"
@@ -938,17 +1198,17 @@
 					type: "item"
 				}
 			]
-			title: "The Wixie"
-			x: 9.0d
-			y: -6.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.title}"
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"The &eWhirlisprig Token&r is obtained by growing a tree near a wild Whirlisprig. "
-				"Right clicking a flower will convert it to the Whirlisprig's home and collect crops within a short radius around it, given it has a chest and Source nearby."
+				"{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.description1}"
+				"{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.description2}"
 				""
-				"&6Tip:&r Similarly to the Drygmy, the more unique crops and plants that are placed will make the Whirlisprig happier."
+				"{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.description3}"
 			]
 			id: "76B7524192177EB0"
 			rewards: [
@@ -958,27 +1218,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -992,24 +1235,24 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Loves to stop and smell the roses."
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.subtitle}"
 			tasks: [{
 				id: "2C1DDD5294725FB9"
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			title: "The Whirlisprig"
-			x: 9.0d
-			y: -5.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.title}"
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"The &eStarbuncle Token&r is obtained by giving a wild Starbuncle a &eGold Nugget&r. The Starbuncle will collect &eSource Berries&r and place them into chests that are assigned to them. "
+				"{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.description1}"
 				""
-				"Starbuncles can also move items between chests, making it the cutest hopper in the world! They also have a &eWheel&r for &5Create&r that they love a lot!"
+				"{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.description2}"
 				""
-				"&6Tip:&r Giving them &eStarbuncle Shades&r stops them from collecting &eSource Berries&r, but it makes them look cool, right? You can also give them a &eWixie Hat&r to transport potions!"
+				"{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.description3}"
 			]
 			id: "30E5BE9C7BE609E7"
 			rewards: [
@@ -1019,27 +1262,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1053,7 +1279,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Huge berry fanatic."
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.subtitle}"
 			tasks: [{
 				id: "7D9B5DBD789506DA"
 				item: {
@@ -1063,16 +1289,16 @@
 				}
 				type: "item"
 			}]
-			title: "The Starbuncle"
-			x: 9.0d
-			y: -4.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.title}"
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"&eSource Links&r are essential for generating Source in &5Ars Nouveau&r. There are a variety to use, some being better than others in most cases.."
+				"{ftbquests.chapter.6ars_nouveau.quest2693503864728485980.description1}"
 				""
-				"&eSource Relays&r can be connected to &eSourcelinks&r with a &eDominion Wand&r in order to send Source across varying distances."
+				"{ftbquests.chapter.6ars_nouveau.quest2693503864728485980.description2}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1090,7 +1316,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "How do these work exactly?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest2693503864728485980.subtitle}"
 			tasks: [{
 				id: "4C93F5987AE2C7C1"
 				item: {
@@ -1100,16 +1326,16 @@
 				}
 				type: "item"
 			}]
-			title: "Sourcelinks and Relays"
+			title: "{ftbquests.chapter.6ars_nouveau.quest2693503864728485980.title}"
 			x: 5.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
 			description: [
-				"The &eAgronomic Sourcelink&r generates source from surrounding crops in a 15x15 area."
+				"{ftbquests.chapter.6ars_nouveau.quest6934791060665182714.description1}"
 				""
-				"&6Tip:&r The crops must be actively growing in order to generate source. Crops that are full grown will not generate source, &obut there are exceptions to this rule.&r"
+				"{ftbquests.chapter.6ars_nouveau.quest6934791060665182714.description2}"
 			]
 			id: "603D53BA4280A9FA"
 			rewards: [
@@ -1119,27 +1345,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1153,21 +1362,21 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "We Are Farmers!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6934791060665182714.subtitle}"
 			tasks: [{
 				id: "4ACA62E8354F321B"
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
 			description: [
-				"The Volcanic Sourcelink is one of the highest generating &eSourcelinks&r in &eArs Nouveau&r, using fuel items such as &eCoal&r or even &eLava Buckets&r!"
+				"{ftbquests.chapter.6ars_nouveau.quest1042109646352036292.description1}"
 				""
-				"If only there was a way to get infinite &eLava&r..."
+				"{ftbquests.chapter.6ars_nouveau.quest1042109646352036292.description2}"
 			]
 			id: "0E765133B7D231C4"
 			rewards: [{
@@ -1177,21 +1386,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "For the Miners!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1042109646352036292.subtitle}"
 			tasks: [{
 				id: "5EE7EBAE6348772B"
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
 			description: [
-				"The &eAlchemical Sourcelink&r generates source from nearby &eBrewing Stands&r, as well as nearby &ePotion Jars&r. It's most effective when consuming complex Potions with multiple steps."
+				"{ftbquests.chapter.6ars_nouveau.quest4001168636046501613.description1}"
 				""
-				"&6Tip:&r Using Wixies, this can be automated very efficiently."
+				"{ftbquests.chapter.6ars_nouveau.quest4001168636046501613.description2}"
 			]
 			id: "378701ACE5FC66ED"
 			rewards: [
@@ -1201,27 +1410,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1235,18 +1427,18 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "For the Potion Brewers!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4001168636046501613.subtitle}"
 			tasks: [{
 				id: "434C11BEE855E3E4"
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
-			description: ["The &eVitalic Sourcelink&r generates source by using the essence of slain mobs nearby, as well as Baby Animals as they are growing and speeding up their growth in the process."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest4333407990760746475.description1}"]
 			id: "3C235B9BB4222DEB"
 			rewards: [{
 				amount: 100L
@@ -1255,21 +1447,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "For the Mobs!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4333407990760746475.subtitle}"
 			tasks: [{
 				id: "700A355EE5AC3CBA"
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
 			description: [
-				"The &eMycelial Sourcelink&r generates source by consuming Food items. The higher the nutrition that a food item gives, the more Source that is generated from it."
+				"{ftbquests.chapter.6ars_nouveau.quest6777619425302759287.description1}"
 				""
-				"Tip: &eSource Berries&r give more Source than food items such as &eBread&r or &eCooked Potatoes&r."
+				"{ftbquests.chapter.6ars_nouveau.quest6777619425302759287.description2}"
 			]
 			id: "5E0EF0F53BF54777"
 			rewards: [{
@@ -1279,18 +1471,18 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "I love food so much."
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6777619425302759287.subtitle}"
 			tasks: [{
 				id: "66FEAA09F204F24F"
 				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
-			description: ["The &eSource Relay&r is the most basic Relay in &5Ars Nouveau&r, only being capable of sending Source from a Sourcelink to a single &eSource Jar&r."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest7699686721731128878.description1}"]
 			id: "6ADAC8475A936E2E"
 			rewards: [
 				{
@@ -1299,27 +1491,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1333,18 +1508,18 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "The most basic of Relays."
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest7699686721731128878.subtitle}"
 			tasks: [{
 				id: "3F6B405D07F57326"
 				item: "ars_nouveau:relay"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
-			description: ["The &eSource Relay: Splitter&r is capable of sending Source to multiple &eSource Jars&r."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest5130845766476150652.description1}"]
 			id: "47346D0A4C20B77C"
 			rewards: [
 				{
@@ -1353,27 +1528,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1387,18 +1545,18 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Multi-Tasking at its finest."
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5130845766476150652.subtitle}"
 			tasks: [{
 				id: "74B5BDCE6A625DCA"
 				item: "ars_nouveau:relay_splitter"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
-			description: ["The &eSource Relay: Depositer&r will deposit Source to &eSource Jars&r in a short radius around it."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest8677206923754542145.description1}"]
 			id: "786BA1B92CF31441"
 			rewards: [
 				{
@@ -1407,27 +1565,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1441,26 +1582,26 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "It can only deposit."
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8677206923754542145.subtitle}"
 			tasks: [{
 				id: "7B3385C12CE5F121"
 				item: "ars_nouveau:relay_deposit"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["105A86F70B2C6B39"]
 			description: [
-				"The &eMark of Mastery&r from &5Ars Elemental&r is necessary in upgrading the basic &5Ars Nouveau&r Armor into an Armor set focused in a single Element. "
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description1}"
 				""
-				"The &eMark of Mastery&r requires a lot of Source to be crafted as well, so make sure to have plenty in stock!"
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description2}"
 				""
-				"There are four different elements for Armor: Water, Earth, Fire, and Air. "
-				"Each Armor Set has their own effects that make them unique from each other. "
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description3}"
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description4}"
 				""
-				"&6Tip:&r None of the &eEssences&r will be consumed if crafted using the &eImbuement Chamber&r, only the &eWilden Tribute&r."
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description5}"
 			]
 			id: "0680B29423DD2DD4"
 			rewards: [{
@@ -1470,19 +1611,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "The Last Steps"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest468570710573133268.subtitle}"
 			tasks: [{
 				id: "5DBF7CF40043162C"
 				item: { Count: 5, id: "ars_elemental:mark_of_mastery" }
 				type: "item"
 			}]
-			title: "Mastering The Elements"
+			title: "{ftbquests.chapter.6ars_nouveau.quest468570710573133268.title}"
 			x: 12.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
-			description: ["The &eSource Relay: Warper&r can transport Source over seemingly infinite distance, with the cost of losing some Source in the process."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest5554214260530054686.description1}"]
 			id: "4D148871454D861E"
 			rewards: [{
 				amount: 100L
@@ -1491,18 +1632,18 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Multiple Bases? No Problem!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5554214260530054686.subtitle}"
 			tasks: [{
 				id: "44EFA6965759B0A4"
 				item: "ars_nouveau:relay_warp"
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
-			description: ["The &eSource Relay: Collector&r will collect Source from &eSource Jars&r in a short radius around it."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest6873592567670387422.description1}"]
 			id: "5F63E805BEC232DE"
 			rewards: [{
 				amount: 100L
@@ -1511,18 +1652,18 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Collecting is its specialty!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6873592567670387422.subtitle}"
 			tasks: [{
 				id: "389F82D61E5668C8"
 				item: "ars_nouveau:relay_collector"
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
-			description: ["The Shady Wizard is a Villager job from &5Ars Nouveau&r. His main sales are &eTablets&r for the &eRitual Brazier&r and &eFamiliar Tokens&r. His Job Block is the &eArcane Core&r."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest1067474142861811412.description1}"]
 			icon: "artifacts:villager_hat"
 			id: "0ED06E13C4315ED4"
 			optional: true
@@ -1540,49 +1681,32 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Not so shady after all"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1067474142861811412.subtitle}"
 			tasks: [{
 				id: "0BF372AB99944BBC"
-				title: "Villager Job"
+				title: "{ftbquests.chapter.6ars_nouveau.quest1067474142861811412.task.861158035099503548.title}"
 				type: "checkmark"
 			}]
-			title: "The Shady Wizard"
+			title: "{ftbquests.chapter.6ars_nouveau.quest1067474142861811412.title}"
 			x: 5.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
 			description: [
-				"&5Ars Nouveau&r has a very extensive list of features and items, ranging from simple to complex. Having a &eWorn Notebook&r will allow you to learn about every item possible in the base mod, including the addons such as &5Ars Elemental&r and &5Ars Ocultas&r, which is the bridge between &5Ars Nouveau&r and &5Occultism&r!"
+				"{ftbquests.chapter.6ars_nouveau.quest3100263248829927820.description1}"
 				""
-				"&6Tip:&r The &eWorn Notebook&r can also be accessed on the left side of your &eSpell Book&r UI."
+				"{ftbquests.chapter.6ars_nouveau.quest3100263248829927820.description2}"
 			]
 			icon_scale: 0.75d
 			id: "2B0658FFB8B4D18C"
@@ -1596,22 +1720,22 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Is everything here about books?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3100263248829927820.subtitle}"
 			tasks: [{
 				id: "5C1EAE2A29D3E84D"
 				item: "ars_nouveau:worn_notebook"
 				type: "item"
 			}]
-			title: "Your Wizard's Handbook"
+			title: "{ftbquests.chapter.6ars_nouveau.quest3100263248829927820.title}"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"&5Ars Elemental&r introduces the Siren into the family of Familiars! The Siren Token can be obtained by giving a wild Siren a Sea Pickle, while right clicking &ePrismarine&r with the &eSiren Charm&r will convert it into a &eShrine&r. "
+				"{ftbquests.chapter.6ars_nouveau.quest8978428038065178146.description1}"
 				""
-				"Similar to the Drygmy and Whirlisprig, it can generate items if placed in an aquatic environment filled with a variety of plant life and animals! It also requires Source and a nearby &eChest&r. "
+				"{ftbquests.chapter.6ars_nouveau.quest8978428038065178146.description2}"
 			]
 			id: "7C99C8BB1A484622"
 			rewards: [
@@ -1621,27 +1745,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1655,22 +1762,22 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Little Mermaid?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8978428038065178146.subtitle}"
 			tasks: [{
 				id: "5AD1E1D8B973FBB7"
 				item: "ars_elemental:siren_charm"
 				type: "item"
 			}]
-			title: "The Siren"
-			x: 11.0d
-			y: -6.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest8978428038065178146.title}"
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"&5Ars Elemental&r introduces the Flarecannon into the family of Familiars! This Familiar will act as a sort of turret and shoot Flare projectiles at nearby enemies. The Flarecannon can be reactivated by giving it &eBlaze Powder&r or &eMagma Cream&r if defeated."
+				"{ftbquests.chapter.6ars_nouveau.quest1359251399325533492.description1}"
 				""
-				"&6Tip:&r It has the nickname, \"Firenando\"."
+				"{ftbquests.chapter.6ars_nouveau.quest1359251399325533492.description2}"
 			]
 			id: "12DD07F231404534"
 			rewards: [
@@ -1680,27 +1787,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1714,22 +1804,22 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "It Burns!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1359251399325533492.subtitle}"
 			tasks: [{
 				id: "68D20AD00094575D"
 				item: "ars_elemental:firenando_charm"
 				type: "item"
 			}]
-			title: "The Flarecannon"
-			x: 10.0d
-			y: -6.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest1359251399325533492.title}"
+			x: 9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"Familiars in &5Ars Nouveau&r and &5Ars Elemental&r have uses outside of their corresponding work stations. The Bookwyrm for example will collect items and XP Orbs for you, while the Wixie can boost the duration of &ePotions&r! "
+				"{ftbquests.chapter.6ars_nouveau.quest7081421567467758449.description1}"
 				""
-				"Each Familiar has a unique role to play, whether it be combat or exploration. Use your &eWorn Notebook&r to learn more about what they can do for you! They can also be accessed in your &eSpell Book&r at any time!"
+				"{ftbquests.chapter.6ars_nouveau.quest7081421567467758449.description2}"
 			]
 			icon: "ars_nouveau:ritual_binding"
 			id: "6246436589B4A371"
@@ -1741,27 +1831,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1775,19 +1848,19 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "They're so useful!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest7081421567467758449.subtitle}"
 			tasks: [{
 				id: "58F24FD0F14DF599"
 				item: "ars_nouveau:ritual_binding"
 				type: "item"
 			}]
-			title: "Helpful Familiars"
-			x: 11.0d
-			y: -3.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest7081421567467758449.title}"
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
-			description: ["The &eAmethyst Golem Charm&r can be obtained by using a &eRitual of Awakening&r near &eBudding Amethyst&r. It can grow and harvest &eAmethyst&r that is near its home."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest1163634139096979832.description1}"]
 			id: "10260F1595649978"
 			rewards: [
 				{
@@ -1796,27 +1869,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1830,24 +1886,24 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "It loves Amethyst!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1163634139096979832.subtitle}"
 			tasks: [{
 				id: "3BCB967131126A45"
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
-			title: "The Amethyst Golem"
-			x: 10.0d
-			y: -5.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest1163634139096979832.title}"
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0680B29423DD2DD4"]
 			description: [
-				"&5Ars Elemental&r adds four different armor sets and they are the pinnacle of Elemental Mastery. "
+				"{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.description1}"
 				""
-				"Each armor has its own special full set bonus that corresponds with the four elements: Water, Earth, Fire, and Air. "
+				"{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.description2}"
 				""
-				"For example, the &eAethermancer&r armor allows you to take reduced fall damage, while the &eGeomancer&r armor satiates you while you're underground. "
+				"{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.description3}"
 			]
 			icon: {
 				Count: 1
@@ -1864,27 +1920,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1898,7 +1937,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "NOW You are a true Mage!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.subtitle}"
 			tasks: [
 				{
 					id: "4668462F66FFF7A6"
@@ -1938,7 +1977,7 @@
 							]
 						}
 					}
-					title: "Elemental Hats"
+					title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.task.5073382149638322086.title}"
 					type: "item"
 				}
 				{
@@ -1979,7 +2018,7 @@
 							]
 						}
 					}
-					title: "Elemental Robes"
+					title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.task.8208723503640728074.title}"
 					type: "item"
 				}
 				{
@@ -2020,7 +2059,7 @@
 							]
 						}
 					}
-					title: "Elemental Leggings"
+					title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.task.5161189726130799575.title}"
 					type: "item"
 				}
 				{
@@ -2061,22 +2100,22 @@
 							]
 						}
 					}
-					title: "Elemental Boots"
+					title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.task.516163555764948831.title}"
 					type: "item"
 				}
 			]
-			title: "Proper Archmage Armor"
+			title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.title}"
 			x: 13.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"&5Ars Nouveau&r has three basic armor sets that are upgraded from Vanilla's armor sets: &eGold Armor&r to Sorceror, &eIron Armor&r to Arcanist, and &eDiamond Armor&r to Battlemage. "
+				"{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.description1}"
 				""
-				"These armor sets give you a boost to Maximum Mana and Mana Regen and allows armor to repair itself with Mana."
+				"{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.description2}"
 				""
-				"&eMagebloom fibers&r are important for allowing this upgrade to happen with the &eEnchanting Apparatus&r and can be obtained by making a &eMagebloom Seed&r and growing it to harvest &eMagebloom&r."
+				"{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.description3}"
 			]
 			icon: {
 				Count: 1
@@ -2093,7 +2132,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Looking the part"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.subtitle}"
 			tasks: [
 				{
 					id: "6125BA0D08C2CF01"
@@ -2234,16 +2273,16 @@
 					type: "item"
 				}
 			]
-			title: "Proper Mage Clothes"
+			title: "{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.title}"
 			x: 5.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5DD2BA94561922D4"]
 			description: [
-				"Placing the tool on a &eScribe's Table&r and Shift + Right Clicking with a Spell from your &eSpell Book&r with no Form Glyph will inscribe the current spell onto the &eEnchanter's Tool&r."
+				"{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.description1}"
 				""
-				"Each one comes with a pre-determined Form Glyph depending on which tool you use. There's too much information to explain here so I'd recommend checking the &eWorn Notebook&r to learn more about these awesome items!"
+				"{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.description2}"
 			]
 			id: "2A7A23DB0184D16F"
 			rewards: [{
@@ -2253,7 +2292,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Better than Spell Books!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.subtitle}"
 			tasks: [{
 				id: "779F9970773FB4EC"
 				item: {
@@ -2315,19 +2354,19 @@
 						]
 					}
 				}
-				title: "Enchanter's Tools"
+				title: "{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.task.8619776920126469356.title}"
 				type: "item"
 			}]
-			title: "Enchanter's Tools"
-			x: 14.0d
-			y: -1.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.title}"
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["704C7C142ECED1D5"]
 			description: [
-				"&5Ars Nouveau&r adds multiple Essences, with &5Ars Elemental&r introducing the &eAnima Essence&r to the mix. These are important and require quite a bit of Source to be created efficiently. "
+				"{ftbquests.chapter.6ars_nouveau.quest669780487893273726.description1}"
 				""
-				"Essences are needed for crafting most &eGlyphs&r at a &eScribe's Table&r, as well as creating the &eMark of Mastery&r in the &eImbuement Chamber&r."
+				"{ftbquests.chapter.6ars_nouveau.quest669780487893273726.description2}"
 			]
 			id: "094B89CE1A5DCC7E"
 			rewards: [{
@@ -2337,7 +2376,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Magic Crystals!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest669780487893273726.subtitle}"
 			tasks: [{
 				id: "5AE8100C2D356BAC"
 				item: {
@@ -2380,19 +2419,19 @@
 						]
 					}
 				}
-				title: "Essences"
+				title: "{ftbquests.chapter.6ars_nouveau.quest669780487893273726.task.6550503302494514092.title}"
 				type: "item"
 			}]
-			title: "Basic Essences"
+			title: "{ftbquests.chapter.6ars_nouveau.quest669780487893273726.title}"
 			x: 3.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"&5Ars Additions&r introduces the &eSource Spawner&r, which allows you to make a small Mob farm if you give it a nearby Source Jar, as well as a &eContainment Jar&r that has an Entity inside of it."
+				"{ftbquests.chapter.6ars_nouveau.quest1405013850608372509.description1}"
 				""
-				"The amount of Source that's required varies between mobs, so it's best to have quite a bit of Source ready just in case. But don't worry, it won't work on bosses!"
+				"{ftbquests.chapter.6ars_nouveau.quest1405013850608372509.description2}"
 			]
 			id: "137F9CA72E040B1D"
 			optional: true
@@ -2403,23 +2442,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Mob Farms?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1405013850608372509.subtitle}"
 			tasks: [{
 				id: "59CE2E49B966C42C"
 				item: "ars_additions:source_spawner"
 				type: "item"
 			}]
-			title: "Magical Spawners"
+			title: "{ftbquests.chapter.6ars_nouveau.quest1405013850608372509.title}"
 			x: 7.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["704C7C142ECED1D5"]
 			description: [
-				"&5Ars Nouveau&r introduces &eWarp Scrolls&r, which allow you to set a location to teleport to at a later time using Shift + Right Click. "
-				"You can also place a Nether Portal frame made with any &eSourcestone&r blocks and throw the set &eWarp Scroll&r into the frame to create a permanent portal to that exact location, given it has Source nearby to keep the portal activated each time it's used."
+				"{ftbquests.chapter.6ars_nouveau.quest13645231974346434.description1}"
+				"{ftbquests.chapter.6ars_nouveau.quest13645231974346434.description2}"
 				""
-				"&6Tip:&r &eStabilized Warp Scrolls&r skip the manual portal frame placement."
+				"{ftbquests.chapter.6ars_nouveau.quest13645231974346434.description3}"
 			]
 			id: "00307A4424B56EC2"
 			optional: true
@@ -2430,7 +2469,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Teleporting?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest13645231974346434.subtitle}"
 			tasks: [{
 				id: "14CC8688648E4261"
 				item: {
@@ -2440,18 +2479,18 @@
 				}
 				type: "item"
 			}]
-			title: "Warp Scrolls"
+			title: "{ftbquests.chapter.6ars_nouveau.quest13645231974346434.title}"
 			x: 3.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
 			description: [
-				"Both &5Ars Nouveau&r and &5Ars Elemental&r add a plethora of magical equipment for you to create and use. The most basic items are the &eRing of Discount&r, &eAmulet of Mana Boost&r and &eAmulet of Mana Regen&r. "
+				"{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.description1}"
 				""
-				"If you find yourself carrying or needing a lot of these items, feel free to craft the &eTrinkets Pouch&r for easier access using the \"J\" Keybind!"
+				"{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.description2}"
 				""
-				"Check your &eWorn Notebook&r or the documentation in your &eSpellbook&r to view them all!"
+				"{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.description3}"
 			]
 			icon: "ars_elemental:curio_bag"
 			id: "2DD13087B7BD983C"
@@ -2463,7 +2502,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "MORE Gear To Use?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.subtitle}"
 			tasks: [
 				{
 					id: "676486EC637E5E6D"
@@ -2488,7 +2527,7 @@
 							]
 						}
 					}
-					title: "Amulet of Mana Boost or Regen"
+					title: "{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.task.1497066789576113968.title}"
 					type: "item"
 				}
 				{
@@ -2497,18 +2536,18 @@
 					type: "item"
 				}
 			]
-			title: "Magic Equipment"
+			title: "{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.title}"
 			x: 6.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
 			description: [
-				"Combining any &eSpell Book&r with a dye allows you to change the color of it, as well as your armor with the exception of &5Ars Elemental&r armor. Try making it red as a test and then find your own favorite color!"
+				"{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.description1}"
 				""
-				"In addition to changing the color of your &eSpell Book&r, you can also change the color of spell projectiles on the left side of your &eSpell Book&r UI!"
+				"{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.description2}"
 				""
-				"&6Tip: &rMost customization is found on the left side of your Spell Book UI, such as projectile sounds and summoning Familiars. A built-in &eWorn Notebook&r is also provided as well."
+				"{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.description3}"
 			]
 			id: "5E0498ECFD150E14"
 			optional: true
@@ -2519,7 +2558,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "I can change the color?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.subtitle}"
 			tasks: [{
 				id: "24BA393589087690"
 				item: {
@@ -2531,16 +2570,16 @@
 				}
 				type: "item"
 			}]
-			title: "Rainbow Spellbook"
+			title: "{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.title}"
 			x: 0.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
 			description: [
-				"The &eDominion Wand&r allows you to link Familiars to their corresponding work stations or other necessary blocks, as well as linking &eSourcelinks&r with &eSource Relays&r. "
+				"{ftbquests.chapter.6ars_nouveau.quest7053694026841503284.description1}"
 				""
-				"The most common method to linking is a simple Right Click but you may have to Shift + Right Click when dealing with chests or other storages. Another Shift + Right Click clears the links from the targeted block."
+				"{ftbquests.chapter.6ars_nouveau.quest7053694026841503284.description2}"
 			]
 			icon: {
 				Count: 1
@@ -2549,17 +2588,17 @@
 			}
 			id: "61E3C158682EB634"
 			optional: true
-			subtitle: "Dominion Wand 101"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest7053694026841503284.subtitle}"
 			tasks: [{
 				id: "30B12A62366FBD5A"
-				title: "How does this work...?"
+				title: "{ftbquests.chapter.6ars_nouveau.quest7053694026841503284.task.3508632186006781274.title}"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
-			description: ["&5Ars Ocultas&r bridges the gap between &5Occultism&r and &5Ars Nouveau&r by allowing the Djinns from &5Occultism&r in &eContainment Jars&r to continue their work!"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest2712824993549677726.description1}"]
 			icon: "occultism:book_of_binding_djinni"
 			id: "25A5E3F55E54749E"
 			optional: true
@@ -2570,14 +2609,14 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Otherworldly Rituals"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest2712824993549677726.subtitle}"
 			tasks: [{
 				id: "6B4CEA9CF82F9C97"
-				title: "Ars Ocultas"
+				title: "{ftbquests.chapter.6ars_nouveau.quest2712824993549677726.task.7731812620187966615.title}"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			id: "1A39D87C0BC3F4AE"
@@ -2589,19 +2628,19 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "rsquare"
-			subtitle: "AutoMAGIC Spellcasting"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1889779545943569582.subtitle}"
 			tasks: [{
 				id: "4D943DC323B39C03"
 				item: "ars_nouveau:basic_spell_turret"
 				type: "item"
 			}]
-			title: "Spell Turrets!"
-			x: 5.0d
-			y: -4.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest1889779545943569582.title}"
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
-			description: ["&eEnchanted Spell Turrets&r cost imbued spells at half the cost of the regular amount of Source required."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest3071101175549525019.description1}"]
 			id: "2A9EBE3F6DE9FC1B"
 			rewards: [{
 				amount: 50L
@@ -2610,37 +2649,37 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Cheaper Turrets"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3071101175549525019.subtitle}"
 			tasks: [{
 				id: "56843191369E345A"
 				item: "ars_nouveau:spell_turret"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
 			description: [
-				"&eTimer Spell Turrets&r cast the imbued spell on a short interval in seconds. Right Clicking will increase the time, while Left Clicking will decrease the time. Setting it to 0 or giving it a redstone signal will disable the timer."
+				"{ftbquests.chapter.6ars_nouveau.quest3496204302656674615.description1}"
 				""
-				"You can lock this turret with a &eDominion Wand&r to lock it in order to prevent the timer from being changed!"
+				"{ftbquests.chapter.6ars_nouveau.quest3496204302656674615.description2}"
 				""
-				"It will also cast spells that have Projectile, Touch, and Redstone for free!"
+				"{ftbquests.chapter.6ars_nouveau.quest3496204302656674615.description3}"
 			]
 			id: "3085034A220B1B37"
-			subtitle: "Timed Turrets"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3496204302656674615.subtitle}"
 			tasks: [{
 				id: "233233A97698E1EF"
 				item: "ars_nouveau:timer_spell_turret"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
-			description: ["The &eAdjustable Spell Turret&r is a small upgrade from the Basic Spell Turret&e. You can change the direction it's facing with a &eDominion Wand&r by Right Clicking the desired block."]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest3577040949924519338.description1}"]
 			id: "31A433CABF46DDAA"
 			rewards: [{
 				amount: 50L
@@ -2649,21 +2688,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Slightly Better Turret"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3577040949924519338.subtitle}"
 			tasks: [{
 				id: "4CBFF12E0A4B763C"
 				item: "ars_nouveau:rotating_spell_turret"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
 			description: [
-				"These &eElemental Infused Turrets&r are a lot stronger than the other Turrets! "
+				"{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.description1}"
 				""
-				"They can cast spells at a 65% discount, as well as performing spell combos that would be used in combination with the variety of &eElemental Focuses&r that &5Ars Elemental&r provides for you to use yourself!"
+				"{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.description2}"
 			]
 			id: "4D9B3259CB30B9F2"
 			rewards: [{
@@ -2673,7 +2712,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "More turret upgrades?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.subtitle}"
 			tasks: [{
 				id: "1D13DC8E5C666221"
 				item: {
@@ -2704,18 +2743,18 @@
 						]
 					}
 				}
-				title: "Elemental Turrets"
+				title: "{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.task.2095260755651093025.title}"
 				type: "item"
 			}]
-			title: "Specialized Turrets"
-			x: 5.0d
-			y: -5.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.title}"
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			description: [
-				"&5Ars Delight&r adds quite a lot of food items for you to increase your overall Spell Power and Mana Regeneration! "
+				"{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.description1}"
 				""
-				"Some allow you to regenerate Mana as you heal like the &eMendosteen Tea&r while foods that give the Wilden effect increase your Spell Power plus more Mana and Mana Regen!"
+				"{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.description2}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -2734,50 +2773,25 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Better Magical Food!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.subtitle}"
 			tasks: [{
 				id: "74925BE79DC4D0B3"
-				title: "Ars Delight!"
+				title: "{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.task.8399877305341890739.title}"
 				type: "checkmark"
 			}]
-			title: "Ars Delight"
-			x: -1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5DD2BA94561922D4"]
-			description: [
-				"In order to craft the &eArchmage Spell Book&r, as well as many other items outside of &5Ars Nouveau&r, you need many materials from the End Dimension, one of those being &eEnderium Ingots&r. "
-				""
-				""
-				"{ \"text\": \"Ritual of Scrying\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"192CD8BC280620AB\" } }"
-			]
-			id: "143F454F976B2E9E"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "0E7CD7EB4DCB3B8D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "So... Where Is It?"
-			tasks: [{
-				id: "31EC4072C269724F"
-				item: "majruszsdifficulty:enderium_shard_ore"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 0.0d
+			title: "{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.title}"
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
 			description: [
-				" The &eRitual of Awakening&r is used for a few things such as creating Guards for your base out of Archwood trees, and creating &eBookwyrm Charms&r and Amethyst Golems!"
+				"{ftbquests.chapter.6ars_nouveau.quest6704590078034196169.description1}"
 				""
 				""
-				"{ \"text\": \"Bookwyrm Charm\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5317ADE87D16A500\" } }"
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.6ars_nouveau.quest6704590078034196169.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5317ADE87D16A500\"}}]"
 				""
-				"{ \"text\": \"Amethyst Golem\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10260F1595649978\" } }"
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.6ars_nouveau.quest6704590078034196169.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"10260F1595649978\"}}]"
 			]
 			id: "5D0B7D274DD636C9"
 			rewards: [{
@@ -2787,21 +2801,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "The start of Familiars"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6704590078034196169.subtitle}"
 			tasks: [{
 				id: "4779F358E1960E97"
 				item: "ars_nouveau:ritual_awakening"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["58594005824B1BBE"]
 			description: [
-				"&5Ars Nouveau&r rituals enable you to do quite a few things as mentioned in the previous quest, but there's a lot more to it than that.... "
+				"{ftbquests.chapter.6ars_nouveau.quest4523794502517780930.description1}"
 				""
-				"In the following quests, I'll be explaining a variety of the most common rituals and the best way to use them!"
+				"{ftbquests.chapter.6ars_nouveau.quest4523794502517780930.description2}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2815,23 +2829,23 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "rsquare"
-			subtitle: "Is this Occultism?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4523794502517780930.subtitle}"
 			tasks: [{
 				id: "6391FEE6B9BEBA87"
-				title: "Basic Rituals"
+				title: "{ftbquests.chapter.6ars_nouveau.quest4523794502517780930.task.7174795948290128519.title}"
 				type: "checkmark"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 11.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
 			description: [
-				"The &eTablet of Containment&r allows you to place entities inside of a &eContainment Jar&r. "
+				"{ftbquests.chapter.6ars_nouveau.quest4602690920586531150.description1}"
 				""
-				"But be careful because any entity will be placed inside of the &eContainment Jar&r, and I mean ANY entity, even arrows that have been shot from bows or random items on the ground!"
+				"{ftbquests.chapter.6ars_nouveau.quest4602690920586531150.description2}"
 				""
-				"&6Tip:&r Having a 'Touch - Dispel' spell on hand will remove whatever is in the &eContainment Jar&r, so don't worry if you capture the wrong thing! Just don't put your &eSpell Book&r in it accidentally....."
+				"{ftbquests.chapter.6ars_nouveau.quest4602690920586531150.description3}"
 			]
 			id: "3FE00B019479D14E"
 			rewards: [{
@@ -2841,21 +2855,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Pokemon with extra steps!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4602690920586531150.subtitle}"
 			tasks: [{
 				id: "774BBCEB930E4B88"
 				item: "ars_nouveau:ritual_containment"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
 			description: [
-				"The &eTablet of Locate Structure&r allows you to find a select few Vanilla structures such as an End City or a Bastion. "
+				"{ftbquests.chapter.6ars_nouveau.quest8316057956919480497.description1}"
 				""
-				"It can also be used to search for the illusive Arcane Library for all your &5Ars Nouveau&r needs!"
+				"{ftbquests.chapter.6ars_nouveau.quest8316057956919480497.description2}"
 			]
 			id: "736892A6C5BF10B1"
 			rewards: [{
@@ -2865,21 +2879,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Scrying But For Structures!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8316057956919480497.subtitle}"
 			tasks: [{
 				id: "62A9FDDDCD18C749"
 				item: "ars_additions:ritual_locate_structure"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
 			description: [
-				"The &eTablet of Summon Wilden&r allows you to summon a random amount of the different Wilden Beasts: the Stalker, the Guardian, and Hunter."
+				"{ftbquests.chapter.6ars_nouveau.quest1552436564682879001.description1}"
 				""
-				"There's no method to influence to spawn one specific Wilden Beast but if you throw a &eWilden Spike&r, &eWilden Horn&r, and &eWilden Wing&r onto the Ritual Brazier after inserting this Tablet, you best be prepared for a fight!"
+				"{ftbquests.chapter.6ars_nouveau.quest1552436564682879001.description2}"
 			]
 			id: "158B5CD496403019"
 			rewards: [{
@@ -2889,21 +2903,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Wilden Beasts?"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1552436564682879001.subtitle}"
 			tasks: [{
 				id: "472AA02B77854E67"
 				item: "ars_nouveau:ritual_wilden_summon"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
 			description: [
-				"The &eTablet of Flight&r is one of the most useful Rituals as it allows permanent Creative flight around your base within a certain radius of your base! "
+				"{ftbquests.chapter.6ars_nouveau.quest8763180275074725328.description1}"
 				""
-				"The Effect it gives lasts a minute but as long as you're in that radius of about a 3x3 chunk area, it will always reset! Just make sure the &eRitual Brazier&r has a constant income of Source!"
+				"{ftbquests.chapter.6ars_nouveau.quest8763180275074725328.description2}"
 			]
 			id: "799D1207E689F5D0"
 			rewards: [{
@@ -2913,23 +2927,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "I can fly!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8763180275074725328.subtitle}"
 			tasks: [{
 				id: "29AC407B17A38508"
 				item: "ars_nouveau:ritual_flight"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.0d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
 			description: [
-				"The &eTablet of Scrying&r allows you to find just about anything and everything, but the most usage comes from finding those hard to find ores such as &eEnderium Shard Ore&r from the End, or &eAncient Debris&r!"
+				"{ftbquests.chapter.6ars_nouveau.quest1814063052560408747.description1}"
 				""
-				"You MUST have the Ore itself in order to Scry for it, meaning you must have already used Silk Touch on an Ore to use it in the &eRitual Brazier&r. "
+				"{ftbquests.chapter.6ars_nouveau.quest1814063052560408747.description2}"
 				""
-				"The effect lasts no time at all, but if you add a &eManipulation Essence&r with the Ore, the Effect duration is increased to 15 minutes!"
+				"{ftbquests.chapter.6ars_nouveau.quest1814063052560408747.description3}"
 			]
 			id: "192CD8BC280620AB"
 			rewards: [{
@@ -2939,15 +2953,15 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Basically X-Ray!"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1814063052560408747.subtitle}"
 			tasks: [{
 				id: "6818FBEF403F5205"
 				item: "ars_nouveau:ritual_scrying"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 11.0d
+			y: 5.0d
 		}
 	]
-	title: "{chapter.34.title}"
+	title: "{ftbquests.chapter.6ars_nouveau.title}"
 }

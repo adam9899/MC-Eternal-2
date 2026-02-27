@@ -3,7 +3,7 @@
 	"color": "#FFFF84",
 	"waves": [{
 			"entities": [{
-				"entity": "minecraft:blaze",
+				"entity": "specialmobs:blaze",
 				"count": 3
 			}],
 			"rewards": [{
@@ -16,7 +16,7 @@
 		},
 		{
 			"entities": [{
-				"entity": "minecraft:blaze",
+				"entity": "specialmobs:blaze",
 				"count": 4
 			}],
 			"modifiers": [{
@@ -55,7 +55,7 @@
 		},
 		{
 			"entities": [{
-					"entity": "minecraft:blaze",
+					"entity": "specialmobs:blaze",
                     "count": 5
 				}
 			],
@@ -95,7 +95,7 @@
 		},
 		{
 			"entities": [{
-					"entity": "minecraft:blaze",
+					"entity": "specialmobs:blaze",
                     "count": 6
 				}
 			],
@@ -135,7 +135,7 @@
 		},
 		{
 			"entities": [{
-					"entity": "minecraft:blaze",
+					"entity": "specialmobs:blaze",
                     "count": 7
 				}
 			],

@@ -38,6 +38,7 @@ const modules = {}
  * @param {String} materialType Material Type that will be passed in later
  * @param {Function} module 
  */
+/*
 const subscribeToGroup = (group, materialType, module) => {
     let moduleGroup = modules[group]
     if(moduleGroup) {
@@ -48,6 +49,7 @@ const subscribeToGroup = (group, materialType, module) => {
     } else
         console.warn(`No Module Group "${group}" is initialized.`)
 }
+*/
 
 /**
  * 
@@ -55,9 +57,7 @@ const subscribeToGroup = (group, materialType, module) => {
  * @returns a new Module, using the passed groupName as its key
  */
 const createModule = (groupName) => {
-    modules[groupName] = {
-        subscribe: (materialType, module) => subscribeToGroup(groupName, materialType, module)
-    }
+    modules[groupName] = {}
     return modules[groupName]
 }
 
@@ -66,18 +66,22 @@ ServerEvents.recipes(event => {
 
     for (let [moduleGroup, moduleList] of Object.entries(modules)) {
         console.log(`Resolving Ore Unification modules for "${moduleGroup}"`)
-        if(moduleList.first) {
-            moduleList.first(event) //run "first" module
-            delete moduleList.first //then remove it to prevent it again later
+        if(moduleList.init)
+            moduleList.init(event) //run init module
+        for (let [matId, material] of Object.entries(global.preferredOreProducts)) {
+            if(moduleList.main)
+                moduleList.main(event, matId, material) //run iterative module for material
         }
         // remove subscribe function from this module.
-        delete moduleList.subscribe
+        //delete moduleList.subscribe
         // then run the module.
+        /*
         for (let [materialType, module] of Object.entries(moduleList)) {
             console.log(`Resolving module "${materialType}"`)
             for (let [material, product] of Object.entries(global.preferredOreProducts[materialType]))
                 module(event, material, product)
             console.log(`Finished resolving module "${materialType}"`)
         }
+        */
     }
 })

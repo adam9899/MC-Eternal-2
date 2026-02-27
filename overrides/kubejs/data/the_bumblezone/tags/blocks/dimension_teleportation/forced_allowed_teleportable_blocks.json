@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:beehives",
+    "complicated_bees:apiary",
+    "complicated_bees:bee_nest",
+    "minecolonies:blockhutbeekeeper"
+  ]
+}

@@ -6,7 +6,7 @@
       "offer_item": {
         "item": "ftbquests:lootcrate",
 	"nbt": "{type:\"quest_loot\"}",
-        "count": 1
+        "count": 3
       },
       "payment_item": {
         "item": "kubejs:loyalty_card_generic",
@@ -50,31 +50,17 @@
   },
   "price_multiplier": 0.5
 },
-{
-  "type": "goblintraders:basic",
-  "experience": 6,
-  "max_trades": 3,
-  "offer_item": {
-    "count": 1,
-    "item": "minecraft:enchanted_book",
-    "nbt": "{StoredEnchantments:[{id:\"veinmining:vein_mining\",lvl:1s}]}"
-  },
-  "payment_item": {
-    "count": 13,
-    "item": "minecraft:emerald"
-  },
-  "price_multiplier": 0.5
-},
+
 	  {
   "type": "goblintraders:basic",
   "experience": 6,
   "max_trades": 1,
   "offer_item": {
     "count": 1,
-    "item": "etched:boombox"
+    "item": "uniqueaccessories:accessory_box"
   },
   "payment_item": {
-    "count": 3,
+    "count": 15,
     "item": "minecraft:emerald"
   },
   "price_multiplier": 0.5

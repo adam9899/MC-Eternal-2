@@ -1,0 +1,1273 @@
+{
+	autofocus_id: "6108266A7EE8EDAF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enderio"
+	group: "3EBF424A99DA33B7"
+	icon: "enderio:enderface_none"
+	id: "699807F9171AD38D"
+	images: [
+		{
+			height: 20.0d
+			image: "minecraft:textures/misc/enderio_quest_backdrop.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			alpha: 240
+			height: 4.0d
+			image: "minecraft:textures/misc/enderio_quest_swirl.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/misc/enderio_quest_title.png"
+			rotation: -10.0d
+			width: 15.0d
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/misc/enderio_quest_gear1.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.9d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/misc/enderio_quest_gear2.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.5d
+			y: 1.4d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/misc/sticker_high_voltage.png"
+			rotation: 20.0d
+			width: 0.9743589743589743d
+			x: -2.75d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/misc/enderio_quest_gear1.png"
+			rotation: 25.0d
+			width: 2.0d
+			x: -7.45d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/misc/enderio_quest_gear1.png"
+			rotation: 20.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.enderio.quest6991880660330278319.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest6991880660330278319.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest6991880660330278319.description3}"
+			]
+			id: "6108266A7EE8EDAF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2D8E360F0D5DAF82"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "54DD170B5D3BAF05"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.enderio.quest6991880660330278319.subtitle}"
+			tasks: [{
+				id: "15A57AA8DE3A3C90"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest6991880660330278319.title}"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6108266A7EE8EDAF"]
+			description: [
+				"{ftbquests.chapter.enderio.quest1521294958742201939.description1}"
+				"{ftbquests.chapter.enderio.quest1521294958742201939.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest1521294958742201939.description3}"
+			]
+			id: "151CB9B46E6BE653"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0E86A7BEC1760F1B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.enderio.quest1521294958742201939.subtitle}"
+			tasks: [{
+				id: "1AB9E69A7344D9AF"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest1521294958742201939.title}"
+			x: -5.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6108266A7EE8EDAF"]
+			description: [
+				"{ftbquests.chapter.enderio.quest6441615519933696405.description1}"
+				"{ftbquests.chapter.enderio.quest6441615519933696405.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest6441615519933696405.description3}"
+			]
+			id: "5965372FAD4A8995"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7BCF63FD681D06F8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.enderio.quest6441615519933696405.subtitle}"
+			tasks: [
+				{
+					count: 18L
+					id: "54E9ECC723B68CB7"
+					item: "enderio:conduit_binder"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "612304593432858C"
+					item: "enderio:item_conduit"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "45DF71D962873C3E"
+					item: "enderio:energy_conduit"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7B2469A11E40C8D2"
+					item: "enderio:fluid_conduit"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.enderio.quest6441615519933696405.title}"
+			x: -5.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["0DC7D05B53CA8F62"]
+			description: [
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description1}"
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description3}"
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description4}"
+				""
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description5}"
+			]
+			id: "4BF38C4BBB8538D8"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "669961B9CDE3B795"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "49F5DB5127D7993A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.enderio.quest5472872229081790680.subtitle}"
+			tasks: [
+				{
+					id: "1F5AF5C68A1A4FCB"
+					item: "enderio:copper_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "3E370F6904416A9A"
+					item: "enderio:pulsating_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "1FB5AFD1C571BC67"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "6F1794B13E99EEE0"
+					item: "enderio:redstone_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.enderio.quest5472872229081790680.title}"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DC7D05B53CA8F62"]
+			description: [
+				"{ftbquests.chapter.enderio.quest1540319402060126475.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest1540319402060126475.description2}"
+			]
+			id: "15605055D06F990B"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "702E2A2D3FFF83FA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "277F16BE2E6AFCB3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest1540319402060126475.subtitle}"
+			tasks: [{
+				id: "0947EB7E68D8F9BE"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest1540319402060126475.title}"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BF38C4BBB8538D8"]
+			description: [
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description1}"
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description3}"
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description4}"
+				""
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description5}"
+			]
+			id: "405E0E4B20FD9314"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2030A0D787859D78"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2182146B6E1DDF51"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.enderio.quest4638160382077014804.subtitle}"
+			tasks: [
+				{
+					id: "7513A67E1F8D6838"
+					item: "enderio:soularium_ingot"
+					type: "item"
+				}
+				{
+					id: "36D67716E9D013EB"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "2BDCDB065407D9EB"
+					item: "enderio:vibrant_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.enderio.quest4638160382077014804.title}"
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5965372FAD4A8995"]
+			description: [
+				"{ftbquests.chapter.enderio.quest6587316022773085740.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest6587316022773085740.description2}"
+			]
+			id: "5B6AD90588A0F62C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "637A7FBD74F93F1F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.enderio.quest6587316022773085740.subtitle}"
+			tasks: [{
+				id: "4470C89C707E4E13"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest6587316022773085740.title}"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5B6AD90588A0F62C"]
+			description: [
+				"{ftbquests.chapter.enderio.quest1634837880463803043.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest1634837880463803043.description2}"
+				"{ftbquests.chapter.enderio.quest1634837880463803043.description3}"
+			]
+			id: "16B01C63FA65C2A3"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "3621912C5C4F5EEE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.enderio.quest1634837880463803043.subtitle}"
+			tasks: [{
+				id: "7DD2E4AB6E3ED68D"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest1634837880463803043.title}"
+			x: -7.25d
+			y: -7.25d
+		}
+		{
+			dependencies: ["16B01C63FA65C2A3"]
+			description: [
+				"{ftbquests.chapter.enderio.quest6024339046104304492.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest6024339046104304492.description2}"
+			]
+			id: "539AC071B1900B6C"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7C7D390AB820F7B9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7B789ED53C548196"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest6024339046104304492.subtitle}"
+			tasks: [{
+				id: "75BC2D9D5D9D6836"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest6024339046104304492.title}"
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15605055D06F990B"]
+			description: [
+				"{ftbquests.chapter.enderio.quest1602992454687407844.description1}"
+				"{ftbquests.chapter.enderio.quest1602992454687407844.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest1602992454687407844.description3}"
+				"{ftbquests.chapter.enderio.quest1602992454687407844.description4}"
+			]
+			id: "163EF924FF463EE4"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "3695A5F017C698A4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4548F72D51BCE80E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest1602992454687407844.subtitle}"
+			tasks: [{
+				id: "41DE97399C1CA5EB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:enderio/grinding_balls"
+					}
+				}
+				title: "{ftbquests.chapter.enderio.quest1602992454687407844.task.4746397330983134699.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest1602992454687407844.title}"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DC7D05B53CA8F62"]
+			description: [
+				"{ftbquests.chapter.enderio.quest2164040641549335020.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest2164040641549335020.description2}"
+			]
+			id: "1E08377F770E79EC"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "46CA72424B41DC31"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0075805540163037"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest2164040641549335020.subtitle}"
+			tasks: [{
+				id: "4FBD2CDA8A852FF0"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest2164040641549335020.title}"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78149E0BF29D8147"]
+			description: [
+				"{ftbquests.chapter.enderio.quest8350554170396503624.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest8350554170396503624.description2}"
+			]
+			id: "73E320C65C23EE48"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "61CF7FAA1EEC893D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "12E39A0740B0D679"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest8350554170396503624.subtitle}"
+			tasks: [{
+				id: "3C320C760522D37A"
+				item: "enderio:wired_charger"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest8350554170396503624.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6108266A7EE8EDAF"]
+			description: [
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description1}"
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description2}"
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description3}"
+				""
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description4}"
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description5}"
+			]
+			id: "78149E0BF29D8147"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "6CC16F46C3D6B75B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.enderio.quest8652714558237802823.subtitle}"
+			tasks: [{
+				id: "437DF73151CBFDE9"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest8652714558237802823.title}"
+			x: -2.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6108266A7EE8EDAF"]
+			description: [
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description2}"
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description3}"
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description4}"
+				""
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description5}"
+			]
+			id: "1E55F3238B19293E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "74E7F21A4649C3C5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.enderio.quest2185920528141330750.subtitle}"
+			tasks: [{
+				id: "5B415F90C2415BD1"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest2185920528141330750.title}"
+			x: -2.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["1E55F3238B19293E"]
+			description: [
+				"{ftbquests.chapter.enderio.quest6377707321909107278.description1}"
+				"{ftbquests.chapter.enderio.quest6377707321909107278.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest6377707321909107278.description3}"
+				"{ftbquests.chapter.enderio.quest6377707321909107278.description4}"
+			]
+			id: "58822B04CBCCDA4E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "160E38D7806B6C41"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.enderio.quest6377707321909107278.subtitle}"
+			tasks: [{
+				id: "5AE1CAE321C97498"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest6377707321909107278.title}"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["58822B04CBCCDA4E"]
+			description: ["{ftbquests.chapter.enderio.quest2601955873894153626.description1}"]
+			id: "241C0114E0B3BD9A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "23752E4FBA0923FB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5534DD667C8307C9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest2601955873894153626.subtitle}"
+			tasks: [{
+				id: "1851B5E04B832BA4"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest2601955873894153626.title}"
+			x: -0.75d
+			y: -7.25d
+		}
+		{
+			dependencies: ["3A33BB68006E85E8"]
+			description: [
+				"{ftbquests.chapter.enderio.quest8214451045381672025.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest8214451045381672025.description2}"
+			]
+			id: "71FF97B428CF8C59"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "4F169651DCF3751E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "57C60047F850E72D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest8214451045381672025.subtitle}"
+			tasks: [{
+				id: "0413FF8E7D78EDE6"
+				item: "enderio:xp_vacuum"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest8214451045381672025.title}"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3A33BB68006E85E8"]
+			description: [
+				"{ftbquests.chapter.enderio.quest7964736593737849539.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest7964736593737849539.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest7964736593737849539.description3}"
+			]
+			id: "6E886DBBA74C9AC3"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "1B03CCF17A61DCCC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1C34E8C43A434969"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest7964736593737849539.subtitle}"
+			tasks: [{
+				id: "6101CF4235299FD5"
+				item: "enderio:vacuum_chest"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest7964736593737849539.title}"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["78149E0BF29D8147"]
+			description: [
+				"{ftbquests.chapter.enderio.quest8667531236788076843.description1}"
+				"{ftbquests.chapter.enderio.quest8667531236788076843.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest8667531236788076843.description3}"
+				"{ftbquests.chapter.enderio.quest8667531236788076843.description4}"
+			]
+			id: "784941BCC05B012B"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "23E80B485825FE0B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "503650819B63C8DD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest8667531236788076843.subtitle}"
+			tasks: [{
+				id: "340BC6A2AE53A28D"
+				item: "enderio:energetic_photovoltaic_module"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest8667531236788076843.title}"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["784941BCC05B012B"]
+			description: [
+				"{ftbquests.chapter.enderio.quest2939055792504673759.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest2939055792504673759.description2}"
+			]
+			id: "28C99FABE74B95DF"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "42FFA68A7FF63573"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "56AB3586D923367E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest2939055792504673759.subtitle}"
+			tasks: [{
+				id: "1ECE7FEE2D139636"
+				item: "enderio:pulsating_photovoltaic_module"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest2939055792504673759.title}"
+			x: -1.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["28C99FABE74B95DF"]
+			description: [
+				"{ftbquests.chapter.enderio.quest7487159918875376193.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest7487159918875376193.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest7487159918875376193.description3}"
+			]
+			id: "67E7BC470D1BFA41"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7E10FF2F5467FF23"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4BAE8820004417E1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest7487159918875376193.subtitle}"
+			tasks: [{
+				id: "758167E8BF52F1B3"
+				item: "enderio:vibrant_photovoltaic_module"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest7487159918875376193.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["78149E0BF29D8147"]
+			description: [
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description1}"
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description3}"
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description4}"
+				""
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description5}"
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description6}"
+			]
+			id: "2660426F2EBF7185"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "6959D039A9370200"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "374DF9A9C17E0386"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest2765283216498585989.subtitle}"
+			tasks: [{
+				id: "2B05AB447ED63221"
+				item: "enderio:basic_capacitor_bank"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest2765283216498585989.title}"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2660426F2EBF7185"]
+			description: [
+				"{ftbquests.chapter.enderio.quest4914519658560383274.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest4914519658560383274.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest4914519658560383274.description3}"
+			]
+			id: "4433E1975A2A692A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7E16894A7050EDAD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "467CFE1799FEA34A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest4914519658560383274.subtitle}"
+			tasks: [{
+				id: "5224E79EB75C5941"
+				item: "enderio:advanced_capacitor_bank"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest4914519658560383274.title}"
+			x: -0.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4433E1975A2A692A"]
+			description: [
+				"{ftbquests.chapter.enderio.quest7780810388374814218.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest7780810388374814218.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest7780810388374814218.description3}"
+			]
+			id: "6BFAFDD2DFBFFE0A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "40659E31B2E7D56B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "12F57885FB30FCB5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest7780810388374814218.subtitle}"
+			tasks: [{
+				id: "5DA135D9914D94D7"
+				item: "enderio:vibrant_capacitor_bank"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest7780810388374814218.title}"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E08377F770E79EC"]
+			description: [
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description3}"
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description4}"
+				""
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description5}"
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description6}"
+			]
+			id: "5F7BF6738D6997DB"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "3FC83C66F0D75541"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5F28D521281B343A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.enderio.quest6880363831892744155.subtitle}"
+			tasks: [{
+				id: "7BBF092764DD5816"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest6880363831892744155.title}"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["151CB9B46E6BE653"]
+			description: [
+				"{ftbquests.chapter.enderio.quest992991333524868962.description1}"
+				"{ftbquests.chapter.enderio.quest992991333524868962.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest992991333524868962.description3}"
+				"{ftbquests.chapter.enderio.quest992991333524868962.description4}"
+			]
+			id: "0DC7D05B53CA8F62"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "10579B69B0EA15D4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "565A60F3A96D9C04"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest992991333524868962.subtitle}"
+			tasks: [
+				{
+					id: "371728AF4F6711AE"
+					item: "enderio:powdered_coal"
+					type: "item"
+				}
+				{
+					id: "43A27406A88D7F3E"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.enderio.quest992991333524868962.title}"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["241C0114E0B3BD9A"]
+			description: [
+				"{ftbquests.chapter.enderio.quest4193901733370299880.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest4193901733370299880.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest4193901733370299880.description3}"
+			]
+			id: "3A33BB68006E85E8"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "6E30BA3C24DFF21A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4732CC91F1422D9B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest4193901733370299880.subtitle}"
+			tasks: [{
+				id: "0D8A627157F92E76"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enderio.quest4193901733370299880.title}"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.enderio.quest2115816794260875162.description1}"
+				"{ftbquests.chapter.enderio.quest2115816794260875162.description2}"
+				""
+				"{ftbquests.chapter.enderio.quest2115816794260875162.description3}"
+				""
+				"{ftbquests.chapter.enderio.quest2115816794260875162.description4}"
+			]
+			id: "1D5CE42A0FB9A79A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5CADD6EC72A3F4B7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5ED44B58EFDBE237"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.enderio.quest2115816794260875162.subtitle}"
+			tasks: [
+				{
+					id: "4375CC0DF3B0C58D"
+					item: "enderio:travel_anchor"
+					type: "item"
+				}
+				{
+					id: "467C18B746A66168"
+					item: {
+						Count: 1
+						id: "enderio:staff_of_travelling"
+						tag: {
+							Energy: {
+								EnergyStored: 0
+								MaxEnergyStored: 100000
+								MaxEnergyUse: 100000
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.enderio.quest2115816794260875162.title}"
+			x: 3.0d
+			y: -9.0d
+		}
+	]
+	title: "{ftbquests.chapter.enderio.title}"
+}

@@ -25,7 +25,7 @@
 		]
 	},
 	"xp_lesser": {
-		"title": "§dSerene Angler:§r +5% XP From Fishing",
+		"title": "§dSerene Angler:§r +10% XP From Fishing",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -50,7 +50,7 @@
 		]
 	},
 	"xp": {
-		"title": "§a§lExperienced Angler:§r +200% XP From Fishing",
+		"title": "§a§lExperienced Angler:§r +450% XP From Fishing",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -68,7 +68,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "stardew_fishing:exp_multiplier",
-					"value": 2.0,
+					"value": 4.5,
 					"operation": "multiply_total"
 				}
 			}
@@ -100,7 +100,7 @@
 		]
 	},
 	"treasure": {
-		"title": "§6§lMaster Angler:§r +60% Special Treasure Chance",
+		"title": "§6§lMaster Angler:§r Double Special Treasure Chance",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -118,7 +118,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "stardew_fishing:treasure_chance_bonus",
-					"value": 0.6,
+					"value": 2.0,
 					"operation": "multiply_total"
 				}
 			}

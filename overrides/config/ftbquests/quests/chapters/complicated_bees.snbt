@@ -31,14 +31,14 @@
 			y: -2.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"Breaking a &6bees nest&r without a scoop will result in you getting &4stung&r in retaliation for destroying their homes."
+				"{ftbquests.chapter.complicated_bees.quest8839505697409113042.description1}"
 				""
-				"&8Chapter credit: Pixiefer"
+				"{ftbquests.chapter.complicated_bees.quest8839505697409113042.description2}"
 			]
 			id: "7AAC3B991C1C9BD2"
 			rewards: [{
@@ -48,7 +48,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Scoop"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8839505697409113042.subtitle}"
 			tasks: [{
 				id: "51BD95CE29BD2FCB"
 				item: {
@@ -60,18 +60,18 @@
 				}
 				type: "item"
 			}]
-			title: "Bee Careful"
+			title: "{ftbquests.chapter.complicated_bees.quest8839505697409113042.title}"
 			x: -5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7AAC3B991C1C9BD2"]
 			description: [
-				"Complicated bee nests can spawn pretty much anywhere - In the &2jungle&r, in the &6desert&r, &8underground&r and even in The &4Nether&r and The &dEnd&r! "
+				"{ftbquests.chapter.complicated_bees.quest424090680532858094.description1}"
 				""
-				"Once you find one just use the scoop to break a &6bee nest&r, and you'll get a princess, a couple drones, and maybe even a comb or two!"
+				"{ftbquests.chapter.complicated_bees.quest424090680532858094.description2}"
 				""
-				"{image:modpack:textures/foresthive.png width:192 height:117 align:center}"
+				"{ftbquests.chapter.complicated_bees.quest424090680532858094.image0}"
 			]
 			id: "05E2AC3A1DB6F4EE"
 			rewards: [
@@ -88,27 +88,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -119,30 +102,30 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "7225B6FE0505DA1F"
-					title: "&eUnlock Title:&r the Beekeeper"
+					title: "{ftbquests.chapter.complicated_bees.quest424090680532858094.reward.8225181496584296991.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Find a Bee Nest And Break It With a Scoop"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest424090680532858094.subtitle}"
 			tasks: [{
 				advancement: "complicated_bees:first_bee"
 				criterion: ""
 				id: "152F7A345035DE7D"
-				title: "Finding Bees!"
+				title: "{ftbquests.chapter.complicated_bees.quest424090680532858094.task.1526573163804483197.title}"
 				type: "advancement"
 			}]
-			title: "There's A Bee?!"
+			title: "{ftbquests.chapter.complicated_bees.quest424090680532858094.title}"
 			x: -3.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["05E2AC3A1DB6F4EE"]
 			description: [
-				"Now that you have &6bees&r, you'll want to set them up in a house of their own, so they can start producing that sweet, sweet, &ehoney&r! An apiary is ideally suited to this task - with easily-accessible space for &6bees&r, frames, and products, this wonderful little block is a beekeeper's (or, if you're feeling fancy, an apiarist's) best friend!"
+				"{ftbquests.chapter.complicated_bees.quest4346643438476744754.description1}"
 				""
-				"Once you've located a good spot to set up shop, just plop down your apiary and place your princess in the top slot and a drone in the bottom, and you're off to the races! A princess and drone combine into a queen, which will produce combs if fully satisfied. If the bar on the left turns red, just hover over it to see what else the queen needs to be satisfied."
+				"{ftbquests.chapter.complicated_bees.quest4346643438476744754.description2}"
 				""
-				"Now that you have a queen content with her surroundings, she'll slowly produce combs and (eventually) die, leaving behind a princess and some drones. Start the cycle all over again, and you have (theoretically) infinite&e honey&r!"
+				"{ftbquests.chapter.complicated_bees.quest4346643438476744754.description3}"
 			]
 			id: "3C52612D83B05832"
 			rewards: [{
@@ -152,26 +135,26 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft An Apiary"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest4346643438476744754.subtitle}"
 			tasks: [{
 				id: "6A240DAD27473ACC"
 				item: "complicated_bees:apiary"
 				type: "item"
 			}]
-			title: "Luxury Bee Apartments"
+			title: "{ftbquests.chapter.complicated_bees.quest4346643438476744754.title}"
 			x: -1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3C52612D83B05832"]
 			description: [
-				"How do you get the &ehoney&r out of combs? It's a little too sticky to manually dig out of the combs cleanly, and you have MUCH better things to do with your time, I'm sure. Enter the Centrifuge: this machine will spin things really, really fast, separating them by density - in this case, your combs into &ehoney&r, wax, and other potential extra things."
+				"{ftbquests.chapter.complicated_bees.quest4278106121511090500.description1}"
 				""
-				"However, this spinning needs something with a little more oomph than some hot air from burning things. This is where a Furnace Generator comes in - by taking hot air from burning things, you can generate RF! (or as others like to call it, Redstone Flux)"
+				"{ftbquests.chapter.complicated_bees.quest4278106121511090500.description2}"
 				""
-				"Just put a furnace generator next to a centrifuge, give it some fuel, and you'll have your centrifuge up and running in no time!"
+				"{ftbquests.chapter.complicated_bees.quest4278106121511090500.description3}"
 				""
-				"Most combs produce &e honey&r and wax, which have their uses - some combs, though, will produce special resources in addition to those."
+				"{ftbquests.chapter.complicated_bees.quest4278106121511090500.description4}"
 			]
 			id: "3B5EE2D9E417B944"
 			rewards: [{
@@ -181,7 +164,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Centrifuge and a Furnace Generator"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest4278106121511090500.subtitle}"
 			tasks: [
 				{
 					id: "6EA8277454D73DE6"
@@ -194,13 +177,13 @@
 					type: "item"
 				}
 			]
-			title: "Indust-bee"
+			title: "{ftbquests.chapter.complicated_bees.quest4278106121511090500.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["54F0CED284CED909"]
-			description: ["&eThe Apiarist's Clothes&r can be equipped to lessen the negative effects of Bees (such as Poison from &2Tropical Bees&r). The more pieces of clothing you wear, the more often will Bees leave you alone. but they can still sometimes poison you, but that is &4very rare&r."]
+			description: ["{ftbquests.chapter.complicated_bees.quest5332444432680110383.description1}"]
 			id: "4A00A5F58268492F"
 			rewards: [{
 				amount: 50L
@@ -209,7 +192,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a full set of Apiarist's Clothes"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest5332444432680110383.subtitle}"
 			tasks: [
 				{
 					id: "3F4922C5C9F58D49"
@@ -256,16 +239,16 @@
 					type: "item"
 				}
 			]
-			title: "A True Beekeeper"
+			title: "{ftbquests.chapter.complicated_bees.quest5332444432680110383.title}"
 			x: 3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["05E2AC3A1DB6F4EE"]
 			description: [
-				"&6Bees&r need specific conditions to work in, which vary by species - generally, &6bees&r prefer to work in environments similar to the ones they are native to; for example, a Jungle &6bee&r would prefer a hot and humid environment. You can use a meter to measure the temperature and humidity of the surrounding areas."
+				"{ftbquests.chapter.complicated_bees.quest8759418792959457301.description1}"
 				""
-				"&6Bees&r also need specific 'flowers' nearby, which tend to be plants native to whatever biomes the bees are native to. Azaleas, vines, dead shrubs, even skulls - all of these and more are potentially flowers that your species of &6bee&r might need."
+				"{ftbquests.chapter.complicated_bees.quest8759418792959457301.description2}"
 			]
 			id: "798FB4FB993AB815"
 			rewards: [{
@@ -275,23 +258,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Meter"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8759418792959457301.subtitle}"
 			tasks: [{
 				id: "3BD4B1E8D27251CA"
 				item: "complicated_bees:meter"
 				type: "item"
 			}]
-			title: "Environmental Expert"
+			title: "{ftbquests.chapter.complicated_bees.quest8759418792959457301.title}"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
-			description: ["Frames are consumable 'upgrades' for your apiaries! Each one has a different effect when slotted into an apiary, from increasing production to outright changing environmental conditions for the bees inside it. Frames will slowly take damage as they are used, necessitating replacement every so often. Mix and match to achieve your ideal set of bonuses!"]
+			description: ["{ftbquests.chapter.complicated_bees.quest3948886460593687236.description1}"]
 			id: "36CD435056094AC4"
-			subtitle: "Frame Info"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest3948886460593687236.subtitle}"
 			tasks: [{
 				id: "311295468F030C03"
-				title: "Beefficiency"
+				title: "{ftbquests.chapter.complicated_bees.quest3948886460593687236.task.3536052787718851587.title}"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -307,7 +290,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest7832801048008790185.subtitle}"
 			tasks: [{
 				id: "6B46547EF2AEC53D"
 				item: {
@@ -332,7 +315,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Waxed Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8555546935675099980.subtitle}"
 			tasks: [{
 				id: "3C15217AF1917ABF"
 				item: {
@@ -357,7 +340,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Honeyed Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8338642589791526837.subtitle}"
 			tasks: [{
 				id: "1E438D05FBE27294"
 				item: {
@@ -382,7 +365,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Wet Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest3862412752982390887.subtitle}"
 			tasks: [{
 				id: "27E24DBCC8A7F512"
 				item: {
@@ -407,7 +390,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Dry Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest307277823386431945.subtitle}"
 			tasks: [{
 				id: "75D015C03739677A"
 				item: {
@@ -432,7 +415,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Hot Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest1248117490284335590.subtitle}"
 			tasks: [{
 				id: "3DF8176315204F1C"
 				item: {
@@ -449,7 +432,7 @@
 		}
 		{
 			dependencies: ["3B5EE2D9E417B944"]
-			description: ["You'll quickly realize you have more &ehoney&r than you know what to do with. While food is all good and well, you can also burn your excess &ehoney&r (and certain other &6bee&r products) in the &eHoney&r Generator for more RF!"]
+			description: ["{ftbquests.chapter.complicated_bees.quest3363316760267609313.description1}"]
 			id: "2EACE6C61ADE54E1"
 			rewards: [
 				{
@@ -465,34 +448,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Honey Generator"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest3363316760267609313.subtitle}"
 			tasks: [{
 				id: "6323EE39CCD83B69"
 				item: "complicated_bees:honey_generator"
@@ -511,7 +477,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Deadly Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8301617855800313094.subtitle}"
 			tasks: [{
 				id: "36AC2DA70272097F"
 				item: {
@@ -536,7 +502,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Restrictive Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest146096789261898316.subtitle}"
 			tasks: [{
 				id: "121E8471A826931F"
 				item: {
@@ -561,7 +527,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Twisting Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest5098083816852702401.subtitle}"
 			tasks: [{
 				id: "42E6DF20FD9B5F71"
 				item: {
@@ -586,7 +552,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Icy Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8397027085790605721.subtitle}"
 			tasks: [{
 				id: "3F3E790250DF5705"
 				item: {
@@ -611,7 +577,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Soothing Frame"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8443208338173010818.subtitle}"
 			tasks: [{
 				id: "2858DAE980A90A8A"
 				item: {
@@ -629,10 +595,10 @@
 		{
 			dependencies: ["001C50A8982EB4EB"]
 			description: [
-				"By placing &2Propolis&r in the centrifuge you'll have a change at getting a Silk Wisp!"
+				"{ftbquests.chapter.complicated_bees.quest6120619297163106569.description1}"
 				""
-				"9 of these Silk Wisps can be used to craft a Woven Mesh!"
-				"3 of these Silk Wisps can be used to craft a piece of string!"
+				"{ftbquests.chapter.complicated_bees.quest6120619297163106569.description2}"
+				"{ftbquests.chapter.complicated_bees.quest6120619297163106569.description3}"
 			]
 			id: "54F0CED284CED909"
 			rewards: [{
@@ -642,7 +608,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Collect enough Silk Wisps to make a Woven Mesh"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest6120619297163106569.subtitle}"
 			tasks: [
 				{
 					id: "5A9D851D580E764A"
@@ -655,22 +621,22 @@
 					type: "item"
 				}
 			]
-			title: "Silky Smooth"
+			title: "{ftbquests.chapter.complicated_bees.quest6120619297163106569.title}"
 			x: 1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["001C50A8982EB4EB"]
 			description: [
-				"The Mellarium is an industrially-sized apiary, capable of housing special modules that can kick your production into high gear. It provides a &abaseline 1.25x multiplier&r to productivity which can be increased through modules."
+				"{ftbquests.chapter.complicated_bees.quest868162005324619405.description1}"
 				""
-				"Note that non-base mellarium blocks can not be placed in the top layer of the Mellarium."
+				"{ftbquests.chapter.complicated_bees.quest868162005324619405.description2}"
 				""
-				"To build it, place down a &a3x3x3 cube of mellarium blocks&r. If you've done it right, the cube will assemble like so:"
+				"{ftbquests.chapter.complicated_bees.quest868162005324619405.description3}"
 				""
-				"{image:modpack:textures/mellarium.png width:100 height:100 align:center}"
+				"{ftbquests.chapter.complicated_bees.quest868162005324619405.image0}"
 				""
-				"&4Try not to build these across chunk borders or right next to each other.&r"
+				"{ftbquests.chapter.complicated_bees.quest868162005324619405.description4}"
 			]
 			id: "0C0C54BE7EDD5E8D"
 			rewards: [{
@@ -680,7 +646,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft Mellarium Panels and Blocks"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest868162005324619405.subtitle}"
 			tasks: [
 				{
 					id: "73B3FC576B36456E"
@@ -699,15 +665,15 @@
 		{
 			dependencies: ["3B5EE2D9E417B944"]
 			description: [
-				"Throughout your &6beekeeping&r journey you'll have to collect lots of resources such as the one marked above!"
+				"{ftbquests.chapter.complicated_bees.quest7969984385823979.description1}"
 				""
-				"Each resource being useful in many ways - Here's how to collect these essential resources!"
+				"{ftbquests.chapter.complicated_bees.quest7969984385823979.description2}"
 				""
-				"&eHoney Droplets&r and &eBeewax&r are produces as a by-product of every &ehoneycombs&r by placing them in a centrifuge!"
+				"{ftbquests.chapter.complicated_bees.quest7969984385823979.description3}"
 				""
-				"&2Propolis&r and &dRoyal Jelly&r are a by-product from different &ehoneycombs&r so you'll have to cross-breed to get these! By placing the &ehoneycombs&r in a centrifudge you'll have a change at said products!"
+				"{ftbquests.chapter.complicated_bees.quest7969984385823979.description4}"
 				""
-				"&aPollen&r are by-products from 2 certain &6bees&r by making them work in the apiary!"
+				"{ftbquests.chapter.complicated_bees.quest7969984385823979.description5}"
 			]
 			id: "001C50A8982EB4EB"
 			rewards: [{
@@ -717,7 +683,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Collect the essentials"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest7969984385823979.subtitle}"
 			tasks: [
 				{
 					id: "1213038DAD6A2573"
@@ -745,20 +711,20 @@
 					type: "item"
 				}
 			]
-			title: "Let There Bee Resources"
+			title: "{ftbquests.chapter.complicated_bees.quest7969984385823979.title}"
 			x: 1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["05E2AC3A1DB6F4EE"]
 			description: [
-				"The analyzer lets you examine a bee's genes in-depth, as well as seeing its inactive genes; no more sneaky recessive traits ruining your ideal crossbreed!"
+				"{ftbquests.chapter.complicated_bees.quest1963566945309425795.description1}"
 				""
-				"Once made, use it to open up the analyzer interface. You'll have to place a bee in the bee slot and some honey drops in the other slot to pacify the bee and analyze it. Once you do, the bee's whole genome will be shown to you. You can see its active and inactive genes, whether a specific gene is dominant or recessive, some very special flavor text, and more!"
+				"{ftbquests.chapter.complicated_bees.quest1963566945309425795.description2}"
 				""
-				"Use this information and Punnett squares to direct your crossbreeding efforts, and create the ultimate bee!"
+				"{ftbquests.chapter.complicated_bees.quest1963566945309425795.description3}"
 				""
-				"{image:modpack:textures/analyzer.png width:165 height:100 align:center}"
+				"{ftbquests.chapter.complicated_bees.quest1963566945309425795.image0}"
 			]
 			id: "1B3FFDBBBBDE0083"
 			rewards: [{
@@ -768,7 +734,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft An Analyzer"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest1963566945309425795.subtitle}"
 			tasks: [{
 				id: "4810B09CA84E1AD7"
 				item: {
@@ -783,18 +749,18 @@
 				}
 				type: "item"
 			}]
-			title: "A Closer Look"
+			title: "{ftbquests.chapter.complicated_bees.quest1963566945309425795.title}"
 			x: -1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1B3FFDBBBBDE0083"]
 			description: [
-				"The microscope is an invaluable tool for researching specimens. Place a &6bee&r in the top right slot to begin analyzing it - you'll be presented with a minigame you'll have to complete. The difficulty of the minigame is based on how complex the species is: the further into the mutation tree, the more complex a species."
+				"{ftbquests.chapter.complicated_bees.quest8715459927432773590.description1}"
 				""
-				"To help you complete the minigame, you can place extra &6bees&r of any type or royal jelly into the highlighted slots below the specimen. These items are then consumed when you click the arrow to provide hints towards the game - the more complex a specimen, the more bees it takes to get a hint."
+				"{ftbquests.chapter.complicated_bees.quest8715459927432773590.description2}"
 				""
-				"Once you complete the minigame, you'll research a random mutation involving the specimen's primary species. Researching a mutation grants apiaries placed by you a flat +20% chance for the mutation to occur within them."
+				"{ftbquests.chapter.complicated_bees.quest8715459927432773590.description3}"
 			]
 			id: "78F388A0A4C83FD6"
 			rewards: [{
@@ -804,23 +770,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Microscope"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8715459927432773590.subtitle}"
 			tasks: [{
 				id: "0D414E16B4FDB72D"
 				item: "complicated_bees:microscope"
 				type: "item"
 			}]
-			title: "Eureka!"
+			title: "{ftbquests.chapter.complicated_bees.quest8715459927432773590.title}"
 			x: 0.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1B3FFDBBBBDE0083"]
 			description: [
-				"The Apid Library allows you to examine &6bees&r in your possession and determine whether they can mutate into new species. Simply place a bee in the top right slot and select a mutation on the left (if any) to see more information about it."
+				"{ftbquests.chapter.complicated_bees.quest1868485055122443310.description1}"
 				""
-				"It'll only show the icon of &6bees&r you've already collected. It'll leave hints about unknown &6bees&r by hovering over the question mark symbol!"
-				"{image:modpack:textures/apid_library.png width:165 height:100 align:center}"
+				"{ftbquests.chapter.complicated_bees.quest1868485055122443310.description2}"
+				"{ftbquests.chapter.complicated_bees.quest1868485055122443310.image0}"
 			]
 			id: "19EE31420AB30C2E"
 			rewards: [
@@ -837,57 +803,40 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Apid Library"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest1868485055122443310.subtitle}"
 			tasks: [{
 				id: "712308458D337284"
 				item: "complicated_bees:apid_library"
 				type: "item"
 			}]
-			title: "Tell Me More"
+			title: "{ftbquests.chapter.complicated_bees.quest1868485055122443310.title}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["001C50A8982EB4EB"]
 			description: [
-				"&6The Bee Sorter&r is able to classify and sort &6bees&r that get piped into it. It can accept items from any side, taking them into its single-slot buffer, and will automatically output that item to any sides that have filters configured to match the item."
+				"{ftbquests.chapter.complicated_bees.quest3107484942451962876.description1}"
 				""
-				"Interact with the block to open the GUI. Each side of the block has a color on it, which correspond to rows in the GUI."
+				"{ftbquests.chapter.complicated_bees.quest3107484942451962876.description2}"
 				""
-				"{image:modpack:textures/bee_sorter.png width:135 height:100 align:center}"
+				"{ftbquests.chapter.complicated_bees.quest3107484942451962876.image0}"
 				""
-				"On the left, you have type filters - click these to swap between drone, princess, queen, &6any bee, non-bee&r, and no items allowed. The remaining six slots on each row are species filters, where 0 is the primary and 1 is the secondary. You can set these by left or right clicking on the slot with a &6bee&r or dragging one from a recipe browser."
+				"{ftbquests.chapter.complicated_bees.quest3107484942451962876.description3}"
 				""
-				"A side is selected based on how specific the filter is; for example, the bee sorter configured here will output any Forest-Plains drones to the white side, other drones with Forest as the primary species to the black side, and any other drones will be split randomly between the red and blue sides."
+				"{ftbquests.chapter.complicated_bees.quest3107484942451962876.description4}"
 				""
-				"By default, the sorter auto-exports - &4you can disable this with redstone&r."
+				"{ftbquests.chapter.complicated_bees.quest3107484942451962876.description5}"
 			]
 			id: "2B2001174BB973FC"
 			rewards: [{
@@ -897,23 +846,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Bee Sorter"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest3107484942451962876.subtitle}"
 			tasks: [{
 				id: "6B5C7BDBF5C6268A"
 				item: "complicated_bees:bee_sorter"
 				type: "item"
 			}]
-			title: "Time To Split Up"
+			title: "{ftbquests.chapter.complicated_bees.quest3107484942451962876.title}"
 			x: 1.5d
 			y: -3.5d
 		}
 		{
-			description: ["With enough bees producing combs, especially at an industrial scale, you'll want to start making your machines better. Ever-useful propolis and some other materials will make special modules that you can use to upgrade your machines! All machine upgrades stack multiplicatively, just like frames."]
+			description: ["{ftbquests.chapter.complicated_bees.quest908733384191997847.description1}"]
 			id: "0C9C7832C04D7797"
-			subtitle: "Upgrade Info"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest908733384191997847.subtitle}"
 			tasks: [{
 				id: "6926984E41441360"
-				title: "Upgrades"
+				title: "{ftbquests.chapter.complicated_bees.quest908733384191997847.task.7576910884967289696.title}"
 				type: "checkmark"
 			}]
 			x: 10.5d
@@ -929,7 +878,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Basic Upgrade"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest2627722172203778847.subtitle}"
 			tasks: [{
 				id: "45502F0F44B398BF"
 				item: "complicated_bees:basic_upgrade"
@@ -948,7 +897,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Waxed Upgrade"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest872580915001140016.subtitle}"
 			tasks: [{
 				id: "525556DF4164386F"
 				item: "complicated_bees:waxed_upgrade"
@@ -967,7 +916,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Honeyed Upgrade"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest7115357134265043989.subtitle}"
 			tasks: [{
 				id: "539BAF9BF638D516"
 				item: "complicated_bees:honeyed_upgrade"
@@ -986,7 +935,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Silky Upgrade"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest5720976698123406748.subtitle}"
 			tasks: [{
 				id: "75A94235FF70C562"
 				item: "complicated_bees:silky_upgrade"
@@ -1012,34 +961,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Royal Upgrade"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest2230708081973183152.subtitle}"
 			tasks: [{
 				id: "3AA7ED3C5E50CFA4"
 				item: "complicated_bees:royal_upgrade"
@@ -1065,34 +997,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Twisted Upgrade"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest6392859404767375348.subtitle}"
 			tasks: [{
 				id: "5124E34EFBA93B33"
 				item: "complicated_bees:twisted_upgrade"
@@ -1118,34 +1033,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Withered Upgrade"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest6940960116832821714.subtitle}"
 			tasks: [{
 				id: "4AB1892133817EA3"
 				item: "complicated_bees:withered_upgrade"
@@ -1171,34 +1069,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Endenic Upgrade"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8516333595478038483.subtitle}"
 			tasks: [{
 				id: "6036D09770D8C010"
 				item: "complicated_bees:endenic_upgrade"
@@ -1209,7 +1090,7 @@
 		}
 		{
 			dependencies: ["0C0C54BE7EDD5E8D"]
-			description: ["Frame Housings can hold frames based on their tier - the basic can hold one, the regular two, and the large three. &aThese frames will stack multiplicatively!&r"]
+			description: ["{ftbquests.chapter.complicated_bees.quest5242648417219383601.description1}"]
 			id: "48C1A0F56EA01131"
 			rewards: [{
 				amount: 50L
@@ -1218,19 +1099,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Mellarium Frame Housing"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest5242648417219383601.subtitle}"
 			tasks: [{
 				id: "00F8898FC4A4B77B"
 				item: "complicated_bees:mellarium_frame_housing_1"
 				type: "item"
 			}]
-			title: "Not Your Typical Frame"
+			title: "{ftbquests.chapter.complicated_bees.quest5242648417219383601.title}"
 			x: 4.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0C0C54BE7EDD5E8D"]
-			description: ["Every &6bee&r lifecycle tick, the Temperature Unit has a chance to consume specific items to increase or decrease the temperature of the Mellarium - check your JEI for possible fuels."]
+			description: ["{ftbquests.chapter.complicated_bees.quest4194719959101784005.description1}"]
 			id: "3A36A3940680BFC5"
 			rewards: [{
 				amount: 75L
@@ -1239,7 +1120,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Temperature Unit"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest4194719959101784005.subtitle}"
 			tasks: [{
 				id: "4E11F9BE4A432D95"
 				item: "complicated_bees:mellarium_temp_unit"
@@ -1250,7 +1131,7 @@
 		}
 		{
 			dependencies: ["0C0C54BE7EDD5E8D"]
-			description: ["Using the power of a &9heart of the sea&r, the Rain Shield protects &6bees&r from inclement weather!"]
+			description: ["{ftbquests.chapter.complicated_bees.quest501688752313350304.description1}"]
 			id: "06F65B431D7238A0"
 			rewards: [{
 				amount: 75L
@@ -1259,7 +1140,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Rain Shield"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest501688752313350304.subtitle}"
 			tasks: [{
 				id: "6E41350DBB691463"
 				item: "complicated_bees:mellarium_rain_shield"
@@ -1270,7 +1151,7 @@
 		}
 		{
 			dependencies: ["0C0C54BE7EDD5E8D"]
-			description: ["The &2Mutator&r consumes one catalyst every time a queen dies to increase the chance of it producing &2mutated offspring&r - check JEI for possible catalysts."]
+			description: ["{ftbquests.chapter.complicated_bees.quest4640926189828239647.description1}"]
 			id: "4067E1C7ED84F11F"
 			rewards: [
 				{
@@ -1286,34 +1167,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Mutator"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest4640926189828239647.subtitle}"
 			tasks: [{
 				id: "37B3259EC7C6F08F"
 				item: "complicated_bees:mellarium_mutator"
@@ -1324,7 +1188,7 @@
 		}
 		{
 			dependencies: ["0C0C54BE7EDD5E8D"]
-			description: ["Every &6bee&r lifecycle tick, the Hydroregulator has a chance to consume specific items to increase or decrease the humidity of the Mellarium, with a chance of producing a leftover - Check your JEI for said info."]
+			description: ["{ftbquests.chapter.complicated_bees.quest6895130282223886081.description1}"]
 			id: "5FB06C75AFFE5F01"
 			rewards: [{
 				amount: 75L
@@ -1333,7 +1197,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Hydroregulator"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest6895130282223886081.subtitle}"
 			tasks: [{
 				id: "124DD5DAAE60C7F2"
 				item: "complicated_bees:mellarium_hydroregulator"
@@ -1345,9 +1209,9 @@
 		{
 			dependencies: ["001C50A8982EB4EB"]
 			description: [
-				"Working as a &6beekeeper&r sure gets you hungry!"
+				"{ftbquests.chapter.complicated_bees.quest2438209267628033345.description1}"
 				""
-				"&dAmbrosia&r is a very useful food as it gives you multiple buffs keeping you fresh and healthy! Upon eating &dAmbrosia&r you gain Regenation 2, Jump Boost 3 and Absorption 2!"
+				"{ftbquests.chapter.complicated_bees.quest2438209267628033345.description2}"
 			]
 			id: "21D642692508C541"
 			rewards: [
@@ -1364,34 +1228,17 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft The Complicated Bees Food"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest2438209267628033345.subtitle}"
 			tasks: [
 				{
 					id: "096AA132E0240E65"
@@ -1414,18 +1261,18 @@
 					type: "item"
 				}
 			]
-			title: "Beelicious"
+			title: "{ftbquests.chapter.complicated_bees.quest2438209267628033345.title}"
 			x: 0.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3C52612D83B05832"]
 			description: [
-				"Some species of &6bee&r, when bred with others, will result in a brand-new species of &6bee&r! Generally these &6bees&r show as hybrids with one of the parent species, but occasionally you might get lucky and find a purebred mutation."
+				"{ftbquests.chapter.complicated_bees.quest1300132670476981857.description1}"
 				""
-				"When an offspring &amutates&r, one whole chromosome (half of a &6bees&r genetic structure) is completely replaced with the result species' 'pure' chromosome. This means you might get some spontaneous generation of new traits - new &6bee&r effects, temperature tolerances, work speeds, and more."
+				"{ftbquests.chapter.complicated_bees.quest1300132670476981857.description2}"
 				""
-				"Carefully breed these &amutated&r &6bees&r with your current genetic stock to get more! Keep in mind that some species are recessive, and will take more effort to breed true."
+				"{ftbquests.chapter.complicated_bees.quest1300132670476981857.description3}"
 			]
 			icon: {
 				Count: 1
@@ -1560,37 +1407,20 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Mutations"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest1300132670476981857.subtitle}"
 			tasks: [{
 				id: "66BD3B11624E1B21"
-				title: "Teenage Mutant Bees?"
+				title: "{ftbquests.chapter.complicated_bees.quest1300132670476981857.task.7403138308316732193.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -1599,20 +1429,20 @@
 		{
 			dependencies: ["1B3FFDBBBBDE0083"]
 			description: [
-				"All values of a gene (called &b'alleles'&r) are either dominant or recessive, shown in the analyzer as red or blue. When two different alleles are present within a &6bees&r genotype, a dominant &ballele&r will be active over a recessive allele."
+				"{ftbquests.chapter.complicated_bees.quest8872460792775299350.description1}"
 				""
-				"This means to have a recessive &ballele&r be active in a &6bee&r, you have to breed in such a way that produces two recessive alleles within a &6bee&r. When there are two alleles that are both dominant or both recessive, the active &ballele&r is randomly chosen."
+				"{ftbquests.chapter.complicated_bees.quest8872460792775299350.description2}"
 			]
 			id: "7B2150152CF3D116"
-			subtitle: "Dominant And Recessive Values"
+			subtitle: "{ftbquests.chapter.complicated_bees.quest8872460792775299350.subtitle}"
 			tasks: [{
 				id: "059A3235490DC86C"
-				title: "Alleles Values"
+				title: "{ftbquests.chapter.complicated_bees.quest8872460792775299350.task.403690321043376236.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
 			y: 2.0d
 		}
 	]
-	title: "&2Complicated Bees"
+	title: "{ftbquests.chapter.complicated_bees.title}"
 }

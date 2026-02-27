@@ -1,0 +1,22 @@
+{
+    "item.majruszsdifficulty.enderium_shard": "Crystallized Ender Shard",
+    "item.majruszsdifficulty.enderium_ingot": "Crystallized Ender Ingot",
+    "item.majruszsdifficulty.enderium_sword": "Crystallized Ender Sword",
+    "item.majruszsdifficulty.enderium_shovel": "Crystallized Ender Shovel",
+    "item.majruszsdifficulty.enderium_pickaxe": "Crystallized Ender Pickaxe",
+    "item.majruszsdifficulty.enderium_axe": "Crystallized Ender Axe",
+    "item.majruszsdifficulty.enderium_hoe": "Crystallized Ender Hoe",
+    "item.majruszsdifficulty.enderium_hoe.effect": " Increases Tilling Area",
+    "item.majruszsdifficulty.enderium_helmet": "Crystallized Ender Helmet",
+    "item.majruszsdifficulty.enderium_chestplate": "Crystallized Ender Chestplate",
+    "item.majruszsdifficulty.enderium_leggings": "Crystallized Ender Leggings",
+    "item.majruszsdifficulty.enderium_boots": "Crystallized Ender Boots",
+    "item.majruszsdifficulty.enderium_shard_locator": "Crystallized Ender Shard Locator",
+    "block.majruszsdifficulty.enderium_block": "Block of Crystallized Ender",
+    "block.majruszsdifficulty.enderium_shard_ore": "Crystallized Ender Shard Ore",
+    "majruszsdifficulty.smithing.enderium.upgrade": "Crystallized Ender Upgrade",
+    "majruszsdifficulty.smithing.enderium.ingredients": "Crystallized Ender Ingot",
+    "majruszsdifficulty.smithing.enderium.additions_slot": "Add Crystallized Ender Ingot",
+    "advancements.progressive_difficulty.enderium_shard.description": "Acquire Crystallized Ender Shard",
+    "advancements.progressive_difficulty.enderium_ingot.description": "Acquire Crystallized Ender Ingot"
+}

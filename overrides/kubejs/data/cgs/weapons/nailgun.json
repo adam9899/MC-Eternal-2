@@ -1,0 +1,110 @@
+{
+  "general": {
+    "action": "ntgl:gun",
+    "rate": 2,
+    "fireMode": ["ntgl:auto", "ntgl:semi"],
+    "gripType": "ntgl:two_handed",
+    "loadingType": "ntgl:per_cartridge",
+    "maxAmmo": 40,
+    "equipTime": 0,
+    "reloadStart": 15,
+    "reloadTime": 20,
+    "reloadEnd": 20,
+    "recoilAngle": -2.0,
+    "reloadAmount": 5,
+    "recoilAdsReduction": 0.20,
+    "alwaysSpread": true,
+    "enchantable": false,
+    "silenced": true,
+    "spread": 1.0,
+    "ammo": [
+      "cgs:nail"
+    ],
+    "fuel": [
+      "cgs:air"
+    ]
+  },
+  "modes": {
+    "ntgl:secondary": {
+      "general": {
+        "action": "ntgl:scope"
+      },
+      "zoom": {
+        "offset": [ -6.5, 6.0, 1.5],
+        "fovModifier": 0.7
+      }
+    }
+  },
+  "ammoData": {
+    "cgs:nail": {
+      "ammo": {
+        "type": "cgs:nail"
+      },
+      "projectile": {
+        "projectile": "cgs:nail",
+        "visible": true,
+        "damage": 5.0,
+        "size": 0.2,
+        "speed": 4.0,
+        "life": 1200
+      }
+    }
+  },
+  "fuel": {
+    "cgs:air":{
+      "max": 900,
+      "amountPerUse": 5,
+      "mandatory": false,
+      "ammo": {
+        "type": "cgs:air"
+      }
+    },
+    "ntgl:burnable":{
+      "max": 20000,
+      "mandatory": true,
+      "amountPerUse": 1,
+      "ammo": {
+        "type": "ntgl:burnable"
+      }
+    },
+    "ntgl:water":{
+      "max": 2000,
+      "mandatory": true,
+      "amountPerUse": 5,
+      "ammo": {
+        "type": "ntgl:water"
+      }
+    }
+  },
+  "sounds": {
+    "fire"       : "cgs:gun.nailgun.fire",
+    "fire_steam" : "cgs:gun.nailgun.fire",
+    "magin"      : "cgs:gun.nailgun.mag_in",
+    "magout"     : "cgs:gun.nailgun.mag_out"
+  },
+  "modules": {
+    "attachmentScreen": true,
+
+    "attachments": {
+      "ntgl:stock": [
+        {
+          "name": "stock",
+          "item": "cgs:stock"
+        }
+      ],
+      "ntgl:barrel": [
+        {
+          "name": "split_barrel",
+          "item": "cgs:nailgun_splitter"
+        }
+      ],
+      "cgs:engine": [
+        {
+          "name": "steam_engine",
+          "item": "cgs:steam_engine",
+          "hide": ["air_tank_holder"]
+        }
+      ]
+    }
+  }
+}

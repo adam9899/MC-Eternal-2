@@ -25,7 +25,7 @@
 		]
 	},
 	"root_resistance+1%": {
-		"title": "Tank: +10% Resistance",
+		"title": "Tank: +25% Resistance",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -43,7 +43,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:player.resistance",
-					"value": 0.10,
+					"value": 0.25,
 					"operation": "addition"
 				}
 			}
@@ -69,7 +69,7 @@
 				"data": {
 					"attribute": "puffish_attributes:player.melee_damage",
 					"value": 0.12,
-					"operation": "addition"
+					"operation": "multiply_total"
 				}
 			}
 		]
@@ -94,7 +94,7 @@
 				"data": {
 					"attribute": "puffish_attributes:player.ranged_damage",
 					"value": 0.07,
-					"operation": "addition"
+					"operation": "multiply_total"
 				}
 			}
 		]
@@ -151,7 +151,7 @@
 				"data": {
 					"attribute": "puffish_attributes:player.melee_damage",
 					"value": 0.03,
-					"operation": "addition"
+					"operation": "multiply_total"
 				}
 			}
 		]
@@ -170,7 +170,7 @@
 				"data": {
 					"attribute": "puffish_attributes:player.ranged_damage",
 					"value": 0.03,
-					"operation": "addition"
+					"operation": "multiply_total"
 				}
 			}
 		]

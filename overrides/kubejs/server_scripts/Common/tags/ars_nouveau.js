@@ -12,6 +12,18 @@ ServerEvents.tags("item", event => {
     //tagging because Scrying rituals *ONLY* accept Tags. why.
     constructSlimeTypes.forEach(type =>
         event.add(`mce2:scrying_ingredients/tconstruct_${type}_slime`, `tconstruct:${type}_slime_crystal`))
+
+    
+    //Whirlispring Blacklist
+    event.add("ars_nouveau:whirlisprig/denied_drop", [
+        "#botania:special_flowers"
+    ])
+
+
+    event.add("ars_nouveau:interact_jar_blacklist", [
+        "enderio:empty_soul_vial",
+        "occultism:soul_gem"
+    ])
 })
 
 ServerEvents.tags("block", event => {

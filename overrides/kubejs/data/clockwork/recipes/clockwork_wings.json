@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "IEI",
+    "L L"
+  ],
+  "key": {
+    "I": {
+      "item": "create:blaze_burner"
+    },
+    "L": {
+      "item": "create:brass_sheet"
+    },
+    "E": {
+      "item": "create:precision_mechanism"
+    },
+    "G": {
+      "item": "clockwork:clockwork_gear"
+    }
+  },
+  "result": {
+    "item": "clockwork:clockwork_wings",
+    "count": 1
+  }
+}

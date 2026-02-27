@@ -102,6 +102,19 @@
 							}
 						]
 					},
+					"nether_gold_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "nether_gold_ore"
+								}
+							}
+						]
+					},
 					"redstone_ore": {
 						"operations": [
 							{
@@ -154,7 +167,7 @@
 							}
 						]
 					},
-					"cinnabar_ore": {
+					"nether_quartz_ore": {
 						"operations": [
 							{
 								"type": "get_mined_block_state"
@@ -162,7 +175,7 @@
 							{
 								"type": "puffish_skills:test",
 								"data": {
-									"block": "thermal:cinnabar_ore"
+									"block": "nether_quartz_ore"
 								}
 							}
 						]
@@ -176,6 +189,19 @@
 								"type": "puffish_skills:test",
 								"data": {
 									"block": "thermal:lead_ore"
+								}
+							}
+						]
+					},
+					"lead_ore_mek": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "mekanism:lead_ore"
 								}
 							}
 						]
@@ -219,19 +245,6 @@
 							}
 						]
 					},
-					"sulfur_ore": {
-						"operations": [
-							{
-								"type": "get_mined_block_state"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"block": "thermal:sulfur_ore"
-								}
-							}
-						]
-					},
 					"tin_ore": {
 						"operations": [
 							{
@@ -241,6 +254,19 @@
 								"type": "puffish_skills:test",
 								"data": {
 									"block": "thermal:tin_ore"
+								}
+							}
+						]
+					},
+					"tin_ore_mek": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "mekanism:tin_ore"
 								}
 							}
 						]
@@ -306,6 +332,97 @@
 								"type": "puffish_skills:test",
 								"data": {
 									"block": "tconstruct:cobalt_ore"
+								}
+							}
+						]
+					},
+					"jade_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "goety:jade_ore"
+								}
+							}
+						]
+					},
+					"iesnium_ore_natural": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "occultism:iesnium_ore_natural"
+								}
+							}
+						]
+					},
+					"silver_ore_occultism": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "occultism:silver_ore"
+								}
+							}
+						]
+					},
+					"sapphire_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "iceandfire:sapphire_ore"
+								}
+							}
+						]
+					},
+					"ruby_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:ruby_ore"
+								}
+							}
+						]
+					},
+					"fossil_fuel_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "netherexp:fossil_fuel_ore"
+								}
+							}
+						]
+					},
+					"fossil_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "netherexp:fossil_ore"
 								}
 							}
 						]
@@ -414,19 +531,7 @@
 							}
 						]
 					},
-					"deepslate_cinnabar_ore": {
-						"operations": [
-							{
-								"type": "get_mined_block_state"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"block": "thermal:deepslate_cinnabar_ore"
-								}
-							}
-						]
-					},"deepslate_lead_ore": {
+					"deepslate_lead_ore": {
 						"operations": [
 							{
 								"type": "get_mined_block_state"
@@ -438,7 +543,8 @@
 								}
 							}
 						]
-					},"deepslate_nickel_ore": {
+					},
+					"deepslate_nickel_ore": {
 						"operations": [
 							{
 								"type": "get_mined_block_state"
@@ -477,19 +583,6 @@
 							}
 						]
 					},
-					"deepslate_sulfur_ore": {
-						"operations": [
-							{
-								"type": "get_mined_block_state"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"block": "thermal:deepslate_sulfur_ore"
-								}
-							}
-						]
-					},
 					"deepslate_tin_ore": {
 						"operations": [
 							{
@@ -516,7 +609,6 @@
 							}
 						]
 					},
-				
 					"deepslate_fluorite_ore": {
 						"operations": [
 							{
@@ -555,16 +647,42 @@
 								}
 							}
 						]
+					},
+					"silver_ore_deepslate_occultism": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "occultism:silver_ore_deepslate"
+								}
+							}
+						]
+					},
+					"enderium_shard_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "majruszsdifficulty:enderium_shard_ore"
+								}
+							}
+						]
 					}
 				},
 				"experience": [
 			
 					{
-						"condition": "!silk_touch & (coal_ore | copper_ore | iron_ore | gold_ore | redstone_ore | lapis_ore | diamond_ore | emerald_ore | cinnabar_ore | lead_ore | nickel_ore | niter_ore | silver_ore | sulfur_ore | tin_ore | zinc_ore | fluorite_ore | osmium_ore | uranium_ore | cobalt_ore)",
+						"condition": "!silk_touch & (coal_ore | copper_ore | iron_ore | gold_ore | nether_gold_ore | redstone_ore | lapis_ore | diamond_ore | emerald_ore | nether_quartz_ore | lead_ore | lead_ore_mek | nickel_ore | niter_ore | silver_ore | tin_ore | tin_ore_mek | zinc_ore | fluorite_ore | osmium_ore | uranium_ore | cobalt_ore | jade_ore | iesnium_ore_natural | silver_ore_occultism | sapphire_ore | ruby_ore | fossil_fuel_ore | fossil_ore)",
 						"expression": "1"
 					},
 					{
-						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore | deepslate_cinnabar_ore | deepslate_lead_ore | deepslate_nickel_ore | deepslate_niter_ore | deepslate_silver_ore | deepslate_sulfur_ore | deepslate_tin_ore | deepslate_zinc_ore | deepslate_fluorite_ore | deepslate_osmium_ore | deepslate_uranium_ore)",
+						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore | deepslate_lead_ore | deepslate_nickel_ore | deepslate_niter_ore | deepslate_silver_ore | deepslate_tin_ore | deepslate_zinc_ore | deepslate_fluorite_ore | deepslate_osmium_ore | deepslate_uranium_ore | silver_ore_deepslate_occultism | enderium_shard_ore)",
 						"expression": "5"
 					}
 				]

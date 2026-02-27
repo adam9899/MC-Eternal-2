@@ -1,0 +1,9 @@
+{
+  "type": "ars_nouveau:wilden_hunter",
+  "item": {
+    "id": "ars_nouveau:wilden_horn",
+    "Count": 1
+  },
+  "minTries": 3,
+  "maxTries": 8
+}

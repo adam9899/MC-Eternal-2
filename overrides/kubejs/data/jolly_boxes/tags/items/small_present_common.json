@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "rats:santa_hat",
+    "fairylights:garland",
+    "minecraft:gold_nugget",
+    "supplementaries:confetti_popper",
+    "supplementaries:confetti_popper",
+
+    {
+      "id": "rats:rat_upgrade_christmas",
+      "required": false
+    },
+
+    {
+      "id": "rats:santa_hat",
+      "required": false
+    },
+
+    {
+      "id": "supplementaries:confetti_popper",
+      "required": false
+    },
+
+    {
+      "id": "festive_creepers:firework_powder",
+      "required": false
+    }
+  ]
+}

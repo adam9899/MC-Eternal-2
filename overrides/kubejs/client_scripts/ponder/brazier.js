@@ -1,3 +1,5 @@
+//const $Minecraft = Java.loadClass("net.minecraft.client.Minecraft")
+
 Ponder.registry(event => {
 
     event.create("brazier:brazier")
@@ -15,8 +17,13 @@ Ponder.registry(event => {
                 scene.text(70, "Let's start by going over how to build its structure.")
                 scene.idle(90)
                 scene.world.showSection([1, 1, 1, 5, 1, 5], Facing.DOWN)
+                scene.idle(20)
+                scene.text(90, "The Brazier's base can be made out of any combination of Gilded Blackstone, Crying Obsidian, Ancient Debris, or Netherite Blocks", [2.5, 1.5, 1.5]).attachKeyFrame()
+                scene.idle(70)
 
                 //Base and Stripe
+                // commented out because this is just false apparently, it supports this in the code but it doesn't use it, because one of the tags inherits from the other and has all the definitions
+                /*
                 scene.text(50, "The Brazier has two categories of Blocks that are used for its structure.").attachKeyFrame()
                 scene.idle(60)
                 scene.text(70, "The \"Stripe\" Blocks, which can be Ancient Debris or Netherite Blocks...", [4.5, 1, 4.5])
@@ -27,8 +34,11 @@ Ponder.registry(event => {
                 scene.idle(60)
                 scene.text(50, "While the Bases cover everything else, except the corners, those are ignored.")
                 scene.idle(70)
+                */
 
-                scene.rotateCameraY(-90)
+                //let cameraRot = $Minecraft.getInstance().getCameraEntity().yaw;
+                //console.log(cameraRot)
+                //scene.rotateCameraY(cameraRot)
                 scene.idle(20)
                 scene.world.setBlock([3, 2, 3], "brazier:brazier", false)
                 scene.world.destroyBlock([3, 3, 3])
@@ -37,7 +47,7 @@ Ponder.registry(event => {
                 scene.idle(40)
                 scene.text(60, "Once the Brazier lights, that means it's active!")
                 scene.idle(80)
-                scene.text(40, "... But it'll have a pretty limited range like this...").attachKeyFrame()
+                scene.text(40, "... But it'll have a pretty limited range at this size...").attachKeyFrame()
                 scene.idle(60)
                 scene.text(60, "So let's make it taller to increase that!")
                 scene.idle(80)

@@ -14,6 +14,16 @@
       "b": 170
     },
     {
+      "isFlat": false,
+      "frameBlock": "supplementaries:clock_block",
+      "isFluidIgniter": false,
+      "itemIgniter": "kubejs:portable_wormhole_generator",
+      "dimension": "mce:ancient_overworld",
+      "r": 255,
+      "g": 215,
+      "b": 0
+    },
+    {
       "isFlat": true,
       "frameBlock": "minecraft:prismarine",
       "isFluidIgniter": false,

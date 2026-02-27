@@ -1,0 +1,30 @@
+{
+  "properties": {
+    "durability": 4,
+    "drillingSpeed": 20,
+    "fuel": 3.0,
+    "yawSpeed": 7.0,
+    "engineSpeed": 0.2,
+    "verticalSpeed": 0.025,
+    "rollFactor": 5.0,
+    "mass": 5.0,
+    "groundFriction": 0.8
+  },
+  "inventorySlots": [
+    {"type": "upgrade", "x": 48, "y": 25},
+    {"type": "im_shards", "x": 48, "y": 50},
+    {"type": "boiler", "x": 17, "y": 44},
+    {"type": "inventory", "x": 80, "y": 20, "cols": 5, "rows": 3},
+    {"type": "inventory", "x": -80, "y": 8, "cols": 4, "rows": 9, "boxed": true},
+    {"type": "inventory", "x": 186, "y": 8, "cols": 4, "rows": 9, "boxed": true}
+  ],
+  "weaponMounts": [
+  ],
+  "passengerPositions": [
+    [
+      {"x": 0.0, "y": 1.375, "z": -1.125}
+    ]
+  ],
+  "boundingBoxes": [
+  ]
+}

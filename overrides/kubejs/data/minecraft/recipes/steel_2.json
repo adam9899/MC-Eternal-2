@@ -1,0 +1,11 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    { "item": "create:crushed_raw_iron" },
+    { "item": "minecraft:coal", "count": 3 }
+  ],
+  "results": [
+    { "item": "thermal:steel_dust", "count": 1 }
+  ]
+}

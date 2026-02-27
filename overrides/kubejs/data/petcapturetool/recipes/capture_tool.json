@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DSD",
+    "IEI",
+    "DSD"
+  ],
+  "key": {
+    "I": { "tag": "forge:gems/diamond" },
+    "E": { "item": "minecraft:ender_pearl" },
+    "D": { "item": "thermal:silver_ingot" },
+    "S": { "item": "minecraft:iron_block" }
+  },
+  "result": {
+    "item": "petcapturetool:capture_tool"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "mekanism:crystal_osmium"
+    },
+    "B": {
+      "item": "tconstruct:slimesteel_ingot"
+    },
+    "C": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "item": "tinkers_advanced:resonance_crystal",
+    "count": 1
+  }
+}

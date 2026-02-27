@@ -5,7 +5,7 @@
 	enabled = true
 	#Cost
 	#Range: > -2147483648
-	cost = 50
+	cost = 150
 	#Is Starter Glyph?
 	starter = false
 	#The maximum number of times this glyph may appear in a single spell
@@ -25,7 +25,7 @@
 	invalid_combos = []
 	#Base heal amount
 	#Range: 0.0 ~ 1.7976931348623157E308
-	base_heal = 3.0
+	base_heal = 2.0
 	#Range: 0.0 ~ 2.147483647E9
-	amplify = 3.0
+	amplify = 2.0
 

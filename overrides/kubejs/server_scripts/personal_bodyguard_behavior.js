@@ -1,32 +1,42 @@
+
+const bodyGuardItemMap = {
+    'kubejs:scorched_letter': [{ id: 'goety_spillage:zombie_absorber', weight: 1 }],
+    "kubejs:mossy_letter": [{ id: 'goety_cataclysm:coralssus', weight: 1 }],
+    "kubejs:elegant_letter": [{ id: 'goety_cataclysm:kobolediator', weight: 1 }],
+    "kubejs:scorched_letter1": [
+        { id: 'goety_cataclysm:the_prowler', weight: 20 },
+        { id: 'goety_cataclysm:watcher_servant', weight: 80 }
+    ],
+    "kubejs:mossy_letter1": [{ id: 'goety:bear_servant', weight: 1 }]
+}
+
+
 ItemEvents.rightClicked(event => {
     const { item, player, server } = event;
-    if (!server || item.id !== 'kubejs:scorched_letter') return;
+    if (!server || !bodyGuardItemMap[item.id]) return;
 
-    const name = player.username;
+    const {username, potionEffects} = player;
 
     
-    player.getCooldowns().addCooldown('kubejs:scorched_letter', 9500);
+    player.getCooldowns().addCooldown(item, 500); //9500
 
 
-    server.runCommand(`tellraw ${name} {"text":"Your personal bodyguard has arrived! ","italic":true,"color":"dark_green"}`);
-    server.runCommand(`execute at ${name} run playsound minecraft:entity.wither.spawn ambient ${name}`);
-    server.runCommand(`execute at ${name} run particle create:soul ~ ~ ~`);
+    player.tell(Text.translate("message.mce2.bodyguard_arrived").italic().color("dark_green"));
+    global.playSoundNear(player, null, "minecraft:entity.wither.spawn", "players", 1.0, 0.5);
+    server.runCommandSilent(`execute at ${username} run particle create:soul ~ ~ ~`);
 
 
-    player.potionEffects.add('minecraft:glowing', 2000, 0);
+    potionEffects.add('minecraft:glowing', 1200, 0);
 
 
-    const weightedEntitiess = [
-        { id: 'goety_spillage:zombie_absorber', weight: 1 },
-
-    ];
+    const weightedEntities = bodyGuardItemMap[item.id];
 
 
-    const totalWeight = weightedEntitiess.reduce((sum, entity) => sum + entity.weight, 0);
+    const totalWeight = weightedEntities.reduce((sum, entity) => sum + entity.weight, 0);
     let rand = Math.random() * totalWeight;
     let selectedEntity = null;
 
-    for (const entity of weightedEntitiess) {
+    for (const entity of weightedEntities) {
         rand -= entity.weight;
         if (rand <= 0) {
             selectedEntity = entity.id;
@@ -35,18 +45,18 @@ ItemEvents.rightClicked(event => {
     }
 
     if (selectedEntity) {
-        let entityTag = `temp_${Date.now()}`;
+        let entityTag = `temp_${username}_${Date.now()}`;
 
        
-        server.runCommand(`execute at ${name} run summon ${selectedEntity} ~ ~5 ~5 {DeathLootTable:"minecraft:empty"}`);
+        server.runCommandSilent(`execute at ${username} run summon ${selectedEntity} ~ ~5 ~5 {DeathLootTable:"minecraft:empty"}`);
 
-        
-        server.runCommand(`execute at ${name} run tag @e[type=${selectedEntity},distance=..50,limit=1,sort=nearest] add ${entityTag}`);
-
+        server.scheduleInTicks(1, () => {
+        server.runCommandSilent(`execute at ${username} run tag @e[type=${selectedEntity},distance=..50,limit=1,sort=nearest] add ${entityTag}`);
+        });
 
         server.scheduleInTicks(2000, () => {
-            server.runCommand(`execute as @e[tag=${entityTag}] at @s run particle minecraft:squid_ink ~ ~1 ~ 0.5 1 0.5 0.01 100 force`);
-            server.runCommand(`kill @e[tag=${entityTag}]`);
+            server.runCommandSilent(`execute as @e[tag=${entityTag}] at @s run particle minecraft:squid_ink ~ ~1 ~ 0.5 1 0.5 0.01 100 force`);
+            server.runCommandSilent(`kill @e[tag=${entityTag}]`);
         });
     }
     

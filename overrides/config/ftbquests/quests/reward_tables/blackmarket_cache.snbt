@@ -541,10 +541,10 @@
 					}]
 					display: {
 						Lore: [
-							"{\"text\":\"§oWith great power comes a terrible hangover\"}"
-							"{\"text\":\"§6Become invulnerable for a limited time \"}"
+							"{\"translate\":\"lore.mce2.blackmarket_cache.1\"}"
+							"{\"translate\":\"lore.mce2.blackmarket_cache.2\"}"
 						]
-						Name: "{\"text\":\"§9§6§5§4§3§2§1§0§r§a§b§c§d§e§f§k§l§m§m§l§k§f§m§m§m§m§n§n§n§n§o§r§r§o§o§r§r§r§r§9§7§6§5Insaneo Style\"}"
+						Name: "{\"translate\":\"name.mce2.blackmarket_cache.1\"}"
 					}
 				}
 			}
@@ -627,7 +627,7 @@
 								]
 								Unbreakable: 1b
 								display: {
-									Name: "{\"text\":\"§6Jeweled Fishing Pole\"}"
+									Name: "{\"translate\":\"name.mce2.blackmarket_cache.2\"}"
 								}
 							}
 						}]
@@ -735,8 +735,8 @@
 									]
 									Damage: 0
 									display: {
-										Lore: ["{\"text\":\"§o§7Oh so special!\"}"]
-										Name: "{\"text\":\"§6Special Flute\"}"
+										Lore: ["{\"translate\":\"lore.mce2.blackmarket_cache.3\"}"]
+										Name: "{\"translate\":\"lore.mce2.blackmarket_cache.4\"}"
 									}
 								}
 							}
@@ -860,8 +860,8 @@
 						}
 					]
 					display: {
-						Lore: ["{\"text\":\"§3§3Feels slightly magical, has a taste for Experience\"}"]
-						Name: "{\"text\":\"§bRusty Knight Helmet\"}"
+						Lore: ["{\"translate\":\"lore.mce2.blackmarket_cache.5\"}"]
+						Name: "{\"translate\":\"lore.mce2.blackmarket_cache.6\"}"
 					}
 				}
 			}
@@ -962,8 +962,8 @@
 					}]
 					HideFlags: 1
 					display: {
-						Lore: ["{\"text\":\"§7\\\"Tastes like cheese?\\\"\"}"]
-						Name: "{\"text\":\"§6Legendary Ratlantean Flute\"}"
+						Lore: ["{\"translate\":\"lore.mce2.blackmarket_cache.7\"}"]
+						Name: "{\"translate\":\"lore.mce2.blackmarket_cache.8\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -1661,8 +1661,8 @@
 						lvl: 11
 					}]
 					display: {
-						Lore: ["{\"text\":\"§o§oPreviously owned by goat3045\"}"]
-						Name: "{\"text\":\"§0§lBOW OF YEETING\"}"
+						Lore: ["{\"translate\":\"lore.mce2.llegendary_artifacts.1\"}"]
+						Name: "{\"translate\":\"lore.mce2.blackmarket_cache.9\"}"
 					}
 				}
 			}
@@ -1680,23 +1680,23 @@
 					HideFlags: 1
 					author: "The Grand Nagus"
 					display: {
-						Lore: ["{\"text\":\"§e§oThe 245th Edition\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.challenges.7\"}"]
 					}
 					pages: [
-						"{\"text\":\"What the Nagus wants, we acquire.\\n\\nOnce you have their money... you never give it back.\\n\\nMoney is §leverything\\n\\n§8§oThis page is damaged\\n-----------------\"}"
-						"{\"text\":\"Never spend more for an acquisition than you have to.\\n\\nSedition and treason are always profitable\\n\\nAlways exaggerate your estimates.\\n\\nNever allow family law stand in the way of opportunity.\"}"
-						"{\"text\":\"Keep your ears open.\\n\\nSmall print leads to large risk\\n\\nOpportunity plus instinct equals profit\\n\\nGreed is eternal\\n\\nAnything worth doing is worth doing for money.\"}"
-						"{\"text\":\"Sometimes the quickest way to find profits is to let them find you.\\n\\nDead men close no deals.\\n\\nA deal is a deal... until a better one comes along.\\n\\n\"}"
-						"{\"text\":\"A contract is a contract is a contract... but only between Ferengi\\n\\nA Ferengi without profit is no Ferengi at all\\n\\nSatisfaction is not guaranteed.\\n\\n\"}"
-						"{\"text\":\"He who dives under the table today lives to profit tomorrow.\\n\\nNever place friendship above profit.\\n\\nA wise man can hear profit in the wind.\\n\\n\"}"
-						"{\"text\":\"Nothing is more important than your health... except for your money.\\n\\nThere's nothing more dangerous than an honest businessman.\\n\\nWhat's in it for me?\\n\\n\\\"Confidentiality equals profit.\\\"\"}"
-						"{\"text\":\"Never make fun of a Ferengi's mother. Insult something he cares about instead.\\n\\nIt never hurts to suck up to the boss\\n\\nWar is good for business.\\n\\nPeace is good for business.\"}"
-						"{\"text\":\"The early investor reaps the most interest.\\n\\nDon't tell customers more than they need to know.\\n\\nShe can touch your lobes but never your latinum.\"}"
-						"{\"text\":\"Profit is its own reward.\\n\\nFeed your greed, but not enough to choke it.\\n\\nNever confuse wisdom with luck.\\n\\nExpand or die.\"}"
-						"{\"text\":\"Don't trust a man wearing a better suit than your own.\\n\\nThe bigger the smile, the sharper the knife.\\n\\nNever ask when you can take.\\n\\nNever trust anybody taller than you.\"}"
-						"{\"text\":\"Rate divided by time equals profit. (Also known as \\\"The Velocity of Wealth.\\\")\\n\\nTake joy from profit, and profit from joy.\\n\\nGood customers are as rare as latinum—treasure them.\"}"
-						"{\"text\":\"There is no substitute for success.\\n\\nFree advice is seldom cheap.\\n\\nKeep your lies consistent.\\n\\nThe riskier the road, the greater the profit.\\n\"}"
-						"{\"text\":\"§8§oThe rest of the book is damaged... The pages seem to have been forcefully removed\\n\\n\"}"
+						"{\"translate\":\"page.mce2.challenges.1\"}"
+						"{\"translate\":\"page.mce2.challenges.2\"}"
+						"{\"translate\":\"page.mce2.challenges.3\"}"
+						"{\"translate\":\"page.mce2.challenges.4\"}"
+						"{\"translate\":\"page.mce2.challenges.5\"}"
+						"{\"translate\":\"page.mce2.challenges.6\"}"
+						"{\"translate\":\"page.mce2.challenges.7\"}"
+						"{\"translate\":\"page.mce2.challenges.8\"}"
+						"{\"translate\":\"page.mce2.challenges.9\"}"
+						"{\"translate\":\"page.mce2.challenges.10\"}"
+						"{\"translate\":\"page.mce2.challenges.11\"}"
+						"{\"translate\":\"page.mce2.challenges.12\"}"
+						"{\"translate\":\"page.mce2.challenges.13\"}"
+						"{\"translate\":\"page.mce2.challenges.14\"}"
 					]
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -1726,8 +1726,8 @@
 						}
 					]
 					display: {
-						Lore: ["{\"text\":\"§e§oSteak procured from the legendary \\\"Ghow\\\"\"}"]
-						Name: "{\"text\":\"§dGhow Steak\"}"
+						Lore: ["{\"translate\":\"lore.mce2.challenges.9\"}"]
+						Name: "{\"translate\":\"lore.mce2.challenges.10\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -1749,7 +1749,7 @@
 					}]
 					HideFlags: 1
 					display: {
-						Lore: ["{\"text\":\"§bUnlocks the power of §lThe Sculptor! §r§b§o(briefly)\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.blackmarket_cache.10\"}"]
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -1766,7 +1766,7 @@
 				id: "botania:tiny_potato"
 				tag: {
 					display: {
-						Name: "{\"text\":\"pahimar\"}"
+						Name: "{\"translate\":\"name.mce2.blackmarket_cache.3\"}"
 					}
 				}
 			}
@@ -1778,7 +1778,7 @@
 				id: "botania:tiny_potato"
 				tag: {
 					display: {
-						Name: "{\"text\":\"gold\"}"
+						Name: "{\"translate\":\"name.mce2.blackmarket_cache.4\"}"
 					}
 				}
 			}
@@ -1791,7 +1791,7 @@
 				id: "bosses_of_mass_destruction:gauntlet_blackstone"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§4§oBreak at your own peril....\"}"]
+						Lore: ["{\"translate\":\"lore.mce2.blackmarket_cache.11\"}"]
 					}
 				}
 			}
@@ -1997,8 +1997,8 @@
 					}]
 					Unbreakable: 1b
 					display: {
-						Lore: ["{\"text\":\"Despite being made of solid ice, this weapon is not cold...\",\"italic\":true,\"color\":\"gray\"}"]
-						Name: "{\"text\":\"Death's Grasp\",\"color\":\"gold\",\"italic\":false}"
+						Lore: ["{\"translate\":\"lore.mce2.blackmarket_cache.12\",\"italic\":true,\"color\":\"gray\"}"]
+						Name: "{\"translate\":\"lore.mce2.blackmarket_cache.13\",\"color\":\"gold\",\"italic\":false}"
 					}
 				}
 			}
@@ -2017,8 +2017,8 @@
 					Damage: 0
 					Unbreakable: 1b
 					display: {
-						Lore: ["{\"text\":\"§7§kk§f§7\\\"LIFE DEATH LIFE DEATH LIFE DEATH\\\"§kf\"}"]
-						Name: "{\"text\":\"§8\\\"Death\\\"\"}"
+						Lore: ["{\"translate\":\"lore.mce2.challenges.1\"}"]
+						Name: "{\"translate\":\"lore.mce2.challenges.2\"}"
 					}
 					etstlib_tool_uuid: "e749a354-00e9-4f72-bc8f-a699c97d9067"
 				}
@@ -2031,6 +2031,6 @@
 			type: "eternalcurrencies:currency"
 		}
 	]
-	title: "{loot_table.2}"
+	title: "{ftbquests.loot_table.7907762097638722541.title}"
 	use_title: true
 }

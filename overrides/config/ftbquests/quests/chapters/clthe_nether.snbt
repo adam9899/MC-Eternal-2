@@ -338,8 +338,10 @@
 		{
 			dependencies: ["3BD8D1FD1252A183"]
 			description: [
-				"{chapter.22.quest.2.description.1}"
-				"{image:modpack:textures/2022-11-03_23.33.09.png width:180 height:100 align:center}"
+				""
+				""
+				"{ftbquests.chapter.clthe_nether.quest975227589137524320.description1}"
+				"{ftbquests.chapter.clthe_nether.quest975227589137524320.image0}"
 			]
 			id: "0D88B45349B3E660"
 			rewards: [
@@ -348,7 +350,7 @@
 					command: "/gamestage add {p} expert"
 					icon: "rats:golden_rat_skull"
 					id: "7AAA477D924F4B0E"
-					title: "{chapter.22.quest.2.reward.2.title}"
+					title: "{ftbquests.chapter.clthe_nether.quest975227589137524320.reward.8838955823319173902.title}"
 					type: "command"
 				}
 				{
@@ -357,27 +359,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -391,18 +376,27 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.2.subtitle}"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest975227589137524320.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "48A198B6D461B9E0"
 				type: "dimension"
 			}]
-			title: "{chapter.22.quest.2.title}"
+			title: "{ftbquests.chapter.clthe_nether.quest975227589137524320.title}"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
-			description: ["{chapter.9.quest.7.description.1}"]
+			description: [
+				"{ftbquests.chapter.clthe_nether.quest4312427528071586179.description1}"
+				""
+				"{ftbquests.chapter.clthe_nether.quest4312427528071586179.description2}"
+				""
+				"{ftbquests.chapter.clthe_nether.quest4312427528071586179.description3}"
+				""
+				""
+				"{ftbquests.chapter.clthe_nether.quest4312427528071586179.description4}"
+			]
 			icon: "kubejs:nether_item"
 			id: "3BD8D1FD1252A183"
 			rewards: [
@@ -410,7 +404,7 @@
 					icon: "netherexp:brazier_chest"
 					id: "7961EF9D6D17DDE6"
 					table_id: 7614141430405098414L
-					title: "&6Ancient Cache"
+					title: "{ftbquests.chapter.clthe_nether.quest4312427528071586179.reward.8746535410749398502.title}"
 					type: "random"
 				}
 				{
@@ -426,27 +420,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -455,7 +432,7 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "Obtain the &eObsidian Palantir"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest4312427528071586179.subtitle}"
 			tasks: [{
 				id: "7FDF8F46C0BD72DF"
 				item: {
@@ -469,7 +446,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6You Fool of a Took!"
+			title: "{ftbquests.chapter.clthe_nether.quest4312427528071586179.title}"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -483,8 +460,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -497,27 +474,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -526,15 +486,15 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.4.subtitle}"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest5195946306062661156.subtitle}"
 			tasks: [{
 				icon: "minecraft:wither_skeleton_skull"
 				id: "0FB1010FDECD75FB"
 				structure: "betterfortresses:fortress"
-				title: "&eLocate Nether Fortress"
+				title: "{ftbquests.chapter.clthe_nether.quest5195946306062661156.task.1130686149120849403.title}"
 				type: "structure"
 			}]
-			title: "&eAn Ancient Evil"
+			title: "{ftbquests.chapter.clthe_nether.quest5195946306062661156.title}"
 			x: 5.224489795918359d
 			y: -2.0306122448979593d
 		}
@@ -567,27 +527,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -596,12 +539,12 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.5.subtitle}"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest5373590024613611842.subtitle}"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "102D5D268B74AB68"
-				title: "{chapter.22.quest.5.task.1.title}"
+				title: "{ftbquests.chapter.clthe_nether.quest5373590024613611842.task.1165690298688645992.title}"
 				type: "kill"
 				value: 15L
 			}]
@@ -610,8 +553,12 @@
 		}
 		{
 			dependencies: ["479494C1FD505646"]
-			description: ["{chapter.22.quest.6.description.1}"]
+			description: [
+				"{ftbquests.chapter.clthe_nether.quest1207424037478102535.description1}"
+				"{ftbquests.chapter.clthe_nether.quest1207424037478102535.description2}"
+			]
 			id: "10C1A1C3CF267607"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -640,27 +587,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -669,12 +599,12 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.6.subtitle}"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest1207424037478102535.subtitle}"
 			tasks: [{
 				advancement: "minecraft:nether/ride_strider"
 				criterion: ""
 				id: "2D77B01AD9E9933A"
-				title: "{chapter.22.quest.6.task.1.title}"
+				title: "{ftbquests.chapter.clthe_nether.quest1207424037478102535.task.3276280883306926906.title}"
 				type: "advancement"
 			}]
 			x: 3.0d
@@ -682,7 +612,7 @@
 		}
 		{
 			dependencies: ["3CC4D8AC7D27AE94"]
-			description: ["{image:modpack:textures/2022-11-03_23.35.08.png width:180 height:100 align:1}"]
+			description: ["{ftbquests.chapter.clthe_nether.quest5157911034145560134.image0}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -710,7 +640,7 @@
 					command: "/titles add {p} titles:demon_slayer"
 					icon: "titles:title_scroll_uncommon"
 					id: "4676D913C6156C6D"
-					title: "{chapter.22.quest.7.reward.5.title}"
+					title: "{ftbquests.chapter.clthe_nether.quest5157911034145560134.reward.5077484308857711725.title}"
 					type: "command"
 				}
 				{
@@ -726,27 +656,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -755,7 +668,7 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.7.subtitle}"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest5157911034145560134.subtitle}"
 			tasks: [
 				{
 					icon: {
@@ -781,13 +694,17 @@
 					value: 1L
 				}
 			]
-			title: "{chapter.22.quest.7.title}"
+			title: "{ftbquests.chapter.clthe_nether.quest5157911034145560134.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["21DA031BE994B045"]
-			description: ["{chapter.22.quest.9.description.1}"]
+			description: [
+				"{ftbquests.chapter.clthe_nether.quest5512958672098665634.description1}"
+				""
+				"{ftbquests.chapter.clthe_nether.quest5512958672098665634.description2}"
+			]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -811,7 +728,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "22DA422A1A1EAEC3"
-					title: "{chapter.22.quest.9.reward.6.title}"
+					title: "{ftbquests.chapter.clthe_nether.quest5512958672098665634.reward.2511392490806750915.title}"
 					type: "command"
 				}
 				{
@@ -827,12 +744,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" You hear a strange voice beckoning you to approach the altar...\"}]"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.clthe_nether.1\",\"color\":\"dark_red\",\"bold\":true},{\"translate\":\"message.mce2.clthe_nether.2\"}]"
 					console: true
 					elevate_perms: true
 					icon: "create:empty_blaze_burner"
 					id: "72B895BDF25240A8"
-					title: "&c???"
+					title: "{ftbquests.chapter.clthe_nether.quest5512958672098665634.reward.8266521759085379752.title}"
 					type: "command"
 				}
 				{
@@ -842,7 +759,7 @@
 					elevate_perms: true
 					icon: "cataclysm:blazing_bone"
 					id: "1327794F4BCE91FA"
-					title: "&eStrange Noises..."
+					title: "{ftbquests.chapter.clthe_nether.quest5512958672098665634.reward.1380205192293552634.title}"
 					type: "command"
 				}
 				{
@@ -858,42 +775,39 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "78523C3FF9FC65BD"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 2b
+							}
 						}
 					}
 					type: "item"
 				}
 			]
 			shape: "octagon"
-			subtitle: "{chapter.22.quest.9.subtitle}"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest5512958672098665634.subtitle}"
 			tasks: [
 				{
 					icon: "cataclysm:altar_of_fire"
 					id: "37162A57BF274981"
 					observe_type: 0
 					timer: 0L
-					title: "{chapter.22.quest.9.task.1.title}"
+					title: "{ftbquests.chapter.clthe_nether.quest5512958672098665634.task.3969406677931215233.title}"
 					to_observe: "cataclysm:altar_of_fire"
 					type: "observation"
 				}
@@ -909,7 +823,7 @@
 		}
 		{
 			dependencies: ["10C1A1C3CF267607"]
-			description: ["{image:modpack:textures/2022-11-03_23.32.41.png width:180 height:100 align:1}"]
+			description: ["{ftbquests.chapter.clthe_nether.quest1821700263441007294.image0}"]
 			id: "1947FABCE1A302BE"
 			rewards: [
 				{
@@ -939,27 +853,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -967,7 +864,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.22.quest.10.subtitle}"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest1821700263441007294.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -985,15 +882,15 @@
 				structure: "cataclysm:burning_arena"
 				type: "structure"
 			}]
-			title: "&eThe Thousand Year War"
+			title: "{ftbquests.chapter.clthe_nether.quest1821700263441007294.title}"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1947FABCE1A302BE"]
 			description: [
-				"{image:modpack:textures/2022-11-03_23.33.25.png width:180 height:100 align:1}"
-				"{chapter.22.quest.11.description.1}"
+				"{ftbquests.chapter.clthe_nether.quest2439265566592380997.image0}"
+				"{ftbquests.chapter.clthe_nether.quest2439265566592380997.description1}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1024,7 +921,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0067A1BE49111658"
-					title: "{chapter.22.quest.11.reward.6.title}"
+					title: "{ftbquests.chapter.clthe_nether.quest2439265566592380997.reward.29169761242912344.title}"
 					type: "command"
 				}
 				{
@@ -1040,27 +937,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1068,29 +948,21 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.22.quest.11.subtitle}"
-			tasks: [
-				{
-					entity: "cataclysm:ignited_revenant"
-					id: "72AD66BBC4CC9504"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "00141A9DF86B20BD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			subtitle: "{ftbquests.chapter.clthe_nether.quest2439265566592380997.subtitle}"
+			tasks: [{
+				id: "00141A9DF86B20BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "cataclysm:burning_ashes"
 					}
-					type: "item"
+					id: "cataclysm:burning_ashes"
 				}
-			]
-			title: "&eThe Ashen Demon"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.clthe_nether.quest2439265566592380997.title}"
 			x: 7.0d
 			y: 2.0d
 		}
@@ -1122,27 +994,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1151,7 +1006,7 @@
 			]
 			shape: "hexagon"
 			size: 0.8d
-			subtitle: "Visit all major Nether biomes!"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest2459296451000434366.subtitle}"
 			tasks: [
 				{
 					biome: "minecraft:basalt_deltas"
@@ -1178,7 +1033,7 @@
 					type: "biome"
 				}
 			]
-			title: "{chapter.22.quest.14.title}"
+			title: "{ftbquests.chapter.clthe_nether.quest2459296451000434366.title}"
 			x: 4.109693877551017d
 			y: -1.9666666666666401d
 		}
@@ -1186,30 +1041,15 @@
 			dependencies: ["4C81F6B40FD9A4A2"]
 			description: [
 				""
-				"&eYOU DID IT! "
-				"Now all you need to do is collect the rest of the &6&lLegendary Eyes.."
-				"See the quest chapter &d&nEnd Progression&r for more information!"
+				"{ftbquests.chapter.clthe_nether.quest8062044040901853365.description1}"
+				"{ftbquests.chapter.clthe_nether.quest8062044040901853365.description2}"
+				"{ftbquests.chapter.clthe_nether.quest8062044040901853365.description3}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:oak_sapling"
 			id: "6FE22257358280B5"
 			rewards: [
-				{
-					id: "1F32F5233A016766"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
-							}
-							type: "curious_box"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "78DF4C4E7E43BE12"
 					item: "kubejs:mcejaffa"
@@ -1221,27 +1061,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1249,22 +1072,22 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{chapter.22.quest.17.subtitle}"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest8062044040901853365.subtitle}"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "1BD8D5E17FDF1B5E"
 				type: "dimension"
 			}]
-			title: "{chapter.22.quest.17.title}"
+			title: "{ftbquests.chapter.clthe_nether.quest8062044040901853365.title}"
 			x: 11.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0D88B45349B3E660"]
 			description: [
-				"I'm sure you noticed by now that beds do not work in The Nether. If you wish to respawn somewhere safe while exploring The Nether, &eThe Respawn Anchor&r will allow you to do just that! "
+				"{ftbquests.chapter.clthe_nether.quest4378862973056691860.description1}"
 				""
-				"&6Hint:&r Unlike a bed,  &eThe Respawn Anchor&r requires charges in order to work. To give it one charge, feed it a &eGlowstone Block."
+				"{ftbquests.chapter.clthe_nether.quest4378862973056691860.description2}"
 			]
 			id: "3CC4D8AC7D27AE94"
 			rewards: [
@@ -1281,27 +1104,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1309,7 +1115,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Craft &eThe Respawn Anchor"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest4378862973056691860.subtitle}"
 			tasks: [{
 				id: "75384B8D4AB314CB"
 				item: "minecraft:respawn_anchor"
@@ -1319,7 +1125,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["Where the hell did the Goblin Trader find this!?!?"]
+			description: ["{ftbquests.chapter.clthe_nether.quest8023159532111290843.description1}"]
 			id: "6F57FD15FFC861DB"
 			optional: true
 			rewards: [
@@ -1337,33 +1143,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1374,44 +1157,45 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "1DE3F0C5419E7324"
-					title: "&eUnlock Title:&r the Torturer"
+					title: "{ftbquests.chapter.clthe_nether.quest8023159532111290843.reward.2153829776813355812.title}"
 					type: "command"
 				}
 			]
 			shape: "octagon"
-			subtitle: "Find The Blade of Eternal Torment"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest8023159532111290843.subtitle}"
 			tasks: [{
-				id: "44C0D1CA21D45C12"
-				item: {
+				icon: {
 					Count: 1
 					id: "iceandfire:dread_knight_sword"
 					tag: {
 						Damage: 0
-						Enchantments: [{
-							id: "minecraft:fire_aspect"
-							lvl: 3s
-						}]
-						display: {
-							Lore: ["{\"text\":\"Forged in the depths of the Nether. Used to torment and torture enemies of The Eternal Legions.\",\"color\":\"gray\",\"italic\":true}"]
-							Name: "{\"text\":\"Blade of Eternal Torment\",\"color\":\"dark_purple\",\"italic\":false}"
+					}
+				}
+				id: "44C0D1CA21D45C12"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							mce2_quest_item: "blade_of_eternal_torment"
 						}
-						etstlib_tool_uuid: "0a343ae3-e330-4f46-8937-3973ed0374da"
-						tic_persistent: { }
 					}
 				}
 				match_nbt: true
+				title: "{ftbquests.chapter.clthe_nether.quest8023159532111290843.task.4954190256188709906.title}"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.clthe_nether.quest8023159532111290843.title}"
 			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3BD8D1FD1252A183"]
 			description: [
-				"The Nether is a hot and dangerous place!"
-				"If you attempt to glide there, your glider will combust!"
+				"{ftbquests.chapter.clthe_nether.quest8155191304456683565.description1}"
+				"{ftbquests.chapter.clthe_nether.quest8155191304456683565.description2}"
 				""
-				"No matter! You can combine your glider of choice with a &dNether Upgrade&r to protect it against The Nether's deadly climate!"
+				"{ftbquests.chapter.clthe_nether.quest8155191304456683565.description3}"
 			]
 			id: "712D0F48897EC02D"
 			rewards: [
@@ -1428,43 +1212,26 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &dNether Upgrade"
+			subtitle: "{ftbquests.chapter.clthe_nether.quest8155191304456683565.subtitle}"
 			tasks: [{
 				id: "73EFB17A14E305C6"
 				item: "vc_gliders:nether_upgrade"
 				type: "item"
 			}]
-			title: "&6Nether Gliding!"
+			title: "{ftbquests.chapter.clthe_nether.quest8155191304456683565.title}"
 			x: 2.0d
 			y: -2.0d
 		}
 	]
-	title: "{chapter.22.title}"
+	title: "{ftbquests.chapter.clthe_nether.title}"
 }

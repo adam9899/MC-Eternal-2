@@ -1,7 +1,7 @@
 {
 	id: "30F5CC3A03EA220A"
 	loot_size: 1
-	order_index: 22
+	order_index: 23
 	rewards: [
 		{
 			item: {
@@ -67,5 +67,5 @@
 			}
 		}
 	]
-	title: "cosmetic"
+	title: "{ftbquests.loot_table.3527950432660496906.title}"
 }

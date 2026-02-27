@@ -104,11 +104,11 @@
 	quests: [
 		{
 			description: [
-				"The dimension of bees!"
+				"{ftbquests.chapter.ethe_bumblezone.quest8397216255119753370.description1}"
 				""
-				"Enter &6The Bumblezone&r by throwing an &eEnder Pearl&r at a &eBeehive&r or &eBee Nest&r or pushing yourself in with a &ePiston&r."
+				"{ftbquests.chapter.ethe_bumblezone.quest8397216255119753370.description2}"
 				""
-				"&8Chapter Credit: rngmini773"
+				"{ftbquests.chapter.ethe_bumblezone.quest8397216255119753370.description3}"
 			]
 			id: "7488E7B1948C809A"
 			rewards: [
@@ -125,27 +125,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -158,7 +141,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "<wave>Enter The Bumblezone"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest8397216255119753370.subtitle}"
 			tasks: [{
 				dimension: "the_bumblezone:the_bumblezone"
 				icon: {
@@ -171,50 +154,50 @@
 				id: "2FAE0305FEC45399"
 				type: "dimension"
 			}]
-			title: "&eNOT THE BEES!"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest8397216255119753370.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7488E7B1948C809A"]
-			description: ["It can get rather dark in &6The Bumblezone&r, so if possible, you may want to get some form of &9Night Vision&r if you plan on being here for a while."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest1746257662519947467.description1}"]
 			hide_dependency_lines: true
 			icon: "minecraft:writable_book"
 			id: "183BF4178CCE30CB"
 			progression_mode: "flexible"
 			shape: "hexagon"
-			subtitle: "Who needs to see anyway"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest1746257662519947467.subtitle}"
 			tasks: [{
 				id: "1E94000E7441E8B4"
 				type: "checkmark"
 			}]
-			title: "&eInfo:&r Night Vision"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest1746257662519947467.title}"
 			x: -0.5d
 			y: -1.9d
 		}
 		{
 			dependencies: ["7488E7B1948C809A"]
-			description: ["To get out of &6The Bumblezone&r, you'll need to either dig straight up or down until you find &eBeehive Beeswax&r, and just a few blocks past that you will either fall out or climb out of &6the dimension&r."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest283516246735701553.description1}"]
 			hide_dependency_lines: true
 			icon: "minecraft:writable_book"
 			id: "03EF408636BBC631"
 			progression_mode: "flexible"
 			shape: "hexagon"
-			subtitle: "Leaving :("
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest283516246735701553.subtitle}"
 			tasks: [{
 				id: "6F604C70D55D3BB6"
 				type: "checkmark"
 			}]
-			title: "&eInfo:&r Escaping"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest283516246735701553.title}"
 			x: 0.5d
 			y: -1.9d
 		}
 		{
 			dependencies: ["7488E7B1948C809A"]
 			description: [
-				"The first step in your quest, craft and use the &eHoney Compass&r to locate the &eCell Maze&r."
+				"{ftbquests.chapter.ethe_bumblezone.quest2028559026071487881.description1}"
 				""
-				"Can also be used to track the location of a &eBeehive&r or &eBee Nest&r."
+				"{ftbquests.chapter.ethe_bumblezone.quest2028559026071487881.description2}"
 			]
 			id: "1C26E3AFBAE74589"
 			progression_mode: "flexible"
@@ -226,7 +209,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "Craft the &eHoney Compass&r"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest2028559026071487881.subtitle}"
 			tasks: [{
 				id: "1E8E95A3C7C84687"
 				item: {
@@ -236,18 +219,18 @@
 				}
 				type: "item"
 			}]
-			title: "&eHoney Compass"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest2028559026071487881.title}"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1C26E3AFBAE74589"]
 			description: [
-				"In the &eCell Maze&r, you are likely here for one item in particular, the &eHoney Compass - Throne Pillar!&r "
+				"{ftbquests.chapter.ethe_bumblezone.quest8286652611986703207.description1}"
 				""
-				"You may however find other items here from &eThe Bumblezone&r such as tools, weapons, armor, or even compasses to other structures!"
+				"{ftbquests.chapter.ethe_bumblezone.quest8286652611986703207.description2}"
 				""
-				"Bee warned, however, as entering the &eCell Maze&r without the &bProtection of the Hive&r effect will cause you to gain the &cCurse of the Hive&r effect."
+				"{ftbquests.chapter.ethe_bumblezone.quest8286652611986703207.description3}"
 			]
 			icon: "minecraft:honeycomb_block"
 			id: "73001AA56287C367"
@@ -260,42 +243,42 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "Bee Careful"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest8286652611986703207.subtitle}"
 			tasks: [{
 				icon: "minecraft:honeycomb_block"
 				id: "214D331FD961D639"
 				structure: "the_bumblezone:cell_maze"
-				title: "Find a &eCell Maze"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest8286652611986703207.task.2399630388342412857.title}"
 				type: "structure"
 			}]
-			title: "&eThe Cell Maze"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest8286652611986703207.title}"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7488E7B1948C809A"]
 			description: [
-				"&bProtection of the Hive&r is an effect from &6The Bumblezone&r that makes bees no longer get angry at you, which can be very helpful for exploring the &eCell Maze&r. It can also prevent you from getting &cCurse of the Hive&r one time in exchange for the effect. It has a chance to be obtained by feeding &eBees&r, &eBeehemoths&r, or &eHoneycomb Brood Blocks&r honey-based foods."
+				"{ftbquests.chapter.ethe_bumblezone.quest7452328088936075803.description1}"
 				""
-				"&cCurse of the Hive&r is another effect from &6The Bumblezone&r that makes bees angry at you no matter what. It is obtained by attacking &eBees&r or &dThe Bee Queen&r, or destroying &eHoney Blocks&r or &eHoneycomb Brood Blocks&r. It does not get applied when destroying &eHoneycomb&r or &eHoney Crystal&r blocks!"
+				"{ftbquests.chapter.ethe_bumblezone.quest7452328088936075803.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:writable_book"
 			id: "676BFCE9AAB3521B"
 			progression_mode: "flexible"
 			shape: "hexagon"
-			subtitle: "\"Why would they curse you and protect you at the same time?\""
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest7452328088936075803.subtitle}"
 			tasks: [{
 				id: "543019A6BADFA9C5"
 				type: "checkmark"
 			}]
-			title: "&eInfo:&r &bProtection&r and &cCurse&r of the Hive"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest7452328088936075803.title}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["73001AA56287C367"]
-			description: ["This compass will point you in the direction of the structure the &dBee Queen&r resides in, the &eThrone Pillar&r!"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest4518331608064267262.description1}"]
 			id: "3EB456A88C1713FE"
 			progression_mode: "flexible"
 			rewards: [{
@@ -306,7 +289,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "Off to see the Queen!"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest4518331608064267262.subtitle}"
 			tasks: [{
 				id: "09C0F93B2731E6D4"
 				item: {
@@ -321,16 +304,16 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "&eHoney Compass - Throne Pillar!"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest4518331608064267262.title}"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3EB456A88C1713FE"]
 			description: [
-				"This is where the &dBee Queen&r resides, and where your true quest begins."
+				"{ftbquests.chapter.ethe_bumblezone.quest9078192327563557451.description1}"
 				""
-				"After trading with the &dQueen&r at least once (a list of items used to trade may be found in JEI, easiest would be Honeycomb Blocks), you unlock the &dQueen's Desire&r Advancement Line."
+				"{ftbquests.chapter.ethe_bumblezone.quest9078192327563557451.description2}"
 			]
 			icon: "the_bumblezone:royal_jelly_block"
 			id: "7DFC37D2D71A3A4B"
@@ -343,24 +326,24 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "Royalty!"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest9078192327563557451.subtitle}"
 			tasks: [{
 				icon: "the_bumblezone:royal_jelly_block"
 				id: "7FA3E966AE1685CC"
 				structure: "the_bumblezone:throne_pillar"
-				title: "Find the &eThrone Pillar"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest9078192327563557451.task.9197451491237332428.title}"
 				type: "structure"
 			}]
-			title: "&eThrone Pillar"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest9078192327563557451.title}"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7488E7B1948C809A"]
 			description: [
-				"The &eBuzzing Briefcase&r is a must-have for any bee handler. It can hold up to 14 bees and allow you to do things such as heal bees, reattach stingers, or grow babies up to adults."
+				"{ftbquests.chapter.ethe_bumblezone.quest195304929564615432.description1}"
 				""
-				"As the &eBeehemoth&r and &dBee Queen&r are too large, they cannot fit inside the briefcase."
+				"{ftbquests.chapter.ethe_bumblezone.quest195304929564615432.description2}"
 			]
 			hide_dependency_lines: true
 			id: "02B5DCCC7594E308"
@@ -374,25 +357,25 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "Pocket Bees"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest195304929564615432.subtitle}"
 			tasks: [{
 				id: "4DD21D6F89035603"
 				item: "the_bumblezone:buzzing_briefcase"
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&eBuzzing Briefcase"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest195304929564615432.title}"
 			x: -0.75d
 			y: 0.75d
 		}
 		{
 			dependencies: ["7488E7B1948C809A"]
 			description: [
-				"&eBeehemoths&r are very helpful, allowing you to fly around &6The Bumblezone&r safely for a relatively low cost. To tame them, you must feed them one of a few foods. This includes &dRoyal Jelly&r, &eBee Bread&r, &eHoney Buckets&r or &eBottles&r, and even &eHoneyed Apples&r!"
+				"{ftbquests.chapter.ethe_bumblezone.quest4511799510564887412.description1}"
 				""
-				"Once tamed, you will see a friendship meter appear above the &eBeehemoth&r. It can either go up or down depending on what you do. It can be increased by feeding it any of the previously mentioned foods or by riding it around. It will go down if the &eBeehemoth&r takes damage, with each point of damage being one friendship point lost. It will go down three times more if you dealt the damage."
+				"{ftbquests.chapter.ethe_bumblezone.quest4511799510564887412.description2}"
 				""
-				"At max friendship, it will become a &eQueen Beehemoth&r and move around at its max speed."
+				"{ftbquests.chapter.ethe_bumblezone.quest4511799510564887412.description3}"
 			]
 			hide_dependency_lines: true
 			id: "3E9D21C015005B74"
@@ -406,26 +389,26 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "Buzz Buzz"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest4511799510564887412.subtitle}"
 			tasks: [{
 				icon: "the_bumblezone:beehemoth_spawn_egg"
 				id: "7900CA9A027836BF"
 				observe_type: 5
 				timer: 0L
-				title: "Find a &eBeehemoth"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest4511799510564887412.task.8719191641404487359.title}"
 				to_observe: "the_bumblezone:beehemoth"
 				type: "observation"
 			}]
-			title: "&eBeehemoths"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest4511799510564887412.title}"
 			x: 0.75d
 			y: 0.75d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: [
-				"&dRoyal Jelly Bottles&r can be obtained either from completing any of the 16 &dQueen's Desire&r advancements or very rarely as loot from certain structures."
+				"{ftbquests.chapter.ethe_bumblezone.quest5332100822495657772.description1}"
 				""
-				"It can be traded with the &dBee Queen&r for high-end items from other dimensions."
+				"{ftbquests.chapter.ethe_bumblezone.quest5332100822495657772.description2}"
 			]
 			id: "49FF6D72876BFF2C"
 			progression_mode: "flexible"
@@ -437,19 +420,19 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "Obtain a Bottle of &dRoyal Jelly"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest5332100822495657772.subtitle}"
 			tasks: [{
 				id: "50A1D8FE17D5C24F"
 				item: "the_bumblezone:royal_jelly_bottle"
 				type: "item"
 			}]
-			title: "&dRoyal Jelly Bottle"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest5332100822495657772.title}"
 			x: 1.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Breed 8 pairs of bees"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest7879660544882839107.description1}"]
 			id: "6D5A2D8470670E43"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -457,16 +440,16 @@
 				advancement: "the_bumblezone:the_queens_desire/love_bees"
 				criterion: ""
 				id: "1A5ADE22B041CF3E"
-				title: "Love bees"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest7879660544882839107.task.1899074433457442622.title}"
 				type: "advancement"
 			}]
-			title: "&dLove bees"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest7879660544882839107.title}"
 			x: -1.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Kill 4 Endermites"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest8200212263021327690.description1}"]
 			id: "71CD019B4C30354A"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -474,16 +457,16 @@
 				advancement: "the_bumblezone:the_queens_desire/otherworldly_mites"
 				criterion: ""
 				id: "236469B295E9ABDC"
-				title: "Otherworldly Mites"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest8200212263021327690.task.2550279504738757596.title}"
 				type: "advancement"
 			}]
-			title: "&dOtherworldly Mites"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest8200212263021327690.title}"
 			x: -0.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Kill the Ender Dragon while wearing a full set of Bee Armor"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest1343627931151307146.description1}"]
 			id: "12A5867C0A91118A"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -491,16 +474,16 @@
 				advancement: "the_bumblezone:the_queens_desire/the_great_dragon_slayer"
 				criterion: ""
 				id: "6A37B8EC7BE04D4B"
-				title: "The Great Dragon Slayer"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest1343627931151307146.task.7653789417569537355.title}"
 				type: "advancement"
 			}]
-			title: "&dThe Great Dragon Slayer"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest1343627931151307146.title}"
 			x: 0.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Throw and hit 24 entities with Pollen Puff (Other players count)"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest2985312735587941098.description1}"]
 			id: "296DF61DBC2B3AEA"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -508,16 +491,16 @@
 				advancement: "the_bumblezone:the_queens_desire/pollen_fight"
 				criterion: ""
 				id: "3FC4DBFCD6819379"
-				title: "Pollen Fight"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest2985312735587941098.task.4595039398801806201.title}"
 				type: "advancement"
 			}]
-			title: "&dPollen Fight"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest2985312735587941098.title}"
 			x: 1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Kill 16 Cave Spiders"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest8038359506158412760.description1}"]
 			id: "6F8DFD61BD74E3D8"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -525,16 +508,16 @@
 				advancement: "the_bumblezone:the_queens_desire/terror_fangs"
 				criterion: ""
 				id: "71B1815939524970"
-				title: "Terror Fangs"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest8038359506158412760.task.8192471417377409392.title}"
 				type: "advancement"
 			}]
-			title: "&dTerror Fangs"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest8038359506158412760.title}"
 			x: 1.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Drink 8 Honey Bottles"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest3246131470341985540.description1}"]
 			id: "2D0C935F9FF35504"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -542,16 +525,16 @@
 				advancement: "the_bumblezone:the_queens_desire/honey_drunk"
 				criterion: ""
 				id: "26E1D86F05F3B3CE"
-				title: "Honey Drunk"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest3246131470341985540.task.2801758414553985998.title}"
 				type: "advancement"
 			}]
-			title: "&dHoney Drunk"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest3246131470341985540.title}"
 			x: 0.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Kill 32 Spiders (Cave Spiders do not count)"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest5879765236478218705.description1}"]
 			id: "51991F548AF991D1"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -559,16 +542,16 @@
 				advancement: "the_bumblezone:the_queens_desire/too_many_legs"
 				criterion: ""
 				id: "7786CE41C0F0DF4A"
-				title: "Too Many Legs"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest5879765236478218705.task.8612798119197859658.title}"
 				type: "advancement"
 			}]
-			title: "&dToo Many Legs"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest5879765236478218705.title}"
 			x: -0.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Craft 6 Bee Nests or Beehives"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest5431492004685851450.description1}"]
 			id: "4B60893373ACAB3A"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -576,16 +559,16 @@
 				advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market"
 				criterion: ""
 				id: "45EE0EC644952B10"
-				title: "Flooding the Housing Market"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest5431492004685851450.task.5038981277791103760.title}"
 				type: "advancement"
 			}]
-			title: "&dFlooding the Housing Market"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest5431492004685851450.title}"
 			x: -1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Kill 8 Silverfish"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest1176490056583695712.description1}"]
 			id: "1053BB7920734D60"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -593,16 +576,16 @@
 				advancement: "the_bumblezone:the_queens_desire/fighting_the_swarm"
 				criterion: ""
 				id: "743A02FCBB7CFDCA"
-				title: "Fighting the Swarm"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest1176490056583695712.task.8375009741549403594.title}"
 				type: "advancement"
 			}]
-			title: "&dFighting the Swarm"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest1176490056583695712.title}"
 			x: -1.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Fire 32 Bee Stingers from Bows or Crossbows"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest3263967316630663185.description1}"]
 			id: "2D4BF0FB32417011"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -610,19 +593,19 @@
 				advancement: "the_bumblezone:the_queens_desire/poison_warfare"
 				criterion: ""
 				id: "0D69C0B39D7B8E4E"
-				title: "Poison Warfare"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest3263967316630663185.task.966515472721481294.title}"
 				type: "advancement"
 			}]
-			title: "&dPoison Warfare"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest3263967316630663185.title}"
 			x: -0.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: [
-				"Breed 6 pairs of Honey Slimes"
+				"{ftbquests.chapter.ethe_bumblezone.quest5037418692790492730.description1}"
 				""
-				"&6Hint:&r Honey Slimes love Sugar"
+				"{ftbquests.chapter.ethe_bumblezone.quest5037418692790492730.description2}"
 			]
 			id: "45E8819C98B09E3A"
 			progression_mode: "flexible"
@@ -631,19 +614,19 @@
 				advancement: "the_bumblezone:the_queens_desire/slimy_mitosis"
 				criterion: ""
 				id: "673F3CCC1A08CF46"
-				title: "Slimy Mitosis"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest5037418692790492730.task.7439731956747128646.title}"
 				type: "advancement"
 			}]
-			title: "&dSlimy Mitosis"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest5037418692790492730.title}"
 			x: 0.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: [
-				"Feed a bee something honey-related like Honey Bottles or Bee Bread 24 times"
+				"{ftbquests.chapter.ethe_bumblezone.quest3383953048996987034.description1}"
 				""
-				"You can feed the same bee all 24 times"
+				"{ftbquests.chapter.ethe_bumblezone.quest3383953048996987034.description2}"
 			]
 			id: "2EF6375E7E10C09A"
 			progression_mode: "flexible"
@@ -652,19 +635,19 @@
 				advancement: "the_bumblezone:the_queens_desire/hungry_hungry_bees"
 				criterion: ""
 				id: "4FBF49D92A475D24"
-				title: "Hungry Hungry Bees"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest3383953048996987034.task.5746392846614093092.title}"
 				type: "advancement"
 			}]
-			title: "&dHungry Hungry Bees"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest3383953048996987034.title}"
 			x: 1.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: [
-				"Save 12 Bees by putting their stingers back on"
+				"{ftbquests.chapter.ethe_bumblezone.quest9184968742693609544.description1}"
 				""
-				"&6Hint:&r Right-Click a bee with no stinger while holding a Bee Stinger"
+				"{ftbquests.chapter.ethe_bumblezone.quest9184968742693609544.description2}"
 			]
 			id: "7F7790684D51A048"
 			progression_mode: "flexible"
@@ -673,19 +656,19 @@
 				advancement: "the_bumblezone:the_queens_desire/back_in_action"
 				criterion: ""
 				id: "4DA5A5516D50D86F"
-				title: "Back in Action"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest9184968742693609544.task.5595059881222658159.title}"
 				type: "advancement"
 			}]
-			title: "&dBack in Action"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest9184968742693609544.title}"
 			x: -1.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: [
-				"Spawn 8 flowers by pollinating flowers with Pollen Puff"
+				"{ftbquests.chapter.ethe_bumblezone.quest1104353307349577450.description1}"
 				""
-				"&6Hint:&r Throw the Pollen Puff at placed flowers"
+				"{ftbquests.chapter.ethe_bumblezone.quest1104353307349577450.description2}"
 			]
 			id: "0F53737B5F196EEA"
 			progression_mode: "flexible"
@@ -694,16 +677,16 @@
 				advancement: "the_bumblezone:the_queens_desire/the_crazy_florist"
 				criterion: ""
 				id: "3E88E8C50F7C0B09"
-				title: "The Crazy Florist"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest1104353307349577450.task.4506107360250170121.title}"
 				type: "advancement"
 			}]
-			title: "&dThe Crazy Florist"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest1104353307349577450.title}"
 			x: -0.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Kill a Wither with a Stinger Spear"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest3520553747955579993.description1}"]
 			id: "30DB84FB278FFC59"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -711,16 +694,16 @@
 				advancement: "the_bumblezone:the_queens_desire/peak_inefficiency"
 				criterion: ""
 				id: "618D6F3A05A7A482"
-				title: "Peak Inefficiency"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest3520553747955579993.task.7029396888388871298.title}"
 				type: "advancement"
 			}]
-			title: "&dPeak Inefficiency"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest3520553747955579993.title}"
 			x: 0.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
-			description: ["Trade with the Bee Queen 128 times"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest8206314308716208259.description1}"]
 			id: "71E2AF62863C2083"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -728,10 +711,10 @@
 				advancement: "the_bumblezone:the_queens_desire/crazy_trader"
 				criterion: ""
 				id: "30862CC48C969B9E"
-				title: "Crazy Trader"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest8206314308716208259.task.3496531383383661470.title}"
 				type: "advancement"
 			}]
-			title: "&dCrazy Trader"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest8206314308716208259.title}"
 			x: 1.5d
 			y: 10.5d
 		}
@@ -755,9 +738,9 @@
 				"71E2AF62863C2083"
 			]
 			description: [
-				"&dEssence of the Bees&r is a semi-endgame &6Bumblezone&r item that grants several effects when consumed. "
+				"{ftbquests.chapter.ethe_bumblezone.quest6943629495009514298.description1}"
 				""
-				"The most important for progression is the ability to locate &dSempiternal Sanctums&r using compasses found inside certain structures and complete the events inside them."
+				"{ftbquests.chapter.ethe_bumblezone.quest6943629495009514298.description2}"
 			]
 			id: "605CBA3C9DF7933A"
 			progression_mode: "flexible"
@@ -774,13 +757,13 @@
 				item: "the_bumblezone:essence_of_the_bees"
 				type: "item"
 			}]
-			title: "&dEssence of the Bees"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest6943629495009514298.title}"
 			x: -3.25d
 			y: 9.0d
 		}
 		{
 			dependencies: ["605CBA3C9DF7933A"]
-			description: ["The &cRed Sempiternal Sanctum's&r event has you face off against many different types of mobs such as Ghasts, Ravagers, Piglins, Hoglins, and more."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest3178256728184932871.description1}"]
 			icon: "the_bumblezone:luminescent_wax_channel_red"
 			id: "2C1B6FA7B8754A07"
 			progression_mode: "flexible"
@@ -789,16 +772,16 @@
 				icon: "the_bumblezone:luminescent_wax_channel_red"
 				id: "53FE2920BDA73EEC"
 				structure: "the_bumblezone:sempiternal_sanctum_red"
-				title: "Locate the &cRed Sempiternal Sanctum"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest3178256728184932871.task.6052320169830072044.title}"
 				type: "structure"
 			}]
-			title: "&cRed Sempiternal Sanctum"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest3178256728184932871.title}"
 			x: -5.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["605CBA3C9DF7933A"]
-			description: ["The &5Purple Sempiternal Sanctum's&r event has you dodge spikes that come out of the ground. They are small and deal no damage for a couple seconds before becoming full size and dealing a decent bit of damage along with poisoning you."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest6154417882101160267.description1}"]
 			id: "5568E274CDF3994B"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -806,16 +789,16 @@
 				icon: "the_bumblezone:luminescent_wax_channel_purple"
 				id: "071D11E776559160"
 				structure: "the_bumblezone:sempiternal_sanctum_purple"
-				title: "Locate the &5Purple Sempiternal Sanctum"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest6154417882101160267.task.512585618410541408.title}"
 				type: "structure"
 			}]
-			title: "&5Purple Sempiternal Sanctum"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest6154417882101160267.title}"
 			x: -5.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["605CBA3C9DF7933A"]
-			description: ["The &9Blue Sempiternal Sanctum's&r event has you face off against Drowned, Guardians, and Elder Guardians in a watery arena."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest1838716140625855128.description1}"]
 			id: "19846E9684C80298"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -823,16 +806,16 @@
 				icon: "the_bumblezone:luminescent_wax_channel_blue"
 				id: "03076AFEFCFA2FCA"
 				structure: "the_bumblezone:sempiternal_sanctum_blue"
-				title: "Locate the &9Blue Sempiternal Sanctum"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest1838716140625855128.task.218260750349250506.title}"
 				type: "structure"
 			}]
-			title: "&9Blue Sempiternal Sanctum"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest1838716140625855128.title}"
 			x: -5.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["605CBA3C9DF7933A"]
-			description: ["The &aGreen Sempiternal Sanctum's&r event contains two platforms, one empty and one with a Rootmin. You need to get on the platform that is empty and hit the Rootmin's attacks back at it. This requires good timing. I should probably also mention that it can hit your armor off of you, but do not worry as your armor will not despawn if hit off by the Rootmin, but if you plan to not step off the platform to get your armor then you should come prepared with good healing."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest1557496695698547361.description1}"]
 			id: "159D56FE25F4E2A1"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -840,16 +823,16 @@
 				icon: "the_bumblezone:luminescent_wax_channel_green"
 				id: "362B03DED9755EE9"
 				structure: "the_bumblezone:sempiternal_sanctum_green"
-				title: "Locate the &2Green Sempiternal Sanctum"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest1557496695698547361.task.3903217757712637673.title}"
 				type: "structure"
 			}]
-			title: "&aGreen Sempiternal Sanctum"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest1557496695698547361.title}"
 			x: -5.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["605CBA3C9DF7933A"]
-			description: ["The &eYellow Sempiternal Sanctum's&r event has you go through hoops around the arena. A new one spawns after going through the previous one, and you get faster and jump higher the more hoops you go through. Vexes will also spawn albeit quite a bit faster than you gain speed and jump height."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest6763684306932277213.description1}"]
 			id: "5DDD6F0AA7951FDD"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -857,16 +840,16 @@
 				icon: "the_bumblezone:luminescent_wax_channel_yellow"
 				id: "4F637C8A35C25424"
 				structure: "the_bumblezone:sempiternal_sanctum_yellow"
-				title: "Locate the &eYellow Sempiternal Sanctum"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest6763684306932277213.task.5720552884739920932.title}"
 				type: "structure"
 			}]
-			title: "&eYellow Sempiternal Sanctum"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest6763684306932277213.title}"
 			x: -5.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["605CBA3C9DF7933A"]
-			description: ["The &fWhite Sempiternal Sanctum's&r event has you face off against 6 Cosmic Crystals, which have a variety of attacks. The attacks are relatively easy to predict, therefore easy to dodge, but you should probably still stay more on the safe side instead of trying to attack all the time. I recommend this due to the fact that several of the attacks disregard your armor entirely."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest4686306667613089181.description1}"]
 			id: "41091B15C79F6D9D"
 			progression_mode: "flexible"
 			shape: "hexagon"
@@ -874,16 +857,16 @@
 				icon: "the_bumblezone:luminescent_wax_channel_white"
 				id: "671D0EF4088488B0"
 				structure: "the_bumblezone:sempiternal_sanctum_white"
-				title: "Locate the &fWhite Sempiternal Sanctum"
+				title: "{ftbquests.chapter.ethe_bumblezone.quest4686306667613089181.task.7430111401508898992.title}"
 				type: "structure"
 			}]
-			title: "&fWhite Sempiternal Sanctum"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest4686306667613089181.title}"
 			x: -5.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["41091B15C79F6D9D"]
-			description: ["When held in the offhand, the &fEssence of Continuity&r, upon taking lethal damage, will instead teleport you back to your last saved respawn point with full health and hunger, all neutral and negative status effects removed, fall distance reset, and fire removed with all your items and XP."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest3563128485571164958.description1}"]
 			icon: {
 				Count: 1
 				id: "the_bumblezone:essence_continuity"
@@ -913,13 +896,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&fEssence of Continuity"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest3563128485571164958.title}"
 			x: -6.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["5DDD6F0AA7951FDD"]
-			description: ["When in the offhand, the &eEssence of Radiance&r, when you are directly exposed to sunlight (no blocks above head), will slowly repair your armor and grant you the effects Regeneration 1, Speed 1, Saturation 1, Resistance 2, and Haste 2."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest7640876424995273111.description1}"]
 			icon: {
 				Count: 1
 				id: "the_bumblezone:essence_radiance"
@@ -949,13 +932,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&eEssence of Radiance"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest7640876424995273111.title}"
 			x: -6.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["159D56FE25F4E2A1"]
-			description: ["When held in the offhand, the &aEssence of Life&r will quickly grow nearby crops and plants. It can also heal nearby pets of the wielder as well as allies, and anything healed will also be cured of Poison and Wither effects."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest1146602088109464792.description1}"]
 			icon: {
 				Count: 1
 				id: "the_bumblezone:essence_life"
@@ -985,13 +968,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&aEssence of Life"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest1146602088109464792.title}"
 			x: -6.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["19846E9684C80298"]
-			description: ["When held in the offhand, the &9Essence of Calming&r will make most mobs no longer get angry at the wielder. The effect is lost if the player is attacked by a mob or attacks a mob, and the item's power will deplete rapidly when sprinting"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest327536069505193553.description1}"]
 			icon: {
 				Count: 1
 				id: "the_bumblezone:essence_calming"
@@ -1021,13 +1004,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&9Essence of Calming"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest327536069505193553.title}"
 			x: -6.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["5568E274CDF3994B"]
-			description: ["When held in the offhand, the &5Essence of Knowing&r highlights all nearby living entities, chests, spawners, and suspicious blocks."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest6321544472287349593.description1}"]
 			icon: {
 				Count: 1
 				id: "the_bumblezone:essence_knowing"
@@ -1057,13 +1040,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&5Essence of Knowing"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest6321544472287349593.title}"
 			x: -6.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["2C1B6FA7B8754A07"]
-			description: ["When held in the offhand, the &cEssence of Raging&r highlights nearby mobs and upon killing one, you gain a bit of strength. The more highlighted mobs you kill in a row, the more strength you get, maxing out at 7 kills, at which point the streak will reset upon hitting a mob. The streak may also reset if you take too long in between kills."]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest882274671853484228.description1}"]
 			icon: {
 				Count: 1
 				id: "the_bumblezone:essence_raging"
@@ -1093,13 +1076,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&cEssence of Raging"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest882274671853484228.title}"
 			x: -6.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7488E7B1948C809A"]
-			description: ["&6Bumblezone&r armor can be found in structures all across the dimension, with the exception of the &eFlower Headwear&r, which can also be crafted!"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quest1107976525039211912.description1}"]
 			hide_dependency_lines: true
 			id: "0F6052C77A6F1588"
 			progression_mode: "flexible"
@@ -1111,7 +1094,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "Bee Warrior Armor"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest1107976525039211912.subtitle}"
 			tasks: [
 				{
 					id: "724B612CA3FA7A30"
@@ -1123,7 +1106,7 @@
 						}
 					}
 					match_nbt: false
-					title: "Any #the_bumblezone:armors/helmets"
+					title: "{ftbquests.chapter.ethe_bumblezone.quest1107976525039211912.task.8235783187934640688.title}"
 					type: "item"
 				}
 				{
@@ -1136,7 +1119,7 @@
 						}
 					}
 					match_nbt: false
-					title: "Any #the_bumblezone:armors/chestplates"
+					title: "{ftbquests.chapter.ethe_bumblezone.quest1107976525039211912.task.1179694280277240960.title}"
 					type: "item"
 				}
 				{
@@ -1149,7 +1132,7 @@
 						}
 					}
 					match_nbt: false
-					title: "Any #the_bumblezone:armors/leggings"
+					title: "{ftbquests.chapter.ethe_bumblezone.quest1107976525039211912.task.6257893123459609556.title}"
 					type: "item"
 				}
 				{
@@ -1162,24 +1145,24 @@
 						}
 					}
 					match_nbt: false
-					title: "Any #the_bumblezone:armors/boots"
+					title: "{ftbquests.chapter.ethe_bumblezone.quest1107976525039211912.task.4512582943747180944.title}"
 					type: "item"
 				}
 			]
-			title: "&eBumblezone Armor"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest1107976525039211912.title}"
 			x: -0.75d
 			y: 3.75d
 		}
 		{
 			dependencies: ["7488E7B1948C809A"]
 			description: [
-				"The &eStinger Spear&r has high attack speed but low base damage, but it can be supplemented with enchants. It can take both sword and trident enchants."
+				"{ftbquests.chapter.ethe_bumblezone.quest6387787884536913051.description1}"
 				""
-				"The &eBee Cannon&r can hold up to 3 bees, and when fired the bees don't get mad at you! Instead, if looking at a non-bee entity before firing, the bees will attack that entity after being shot out. Can be enchanted with crossbow enchants."
+				"{ftbquests.chapter.ethe_bumblezone.quest6387787884536913051.description2}"
 				""
-				"The &eCrystal Cannon&r functions similarly to the &eBee Cannon&r except it uses &eHoney Crystal Shards&r instead of bees as ammunition. Can be enchanted with crossbow enchants."
+				"{ftbquests.chapter.ethe_bumblezone.quest6387787884536913051.description3}"
 				""
-				"All 3 weapons can either be crafted or found in structures across the dimension."
+				"{ftbquests.chapter.ethe_bumblezone.quest6387787884536913051.description4}"
 			]
 			hide_dependency_lines: true
 			id: "58A5FB3CAE5DDC9B"
@@ -1192,7 +1175,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "Bee Warrior Weaponry"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest6387787884536913051.subtitle}"
 			tasks: [
 				{
 					id: "14DD065D013CD04D"
@@ -1216,14 +1199,14 @@
 						}
 					}
 					match_nbt: false
-					title: "Any #the_bumblezone:tools/cannons"
+					title: "{ftbquests.chapter.ethe_bumblezone.quest6387787884536913051.task.3507578990368473100.title}"
 					type: "item"
 				}
 			]
-			title: "&eBumblezone Weaponry"
+			title: "{ftbquests.chapter.ethe_bumblezone.quest6387787884536913051.title}"
 			x: 0.75d
 			y: 3.75d
 		}
 	]
-	title: "&2The Bumblezone &6☆"
+	title: "{ftbquests.chapter.ethe_bumblezone.title}"
 }

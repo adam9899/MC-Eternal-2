@@ -4,11 +4,11 @@
     "waves": [{
             "entities": [
                 {
-                    "entity": "minecraft:zombified_piglin",
+                    "entity": "specialmobs:zombifiedpiglin",
                     "count": 5
                 },
                 {
-                    "entity": "minecraft:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "count": 3
                 }
             ],
@@ -32,15 +32,15 @@
         {
             "entities": [
                 {
-                    "entity": "minecraft:zombified_piglin",
+                    "entity": "specialmobs:zombifiedpiglin",
                     "count": 8
                 },
                 {
-                    "entity": "minecraft:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "count": 5
                 },
                 {
-                    "entity": "minecraft:blaze",
+                    "entity": "specialmobs:blaze",
                     "count": 3
                 }
             ],
@@ -74,7 +74,7 @@
                 },
                 {
                     "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
+                    "entity": "specialmobs:blaze",
                     "rolls": 1
                 }
             ],
@@ -84,15 +84,15 @@
         {
             "entities": [
                 {
-                    "entity": "minecraft:zombified_piglin",
+                    "entity": "specialmobs:zombifiedpiglin",
                     "count": 8
                 },
                 {
-                    "entity": "minecraft:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "count": 5
                 },
                 {
-                    "entity": "minecraft:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "desc": "name.gateways.withered_ranger",
                     "nbt": {
                         "CustomNameVisible": 1,
@@ -113,7 +113,7 @@
                     "finalize_spawn": false
                 },
                 {
-                    "entity": "minecraft:blaze",
+                    "entity": "specialmobs:blaze",
                     "count": 3
                 }
             ],
@@ -157,7 +157,7 @@
                 },
                 {
                     "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
+                    "entity": "specialmobs:blaze",
                     "rolls": 1
                 }
             ],
@@ -214,7 +214,7 @@
                     "finalize_spawn": false
                 },
                 {
-                    "entity": "minecraft:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "desc": "name.gateways.withered_ranger",
                     "nbt": {
                         "CustomNameVisible": 1,
@@ -235,7 +235,7 @@
                     "finalize_spawn": false
                 },
                 {
-                    "entity": "minecraft:blaze",
+                    "entity": "specialmobs:blaze",
                     "count": 3
                 }
             ],
@@ -279,7 +279,7 @@
                 },
                 {
                     "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
+                    "entity": "specialmobs:blaze",
                     "rolls": 4
                 }
             ],
@@ -324,7 +324,7 @@
         {
             "type": "gateways:summon",
             "entity": {
-                "entity": "minecraft:blaze",
+                "entity": "specialmobs:blaze",
                 "count": 2
             }
         }

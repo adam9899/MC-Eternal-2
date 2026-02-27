@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Crocodiles are apex predators, avoid engaging them in combat at all costs!"
+    "translate": "tips.mce2.croc"
   }
 }

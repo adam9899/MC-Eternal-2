@@ -5,15 +5,15 @@
 	group: "12BCDDCCCA65FD77"
 	icon: "immersive_aircraft:biplane"
 	id: "273CA855185B20FF"
-	order_index: 3
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
 			dependencies: ["099610C83CC67421"]
 			description: [
-				"&6Hint:&r When you complete this quest, you will be automatically transported! Hoppy will keep you entertained all night with spooky stories and their famous Seafood Soup! &oTime moves fast when you are having fun!"
-				"&dDon't forget to thank the pilot!"
+				"{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.description1}"
+				"{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -39,7 +39,7 @@
 					}
 					id: "5A6164294D4D4B1B"
 					silent: true
-					title: "&6Loading Luggage"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.reward.6512596664707795739.title}"
 					type: "command"
 				}
 				{
@@ -48,16 +48,16 @@
 					console: true
 					icon: "immersive_aircraft:cargo_airship"
 					id: "25104EDEED35ACF6"
-					title: "&6TAKE OFF!"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.reward.2670721298400128246.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} {\"text\":\"§6[Hoppy]§7 Thank you for flying with me! Be careful out there! Primordium is endlessly dark and freezing. I won't land I'm afraid! I'm far too handsome to be eaten by undead! So I'll have to air-drop you down! Good Luck!!\",\"color\":\"gold\"}"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.transport_quick_travel.1\",\"color\":\"gold\"}"
 					console: true
 					icon: "etched:radio"
 					id: "0BE26572B78516D4"
-					title: "&eAirline Announcment"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.reward.856358422533445332.title}"
 					type: "command"
 				}
 				{
@@ -66,7 +66,7 @@
 					console: true
 					icon: "thermal:junk_net"
 					id: "5290461985F31E61"
-					title: "&6Equip Parachute"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.reward.5949332183191854689.title}"
 					type: "command"
 				}
 				{
@@ -77,7 +77,7 @@
 			]
 			secret: true
 			shape: "diamond"
-			subtitle: "Thank you for travelling with Hoppy's Blimp Transport Services™, we hope you &msurvive&r enjoy your experience flying with us!"
+			subtitle: "{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.subtitle}"
 			tasks: [
 				{
 					icon: {
@@ -88,30 +88,30 @@
 						}
 					}
 					id: "624471483FE0D265"
-					title: "&d&lThank Hoppy!"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.task.7080909069256544869.title}"
 					type: "checkmark"
 				}
 				{
 					amount: 1500L
 					currency: "eternalcurrencies:coins"
 					id: "25D1C3AC22C4C52D"
-					title: "&6Fare"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.task.2725174393620972845.title}"
 					type: "eternalcurrencies:currency"
 				}
 			]
-			title: "&6One-Way-Ticket To: &dPrimordium"
+			title: "{ftbquests.chapter.6transport__quick_travel.quest9167420783632537821.title}"
 			x: -1.0d
 			y: 7.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"When you complete this quest, you will be automatically transported! &oIt's a fast plane!"
+				"{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.description1}"
 				""
-				"&eTip:&r Monsters do not spawn above ground in The Sakura Dimension! It is also always day-time! Watch out for structures though, monsters will populate those!"
-				"&dDon't forget to thank the pilot!"
+				"{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.description2}"
+				"{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.description3}"
 				""
-				"&6Hint:&r Make sure to put down the &dWaystone&r when you arrive! So you can always return!"
+				"{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.description4}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -131,7 +131,7 @@
 					console: true
 					icon: "sophisticatedbackpacks:backpack"
 					id: "65A461C8BB254C3A"
-					title: "&eLoading Luggage"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.reward.7324086408772406330.title}"
 					type: "command"
 				}
 				{
@@ -140,7 +140,7 @@
 					console: true
 					icon: "immersive_aircraft:biplane"
 					id: "1FFDEEEFCE354804"
-					title: "&eTAKE OFF!"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.reward.2305261298007754756.title}"
 					type: "command"
 				}
 				{
@@ -151,8 +151,8 @@
 						id: "rats:cheese"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§e§oThis is the best airplane food you've ever eaten you whisper to yourself...\"}"]
-								Name: "{\"text\":\"§eComplimentary Meal\"}"
+								Lore: ["{\"translate\":\"lore.mce2.transport_quick_travel.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.transport_quick_travel.2\"}"
 							}
 						}
 					}
@@ -160,11 +160,11 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} {\"text\":\"[Rat Pilot Romone] Thank you for flying Rat-Air! We have arrived at our destination. The Sakura Dimension is beautiful this time of year! Enjoy!\",\"color\":\"gold\"}"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.transport_quick_travel.2\",\"color\":\"gold\"}"
 					console: true
 					icon: "etched:radio"
 					id: "0A5C817676118FAC"
-					title: "&eAirline Announcement"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.reward.746613984023646124.title}"
 					type: "command"
 				}
 				{
@@ -173,7 +173,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "6D0328AD3E6697B7"
-					title: "&eUnlock Title:&r the Tourist"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.reward.7855166899605641143.title}"
 					type: "command"
 				}
 				{
@@ -192,11 +192,11 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Thank you for travelling with Rat-Air™, we hope you enjoy your flight and complimentary meal!"
+			subtitle: "{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.subtitle}"
 			tasks: [
 				{
 					id: "39CD14D74B05C58F"
-					title: "&d&lThank The Pilot"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.task.4165008145296770447.title}"
 					type: "checkmark"
 				}
 				{
@@ -210,20 +210,20 @@
 					elapsedTime: 600L
 					gameTime: "system"
 					id: "6626A182C339F25F"
-					title: "&6Cooldown"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.task.7360748223976829535.title}"
 					type: "questsadditions:time"
 				}
 			]
-			title: "&6One-Way-Ticket To: &dSakura Dimension"
+			title: "{ftbquests.chapter.6transport__quick_travel.quest7988881443083328591.title}"
 			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["740DD4098893630E"]
 			description: [
-				"&eFor the &olow low&r &eprice of 3500 coins you can experience our world class &o\"All Inclusive\"&r&e cruise to a beautiful paradise island! Say goodbye to worries and &l&oHello To Sunshine!"
-				"&dGot Questions? Contact us at 555-I-Want-a-Cruise-NOW!"
-				"&cNYI"
+				"{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.description1}"
+				"{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.description2}"
+				"{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -249,7 +249,7 @@
 						}
 					}
 					id: "77E5971EFBF6DCEB"
-					title: "&eLoad Baggage"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.reward.8639477619512237291.title}"
 					type: "command"
 				}
 				{
@@ -263,7 +263,7 @@
 						}
 					}
 					id: "669D4DF73D0CEC14"
-					title: "&eKick Back!"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.reward.7394151887488740372.title}"
 					type: "command"
 				}
 				{
@@ -271,55 +271,55 @@
 					command: "/execute in tropicraft:tropics run tp {p} ~ 130 ~"
 					icon: "minecraft:oak_boat"
 					id: "351D6353E92F0AF1"
-					title: "&eDock Safely"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.reward.3827324470380399345.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} {\"text\":\"§6[Ship Captain]§7 We have arrived! We hope you have enjoyed your time with DreamCruise! Please make your way off the ship and to the beach! Enjoy a complimentary Piña colada on us to help get you in the tropical spirit! I've been your captain! Farewell!\",\"color\":\"gold\"}"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.transport_quick_travel.3\",\"color\":\"gold\"}"
 					icon: "supplementaries:cracked_bell"
 					id: "74D271C2C30B27DF"
-					title: "&7Ship Announcment! "
+					title: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.reward.8417915734818760671.title}"
 					type: "command"
 				}
 				{
 					icon: "farmersdelight:basket"
 					id: "32ECDC30471D23E6"
-					title: "&6Complementary Holiday Hamper"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.reward.3669549896309744614.title}"
 					type: "loot"
 				}
 			]
 			secret: true
 			shape: "diamond"
-			subtitle: "Do &lyou&r need a holiday? You &llook&r like you need a holiday!"
+			subtitle: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.subtitle}"
 			tasks: [
 				{
 					id: "683CAD39499157D8"
-					title: "&6&lPAY FOR 1 CRUISE TICKET "
+					title: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.task.7511068740106147800.title}"
 					type: "custom"
 				}
 				{
 					id: "642660295B743904"
-					title: "&dThank The Captain!"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.task.7216561183652067588.title}"
 					type: "checkmark"
 				}
 				{
 					icon: "snailmail:envelope_closed"
 					id: "6E0484E21818805E"
-					title: "&3You've Got Mail! "
+					title: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.task.7927607350680649822.title}"
 					type: "custom"
 				}
 			]
-			title: "&7Junk Mail: &eDreamCruise LTD! "
+			title: "{ftbquests.chapter.6transport__quick_travel.quest3886544566660062457.title}"
 			x: 6.0d
 			y: 7.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"&eTip:&r This will bring you to spawn. It is Fast-Travel."
-				"&6Hint:&r When you complete this quest, you will be automatically transported! &oIt's a fast blimp and Rats make great pilots!"
-				"&dDon't forget to thank the pilot!"
+				"{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.description1}"
+				"{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.description2}"
+				"{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.description3}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -339,7 +339,7 @@
 					elevate_perms: true
 					icon: "sophisticatedbackpacks:backpack"
 					id: "3437F8CD1FA0538C"
-					title: "&eLoading Luggage"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.reward.3762749573573923724.title}"
 					type: "command"
 				}
 				{
@@ -349,7 +349,7 @@
 					elevate_perms: true
 					icon: "immersive_aircraft:gyrodyne"
 					id: "28C1AA62E1A62664"
-					title: "&eTake Off!"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.reward.2936815773691553380.title}"
 					type: "command"
 				}
 				{
@@ -360,8 +360,8 @@
 						id: "rats:blue_cheese"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§b§oThis is the second best airline food you've ever eaten you whisper to yourself..\"}"]
-								Name: "{\"text\":\"§bComplimentary Meal\"}"
+								Lore: ["{\"translate\":\"lore.mce2.transport_quick_travel.3\"}"]
+								Name: "{\"translate\":\"lore.mce2.transport_quick_travel.4\"}"
 							}
 						}
 					}
@@ -369,12 +369,12 @@
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Pilot Mr Whiskers]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" Thank you for flying Rat-Air! We have arrived at our destination! Brace for impact and put on your parachute!\"}]"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.transport_quick_travel.4\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.transport_quick_travel.5\"}]"
 					console: true
 					elevate_perms: true
 					icon: "etched:radio"
 					id: "10BAB3A2DBA1A772"
-					title: "&eAirline Announcement"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.reward.1205473362325907314.title}"
 					type: "command"
 				}
 				{
@@ -390,23 +390,23 @@
 						}
 					}
 					id: "068C089EEF8B20AA"
-					title: "&6Equip Parachute"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.reward.471761539683786922.title}"
 					type: "command"
 				}
 			]
 			shape: "diamond"
-			subtitle: "Thank you for travelling with Rat-Air™, we hope you enjoy your flight and complimentary meal!"
+			subtitle: "{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.subtitle}"
 			tasks: [
 				{
 					id: "38A274064D6BB8FA"
-					title: "&d&lThank The Pilot"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.task.4080951782768621818.title}"
 					type: "checkmark"
 				}
 				{
 					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "45678AF158EBF895"
-					title: "&6Fare"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.task.5001118680401836181.title}"
 					type: "eternalcurrencies:currency"
 				}
 				{
@@ -414,14 +414,14 @@
 					elapsedTime: 120L
 					gameTime: "system"
 					id: "665CA77AD0530702"
-					title: "&6Cooldown"
+					title: "{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.task.7375954435648980738.title}"
 					type: "questsadditions:time"
 				}
 			]
-			title: "&6One-Way-Ticket To: &eSpawn - The Overworld"
+			title: "{ftbquests.chapter.6transport__quick_travel.quest4078673714274517252.title}"
 			x: 1.0357142857142918d
 			y: 3.5535714285714306d
 		}
 	]
-	title: "&6Fast Travel"
+	title: "{ftbquests.chapter.6transport__quick_travel.title}"
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Recall Potions will teleport you back home! You can find them in chests, or if you have access to The Nether you can craft them!"
+    "translate": "tips.mce2.wormhole"
   }
 }

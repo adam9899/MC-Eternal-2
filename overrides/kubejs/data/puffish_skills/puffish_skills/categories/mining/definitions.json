@@ -32,7 +32,7 @@
 				"data": {
 					"attribute": "puffish_attributes:player.mining_speed",
 					"value": 0.03,
-					"operation": "addition"
+					"operation": "multiply_base"
 				}
 			}
 		]

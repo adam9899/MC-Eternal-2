@@ -3,11 +3,7 @@
 	default_quest_shape: ""
 	filename: "3the_great_below"
 	group: "0194595A09DF4755"
-	icon: {
-		Count: 1
-		id: "thegreatbelow:primordial_gem"
-		tag: { }
-	}
+	icon: "thegreatbelow:beam_block"
 	id: "2093117385E8FF1D"
 	images: [
 		{
@@ -132,18 +128,20 @@
 	quests: [
 		{
 			description: [
-				"The Great Below&r... not much is known about this place..."
-				"All I know is &eThe Wither&r is connected to all of this, I would suggest you defeat it and see what you can learn."
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description1}"
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description2}"
 				""
-				"The Quest Book will not be able to advise you until you make the discoveries yourself!"
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description3}"
 				""
-				"Look out for clues and let's uncover the secrets of <shake>&d<shake>THE GREAT BELOW!!!"
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description4}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description5}"
 			]
 			id: "6741B77BBC23A95C"
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/tellraw {p} {\"text\":\"The Wither Heart beats in your hand, making you feel unwell.\",\"italic\":true,\"color\":\"dark_gray\"}"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.the_great_below.1\",\"italic\":true,\"color\":\"dark_gray\"}"
 					console: true
 					icon: {
 						Count: 1
@@ -151,7 +149,7 @@
 						tag: { }
 					}
 					id: "1904176D6494CD17"
-					title: "&8Wither Sickness"
+					title: "{ftbquests.chapter.3the_great_below.quest7440429801458084188.reward.1802591509461388567.title}"
 					type: "command"
 				}
 				{
@@ -167,35 +165,23 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "36703B5E497BDA3C"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			shape: "pentagon"
-			subtitle: "Find a &eWither Heart"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest7440429801458084188.subtitle}"
 			tasks: [{
 				id: "2C1D01CDCE864250"
 				item: {
@@ -205,18 +191,20 @@
 				}
 				type: "item"
 			}]
-			title: "&8Wither Me This"
+			title: "{ftbquests.chapter.3the_great_below.quest7440429801458084188.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6741B77BBC23A95C"]
 			description: [
-				"The corruption from the &eSculk Catalyst&r seems to have turned the &eWither Heart&r into something much more sinister... "
+				"{ftbquests.chapter.3the_great_below.quest2366469661530954902.description1}"
 				""
-				"I can hear whis&kd&rpers... I fe&k3&rel... str&k!&range... "
+				"{ftbquests.chapter.3the_great_below.quest2366469661530954902.description2}"
 				""
-				"We have to push on! <shake>&c<shake>FOR SCIENCE!"
+				"{ftbquests.chapter.3the_great_below.quest2366469661530954902.description3}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2366469661530954902.description4}"
 			]
 			hide_until_deps_complete: true
 			id: "20D7639E7B4A9C96"
@@ -235,35 +223,23 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "50B90EC9FC934F53"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			shape: "pentagon"
-			subtitle: "Find a &eMysterious Object"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest2366469661530954902.subtitle}"
 			tasks: [{
 				id: "7381ACBFBD89DC42"
 				item: {
@@ -273,29 +249,29 @@
 				}
 				type: "item"
 			}]
-			title: "&bFeelings of Dread"
+			title: "{ftbquests.chapter.3the_great_below.quest2366469661530954902.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["20D7639E7B4A9C96"]
 			description: [
-				"The &eAncient City!&r OF COURSE! It all makes sense now... "
-				"But why are we even following its instructions... "
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description1}"
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description2}"
 				""
-				"Have we questioned that yet?"
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description3}"
 				""
-				"I don't know if we should be doing thi-"
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description4}"
 				""
-				"NEVERMIND THAT, ignore my moment of WEA&k2&rKNESS. We WILL co&kf&rmply. "
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description5}"
 				""
-				"We WILL op&k!&ren th&k!&re portal."
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description6}"
 				""
-				"The po&k!&rrtal to &d&l<shake>TH&k!&r&d&l<shake>E GRE&k!&r&d&l<shake>AT BEL&k!&d&l<shake>OW! "
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description7}"
 				""
-				"I think we both know what we need to do next.... "
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description8}"
 				""
-				"&6Hint:&r Make sure you do some tidying around the portal, something tells me it won't activate with all of this sculk growing around it!"
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description9}"
 			]
 			hide_until_deps_complete: true
 			id: "26E27FB78FB855CE"
@@ -314,35 +290,23 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "42FA0794F610ED05"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
-			subtitle: "Locate an &eAncient City"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest2801942344544835022.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -351,7 +315,7 @@
 				}
 				id: "071074176E32A326"
 				structure: "minecraft:ancient_city"
-				title: "Ancient City"
+				title: "{ftbquests.chapter.3the_great_below.quest2801942344544835022.task.509034401874748198.title}"
 				type: "structure"
 			}]
 			x: 6.0d
@@ -360,11 +324,9 @@
 		{
 			dependencies: ["26E27FB78FB855CE"]
 			description: [
-				"&3&oWhat awaits us on the other side? "
+				"{ftbquests.chapter.3the_great_below.quest7081998609126038665.description1}"
 				""
-				"&eTip:&r If you die in The Great Below, you will NOT create a Gravestone. You will be reduced to just another forgotten soul forever lost in The Great Below..."
-				""
-				"&8\"We do not believe in human feelings, nor in human senses, nor human needs, human values, human fears, or even human hopes. The only purpose or belief is the path from the mind to the brain.\""
+				"{ftbquests.chapter.3the_great_below.quest7081998609126038665.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -390,12 +352,12 @@
 					}
 					id: "66BB5BACCA1C4803"
 					silent: true
-					title: "&d???"
+					title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.reward.7402611210196895747.title}"
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw {p} {\"text\":\"The echos of The Great Below contaminate your mind.. Tendrils writhing and wreathing...  Causing you lose touch with reality and giving you a primal fear you cannot fully explain.. You hear it deep within your brain. Your thoughts are not your own and you are not alone..\",\"italic\":true,\"color\":\"aqua\"}"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.the_great_below.2\",\"italic\":true,\"color\":\"aqua\"}"
 					console: true
 					icon: {
 						Count: 1
@@ -404,7 +366,7 @@
 					}
 					id: "01A3CC5570C3085D"
 					ignore_reward_blocking: true
-					title: "&d???"
+					title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.reward.118162682577881181.title}"
 					type: "command"
 				}
 				{
@@ -417,7 +379,7 @@
 						tag: { }
 					}
 					id: "1F2F580CFAE32B29"
-					title: "&d???"
+					title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.reward.2247111551853210409.title}"
 					type: "command"
 				}
 				{
@@ -429,7 +391,7 @@
 						tag: { }
 					}
 					id: "3E57EBE779AB9556"
-					title: "&eUnlock Title:&r of The Great Below"
+					title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.reward.4492318532736619862.title}"
 					type: "command"
 				}
 				{
@@ -454,36 +416,24 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "3D77362817E4AE70"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 1.4d
-			subtitle: "Enter &eThe Great Below"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.subtitle}"
 			tasks: [{
 				dimension: "thegreatbelow:thegreatbelow"
 				icon: {
@@ -492,23 +442,23 @@
 					tag: { }
 				}
 				id: "1F1E155EB340725D"
-				title: "&3Enter The Great Below"
+				title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.task.2242253160955540061.title}"
 				type: "dimension"
 			}]
-			title: "&8From The Mind To The Brain"
+			title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.title}"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"It seems deep down here in &eThe Great Below&r, a strange and alien material has formed."
+				"{ftbquests.chapter.3the_great_below.quest3006543653022302605.description1}"
 				""
-				"Perhaps all of the lost the souls somehow have contributed to its formation, nonetheless we should mine as much of this stuff as possible. "
+				"{ftbquests.chapter.3the_great_below.quest3006543653022302605.description2}"
 				""
-				"It is very durable and dense, this could be the wonder material &mI've&r WE'VE been looking for!"
+				"{ftbquests.chapter.3the_great_below.quest3006543653022302605.description3}"
 				""
-				"Who knows what sort of technology we can create!"
+				"{ftbquests.chapter.3the_great_below.quest3006543653022302605.description4}"
 			]
 			hide_until_deps_complete: true
 			id: "29B96385E819818D"
@@ -526,34 +476,22 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "429F3115A10731F3"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
-			subtitle: "Mine 1x Osmium Ore"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest3006543653022302605.subtitle}"
 			tasks: [{
 				block: "mekanism:deepslate_osmium_ore"
 				block_type: 0
@@ -562,28 +500,28 @@
 				type: "questsadditions:break"
 				value: 1L
 			}]
-			title: "&3The Wonder Material"
+			title: "{ftbquests.chapter.3the_great_below.quest3006543653022302605.title}"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"From translating these &eKnowledge Fragments&r I have learned a great deal of information.."
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description1}"
 				""
-				"Firstly, it seems whoever wrote these manuscripts speak of a &b\"⊣∷ᒷᔑℸ ̣. ʖᒷꖎ𝙹∴\"&r or as we would say"
-				"Great Below.."
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description2}"
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description3}"
 				""
-				"They mention a &b\"ᔑʖ||ᓭᓭ\"&r or an \"Abyss\". "
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description4}"
 				""
-				"They seem to consider The Great Below as some sort of Soul Prison.. or Purgatory for damned souls to be tormented while they await their pilgrimage into &b\"ℸ ̣ ⍑ᒷ. ⊣∷ᒷᔑℸ ̣. ʖᒷ||𝙹リ↸\"&r "
-				"- The Great Beyond.."
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description5}"
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description6}"
 				""
-				"The Warden is mentioned briefly and considered to be a force of nature. "
-				"With the sole purpose of keeping souls contained and removing any outside &b\"⍑⚍ᒲᔑリ\"&r "
-				"- Interlopers."
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description7}"
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description8}"
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description9}"
 				""
-				"Great work! We are &othis much closer&r to uncovering the secrets of life, death and rebirth. "
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description10}"
 			]
 			id: "56B35C1DDC5C2A52"
 			invisible: true
@@ -596,11 +534,11 @@
 						tag: {
 							author: "unknown"
 							pages: [
-								"{\"text\":\"Staring at the sea...\\nWill she come?\\n\\nIs there hope for me?\\nAfter all is said and done..\\n\\nAnything at any price.\\nAll of this is for you..\\n\\nAll the spoils of a wasted life...\\n\\nAll of this for you..\"}"
-								"{\"text\":\"All the world has closed her eyes.\\n\\nTired faith all worn and thin..\\n\\nFor all we could have done..\\n\\nAnd all that could have been.\\n\\nOcean pulls me close..\\n\"}"
-								"{\"text\":\"It whispers in my ear..\\n\\nThe destiny I've chose.\\n\\nAll becoming clear..\\n\\nThe currents have their say..\\n\\nThe time is drawing near..\\n\\nWashes me away...\"}"
-								"{\"text\":\"Makes me disappear.\\n\\nAnd I descend from grace.\\n\\nIn arms of undertow..\\n\\nI will take my place...\\n\\n\\n\\n\\n\\nIN THE GREAT BELOW!\"}"
-								"{\"text\":\"I can still feel you..\\n\\nEven so far away..\\n\"}"
+								"{\"translate\":\"page.mce2.the_great_below.1\"}"
+								"{\"translate\":\"page.mce2.the_great_below.2\"}"
+								"{\"translate\":\"page.mce2.the_great_below.3\"}"
+								"{\"translate\":\"page.mce2.the_great_below.4\"}"
+								"{\"translate\":\"page.mce2.the_great_below.5\"}"
 							]
 							resolved: 1b
 							title: "The Great Below"
@@ -621,34 +559,22 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "10EC17164B7C831E"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
-			subtitle: "Gather Ancient Knowledge Fragments"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest6247438391413844562.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "324E50F6668C179F"
@@ -659,15 +585,15 @@
 				}
 				type: "item"
 			}]
-			title: "&8Lost Knowledge"
+			title: "{ftbquests.chapter.3the_great_below.quest6247438391413844562.title}"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"This item seems to be sculk condensed down into a small flawless orb."
-				"It is quite beautiful... I wonder what we can use it for?"
+				"{ftbquests.chapter.3the_great_below.quest4410541287236254589.description1}"
+				"{ftbquests.chapter.3the_great_below.quest4410541287236254589.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "3D3563EEC4E93B7D"
@@ -686,27 +612,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -718,7 +627,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find a &eSculk Pearl"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest4410541287236254589.subtitle}"
 			tasks: [{
 				id: "62FBD4F6497D5652"
 				item: {
@@ -728,18 +637,18 @@
 				}
 				type: "item"
 			}]
-			title: "&bSculked Up"
+			title: "{ftbquests.chapter.3the_great_below.quest4410541287236254589.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"It is said when a soul finally escapes The Great Below and ascends to The Great Beyond, they hear the most beautiful symphony ever created.."
+				"{ftbquests.chapter.3the_great_below.quest6971832541181744625.description1}"
 				""
-				"Whoever was trapped down here has clearly tried to recreate it... "
+				"{ftbquests.chapter.3the_great_below.quest6971832541181744625.description2}"
 				""
-				"Well to the best of their mortal ability.."
+				"{ftbquests.chapter.3the_great_below.quest6971832541181744625.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -758,36 +667,24 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "625C37A3E275F2AB"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			secret: true
 			shape: "octagon"
-			subtitle: "Find the rare music disc &e\"Gone\""
+			subtitle: "{ftbquests.chapter.3the_great_below.quest6971832541181744625.subtitle}"
 			tasks: [{
 				id: "6D506A73B0C02772"
 				item: {
@@ -797,17 +694,17 @@
 				}
 				type: "item"
 			}]
-			title: "&dThe Final Echo"
+			title: "{ftbquests.chapter.3the_great_below.quest6971832541181744625.title}"
 			x: 3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"So it seems regular old Night Vision just doesn't cut it here..."
-				"We will have to get creative! Craft one of these and see if we can adapt!"
+				"{ftbquests.chapter.3the_great_below.quest3654542305767777682.description1}"
+				"{ftbquests.chapter.3the_great_below.quest3654542305767777682.description2}"
 				""
-				"&6Hint:&r You can combine your Echo Location Device with a Precision Mechanism to control when the ability activates with a keybind! (By default K)"
+				"{ftbquests.chapter.3the_great_below.quest3654542305767777682.description3}"
 			]
 			id: "32B78ADD4FECE592"
 			rewards: [
@@ -824,34 +721,22 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "15443BDF0B20B544"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
-			subtitle: "Craft a &eEcho Location Device"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest3654542305767777682.subtitle}"
 			tasks: [{
 				id: "2BDED14454E034BC"
 				item: {
@@ -870,10 +755,10 @@
 			can_repeat: true
 			dependencies: ["6741B77BBC23A95C"]
 			description: [
-				"Did you lose your &dWither Heart&r?"
-				"Well lucky for you I can return it to you for 10 Levels of XP!"
+				"{ftbquests.chapter.3the_great_below.quest198991247268647306.description1}"
+				"{ftbquests.chapter.3the_great_below.quest198991247268647306.description2}"
 				""
-				"This is only relevant if you lost your &dWither Heart!"
+				"{ftbquests.chapter.3the_great_below.quest198991247268647306.description3}"
 			]
 			hide_until_deps_complete: true
 			id: "02C2F57C2EDC118A"
@@ -883,14 +768,14 @@
 				item: "kubejs:mobdrop_endermanheart_beating"
 				type: "item"
 			}]
-			subtitle: "&6Lost and Found!"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest198991247268647306.subtitle}"
 			tasks: [{
 				id: "27FCD3243B62E668"
 				points: false
 				type: "xp"
 				value: 10L
 			}]
-			title: "&dDid You Lose Your Wither Heart?"
+			title: "{ftbquests.chapter.3the_great_below.quest198991247268647306.title}"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -898,10 +783,10 @@
 			can_repeat: true
 			dependencies: ["20D7639E7B4A9C96"]
 			description: [
-				"Did you lose your &dMysterious Object&r?"
-				"Well lucky for you I can return it to you for 10 Levels of XP!"
+				"{ftbquests.chapter.3the_great_below.quest6775160473424327599.description1}"
+				"{ftbquests.chapter.3the_great_below.quest6775160473424327599.description2}"
 				""
-				"This is only relevant if you lost your &dMysterious Object!"
+				"{ftbquests.chapter.3the_great_below.quest6775160473424327599.description3}"
 			]
 			hide_until_deps_complete: true
 			id: "5E06348DE2B973AF"
@@ -911,25 +796,25 @@
 				item: "kubejs:artifact_beating_heart"
 				type: "item"
 			}]
-			subtitle: "&6Lost and Found!"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest6775160473424327599.subtitle}"
 			tasks: [{
 				id: "0AD6B8811FF6A343"
 				points: false
 				type: "xp"
 				value: 10L
 			}]
-			title: "&dDid You Lose Your Mysterious Object?"
+			title: "{ftbquests.chapter.3the_great_below.quest6775160473424327599.title}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"The Warden Distraction-ator can be used to distract an angry warden!"
-				"This device will come in handy in The Great Below, where Wardens &ncannot be killed!"
+				"{ftbquests.chapter.3the_great_below.quest2999565740627604691.description1}"
+				"{ftbquests.chapter.3the_great_below.quest2999565740627604691.description2}"
 				""
-				"We're gonna need to be sneaky down here and try our best to evade them!"
-				"But we have this item in case of &d<shake>EMERGENCY!"
+				"{ftbquests.chapter.3the_great_below.quest2999565740627604691.description3}"
+				"{ftbquests.chapter.3the_great_below.quest2999565740627604691.description4}"
 			]
 			id: "29A09926128A34D3"
 			rewards: [
@@ -946,34 +831,22 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
 					type: "item"
 				}
+				{
+					id: "18303C2DB4D335FF"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
-			subtitle: "Craft a Warden Distraction-ator"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest2999565740627604691.subtitle}"
 			tasks: [{
 				id: "101B31978D123BF4"
 				item: "thegreatbelow:warden_distractor_item"
@@ -985,14 +858,14 @@
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"As I'm sure you've noticed, your Mini-Map and World-Map are not working down here..."
-				"There is some sort of dark magic at play..."
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description1}"
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description2}"
 				""
-				"We will need to rely on older methods of navigation!"
-				"Craft a &eSplice Map&r it allows us to map The Great Below!"
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description3}"
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description4}"
 				""
-				"&6Hint:&r You can also use a &dLodestone&r to ensure you never lose the portal!"
-				"Use a &eCompass&r on the Lodestone to bind it! This Compass will always point to the Lodestone!"
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description5}"
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description6}"
 			]
 			id: "38332FE4C4174F95"
 			rewards: [
@@ -1008,17 +881,131 @@
 					item: "minecraft:lodestone"
 					type: "item"
 				}
+				{
+					id: "78A075E2E5F1B4EF"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
-			subtitle: "Craft a &eSlice Map"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest4049633149525118869.subtitle}"
 			tasks: [{
 				id: "60A1E0B66AB65454"
 				item: "supplementaries:slice_map"
 				type: "item"
 			}]
-			title: "&dLost and Afraid!"
+			title: "{ftbquests.chapter.3the_great_below.quest4049633149525118869.title}"
 			x: 2.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: ["{ftbquests.chapter.3the_great_below.quest5808195703244842872.description1}"]
+			id: "509ADB380DDBE778"
+			rewards: [
+				{
+					id: "07FA7BF10EF3B51F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77374A00404E7B97"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2EEA198911C5F495"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest5808195703244842872.subtitle}"
+			tasks: [{
+				id: "05E9371B8096D8D4"
+				item: "blighted_beasts:beckon"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest5808195703244842872.title}"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest7826939557932270969.description1}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest7826939557932270969.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest7826939557932270969.description3}"
+				"{ftbquests.chapter.3the_great_below.quest7826939557932270969.description4}"
+			]
+			id: "6C9EE00F1D018579"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					amount: 1500L
+					currency: "eternalcurrencies:coins"
+					id: "7CAC9C1AEBFA2BDA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:soulreaver"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "214ABD66F913EFAD"
+					title: "{ftbquests.chapter.3the_great_below.quest7826939557932270969.reward.2398938001491357613.title}"
+					type: "command"
+				}
+				{
+					count: 8
+					id: "14A036051C9A28BA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4CCCFD4D465D4D58"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest7826939557932270969.subtitle}"
+			tasks: [{
+				id: "6A3A5BDC13E1510A"
+				item: {
+					Count: 1
+					id: "thegreatbelow:soul_reaver_axe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest7826939557932270969.title}"
+			x: 3.0d
+			y: 9.0d
+		}
 	]
-	title: "&3The Great Below &6☆☆☆"
+	title: "{ftbquests.chapter.3the_great_below.title}"
 }

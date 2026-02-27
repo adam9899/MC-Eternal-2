@@ -1,0 +1,10 @@
+{
+  "title": {
+    "translate": "tips.mce2.title",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "translate": "tips.mce2.greatbelowmap"
+  }
+}

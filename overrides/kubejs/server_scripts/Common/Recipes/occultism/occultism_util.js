@@ -63,3 +63,14 @@ const occultismJobSpiritRitual = (event, spiritJob, summonEntity, dummy, pentacl
     }
     return occultismRitual(event, Item.of(occultismDummyNone), pentacle, central, duration, inputs, mergedData);
 }
+
+const occultismMinerResult = (event, result, input, weight) => {
+    let recipe = {
+        type: "occultism:miner",
+        result: result,
+        ingredient: input,
+        weight: weight
+    }
+    
+    return event.custom(recipe)
+}

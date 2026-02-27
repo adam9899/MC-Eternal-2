@@ -20,7 +20,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "aquaculture:neptunium_nugget",
-      "Count": 1
+      "count": 1
     }
   }
             ],
@@ -50,7 +50,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "aquaculture:neptunium_nugget",
-      "Count": 1
+      "count": 1
     }
   },
      {
@@ -104,7 +104,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "aquaculture:neptunium_nugget",
-      "Count": 8
+      "count": 8
     }
   }
             ],
@@ -154,7 +154,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "aquaculture:neptunium_ingot",
-      "Count": 1
+      "count": 1
     }
   }
             ],
@@ -208,7 +208,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "cataclysm:lacrima",
-      "Count": 3
+      "count": 3
     }
   }
             ],
@@ -274,7 +274,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "cataclysm:essence_of_the_storm",
-      "Count": 1
+      "count": 1
     }
   }
             ],
@@ -288,7 +288,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "aquaculture:neptunium_block",
-      "Count": 1
+      "count": 1
     }
   },
      {

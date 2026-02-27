@@ -1,0 +1,196 @@
+{
+  "general": {
+    "action": "ntgl:gun",
+    "fireMode": ["ntg:semi", "ntgl:multi"],
+    "gripType": "ntgl:bazooka",
+    "category": "heavy",
+    "rate": 4,
+    "maxAmmo": 3,
+    "equipTime": 15,
+    "reloadTime": 90,
+    "recoilAngle": -0.1,
+    "alwaysSpread": true,
+    "enchantable": false,
+    "projectileAmount": 1,
+    "multishotAmount": 4,
+    "spread": 3.0,
+    "ammo": [
+      "cgs:rocket"
+    ]
+  },
+  "modes": {
+    "ntgl:secondary": {
+      "general": {
+        "action": "ntgl:scope"
+      },
+      "zoom": {
+        "offset": [ -5, 2.7, -0.5],
+        "fovModifier": 0.7
+      }
+    },
+    "ntgl:additional": {
+      "general": {
+        "action": "ntgl:none"
+      },
+      "melee": {
+        "mode": "ntgl:single",
+        "damage": 12,
+        "delay": 6,
+        "cooldown": 6,
+        "distance": 5,
+        "angle": 40,
+        "maxTargets": 1,
+        "knockback": 0.3
+      }
+    }
+  },
+  "melee": {
+    "mode": "ntgl:single",
+    "damage": 12,
+    "delay": 6,
+    "cooldown": 6,
+    "distance": 5,
+    "angle": 40,
+    "maxTargets": 1,
+    "knockback": 0.3
+  },
+  "ammoData": {
+    "cgs:rocket": {
+      "ammo": {
+        "type": "ntgl:missile"
+      },
+      "projectile":{
+        "projectile": "cgs:rocket",
+        "damageType": "ntgl:explosive",
+        "visible": true,
+        "damage": 5.0,
+        "size": 4.0,
+        "speed": 4.0,
+        "life": 1200,
+
+        "explosion": {
+          "damage": 50,
+          "radius": 4,
+          "knockback": 1.0,
+          "destroyBlocks": true
+        }
+      }
+    },
+    "cgs:rocket_small": {
+      "ammo": {
+        "type": "cgs:small_rocket"
+      },
+      "projectile":{
+        "projectile": "cgs:small_rocket",
+        "damageType": "ntgl:explosive",
+        "visible": true,
+        "damage": 1.0,
+        "size": 4.0,
+        "speed": 8.0,
+        "life": 120,
+
+        "explosion": {
+          "damage": 15,
+          "radius": 3,
+          "knockback": 0.1
+        }
+      }
+    },
+    "cgs:spear": {
+      "ammo": {
+        "type": "cgs:spear"
+      },
+      "projectile":{
+        "projectile": "cgs:spear",
+        "visible": true,
+        "gravity": true,
+        "affectedByFluid": false,
+        "damage": 50.0,
+        "size": 4.0,
+        "speed": 5.0,
+        "life": 1200
+      }
+    }
+  },
+  "fuel": {
+    "cgs:air":{
+      "max": 900,
+      "amountPerUse": 5,
+      "mandatory": false,
+      "ammo": {
+        "type": "cgs:air"
+      }
+    }
+  },
+  "animations": {
+    "ntgl:reload": "cgs:launcher_reload"
+  },
+  "sounds": {
+    "fire": "cgs:gun.launcher.fire",
+    "boltopen": "cgs:gun.launcher.boltopen",
+    "equip": "cgs:gun.launcher.equip",
+    "magin": "cgs:gun.launcher.magin",
+    "magout": "cgs:gun.launcher.magout",
+    "magin_mini": "cgs:gun.launcher.magin_mini",
+    "magout_mini": "cgs:gun.launcher.magout_mini"
+  },
+  "modules": {
+
+    "attachments": {
+      "ntgl:scope": [
+        {
+          "name": "scope",
+          "item": "cgs:scope",
+          "offset": [ 0, 0, 0]
+        }
+      ],
+      "ntgl:muzzle": [
+        {
+          "name": "melee",
+          "item": "cgs:big_bayonet",
+          "hide": [
+            "ballista_handle"
+          ]
+        }
+      ],
+      "ntgl:magazine": [
+        {
+          "name": "rocket_container",
+          "item": "cgs:rocket_container",
+          "hide": [
+            "container_quadro"
+          ]
+        },
+        {
+          "name": "auto_launcher",
+          "item": "cgs:launcher_auto",
+          "hide": [
+            "container"
+          ]
+        },
+        {
+          "name": "ballistazooka",
+          "item": "cgs:ballistazooka",
+          "hide": [
+            "front",
+            "back",
+            "container"
+          ]
+        },
+        {
+          "name": "grappling_hook",
+          "item": "cgs:grappling_hook",
+          "hide": [
+            "container"
+          ]
+        },
+        {
+          "name": "item_launcher",
+          "item": "cgs:item_launcher",
+          "hide": [
+            "container"
+          ]
+        }
+      ]
+    }
+  }}

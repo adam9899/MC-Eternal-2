@@ -5,7 +5,6 @@
     "effects": "minecraft:overworld",
     "has_ceiling": false,
     "has_raids": false,
-    "fixed_time": 100,
     "has_skylight": true,
     "height": 384,
     "infiniburn": "#minecraft:infiniburn_overworld",
@@ -20,7 +19,7 @@
         "min_inclusive": 0
       }
     },
-    "natural": false,
+    "natural": true,
     "piglin_safe": false,
     "respawn_anchor_works": false,
     "ultrawarm": false

@@ -1,9 +1,9 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rats"
 	group: "6ACD28698B988220"
+	icon: "rats:trash_can"
 	id: "42E60799F4AECBB9"
 	images: [
 		{
@@ -12,7 +12,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			height: 1.0d
@@ -43,23 +43,23 @@
 			image: "rats:item/cheese"
 			rotation: 33.0d
 			width: 0.6d
-			x: -0.7499999999999929d
-			y: 3.4464285714285694d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			height: 0.6d
 			image: "rats:item/cheese"
 			rotation: -88.0d
 			width: 0.6d
-			x: 2.535714285714292d
-			y: 2.2678571428571423d
+			x: -0.9d
+			y: 4.0d
 		}
 		{
 			height: 0.6d
 			image: "rats:item/cheese"
 			rotation: 33.0d
 			width: 0.6d
-			x: 2.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -68,7 +68,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -78,12 +78,105 @@
 			x: 1.2452380952381077d
 			y: 0.934523809523796d
 		}
+		{
+			height: 0.6d
+			image: "rats:item/cheese"
+			rotation: -88.0d
+			width: 0.6d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/cheese"
+			rotation: 33.0d
+			width: 0.6d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			height: 13.0d
+			image: "modpack:textures/cheesescroll.png"
+			rotation: 90.0d
+			width: 10.0d
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			height: 13.0d
+			image: "modpack:textures/cheesescroll.png"
+			rotation: 90.0d
+			width: 10.0d
+			x: -5.95d
+			y: 8.05d
+		}
+		{
+			height: 4.0d
+			image: "rats:block/block_of_nether_cheese"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "dialog:textures/portraits/barry_love.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "rats:textures/thaumcraft_rat_icon.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/thaumcraft_rat_flip.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/blue_cheese"
+			order: 1
+			rotation: 25.0d
+			width: 0.6d
+			x: 8.5d
+			y: 5.1d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/nether_cheese"
+			rotation: 33.0d
+			width: 0.6d
+			x: -1.5d
+			y: 1.2d
+		}
 	]
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{chapter.15.quest.69.description.1}"]
+			description: [
+				"{ftbquests.chapter.rats.quest5474526212739684653.description1}"
+				"{ftbquests.chapter.rats.quest5474526212739684653.description2}"
+			]
 			hide_dependency_lines: true
 			id: "4BF96C95CFE9D92D"
 			rewards: [
@@ -100,7 +193,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.15.quest.69.subtitle}"
+			subtitle: "{ftbquests.chapter.rats.quest5474526212739684653.subtitle}"
 			tasks: [
 				{
 					id: "2EB66AAD8E0A6C6A"
@@ -117,7 +210,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["{chapter.15.quest.70.description.1}"]
+			description: ["{ftbquests.chapter.rats.quest5205940490396677381.description1}"]
 			id: "483F374B33EAB505"
 			rewards: [{
 				amount: 50L
@@ -126,7 +219,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.15.quest.70.subtitle}"
+			subtitle: "{ftbquests.chapter.rats.quest5205940490396677381.subtitle}"
 			tasks: [{
 				id: "633A34E9333CF014"
 				item: "rats:auto_curdler"
@@ -136,15 +229,18 @@
 			y: 1.0d
 		}
 		{
-			description: ["{chapter.15.quest.113.description.1}"]
+			description: ["{ftbquests.chapter.rats.quest3773881629445084074.description1}"]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "rats:rat"
+					DisplayMobScale: 2
+				}
+			}
 			id: "345F8558DB7253AA"
 			rewards: [
-				{
-					id: "25DF0DCC8F5D8B49"
-					item: "rats:rat_sack"
-					type: "item"
-				}
 				{
 					amount: 50L
 					currency: "eternalcurrencies:coins"
@@ -153,31 +249,46 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
+					id: "7A4CF8EE6D992835"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
-					id: "7375BCB2E600DCFF"
+					id: "77C5DFF1A929E4EB"
 					table_id: 2644483923066781056L
 					type: "random"
 				}
 			]
 			shape: "heart"
-			subtitle: "{chapter.15.quest.113.subtitle}"
+			subtitle: "{ftbquests.chapter.rats.quest3773881629445084074.subtitle}"
 			tasks: [{
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
 				icon: "rats:cheese"
 				id: "0773FC5376E06CFB"
-				title: "{chapter.15.quest.113.task.1.title}"
+				title: "{ftbquests.chapter.rats.quest3773881629445084074.task.537050215994125563.title}"
 				type: "advancement"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			description: [
-				"Wild Rats can sometimes spawn near your crops! They are very crafty.. and hungry!!"
-				"They will eat all they can and even burrow through wood/dirt to steal food from chests!"
+				"{ftbquests.chapter.rats.quest227638523206836574.description1}"
+				"{ftbquests.chapter.rats.quest227638523206836574.description2}"
 				""
-				"Behold! The humble Rat Trap! Place or two of these around your farm and food storage to scare off those no good wild rats! "
+				"{ftbquests.chapter.rats.quest227638523206836574.description3}"
 			]
 			id: "0328BC07E0F0215E"
 			rewards: [{
@@ -187,15 +298,2248 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eRat Trap"
+			subtitle: "{ftbquests.chapter.rats.quest227638523206836574.subtitle}"
 			tasks: [{
 				id: "4F263B92FD679E39"
 				item: "rats:rat_trap"
 				type: "item"
 			}]
 			x: 1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rats.quest383653276388428297.description1}"
+				"{ftbquests.chapter.rats.quest383653276388428297.description2}"
+			]
+			icon: "rats:trash_can"
+			id: "0553029F480C0A09"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "250268C3A0B8BA4A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 16
+					id: "3B89378F841AC2C8"
+					item: "rats:cheese"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rats.quest383653276388428297.subtitle}"
+			tasks: [{
+				id: "2AFA20615DB76818"
+				item: "rats:trash_can"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest383653276388428297.title}"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rats.quest6604253114818947630.description1}"
+				"{ftbquests.chapter.rats.quest6604253114818947630.description2}"
+				"{ftbquests.chapter.rats.quest6604253114818947630.description3}"
+				""
+				"{ftbquests.chapter.rats.quest6604253114818947630.description4}"
+			]
+			icon: "rats:party_hat"
+			id: "5BA70537938CEA2E"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "5B952DD693837DB7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "4CCE04DBE6AD45FA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rats.quest6604253114818947630.subtitle}"
+			tasks: [
+				{
+					advancement: "rats:all_hats"
+					criterion: ""
+					id: "027B26D004727F50"
+					type: "advancement"
+				}
+				{
+					id: "3BBB337C45ECACD8"
+					item: "rats:chef_toque"
+					type: "item"
+				}
+				{
+					id: "415540CE7E260096"
+					item: {
+						Count: 1
+						id: "rats:piper_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "436CCB90194D6CA7"
+					item: "rats:archeologist_hat"
+					type: "item"
+				}
+				{
+					id: "241FF187386C4B5A"
+					item: "rats:farmer_hat"
+					type: "item"
+				}
+				{
+					id: "52EE39E4F720F3D7"
+					item: "rats:fisherman_hat"
+					type: "item"
+				}
+				{
+					id: "6D7B4CAAEC6850CB"
+					item: "rats:rat_fez"
+					type: "item"
+				}
+				{
+					id: "4A91F629CDD88450"
+					item: "rats:top_hat"
+					type: "item"
+				}
+				{
+					id: "0F9ECC2DF6FD535F"
+					item: "rats:santa_hat"
+					type: "item"
+				}
+				{
+					id: "341AB7C777ABE6B9"
+					item: "rats:halo_hat"
+					type: "item"
+				}
+				{
+					id: "7ADD83521C5732EE"
+					item: "rats:party_hat"
+					type: "item"
+				}
+				{
+					id: "637CA3DB74BD5DC2"
+					item: "rats:pirat_hat"
+					type: "item"
+				}
+				{
+					id: "288B62A3A7B3C4AF"
+					item: "rats:rat_king_crown"
+					type: "item"
+				}
+				{
+					id: "54F8C5A994422D13"
+					item: "rats:aviator_hat"
+					type: "item"
+				}
+				{
+					id: "167182597253FAF1"
+					item: "rats:ghost_pirat_hat"
+					type: "item"
+				}
+				{
+					id: "7A5B65FA85FE3007"
+					item: "rats:military_hat"
+					type: "item"
+				}
+				{
+					id: "63076AEE38B9FF48"
+					item: "rats:exterminator_hat"
+					type: "item"
+				}
+				{
+					id: "3B2A07D45B49FD7E"
+					item: {
+						Count: 1
+						id: "rats:plague_doctor_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "064C2848979BE997"
+					item: {
+						Count: 1
+						id: "rats:black_death_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rats.quest6604253114818947630.title}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: ["{ftbquests.chapter.rats.quest7578274326662658041.description1}"]
+			hide_until_deps_complete: true
+			id: "692B70594330B7F9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "428C11B33DCCA72E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest7578274326662658041.subtitle}"
+			tasks: [{
+				id: "6E7AB11141A8254E"
+				item: "rats:rat_cage"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest7578274326662658041.title}"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["692B70594330B7F9"]
+			description: [
+				"{ftbquests.chapter.rats.quest6202975993963987592.description1}"
+				"{ftbquests.chapter.rats.quest6202975993963987592.description2}"
+			]
+			id: "561565CD3E7FC288"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7EA4408DF000BC5D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "52A53AE26612D39F"
+				item: "rats:rat_breeding_lantern"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692B70594330B7F9"]
+			description: [
+				"{ftbquests.chapter.rats.quest7067916972433732491.description1}"
+				"{ftbquests.chapter.rats.quest7067916972433732491.description2}"
+			]
+			id: "62164909FBDDF38B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "45199AE68D9BD012"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest7067916972433732491.subtitle}"
+			tasks: [{
+				id: "3D0A4FACE336F062"
+				item: "rats:rat_wheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: [
+				"{ftbquests.chapter.rats.quest9087011606224736487.description1}"
+				""
+				"{ftbquests.chapter.rats.quest9087011606224736487.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "7E1B8CE92AE090E7"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "749E9E8F95248362"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 9L
+					id: "50F89AEB7C797826"
+					item: "rats:filth"
+					type: "item"
+				}
+				{
+					id: "7505624043A35BCD"
+					item: "rats:filth_corruption"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rats.quest9087011606224736487.title}"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E1B8CE92AE090E7"]
+			description: ["{ftbquests.chapter.rats.quest8341346134230121808.description1}"]
+			hide_until_deps_complete: true
+			icon: "rats:rat_king_crown"
+			id: "73C26A1D5F5D3D50"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "0659AD3AA73D96BB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "47504B5E1DC481B7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "120A29A5B8ADECA5"
+					table_id: 2644483923066781056L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.rats.quest8341346134230121808.subtitle}"
+			tasks: [{
+				advancement: "rats:defeat_rat_king"
+				criterion: ""
+				id: "5F7DA32A3FA7CF35"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.rats.quest8341346134230121808.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0553029F480C0A09"]
+			description: [
+				"{ftbquests.chapter.rats.quest1340892166020292036.description1}"
+				""
+				"{ftbquests.chapter.rats.quest1340892166020292036.description2}"
+				""
+				"{ftbquests.chapter.rats.quest1340892166020292036.description3}"
+			]
+			id: "129BCE5215BE5DC4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "25314CEACCC428BE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 8
+					id: "426075F1FAB0C0DE"
+					item: "rats:cheese"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rats.quest1340892166020292036.subtitle}"
+			tasks: [{
+				id: "4E8F4E720243FA8B"
+				item: "rats:garbage_pile"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rats.quest6533331778497810392.description1}"
+				"{ftbquests.chapter.rats.quest6533331778497810392.description2}"
+				"{ftbquests.chapter.rats.quest6533331778497810392.description3}"
+			]
+			id: "5AAB0EA331220FD8"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "073DF23466C9DE21"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "126E8D7EF63FD48A"
+					item: "rats:rat_flute"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6D9545BE78283352"
+					item: "rats:cheese_stick"
+					type: "item"
+				}
+				{
+					id: "4F0DFEFBE997DE7D"
+					item: "rats:radius_stick"
+					type: "item"
+				}
+				{
+					id: "3DF324BB6990E28C"
+					item: "rats:patrol_stick"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rats.quest6533331778497810392.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: ["{ftbquests.chapter.rats.quest5832590010567319761.description1}"]
+			hide_until_deps_complete: true
+			id: "50F185B6545B60D1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5815D156791B0F9C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest5832590010567319761.subtitle}"
+			tasks: [
+				{
+					id: "7FF58EF0C5C48D9F"
+					item: "rats:plastic_waste"
+					type: "item"
+				}
+				{
+					id: "149F5BB9221047CA"
+					item: "rats:raw_plastic"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rats.quest5832590010567319761.title}"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"{ftbquests.chapter.rats.quest2508906647623005804.description1}"
+				"{ftbquests.chapter.rats.quest2508906647623005804.description2}"
+				"{ftbquests.chapter.rats.quest2508906647623005804.description3}"
+				"{ftbquests.chapter.rats.quest2508906647623005804.description4}"
+			]
+			hide_until_deps_complete: true
+			id: "22D16D4DA22F766C"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5BD6237009BCA7EA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest2508906647623005804.subtitle}"
+			tasks: [{
+				id: "74825A05A9840A56"
+				item: "rats:rat_upgrade_carrat"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest2508906647623005804.title}"
+			x: 8.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["345F8558DB7253AA"]
+			description: [
+				"{ftbquests.chapter.rats.quest2093066631418245747.description1}"
+				"{ftbquests.chapter.rats.quest2093066631418245747.description2}"
+				""
+				"{ftbquests.chapter.rats.quest2093066631418245747.description3}"
+			]
+			hide_dependency_lines: true
+			id: "1D0C110300E87273"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "2393AC33305D8271"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "37474EDDB4E81057"
+				item: "rats:rat_upgrade_basic"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest2093066631418245747.title}"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"50F185B6545B60D1"
+				"692B70594330B7F9"
+			]
+			description: ["{ftbquests.chapter.rats.quest3973350187717695008.description1}"]
+			id: "37242CF1AB251620"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "2DB90E80D5A04163"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest3973350187717695008.subtitle}"
+			tasks: [
+				{
+					id: "5F036A9437751691"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rats:hammocks"
+						}
+					}
+					title: "{ftbquests.chapter.rats.quest3973350187717695008.task.6846433043351410321.title}"
+					type: "item"
+				}
+				{
+					id: "272FA3329A9A9376"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rats:igloos"
+						}
+					}
+					title: "{ftbquests.chapter.rats.quest3973350187717695008.task.2823654929122104182.title}"
+					type: "item"
+				}
+				{
+					id: "04C1F9B49AC9C696"
+					item: "rats:rat_seed_bowl"
+					type: "item"
+				}
+				{
+					id: "4F18EDB4A21E5B0B"
+					item: "rats:rat_water_bottle"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rats.quest3973350187717695008.title}"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"{ftbquests.chapter.rats.quest4018331349832384671.description1}"
+				"{ftbquests.chapter.rats.quest4018331349832384671.description2}"
+			]
+			id: "37C3FB129893409F"
+			optional: true
+			rewards: [{
+				amount: 350L
+				currency: "eternalcurrencies:coins"
+				id: "5F32D7BB0A656866"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest4018331349832384671.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "1E9996BBE91110BC"
+				item: "rats:block_of_cheese"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest4018331349832384671.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: [
+				"{ftbquests.chapter.rats.quest2957272073827995254.description1}"
+				"{ftbquests.chapter.rats.quest2957272073827995254.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "290A574868B34E76"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "5BC3E259BD2022B8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5C57091AECD6F859"
+				item: "rats:plague_tome"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["290A574868B34E76"]
+			description: [
+				"{ftbquests.chapter.rats.quest371073441252096560.description1}"
+				"{ftbquests.chapter.rats.quest371073441252096560.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "052651542B69BA30"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "3FF534B6C1AC1DD1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "04DE6DC1A53B0471"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28AD491D415F9820"
+					table_id: 2644483923066781056L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.rats.quest371073441252096560.subtitle}"
+			tasks: [{
+				advancement: "rats:black_death"
+				criterion: ""
+				id: "63187647FECA5A4C"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.rats.quest371073441252096560.title}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"{ftbquests.chapter.rats.quest5646989522284384857.description1}"
+				"{ftbquests.chapter.rats.quest5646989522284384857.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "4E5E230D2E1D1259"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "28983BE95D313F2E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "17779EC6F812BBCF"
+				item: "rats:rat_upgrade_fisherman"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest5646989522284384857.title}"
+			x: 6.8d
+			y: 6.0d
+		}
+		{
+			description: ["{ftbquests.chapter.rats.quest1149339663762163965.description1}"]
+			id: "0FF34655B0CF88FD"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "038E392CC7F03DAC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest1149339663762163965.subtitle}"
+			tasks: [{
+				id: "2664D2CECF2E0C4D"
+				item: "rats:ratbow_essence"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest1149339663762163965.title}"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["{ftbquests.chapter.rats.quest5305121412565509503.description1}"]
+			hide_until_deps_complete: true
+			id: "499F93D12649257F"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "53F2F642771DFB6F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "062E95281FA8D789"
+				item: "rats:rat_upgrade_basic_mount"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest5305121412565509503.title}"
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["{ftbquests.chapter.rats.quest2768532967965735537.description1}"]
+			id: "266BCE10E88E3A71"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7A22AEF0F4C6D43B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "23BC0D431685477D"
+				item: "rats:rat_upgrade_chicken_mount"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest2768532967965735537.title}"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["{ftbquests.chapter.rats.quest777369355454437203.description1}"]
+			id: "0AC9C54F6322D753"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6291AE1D39C358F8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "00501BEABA0C9645"
+				item: "rats:rat_upgrade_golem_mount"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest777369355454437203.title}"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["{ftbquests.chapter.rats.quest2505336495667820064.description1}"]
+			id: "22C4BE44DB1A3620"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "292541CF4F317DF8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "01961A66C503FFE4"
+				item: "rats:rat_upgrade_strider_mount"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest2505336495667820064.title}"
+			x: 10.8d
+			y: 6.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["{ftbquests.chapter.rats.quest3623697649065109852.description1}"]
+			id: "3249F5D009F1A95C"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "178765DF0BD0E7E6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "51B80163D506762B"
+				item: "rats:rat_upgrade_beast_mount"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest3623697649065109852.title}"
+			x: 10.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["{ftbquests.chapter.rats.quest2496045569178766323.description1}"]
+			id: "22A3BC3876168BF3"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1C3EEB55D1074067"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "62495A18237F029D"
+				item: "rats:rat_upgrade_automaton_mount"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest2496045569178766323.title}"
+			x: 10.8d
+			y: 7.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["{ftbquests.chapter.rats.quest5322160971472889382.description1}"]
+			id: "49DC1D349E16E626"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7569F49AFAB8B84B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "4ED6092980B4F5BE"
+				item: "rats:rat_upgrade_biplane_mount"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest5322160971472889382.title}"
+			x: 10.8d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EB2FD5E07A7A312"]
+			description: [
+				"{ftbquests.chapter.rats.quest2874566068043347942.description1}"
+				"{ftbquests.chapter.rats.quest2874566068043347942.description2}"
+			]
+			hide_until_deps_visible: true
+			id: "27E4829BD91D77E6"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "500CDDF02D3C09FA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1F5A8B03B77A8F97"
+				item: "rats:rat_upgrade_milker"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest2874566068043347942.title}"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"{ftbquests.chapter.rats.quest7307561193069673652.description1}"
+				"{ftbquests.chapter.rats.quest7307561193069673652.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "6569AC301F58FCB4"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "54F7D265FB2CC467"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2546A146B995015C"
+				item: "rats:rat_upgrade_breeder"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest7307561193069673652.title}"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["{ftbquests.chapter.rats.quest6767960656258533022.description1}"]
+			hide_until_deps_complete: true
+			id: "5DECA05BD21C069E"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "329A37167367C567"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "53A85A8F8AC9D4FC"
+				item: "rats:rat_upgrade_lumberjack"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6767960656258533022.title}"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"{ftbquests.chapter.rats.quest8152462563459366678.description1}"
+				"{ftbquests.chapter.rats.quest8152462563459366678.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "71235D8203AA7F16"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4D20F39FFB3F6F95"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6A9B8A52AC810961"
+				item: "rats:rat_upgrade_chef"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest8152462563459366678.title}"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71235D8203AA7F16"]
+			description: [
+				"{ftbquests.chapter.rats.quest6854313846264139586.description1}"
+				"{ftbquests.chapter.rats.quest6854313846264139586.description2}"
+			]
+			id: "5F1F6A20A19D8F42"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "34E95C072FCABD75"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A495CD822E9408A"
+					table_id: 1000697171934557785L
+					type: "random"
+				}
+				{
+					id: "37668D2AD742F809"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "7715DC8D1E6813AE"
+					item: "rats:confit_byaldi"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7FD1D9FD9FF972E3"
+					item: { Count: 32, id: "rats:potato_knishes" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rats.quest6854313846264139586.title}"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest4653761890738110106.description1}"]
+			hide_until_deps_complete: true
+			id: "40957BC86EB1FE9A"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "735E4F6D5F8C3801"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "252C5826B3D7B134"
+				item: "rats:rat_upgrade_demon"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest4653761890738110106.title}"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["{ftbquests.chapter.rats.quest2201088082036277119.description1}"]
+			hide_until_deps_complete: true
+			id: "1E8BD5F2E11E3F7F"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "76FD258522D0B637"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "155FDA229DD0C877"
+				item: "rats:rat_upgrade_angel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest2201088082036277119.title}"
+			x: 9.05d
+			y: 10.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest721513775237668451.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0A0354F4B1979E63"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "59D6FDA57780E86D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "68B0714D636BC757"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51CBEEA7BEF7A05B"
+				item: "rats:rat_upgrade_archeologist"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest721513775237668451.title}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5B60D17E7595FAD3"
+				"0F17D9539C1D0D19"
+				"78FE17774BFBB62C"
+			]
+			description: ["{ftbquests.chapter.rats.quest7811728195561649753.description1}"]
+			id: "6C68D567D25AF659"
+			optional: true
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1DCBD4E7A75A01AF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest7811728195561649753.subtitle}"
+			tasks: [{
+				id: "196F739D77BB35D0"
+				item: "rats:rat_upgrade_dragon"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest7811728195561649753.title}"
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B60D17E7595FAD3"]
+			description: [
+				"{ftbquests.chapter.rats.quest1147538596085404084.description1}"
+				"{ftbquests.chapter.rats.quest1147538596085404084.description2}"
+			]
+			id: "0FECE045F1B891B4"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "65F89AACA4C6A983"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "10BCBFFD0D603743"
+				item: "rats:rat_upgrade_bee"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest1147538596085404084.title}"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest6584492996284512979.description1}"]
+			hide_until_deps_complete: true
+			id: "5B60D17E7595FAD3"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0E2619F8AD2E90C0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "408ECB7D290D2ED7"
+				item: "rats:rat_upgrade_flight"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6584492996284512979.title}"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5C7CC41A81FC4F6F"
+				"5B150BC9853F0D26"
+				"3165BD6F2D5ACC2E"
+			]
+			id: "78FE17774BFBB62C"
+			optional: true
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "7F885BE4805F4577"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0845D1175CF06691"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E0E7B4B257AB0F2"
+				item: "rats:rat_upgrade_warrior"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest8718431729779193388.title}"
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest6563164992114199846.description1}"]
+			hide_until_deps_complete: true
+			id: "5B150BC9853F0D26"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "69F59C308B8438DF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "72955DF23867DEA9"
+				item: "rats:rat_upgrade_strength"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6563164992114199846.title}"
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest6664417166730481519.description1}"]
+			hide_until_deps_complete: true
+			id: "5C7CC41A81FC4F6F"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "02DBF85189708767"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3D37BA8978A7B6AA"
+				item: "rats:rat_upgrade_health"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6664417166730481519.title}"
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest3559459365706189870.description1}"]
+			hide_until_deps_complete: true
+			id: "3165BD6F2D5ACC2E"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "2C8812E491BC5DA2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6B1DC6BB9450EA80"
+				item: "rats:rat_upgrade_armor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest3559459365706189870.title}"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["345F8558DB7253AA"]
+			description: [
+				"{ftbquests.chapter.rats.quest453946783543873847.description1}"
+				"{ftbquests.chapter.rats.quest453946783543873847.description2}"
+			]
+			hide_dependency_lines: true
+			id: "064CBE31CC105137"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "289674DCD6901291"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "573B102332930056"
+				item: "rats:rat_upgrade_basic"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest453946783543873847.title}"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78FE17774BFBB62C"]
+			description: ["{ftbquests.chapter.rats.quest6716874077704811505.description1}"]
+			id: "5D372162DA9FF3F1"
+			optional: true
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "0A2BFEEF07058E75"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "60AE6073931F13AA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rats.quest6716874077704811505.subtitle}"
+			tasks: [{
+				id: "023AAA182E822142"
+				item: "rats:rat_upgrade_god"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6716874077704811505.title}"
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest1087576788157926681.description1}"]
+			hide_until_deps_complete: true
+			id: "0F17D9539C1D0D19"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3A71A1B9414FD0C5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2B354B3EC0C7331F"
+				item: "rats:rat_upgrade_asbestos"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest1087576788157926681.title}"
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5C7CC41A81FC4F6F"]
+			description: ["{ftbquests.chapter.rats.quest6471196678950706776.description1}"]
+			id: "59CE4F17F88B5E58"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5051EF2C19C9F892"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "30F77CCBC7A28D88"
+				item: "rats:rat_upgrade_voodoo"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6471196678950706776.title}"
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["{ftbquests.chapter.rats.quest2092679600443511250.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1D0AB102552451D2"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "79BFAC5701295D14"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0B86435B9C9CA749"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58C799343F858CD9"
+				item: "rats:rat_upgrade_aristocrat"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest2092679600443511250.title}"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest5347482122616747094.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4A3612A88952B456"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "71DA5388D1A6987B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0A9E37D8B67579F8"
+				item: "rats:rat_upgrade_christmas"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest5347482122616747094.title}"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: [
+				"{ftbquests.chapter.rats.quest1414216814055519406.description1}"
+				""
+				"{ftbquests.chapter.rats.quest1414216814055519406.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "13A04EB31529F4AE"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5A0FA7A4D29758A4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5C45A4A3038FC566"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2051ED1A487057E9"
+				item: "rats:rat_upgrade_ore_doubling"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest1414216814055519406.title}"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["{ftbquests.chapter.rats.quest9129637974930596626.description1}"]
+			hide_until_deps_complete: true
+			id: "7EB2FD5E07A7A312"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "510BD8B1847E79BF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3D6DB8E436B20C9A"
+				item: "rats:rat_upgrade_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest9129637974930596626.title}"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0F17D9539C1D0D19"
+				"1CBB36A1983F38F3"
+				"779B7814DBF8ADDB"
+			]
+			description: ["{ftbquests.chapter.rats.quest6023263787012294787.description1}"]
+			id: "5396EE806D578883"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "4FA370178104FB6A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2525211F0C0E4DD7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C1E0AAB427F1120"
+				item: "rats:rat_upgrade_damage_protection"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6023263787012294787.title}"
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest2070308521378789619.description1}"]
+			hide_until_deps_complete: true
+			id: "1CBB36A1983F38F3"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "71D5CE05D3C59BBF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "615C4300FF36EA7C"
+				item: "rats:rat_upgrade_poison"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest2070308521378789619.title}"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["{ftbquests.chapter.rats.quest8618614342888762843.description1}"]
+			hide_until_deps_complete: true
+			id: "779B7814DBF8ADDB"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "032112B340EFF3A1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "004A35BD7026B47D"
+				item: "rats:rat_upgrade_underwater"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest8618614342888762843.title}"
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"{ftbquests.chapter.rats.quest6795344930803308914.description1}"
+				"{ftbquests.chapter.rats.quest6795344930803308914.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5E4DEA3616C85972"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "061964BDFB86E7BB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "43B038ACD99E9D1E"
+				item: "rats:rat_upgrade_idol"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6795344930803308914.title}"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"{ftbquests.chapter.rats.quest9016989128181509485.description1}"
+				"{ftbquests.chapter.rats.quest9016989128181509485.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7D22C7D688D16D6D"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4B52FD5CA2C80797"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1F214BFF11664ED5"
+				item: "rats:rat_upgrade_support"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest9016989128181509485.title}"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["{ftbquests.chapter.rats.quest7747959074928902007.description1}"]
+			hide_until_deps_complete: true
+			id: "6B8647BA6B66BF77"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "579C40B906DA3A6E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "100B12EBA783B4BA"
+				item: "rats:rat_upgrade_undead"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest7747959074928902007.title}"
+			x: 9.9d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["{ftbquests.chapter.rats.quest4235122965642198837.description1}"]
+			hide_until_deps_complete: true
+			id: "3AC62DE60B33BF35"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3273E9026AD18FAC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "013BB12135DD1985"
+				item: "rats:rat_upgrade_sculked"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest4235122965642198837.title}"
+			x: 10.7d
+			y: 10.0d
+		}
+		{
+			dependencies: ["779B7814DBF8ADDB"]
+			description: ["{ftbquests.chapter.rats.quest8025318135326346342.description1}"]
+			id: "6F5FA852F9A08C66"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0B3CD4D4A72AE2A4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "54889EE933F95F26"
+				item: "rats:rat_upgrade_aquatic"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest8025318135326346342.title}"
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			description: ["{ftbquests.chapter.rats.quest2913729126706218895.description1}"]
+			icon: "kubejs:ultimate_cheese"
+			id: "286FA5340108878F"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BA0A7DA03806742"
+					table_id: 1000697171934557785L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3610686F062D854F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3343CD1E2161D40F"
+					table_id: 1000697171934557785L
+					type: "random"
+				}
+			]
+			secret: true
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.rats.quest2913729126706218895.subtitle}"
+			tasks: [
+				{
+					id: "1D9061FECD096032"
+					item: "rats:block_of_cheese"
+					type: "item"
+				}
+				{
+					id: "1533D8D66EA8DD28"
+					item: "rats:block_of_blue_cheese"
+					type: "item"
+				}
+				{
+					id: "055F07EBB5F25E3B"
+					item: "rats:block_of_nether_cheese"
+					type: "item"
+				}
+				{
+					id: "0EF92BC2374FC808"
+					item: "kubejs:ultimate_cheese"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rats.quest2913729126706218895.title}"
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"{ftbquests.chapter.rats.quest7843804397347744776.description1}"
+				"{ftbquests.chapter.rats.quest7843804397347744776.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6CDACA8A878F2C08"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "256391E20D4D2107"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "522FDE2457CAC0E6"
+					item: "rats:rat_upgrade_whitelist"
+					type: "item"
+				}
+				{
+					id: "5F5812CF81BB3DC2"
+					item: "rats:rat_upgrade_blacklist"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rats.quest7843804397347744776.title}"
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1A700C584A856120"]
+			description: ["{ftbquests.chapter.rats.quest7075293175411895853.description1}"]
+			hide_until_deps_complete: true
+			id: "62307DA8122BEE2D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "48B65D388AEA98E5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest7075293175411895853.subtitle}"
+			tasks: [{
+				id: "19CD09E30A16C058"
+				item: "rats:golden_rat_skull"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62307DA8122BEE2D"]
+			description: [
+				"{ftbquests.chapter.rats.quest1952773742611924703.description1}"
+				"{ftbquests.chapter.rats.quest1952773742611924703.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "1B19A55F671806DF"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "75B66FF67F26AD7F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5E5DC9419B301C4E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rats.quest1952773742611924703.subtitle}"
+			tasks: [{
+				id: "508BAD37A3C5CB46"
+				item: "rats:corrupt_rat_skull"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: ["{ftbquests.chapter.rats.quest1905036215724630304.description1}"]
+			id: "1A700C584A856120"
+			invisible: true
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "09C3D51C4DE64884"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest1905036215724630304.subtitle}"
+			tasks: [{
+				id: "3A0E9BF8A455B520"
+				item: "rats:rat_skull"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: [
+				"{ftbquests.chapter.rats.quest6423657310972823708.description1}"
+				""
+				"{ftbquests.chapter.rats.quest6423657310972823708.description2}"
+				""
+				"{ftbquests.chapter.rats.quest6423657310972823708.description3}"
+				""
+				"{ftbquests.chapter.rats.quest6423657310972823708.description4}"
+				""
+				"{ftbquests.chapter.rats.quest6423657310972823708.description5}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "59256A4A5360489C"
+			optional: true
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "18E73D068276E819"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1D7BEB1FD2383F6B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rats.quest6423657310972823708.subtitle}"
+			tasks: [{
+				id: "2954A31655F72EC5"
+				item: "rats:rat_upgrade_time_manipulator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6423657310972823708.title}"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["{ftbquests.chapter.rats.quest6604061594226243516.description1}"]
+			hide_until_deps_complete: true
+			id: "5BA65707B6A7B7BC"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4FEF78B04B1792A0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5D3071981562484B"
+				item: "rats:rat_upgrade_replanter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6604061594226243516.title}"
+			x: 5.95d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["{ftbquests.chapter.rats.quest4643425738978663661.description1}"]
+			hide_until_deps_complete: true
+			id: "4070C31B90BA9CED"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "483FDBF9273DC4A7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7267B9DF6EFF7E8C"
+				item: "rats:rat_upgrade_shears"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest4643425738978663661.title}"
+			x: 5.1d
+			y: 6.0d
+		}
+		{
+			dependencies: ["603233D2050BF539"]
+			description: ["{ftbquests.chapter.rats.quest23740562784381646.description1}"]
+			hide_until_deps_complete: true
+			id: "005457EA8387EACE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "276DCDF2C30DB96B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "72798E37C5EEB119"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "421C900C6035EC26"
+					table_id: 2644483923066781056L
+					type: "random"
+				}
+			]
+			shape: "spstar"
+			subtitle: "{ftbquests.chapter.rats.quest23740562784381646.subtitle}"
+			tasks: [{
+				id: "187572C8252AFF1B"
+				item: "rats:plague_stew"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest23740562784381646.title}"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: [
+				"{ftbquests.chapter.rats.quest6392064539900931500.description1}"
+				""
+				"{ftbquests.chapter.rats.quest6392064539900931500.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "58B52CD51A2A6DAC"
+			optional: true
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "414E2FE06A287B49"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest6392064539900931500.subtitle}"
+			tasks: [{
+				id: "1DCD652D6C128276"
+				item: "rats:rat_upgrade_jury_rigged"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest6392064539900931500.title}"
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rats.quest4600149543552037274.description1}"
+				"{ftbquests.chapter.rats.quest4600149543552037274.description2}"
+			]
+			id: "3FD703A32118319A"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2893BF157B9A6B98"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 16
+					id: "6AC1728186E5E738"
+					item: "rats:cheese"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rats.quest4600149543552037274.subtitle}"
+			tasks: [{
+				id: "1BE59DFDFB75B201"
+				item: "rats:rat_sack"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest4600149543552037274.title}"
+			x: 1.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: ["{ftbquests.chapter.rats.quest6931659753597433145.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "603233D2050BF539"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2111717A48373F70"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.rats.quest6931659753597433145.subtitle}"
+			tasks: [
+				{
+					id: "68AA3B45B0B4D4D5"
+					item: "rats:herb_bundle"
+					type: "item"
+				}
+				{
+					id: "45BEF77CD76B5FF1"
+					item: "rats:treacle"
+					type: "item"
+				}
+				{
+					id: "1A9881A67702AE60"
+					item: "rats:plague_leech"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rats.quest6931659753597433145.title}"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"{ftbquests.chapter.rats.quest5495484415850347147.description1}"
+				""
+				"{ftbquests.chapter.rats.quest5495484415850347147.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "4C43E1F5BB747A8B"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "51AD3C8AA0437BFB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "58D478BB291B2F5A"
+				item: "rats:rat_upgrade_quarry"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest5495484415850347147.title}"
+			x: 7.45d
+			y: 10.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: [
+				"{ftbquests.chapter.rats.quest221071508670904157.description1}"
+				"{ftbquests.chapter.rats.quest221071508670904157.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "0311675DA849F75D"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "36A97545A3BDA24F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "73BCC15D19A926EC"
+				item: "rats:rat_upgrade_mob_filter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest221071508670904157.title}"
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"{ftbquests.chapter.rats.quest5031058059783626356.description1}"
+				""
+				"{ftbquests.chapter.rats.quest5031058059783626356.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "45D1E8A651C4DE74"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "353E153DBC31B8E6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0F97D28ED048B17E"
+				item: "rats:rat_upgrade_enchanter"
+				type: "item"
+			}]
+			x: 6.65d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["345F8558DB7253AA"]
+			description: [
+				"{ftbquests.chapter.rats.quest4348901192520279947.description1}"
+				"{ftbquests.chapter.rats.quest4348901192520279947.description2}"
+				"{ftbquests.chapter.rats.quest4348901192520279947.description3}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "rats:rat"
+					DisplayMobScale: 2
+				}
+			}
+			id: "3C5A6697D771A78B"
+			rewards: [{
+				id: "36A18927C2F64CA6"
+				item: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rats:rat"
+						DisplayMobScale: 2
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.3\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "sign"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4EFC1ECD4E4FCA40"
+				item: { Count: 64, id: "rats:block_of_cheese" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rats.quest4348901192520279947.title}"
+			x: 5.0d
+			y: 0.0d
+		}
 	]
-	title: "&2Rats"
+	title: "{ftbquests.chapter.rats.title}"
 }

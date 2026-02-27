@@ -1,6 +1,6 @@
 "Mobs Run Away From Wilted (default: true)" = true
 "Strong Mobs Don't Run Away From Wilted (default: true)" = true
-"Wilted Adds Cooldowns To Nearby Light Items (default: true)" = true
+"Wilted Adds Cooldowns To Nearby Light Items (default: true)" = false
 "Wilted Disables Nearby Dynamic Lights (default: true)" = true
 "Tamed Wolves Attack Wilted (default: true)" = false
 "Wilted Prevents Portal Travel (default: true)" = true

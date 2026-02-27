@@ -1,0 +1,107 @@
+{
+  "general": {
+    "action": "ntgl:gun",
+    "fireMode": ["ntgl:auto"],
+    "gripType": "ntgl:mini_gun",
+    "category": "heavy",
+    "rate": 5,
+    "fireTimer": 0,
+    "equipTime": 0,
+    "fullCharge": true,
+    "oneTimeCharge": true,
+    "enchantable": false,
+    "maxAmmo": 100,
+    "reloadTime": 50,
+    "recoilAngle": -2.0,
+    "alwaysSpread": true,
+    "spread": 1.2,
+    "movementSpeed": -0.2,
+    "ammo": [
+      "cgs:round_gatling",
+      "cgs:round_gatling_piercing"
+    ]
+  },
+  "modes": {
+    "ntgl:secondary": {
+      "general": {
+        "action": "ntgl:scope"
+      },
+      "zoom": {
+        "offset": [ -0.1, 8.2, 0.0],
+        "fovModifier": 0.7
+      }
+    }
+  },
+  "ammoData": {
+    "cgs:round_gatling": {
+      "ammo": {
+        "type": "ntgl:standard"
+      },
+      "projectile":{
+        "visible": true,
+        "damage": 8.0,
+        "size": 0.2,
+        "speed": 50.0,
+        "life": 180
+      }
+    },
+    "cgs:round_gatling_piercing": {
+      "ammo": {
+        "type": "ntgl:piercing"
+      },
+      "projectile":{
+        "visible": true,
+        "pierceLevel": 2,
+        "damage": 12.0,
+        "size": 0.2,
+        "speed": 50.0,
+        "life": 180
+      }
+    }
+  },
+  "fuel": {
+    "ntgl:burnable":{
+      "max": 20000,
+      "amountPerUse": 1,
+      "mandatory": false,
+      "ammo": {
+        "type": "ntgl:burnable"
+      }
+    },
+    "ntgl:water":{
+      "max": 2000,
+      "amountPerUse": 5,
+      "mandatory": false,
+      "ammo": {
+        "type": "ntgl:water"
+      }
+    }
+  },
+  "animations": {
+    "ntgl:reload": "cgs:gatling_reload"
+  },
+  "sounds": {
+    "fire"          : "cgs:gun.gatling.fire",
+    "reload_mag_in" : "cgs:gun.gatling.reload_mag_in",
+    "reload_mag_out": "cgs:gun.gatling.reload_mag_in"
+  },
+  "modules": {
+    "attachmentScreen": true,
+    "attachments": {
+      "ntgl:magazine": [
+        {
+          "name": "big_drum_base",
+          "item": "cgs:gatling_drum",
+          "hide": ["magazine_group"]
+        }
+      ],
+      "cgs:engine": [
+        {
+          "name": "steam_engine",
+          "item": "cgs:steam_engine",
+          "hide": ["heater"]
+        }
+      ]
+    }
+  }
+}

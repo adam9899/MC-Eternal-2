@@ -92,13 +92,13 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	# Damage amount for melee attack with Extinction Spear.
 	#
 	#Range: 0.0 ~ 10000.0
-	extinctionSpearMeleeDamage = 18.0
+	extinctionSpearMeleeDamage = 25.0
 	#----------------------------------
 	#
 	# Damage amount for ranged attack with Extinction Spear.
 	#
 	#Range: 0.0 ~ 10000.0
-	extinctionSpearRangedDamage = 45.0
+	extinctionSpearRangedDamage = 65.0
 
 ["Raygun Options"]
 	#----------------------------------
@@ -112,7 +112,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	# Rate of damage for Raygun when gamma enchanted.
 	#
 	#Range: 0.0 ~ 1000.0
-	raygunGammaDamage = 3.0
+	raygunGammaDamage = 6.0
 
 ["Mob Attack/Health Options"]
 	#Range: 1.0 ~ 1000000.0
@@ -240,9 +240,9 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	lanternfishArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	licowitchMaxHealth = 40.0
+	licowitchMaxHealth = 140.0
 	#Range: 1.0 ~ 1000000.0
-	licowitchAttackDamage = 3.0
+	licowitchAttackDamage = 30.0
 	#Range: 1.0 ~ 1000000.0
 	luxtructosaurusMaxHealth = 1200.0
 	#Range: 1.0 ~ 1000000.0

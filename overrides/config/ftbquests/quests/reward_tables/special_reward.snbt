@@ -2,7 +2,7 @@
 	icon: "supplementaries:present_purple"
 	id: "17DA6C5C3ACE52B0"
 	loot_size: 1
-	order_index: 30
+	order_index: 31
 	rewards: [
 		{
 			item: {
@@ -29,11 +29,11 @@
 				id: "catburger:cat_burger"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Slightly Burnt Cat Burger\"}"
+						Name: "{\"translate\":\"name.mce2.special_reward.1\"}"
 					}
 				}
 			}
 		}
 	]
-	title: "special_reward"
+	title: "{ftbquests.loot_table.1718805351174656688.title}"
 }
