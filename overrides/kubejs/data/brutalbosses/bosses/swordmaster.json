@@ -20,7 +20,7 @@
     "dropgear": "6"
   },
   "gear": {
-   "mainhand": "{id: \"illager_additions:master_katana\", Count: 1b, tag: {display:{Name:'{\"text\":\"Enlightenment\"}',Lore:['{\"text\":\"This blade once belonged to the greatest Swordmaster who ever lived..\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:sharpness\"}]}}",
+   "mainhand": "{id: \"illager_additions:master_katana\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.swordmaster.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.swordmaster.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:sharpness\"}]}}",
     "chestplate": "{id: \"iceandfire:armor_red_chestplate\", Count: 1b, tag: {Damage: 80}}"
   },
   "ai-goals": {

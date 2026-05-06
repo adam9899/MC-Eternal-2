@@ -20,8 +20,8 @@
     "dropgear": 1
   },
   "gear": {
-"mainhand": "{id: \"illager_additions:katana\", Count: 1b, tag: {display:{Name:'{\"text\":\"Breadbane\"}',Lore:['{\"text\":\"Very sharp..\"}']},Enchantments:[{lvl: 4s, id: \"minecraft:sharpness\"}]}}",
-	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+"mainhand": "{id: \"illager_additions:katana\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.the_goose.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.the_goose.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 4s, id: \"minecraft:sharpness\"}]}}",
+	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
 
   },
   "ai-goals": {

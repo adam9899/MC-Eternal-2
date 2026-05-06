@@ -20,7 +20,7 @@
   },
   "gear": {
     "mainhand": "{id: \"minecraft:potion\", Count: 1b, tag: {Potion: \"minecraft:long_fire_resistance\"}}",
-	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.alexgrizzlyboss.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
   },
   "ai-goals": {
     "brutalbosses:shootfireballs": {

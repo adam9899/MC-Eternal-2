@@ -15,7 +15,7 @@
   },
   "customattributes": {},
   "gear": {
-      "mainhand": "{id: \"iceandfire:tide_trident\", Count: 1b, tag: {display:{Name:'{\"text\":\"Ancient Trident\"}',Lore:['{\"text\":\"The remains of an ancient warrior from a time long gone!\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:knockback\"}]}}"
+      "mainhand": "{id: \"iceandfire:tide_trident\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.sunken.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.sunken.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:knockback\"}]}}"
   },
   "ai-goals": {
     "brutalbosses:runcommand": {"healthinterval": "50-0",          

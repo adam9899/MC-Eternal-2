@@ -19,7 +19,7 @@
     "dropgear": 6
   },
   "gear": {
-   "mainhand": "{id: \"iceandfire:dragonbone_axe\", Count: 1b, tag: {display:{Name:'{\"text\":\"Axe of The Butcher\"}',Lore:['{\"text\":\"This cruel Vindicator is wanted for crimes against all of Villager-kind! The King himself has issued a bounty to kill this monster.\"}']},Enchantments:[{lvl: 4s, id: \"minecraft:sharpness\"}]}}",
+   "mainhand": "{id: \"iceandfire:dragonbone_axe\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.butcher.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.butcher.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 4s, id: \"minecraft:sharpness\"}]}}",
 	"helmet": "{id: \"immersive_armors:warrior_helmet\", Count: 1b, tag: {Damage: 250}}",
 	"leggings": "{id: \"immersive_armors:warrior_leggings\", Count: 1b, tag: {Damage: 200}}",
 	"boots": "{id: \"immersive_armors:warrior_boots\", Count: 1b, tag: {Damage: 200}}", 

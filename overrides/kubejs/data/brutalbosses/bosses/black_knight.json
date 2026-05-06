@@ -20,9 +20,9 @@
     "dropgear": 6
   },
   "gear": {
-   "mainhand": "{id: \"iceandfire:dragonbone_sword\", Count: 1b, tag: {display:{Name:'{\"text\":\"Blade of The Black Knight\"}',Lore:['{\"text\":\"Tis but a scratch!\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}",
-	"helmet": "{id: \"iceandfire:armor_black_helmet\", Count: 1b, tag: {display:{Name:'{\"text\":\"Helmet of The Black Knight\"}',Lore:['{\"text\":\"The Black Knight moves for no man!\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:protection\"}]}}",
-"offhand": "{id: \"minecraft:shield\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Shield of The Black Knight\"}',Lore:['{\"text\":\"§2§oAh HAH!\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+   "mainhand": "{id: \"iceandfire:dragonbone_sword\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.black_knight.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.black_knight.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}",
+	"helmet": "{id: \"iceandfire:armor_black_helmet\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.black_knight.gear.helmet.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.black_knight.gear.helmet.lore.1\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:protection\"}]}}",
+"offhand": "{id: \"minecraft:shield\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.black_knight.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.black_knight.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
 	"leggings": "{id: \"iceandfire:armor_black_leggings\", Count: 1b, tag: {Damage: 200}}",
 	"boots": "{id: \"iceandfire:armor_black_boots\", Count: 1b, tag: {Damage: 200}}",
     "chestplate": "{id: \"iceandfire:armor_black_chestplate\", Count: 1b, tag: {Damage: 250}}"
@@ -46,7 +46,7 @@
 "minecraft:randomwalk": {},
 "brutalbosses:changegear": {
 "healthinterval": "50-0",            
-"gear": {"mainhand": "{id: \"iceandfire:dragonbone_sword_ice\", Count: 1b, tag: {display:{Name:'{\"text\":\"Blade of The Black Knight\"}',Lore:['{\"text\":\"Tis but a scratch!\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}"
+"gear": {"mainhand": "{id: \"iceandfire:dragonbone_sword_ice\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.black_knight.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.black_knight.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}"
       
 
 },

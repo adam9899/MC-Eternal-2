@@ -19,18 +19,18 @@
     "dropgear": 6
   },
   "gear": {
-   "mainhand": "{id: \"iceandfire:dragonbone_sword\", Count: 1b, tag: {display:{Name:'{\"text\":\"Cursed Dragon Knight Blade\"}',Lore:['{\"text\":\"The Dragon Knights once protected this land with their powerful dragon companions. What became of them? No one knows.. But they have gone extinct. Or so we thought..\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}",
-	"helmet": "{id: \"iceandfire:armor_red_helmet\", Count: 1b, tag: {display:{Name:'{\"text\":\"Ancient Dragon Helmet\"}',Lore:['{\"text\":\"The Dragon Knights were once a powerful group of mages and warriors with a close connection to The Fire Dragons.\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:protection\"}]}}",
+   "mainhand": "{id: \"iceandfire:dragonbone_sword\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.dragon_knight.gear.mainhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.dragon_knight.gear.mainhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}",
+	"helmet": "{id: \"iceandfire:armor_red_helmet\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.dragon_knight.gear.helmet.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.dragon_knight.gear.helmet.lore.1\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:protection\"}]}}",
 	"leggings": "{id: \"iceandfire:armor_red_leggings\", Count: 1b, tag: {Damage: 200}}",
 	"boots": "{id: \"iceandfire:armor_red_boots\", Count: 1b, tag: {Damage: 200}}",
-	  "offhand": "{id: \"irons_spellbooks:blaze_spell_book\", Count: 1b, tag: {display:{Name:'{\"text\":\"§4Blazing Journal\"}',Lore:['{\"text\":\"§2§oThe Dragon Knight used this to harness the power of fire...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+	  "offhand": "{id: \"irons_spellbooks:blaze_spell_book\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.dragon_knight.gear.offhand.name\"}',Lore:['{\"translate\":\"brutalbosses.boss.dragon_knight.gear.offhand.lore.1\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
     "chestplate": "{id: \"iceandfire:armor_red_chestplate\", Count: 1b, tag: {Damage: 200}}"
   },
   "ai-goals": {
     "minecraft:meleeattack": {},
     "brutalbosses:changegear": {
 "healthinterval": "50-0",            
-"gear": {"mainhand": "{id: \"iceandfire:dragonbone_sword_fire\", Count: 1b, tag: {display:{Name:'{\"text\":\"Blade of The Dragon Knight\"}',Lore:['{\"text\":\"The Dragon Knights once protected this land with their powerful dragon companions. What became of them? No one knows.. But they have gone extinct. Or so we thought.\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:sharpness\"}]}}"
+"gear": {"mainhand": "{id: \"iceandfire:dragonbone_sword_fire\", Count: 1b, tag: {display:{Name:'{\"translate\":\"brutalbosses.boss.dragon_knight.gear.mainhand.name.2\"}',Lore:['{\"translate\":\"brutalbosses.boss.dragon_knight.gear.mainhand.lore.2\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:sharpness\"}]}}"
       
 
 },
@@ -44,7 +44,7 @@
    
         {
           "entityid": "alshanex_familiars:scorcher_pet",
-		  "entitynbt": "{Health:80f,Attributes:[{Name:generic.max_health,Base:80}],CustomName: '{\"text\":\"Infernal Automaton\"}',HandItems: [{id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0}}]}"
+		  "entitynbt": "{Health:80f,Attributes:[{Name:generic.max_health,Base:80}],CustomName: '{\"translate\":\"brutalbosses.boss.dragon_knight.summon.alshanex_familiars_scorcher_pet.custom_name\"}',HandItems: [{id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0}}]}"
         }
       ],
   
