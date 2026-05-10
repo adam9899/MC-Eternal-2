@@ -1,6 +1,8 @@
 {
 	"fortune+0.1": {
-		"title": "+0.1 Fortune",
+		"title": {
+			"translate": "puffish_skills.mining.definition.fortune_0_1.title"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -19,7 +21,9 @@
 		]
 	},
 	"mining_speed+3%": {
-		"title": "+3% Mining Speed",
+		"title": {
+			"translate": "puffish_skills.mining.definition.mining_speed_3.title"
+		},
 		"icon": {
 			"type": "effect",
 			"data": {

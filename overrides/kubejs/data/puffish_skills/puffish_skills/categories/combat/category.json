@@ -1,6 +1,8 @@
 {
 	"unlocked_by_default": true,
-	"title": "Combat",
+	"title": {
+		"translate": "puffish_skills.category.combat.title"
+	},
 	"icon": {
 		"type": "item",
 		"data": {

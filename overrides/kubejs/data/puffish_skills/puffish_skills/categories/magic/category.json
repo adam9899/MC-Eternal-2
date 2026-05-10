@@ -1,6 +1,8 @@
 {
 	"unlocked_by_default": true,
-	"title": "Magic §7§o(Iron's Spells and Spellbooks)",
+	"title": {
+		"translate": "puffish_skills.category.magic.title"
+	},
 	"icon": {
 		"type": "item",
 		"data": {
