@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:pirate_captain",
   "rarity": "rare",
-  "defaultDisplay": "the Dread Pirate"
+  "defaultDisplay": "title.titles.mce2.pirate_captain"
 }

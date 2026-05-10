@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:firelord",
   "rarity": "rare",
-  "defaultDisplay": "the Firelord"
+  "defaultDisplay": "title.titles.mce2.firelord"
 }

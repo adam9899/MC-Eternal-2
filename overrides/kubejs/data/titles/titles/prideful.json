@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:prideful",
   "rarity": "uncommon",
-  "defaultDisplay": "the Prideful"
+  "defaultDisplay": "title.titles.mce2.prideful"
 }

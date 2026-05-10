@@ -1,380 +1,363 @@
 {
-    "size": "large",
-    "color": "#730cc9",
-    "waves": [{
-            "entities": [
-                {
-                    "entity": "cataclysm:draugr",
-                    "count": 2
-                },
-                {
-                    "entity": "cataclysm:elite_draugr",
-                    "count": 1
-                }
-                
-            ],
-            "modifiers": [
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:zombified_piglin",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 1
-                }
-            ],
-            "max_wave_time": 1600,
-            "setup_time": 400
+  "size": "large",
+  "color": "#730cc9",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "cataclysm:draugr",
+          "count": 2
         },
         {
-            "entities": [
-                {
-                    "entity": "cataclysm:draugr",
-                    "count": 4
-                },
-                {
-                    "entity": "cataclysm:elite_draugr",
-                    "count": 1
-                }
-                
-            ],
-            "modifiers": [
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:zombified_piglin",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 1
-                }
-            ],
-            "max_wave_time": 600,
-            "setup_time": 100
-        },
-        {
-            "entities": [
-                {
-                    "entity": "cataclysm:draugr",
-                    "count": 5
-                },
-                  {
-                    "entity": "cataclysm:royal_draugr",
-                    "count": 1
-                },
-                {
-                    "entity": "cataclysm:elite_draugr",
-                    "count": 2
-                }
-            ],
-            "modifiers": [
-                {
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.05
-                },
-                {
-                    "attribute": "attributeslib:fire_damage",
-                    "operation": "ADDITION",
-                    "value": 2
-                }
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:zombified_piglin",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
-                    "rolls": 1
-                }
-            ],
-            "max_wave_time": 1600,
-            "setup_time": 200
-        },
-        {
-            "entities": [
-            
-                {
-                    "entity": "cataclysm:draugr",
-                    "count": 6
-                },
-                  
-                {
-                    "entity": "cataclysm:royal_draugr",
-                    "count": 2
-                },
-                {
-                    "entity": "cataclysm:elite_draugr",
-                    "count": 2
-                }
-            ],
-            "modifiers": [
-                {
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.15
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.05
-                },
-                {
-                    "attribute": "attributeslib:fire_damage",
-                    "operation": "ADDITION",
-                    "value": 3
-                },
-                {
-                    "attribute": "attributeslib:arrow_damage",
-                    "operation": "ADDITION",
-                    "value": 0.10
-                },
-                {
-                    "attribute": "attributeslib:life_steal",
-                    "operation": "ADDITION",
-                    "value": 0.10
-                }
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:zombified_piglin",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 3
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
-                    "rolls": 1
-                }
-            ],
-            "max_wave_time": 1600,
-            "setup_time": 400
-        },
-        {
-            "entities": [
-                
-            
-               
-            
-                
-                   {
-                    "entity": "cataclysm:ignited_berserker",
-                    "count": 1
-                },
-                {
-                    "entity": "cataclysm:draugr",
-                    "count": 8
-                },
-                 {
-                    "entity": "cataclysm:royal_draugr",
-                    "count": 2
-                },
-                {
-                    "entity": "cataclysm:elite_draugr",
-                    "count": 3
-                }
-
-            ],
-            "modifiers": [
-                {
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.25
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
-                    "operation": "ADDITION",
-                    "value": 0.5
-                },
-                {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 3
-                },
-                {
-                    "attribute": "attributeslib:fire_damage",
-                    "operation": "ADDITION",
-                    "value": 4
-                },
-                {
-                    "attribute": "attributeslib:life_steal",
-                    "operation": "ADDITION",
-                    "value": 0.10
-                }
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:piglin_brute",
-                    "rolls": 2
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
-                    "rolls": 4
-                }
-            ],
-            "max_wave_time": 5400,
-            "setup_time": 400
-        },
-
-        {
-            "entities": [
-                  {
-                    "entity": "cataclysm:royal_draugr",
-                    "desc": "Eternal Legionnaire",
-                    "nbt": {
-                        "CustomNameVisible": 1,
-                        "CustomName": "{\"text\":\"Eternal Legionnaire\",\"color\":\"dark_purple\"}",
-                        "IsImmuneToZombification": true
-                    },
-                    "modifiers": [
-                        {
-                            "type": "gateways:gear_set",
-                            "gear_set": "gateways:gold_with_axe"
-                        },
-                        {
-                            "attribute": "generic.max_health",
-                            "operation": "ADDITION",
-                            "value": 30
-                        },
-                        {
-                            "attribute": "attributeslib:armor_shred",
-                            "operation": "ADDITION",
-                            "value": 1.0
-                        },
-                        {
-                            "attribute": "attributeslib:prot_shred",
-                            "operation": "ADDITION",
-                            "value": 0.5
-                        },
-                        {
-                            "attribute": "generic.attack_knockback",
-                            "operation": "ADDITION",
-                            "value": 2.5
-                        },
-                        {
-                            "attribute": "generic.knockback_resistance",
-                            "operation": "ADDITION",
-                            "value": 0.25
-                        },
-                        {
-                            "attribute": "attributeslib:life_steal",
-                            "operation": "ADDITION",
-                            "value": 0.5
-                        }
-                    ],
-                    "count": 2,
-                    "finalize_spawn": false
-                },
-                 {
-                    "entity": "cataclysm:aptrgangr",
-                    "desc": "Eternal Warlord",
-                    "nbt": {
-                        "CustomNameVisible": 1,
-                        "CustomName": "{\"text\":\"Eternal Warlord\",\"color\":\"dark_purple\"}",
-                        "IsImmuneToZombification": true
-                    },
-                    "modifiers": [
-                        
-                       
-                        {
-                            "attribute": "attributeslib:armor_shred",
-                            "operation": "ADDITION",
-                            "value": 0.2
-                        },
-                        {
-                            "attribute": "attributeslib:prot_shred",
-                            "operation": "ADDITION",
-                            "value": 0.1
-                        },
-                        {
-                            "attribute": "generic.attack_knockback",
-                            "operation": "ADDITION",
-                            "value": 0.1
-                        },
-                        {
-                            "attribute": "generic.knockback_resistance",
-                            "operation": "ADDITION",
-                            "value": 0.1
-                        }
-                    ],
-                    "count": 1,
-                    "finalize_spawn": false
-                }
-               
-            ],
-            "modifiers": [
-            ],
-            "rewards": [
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:zombified_piglin",
-                    "rolls": 1
-                },
-                {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:wither_skeleton",
-                    "rolls": 1
-                }
-            ],
-            "max_wave_time": 5600,
-            "setup_time": 100
+          "entity": "cataclysm:elite_draugr",
+          "count": 1
         }
-       
-    ],
-"rewards": [
-  {
-    "type": "gateways:stack",
-    "stack": {
-      "item": "kubejs:nether_item",
-      "count": 1
+      ],
+      "modifiers": [],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombified_piglin",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 1
+        }
+      ],
+      "max_wave_time": 1600,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "cataclysm:draugr",
+          "count": 4
+        },
+        {
+          "entity": "cataclysm:elite_draugr",
+          "count": 1
+        }
+      ],
+      "modifiers": [],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombified_piglin",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 1
+        }
+      ],
+      "max_wave_time": 600,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "cataclysm:draugr",
+          "count": 5
+        },
+        {
+          "entity": "cataclysm:royal_draugr",
+          "count": 1
+        },
+        {
+          "entity": "cataclysm:elite_draugr",
+          "count": 2
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.1
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.05
+        },
+        {
+          "attribute": "attributeslib:fire_damage",
+          "operation": "ADDITION",
+          "value": 2
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombified_piglin",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:blaze",
+          "rolls": 1
+        }
+      ],
+      "max_wave_time": 1600,
+      "setup_time": 200
+    },
+    {
+      "entities": [
+        {
+          "entity": "cataclysm:draugr",
+          "count": 6
+        },
+        {
+          "entity": "cataclysm:royal_draugr",
+          "count": 2
+        },
+        {
+          "entity": "cataclysm:elite_draugr",
+          "count": 2
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.15
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.05
+        },
+        {
+          "attribute": "attributeslib:fire_damage",
+          "operation": "ADDITION",
+          "value": 3
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "ADDITION",
+          "value": 0.1
+        },
+        {
+          "attribute": "attributeslib:life_steal",
+          "operation": "ADDITION",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombified_piglin",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 3
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:blaze",
+          "rolls": 1
+        }
+      ],
+      "max_wave_time": 1600,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "cataclysm:ignited_berserker",
+          "count": 1
+        },
+        {
+          "entity": "cataclysm:draugr",
+          "count": 8
+        },
+        {
+          "entity": "cataclysm:royal_draugr",
+          "count": 2
+        },
+        {
+          "entity": "cataclysm:elite_draugr",
+          "count": 3
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.25
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDITION",
+          "value": 0.5
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDITION",
+          "value": 3
+        },
+        {
+          "attribute": "attributeslib:fire_damage",
+          "operation": "ADDITION",
+          "value": 4
+        },
+        {
+          "attribute": "attributeslib:life_steal",
+          "operation": "ADDITION",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:piglin_brute",
+          "rolls": 2
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:blaze",
+          "rolls": 4
+        }
+      ],
+      "max_wave_time": 5400,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "cataclysm:royal_draugr",
+          "desc": "gateways.eternal_nether_invasion.desc.eternal_legionnaire",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"color\":\"dark_purple\",\"translate\":\"gateways.eternal_nether_invasion.text.eternal_legionnaire\"}",
+            "IsImmuneToZombification": true
+          },
+          "modifiers": [
+            {
+              "type": "gateways:gear_set",
+              "gear_set": "gateways:gold_with_axe"
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "ADDITION",
+              "value": 30
+            },
+            {
+              "attribute": "attributeslib:armor_shred",
+              "operation": "ADDITION",
+              "value": 1.0
+            },
+            {
+              "attribute": "attributeslib:prot_shred",
+              "operation": "ADDITION",
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.attack_knockback",
+              "operation": "ADDITION",
+              "value": 2.5
+            },
+            {
+              "attribute": "generic.knockback_resistance",
+              "operation": "ADDITION",
+              "value": 0.25
+            },
+            {
+              "attribute": "attributeslib:life_steal",
+              "operation": "ADDITION",
+              "value": 0.5
+            }
+          ],
+          "count": 2,
+          "finalize_spawn": false
+        },
+        {
+          "entity": "cataclysm:aptrgangr",
+          "desc": "gateways.eternal_nether_invasion.desc.eternal_warlord",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"color\":\"dark_purple\",\"translate\":\"gateways.eternal_nether_invasion.text.eternal_warlord\"}",
+            "IsImmuneToZombification": true
+          },
+          "modifiers": [
+            {
+              "attribute": "attributeslib:armor_shred",
+              "operation": "ADDITION",
+              "value": 0.2
+            },
+            {
+              "attribute": "attributeslib:prot_shred",
+              "operation": "ADDITION",
+              "value": 0.1
+            },
+            {
+              "attribute": "generic.attack_knockback",
+              "operation": "ADDITION",
+              "value": 0.1
+            },
+            {
+              "attribute": "generic.knockback_resistance",
+              "operation": "ADDITION",
+              "value": 0.1
+            }
+          ],
+          "count": 1,
+          "finalize_spawn": false
+        }
+      ],
+      "modifiers": [],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombified_piglin",
+          "rolls": 1
+        },
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 1
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 100
     }
-  }
-],
-"failures": [
-  {
-    "type": "gateways:explosion",
-    "strength": 4,
-    "fire": true,
-    "block_damage": false
-  },
-  {
-    "type": "gateways:summon",
-    "entity": {
-      "entity": "netherexp:wisp",
-      "count": 1
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "item": "kubejs:nether_item",
+        "count": 1
+      }
     }
-  }
-]
+  ],
+  "failures": [
+    {
+      "type": "gateways:explosion",
+      "strength": 4,
+      "fire": true,
+      "block_damage": false
+    },
+    {
+      "type": "gateways:summon",
+      "entity": {
+        "entity": "netherexp:wisp",
+        "count": 1
+      }
+    }
+  ]
 }

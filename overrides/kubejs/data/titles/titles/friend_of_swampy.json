@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:swampy",
   "rarity": "rare",
-  "defaultDisplay": "Friend of Swampy"
+  "defaultDisplay": "title.titles.mce2.friend_of_swampy"
 }

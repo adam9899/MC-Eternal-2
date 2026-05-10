@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:human",
   "rarity": "common",
-  "defaultDisplay": "the Human"
+  "defaultDisplay": "title.titles.mce2.human"
 }

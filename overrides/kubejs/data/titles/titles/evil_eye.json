@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:evil_eye",
   "rarity": "rare",
-  "defaultDisplay": "the Evil"
+  "defaultDisplay": "title.titles.mce2.evil_eye"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:angry",
   "rarity": "common",
-  "defaultDisplay": "the Angry"
+  "defaultDisplay": "title.titles.mce2.angry"
 }

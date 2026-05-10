@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:tinker",
   "rarity": "common",
-  "defaultDisplay": "the Tinkerer"
+  "defaultDisplay": "title.titles.mce2.tinkerer"
 }

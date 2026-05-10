@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:cursed",
   "rarity": "uncommon",
-  "defaultDisplay": "the Cursed"
+  "defaultDisplay": "title.titles.mce2.cursed"
 }

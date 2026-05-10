@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:greedy",
   "rarity": "rare",
-  "defaultDisplay": "the Greedy"
+  "defaultDisplay": "title.titles.mce2.silenced"
 }

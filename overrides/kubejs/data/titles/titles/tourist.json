@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:tourist",
   "rarity": "common",
-  "defaultDisplay": "the Tourist"
+  "defaultDisplay": "title.titles.mce2.tourist"
 }

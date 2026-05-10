@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:ratlantean",
   "rarity": "rare",
-  "defaultDisplay": "Ratlantean"
+  "defaultDisplay": "title.titles.mce2.ratlantean"
 }

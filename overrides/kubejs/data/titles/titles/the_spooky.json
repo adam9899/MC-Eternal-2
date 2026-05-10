@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:the_spooky",
   "rarity": "uncommon",
-  "defaultDisplay": "the Spooky"
+  "defaultDisplay": "title.titles.mce2.the_spooky"
 }

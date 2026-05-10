@@ -2,6 +2,6 @@
   "type": "command",
   "id": "titles:crazy_cat",
   "rarity": "common",
-  "defaultDisplay": "the Crazy Cat Person",
-  "variantDisplay": "the Crazy Cat Lady"
+  "defaultDisplay": "title.titles.mce2.crazy_cat",
+  "variantDisplay": "title.titles.mce2.crazy_cat.variant"
 }

@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:orc",
   "rarity": "common",
-  "defaultDisplay": "the Orc"
+  "defaultDisplay": "title.titles.mce2.orc"
 }

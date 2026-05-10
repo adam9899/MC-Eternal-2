@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:pureblood",
   "rarity": "uncommon",
-  "defaultDisplay": "the Pureblood"
+  "defaultDisplay": "title.titles.mce2.vampire_lord"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:undertaker",
   "rarity": "rare",
-  "defaultDisplay": "the Undertaker"
+  "defaultDisplay": "title.titles.mce2.undertaker"
 }

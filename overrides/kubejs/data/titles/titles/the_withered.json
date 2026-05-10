@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:the_withered",
   "rarity": "rare",
-  "defaultDisplay": "the Harbinger of Doom"
+  "defaultDisplay": "title.titles.mce2.the_withered"
 }

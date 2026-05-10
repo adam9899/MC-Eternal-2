@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:gene",
   "rarity": "rare",
-  "defaultDisplay": "the Geneticist"
+  "defaultDisplay": "title.titles.mce2.gene"
 }

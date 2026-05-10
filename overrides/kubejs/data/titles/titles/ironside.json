@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:ironside",
   "rarity": "rare",
-  "defaultDisplay": "Ironside"
+  "defaultDisplay": "title.titles.mce2.ironside"
 }

@@ -2,6 +2,6 @@
   "type": "command",
   "id": "titles:landlord",
   "rarity": "rare",
-  "defaultDisplay": "the Landlord",
-    "variantDisplay": "the Landlady"
+  "defaultDisplay": "title.titles.mce2.landlord",
+  "variantDisplay": "title.titles.mce2.landlord.variant"
 }

@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:jobless",
   "rarity": "uncommon",
-  "defaultDisplay": "the Unemployed"
+  "defaultDisplay": "title.titles.mce2.jobless"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:ungriefed",
   "rarity": "common",
-  "defaultDisplay": "the Ungriefed"
+  "defaultDisplay": "title.titles.mce2.the_ungriefed"
 }

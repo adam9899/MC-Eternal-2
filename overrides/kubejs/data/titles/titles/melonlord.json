@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:melonlord",
   "rarity": "rare",
-  "defaultDisplay": "the Melon Lord"
+  "defaultDisplay": "title.titles.mce2.melonlord"
 }

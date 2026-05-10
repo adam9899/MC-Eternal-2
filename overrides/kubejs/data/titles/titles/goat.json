@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:goat",
   "rarity": "uncommon",
-  "defaultDisplay": "the Goat Whisperer"
+  "defaultDisplay": "title.titles.mce2.goat"
 }

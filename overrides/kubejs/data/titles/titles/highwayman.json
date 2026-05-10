@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:highwayman",
   "rarity": "uncommon",
-  "defaultDisplay": "the Highwayman"
+  "defaultDisplay": "title.titles.mce2.highwayman"
 }

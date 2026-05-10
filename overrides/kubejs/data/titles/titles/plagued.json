@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:plagued",
   "rarity": "rare",
-  "defaultDisplay": "the Plagued"
+  "defaultDisplay": "title.titles.mce2.plagued"
 }

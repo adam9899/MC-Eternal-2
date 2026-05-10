@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:end",
   "rarity": "rare",
-  "defaultDisplay": "the Conqueror"
+  "defaultDisplay": "title.titles.mce2.end"
 }

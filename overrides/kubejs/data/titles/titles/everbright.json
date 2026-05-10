@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:everbright",
   "rarity": "uncommon",
-  "defaultDisplay": "of the Everbright"
+  "defaultDisplay": "title.titles.mce2.everbright"
 }

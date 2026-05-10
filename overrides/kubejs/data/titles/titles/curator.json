@@ -1,14 +1,6 @@
 {
-  
   "type": "command",
-
-
   "rarity": "uncommon",
-
-  
-  "defaultDisplay": "The Curator",
-  
-
- 
-  "flavorText": "???"
+  "defaultDisplay": "title.titles.mce2.curator",
+  "flavorText": "title.titles.mce2.curator.flavor"
 }

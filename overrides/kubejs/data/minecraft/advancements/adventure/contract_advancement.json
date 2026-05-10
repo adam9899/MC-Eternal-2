@@ -3,8 +3,12 @@
       "icon": {
         "item": "kubejs:contract"
       },
-      "title": "Dubious Legal Matters",
-      "description": "I hope you got legal advice before signing this damn thing..",
+      "title": {
+        "translate": "advancement.minecraft.adventure.contract_advancement.title"
+      },
+      "description": {
+        "translate": "advancement.minecraft.adventure.contract_advancement.description"
+      },
       "frame": "challenge",
       "show_toast": true,
       "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",

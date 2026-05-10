@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:goldtouched",
   "rarity": "rare",
-  "defaultDisplay": "the Goldtouched"
+  "defaultDisplay": "title.titles.mce2.goldtouched"
 }

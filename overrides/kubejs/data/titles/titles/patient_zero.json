@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:patient_zero",
   "rarity": "common",
-  "defaultDisplay": "Patient Zero"
+  "defaultDisplay": "title.titles.mce2.patient_zero"
 }

@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:turtle",
   "rarity": "rare",
-  "defaultDisplay": "the Turtle Lord"
+  "defaultDisplay": "title.titles.mce2.turtle"
 }

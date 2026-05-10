@@ -1,14 +1,6 @@
 {
-  
   "type": "command",
-
-
   "rarity": "common",
-
-  
-  "defaultDisplay": "Treeslayer",
-  
-
- 
-  "flavorText": "???"
+  "defaultDisplay": "title.titles.mce2.treeslayer",
+  "flavorText": "title.titles.mce2.treeslayer.flavor"
 }

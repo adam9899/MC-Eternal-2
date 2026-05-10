@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:chad",
   "rarity": "rare",
-  "defaultDisplay": "the Destroyer of Chads"
+  "defaultDisplay": "title.titles.mce2.chad_destroyer"
 }

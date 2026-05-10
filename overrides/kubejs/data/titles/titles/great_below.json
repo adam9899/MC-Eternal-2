@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:great_below",
   "rarity": "rare",
-  "defaultDisplay": "of The Great Below"
+  "defaultDisplay": "title.titles.mce2.great_below"
 }

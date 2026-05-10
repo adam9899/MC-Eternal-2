@@ -1,13 +1,6 @@
 {
-  
   "type": "command",
-
-
   "rarity": "rare",
-
-  
-  "defaultDisplay": "Fishing Expert",
-
- 
-  "flavorText": "???"
+  "defaultDisplay": "title.titles.mce2.fishing_expert",
+  "flavorText": "title.titles.mce2.fishing_expert.flavor"
 }

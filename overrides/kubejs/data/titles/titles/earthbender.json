@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:earthbender",
   "rarity": "rare",
-  "defaultDisplay": "the Earthbender"
+  "defaultDisplay": "title.titles.mce2.earthbender"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:the_guardian",
   "rarity": "rare",
-  "defaultDisplay": "the Netherbane"
+  "defaultDisplay": "title.titles.mce2.the_guardian"
 }

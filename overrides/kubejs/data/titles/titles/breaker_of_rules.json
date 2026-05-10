@@ -1,15 +1,7 @@
 {
-  
   "type": "command",
-
-
   "rarity": "rare",
-
-  
-  "defaultDisplay": "Breaker of Rules",
-  
-  "variantDisplay": "Breaker of Rules",
-  
- 
-  "flavorText": "You pressed the button... What have you done..."
+  "defaultDisplay": "title.titles.mce2.breaker_of_rules",
+  "variantDisplay": "title.titles.mce2.breaker_of_rules.variant",
+  "flavorText": "title.titles.mce2.breaker_of_rules.flavor"
 }

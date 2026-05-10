@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:gardener",
   "rarity": "rare",
-  "defaultDisplay": "the Gardener"
+  "defaultDisplay": "title.titles.mce2.gardner"
 }

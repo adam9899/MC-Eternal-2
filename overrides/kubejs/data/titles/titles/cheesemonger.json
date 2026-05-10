@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:cheesemonger",
   "rarity": "uncommon",
-  "defaultDisplay": "the Cheesemonger"
+  "defaultDisplay": "title.titles.mce2.cheesemonger"
 }

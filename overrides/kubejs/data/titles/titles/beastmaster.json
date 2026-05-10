@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:beastmaster",
   "rarity": "rare",
-  "defaultDisplay": "Beastmaster"
+  "defaultDisplay": "title.titles.mce2.beastmaster"
 }

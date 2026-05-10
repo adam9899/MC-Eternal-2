@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:national_hero",
   "rarity": "rare",
-  "defaultDisplay": "the National Hero"
+  "defaultDisplay": "title.titles.mce2.national_hero"
 }

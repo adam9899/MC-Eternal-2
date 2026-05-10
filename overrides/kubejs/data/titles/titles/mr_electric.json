@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:electric",
   "rarity": "rare",
-  "defaultDisplay": "Mister Electric"
+  "defaultDisplay": "title.titles.mce2.mr_electric"
 }

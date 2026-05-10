@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:lucky",
   "rarity": "rare",
-  "defaultDisplay": "the Lucky"
+  "defaultDisplay": "title.titles.mce2.lucky"
 }

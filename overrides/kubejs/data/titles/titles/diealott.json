@@ -2,6 +2,6 @@
   "type": "command",
   "id": "titles:die",
   "rarity": "common",
-  "defaultDisplay": "Sir Die-a-Lot",
-  "variantDisplay": "Lady Die-a-Lot"
+  "defaultDisplay": "title.titles.mce2.diealott",
+  "variantDisplay": "title.titles.mce2.diealott.variant"
 }

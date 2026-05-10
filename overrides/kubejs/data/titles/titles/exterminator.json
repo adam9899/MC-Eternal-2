@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:exterminator",
   "rarity": "rare",
-  "defaultDisplay": "the Exterminator"
+  "defaultDisplay": "title.titles.mce2.exterminator"
 }

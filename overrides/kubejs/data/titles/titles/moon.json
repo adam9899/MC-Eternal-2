@@ -1,15 +1,7 @@
 {
-  
   "type": "command",
-
-
   "rarity": "rare",
-
-  
-  "defaultDisplay": "Master of The Moon",
-  
-  "variantDisplay": "Mistress of The Moon",
-  
- 
-  "flavorText": "???"
+  "defaultDisplay": "title.titles.mce2.moon",
+  "variantDisplay": "title.titles.mce2.moon.variant",
+  "flavorText": "title.titles.mce2.moon.flavor"
 }

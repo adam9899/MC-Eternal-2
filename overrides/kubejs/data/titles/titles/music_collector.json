@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:music_collector",
   "rarity": "rare",
-  "defaultDisplay": "the Music Collector"
+  "defaultDisplay": "title.titles.mce2.music_collector"
 }

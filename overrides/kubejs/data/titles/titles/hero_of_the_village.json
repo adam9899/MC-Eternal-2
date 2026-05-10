@@ -2,6 +2,6 @@
   "type": "command",
   "id": "titles:hero_village",
   "rarity": "rare",
-  "defaultDisplay": "Hero of The Village",
-    "variantDisplay": "Heroine of The Village"
+  "defaultDisplay": "title.titles.mce2.hero_of_the_village",
+  "variantDisplay": "title.titles.mce2.hero_of_the_village.variant"
 }

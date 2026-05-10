@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:pilot",
   "rarity": "uncommon",
-  "defaultDisplay": "the Pilot"
+  "defaultDisplay": "title.titles.mce2.pilot"
 }

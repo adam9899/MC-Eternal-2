@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:king",
   "rarity": "rare",
-  "defaultDisplay": "the Determined"
+  "defaultDisplay": "title.titles.mce2.determined"
 }

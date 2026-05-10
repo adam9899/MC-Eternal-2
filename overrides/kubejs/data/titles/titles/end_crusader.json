@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:end_crusader",
   "rarity": "rare",
-  "defaultDisplay": "the End Crusader"
+  "defaultDisplay": "title.titles.mce2.end_crusader"
 }

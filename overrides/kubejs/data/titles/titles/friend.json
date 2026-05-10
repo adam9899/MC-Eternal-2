@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:friend",
   "rarity": "uncommon",
-  "defaultDisplay": "the BFF"
+  "defaultDisplay": "title.titles.mce2.friend"
 }

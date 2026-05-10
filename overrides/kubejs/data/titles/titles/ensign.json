@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:ensign",
   "rarity": "uncommon",
-  "defaultDisplay": "Ensign"
+  "defaultDisplay": "title.titles.mce2.ensign"
 }

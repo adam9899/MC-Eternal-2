@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:friends",
   "rarity": "uncommon",
-  "defaultDisplay": "the Smiling Friend"
+  "defaultDisplay": "title.titles.mce2.friends"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:torture",
   "rarity": "rare",
-  "defaultDisplay": "the Torturer"
+  "defaultDisplay": "title.titles.mce2.torture"
 }

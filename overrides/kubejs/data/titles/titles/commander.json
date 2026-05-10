@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:commander",
   "rarity": "uncommon",
-  "defaultDisplay": "Commander"
+  "defaultDisplay": "title.titles.mce2.commander"
 }

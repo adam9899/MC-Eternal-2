@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:lumberjack",
   "rarity": "common",
-  "defaultDisplay": "the Lumberjack"
+  "defaultDisplay": "title.titles.mce2.lumberjack"
 }

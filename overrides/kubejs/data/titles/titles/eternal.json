@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:eternal",
   "rarity": "rare",
-  "defaultDisplay": "Eternal"
+  "defaultDisplay": "title.titles.mce2.eternal"
 }

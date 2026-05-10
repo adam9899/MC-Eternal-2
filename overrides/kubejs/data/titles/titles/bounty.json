@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:bounty",
   "rarity": "common",
-  "defaultDisplay": "the Bounty Hunter"
+  "defaultDisplay": "title.titles.mce2.bounty"
 }

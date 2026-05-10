@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:pawnshop",
   "rarity": "rare",
-  "defaultDisplay": "of the Pawnshop"
+  "defaultDisplay": "title.titles.mce2.pawnshop"
 }

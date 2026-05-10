@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:pet",
   "rarity": "uncommon",
-  "defaultDisplay": "the Questmaster's Pet"
+  "defaultDisplay": "title.titles.mce2.the_pet"
 }

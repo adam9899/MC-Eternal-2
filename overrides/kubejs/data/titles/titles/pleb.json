@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:pleb",
   "rarity": "uncommon",
-  "defaultDisplay": "the Pleb"
+  "defaultDisplay": "title.titles.mce2.pleb"
 }

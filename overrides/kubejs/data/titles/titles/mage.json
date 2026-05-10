@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:mage",
   "rarity": "uncommon",
-  "defaultDisplay": "the Mage"
+  "defaultDisplay": "title.titles.mce2.mage"
 }

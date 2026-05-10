@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:conductor",
   "rarity": "common",
-  "defaultDisplay": "the Conductor"
+  "defaultDisplay": "title.titles.mce2.conductor"
 }

@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:nomad",
   "rarity": "common",
-  "defaultDisplay": "the Nomad"
+  "defaultDisplay": "title.titles.mce2.nomad"
 }

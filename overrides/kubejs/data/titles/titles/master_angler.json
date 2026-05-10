@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:master_angler",
   "rarity": "rare",
-  "defaultDisplay": "the Master Angler"
+  "defaultDisplay": "title.titles.mce2.master_angler"
 }

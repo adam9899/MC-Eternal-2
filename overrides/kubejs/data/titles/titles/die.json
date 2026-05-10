@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:die",
   "rarity": "common",
-  "defaultDisplay": "Die-a-Lot"
+  "defaultDisplay": "title.titles.mce2.die"
 }

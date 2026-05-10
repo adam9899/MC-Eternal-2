@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:mayor",
   "rarity": "uncommon",
-  "defaultDisplay": "the Mayor"
+  "defaultDisplay": "title.titles.mce2.the_mayor"
 }

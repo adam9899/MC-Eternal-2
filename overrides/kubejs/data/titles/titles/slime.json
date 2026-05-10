@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:slime",
   "rarity": "uncommon",
-  "defaultDisplay": "the Partycrasher"
+  "defaultDisplay": "title.titles.mce2.slime"
 }

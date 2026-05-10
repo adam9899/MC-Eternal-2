@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:logician",
   "rarity": "rare",
-  "defaultDisplay": "the Little Logician"
+  "defaultDisplay": "title.titles.mce2.lil"
 }

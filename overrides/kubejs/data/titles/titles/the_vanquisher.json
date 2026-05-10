@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:vanquisher",
   "rarity": "rare",
-  "defaultDisplay": "the Vanquisher"
+  "defaultDisplay": "title.titles.mce2.the_vanquisher"
 }

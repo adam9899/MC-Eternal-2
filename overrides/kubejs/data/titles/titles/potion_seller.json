@@ -1,6 +1,6 @@
- {
+{
   "type": "command",
   "id": "titles:potion",
   "rarity": "uncommon",
-  "defaultDisplay": "the Potion Seller"
+  "defaultDisplay": "title.titles.mce2.potion_seller"
 }
