@@ -687,7 +687,8 @@
 			id: "2D8A85C1AA11CCD5"
 			rewards: [
 				{
-					command: "/titles add {p}titles:dwarf"
+					command: "/titles add {p} titles:dwarf"
+					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "1751F3FB18D062B6"

@@ -1,6 +1,6 @@
 {
   "type": "command",
-  "id": "titles:ashen",
-  "rarity": "rare",
+  "id": "titles:ashen_breath",
+  "rarity": "uncommon",
   "defaultDisplay": "of the Ashen Breath"
 }

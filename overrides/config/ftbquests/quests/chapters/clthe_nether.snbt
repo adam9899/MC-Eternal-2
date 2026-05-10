@@ -638,7 +638,8 @@
 				}
 				{
 					command: "/titles add {p} titles:demon_slayer"
-					icon: "titles:title_scroll_uncommon"
+					console: true
+					icon: "titles:title_scroll_rare"
 					id: "4676D913C6156C6D"
 					title: "{ftbquests.chapter.clthe_nether.quest5157911034145560134.reward.5077484308857711725.title}"
 					type: "command"
@@ -724,7 +725,7 @@
 			id: "4C81F6B40FD9A4A2"
 			rewards: [
 				{
-					command: "/titles add {p} twilightforest:fiery_set"
+					command: "/titles add {p} titles:flame_forged"
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "22DA422A1A1EAEC3"
@@ -917,7 +918,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:ashen"
+					command: "/titles add {p} titles:ashen_breath"
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0067A1BE49111658"

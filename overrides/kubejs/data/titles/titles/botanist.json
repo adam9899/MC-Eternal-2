@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:botanist",
+  "rarity": "rare",
+  "defaultDisplay": "Master Botanist"
+}

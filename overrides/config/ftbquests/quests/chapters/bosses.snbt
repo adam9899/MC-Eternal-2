@@ -148,6 +148,7 @@
 		}
 	]
 	order_index: 1
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -172,7 +173,7 @@
 					command: "/titles add {p} titles:goblinbane"
 					console: true
 					elevate_perms: true
-					icon: "titles:title_scroll_common"
+					icon: "titles:title_scroll_rare"
 					id: "29675BF8BA282F99"
 					title: "{ftbquests.chapter.bosses.quest8573039856442382865.reward.2983454401989455769.title}"
 					type: "command"
@@ -529,7 +530,7 @@
 					command: "/titles add {p} titles:demon_slayer"
 					console: true
 					elevate_perms: true
-					icon: "titles:title_scroll_uncommon"
+					icon: "titles:title_scroll_rare"
 					id: "00D5CEEED941D81B"
 					title: "{ftbquests.chapter.bosses.quest99908953448821826.reward.60181695281879067.title}"
 					type: "command"
@@ -864,10 +865,10 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:vanquisher"
+					command: "/titles add {p} titles:the_vanquisher"
 					console: true
 					elevate_perms: true
-					icon: "titles:title_scroll_uncommon"
+					icon: "titles:title_scroll_rare"
 					id: "112006616A786B76"
 					title: "{ftbquests.chapter.bosses.quest7160324107286133209.reward.1233993313367386998.title}"
 					type: "command"
@@ -1026,7 +1027,7 @@
 					command: "/titles add {p} titles:ironside"
 					console: true
 					elevate_perms: true
-					icon: "titles:title_scroll_uncommon"
+					icon: "titles:title_scroll_rare"
 					id: "06439A84E2F5C8D9"
 					title: "{ftbquests.chapter.bosses.quest3352049957073858225.reward.451374283201300697.title}"
 					type: "command"
@@ -1189,7 +1190,7 @@
 				{
 					command: "/titles add {p} titles:the_immortal"
 					console: true
-					icon: "titles:title_scroll_uncommon"
+					icon: "titles:title_scroll_rare"
 					id: "6F3BD211F59D65F1"
 					title: "{ftbquests.chapter.bosses.quest4531714763290880117.reward.8015230936412939761.title}"
 					type: "command"
@@ -1508,7 +1509,7 @@
 					command: "/titles add {p} titles:sunken"
 					console: true
 					elevate_perms: true
-					icon: "titles:title_scroll_uncommon"
+					icon: "titles:title_scroll_rare"
 					id: "0A4479D4F9FF8D44"
 					title: "{ftbquests.chapter.bosses.quest1799469693953952695.reward.739850194429906244.title}"
 					type: "command"
@@ -1638,7 +1639,7 @@
 					command: "/titles add {p} titles:lich_eye"
 					console: true
 					elevate_perms: true
-					icon: "titles:title_scroll_uncommon"
+					icon: "titles:title_scroll_rare"
 					id: "0D4027ADE5C68066"
 					title: "{ftbquests.chapter.bosses.quest7523518634516308215.reward.954806748840362086.title}"
 					type: "command"
@@ -1703,7 +1704,7 @@
 					command: "/titles add {p} titles:evil_eye"
 					console: true
 					elevate_perms: true
-					icon: "titles:title_scroll_uncommon"
+					icon: "titles:title_scroll_rare"
 					id: "5FBAD66E034E01EF"
 					title: "{ftbquests.chapter.bosses.quest4928210697361698603.reward.6898061547261526511.title}"
 					type: "command"

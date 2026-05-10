@@ -1121,6 +1121,7 @@
 		}
 	]
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -1622,7 +1623,7 @@
 					command: "/titles add {p} titles:hero_village"
 					console: true
 					elevate_perms: true
-					icon: "titles:title_scroll_common"
+					icon: "titles:title_scroll_rare"
 					id: "29C6D081DC0E8D8F"
 					title: "{ftbquests.chapter.introduction.quest3618876879512334787.reward.3010322657105055119.title}"
 					type: "command"
@@ -2345,6 +2346,7 @@
 				}
 				{
 					command: "/titles add {p} titles:trader"
+					console: true
 					icon: "titles:title_scroll_common"
 					id: "010394115892AE30"
 					title: "{ftbquests.chapter.introduction.quest1510417649203490773.reward.73064821189422640.title}"
@@ -2395,7 +2397,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:diver"
+					command: "/titles add {p} titles:master_diver"
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "2D6CE912ED509899"
@@ -2711,7 +2713,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles remove {p} twilightforest:progress_naga"
+					command: "/titles add {p} titles:naga_slayer"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
@@ -2970,7 +2972,7 @@
 					type: "choice"
 				}
 				{
-					command: "/titles add {p} twilightforest:progress_troll"
+					command: "/titles add {p} titles:troll"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -3120,7 +3122,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -5455,16 +5457,9 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:the_withered"
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "titles:title_scroll_common"
-					}
+					command: "/titles add {p} titles:interior_decorator"
+					console: true
+					icon: "titles:title_scroll_common"
 					id: "0E2AD0D840200737"
 					title: "{ftbquests.chapter.introduction.quest5917000279415961093.reward.1020857892760192823.title}"
 					type: "command"

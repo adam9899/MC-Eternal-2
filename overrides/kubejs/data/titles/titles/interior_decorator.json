@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:interior_decorator",
+  "rarity": "common",
+  "isPrefix":  "true",
+  "defaultDisplay": "Interior Decorator"
+}

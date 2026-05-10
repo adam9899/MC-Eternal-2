@@ -2103,7 +2103,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:trashman"
+					command: "/titles add {p} titles:trashperson"
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "4878192B49691F91"
@@ -2212,8 +2212,9 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p}  titles:godzilla"
+					command: "/titles add {p} titles:terror"
 					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5D2DF03A7B532A06"
 					title: "{ftbquests.chapter.challenges.quest5497200196616777365.reward.6714286753447094790.title}"
@@ -2322,7 +2323,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:skill"
+					command: "/titles add {p} titles:skillful"
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "0D6B48FB4BB71223"

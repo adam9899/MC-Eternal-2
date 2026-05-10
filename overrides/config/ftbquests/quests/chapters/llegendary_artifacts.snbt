@@ -3116,7 +3116,8 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:king_rat"
+					command: "/titles add {p} titles:rat_king"
+					console: true
 					icon: "titles:title_scroll_rare"
 					id: "51B0A310C167FFBE"
 					title: "{ftbquests.chapter.llegendary_artifacts.quest2413032287311520114.reward.5886384005332860862.title}"
@@ -3201,7 +3202,7 @@
 			rewards: [
 				{
 					command: "/titles add {p} titles:wraught"
-					icon: "titles:title_scroll_uncommon"
+					icon: "titles:title_scroll_rare"
 					id: "35E36EC7C8552504"
 					title: "{ftbquests.chapter.llegendary_artifacts.quest7019814008628402972.reward.3883069108062070020.title}"
 					type: "command"
@@ -3438,7 +3439,7 @@
 				}
 				{
 					command: "/titles add {p} titles:dreadlord"
-					icon: "titles:title_scroll_uncommon"
+					icon: "titles:title_scroll_rare"
 					id: "705E7F598DB92922"
 					title: "{ftbquests.chapter.llegendary_artifacts.quest2606305938821695087.reward.8097049202665269538.title}"
 					type: "command"

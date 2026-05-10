@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:doom",
+  "rarity": "rare",
+  "defaultDisplay": "the Harbinger of Doom"
+}

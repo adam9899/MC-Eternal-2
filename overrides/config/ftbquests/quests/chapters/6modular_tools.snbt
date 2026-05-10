@@ -1786,9 +1786,9 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:origin"
+					command: "/titles add {p} titles:monarch"
 					console: true
-					icon: "titles:title_scroll_common"
+					icon: "titles:title_scroll_rare"
 					id: "44E12299780E68CE"
 					title: "{ftbquests.chapter.6modular_tools.quest6904236423079979380.reward.4963286306878548174.title}"
 					type: "command"
@@ -2316,7 +2316,7 @@
 				{
 					command: "/titles add {p} titles:sticky"
 					console: true
-					icon: "titles:title_scroll_common"
+					icon: "titles:title_scroll_uncommon"
 					id: "15358290185B1E1C"
 					title: "{ftbquests.chapter.6modular_tools.quest4098917473177986479.reward.1528271203957677596.title}"
 					type: "command"

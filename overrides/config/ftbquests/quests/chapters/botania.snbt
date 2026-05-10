@@ -14,138 +14,120 @@
 	images: [
 		{
 			height: 6.0d
-			image: "botania:textures/gui/paper_left.png"
+			image: "biomeswevegone:textures/gui/hanging_signs/florus.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 1.0612244897959187d
-			y: -2.2551020408163254d
+			x: 29.469780219780205d
+			y: 1.0224097331240145d
 		}
 		{
-			height: 1.0d
-			image: "botania:block/livingwood_log"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.1469387755102d
-			y: 2.8591836734693814d
-		}
-		{
-			height: 1.0d
-			image: "botania:block/livingwood_log"
-			rotation: 0.0d
-			width: 1.0d
-			x: 11.861224489795916d
-			y: 2.8591836734693814d
-		}
-		{
-			height: 1.0d
-			image: "botania:block/glimmering_livingwood_log"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.1469387755102d
-			y: 2.0020408163265273d
-		}
-		{
-			height: 1.0d
-			image: "botania:block/glimmering_livingwood_log"
-			rotation: 0.0d
-			width: 1.0d
-			x: 11.861224489795916d
-			y: 2.0020408163265273d
-		}
-		{
-			height: 1.0d
+			alpha: 128
+			height: 1.2d
 			image: "botania:block/alfheim_portal_swirl"
 			rotation: 0.0d
-			width: 1.0d
-			x: 11.0d
-			y: 2.0d
+			width: 1.2d
+			x: 23.0d
+			y: -14.0d
 		}
 		{
-			height: 1.0d
+			corner: true
+			height: 1.2d
 			image: "botania:block/alfheim_portal_activated"
 			rotation: 0.0d
-			width: 1.0d
-			x: 11.004081632653055d
-			y: 2.8591836734693814d
+			width: 1.2d
+			x: 23.0d
+			y: -13.0d
 		}
 		{
-			height: 1.0d
+			height: 1.2d
 			image: "botania:block/livingwood_log"
 			rotation: 0.0d
-			width: 1.0d
-			x: 10.1469387755102d
-			y: 1.1448979591836732d
+			width: 1.2d
+			x: 22.0d
+			y: -15.0d
 		}
 		{
-			height: 1.0d
-			image: "botania:block/livingwood_log"
-			rotation: 0.0d
-			width: 1.0d
-			x: 11.861224489795916d
-			y: 1.1448979591836732d
-		}
-		{
-			height: 1.0d
+			height: 1.2d
 			image: "botania:block/glimmering_livingwood_log"
 			rotation: 0.0d
-			width: 1.0d
-			x: 11.004081632653055d
-			y: 1.1448979591836732d
+			width: 1.2d
+			x: 23.0d
+			y: -15.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 24.0d
+			y: -15.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 24.0d
+			y: -13.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 22.0d
+			y: -13.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 22.0d
+			y: -14.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 24.0d
+			y: -14.0d
 		}
 		{
 			height: 6.0d
-			image: "botania:textures/gui/paper_left.png"
+			image: "biomeswevegone:textures/gui/hanging_signs/florus.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 17.415750915750905d
+			y: -8.788513867085321d
+		}
+		{
+			height: 6.0d
+			image: "biomeswevegone:textures/gui/hanging_signs/florus.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: -1.3598639455782475d
-			y: 6.731632653061233d
+			x: 29.5d
+			y: -15.0d
 		}
 		{
-			height: 0.5d
-			image: "botania:block/brown_mushroom"
+			height: 6.0d
+			image: "biomeswevegone:textures/gui/hanging_signs/florus.png"
 			rotation: 0.0d
-			width: 0.5d
-			x: -3.383673469387766d
-			y: 4.184013605442196d
-		}
-		{
-			height: 0.5d
-			image: "botania:block/manastar"
-			rotation: 20.0d
-			width: 0.5d
-			x: -1.5238095238095255d
-			y: 4.131122448979603d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/cave_vines_plant"
-			rotation: 90.0d
-			width: 1.0d
-			x: 0.3571428571428541d
-			y: 2.012074829931983d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/cave_vines_plant"
-			rotation: 90.0d
-			width: 1.0d
-			x: -0.5d
-			y: 2.012074829931983d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/cave_vines_lit"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.285714285714292d
-			y: 4.772278911564641d
+			width: 6.0d
+			x: 16.5d
+			y: 1.0224097331240074d
 		}
 	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			description: [""]
+			description: [
+				"The Petal Apothecary is used to craft Flora, the primary \"machines\" of Botania. Fill it with water from a bucket (a bucket in a dispenser also works), throw in all the petals and other materials for the recipe, and toss almost any seed in to finish the craft. "
+				""
+				"&6Tip:&r If you're bulk crafting, you can also sneak and right click after a craft to add all the ingredients back without dropping them in one by one!"
+			]
 			icon: "botania:apothecary_default"
 			id: "2524C59A32F0DA28"
 			rewards: [
@@ -172,6 +154,7 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.botania.quest2676481344635197992.subtitle}"
 			tasks: [{
 				id: "4C826485E4D4D537"
@@ -179,11 +162,16 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest2676481344635197992.title}"
-			x: 0.0d
-			y: 0.0d
+			x: 23.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["534740624C012CBF"]
+			dependencies: [
+				"534740624C012CBF"
+				"738DAB5AE090F284"
+				"5597BF5DDD93CD81"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.botania.quest696260986371080398.description1}"
 				""
@@ -195,13 +183,34 @@
 				"{ftbquests.chapter.botania.quest696260986371080398.description6}"
 			]
 			id: "09A99DAD9B9C80CE"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "10B6B92B280E935B"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			min_required_dependencies: 2
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "10B6B92B280E935B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "50522F641715564E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "677A20A9FA1563F5"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.botania.quest696260986371080398.subtitle}"
 			tasks: [
 				{
@@ -214,26 +223,18 @@
 					item: "botania:mana_pool"
 					type: "item"
 				}
-				{
-					id: "3A222B0EE7E27384"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "mce2:botania/basic_generating_flower"
-						}
-					}
-					title: "{ftbquests.chapter.botania.quest696260986371080398.task.4188957946427896708.title}"
-					type: "item"
-				}
 			]
 			title: "{ftbquests.chapter.botania.quest696260986371080398.title}"
-			x: 1.0d
-			y: 2.0d
+			x: 23.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2524C59A32F0DA28"]
-			description: [""]
+			description: [
+				"The Pure Daisy converts blocks placed beside it to their &eBotanical variants&r over the course of about 30 seconds. "
+				""
+				"&6Tip:&r You'll need Livingrock and Livingwood pretty regularly while progressing through Botania, and it's slow to craft, so it's a good idea to either automate it or make huge batches so you don't have to keep making trips to the Daisy."
+			]
 			icon: "botania:pure_daisy"
 			id: "534740624C012CBF"
 			rewards: [{
@@ -244,6 +245,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "gear"
+			size: 1.25d
 			tasks: [
 				{
 					id: "50D1AB43F24FD615"
@@ -262,7 +264,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.botania.quest6000835819420593343.title}"
-			x: -1.0d
+			x: 23.0d
 			y: 2.0d
 		}
 		{
@@ -300,6 +302,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			shape: "square"
 			subtitle: "{ftbquests.chapter.botania.quest7875371975904872838.subtitle}"
 			tasks: [{
 				id: "2C1EBB89070F54F9"
@@ -311,11 +314,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest7875371975904872838.title}"
-			x: 0.0d
-			y: -2.0d
+			x: 23.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["6D4AF11629E04986"]
+			dependencies: ["64D4884086C7B041"]
 			description: ["{ftbquests.chapter.botania.quest7917003710928581595.description1}"]
 			id: "6DDED8EDD358F3DB"
 			rewards: [
@@ -359,11 +362,10 @@
 				weak_nbt_match: true
 			}]
 			title: "{ftbquests.chapter.botania.quest7917003710928581595.title}"
-			x: 0.0d
-			y: -4.0d
+			x: 20.0d
+			y: -15.0d
 		}
 		{
-			dependencies: ["534740624C012CBF"]
 			description: [
 				"{ftbquests.chapter.botania.quest5088047349113092864.description1}"
 				""
@@ -412,8 +414,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest5088047349113092864.title}"
-			x: 0.0d
-			y: 4.0d
+			x: 23.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["09A99DAD9B9C80CE"]
@@ -447,6 +449,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			subtitle: "{ftbquests.chapter.botania.quest7126936400966812386.subtitle}"
 			tasks: [
 				{
@@ -476,8 +480,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.botania.quest7126936400966812386.title}"
-			x: 3.0d
-			y: 2.0d
+			x: 23.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -485,17 +489,46 @@
 				"7D6C3DA95F0C8446"
 				"4DB02664AC3DE750"
 			]
-			description: [""]
+			description: [
+				"The &bRunic Altar&r will be your best friend for progressing any further into Botania- simply throw or right click your ingredients onto the altar, wait until the progress bar is full, then throw an extra piece of &eLiving Rock&r on the altar and right click it with a &eWand of the Forest&r. You can also use a &dDispenser&r with a Wand of the Forest to finish the craft remotely!"
+				""
+				"&6Note:&r The &bAltar&r emits a &cComparator signal&r of 1 when accepting mana (I. E. there's a valid recipe and crafting has started), and a signal of 2 when ready to complete the craft. Try automating it- it's a good challenge! "
+			]
 			icon: "botania:runic_altar"
 			id: "712FF3A7BCD998F3"
 			min_required_dependencies: 1
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "253A3E0373CCB04E"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "253A3E0373CCB04E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 16
+					id: "36E565315068C76B"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "688547F87BC4676D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.1d
 			tasks: [
 				{
 					id: "049E586E50F2CD7F"
@@ -511,20 +544,27 @@
 				}
 			]
 			title: "{ftbquests.chapter.botania.quest8156005351944722675.title}"
-			x: 5.0d
-			y: 2.0d
+			x: 23.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["712FF3A7BCD998F3"]
 			description: [
-				"{ftbquests.chapter.botania.quest6653458311892948285.description1}"
+				"Runestones formed by using &bMana Steel, Mana Dust&r and &eother simple reagents&r to crystallize and etch a mere concept into a Living Rock. "
 				""
-				"{ftbquests.chapter.botania.quest6653458311892948285.description2}"
+				"The first tier of runes reflects the fundamental forces of nature that shape a Botanist's world."
+				""
+				"These runes hold less of a &oconcept&r and more of a \"tinted\" form of mana, but they should still have more than enough power to craft some very interesting items."
+				""
+				"&6Tip:&r Higher tier runes do &4NOT&r consume their input runes when crafted- consider stashing 1 of each lower tier rune to avoid having to craft every step of a higher tier!"
+				""
+				"{@pagebreak}"
+				"&6NOTE:&r Runes are used to craft all manner of items- &dkeep your eyes on the Bauble, Rod, and Flora section as you craft more runes!&r Quests will unlock once you have the materials to craft them!"
 			]
 			id: "5C55D515483FD53D"
 			rewards: [
 				{
-					amount: 200L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "0C9525A75D3F2AA3"
 					ignore_reward_blocking: true
@@ -546,6 +586,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					id: "6152AF0624908A20"
@@ -568,80 +610,27 @@
 					type: "item"
 				}
 				{
-					id: "2398DD0FB4A73461"
-					item: "botania:rune_spring"
-					type: "item"
-				}
-				{
-					id: "7ADBCAFE070E7CE8"
-					item: "botania:rune_summer"
-					type: "item"
-				}
-				{
-					id: "2D7C710BBF83E9F1"
-					item: "botania:rune_autumn"
-					type: "item"
-				}
-				{
-					id: "075373A105E3284D"
-					item: "botania:rune_winter"
-					type: "item"
-				}
-				{
 					id: "004A0586F1472803"
 					item: "botania:rune_mana"
 					type: "item"
 				}
-				{
-					id: "3ABF1E63EC772FCB"
-					item: "botania:rune_lust"
-					type: "item"
-				}
-				{
-					id: "4C8E83CCC7EF5FF6"
-					item: "botania:rune_gluttony"
-					type: "item"
-				}
-				{
-					id: "424BAD66FB0F89AD"
-					item: "botania:rune_greed"
-					type: "item"
-				}
-				{
-					id: "6D1263439ED8D101"
-					item: "botania:rune_sloth"
-					type: "item"
-				}
-				{
-					id: "701C5E24DB0A100B"
-					item: "botania:rune_wrath"
-					type: "item"
-				}
-				{
-					id: "78A15979D8DB9861"
-					item: "botania:rune_envy"
-					type: "item"
-				}
-				{
-					id: "328DE9C2C743EFD5"
-					item: "botania:rune_pride"
-					type: "item"
-				}
 			]
 			title: "{ftbquests.chapter.botania.quest6653458311892948285.title}"
-			x: 7.0d
-			y: 2.0d
+			x: 23.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
-				"5C55D515483FD53D"
 				"18B8FFDDA13EE6B3"
 				"23E5D2F7B06701E1"
 				"6FB1D279B2CBCD1E"
 				"004A0586F1472803"
 				"6152AF0624908A20"
+				"5C55D515483FD53D"
 			]
 			description: [
+				"See the &eLexica Botania&r for details on how to build the structure."
+				""
 				"{ftbquests.chapter.botania.quest1224632961744829523.description1}"
 				""
 				"{ftbquests.chapter.botania.quest1224632961744829523.description2}"
@@ -679,23 +668,13 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.botania.quest1224632961744829523.subtitle}"
 			tasks: [
 				{
 					id: "12CD7FA257769E3D"
 					item: "botania:terra_plate"
 					type: "item"
-				}
-				{
-					hasCustomPicture: false
-					icon: "minecraft:lapis_block"
-					id: "695FC871D1105C97"
-					ignoreState: false
-					layer: true
-					name: "terra_plate"
-					rightclick: false
-					title: "{ftbquests.chapter.botania.quest1224632961744829523.task.7593007887934315671.title}"
-					type: "questsadditions:structure"
 				}
 				{
 					count: 2L
@@ -710,8 +689,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.botania.quest1224632961744829523.title}"
-			x: 9.0d
-			y: 2.0d
+			x: 23.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["10FEC530B908FC53"]
@@ -747,7 +726,8 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.botania.quest7265581909575970881.subtitle}"
+			size: 1.1d
+			subtitle: "Journey to the Center of the Alf"
 			tasks: [
 				{
 					id: "410205C71E594BA8"
@@ -762,14 +742,11 @@
 				}
 			]
 			title: "{ftbquests.chapter.botania.quest7265581909575970881.title}"
-			x: 11.0d
-			y: 2.0d
+			x: 23.0d
+			y: -14.0d
 		}
 		{
-			dependencies: [
-				"62E7F6E5846D82E2"
-				"754B137377EB2E58"
-			]
+			dependencies: ["7DA3FBB282EDDF54"]
 			description: [
 				"{ftbquests.chapter.botania.quest4881124679431418323.description1}"
 				""
@@ -807,10 +784,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest4881124679431418323.title}"
-			x: 2.0d
-			y: 4.0d
+			x: 20.0d
+			y: -5.0d
 		}
 		{
+			dependencies: ["534740624C012CBF"]
 			description: [
 				"{ftbquests.chapter.botania.quest8326499692880917124.description1}"
 				""
@@ -833,10 +811,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest8326499692880917124.title}"
-			x: -3.0d
-			y: 3.0d
+			x: 22.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["534740624C012CBF"]
 			description: [
 				"{ftbquests.chapter.botania.quest6167608624577498497.description1}"
 				""
@@ -858,15 +837,20 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest6167608624577498497.title}"
-			x: -2.0d
-			y: 3.0d
+			x: 24.0d
+			y: 1.0d
 		}
 		{
+			dependencies: [
+				"6FB1D279B2CBCD1E"
+				"23E5D2F7B06701E1"
+			]
 			description: [
 				"{ftbquests.chapter.botania.quest3995646614224903605.description1}"
 				"{ftbquests.chapter.botania.quest3995646614224903605.description2}"
 				"{ftbquests.chapter.botania.quest3995646614224903605.description3}"
 			]
+			hide_dependency_lines: true
 			id: "3773636D00DE1DB5"
 			rewards: [{
 				amount: 50L
@@ -882,16 +866,18 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest3995646614224903605.title}"
-			x: -3.0d
-			y: 5.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["004A0586F1472803"]
+			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.botania.quest3080700386101472968.description1}"
-				"{ftbquests.chapter.botania.quest3080700386101472968.description2}"
 				""
-				"{ftbquests.chapter.botania.quest3080700386101472968.description3}"
+				"They can also &ddisenchant thrown items or books like a&r &bGrindstone&r to generate Experience, which it will immediately consume for mana."
 			]
+			hide_dependency_lines: true
 			id: "2AC0D8ADCCFCAEC8"
 			rewards: [{
 				amount: 50L
@@ -907,16 +893,18 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest3080700386101472968.title}"
-			x: -3.0d
-			y: 6.0d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["2FAD3C251BD27F74"]
 			description: [
 				"{ftbquests.chapter.botania.quest3677527691542608483.description1}"
 				"{ftbquests.chapter.botania.quest3677527691542608483.description2}"
 				""
 				"{ftbquests.chapter.botania.quest3677527691542608483.description3}"
 			]
+			hide_dependency_lines: true
 			id: "330933F37A0F3A63"
 			rewards: [{
 				amount: 50L
@@ -925,19 +913,27 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			subtitle: "*crunch crunch crunch*"
 			tasks: [{
 				id: "385CF325261C0D09"
 				item: "botania:munchdew"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest3677527691542608483.title}"
-			x: -3.0d
-			y: 7.0d
+			x: 16.0d
+			y: 2.0d
 		}
 		{
+			dependencies: [
+				"6FB1D279B2CBCD1E"
+				"3FBFA58BB82A34C4"
+			]
 			description: [
-				"{ftbquests.chapter.botania.quest6007728143980019821.description1}"
+				"Entropynniums absorb the explosions of nearby &cTNT&r to create a large amount of &bmana&r all at once."
+				""
 				"{ftbquests.chapter.botania.quest6007728143980019821.description2}"
+				""
+				"&6Tip:&r &eTiny TNT&r from AE2 also counts for this flower, and is significantly cheaper to make!"
 			]
 			id: "535FBCEAA90BC06D"
 			rewards: [{
@@ -947,21 +943,27 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			subtitle: "Scariest Generator Ever"
 			tasks: [{
 				id: "3C5D9095394DD429"
 				item: "botania:entropinnyum"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest6007728143980019821.title}"
-			x: -2.0d
-			y: 5.0d
+			x: 17.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"159D791CD1241E38"
+				"6FB1D279B2CBCD1E"
+			]
 			description: [
 				"{ftbquests.chapter.botania.quest8862898077166756742.description1}"
 				"{ftbquests.chapter.botania.quest8862898077166756742.description2}"
 				"{ftbquests.chapter.botania.quest8862898077166756742.description3}"
 			]
+			hide_dependency_lines: true
 			id: "7AFF56D7F2046386"
 			rewards: [{
 				amount: 50L
@@ -970,17 +972,27 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			subtitle: "Hungry Hungry Hibiscus"
 			tasks: [{
 				id: "59EC0E493D948DBF"
 				item: "botania:gourmaryllis"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest8862898077166756742.title}"
-			x: -2.0d
-			y: 6.0d
+			x: 16.0d
+			y: 1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.botania.quest514164780489394565.description1}"]
+			dependencies: [
+				"2FAD3C251BD27F74"
+				"2B53BD8E601FC026"
+			]
+			description: [
+				"{ftbquests.chapter.botania.quest514164780489394565.description1}"
+				""
+				"&6Tip:&r It will eat anything cake-like (can be placed, has 7 slices), so there are other options than the vanilla cake!"
+			]
+			hide_dependency_lines: true
 			id: "0722AE24C9164985"
 			rewards: [{
 				amount: 50L
@@ -989,16 +1001,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			subtitle: "more like cake-imurus"
 			tasks: [{
 				id: "02D5C858095578AF"
 				item: "botania:kekimurus"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest514164780489394565.title}"
-			x: -8.0d
-			y: 9.0d
+			x: 17.0d
+			y: 1.0d
 		}
 		{
+			dependencies: [
+				"2B53BD8E601FC026"
+				"2BE308C044FCC773"
+			]
 			description: [
 				"{ftbquests.chapter.botania.quest7332193940488596700.description1}"
 				""
@@ -1007,6 +1024,7 @@
 				""
 				"{ftbquests.chapter.botania.quest7332193940488596700.description4}"
 			]
+			hide_dependency_lines: true
 			id: "65C12F8A8F182CDC"
 			rewards: [{
 				amount: 50L
@@ -1015,21 +1033,24 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			subtitle: "Is this cannibalism?"
 			tasks: [{
 				id: "7F6F297E9635985A"
 				item: "botania:rafflowsia"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest7332193940488596700.title}"
-			x: -6.0d
-			y: 9.0d
+			x: 18.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["2BE8E1D2A276DDE2"]
 			description: [
 				"{ftbquests.chapter.botania.quest8942867177925075877.description1}"
 				""
 				"{ftbquests.chapter.botania.quest8942867177925075877.description2}"
 			]
+			hide_dependency_lines: true
 			id: "7C1B725125B963A5"
 			rewards: [{
 				amount: 50L
@@ -1045,16 +1066,21 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest8942867177925075877.title}"
-			x: -2.0d
-			y: 9.0d
+			x: 18.0d
+			y: 2.0d
 		}
 		{
+			dependencies: [
+				"1DBBE2272955F27E"
+				"3FBFA58BB82A34C4"
+			]
 			description: [
 				"{ftbquests.chapter.botania.quest413671051139902500.description1}"
 				"{ftbquests.chapter.botania.quest413671051139902500.description2}"
 				""
 				"{ftbquests.chapter.botania.quest413671051139902500.description3}"
 			]
+			hide_dependency_lines: true
 			id: "05BDA7A1190E6C24"
 			rewards: [{
 				amount: 50L
@@ -1070,15 +1096,20 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest413671051139902500.title}"
-			x: 0.0d
-			y: 9.0d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"2B53BD8E601FC026"
+				"6088E85696EABEDA"
+			]
 			description: [
 				"{ftbquests.chapter.botania.quest6311959951768629779.description1}"
 				"{ftbquests.chapter.botania.quest6311959951768629779.description2}"
 				"{ftbquests.chapter.botania.quest6311959951768629779.description3}"
 			]
+			hide_dependency_lines: true
 			id: "5798962249A93213"
 			rewards: [{
 				amount: 50L
@@ -1087,17 +1118,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			subtitle: "Picky Eater"
 			tasks: [{
 				id: "52DC9F7B4BA3E979"
 				item: "botania:spectrolus"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest6311959951768629779.title}"
-			x: -4.0d
-			y: 9.0d
+			x: 17.0d
+			y: 2.0d
 		}
 		{
+			dependencies: [
+				"6152AF0624908A20"
+				"159D791CD1241E38"
+			]
 			description: ["{ftbquests.chapter.botania.quest8735345195644695492.description1}"]
+			hide_dependency_lines: true
 			id: "793A2E2C70D133C4"
 			rewards: [{
 				amount: 50L
@@ -1106,14 +1143,15 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			subtitle: "Jello Eating Champion 2003"
 			tasks: [{
 				id: "79FB78B2DB67581B"
 				item: "botania:narslimmus"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.botania.quest8735345195644695492.title}"
-			x: -2.0d
-			y: 7.0d
+			x: 16.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["64D4884086C7B041"]
@@ -1125,7 +1163,7 @@
 			id: "09BF87FBA08F98E7"
 			rewards: [
 				{
-					amount: 250L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "35ADF5348182FD8E"
 					ignore_reward_blocking: true
@@ -1147,6 +1185,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					id: "2B2AB96F58D3270E"
@@ -1170,28 +1210,2185 @@
 				}
 			]
 			title: "{ftbquests.chapter.botania.quest702429581693393127.title}"
-			x: 13.0d
-			y: 2.0d
+			x: 23.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["09BF87FBA08F98E7"]
 			description: [
+				"See the &eLexica Botania&r for building instructions."
+				""
 				"{ftbquests.chapter.botania.quest1237442985485991883.description1}"
 				""
 				"{ftbquests.chapter.botania.quest1237442985485991883.description2}"
 			]
 			id: "112C47D6CBB0FFCB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "3D1FA46C7DC953B2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "36ADB68FBABF1619"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "6818266E47454F92"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest1237442985485991883.title}"
+			x: 23.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["754B137377EB2E58"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "7DA3FBB282EDDF54"
+			invisible_until_tasks: 1
+			min_required_dependencies: 1
+			optional: true
+			tasks: [{
+				id: "5E61DF134F19C595"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["506C5614689E141E"]
+			description: [
+				"Poor Mana Powder, all alone with no cool recipes to speak of. &8(unless you have some strange need for an Animated Torch)&r"
+				""
+				"You will need this for Rune crafting later though, so don't completely neglect it."
+			]
+			hide_until_deps_complete: true
+			id: "57FE8D16C9AF2A7C"
+			tasks: [{
+				id: "27AEAA38E456ADE8"
+				item: "botania:mana_powder"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DB02664AC3DE750"]
+			hide_until_deps_complete: true
+			id: "1A42DD26D25E29DF"
+			tasks: [{
+				id: "53CECF4B8200DB15"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D6C3DA95F0C8446"]
+			hide_until_deps_complete: true
+			id: "47A246599E4CFE89"
+			tasks: [{
+				id: "0F5B020AB853DE19"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DA3FBB282EDDF54"]
+			description: [
+				"Manasteel tools are roughly equivalent to iron (probably because they're made of iron), but have the unique bonus of self-repairing as long as you have &bMana&r in your inventory via a &bMana Tablet&r or &bMana Ring&r."
+				""
+				"This unique benefit carries to Tinker's Construct tools made using Manasteel as well- it's a good way to keep those tools in tip-top shape constantly!"
+			]
+			id: "079CA27356F1C6A7"
+			min_required_tasks: 3
 			rewards: [
 				{
-					amount: 500L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
-					id: "585D94E29EE662DF"
+					id: "57397DA0EC2C3106"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7D9EBFF9877B8BC3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mending for Dummies"
+			tasks: [
+				{
+					id: "0E6BCF513B442028"
+					item: {
+						Count: 1
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CFC46C7B1F0E3DC"
+					item: {
+						Count: 1
+						id: "botania:manasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59E36A87259C6557"
+					item: {
+						Count: 1
+						id: "botania:manasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C51851567F9C10D"
+					item: {
+						Count: 1
+						id: "botania:manasteel_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C86EEA950050BC1"
+					item: {
+						Count: 1
+						id: "delightful:manasteel_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["47A246599E4CFE89"]
+			description: [
+				"The alchemy catalyst is a block that opens up a huge amount of recipes for &bMana Pools&r when placed underneath. Notable examples include:"
+				""
+				"Rotten Flesh -> Leather"
+				"Flint -> Gunpowder"
+				"Cobble -> Sand"
+				"Redstone -> Glowstone"
+				"Cactus -> Slimeball"
+				""
+				"as well as being able to convert basically any vanilla sapling/crop/flower into any other variant! Extremely useful for getting niche materials- check &dJEI&r for a full list of conversions. "
+			]
+			id: "5C52245B8FD39A7C"
+			rewards: [
+				{
+					count: 5
+					id: "0D00EAE15C9C31A9"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0FB94198D4B329E7"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "08507ACE7E6054B7"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7B8BF95C06A40BBC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Equivalent Exchange"
+			tasks: [{
+				id: "267D1A3F6EB7CFBE"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A42DD26D25E29DF"]
+			description: [
+				"Botania's armor, tools, weapons and baubles can't directly pull &bMana&r from Pools placed in the world- instead, you have to make and charge a &eTablet&r to carry around in your inventory. This tablet is charged by throwing it into a Pool, where it will slowly suck up the &bMana&r present in the pool."
+				" "
+				"If it &oisn't&r putting &bMana&r into the &eTablet,&r or you want to empty a Tablet into a Pool instead, try smacking the Pool with a Wand of the Forest to change modes. "
+				""
+				"&eMana tablets&r are also a convenient and fast way to manually move &bMana&r from pool to pool before stronger spreaders and Sparks are available, and can even be used to transport &bMana&r across dimensions with a little creativity!"
+				""
+				"&6Tip:&r You can also craft this with a &bMana Pearl&r, if diamonds are in short supply."
+			]
+			id: "1E7B5303385A061F"
+			tasks: [{
+				id: "5516FCF07710EEA9"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&eSparks&r are Botania's &oother&r answer for moving &bMana&r, but work much differently from Spreaders:"
+				""
+				"   &eSparks&r can only be placed on certain blocks- &bMana Pools&r and the &aTerrestrial Agglomeration Plate&r are the most relevant, but a handful of other blocks accept Sparks as well"
+				""
+				"    &eSparks&r placed on non-pool blocks will pull mana from ALL nearby pools when it's needed, usually while crafting something"
+				"    "
+				"    &eSparks&r do NOT move Mana between Pools passively, although this can be changed with the use of Spark Augments"
+				""
+				"    A single &eSpark&r can move good amounts of Mana fairly quickly, but you can place multiple Sparks across multiple Pools to move a &dLOT&r of Mana VERY fast."
+				""
+				"{@pagebreak}"
+				"Additionally, they can be dyed any color you'd like, which stops them from interacting with any other Spark of a different color. You can also put Phantom Ink on a spark to hide it!"
+			]
+			id: "546D10DD32683FA7"
+			tasks: [{
+				id: "08349BC8E0F6228B"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5C55D515483FD53D"
+				"23E5D2F7B06701E1"
+				"6FB1D279B2CBCD1E"
+				"6152AF0624908A20"
+				"18B8FFDDA13EE6B3"
+			]
+			description: [
+				"The second tier of Runes mirrors the 4 seasons."
+				""
+				"With a little &bmana&r, some of the &aelemental runes&r and some &eadditional catalysts&r, you're able to turn simple elements into actual concepts, rather than \"raw materials\". These should allow for more interesting &dequipment&r and &dflora&r to be made."
+				""
+				"&o&6Quests will unlock as each rune is obtained!&r&r"
+			]
+			hide_dependency_lines: false
+			id: "7388016720E5A8A7"
+			min_required_dependencies: 2
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "12F61D53E94757B8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5463C18617EA3FE4"
+					item: "botania:rune_spring"
+					type: "item"
+				}
+				{
+					id: "159D791CD1241E38"
+					item: "botania:rune_summer"
+					type: "item"
+				}
+				{
+					id: "6D22B553B566B344"
+					item: "botania:rune_autumn"
+					type: "item"
+				}
+				{
+					id: "6088E85696EABEDA"
+					item: "botania:rune_winter"
+					type: "item"
+				}
+			]
+			title: "Seasons"
+			x: 25.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"7388016720E5A8A7"
+				"6D22B553B566B344"
+				"5463C18617EA3FE4"
+				"159D791CD1241E38"
+				"6088E85696EABEDA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The final tier of Runes reflects the 7 Deadly Sins."
+				""
+				"These runes are made with a specific combination of &aElemental&r and &dSeasonal&r runes, as well as a fair amount of both &bMana Diamonds&r and raw &bMana&r. "
+				""
+				"Such complex concepts are extremely powerful when pressed into Living Rock like this, and these runes are naturally used to create the most powerful objects in a Botanist's arsenal."
+				""
+				"&6&oQuests will unlock as each rune is obtained!&r&r"
+			]
+			id: "553E8615741E59CB"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "670A4413D225065A"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 				{
 					count: 3
-					id: "17613BB136694D60"
+					id: "60D96BA5EC67AB8B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "609B7929DF5620AE"
+					item: "botania:overgrowth_seed"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3FBFA58BB82A34C4"
+					item: "botania:rune_wrath"
+					type: "item"
+				}
+				{
+					id: "2BE308C044FCC773"
+					item: "botania:rune_pride"
+					type: "item"
+				}
+				{
+					id: "1DBBE2272955F27E"
+					item: "botania:rune_envy"
+					type: "item"
+				}
+				{
+					id: "51A48FA5B7591D11"
+					item: "botania:rune_sloth"
+					type: "item"
+				}
+				{
+					id: "05EDE512C4C7B1C0"
+					item: "botania:rune_greed"
+					type: "item"
+				}
+				{
+					id: "2FAD3C251BD27F74"
+					item: "botania:rune_gluttony"
+					type: "item"
+				}
+				{
+					id: "19614254C558E78F"
+					item: "botania:rune_lust"
+					type: "item"
+				}
+			]
+			title: "Sins"
+			x: 26.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["09BF87FBA08F98E7"]
+			hide_until_deps_complete: true
+			id: "6944C121E50176EA"
+			tasks: [{
+				id: "38E51C3F9685F44D"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["09BF87FBA08F98E7"]
+			hide_until_deps_complete: true
+			id: "3246D9F175BA4CC7"
+			tasks: [{
+				id: "3CEE1FC1FC9487B0"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["09BF87FBA08F98E7"]
+			hide_until_deps_complete: true
+			id: "625E6DB37B5E2D11"
+			tasks: [{
+				id: "04D8B2EF08DA91B2"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["09BF87FBA08F98E7"]
+			hide_until_deps_complete: true
+			id: "776197CD011CAACA"
+			tasks: [{
+				id: "34234B7B492ED1DB"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["112C47D6CBB0FFCB"]
+			description: [
+				"Defeating the Gaia Guardian gives access to the mighty &9Gaia Spirit&r, a crafting material that unlocks the final few baubles, rods, and flora. But there's just a few more legendary relics we can get our hands on..."
+				""
+				"Enter the &eGaia Ingot&r. Using this instead of a &aTerrasteel&r ingot to start the Gaia Guardian fight will begin a much harder version, with the Guardian having significantly more health, damage, and summons. Defeating this buffed up version, however, will reward you with a lot more &9Spirits&r, miscellaneous &dBotanical loot&r, and most importantly the &cDice of Fate&r. Opening this Dice grants one of &csix legendary relics&r, all of which have VERY powerful effects. Once you obtain one, the matching entry will appear in your Lexica Botania explaining what it does- check it out!"
+			]
+			id: "01F152746528FBF0"
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "151EB9188BB3896F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6844B01958EB9D1B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3EF313519BBE8D75"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:botanist"
+					icon: "titles:title_scroll_rare"
+					id: "6E0076FE453A6B93"
+					title: "&eUnlock Title:&r Master Botanist"
+					type: "command"
+				}
+			]
+			shape: "heart"
+			size: 1.9d
+			tasks: [
+				{
+					id: "2BE8E1D2A276DDE2"
+					item: "botania:life_essence"
+					type: "item"
+				}
+				{
+					id: "0AB9EABFB7EED214"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+				{
+					id: "4D92A1AB6CC776B9"
+					item: "botania:dice"
+					type: "item"
+				}
+			]
+			title: "Botanist's Apex"
+			x: 23.0d
+			y: -27.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"&eLenses&r are an attachment for Spreaders to &echange the way their&r &bMana Bursts&r &ebehave.&r The simplest ones like &9Potency&r and &9Velocity&r only increase the &bBurst's&r &esize&r and &espeed&r respectively, but some lenses can make the bursts dig through blocks, deal damage to creatures, and even explode! "
+				"If that wasn't enough, you can even combine lenses with a &aSlimeball&r to get a lens that has both effects at once! "
+				""
+				"There are far too many lens to list here - check &dJEI&r and the &dLexica Botania&r for the full list!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "botania:lens_storm"
+			id: "7B44751A63DF189C"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "141E06E7559FB49B"
+				type: "checkmark"
+			}]
+			title: "&oWhat are Lenses?&r"
+			x: 22.178571428571438d
+			y: -0.9549712192569402d
+		}
+		{
+			description: ["Spreaders have a quirk where &ethey won't fire another mana burst until the last burst hits something.&r If your spreaders are getting filled with mana too quickly, try &emoving them closer&r to their target."]
+			hide_dependency_lines: true
+			icon: "botania:redstone_spreader"
+			id: "3B0E997EAC61FEDC"
+			shape: "diamond"
+			tasks: [{
+				id: "26B50F03F77F3125"
+				title: "What are Spreaders?"
+				type: "checkmark"
+			}]
+			title: "&oSpreaders moving too slow?&r"
+			x: 23.821428571428584d
+			y: -0.9192569335426484d
+		}
+		{
+			dependencies: ["51D5881E73FB20A1"]
+			dependency_requirement: "one_completed"
+			description: ["&6Tip:&r Your first Terrasteel Ingot should probably go towards the Alfheim portal, which unlocks stronger generating flowers to make your next Terrasteel ingot much easier."]
+			id: "661E3D6A452FC701"
+			shape: "rsquare"
+			tasks: [{
+				id: "797AA15ACC9E5038"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["661E3D6A452FC701"]
+			description: [
+				"&aTerrasteel armor&r is only about as protective as diamond, but comes with a long list of &eadditional benefits&r such as:"
+				""
+				"    &eSelf-repair&r via Mana"
+				"    &e20% Mana discount&r on other Botania "
+				"    items in the inventory"
+				"    Constant &ehealth regen&r, regardless "
+				"    of hunger"
+				"    Passive &eMana generation&r on tablets "
+				"    in your inventory"
+				"    Knockback resistance"
+				"    "
+				"Additionally, the Helmet can be &dupgraded&r after defeating the Gaia Guardian with a lot of effects that boost &cCritical Hits&r! It's also completely enchantable, making it a solid option well into Expert Mode!"
+			]
+			id: "4FA81906E0AC2628"
+			tasks: [
+				{
+					id: "04579285693D758B"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D25A170D7BDC167"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C7274ED8DD2BA09"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "023D2012DC1EA901"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Terrasteel Armor"
+			x: 21.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["661E3D6A452FC701"]
+			description: [
+				"The &aTerra Shatterer&r is an absurdly powerful pickaxe, able to mine up to an incredible &l&n&c11x11x11&r&r&r area when its ability is active. Additionally, it's &dfully enchantable&r, &9auto-repairs with mana&r, and can even be combined with an &dElementium Pickaxe&r to automatically void common overworld blocks (Be careful- this upgrade &ccan't be undone!&r)."
+				""
+				"This much power doesn't come for free, however- by default, the Shatterer starts at &cD&r rank and has no active ability at all. To upgrade it, you have to charge it like a Mana tablet. It will go from &cD&r rank to &6C&r rank after only consuming 1/10th of a mana pool, but each subsequent upgrade costs &d10x&r as much mana as the last, all the way up to &l&c1000 pools&r&r for &dSS&r rank. On the bright side, the shatterer doesn't despawn when left in a pool, so you can absolutely let it bathe while you work on something else."
+				""
+				"{@pagebreak}"
+				"The final interaction with the shatterer is the Stone of Temperance, which limits the active ability to only mine a 3x3 area. Useful if you need to clear out a smaller area."
+			]
+			id: "6190BCF2C7A78453"
+			tasks: [{
+				id: "5610D05BC2184C7E"
+				item: {
+					Count: 1
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["661E3D6A452FC701"]
+			description: ["The &bMana Mirror&r is a Mana Tablet that &elinks directly to a mana pool&r in-world, instead of being filled manually. Not as large as a Greater Mana Band, but as long as the mana pool is chunk-loaded you can keep filling it to keep your inventory mana topped off at all times! How Neat!"]
+			id: "76917DF846014039"
+			tasks: [{
+				id: "118C940FB84693EC"
+				item: "botania:mana_mirror"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"6944C121E50176EA"
+				"3246D9F175BA4CC7"
+			]
+			description: [
+				"Works like the Alchemy Catalyst, except it &dduplicates certain items&r instead of transforming them! "
+				"Check JEI to see all the applicable items."
+			]
+			id: "42438E108FEDA593"
+			tasks: [{
+				id: "120FE7D55C422BF6"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["3246D9F175BA4CC7"]
+			description: [
+				"Augments are used on Sparks over pools to make them manually move Mana around, instead of being a passive system. With a proper setup, these can be used to move VERY LARGE amounts of mana in no time at all!"
+				""
+				"&cDominant&r: This pool will pull ALL mana from any  nearby pool with a Recessive or unaugmented spark."
+				""
+				"&9Recessive&r: This pool will push ALL its mana into any nearby pool with a Dominant or unaugmented spark."
+				""
+				"&eDispersive&r: This pool will automatically push its mana into mana tablets or rings of any nearby player."
+				""
+				"&bIsolated&r: This pool will not interact with any other augmented sparks, regardless of dye or range."
+			]
+			id: "0485FABFF7FD4718"
+			subtitle: "What is this, Thermal Expansion?"
+			tasks: [
+				{
+					id: "162E578E4DECB911"
+					item: "botania:spark_upgrade_dispersive"
+					type: "item"
+				}
+				{
+					id: "6222A561557A0C69"
+					item: "botania:spark_upgrade_dominant"
+					type: "item"
+				}
+				{
+					id: "4A8AA38781F26E95"
+					item: "botania:spark_upgrade_recessive"
+					type: "item"
+				}
+				{
+					id: "149B0B996A3C39B9"
+					item: "botania:spark_upgrade_isolated"
+					type: "item"
+				}
+			]
+			title: "Augments"
+			x: 20.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6944C121E50176EA"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&dElementium tools&r, like &bMana&r and &aTerrasteel&r, have mending effectively built-in with mana repair. However, they have unique benefits per tool that separate them from the other sets:"
+				""
+				"&dSword:&r Higher chance to summon a pixie when striking an enemy (see Elementium Armor)"
+				"&dPickaxe&r: Automatically voids common drops like cobblestone, netherrack, and dirt"
+				"&dShovel&r: Destroys all gravity-affected blocks in a column- no more falling sand and gravel!"
+				"&dAxe&r: Has a chance to drop mob heads on kill, can be enchanted with Looting"
+				"&dHoe&r: Automatically hydrates farmland temporarily"
+				"&dShears&r: Holding right click pulls it back like a bow, causing all nearby sheep to be sheared "
+			]
+			id: "72CC81073848A994"
+			min_required_dependencies: 1
+			tasks: [
+				{
+					id: "02FA026111195381"
+					item: {
+						Count: 1
+						id: "botania:elementium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FF6667E0FE81FEA"
+					item: {
+						Count: 1
+						id: "botania:elementium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65EECEAE796809AE"
+					item: {
+						Count: 1
+						id: "botania:elementium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7507084F8E8B92C6"
+					item: {
+						Count: 1
+						id: "botania:elementium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AEC98464CC83F8F"
+					item: {
+						Count: 1
+						id: "botania:elementium_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Elementium Tools"
+			x: 20.0d
+			y: -21.0d
+		}
+		{
+			dependencies: [
+				"2B2AB96F58D3270E"
+				"2BE8E1D2A276DDE2"
+			]
+			description: [
+				"Grants bursts of &dcreative flight&r in exchange for mana. "
+				""
+				"&cDoes require visiting&r &ethe End&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "4A0D593A22572D69"
+			tasks: [{
+				id: "76293D5B5689F56D"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["776197CD011CAACA"]
+			description: [
+				"A mana spreader with significantly higher stats- nice and simple."
+				""
+				"&6Note:&r Also requires &dElementium&r"
+			]
+			id: "47809563E6D54BB7"
+			tasks: [{
+				id: "233A9A5DE520397D"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			title: "Finally, an upgrade!"
+			x: 27.0d
+			y: -23.0d
+		}
+		{
+			dependencies: [
+				"625E6DB37B5E2D11"
+				"01F152746528FBF0"
+				"47809563E6D54BB7"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"The best spreader available!"
+				""
+				"&6Tip:&r Some generating flowers are mostly limited by how fast their internal buffer can be emptied... This spreader will let those flowers run VERY fast! Experiment with your setups!"
+			]
+			hide_until_deps_visible: true
+			id: "51753C85CCCA25AC"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7C97FEDBCA6380FA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "166ADFC1C9D5AC03"
+					item: {
+						Count: 1
+						id: "botania:lens_power"
+						tag: {
+							compositeLens: {
+								Count: 1b
+								id: "botania:lens_speed"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E7051589C2974B1"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			title: "Best of the Best"
+			x: 25.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["5463C18617EA3FE4"]
+			description: [
+				"Consumes mana to accelerate nearby plant growth."
+				""
+				"&6Tip:&r It stacks!"
+			]
+			hide_dependency_lines: true
+			id: "05B4D9AF7F52ACD8"
+			min_required_tasks: 1
+			tasks: [{
+				id: "7C8B03804AEA1F15"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5463C18617EA3FE4"]
+			description: ["Consumes mana to grow more basic Botanical flowers in an area around it. "]
+			hide_dependency_lines: true
+			id: "0FBB63934A049C29"
+			min_required_tasks: 1
+			tasks: [{
+				id: "043A35C5A6028331"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2BE308C044FCC773"
+				"05EDE512C4C7B1C0"
+				"2B53BD8E601FC026"
+			]
+			description: ["Consumes quite a bit of mana to transform nearby stone into any overworld ores. The Ignem works the same, but with Netherrack to form Nether ores instead."]
+			hide_dependency_lines: true
+			id: "0BDFAB7C7F345D16"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "1BBD0990F2E305BE"
+					item: "botania:orechid"
+					type: "item"
+				}
+				{
+					id: "5FE3F34362B9EDAF"
+					item: "botania:orechid_ignem"
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18B8FFDDA13EE6B3"]
+			description: [
+				"Both of these flowers consume mana to create a warded area centered on the flower-"
+				"The &aTangleberrie&r keeps mobs and animals &aIN&r the area,"
+				"The &dJiyuulia&r keeps mobs and animals &dOUT&r of the area"
+			]
+			id: "2A868785E14FF0D9"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "15A46B9FA6400F41"
+					item: "botania:tangleberrie"
+					type: "item"
+				}
+				{
+					id: "2E4E5E4209B8BF55"
+					item: "botania:jiyuulia"
+					type: "item"
+				}
+			]
+			title: "Herding Flowers"
+			x: 29.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6FB1D279B2CBCD1E"
+				"159D791CD1241E38"
+			]
+			description: [
+				"Endoflame keeps eating your coal reserves? Reclaim some of that burn time with an Exoflame- this flower consumes mana to fuel and speed up nearby furnaces."
+				""
+				"&6Tip:&r It stacks!"
+			]
+			hide_dependency_lines: true
+			id: "7D3F4588B87863F8"
+			subtitle: "thought we already had this one?"
+			tasks: [{
+				id: "77DEF6134F3E6D3A"
+				item: "botania:exoflame"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18B8FFDDA13EE6B3"]
+			description: [
+				"Picks up items in an area around itself and places them into an adjacent inventory, such as a chest. Mana is optional, but does increase the range."
+				""
+				"&6Tip:&r You can filter what items it picks up by placing an item frame with the desired item on its depot chest"
+			]
+			hide_dependency_lines: true
+			id: "22BA0514F8A7E286"
+			tasks: [{
+				id: "1185C94E727255DE"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23E5D2F7B06701E1"]
+			description: [
+				"Takes items from a neaby inventory and places them in a radius around itself for a small mana cost."
+				""
+				"Can be filtered in 2 ways: "
+				""
+				"&dPlacing a block underneath the dirt it's planted on&r will make it only place on top of blocks that match the block underneath (I. E., if you put Gravel under the dirt the flower is on, it will only place blocks on top of nearby Gravel)"
+				""
+				"&dPlacing an item frame on the connected chest&r only allows the item in the frame to be placed"
+			]
+			hide_dependency_lines: true
+			id: "45B9AF38CF57BC01"
+			tasks: [{
+				id: "6D116FF27A446934"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19614254C558E78F"]
+			description: ["Uses mana and a relevant food dropped on the ground nearby to automatically breed nearby animals"]
+			hide_dependency_lines: true
+			id: "042631FDD0FB5D76"
+			tasks: [{
+				id: "00E8D93739AB8E00"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1DBBE2272955F27E"
+				"2FAD3C251BD27F74"
+				"51A48FA5B7591D11"
+				"2B53BD8E601FC026"
+			]
+			description: [
+				"Uses a good amount of mana to spawn stronger monsters in an area around it."
+				""
+				"Importantly, these monsters can drop &aDungeon loot&r, like you'd normally find in a chest!"
+				""
+				"Additionally, &dit can be placed at other structures&r, such as a Stronghold or a Shipwreck to cause monsters to drop loot for that structure instead!"
+				""
+				"&cNote:&r Pretty much every music disc, as well as Black Lotuses and Overgrowth Seeds are blacklisted and won't drop from anywhere. Sorry!"
+			]
+			hide_dependency_lines: true
+			id: "3A6B37A8546CAE42"
+			tasks: [{
+				id: "7BC7A56DF28945BE"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"19614254C558E78F"
+				"51A48FA5B7591D11"
+				"6152AF0624908A20"
+			]
+			description: ["Uses a small amount of mana to cause Endermen in a large radius to teleport to this flower whenever they attempt to teleport. Useful for mob farms."]
+			hide_dependency_lines: true
+			id: "7C5088194EBD5FA0"
+			tasks: [{
+				id: "0A6A5F0F13A0D19B"
+				item: "botania:vinculotus"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6152AF0624908A20"
+				"1DBBE2272955F27E"
+				"2B53BD8E601FC026"
+			]
+			description: [
+				"Can be bound to an inventory within &e&l2000 blocks&r&r, and will teleport items dropped near it into the bound inventory at a cost of mana. It &ccannot transport mana-containing items&r, such as tablets and rings, however."
+				""
+				"&cNote:&r The mana cost per item scales with the distance between the flower and the inventory. 2000 block-long links are possible, but you better have a beefy mana generator!"
+			]
+			id: "20AC9C7712152183"
+			subtitle: "Poor Man's Entangloporter"
+			tasks: [{
+				id: "416DD2B19BB8D483"
+				item: "botania:spectranthemum"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Stops magnets from affecting dropped items in an area around it. "
+				"Useful if you keep forgetting to unequip your magnets."
+			]
+			id: "16C5B6F3EF822F5A"
+			tasks: [{
+				id: "506BCAE9615EE583"
+				item: "botania:solegnolia"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DB02664AC3DE750"]
+			description: [
+				"This handy homunculus can &duse certain rods automatically&r, as long as it's given &emana via spreader&r- check the&e Lexica Botania&r section for a rod to see if it's compatible with the Avatar. "
+				""
+				"&6Tip:&r It can be disabled with a redstone signal, and moved with pistons- get creative!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5EFB5E9238040E20"
+			tasks: [{
+				id: "3F961E2A9A6BEC73"
+				item: "botania:avatar"
+				type: "item"
+			}]
+			x: 17.42d
+			y: -5.644256933542664d
+		}
+		{
+			dependencies: [
+				"23E5D2F7B06701E1"
+				"6FB1D279B2CBCD1E"
+				"6152AF0624908A20"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Three rods that can &dplace blocks at the cost of mana&r:"
+				""
+				"Rod of the Lands places &edirt&r for a tiny mana cost"
+				""
+				"Rod of the Highlands places &edirt&r as well, but costs a little more mana in exchange for being &dable to place in midair&r"
+				""
+				"Rod of the Depths places &ecobble&r for a small mana cost"
+				""
+				"&6Tip:&r The primary use for these wands are to provide their relevant block to other Botania wands in the inventory automatically- see the &aRod of the Terra Firma&r for more"
+			]
+			hide_dependency_lines: true
+			id: "629585213B9CF144"
+			min_required_dependencies: 1
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "07BE73765D5C08E7"
+					item: "botania:dirt_rod"
+					type: "item"
+				}
+				{
+					id: "7E12CF09BDC538B8"
+					item: "botania:cobble_rod"
+					type: "item"
+				}
+				{
+					id: "4D5E2D3D67864B18"
+					item: "botania:skydirt_rod"
+					type: "item"
+				}
+			]
+			title: "Block Wands"
+			x: 16.422161172161168d
+			y: -7.810923600209328d
+		}
+		{
+			dependencies: ["6152AF0624908A20"]
+			description: [
+				"Uses mana to place a water source block."
+				""
+				"&6Tip:&r Can also refill buckets directly in the inventory, and can be used to refill Petal Apothecaries"
+			]
+			id: "0414907D9E02AD2D"
+			tasks: [{
+				id: "2C8C76445007E649"
+				item: "botania:water_rod"
+				type: "item"
+			}]
+			x: 18.422161172161168d
+			y: -6.810923600209328d
+		}
+		{
+			dependencies: ["18B8FFDDA13EE6B3"]
+			description: [
+				"Uses mana to launch the player into the air. Grants a short period of immunity to fall damage after being launched."
+				""
+				"If used with an Elytra, it will also give you a firework boost after launching."
+			]
+			id: "2313F363268FC400"
+			tasks: [{
+				id: "4D4D96062559A291"
+				item: {
+					Count: 1
+					id: "botania:tornado_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.422161172161168d
+			y: -8.810923600209328d
+		}
+		{
+			dependencies: ["4DB02664AC3DE750"]
+			description: [
+				"Highlights ores near the player when used."
+				""
+				"&6Tip:&r The color shown does not indicate the type of ore, although matching colors do mean a vein. See the Lexica Botania for a more in-depth explanation."
+			]
+			id: "7B2BC9BCADBCF757"
+			tasks: [{
+				id: "18F52C26782AD4C8"
+				item: "botania:divining_rod"
+				type: "item"
+			}]
+			x: 16.422161172161168d
+			y: -8.810923600209328d
+		}
+		{
+			dependencies: ["6FB1D279B2CBCD1E"]
+			description: [
+				"Smelts blocks in-world at the cost of mana."
+				""
+				"&6Tip:&r Try turning raw ores into blocks!"
+			]
+			id: "61540AC9B1EAC0F3"
+			tasks: [{
+				id: "30E85D8CBAABD804"
+				item: "botania:smelt_rod"
+				type: "item"
+			}]
+			x: 17.422161172161168d
+			y: -6.810923600209328d
+		}
+		{
+			dependencies: ["51A48FA5B7591D11"]
+			description: [
+				"Uses mana to swap a large area of blocks in the world with a block of your choosing from your inventory (via shift-right clicking the block in-world with the wand)."
+				""
+				"Can be provided dirt or cobble via the Rod of the Lands or Depths, respectively."
+				""
+				"&6Tip:&r Can be used to gather obsidian much faster than mining! Also handy for building!"
+			]
+			hide_dependency_lines: true
+			id: "01D966CAED07F7D4"
+			tasks: [{
+				id: "05A9B07F63BE2EB3"
+				item: "botania:exchange_rod"
+				type: "item"
+			}]
+			x: 18.422161172161168d
+			y: -8.810923600209328d
+		}
+		{
+			dependencies: [
+				"2B2AB96F58D3270E"
+				"2B53BD8E601FC026"
+				"4B71E28DB01B8BB4"
+			]
+			description: [
+				"Uses mana to create a &ebridge&r of rainbow blocks that dissapears after some time."
+				""
+				"Can also be used to craft decorative rainbow blocks that shift color over time, including a &dfancy&r mana pool- check them out!"
+				""
+				"&6Tip:&r When held by a Livingwood Avatar, it'll activate automatically when players are near, making for a neat drawbridge!"
+			]
+			hide_dependency_lines: true
+			id: "287432886D3987F1"
+			tasks: [{
+				id: "787E17C3E9102F75"
+				item: "botania:rainbow_rod"
+				type: "item"
+			}]
+			x: 18.422161172161168d
+			y: -7.810923600209328d
+		}
+		{
+			dependencies: ["6FB1D279B2CBCD1E"]
+			description: [
+				"Wands used primarily to deal damage."
+				""
+				"The Rod of the Hells creates a fire ring that spins up over time"
+				""
+				"The Rod of the Shaded Mesa can pick up and launch mobs, dealing damage if they hit a block."
+				""
+				"The Rod of the Unstable Reservoir spawns a swarm of mana missles around the player, which home into nearby hostile mobs and explode."
+			]
+			id: "12F3C68C518C99F7"
+			tasks: [
+				{
+					id: "0A143F2805117761"
+					item: "botania:fire_rod"
+					type: "item"
+				}
+				{
+					id: "5ED9D9798EEC22B6"
+					item: "botania:gravity_rod"
+					type: "item"
+				}
+				{
+					id: "3C2674EC388F4426"
+					item: "botania:missile_rod"
+					type: "item"
+				}
+			]
+			title: "Offensive Wands"
+			x: 16.422161172161168d
+			y: -6.810923600209328d
+		}
+		{
+			dependencies: ["66C0A6C7834B7BBB"]
+			description: ["&dDecreases the cost of rods by 40%&r, and increases the effectiveness of most rods- very handy for rod enthusiasts! Also repairs with mana, and can be enchanted."]
+			hide_dependency_lines: true
+			id: "77E11ED7E9968BC6"
+			tasks: [
+				{
+					id: "56C78F5783DD7BB2"
+					item: {
+						Count: 1
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F0215FE124CC66A"
+					item: {
+						Count: 1
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "749A790996BDD04E"
+					item: {
+						Count: 1
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FDD3BCC2B2C8934"
+					item: {
+						Count: 1
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 17.42d
+			y: -9.953780743066481d
+		}
+		{
+			dependencies: ["7388016720E5A8A7"]
+			description: [
+				"Uses quite a bit of mana to flatten a large nearby environment to the height you're standing at. Also, it attempts to preserve the natural curve of the landscape as much as possible, making it perfect for terraforming! Just don't use it too close to anything important."
+				""
+				"&6Tip:&r Needs to be provided dirt to raise lowered areas- the Rod of the Lands is a great way to provide all the dirt this rod could ever need!"
+			]
+			hide_dependency_lines: true
+			id: "3A1056B2116997B2"
+			tasks: [{
+				id: "7BDB49EA21F353E6"
+				item: "botania:terraform_rod"
+				type: "item"
+			}]
+			x: 17.42d
+			y: -7.834733124018854d
+		}
+		{
+			dependencies: ["506C5614689E141E"]
+			description: [
+				"Mana String is used to craft a fair number of Botania's Baubles, including all of the cosmetics."
+				""
+				"&6Tip:&r Can be used as a part for a Tinker's Bow or Crossbow to make that tool repair via mana."
+			]
+			hide_until_deps_complete: true
+			id: "6631927C51DBC2B8"
+			tasks: [{
+				id: "20133464FCDDF782"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6631927C51DBC2B8"]
+			description: ["Crafting material also used for the Manaweave set- look &dabove the Rods section!&r"]
+			id: "66C0A6C7834B7BBB"
+			tasks: [{
+				id: "2FB6F5A4F683EBC4"
+				item: "botania:manaweave_cloth"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66C0A6C7834B7BBB"]
+			description: [
+				"When this cutie is placed in the world, rainstorms will (almost) become a thing of the past. While one of these exists, &drainstorms will be significantly shorter&r, and you can even feed it &esunflowers&r to end the rain instantly! How nice of Teru!"
+				""
+				"If you're &mcruel-hearted&r wanting rain, you can also feed it &bBlue Orchids&r to start a rainstorm."
+				""
+				"But you wouldn't do that to poor Teru, would you?"
+			]
+			id: "195DF14E16D1C043"
+			rewards: [
+				{
+					count: 10
+					id: "074950834F62B13E"
+					item: "minecraft:sunflower"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "689533A6D87F7945"
+					item: "minecraft:blue_orchid"
+					type: "item"
+				}
+			]
+			subtitle: ": )"
+			tasks: [{
+				id: "34A4584D3347DB28"
+				item: "botania:teru_teru_bozu"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Black Lotuses are a nice boost to early Mana production- simply &dthrow them into a pool containing at least SOME mana&r, and it'll &ddissolve into even more mana&r! Way faster than an Endoflame! "
+				""
+				"If only we could plant them :("
+			]
+			id: "04A2487074A4E4B2"
+			subtitle: "Worth 3 Million in Mint Condition"
+			tasks: [{
+				id: "227936FB5F928F8A"
+				item: "botania:black_lotus"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DB02664AC3DE750"]
+			description: [
+				"The Tainted Blood Pendant, when imbued via the Botanical Brewery, &dgrants a&r &eBrew&r &deffect on the player indefinitely&r in exchange for a fairly large trickle of mana."
+				""
+				"&eBrews&r can already grant &dvery powerful effects like&r &eHaste II&r, &9Resistance II&r&d, and&r &cRegen II&r- having that in accessory form is even more convenient, as long as you remember to take it off when you're not using it."
+				""
+				"Or just carry 8 full mana tablets at all times, I won't judge."
+			]
+			hide_dependency_lines: true
+			id: "7DE769B87BE552D0"
+			tasks: [{
+				id: "6FF0146E20E05B2A"
+				item: "botania:blood_pendant"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"2B2AB96F58D3270E"
+				"2BE308C044FCC773"
+			]
+			description: [
+				"The Ring of Far Reach allows you to &dbreak, place, and interact with blocks from an additional&r &e3.5 blocks &daway.&r "
+				""
+				"This does not affect your entity reach, so don't expect to start stabbing mobs from across the cave."
+			]
+			hide_dependency_lines: true
+			id: "0628B9D13291C7D1"
+			subtitle: "does what it says on the tin"
+			tasks: [{
+				id: "356D08835FA1BF64"
+				item: {
+					Count: 1
+					id: "botania:reach_ring"
+					tag: {
+						baubleUUID: [I;
+							-557336150
+							-1481750061
+							-1410985544
+							-881431521
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5516FCF07710EEA9"]
+			description: [
+				"Rings are a way to carry mana around without sacrificing a precious inventory slot for a tablet. "
+				""
+				"If your ring slots are full already, it's important to note that the &eGreater Band of Mana&r &dholds as much as &lFOUR&r &dmana tablets&r, and still functions from inside the inventory like normal."
+			]
+			hide_dependency_lines: true
+			id: "49A6336EC8C6732C"
+			tasks: [
+				{
+					id: "237025FFA965C5FF"
+					item: "botania:mana_ring"
+					type: "item"
+				}
+				{
+					id: "0CAC865827F26DA9"
+					item: "botania:mana_ring_greater"
+					type: "item"
+				}
+			]
+			title: "Mana Rings"
+			x: 29.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["004A0586F1472803"]
+			description: [
+				"The Band of Aura generates Mana over time and stores it in tablets or rings in your inventory."
+				""
+				"Generally speaking, &da single Greater Aura band is enough to keep up with the repair needs of a set of tools and armor&r, especially paired with Unbreaking."
+			]
+			id: "731B1373312E9860"
+			tasks: [
+				{
+					id: "6AA77D121ABAAC4A"
+					item: "botania:aura_ring"
+					type: "item"
+				}
+				{
+					id: "4EFA84459CEC2A3D"
+					item: "botania:aura_ring_greater"
+					type: "item"
+				}
+			]
+			title: "Aura Rings"
+			x: 29.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["754B137377EB2E58"]
+			description: [
+				"Acts like an &eitem magnet&r, pulling items to you from quite far away."
+				""
+				"&dWill still pull items to your hitbox even if you inventory is full&r."
+				""
+				"&6Tip:&r the Solegnolia stops this ring from affecting items within its range- may be worth having one around your Create setups."
+			]
+			id: "00958774B900CE66"
+			tasks: [
+				{
+					id: "4DA5ED9475B86BF3"
+					item: "botania:magnet_ring"
+					type: "item"
+				}
+				{
+					id: "5F17EB0AFE0618AB"
+					item: "botania:magnet_ring_greater"
+					type: "item"
+				}
+			]
+			title: "Magnet Rings"
+			x: 29.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["754B137377EB2E58"]
+			description: [
+				"Swaps the tool in your hand for a tool in your inventory that's best at breaking the block you're looking at."
+				""
+				"&dOnly works with &bmana-consuming tools&r&r, &dunfortunately&r."
+			]
+			id: "0DBB00E170AF180A"
+			tasks: [{
+				id: "7461C06836A1E6D7"
+				item: "botania:swap_ring"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["23E5D2F7B06701E1"]
+			description: ["Grants Haste."]
+			id: "3ECDCB6C5B78AD41"
+			subtitle: "gotta mine fast"
+			tasks: [{
+				id: "66449F3530B35C47"
+				item: "botania:mining_ring"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"18B8FFDDA13EE6B3"
+				"23E5D2F7B06701E1"
+			]
+			description: [
+				"The Soujourner's Sash is an item that makes travel easier, granting extra speed, jump height, fall damage resistance, and the ability to automatically step up a full block as if they were stairs."
+				""
+				"It can be upgraded into:"
+				""
+				"The Globetrotter's Sash, which grants all the same buffs, but stronger"
+				""
+				"The Planestrider's Sash, which grants no speed bonus initially, but grants an increasing amount of speed the longer the wearer sprints, resetting when stopped. "
+			]
+			id: "602D307660693573"
+			tasks: [
+				{
+					id: "1C62DA0A8512F080"
+					item: "botania:travel_belt"
+					type: "item"
+				}
+				{
+					id: "63F019613280DC06"
+					item: "botania:super_travel_belt"
+					type: "item"
+				}
+				{
+					id: "3F71CE33B2B99A3E"
+					item: "botania:speed_up_belt"
+					type: "item"
+				}
+			]
+			title: "Travel Sashes"
+			x: 31.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2BE8E1D2A276DDE2"]
+			description: [
+				"The Cloaks are a set of powerful accessories to help manage damage during fights. Each cloak triggers on hit and has a 10-second cooldown before it can activate again."
+				""
+				"&dThe&r &cCloak of Sin&r &dreflects 100% of the damage taken back at the attacker.&r"
+				""
+				"&dThe&r &aCloak of Balance&r &devenly splits damage you take between yourself and the attacker, and prevents death when triggered&r"
+				""
+				"&dThe&r &eCloak of Virtue&r &dnegates all damage from a single hit.&r"
+			]
+			id: "252DD0B4BA0CC729"
+			tasks: [
+				{
+					id: "7F8A752BBE2AD31D"
+					item: "botania:holy_cloak"
+					type: "item"
+				}
+				{
+					id: "00ABBB1D3F005BDC"
+					item: "botania:unholy_cloak"
+					type: "item"
+				}
+				{
+					id: "5463CBF0CB545567"
+					item: "botania:balance_cloak"
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"18B8FFDDA13EE6B3"
+				"6D22B553B566B344"
+			]
+			description: ["The Cirrus Amulet grants a double jump when equipped, increasing to a triple jump when upgraded to the Nimbus Amulet."]
+			id: "33D39E97E7BE5C64"
+			subtitle: "Cloud out of the Bottle"
+			tasks: [
+				{
+					id: "6B9E335F833B89DA"
+					item: "botania:cloud_pendant"
+					type: "item"
+				}
+				{
+					id: "6E88B70497C0628A"
+					item: "botania:super_cloud_pendant"
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["23E5D2F7B06701E1"]
+			description: ["Highlights nearby mobs when worn."]
+			id: "531551CEA5B608BA"
+			tasks: [{
+				id: "4883E95464C8AFE7"
+				item: "botania:third_eye"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -13.0d
+		}
+		{
+			description: ["Shows nearby mana bursts, even through walls, and will highlight the working area of any flower you look at. A useful part of any Botanist's toolkit."]
+			id: "76E26DD5A696157C"
+			shape: "diamond"
+			tasks: [{
+				id: "29FD6156B7C53939"
+				item: "botania:monocle"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.3d
+		}
+		{
+			dependencies: [
+				"01F152746528FBF0"
+				"2BE8E1D2A276DDE2"
+			]
+			dependency_requirement: "one_completed"
+			description: ["A building tool used to place blocks in any sized square from 3x3 to 11x11. Can be provided blocks via Rods."]
+			hide_until_deps_complete: true
+			id: "7D5807069B3235FE"
+			min_required_dependencies: 1
+			subtitle: "it builds walls"
+			tasks: [{
+				id: "66BED9C31BCA158A"
+				item: "botania:astrolabe"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"01F152746528FBF0"
+				"2BE8E1D2A276DDE2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"When used, the &bShard of Laputa&r will slowly tear a semi-circle out of the ground where it was used and place it about 100 blocks up in the sky."
+				""
+				"The radius of the circle is the same as the Power listed on the shard, and can be increased by crafting the shard with more Gaia spirits."
+				""
+				"&cPlease do not use this near anything important.&r"
+			]
+			hide_until_deps_complete: true
+			id: "25620B661289EC9F"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "453D18F2002093D5"
+				item: "botania:laputa_shard"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["004A0586F1472803"]
+			description: [
+				"The Brewery is a crafting station that imbues very powerful potion effects into &7Incenses&r, &bVials&r, &aFlasks&r, and &cPendants&r."
+				""
+				"&7Incenses&r provide the buff for a long time, but only while near an Incense Plate"
+				""
+				"&bVials&r provide 4 uses, and are the cheapest to craft mana-wise"
+				""
+				"&aFlasks&r provide 6 uses, but require Alfglass and more mana than a vial"
+				""
+				"&cPendants&r provide the buff indefinitely, but require a lot of mana to craft, and constantly drain mana from the player while worn."
+			]
+			id: "6D41CD1E3B0564B2"
+			min_required_tasks: 2
+			tasks: [
+				{
+					id: "1B0A16AF191D6253"
+					item: "botania:brewery"
+					type: "item"
+				}
+				{
+					id: "58BFE43770B87D37"
+					item: "botania:incense_stick"
+					type: "item"
+				}
+				{
+					id: "1AC3B49D160BC747"
+					item: "botania:blood_pendant"
+					type: "item"
+				}
+				{
+					id: "1773468CA4F19826"
+					item: "botania:vial"
+					type: "item"
+				}
+				{
+					id: "3394996A3E0A2B79"
+					item: "botania:flask"
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"1A42DD26D25E29DF"
+				"7DA3FBB282EDDF54"
+			]
+			description: ["A buffed up enchanting block- just 2 of these can bring an enchanting table to full power! Plus, you'll need these to craft Natura Pylons and eventually Gaia Pylons."]
+			id: "28E55D476B778492"
+			tasks: [{
+				id: "2A77983ABE653C42"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28E55D476B778492"]
+			description: [
+				"The Mana Enchanter is an Anvil on mana-based steroids, being able to apply enchantments without consuming any experience OR the input books, requiring only mana to apply enchantments from books onto desired items."
+				""
+				"While it &ccannot combine or enchant books&r, &dit can apply overleveled or loot-level enchants without consuming the book.&r Found an Unbreaking X bow from a rat in your basement, for some reason? Slap it on the rest of your gear too!"
+				""
+				"&6Note:&r It only applies the first enchant per book, so don't make a single mega-book for this, split them into individual books first."
+			]
+			id: "713480B002C74F8D"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7C21D9733A0CB18D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "795F418B327684F7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2768EB384724F495"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "botania:enchanter"
+				id: "0745904A004369AF"
+				observe_type: 0
+				timer: 0L
+				title: "Look at a Mana Enchanter"
+				to_observe: "botania:enchanter"
+				type: "observation"
+			}]
+			title: "Mana Enchanting"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64D4884086C7B041"]
+			description: [
+				"Either the portal's magic is sensitive to baked goods, or the elves were so upset with your offering of bread that they tried to kill you. "
+				""
+				"Probably should stick to giving them what they asked for."
+			]
+			id: "43F9A782C9F02321"
+			rewards: [
+				{
+					id: "61DF1FCD9F7DBC12"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7489682E14304D4B"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "28D6CCC85D809930"
+					item: "botania:glimmering_livingwood_log"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "428543AAC8969FAB"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "4F877F6C0F4E5479"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			secret: true
+			subtitle: "Elves are Gluten Intolerant, Apparently"
+			tasks: [{
+				advancement: "botania:challenge/alf_portal_bread"
+				criterion: ""
+				id: "7485FCA12F0765B1"
+				secret: true
+				type: "advancement"
+			}]
+			title: "&5Attempted Breadicide&r"
+			x: 26.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6190BCF2C7A78453"]
+			description: [
+				"ONE THOUSAND POOLS?? "
+				""
+				"You are quite the dedicated Botanist. Here's some goodies for your beloved pickaxe."
+			]
+			id: "2B54C466EE3CFDFC"
+			invisible: true
+			rewards: [
+				{
+					id: "4FB80A9924C3960A"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13883ECE240F93C1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 7s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "46C802BFB6C5BFB3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			secret: true
+			subtitle: "but can it play Bad Apple?"
+			tasks: [{
+				advancement: "botania:challenge/rank_ss_pick"
+				criterion: ""
+				id: "17D8F11415E674C4"
+				type: "advancement"
+			}]
+			title: "Six Trillion Years and a Night"
+			x: 20.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["625E6DB37B5E2D11"]
+			description: [
+				"A bow that comes with built in &eInfinity&r, &bMending&r, &cdeals more base damage than a normal bow&r, &dAND can be fully enchanted&r?"
+				""
+				"Sign me up!"
+			]
+			id: "1CE5F90E5EB80023"
+			tasks: [{
+				id: "2A89B5B7BED25274"
+				item: {
+					Count: 1
+					id: "botania:crystal_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["01F152746528FBF0"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "57A93B0C2F5834C8"
+			invisible: true
+			tasks: [{
+				advancement: "botania:challenge/infinite_fruit"
+				criterion: ""
+				id: "1BAE8B5804567EA0"
+				secret: true
+				type: "advancement"
+			}]
+			title: "&dFruit of Grisaia&r"
+			x: 23.75d
+			y: -25.9d
+		}
+		{
+			dependencies: ["01F152746528FBF0"]
+			hide_dependency_lines: true
+			id: "1CCD89A8FE37BDA0"
+			invisible: true
+			tasks: [{
+				advancement: "botania:challenge/king_key"
+				criterion: ""
+				id: "2E8EBB6F26C0ED54"
+				secret: true
+				type: "advancement"
+			}]
+			title: "&dKey of The King's Law&r"
+			x: 21.75d
+			y: -27.0d
+		}
+		{
+			dependencies: ["01F152746528FBF0"]
+			hide_dependency_lines: true
+			id: "1F098999DB7B3FC2"
+			invisible: true
+			tasks: [{
+				advancement: "botania:challenge/odin_ring"
+				criterion: ""
+				id: "62214B9715C3B855"
+				type: "advancement"
+			}]
+			title: "&dRing of Odin&r"
+			x: 22.25d
+			y: -28.25d
+		}
+		{
+			dependencies: ["01F152746528FBF0"]
+			hide_dependency_lines: true
+			id: "161F904EC6A7350A"
+			invisible: true
+			tasks: [{
+				advancement: "botania:challenge/loki_ring"
+				criterion: ""
+				id: "2A60FF9A8249BBB5"
+				type: "advancement"
+			}]
+			title: "&dRing of Loki&r"
+			x: 23.75d
+			y: -28.25d
+		}
+		{
+			dependencies: ["01F152746528FBF0"]
+			hide_dependency_lines: true
+			id: "53C8B44BB9A3C923"
+			invisible: true
+			tasks: [{
+				advancement: "botania:challenge/thor_ring"
+				criterion: ""
+				id: "2786A60F9F4A2DBD"
+				type: "advancement"
+			}]
+			title: "&dRing of Thor&r"
+			x: 24.25d
+			y: -27.0d
+		}
+		{
+			dependencies: ["01F152746528FBF0"]
+			hide_dependency_lines: true
+			id: "4E37171B8FFD1567"
+			invisible: true
+			tasks: [{
+				advancement: "botania:challenge/flugel_eye"
+				criterion: ""
+				id: "7244267B540CF366"
+				type: "advancement"
+			}]
+			title: "&dEye of the Flugel&r"
+			x: 22.25d
+			y: -25.9d
+		}
+		{
+			dependencies: ["25620B661289EC9F"]
+			description: [
+				"Quite the impressive sky island you've got there. "
+				""
+				"Sure hope it doesn't shear any important machinery in half."
+			]
+			id: "6EC2FC3B5D907ED4"
+			invisible: true
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "6A4882CFCD3E2452"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "3929D2FC3C672AD9"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -1206,29 +3403,127 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			tasks: [{
+				advancement: "botania:challenge/l20_shard_use"
+				criterion: ""
+				id: "5F478A48599DC315"
+				type: "advancement"
+			}]
+			title: "&dOut of Step&r"
+			x: 20.0d
+			y: -28.0d
+		}
+		{
+			dependencies: [
+				"01F152746528FBF0"
+				"4FA81906E0AC2628"
+			]
+			description: [
+				"Can be crafted in a grid with a Terrasteel Helmet to impart the listed effect. "
+				""
+				"&eAll 6 can be applied to the same helmet at once.&r"
+			]
+			hide_dependency_lines: true
+			id: "4FDB1308DAAEFDB4"
 			tasks: [
 				{
-					count: 4L
-					id: "36ADB68FBABF1619"
-					item: "botania:gaia_pylon"
+					id: "63B6AD16424AAEBB"
+					item: "botania:ancient_will_ahrim"
 					type: "item"
 				}
 				{
-					hasCustomPicture: false
-					icon: "minecraft:beacon"
-					id: "3D9FE7E661F48C7B"
-					ignoreState: false
-					layer: true
-					name: "ritual_of_gaia"
-					rightclick: false
-					title: "{ftbquests.chapter.botania.quest1237442985485991883.task.4440522734282509435.title}"
-					type: "questsadditions:structure"
+					id: "575B2D44852AA6B2"
+					item: "botania:ancient_will_dharok"
+					type: "item"
+				}
+				{
+					id: "19A58247AA48B16F"
+					item: "botania:ancient_will_guthan"
+					type: "item"
+				}
+				{
+					id: "00B2B7CC44545132"
+					item: "botania:ancient_will_torag"
+					type: "item"
+				}
+				{
+					id: "44C32B40507093BF"
+					item: "botania:ancient_will_verac"
+					type: "item"
+				}
+				{
+					id: "34E7F5AE93E7DB48"
+					item: "botania:ancient_will_karil"
+					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest1237442985485991883.title}"
-			x: 15.0d
-			y: 2.0d
+			title: "Will of Terrasteel"
+			x: 25.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["4FDB1308DAAEFDB4"]
+			description: ["This helmet will make your &cCritical Hits&r REALLY hurt- put it to good use!"]
+			id: "6EF5A9311CB399AC"
+			invisible: true
+			rewards: [
+				{
+					id: "43A730BB507AD98B"
+					item: "uniqueaccessories:devils_eyeball"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:critfisher"
+					icon: "titles:title_scroll_rare"
+					id: "6E3EB63C73B88DA0"
+					title: "&eUnlock Title:&r the Critfisher"
+					type: "command"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1FDD7CB138C8FFB7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "32192AAD8B789ED9"
+				item: {
+					Count: 1
+					id: "botania:terrasteel_helmet"
+					tag: {
+						AncientWill_ahrim: 1b
+						AncientWill_dharok: 1b
+						AncientWill_guthan: 1b
+						AncientWill_karil: 1b
+						AncientWill_torag: 1b
+						AncientWill_verac: 1b
+						Damage: 0
+					}
+				}
+				title: "Max Will Helmet"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&dCritical Condition&r"
+			x: 26.0d
+			y: -27.0d
+		}
+		{
+			description: [
+				"The Overgrowth Seed doubles the tick rate of the flower that is planted on it. Not all flowers are affected, but some of the more powerful generating flora is- test a few out!"
+				""
+				"&6Tip:&r If you find one of these early on in a dungeon, use it on the Pure Daisy to double the speed of your Livingrock and Livingwood!"
+			]
+			id: "4876196D5E2F48A9"
+			tasks: [{
+				id: "6CCF662E1DAB0886"
+				item: "botania:overgrowth_seed"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -26.0d
 		}
 	]
 	title: "{ftbquests.chapter.botania.title}"

@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:troll",
+  "rarity": "rare",
+  "isPrefix":  "true",
+  "defaultDisplay": "Troll Slayer"
+}

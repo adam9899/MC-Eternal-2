@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:critfisher",
+  "isPrefix":  "true",
+  "rarity": "rare",
+  "defaultDisplay": "Critfisher"
+}

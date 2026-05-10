@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:naga_slayer",
+  "rarity": "uncommon",
+  "isPrefix":  "true",
+  "defaultDisplay": "Naga Slayer"
+}

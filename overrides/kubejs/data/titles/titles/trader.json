@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:trader",
+  "rarity": "common",
+  "defaultDisplay": "the Trader"
+}
