@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:industrialist",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Industrialist",
+  "flavorText": "Why refine it once when you can refine it five times?"
+}

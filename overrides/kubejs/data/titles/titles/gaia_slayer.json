@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:gaia_slayer",
+  "rarity": "rare",
+  "defaultDisplay": "the Gaia-Slayer",
+  "flavorText": "You stood against the Guardian of the glade and won."
+}

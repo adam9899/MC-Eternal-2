@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:soulsmith",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Soulsmith",
+  "flavorText": "Soul and steel, forged as one."
+}

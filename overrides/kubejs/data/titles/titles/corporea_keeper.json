@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:corporea_keeper",
+  "rarity": "uncommon",
+  "defaultDisplay": "Keeper of the Index",
+  "flavorText": "Every item in the world, a whisper away."
+}

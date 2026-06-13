@@ -631,13 +631,23 @@
 				}
 			}
 			id: "03B50ECA705E17CE"
-			rewards: [{
-				amount: 25L
-				currency: "eternalcurrencies:coins"
-				id: "0363D0E1A55D2480"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "0363D0E1A55D2480"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:occult_initiate"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "499480F87BA0BBA8"
+					title: "{ftbquests.chapter.occultism.quest267136015529809870.reward.5302004466036292520.title}"
+					type: "command"
+				}
+			]
 			subtitle: "{ftbquests.chapter.occultism.quest267136015529809870.subtitle}"
 			tasks: [
 				{
@@ -2457,6 +2467,14 @@
 			icon_scale: 0.7d
 			id: "64E8AB7B404E9118"
 			rewards: [
+				{
+					command: "/titles add {p} titles:demon_binder"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "1A373A9657375672"
+					title: "{ftbquests.chapter.occultism.quest7271250144237883672.reward.1889042986087962226.title}"
+					type: "command"
+				}
 				{
 					amount: 250L
 					currency: "eternalcurrencies:coins"

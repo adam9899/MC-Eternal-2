@@ -509,6 +509,14 @@
 			id: "7D797FEC73ABD484"
 			rewards: [
 				{
+					command: "/titles add {p} titles:deepdelver"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "48F32B901DDDAB07"
+					title: "{ftbquests.chapter.mining.quest9041398380452631684.reward.5256593088047852295.title}"
+					type: "command"
+				}
+				{
 					id: "7AF195613837C4EB"
 					item: {
 						Count: 1

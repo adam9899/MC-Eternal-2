@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:florist",
+  "rarity": "common",
+  "defaultDisplay": "the Florist",
+  "flavorText": "It all begins with a single pure daisy."
+}

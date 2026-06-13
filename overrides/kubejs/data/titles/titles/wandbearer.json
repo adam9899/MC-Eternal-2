@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:wandbearer",
+  "rarity": "common",
+  "defaultDisplay": "the Wandbearer",
+  "flavorText": "Every archmage was once a fool with a stick."
+}

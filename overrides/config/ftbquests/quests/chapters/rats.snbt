@@ -1186,13 +1186,23 @@
 			hide_until_deps_complete: true
 			id: "6569AC301F58FCB4"
 			optional: true
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "54F7D265FB2CC467"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "54F7D265FB2CC467"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:pied_piper"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "7101140E69D0B434"
+					title: "{ftbquests.chapter.rats.quest7307561193069673652.reward.8142811653399950388.title}"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "2546A146B995015C"
 				item: "rats:rat_upgrade_breeder"

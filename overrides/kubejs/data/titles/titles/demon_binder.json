@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:demon_binder",
+  "rarity": "rare",
+  "defaultDisplay": "the Demon-Binder",
+  "flavorText": "What you summon, you command."
+}

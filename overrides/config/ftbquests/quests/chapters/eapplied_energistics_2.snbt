@@ -2965,13 +2965,23 @@
 				"{ftbquests.chapter.eapplied_energistics_2.quest1908253954234754191.description3}"
 			]
 			id: "1A7B7ADC6B65A48F"
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "17C0AE16913B87AB"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "17C0AE16913B87AB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:infinity_architect"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "2BF610F32EF0B650"
+					title: "{ftbquests.chapter.eapplied_energistics_2.quest1908253954234754191.reward.3167738024552347216.title}"
+					type: "command"
+				}
+			]
 			subtitle: "{ftbquests.chapter.eapplied_energistics_2.quest1908253954234754191.subtitle}"
 			tasks: [{
 				id: "2F11857AD709E9C9"

@@ -236,13 +236,23 @@
 			description: [""]
 			icon: "botania:pure_daisy"
 			id: "534740624C012CBF"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "2CD28AD363FD008B"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2CD28AD363FD008B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:florist"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "1963CA7DF7EA9366"
+					title: "{ftbquests.chapter.botania.quest6000835819420593343.reward.1829528516021621606.title}"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [
 				{
@@ -1182,6 +1192,14 @@
 			]
 			id: "112C47D6CBB0FFCB"
 			rewards: [
+				{
+					command: "/titles add {p} titles:gaia_slayer"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "3589A67F88B9641E"
+					title: "{ftbquests.chapter.botania.quest1237442985485991883.reward.3857797622504449054.title}"
+					type: "command"
+				}
 				{
 					amount: 500L
 					currency: "eternalcurrencies:coins"

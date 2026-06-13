@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:pied_piper",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Pied Piper",
+  "flavorText": "Where you walk, a thousand tails follow."
+}
