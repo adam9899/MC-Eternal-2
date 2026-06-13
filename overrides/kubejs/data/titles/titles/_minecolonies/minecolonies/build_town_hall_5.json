@@ -1,0 +1,8 @@
+{
+  "type": "advancement",
+  "id": "titles:_minecolonies/minecolonies/build_town_hall_5",
+  "isPrefix": false,
+  "rarity": "uncommon",
+  "defaultDisplay": "the Governor",
+  "flavorText": "A town hall worthy of the name."
+}

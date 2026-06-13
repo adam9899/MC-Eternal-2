@@ -1,0 +1,8 @@
+{
+  "type": "advancement",
+  "id": "titles:_tconstruct/tools/one_shot",
+  "isPrefix": true,
+  "rarity": "uncommon",
+  "defaultDisplay": "Overkill",
+  "flavorText": "One hit. That's all it took."
+}

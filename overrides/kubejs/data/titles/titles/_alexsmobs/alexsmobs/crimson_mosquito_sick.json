@@ -1,0 +1,8 @@
+{
+  "type": "advancement",
+  "id": "titles:_alexsmobs/alexsmobs/crimson_mosquito_sick",
+  "isPrefix": true,
+  "rarity": "common",
+  "defaultDisplay": "Bad Blood",
+  "flavorText": "You gave that mosquito more than it bargained for."
+}

@@ -1,0 +1,8 @@
+{
+  "type": "advancement",
+  "id": "titles:_atum/core/kingslayer",
+  "isPrefix": true,
+  "rarity": "rare",
+  "defaultDisplay": "Pharaohslayer",
+  "flavorText": "The boy-king's reign ends at your blade."
+}

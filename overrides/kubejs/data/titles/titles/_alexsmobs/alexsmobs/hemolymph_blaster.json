@@ -1,0 +1,8 @@
+{
+  "type": "advancement",
+  "id": "titles:_alexsmobs/alexsmobs/hemolymph_blaster",
+  "isPrefix": false,
+  "rarity": "uncommon",
+  "defaultDisplay": "the Bloodletter",
+  "flavorText": "The mosquito's own blood, turned against the swarm."
+}

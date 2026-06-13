@@ -1,0 +1,8 @@
+{
+  "type": "advancement",
+  "id": "titles:_mowziesmobs/sculptor_challenge",
+  "isPrefix": true,
+  "rarity": "rare",
+  "defaultDisplay": "Sculptorbane",
+  "flavorText": "Even the maker of mountains can be unmade."
+}
