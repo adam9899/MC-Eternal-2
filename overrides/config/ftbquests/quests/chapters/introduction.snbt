@@ -1620,7 +1620,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:hero_village"
+					command: "/titles add {p} titles:hero_of_the_village"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -2347,7 +2347,7 @@
 					xp_levels: 1
 				}
 				{
-					command: "/titles add {p} titles:trader"
+					command: "/titles add {p} titles:the_trader"
 					icon: "titles:title_scroll_common"
 					id: "010394115892AE30"
 					title: "{ftbquests.chapter.introduction.quest1510417649203490773.reward.73064821189422640.title}"
@@ -2398,7 +2398,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:diver"
+					command: "/titles add {p} titles:master_diver"
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "2D6CE912ED509899"
@@ -3225,7 +3225,7 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add {p} titles:slimy"
+					command: "/titles add {p} titles:slime"
 					icon: "titles:title_scroll_uncommon"
 					id: "3F776B6D577373E7"
 					title: "{ftbquests.chapter.introduction.quest1418264689650660125.reward.4573242063980819431.title}"
@@ -4158,7 +4158,7 @@
 			id: "2488248F1A2762CB"
 			rewards: [
 				{
-					command: "/titles add {p} titles:ungriefed"
+					command: "/titles add {p} titles:the_ungriefed"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -4998,7 +4998,7 @@
 					type: "command"
 				}
 				{
-					command: "/titles add {p} titles:pureblood"
+					command: "/titles add {p} titles:vampire_lord"
 					icon: "titles:title_scroll_uncommon"
 					id: "5410C673D96ED620"
 					title: "{ftbquests.chapter.introduction.quest2746222829629412079.reward.6057559699684775456.title}"

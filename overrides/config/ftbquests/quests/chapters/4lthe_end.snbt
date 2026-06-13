@@ -301,7 +301,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:doom"
+					command: "/titles add {p} titles:chaos_bringer"
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "3E9991B626495847"

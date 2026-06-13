@@ -181,7 +181,7 @@
 			id: "2CABBF8B8A8F3755"
 			rewards: [
 				{
-					command: "/titles add {p} titles:master"
+					command: "/titles add {p} titles:the_master"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -294,7 +294,7 @@
 			id: "099610C83CC67421"
 			rewards: [
 				{
-					command: "/titles add {p} titles:expert"
+					command: "/titles add {p} titles:the_expert"
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "4D62D854404D9939"

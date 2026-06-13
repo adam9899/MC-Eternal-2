@@ -81,7 +81,7 @@
 			id: "4499592BF9A70EE7"
 			rewards: [
 				{
-					command: "/titles add {p} titles:prop"
+					command: "/titles add {p} titles:proprietor"
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "37449BF693B38FF2"

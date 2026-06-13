@@ -924,7 +924,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:ashen"
+					command: "/titles add {p} titles:ashen_breath"
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0067A1BE49111658"
