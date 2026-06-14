@@ -311,6 +311,14 @@
 			id: "71B5F14976D96DF4"
 			rewards: [
 				{
+					command: "/titles add {p} titles:deepdelver"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "48F32B901DDDAB07"
+					title: "{ftbquests.chapter.mining.quest8193720394899353076.reward.5256593088047852295.title}"
+					type: "command"
+				}
+				{
 					count: 32
 					id: "2772C64444C341B9"
 					item: {
@@ -508,14 +516,6 @@
 			hide_dependency_lines: true
 			id: "7D797FEC73ABD484"
 			rewards: [
-				{
-					command: "/titles add {p} titles:deepdelver"
-					console: true
-					icon: "titles:title_scroll_common"
-					id: "48F32B901DDDAB07"
-					title: "{ftbquests.chapter.mining.quest9041398380452631684.reward.5256593088047852295.title}"
-					type: "command"
-				}
 				{
 					id: "7AF195613837C4EB"
 					item: {
