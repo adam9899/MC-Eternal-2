@@ -2528,13 +2528,23 @@
 			hide_until_deps_visible: true
 			id: "267B32028E3E70E5"
 			optional: true
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "3CFC36179C863855"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3CFC36179C863855"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:wayfarer"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "7C4CCD2254487951"
+					title: "{ftbquests.chapter.introduction.quest2772864982134452453.reward.8956759306259691857.title}"
+					type: "command"
+				}
+			]
 			size: 0.9d
 			subtitle: "{ftbquests.chapter.introduction.quest2772864982134452453.subtitle}"
 			tasks: [{

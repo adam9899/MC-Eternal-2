@@ -1327,6 +1327,14 @@
 			id: "36EE964CF3FB56AC"
 			rewards: [
 				{
+					command: "/titles add {p} titles:overkill"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "76F2888738D46330"
+					title: "{ftbquests.chapter.6modular_tools.quest3958266379760260780.reward.8571063155194880816.title}"
+					type: "command"
+				}
+				{
 					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "5DAD993131E791DC"

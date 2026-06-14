@@ -1,6 +1,6 @@
 {
-  "type": "advancement",
-  "id": "titles:_minecolonies/minecolonies/build_town_hall_5",
+  "type": "command",
+  "id": "titles:governor",
   "isPrefix": false,
   "rarity": "uncommon",
   "defaultDisplay": "the Governor",

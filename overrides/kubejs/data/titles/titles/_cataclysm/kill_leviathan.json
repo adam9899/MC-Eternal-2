@@ -1,8 +1,0 @@
-{
-  "type": "advancement",
-  "id": "titles:_cataclysm/kill_leviathan",
-  "isPrefix": true,
-  "rarity": "rare",
-  "defaultDisplay": "Leviathanslayer",
-  "flavorText": "You felled the colossus of the deep."
-}

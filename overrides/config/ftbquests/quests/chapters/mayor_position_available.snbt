@@ -1035,6 +1035,14 @@
 			optional: true
 			rewards: [
 				{
+					command: "/titles add {p} titles:governor"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "178D67109C82E87A"
+					title: "{ftbquests.chapter.mayor_position_available.quest8106985922084552939.reward.1697125955631507578.title}"
+					type: "command"
+				}
+				{
 					id: "5F7B8B15579D39F9"
 					item: {
 						Count: 1

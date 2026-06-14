@@ -1,6 +1,6 @@
 {
-  "type": "advancement",
-  "id": "titles:_tconstruct/tools/one_shot",
+  "type": "command",
+  "id": "titles:overkill",
   "isPrefix": true,
   "rarity": "uncommon",
   "defaultDisplay": "Overkill",

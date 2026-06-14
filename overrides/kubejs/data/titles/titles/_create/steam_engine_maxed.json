@@ -1,8 +1,0 @@
-{
-  "type": "advancement",
-  "id": "titles:_create/steam_engine_maxed",
-  "isPrefix": false,
-  "rarity": "uncommon",
-  "defaultDisplay": "the Steamwright",
-  "flavorText": "Pressure, pistons, and a little genius."
-}

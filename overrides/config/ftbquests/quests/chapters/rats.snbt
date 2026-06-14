@@ -919,6 +919,14 @@
 			id: "052651542B69BA30"
 			rewards: [
 				{
+					command: "/titles add {p} titles:plaguebringer"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "1FF04C69CCAE77DD"
+					title: "{ftbquests.chapter.rats.quest371073441252096560.reward.2301423426875586525.title}"
+					type: "command"
+				}
+				{
 					amount: 250L
 					currency: "eternalcurrencies:coins"
 					id: "3FF534B6C1AC1DD1"

@@ -1,6 +1,6 @@
 {
-  "type": "advancement",
-  "id": "titles:_supplementaries/adventure/way_sign",
+  "type": "command",
+  "id": "titles:wayfarer",
   "isPrefix": true,
   "rarity": "common",
   "defaultDisplay": "Wayfarer",
