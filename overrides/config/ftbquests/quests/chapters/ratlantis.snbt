@@ -242,14 +242,6 @@
 			id: "6FD5A5FB24E35D23"
 			rewards: [
 				{
-					command: "/titles add {p} titles:ratlantis_scourge"
-					console: true
-					icon: "titles:title_scroll_rare"
-					id: "6F4692A34AA36603"
-					title: "{ftbquests.chapter.ratlantis.quest8058529606323625251.reward.8018257416609293827.title}"
-					type: "command"
-				}
-				{
 					amount: 250L
 					currency: "eternalcurrencies:coins"
 					id: "024199A845D8B748"
@@ -430,6 +422,14 @@
 			id: "2218B0FFA0D07C32"
 			min_required_tasks: 1
 			rewards: [
+				{
+					command: "/titles add {p} titles:ratlantis_scourge"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "6F4692A34AA36603"
+					title: "{ftbquests.chapter.ratlantis.quest2456908208691772466.reward.8018257416609293827.title}"
+					type: "command"
+				}
 				{
 					amount: 250L
 					currency: "eternalcurrencies:coins"
