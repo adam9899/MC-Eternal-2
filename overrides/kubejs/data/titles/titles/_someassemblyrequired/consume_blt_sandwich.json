@@ -1,8 +1,0 @@
-{
-  "type": "advancement",
-  "id": "titles:_someassemblyrequired/consume_blt_sandwich",
-  "isPrefix": false,
-  "rarity": "common",
-  "defaultDisplay": "the Sandwich Artist",
-  "flavorText": "Bacon, lettuce, tomato, and a job well done."
-}

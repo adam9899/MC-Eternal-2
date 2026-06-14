@@ -37,18 +37,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3F7C96CEB926C321"
-			shape: "circle"
-			tasks: [{
-				advancement: "undergarden:undergarden/64gloomgourds"
-				criterion: ""
-				id: "4B7B3DD267C8A315"
-				type: "advancement"
-			}]
-			x: 5.0d
-			y: 4.0d
-		}
-		{
 			id: "24D1CA770F2C1F33"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/hemolymph_blaster"
@@ -62,24 +50,13 @@
 		{
 			id: "5FE6A1EFE58D7704"
 			tasks: [{
-				advancement: "someassemblyrequired:consume_blt_sandwich"
+				advancement: "some_assembly_required:obtain_sandwich"
 				criterion: ""
 				id: "23D79DCB926EE579"
 				type: "advancement"
 			}]
 			x: 1.0d
 			y: 2.0d
-		}
-		{
-			id: "06BA1E7DE345028F"
-			tasks: [{
-				advancement: "atum:core/kingslayer"
-				criterion: ""
-				id: "296A2526DA08739A"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: 4.0d
 		}
 		{
 			description: [

@@ -1,0 +1,8 @@
+{
+  "type": "advancement",
+  "id": "titles:_alexscaves/alexscaves/defeat_magnetron",
+  "isPrefix": true,
+  "rarity": "uncommon",
+  "defaultDisplay": "Magnetbreaker",
+  "flavorText": "The magnetic titan, pulled apart."
+}

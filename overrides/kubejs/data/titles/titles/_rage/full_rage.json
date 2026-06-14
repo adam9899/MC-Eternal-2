@@ -1,8 +1,0 @@
-{
-  "type": "advancement",
-  "id": "titles:_rage/full_rage",
-  "isPrefix": true,
-  "rarity": "uncommon",
-  "defaultDisplay": "Berserker",
-  "flavorText": "Some fights you finish seeing only red."
-}
