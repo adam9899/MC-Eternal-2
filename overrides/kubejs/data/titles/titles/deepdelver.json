@@ -1,6 +1,7 @@
 {
   "type": "command",
   "id": "titles:deepdelver",
+  "isPrefix": false,
   "rarity": "common",
   "defaultDisplay": "the Deepdelver",
   "flavorText": "Down and down, where the light forgets to follow."

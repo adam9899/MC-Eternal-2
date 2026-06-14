@@ -1,6 +1,7 @@
 {
   "type": "command",
   "id": "titles:powermonger",
+  "isPrefix": false,
   "rarity": "uncommon",
   "defaultDisplay": "the Powermonger",
   "flavorText": "There is no such thing as enough power."

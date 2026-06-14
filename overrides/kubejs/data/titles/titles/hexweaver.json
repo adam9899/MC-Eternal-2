@@ -1,6 +1,7 @@
 {
   "type": "command",
   "id": "titles:hexweaver",
+  "isPrefix": false,
   "rarity": "uncommon",
   "defaultDisplay": "the Hexweaver",
   "flavorText": "Reality bends to the patterns you scrawl."
