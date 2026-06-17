@@ -318,13 +318,23 @@
 			icon: "the_bumblezone:royal_jelly_block"
 			id: "7DFC37D2D71A3A4B"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 75L
-				currency: "eternalcurrencies:coins"
-				id: "46101D21D8945F05"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "46101D21D8945F05"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:hive_sovereign"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "6CFF39380981D11D"
+					title: "{ftbquests.chapter.ethe_bumblezone.quest9078192327563557451.reward.7854059187997888797.title}"
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.ethe_bumblezone.quest9078192327563557451.subtitle}"
 			tasks: [{

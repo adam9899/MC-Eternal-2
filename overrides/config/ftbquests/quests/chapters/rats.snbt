@@ -919,6 +919,14 @@
 			id: "052651542B69BA30"
 			rewards: [
 				{
+					command: "/titles add {p} titles:plaguebringer"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "1FF04C69CCAE77DD"
+					title: "{ftbquests.chapter.rats.quest371073441252096560.reward.2301423426875586525.title}"
+					type: "command"
+				}
+				{
 					amount: 250L
 					currency: "eternalcurrencies:coins"
 					id: "3FF534B6C1AC1DD1"
@@ -1186,13 +1194,23 @@
 			hide_until_deps_complete: true
 			id: "6569AC301F58FCB4"
 			optional: true
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "54F7D265FB2CC467"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "54F7D265FB2CC467"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:pied_piper"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "7101140E69D0B434"
+					title: "{ftbquests.chapter.rats.quest7307561193069673652.reward.8142811653399950388.title}"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "2546A146B995015C"
 				item: "rats:rat_upgrade_breeder"

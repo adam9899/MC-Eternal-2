@@ -491,6 +491,14 @@
 			id: "791BEBC41E54EE77"
 			rewards: [
 				{
+					command: "/titles add {p} titles:wandbearer"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "102BE6147418A4AB"
+					title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8726827930515467895.reward.1165277904126911659.title}"
+					type: "command"
+				}
+				{
 					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "717B331ADB889A2C"
@@ -5024,6 +5032,14 @@
 			}
 			id: "5768E11E5F137489"
 			rewards: [
+				{
+					command: "/titles add {p} titles:dead_kings_bane"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "49E4C184822882D5"
+					title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6298531599438017673.reward.5324593434322305749.title}"
+					type: "command"
+				}
 				{
 					amount: 200L
 					currency: "eternalcurrencies:coins"

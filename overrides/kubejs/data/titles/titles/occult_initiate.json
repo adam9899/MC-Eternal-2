@@ -1,0 +1,8 @@
+{
+  "type": "command",
+  "id": "titles:occult_initiate",
+  "isPrefix": false,
+  "rarity": "common",
+  "defaultDisplay": "the Occult Initiate",
+  "flavorText": "The chalk is drawn, and something answers."
+}

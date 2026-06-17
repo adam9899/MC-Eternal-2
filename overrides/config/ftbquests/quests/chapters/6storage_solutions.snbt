@@ -614,6 +614,14 @@
 			id: "0DEAA29705F2A17A"
 			rewards: [
 				{
+					command: "/titles add {p} titles:corporea_keeper"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "17E6C4F7AE286676"
+					title: "{ftbquests.chapter.6storage_solutions.quest1002792636566905210.reward.1722280475573642870.title}"
+					type: "command"
+				}
+				{
 					count: 3
 					id: "60D9146FB47C3F90"
 					item: "kubejs:corporea_crystal"

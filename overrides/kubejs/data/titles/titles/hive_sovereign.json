@@ -1,0 +1,8 @@
+{
+  "type": "command",
+  "id": "titles:hive_sovereign",
+  "isPrefix": true,
+  "rarity": "uncommon",
+  "defaultDisplay": "Sovereign of the Hive",
+  "flavorText": "The swarm answers only to you."
+}

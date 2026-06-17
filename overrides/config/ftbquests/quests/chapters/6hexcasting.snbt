@@ -412,12 +412,22 @@
 		{
 			dependencies: ["4B967F13F20C2241"]
 			id: "2D8003EAD136FF18"
-			rewards: [{
-				count: 10
-				id: "0209E91CAAA67182"
-				item: "kubejs:chocolate_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "0209E91CAAA67182"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:hexweaver"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "5B013BBED3D526D4"
+					title: "{ftbquests.chapter.6hexcasting.quest3278624835792994072.reward.6557588223211939540.title}"
+					type: "command"
+				}
+			]
 			shape: "octagon"
 			subtitle: "{ftbquests.chapter.6hexcasting.quest3278624835792994072.subtitle}"
 			tasks: [{

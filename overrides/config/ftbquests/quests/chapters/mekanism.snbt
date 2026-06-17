@@ -1139,6 +1139,14 @@
 			id: "758FDF2FDB1019D1"
 			rewards: [
 				{
+					command: "/titles add {p} titles:industrialist"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "4C8968429D8B21D1"
+					title: "{ftbquests.chapter.mekanism.quest8471234820738914769.reward.5515053854012154321.title}"
+					type: "command"
+				}
+				{
 					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "03D22679D52E9048"

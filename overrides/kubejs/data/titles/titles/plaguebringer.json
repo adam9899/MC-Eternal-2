@@ -1,0 +1,8 @@
+{
+  "type": "command",
+  "id": "titles:plaguebringer",
+  "isPrefix": true,
+  "rarity": "rare",
+  "defaultDisplay": "Plaguebringer",
+  "flavorText": "The pestilence answers to you now."
+}

@@ -37,51 +37,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3F7C96CEB926C321"
-			shape: "circle"
-			tasks: [{
-				advancement: "undergarden:undergarden/64gloomgourds"
-				criterion: ""
-				id: "4B7B3DD267C8A315"
-				type: "advancement"
-			}]
-			x: 5.0d
-			y: 4.0d
-		}
-		{
-			id: "24D1CA770F2C1F33"
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/hemolymph_blaster"
-				criterion: ""
-				id: "079051B4B69C3C65"
-				type: "advancement"
-			}]
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			id: "5FE6A1EFE58D7704"
-			tasks: [{
-				advancement: "someassemblyrequired:consume_blt_sandwich"
-				criterion: ""
-				id: "23D79DCB926EE579"
-				type: "advancement"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			id: "06BA1E7DE345028F"
-			tasks: [{
-				advancement: "atum:core/kingslayer"
-				criterion: ""
-				id: "296A2526DA08739A"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: 4.0d
-		}
-		{
 			description: [
 				"{ftbquests.chapter.etitles.quest6831313394081181756.description1}"
 				""
@@ -125,30 +80,6 @@
 			}]
 			x: 2.0d
 			y: 4.0d
-		}
-		{
-			id: "7B84B68443613B99"
-			optional: true
-			shape: "circle"
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
-				criterion: ""
-				id: "1ECAA6C9CE0EE124"
-				type: "advancement"
-			}]
-			x: 1.0d
-			y: 4.0d
-		}
-		{
-			id: "7B54C00475F0A841"
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
-				criterion: ""
-				id: "0D77B20F0B39381F"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.etitles.title}"

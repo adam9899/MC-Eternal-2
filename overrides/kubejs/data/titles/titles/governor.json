@@ -1,0 +1,8 @@
+{
+  "type": "command",
+  "id": "titles:governor",
+  "isPrefix": false,
+  "rarity": "uncommon",
+  "defaultDisplay": "the Governor",
+  "flavorText": "A town hall worthy of the name."
+}

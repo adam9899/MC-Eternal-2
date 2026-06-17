@@ -1,0 +1,8 @@
+{
+  "type": "command",
+  "id": "titles:wayfarer",
+  "isPrefix": true,
+  "rarity": "common",
+  "defaultDisplay": "Wayfarer",
+  "flavorText": "Never lost, only between signs."
+}

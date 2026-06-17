@@ -313,6 +313,14 @@
 			id: "405E0E4B20FD9314"
 			rewards: [
 				{
+					command: "/titles add {p} titles:soulsmith"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "5466B582302292C8"
+					title: "{ftbquests.chapter.enderio.quest4638160382077014804.reward.6081747917568381640.title}"
+					type: "command"
+				}
+				{
 					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "2030A0D787859D78"
