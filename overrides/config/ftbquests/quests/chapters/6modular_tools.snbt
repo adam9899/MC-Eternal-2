@@ -1792,7 +1792,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:origin"
+					command: "/titles add {p} titles:monarch"
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "44E12299780E68CE"

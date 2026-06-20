@@ -890,7 +890,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:vanquisher"
+					command: "/titles add {p} titles:the_vanquisher"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
@@ -1138,7 +1138,7 @@
 			id: "516CEC98C05CC1EB"
 			rewards: [
 				{
-					command: "/titles add {p} titles:dame_fortuna"
+					command: "/titles add {p} titles:fortunate"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -1397,7 +1397,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:pet"
+					command: "/titles add {p} titles:the_pet"
 					icon: {
 						Count: 1
 						ForgeCaps: {

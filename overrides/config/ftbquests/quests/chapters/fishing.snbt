@@ -2098,7 +2098,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:deep"
+					command: "/titles add {p} titles:lord_of_the_deep"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"

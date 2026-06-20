@@ -472,7 +472,7 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					command: "/titles add {p} titles:logician"
+					command: "/titles add {p} titles:lil"
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "6D7D4CD56B6C5CAB"
