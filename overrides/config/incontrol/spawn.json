@@ -9,12 +9,39 @@
     "result":"allow",
     "when": "onjoin"
   },
+    {
+  "mob": "alexsmobs:underminer",
+  "dimension": "mce:dwarven_depths",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 15
+  },
+  "result": "deny"
+},
+   {
+  "mob": "iceandfire:fire_dragon",
+  "dimension": "mce:dwarven_depths",
+  "customname": "§eDwarven Fire Dragon",
+  "result": "allow",
+  "nbt": {
+    "AgeTicks": 1728966
+  }
+},
+   {
+  "mob": "iceandfire:fire_dragon",
+  "dimension": "mce:dwarven_depths",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 2
+  },
+  "result": "deny"
+},
   {
     "mob": "mowziesmobs:ferrous_wroughtnaut",
     "when": "onjoin",
     "result": "allow",
         "potion": [
-    "gtbcs_geomancy_plus:aegis,999999,10", "royalvariations:knightly_fortitude,999999,2"
+    "gtbcs_geomancy_plus:aegis,999999,10", "royalvariations:knightly_fortitude,999999,3"
   ]
   },
     {
@@ -46,15 +73,7 @@
 "minheight": "50",
   "result": "deny"
 },
-    {
-  "mod": "untitledduckmod",
-  "dimension": "minecraft:overworld",
-  "when": "onjoin",
-   "mincount": {
-    "amount": 8
-  },
-  "result": "deny"
-},
+    
   {
   "mob": "gtbcs_geomancy_plus:geo_grandmaster",
   "when": "finalize",
@@ -966,7 +985,7 @@
     {
     "mob": "alexsmobs:underminer",
     "dimension": "mce:dwarven_depths",
-    "customname": "§4Wandering Soul",
+    "customname": "§7Wandering Soul",
     "result": "true",
     "when": "onjoin",
         "healthmultiply": 2.0,

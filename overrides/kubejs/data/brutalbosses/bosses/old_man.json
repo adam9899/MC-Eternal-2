@@ -20,7 +20,7 @@
   },
   "gear": {
     "helmet": "{id: \"rats:top_hat\", Count: 1b, tag: {Damage: 250}}",
-   "mainhand": "{id: \"gtbcs_geomancy_plus:bluff_instruction_manual\", Count: 1b, tag: {display:{Name:'{\"text\":\"Ramblings of an Old Fool\"}',Lore:['{\"text\":\"This spell book is covered in strange markings and symbols.. You do not understand any of it..\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}"
+ "mainhand": "{id:\"gtbcs_geomancy_plus:bluff_instruction_manual\",Count:1b,tag:{Damage:0,display:{Name:'{\"text\":\"Ramblings of an Old Fool\"}',Lore:['{\"text\":\"This spell book is covered in strange markings and symbols.. You do not understand any of it..\"}']},Enchantments:[{lvl:1s,id:\"minecraft:mending\"}],\"irons_spellbooks:spell_container\":{data:[],maxSpells:11,mustEquip:1b,spellWheel:1b}}}"
   },
   "ai-goals": {
     "minecraft:meleeattack": {},

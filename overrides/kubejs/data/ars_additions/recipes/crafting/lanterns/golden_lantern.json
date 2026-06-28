@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "amethyst_tools:enchanted_alloy_nugget"
+    },
+    "m": {
+      "item": "minecraft:gold_nugget"
+    },
+    "s": {
+      "item": "species:wicked_candle"
+    }
+  },
+  "pattern": [
+    "imi",
+    "msm",
+    "imi"
+  ],
+  "result": {
+    "item": "ars_additions:golden_lantern"
+  },
+  "show_notification": true
+}

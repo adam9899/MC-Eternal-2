@@ -29,6 +29,7 @@ ItemEvents.tooltip(event => {
 
 	event.add('dreadsteel:dreadsteel_scythe', Text.translate("tooltip.mce2.dreadsteel.dreadsteel_scythe").color('#FFFFFF'));
 	event.add('dreadsteel:dreadsteel_shield', Text.translate("tooltip.mce2.dreadsteel.dreadsteel_shield").color('#FFFFFF'));
+	event.add('ars_additions:golden_lantern', Text.translate("tooltip.mce2.dwarvendepths.golden_lantern").color('#FFFFFF'));
 
 	event.add('etched:boombox', Text.translate("tooltip.mce2.etched.boombox").color('#FFFFFF')); 
 	event.add(["#enderio:clear_glass", "#enderio:fused_quartz"], Text.translate("tooltip.mce2.generic.can_be_dyed").color("#FFFF44"))
@@ -61,6 +62,7 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:artifact_runestone_dark_inscribed_large', Text.translate("tooltip.mce2.kubejs.artifact_dragon_tablet.2").color("#FFFFFF"))
 	event.add('kubejs:regret_scroll', Text.translate("tooltip.mce2.kubejs.regret_scroll").color('#FFFFFF')); 
 	event.add('kubejs:regret_scroll', Text.translate("tooltip.mce2.kubejs.regret_scroll1").color('#FFFFFF')); 
+	event.add('kubejs:dwarven_ring', Text.translate("tooltip.mce2.kubejs.dwarven_ring").color('#FFFFFF'));
 
 	//Soul Stone
 	event.add('kubejs:artifact_endergem', Text.translate("tooltip.mce2.kubejs.artifact_endergem.1").color('#FFFFFF'));

@@ -1,0 +1,8 @@
+{
+  "stats": {
+    "constructs_casting:magic_base": {
+      "max_mana": 50.0,
+      "spell_power": 0.0
+    }
+  }
+}

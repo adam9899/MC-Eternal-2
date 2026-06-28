@@ -1,0 +1,8 @@
+{
+  "stats": {
+    "constructs_casting:magic_cloth": {
+      "cooldown_reduction": -0.15,
+      "spell_slots": 3.0
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "perStat": {
+    "tconstruct:ammo": [
+      {
+        "level": 2,
+        "name": "etstlib:crystaline_arrow"
+      },
+      {
+        "level": 1,
+        "name": "etstlib:energetic_attack"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "etstlib:crystal_armor"
+      },
+      {
+        "level": 1,
+        "name": "etstlib:clearing"
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "level": 1,
+        "name": "etstlib:energetic_attack"
+      },
+      {
+        "level": 1,
+        "name": "etstlib:applied_fixing"
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "level": 1,
+        "name": "etstlib:anisotropy"
+      },
+      {
+        "level": 1,
+        "name": "etstlib:applied_fixing"
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "level": 1,
+        "name": "etstlib:energetic_attack"
+      },
+      {
+        "level": 1,
+        "name": "etstlib:applied_fixing"
+      }
+    ],
+    "tconstruct:head": [
+      {
+        "level": 1,
+        "name": "tconstruct:springing"
+      },
+      {
+        "level": 1,
+        "name": "etstlib:energetic_attack"
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "level": 1,
+        "name": "etstlib:anisotropy"
+      },
+      {
+        "level": 1,
+        "name": "etstlib:energetic_attack"
+      }
+    ],
+    "tinkers_advanced:flux_core": [
+      {
+        "level": 1,
+        "name": "etstlib:energetic_attack"
+      },
+      {
+        "level": 1,
+        "name": "tinkers_advanced:piezoelectric_effect"
+      }
+    ]
+  }
+}

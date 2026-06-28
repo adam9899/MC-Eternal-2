@@ -1,8 +1,8 @@
 {
   "irons_spellbooks:power_multiplier": 1.0,
-  "irons_spellbooks:cooldown_in_seconds": 280.0,
+  "irons_spellbooks:cooldown_in_seconds": 480.0,
   "irons_spellbooks:allow_crafting": false,
-  "irons_spellbooks:mana_cost_multiplier": 8.0,
+  "irons_spellbooks:mana_cost_multiplier": 10.0,
   "irons_spellbooks:enabled": true,
   "irons_spellbooks:min_rarity": "rare",
   "irons_spellbooks:school": "cataclysm_spellbooks:abyssal",

@@ -566,7 +566,7 @@
 'species:quake' : '',
 'species:bewereager' : '',
 'species:spectre' : '',
-'species:wicked' : '',
+'species:wicked' : '{Count:1b,id:"species:wicked_candle",tag:{dropchance:0.2d}}',
 'species:leaf_hanger' : '',
 'species:cliff_hanger' : '',
 'ghastcow:ghast_cow' : '',

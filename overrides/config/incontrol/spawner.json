@@ -1,13 +1,13 @@
 [{
-    "mob": ["alexsmobs:soul_vulture"], 
+    "mob": ["iceandfire:fire_dragon"], 
     "persecond": 0.1,
     "attempts": 1,
     "amount": {
       "minimum": 1,
-      "maximum": 2
+      "maximum": 1
     },
     "conditions": {
-      "dimension": "thegreatbelow:thegreatbelow",
+      "dimension": "mce:dwarven_depths",
       "norestrictions": true,
       "inwater": false, 
       "inair": false, 
@@ -16,7 +16,7 @@
       "maxdist": 96,
       "minheight": -64,
       "maxheight": 319,
-      "maxthis": 2
+      "maxthis": 1
     }
 
 

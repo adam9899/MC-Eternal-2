@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    " /"
+  ],
+  "key": {
+    "#": "iceandfire:fire_dragon_heart",
+    "/": "irons_spellbooks:mithril_scrap"
+  },
+  "result": {
+    "id": "kubejs:dwarven_ring"
+  }
+}

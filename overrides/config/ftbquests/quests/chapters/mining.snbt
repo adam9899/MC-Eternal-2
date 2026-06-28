@@ -94,11 +94,7 @@
 				{
 					count: 8
 					id: "0F0252950C4B16DA"
-					item: {
-						Count: 1
-						id: "minecraft:lantern"
-						tag: { }
-					}
+					item: "minecraft:lantern"
 					type: "item"
 				}
 				{
@@ -282,31 +278,19 @@
 				{
 					count: 32L
 					id: "5EB238FCA048A3CD"
-					item: {
-						Count: 1
-						id: "minecraft:raw_gold"
-						tag: { }
-					}
+					item: "minecraft:raw_gold"
 					type: "item"
 				}
 				{
 					count: 45L
 					id: "0758477ABD826A79"
-					item: {
-						Count: 1
-						id: "minecraft:raw_iron"
-						tag: { }
-					}
+					item: "minecraft:raw_iron"
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "26684842E083AB87"
-					item: {
-						Count: 1
-						id: "minecraft:raw_copper"
-						tag: { }
-					}
+					item: "minecraft:raw_copper"
 					type: "item"
 				}
 			]
@@ -446,11 +430,7 @@
 				{
 					count: 8
 					id: "0ECAEE794F7946D4"
-					item: {
-						Count: 1
-						id: "minecraft:glow_berries"
-						tag: { }
-					}
+					item: "minecraft:glow_berries"
 					type: "item"
 				}
 				{
@@ -695,11 +675,7 @@
 			subtitle: "{ftbquests.chapter.mining.quest6410433765430371974.subtitle}"
 			tasks: [{
 				biome: "minecraft:dripstone_caves"
-				icon: {
-					Count: 1
-					id: "minecraft:dripstone_block"
-					tag: { }
-				}
+				icon: "minecraft:dripstone_block"
 				id: "681D67B3FE0C4388"
 				title: "{ftbquests.chapter.mining.quest6410433765430371974.task.7502266577028137864.title}"
 				type: "biome"
@@ -752,11 +728,7 @@
 			subtitle: "{ftbquests.chapter.mining.quest3281582345321303253.subtitle}"
 			tasks: [{
 				biome: "minecraft:lush_caves"
-				icon: {
-					Count: 1
-					id: "minecraft:glow_berries"
-					tag: { }
-				}
+				icon: "minecraft:glow_berries"
 				id: "3FF3FC9541AFDB07"
 				title: "{ftbquests.chapter.mining.quest3281582345321303253.task.4608304561712519943.title}"
 				type: "biome"
@@ -867,21 +839,13 @@
 				{
 					count: 3
 					id: "3329E87169F12312"
-					item: {
-						Count: 1
-						id: "mekanism:block_charcoal"
-						tag: { }
-					}
+					item: "mekanism:block_charcoal"
 					type: "item"
 				}
 				{
 					count: 16
 					id: "0F32412E80FC2F0A"
-					item: {
-						Count: 1
-						id: "minecraft:amethyst_shard"
-						tag: { }
-					}
+					item: "minecraft:amethyst_shard"
 					type: "item"
 				}
 				{
@@ -912,11 +876,7 @@
 			subtitle: "{ftbquests.chapter.mining.quest8033327730336826704.subtitle}"
 			tasks: [{
 				id: "310FA1963FDAD265"
-				item: {
-					Count: 1
-					id: "immersive_machinery:tunnel_digger"
-					tag: { }
-				}
+				item: "immersive_machinery:tunnel_digger"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mining.quest8033327730336826704.title}"
@@ -1269,6 +1229,7 @@
 				"The &6Dwarven Depths&r can be a &overy dangerous&r place, monsters have adapted to this harsh enviroment, becoming scarier than their Overworld cousins. The darkness itself claws at your mind. Some foul magic has caused fire resistance to not work.."
 				""
 				"&eTip:&r Watch out for <shake>Shelob..."
+				"&eTip:&r Nightvison does not work here..."
 			]
 			id: "5F16592E377C17AE"
 			rewards: [
@@ -1292,6 +1253,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "4BC235266ECB06B9"
+					item: "iceandfire:dragonscales_red"
 					type: "item"
 				}
 			]
@@ -1369,6 +1335,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2
+					id: "16AF3457B9111B99"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
 			]
 			secret: true
 			subtitle: "Stronger Than Steel!"
@@ -1380,6 +1352,42 @@
 			title: "&bPride of The Dwarves"
 			x: 11.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["01699A30B1C5B833"]
+			description: [
+				"Legend says that the shadows themselves manifest into all sorts of forms and consume unprepared miners who venture forth into &6The Dwarven Depths. "
+				""
+				"Thankfully for us, we are &oalways&r prepared!"
+				""
+				"I've heard that a &eGolden Lantern&r held in your main-hand or off-hand will ward off the darkness and allow us to avoid death by darkness. Death by all of the other evil creatures here however is still quite likely..."
+			]
+			hide_until_deps_complete: true
+			id: "02B45BDF4BA650B6"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "1EF536B455B4D62A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "612DC61787B6410D"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eGolden Lantern"
+			tasks: [{
+				id: "467ED66E4CCB7624"
+				item: "ars_additions:golden_lantern"
+				type: "item"
+			}]
+			title: "&6The Darkness Within"
+			x: 8.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.mining.title}"

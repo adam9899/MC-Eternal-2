@@ -99,7 +99,7 @@
 	#    Negation - ~ followed by any selector above.  This selector will be negated, matching every item that does NOT match the selector.  Examples: "~minecraft:stick", "~!uncommon", "~@minecraft"
 	#    Combining selectors - Any number of selectors can be combined by separating them with a plus sign.  Examples: "minecraft:diamond_sword+&Enchantments", "minecraft:stick+~!common+&Damage=0"
 	[client.definitions]
-		level0_entries = ["!uncommon", "rats:rat_king_crown", "vampirism:vampire_clothing_crown", "curios:crown", "^Legendary"]
+		level0_entries = ["!uncommon", "rats:rat_king_crown", "vampirism:vampire_clothing_crown", "curios:crown", "^Legendary", "kubejs:dwarven_ring"]
 		level1_entries = ["$forge:gems", "!epic", "#FFAA00", "endrem:end_crystal_ingot", "rats:arcane_technology", "mceletters:elegant_letter"]
 		level2_entries = ["endrem:evil_eye", "alexscaves:dreadbow"]
 		level3_entries = ["endrem:nether_eye", "iceandfire:dragonsteel_fire_ingot", "minecraft:netherite_ingot", "minecraft:netherite_block", "iceandfire:fire_dragon_heart", "iceandfire:dragonbone_sword_fire", "iceandfire:dragonsteel_fire_sword", "cataclysm:infernal_forge", "cataclysm:the_incinerator", "cataclysm:bulwark_of_the_flame", "netherexp:treacherous_flame", "kubejs:nether_item", "vc_gliders:paraglider_netherite", "kubejs:mobdrop_endermanheart_beating"]
@@ -108,7 +108,7 @@
 		level6_entries = ["endrem:corrupted_eye", "endrem:black_eye", "iceandfire:manuscript", "$iceandfire:mob_skulls", "$forge:heads", "vampirism:injection_sanguinare", "iceandfire:dread_queen_sword", "@dreadsteel"]
 		level7_entries = ["endrem:lost_eye", "endrem:magical_eye", "$forge:ingots", "vc_gliders:paraglider_iron", "kubejs:ingot_thousand_metals"]
 		level8_entries = ["endrem:wither_eye", "iceandfire:dragonsteel_lightning_ingot", "iceandfire:lightning_dragon_heart", "iceandfire:dragonsteel_lightning_sword", "kubejs:mobdrop_endermanheart_beating"]
-		level9_entries = ["endrem:old_eye", "rats:halo_hat", "endrem:guardian_eye", "kubejs:regret_scroll"]
+		level9_entries = ["endrem:old_eye", "rats:halo_hat", "endrem:guardian_eye", "kubejs:regret_scroll", "ars_additions:golden_lantern"]
 		level10_entries = ["kubejs:artifact_beating_heart", "constructs_casting:eldritch_staff", "blighted_beasts:sculk_pearl", "thegreatbelow:soul_reaver_axe", "thegreatbelow:sculk_pizza", "thegreatbelow:sculk_soup"]
 		level11_entries = []
 		level12_entries = []

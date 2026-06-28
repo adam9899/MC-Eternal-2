@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         'SGS'
     ], {
         S: '#forge:storage_blocks/silver',
-        G: 'thermal:cinnabar',
+        G: 'thermal:obsidian_glass',
         D: 'thermal:diamond_gear'
     }).id('thermal:machine_frame')
 

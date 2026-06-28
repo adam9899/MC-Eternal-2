@@ -6,7 +6,9 @@ StartupEvents.registry("item", event => {
   
   event.create('crimson').glow(true);
   event.create('unsigned_contract').glow(false);
-
+  event.create('dwarven_ring').glow(true).displayName('§eDwarven Ring');
+  event.create('lorkhan_heart').glow(true).displayName('§dHeart of Lorkhan');
+  
   event.create('dwarven_map')
     .fireResistant(true)
     .glow(true);
@@ -105,5 +107,5 @@ StartupEvents.registry("item", event => {
 
 
   event.create("loot_bag")
-    .fireResistant(true)
+    .fireResistant(true).glow(true);
 })
