@@ -233,7 +233,7 @@
     },
     "lucky_rock": {
       "extra_mining_item": {
-        "chance": 0.02,
+        "chance": 0.075,
         "chance_range": {
           "min": 0.0,
           "max": 0.4
@@ -306,7 +306,7 @@
     },
     "miner_rune": {
       "extra_mining_item": {
-        "chance": 0.04,
+        "chance": 0.03,
         "chance_range": {
           "min": 0.0,
           "max": 1.0
