@@ -1,7 +1,6 @@
 {
   "biomes": [
     [
-      
       {
         "type": "REGISTRY_NAME",
         "negate": false,
@@ -11,7 +10,7 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "terralith:volcanic_crater"
-      }
+      },
        {
         "type": "REGISTRY_NAME",
         "negate": false,
