@@ -88,7 +88,7 @@
 		#Additional Melee Attack Damage
 		additionalAttackDamage = 40.0
 		#Additional Spell Power (additive percent)
-		additionalSpellPower = 300.0
+		additionalSpellPower = 3.0
 
 	["Boss Config"."Dead King"]
 		#Additional Health
@@ -96,5 +96,5 @@
 		#Additional Melee Attack Damage
 		additionalAttackDamage = 20.0
 		#Additional Spell Power (additive percent)
-		additionalSpellPower = 60.0
+		additionalSpellPower = 0.6
 
