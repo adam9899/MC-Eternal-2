@@ -125,4 +125,33 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of("kubejs:loot_bag", 1, {loottable:"mce:cave_tablet_random",show_name:true}), [
         "#minecraft:wool", "alexscaves:cave_tablet", "alexscaves:cave_tablet", "alexscaves:cave_tablet", "alexscaves:cave_tablet", "alexscaves:cave_tablet"
     ]).id("mce2:loot_bag_random_cave_tablet")
+
+
+    //Custom steel recipes
+    //Pneumaticcraft
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [
+            {
+            "type": "pneumaticcraft:stacked_item",
+            "count": 3,
+            "item": "minecraft:coal"
+            },
+            {
+            "type": "pneumaticcraft:stacked_item",
+            "count": 1,
+            "item": "pneumaticcraft:ingot_iron_compressed"
+            }
+        ],
+        "pressure": 4.0,
+        "results": [
+            Item.of(global.preferredOreProducts.steel.ingot)
+        ]
+    }).id("mce2:pressure_chamber/steel_with_pnc")
+
+    //Create
+    event.recipes.create.mixing(Item.of(global.preferredOreProducts.steel.dust), [
+        Item.of("create:crushed_raw_iron"),
+        Item.of("minecraft:coal", 3)
+    ]).id("mce2:mixing/steel_with_create")
 })
