@@ -7,6 +7,7 @@ StartupEvents.registry("item", event => {
   event.create('crimson').glow(true);
   event.create('unsigned_contract').glow(false);
   event.create('dwarven_ring').glow(true).displayName('§eDwarven Ring');
+  event.create('soul').glow(true).displayName('§dGreater Soul Stone');
   event.create('lorkhan_heart').glow(true).displayName('§dHeart of Lorkhan');
   event.create('king_ring').glow(true).displayName('§eRing of The Fallen Kingdom');
   
