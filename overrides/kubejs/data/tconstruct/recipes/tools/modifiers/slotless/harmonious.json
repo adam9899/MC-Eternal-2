@@ -4,13 +4,13 @@
   "inputs": [
    
      {
-      "item": "thegreatbelow:murmur_crystal"
+      "tag": "minecraft:music_discs"
     },
       {
       "tag": "minecraft:music_discs"
     },
     {
-      "item": "thegreatbelow:murmur_crystal"
+      "tag": "minecraft:music_discs"
     }
   ],
   "level": 1,
