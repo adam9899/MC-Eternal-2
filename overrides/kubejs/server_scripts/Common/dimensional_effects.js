@@ -37,17 +37,6 @@ addDimensionalEffect(
         player.offHandItem.id != "ars_additions:golden_lantern"
 )
 
-addDimensionalEffect(
-    "mce:dwarven_depths",
-    "minecraft:darkness",
-    0,
-    80,
-    false,
-    player =>
-        player.mainHandItem.id != "ars_additions:golden_lantern" &&
-        player.offHandItem.id != "ars_additions:golden_lantern"
-)
-
 ServerEvents.tick(event => {
     //console.log(dimEffectTickCounter, dimEffectUpdateDelay)
     dimEffectTickCounter++
