@@ -1,0 +1,33 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "blighted_beasts:sculk_pearl"
+    },
+    "block_in": "thegreatbelow:beam_block",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "kubejs:soul",
+            "contextual": {
+                "type": "chance",
+                "chance": 1.0
+            }
+        },
+        
+
+{
+"type": "execute",
+"command": "execute at @p run playsound minecraft:entity.warden.roar master @p ~ ~ ~ 10 0.6",
+"hide": true
+
+},
+{
+    "type": "execute",
+    "command": "effect give @p minecraft:darkness 30",
+    "hide": true
+    
+    }
+
+
+    ]
+}
