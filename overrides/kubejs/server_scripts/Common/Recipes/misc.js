@@ -106,16 +106,16 @@ ServerEvents.recipes(event => {
     event.remove({id: "mob_grinding_utils:gm_chicken_feed"})
 
 
-    //Dreadsteel post-end
+    //Dreadsteel post-great below
     event.remove({id: "dreadsteel:dreadsteel_ingot"})
-    event.shaped(Item.of("dreadsteel:dreadsteel_ingot", 3), [
+    event.shaped(Item.of("dreadsteel:dreadsteel_ingot", 1), [
         "DED",
         "FIL",
         "DED"
     ],
     {
         D: "iceandfire:dread_shard",
-        E: "majruszsdifficulty:enderium_shard",
+        E: "kubejs:soul",
         F: "iceandfire:dragonsteel_fire_ingot",
         I: "iceandfire:dragonsteel_ice_ingot",
         L: "iceandfire:dragonsteel_lightning_ingot"
