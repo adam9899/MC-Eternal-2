@@ -74,7 +74,7 @@
                 },
                 {
                     "entity": "goety:reaper",
-                    "count": 1
+                    "count": 2
                 },
             
               {
@@ -272,7 +272,7 @@
                     "desc": "???",
                     "nbt": {
                         "CustomNameVisible": 1,
-                        "CustomName": "{\"text\":\"Herobrine\",\"color\":\"dark_red\"}",
+                        "CustomName": "{\"text\":\"Vision of The Fallen Kingdom\",\"color\":\"dark_red\"}",
                         "IsImmuneToZombification": true
                     },
                     "modifiers": [
@@ -291,7 +291,7 @@
                         {
                             "attribute": "attributeslib:prot_shred",
                             "operation": "ADDITION",
-                            "value": 0.8
+                            "value": 0.9
                         },
                         {
                             "attribute": "generic.attack_knockback",
