@@ -12,7 +12,7 @@
     {
   "mob": "alexsmobs:underminer",
   "dimension": "mce:dwarven_depths",
-  "when": "onjoin",
+  "when": "finalize",
    "mincount": {
     "amount": 15
   },
@@ -30,7 +30,7 @@
    {
   "mob": "iceandfire:fire_dragon",
   "dimension": "mce:dwarven_depths",
-  "when": "onjoin",
+  "when": "finalize",
    "mincount": {
     "amount": 2
   },
