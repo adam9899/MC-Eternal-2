@@ -5,7 +5,7 @@
   },
   "maxChunkViewDist": {
     "desc:": "The maximum chunk view distance allowed to use. Set to the max a player could benefit from. Default: 10, minimum 3, maximum 200",
-    "maxChunkViewDist": 10
+    "maxChunkViewDist": 32
   },
   "meanAvgTickTime": {
     "desc:": "The average tick time to stabilize the distances around. Setting it higher than 50ms is not advised, as after 50ms the TPS will go below 20. Default: 45ms, min: 10, max:100",
