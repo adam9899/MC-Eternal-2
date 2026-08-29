@@ -106,6 +106,7 @@ ServerEvents.tags("entity_type", event => {
         "irons_spellbooks:apothecarist",
         "gtbcs_geomancy_plus:geomancer",
         "gtbcs_geomancy_plus:geo_grandmaster",
+        "species:wicked"
     ])
 
     event.add("ars_nouveau:drygmy_blacklist", [
