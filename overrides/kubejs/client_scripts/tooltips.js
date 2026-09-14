@@ -73,6 +73,8 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:artifact_endergem', Text.translate("tooltip.mce2.kubejs.artifact_endergem.1").color('#FFFFFF'));
 	event.add('kubejs:artifact_endergem', Text.translate("tooltip.mce2.kubejs.artifact_endergem.2").color('#FFFFFF'));
 	event.add('kubejs:artifact_endergem', Text.translate("tooltip.mce2.kubejs.artifact_endergem.3").color('#FFFFFF'));
+	//Greater Soul Stone
+	event.add('kubejs:soul', Text.translate("tooltip.mce2.kubejs.soul").color('#FFFFFF'));
 	//Minimap Upgrades (NYI at time of writing)
 	event.add('kubejs:magic_map', Text.translate("tooltip.mce2.kubejs.magic_map.1").color('#FFFFFF')); 
 	event.add('kubejs:magic_map', Text.translate("tooltip.mce2.kubejs.magic_map.2").color('#FFFFFF')); 
