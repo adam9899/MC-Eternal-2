@@ -967,32 +967,24 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: [
-				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description1}"
-				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description2}"
-				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description3}"
-				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description4}"
-				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description5}"
-				""
-				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description6}"
-			]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description6}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "minecraft:music_disc_lava_chicken"
+			icon: "species:wicked_candle"
 			id: "160FEAD5EF3B96C3"
 			rewards: [{
-				id: "2D9CA78605E260DB"
-				item: "minecraft:music_disc_lava_chicken"
+				id: "5CE9491EF751B2B6"
+				item: "species:wicked_candle"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.subtitle}"
+			subtitle: "Purchase a Wicked Candle"
 			tasks: [{
-				amount: 100L
+				amount: 250L
 				currency: "eternalcurrencies:coins"
 				id: "1A22D494123B5A2B"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.title}"
+			title: "&eYard Sale:&r Wicked Candle"
 			x: 2.0d
 			y: 12.0d
 		}
