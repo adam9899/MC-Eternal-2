@@ -267,7 +267,7 @@
 			health_multiplier = 6.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 10.0
+			attack_multiplier = 4.0
 
 	[mobs.ferrous_wroughtnaut]
 		#Disable/enable Ferrous Wroughtnaut's boss health bar
