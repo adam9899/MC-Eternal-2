@@ -268,11 +268,11 @@
             "entities": [
                   
                  {
-                    "entity": "take_back_the_night:herobrine",
+                    "entity": "cataclysm:aptrgangr",
                     "desc": "???",
                     "nbt": {
                         "CustomNameVisible": 1,
-                        "CustomName": "{\"text\":\"Vision of The Fallen Kingdom\",\"color\":\"dark_red\"}",
+                        "CustomName": "{\"text\":\"Eternal Warlord\",\"color\":\"dark_red\"}",
                         "IsImmuneToZombification": true
                     },
                     "modifiers": [
