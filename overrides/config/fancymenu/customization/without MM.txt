@@ -456,7 +456,7 @@ element {
 
 element {
   interactable = true
-  source = &dMCE2 &dVersion &d1.2.2.1
+  source = &dMCE2 &dVersion &d1.3
   source_mode = direct
   shadow = true
   scale = 1.0
