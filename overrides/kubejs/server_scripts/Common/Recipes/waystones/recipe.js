@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    if (global.PackMode.get() !== "Default") return
     
     event.remove({ id: 'waystones:warp_stone' })
     event.remove({ id: 'waystones:warp_scroll' })
