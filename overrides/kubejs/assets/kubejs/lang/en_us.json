@@ -60,7 +60,8 @@
     "item.mce2.quest_loot.desc.3": "\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\"",
 
     "tooltip.mce2.occultism.stable_wormhole.fragile": "Unstable! The Wormhole will break when picked up!",
-    "tooltip.mce2.dwarvendepths.golden_lantern": "§6Allows you to brave the darkness in The Dwarven Depths without taking damage.",
+    "tooltip.mce2.dwarvendepths.golden_lantern": "Allows you to brave the darkness in The Dwarven Depths without taking damage.",
+    "tooltip.mce2.glimmering_lantern_lights": "Places Conjured Lights when clicking a block.",
     "tooltip.mce2.ae2.facade.can_be_made_with_more_things": "Can be made using most blocks",
     "tooltip.mce2.generic.can_be_dyed": "Can be Dyed",
     "tooltip.mce2.generic.item_trash_can": "(Item Trash Can)",

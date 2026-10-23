@@ -110,4 +110,9 @@ StartupEvents.registry("item", event => {
 
   event.create("loot_bag")
     .fireResistant(true).glow(true);
+
+
+  event.create("glimmering_lantern")
+    .fireResistant(true)
+    
 })

@@ -154,4 +154,16 @@ ServerEvents.recipes(event => {
         Item.of("create:crushed_raw_iron"),
         Item.of("minecraft:coal", 3)
     ]).id("mce2:mixing/steel_with_create")
+
+
+    //Glimmering Lantern
+    event.shaped(Item.of("kubejs:glimmering_lantern"), [
+        "imi",
+        "msm",
+        "imi"
+    ], {
+        i: "amethyst_tools:enchanted_alloy_nugget",
+        m: "minecraft:gold_nugget",
+        s: "species:wicked_candle"
+    }).id("mce2:glimmering_lantern")
 })

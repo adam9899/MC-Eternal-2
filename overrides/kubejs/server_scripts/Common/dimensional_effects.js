@@ -33,8 +33,8 @@ addDimensionalEffect(
     40,
     false,
     player =>
-        player.mainHandItem.id != "ars_additions:golden_lantern" &&
-        player.offHandItem.id != "ars_additions:golden_lantern"
+        player.mainHandItem.id != "kubejs:glimmering_lantern" &&
+        player.offHandItem.id != "kubejs:glimmering_lantern"
 )
 
 ServerEvents.tick(event => {

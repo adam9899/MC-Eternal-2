@@ -7,3 +7,8 @@ global.playSoundNear = (player, sourceEntity, sound, sourceType, volume, pitch) 
     //player.level['playSound(net.minecraft.world.entity.player.Player,net.minecraft.core.BlockPos,net.minecraft.sounds.SoundEvent,net.minecraft.sounds.SoundSource,float,float)']
     player.level.playSound(sourceEntity, player.x, player.y, player.z, sound, sourceType, volume, pitch)
 }
+
+
+global.playSoundAt = (level, pos, sound, sourceType, volume, pitch) => {
+    level.playSound(null, pos.x, pos.y, pos.z, sound, sourceType, volume, pitch)
+}
