@@ -54,7 +54,7 @@
     },
     "angler_rune": {
       "fishing_luck": {
-        "bonus": 2.0,
+        "bonus": 2.5,
         "bonus_range": {
           "min": 0.0,
           "max": 10.0
@@ -77,7 +77,7 @@
     },
     "angler_trophy": {
       "fishing_luck": {
-        "bonus": 2.5,
+        "bonus": 2.0,
         "bonus_range": {
           "min": 0.0,
           "max": 10.0
@@ -87,7 +87,7 @@
     },
     "certificate_of_taming": {
       "animal_bonus": {
-        "bonus": 0.5,
+        "bonus": 0.3,
         "bonus_range": {
           "min": 0.0,
           "max": 1.0
@@ -233,7 +233,7 @@
     },
     "lucky_rock": {
       "extra_mining_item": {
-        "chance": 0.001,
+        "chance": 0.075,
         "chance_range": {
           "min": 0.0,
           "max": 0.4
@@ -306,7 +306,7 @@
     },
     "miner_rune": {
       "extra_mining_item": {
-        "chance": 0.04,
+        "chance": 0.03,
         "chance_range": {
           "min": 0.0,
           "max": 1.0
@@ -334,7 +334,7 @@
     },
     "nature_rune": {
       "animal_bonus": {
-        "bonus": 0.25,
+        "bonus": 0.4,
         "bonus_range": {
           "min": 0.0,
           "max": 1.0
@@ -505,7 +505,7 @@
         }
       },
       "animal_bonus": {
-        "bonus": 0.3,
+        "bonus": 0.5,
         "bonus_range": {
           "min": 0.0,
           "max": 1.0
