@@ -527,7 +527,7 @@
 								Count: 1b
 								id: "irons_spellbooks:copper_spell_book"
 								tag: {
-									ISB_Spells: {
+									"irons_spellbooks:spell_container": {
 										data: [ ]
 										maxSpells: 5
 										mustEquip: 1b
@@ -539,7 +539,7 @@
 								Count: 1b
 								id: "irons_spellbooks:iron_spell_book"
 								tag: {
-									ISB_Spells: {
+									"irons_spellbooks:spell_container": {
 										data: [ ]
 										maxSpells: 6
 										mustEquip: 1b
@@ -1048,7 +1048,7 @@
 						id: "irons_spellbooks:netherite_mage_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -1138,7 +1138,7 @@
 					Count: 1
 					id: "irons_spellbooks:rotten_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 8
 							mustEquip: 1b
@@ -1193,7 +1193,7 @@
 					Count: 1
 					id: "irons_spellbooks:druidic_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 10
 							mustEquip: 1b
@@ -1229,7 +1229,7 @@
 								Count: 1b
 								id: "constructs_casting:tinkerers_spellbook"
 								tag: {
-									ISB_Spells: {
+									"irons_spellbooks:spell_container": {
 										data: [ ]
 										maxSpells: 6
 										mustEquip: 1b
@@ -1253,7 +1253,7 @@
 								Count: 1b
 								id: "constructs_casting:plated_spellbook"
 								tag: {
-									ISB_Spells: {
+									"irons_spellbooks:spell_container": {
 										data: [ ]
 										maxSpells: 12
 										mustEquip: 1b
@@ -1298,7 +1298,7 @@
 					Count: 1
 					id: "irons_spellbooks:gold_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 8
 							mustEquip: 1b
@@ -1328,7 +1328,7 @@
 					Count: 1
 					id: "irons_spellbooks:diamond_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 10
 							mustEquip: 1b
@@ -1474,7 +1474,7 @@
 					Count: 1
 					id: "irons_spellbooks:dragonskin_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 12
 							mustEquip: 1b
@@ -1521,7 +1521,7 @@
 					Count: 1
 					id: "irons_spellbooks:netherite_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 12
 							mustEquip: 1b
@@ -1587,7 +1587,7 @@
 					Count: 1
 					id: "cataclysm_spellbooks:abyss_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 12
 							mustEquip: 1b
@@ -1644,7 +1644,7 @@
 				Count: 1
 				id: "irons_spellbooks:evoker_spell_book"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [
 							{
 								id: "irons_spellbooks:fang_strike"
@@ -1702,7 +1702,7 @@
 					Count: 1
 					id: "irons_spellbooks:evoker_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "irons_spellbooks:fang_strike"
@@ -1841,7 +1841,7 @@
 					Count: 1
 					id: "irons_spellbooks:villager_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 10
 							mustEquip: 1b
@@ -1918,7 +1918,7 @@
 					Count: 1
 					id: "irons_spellbooks:blaze_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 10
 							mustEquip: 1b
@@ -1984,7 +1984,7 @@
 					Count: 1
 					id: "cataclysm_spellbooks:ignis_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 12
 							mustEquip: 1b
@@ -2065,7 +2065,7 @@
 					Count: 1
 					id: "cataclysm_spellbooks:disc_driver"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 12
 							mustEquip: 1b
@@ -2137,7 +2137,7 @@
 					Count: 1
 					id: "cataclysm_spellbooks:codex_of_malice_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 12
 							mustEquip: 1b
@@ -2203,7 +2203,7 @@
 					Count: 1
 					id: "cataclysm_spellbooks:desert_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "cataclysm_spellbooks:monolith_crash"
@@ -2285,7 +2285,7 @@
 						id: "irons_spellbooks:pyromancer_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2369,7 +2369,7 @@
 						id: "irons_spellbooks:electromancer_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2453,7 +2453,7 @@
 						id: "irons_spellbooks:cryomancer_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2537,7 +2537,7 @@
 						id: "irons_spellbooks:priest_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2621,7 +2621,7 @@
 						id: "irons_spellbooks:archevoker_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2688,7 +2688,7 @@
 						id: "irons_spellbooks:cultist_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2772,7 +2772,7 @@
 						id: "irons_spellbooks:shadowwalker_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2840,7 +2840,7 @@
 						id: "irons_spellbooks:plagued_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2896,7 +2896,7 @@
 						id: "cataclysm_spellbooks:engineer_hood"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2913,7 +2913,7 @@
 						id: "cataclysm_spellbooks:engineer_suit"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -2989,7 +2989,7 @@
 						id: "cataclysm_spellbooks:abyssal_warlock_helmet"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -3006,7 +3006,7 @@
 						id: "cataclysm_spellbooks:abyssal_warlock_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -3079,7 +3079,7 @@
 					id: "irons_spellbooks:tarnished_helmet"
 					tag: {
 						Damage: 0
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 1
 							mustEquip: 1b
@@ -3312,7 +3312,7 @@
 								id: "irons_spellbooks:spellbreaker"
 								tag: {
 									Damage: 0
-									ISB_Spells: {
+									"irons_spellbooks:spell_container": {
 										data: [{
 											id: "irons_spellbooks:counterspell"
 											index: 0
@@ -3330,7 +3330,7 @@
 								id: "irons_spellbooks:amethyst_rapier"
 								tag: {
 									Damage: 0
-									ISB_Spells: {
+									"irons_spellbooks:spell_container": {
 										data: [{
 											id: "irons_spellbooks:echoing_strikes"
 											index: 0
@@ -3686,7 +3686,7 @@
 								Count: 1b
 								id: "cataclysm_spellbooks:the_berserker"
 								tag: {
-									ISB_Spells: {
+									"irons_spellbooks:spell_container": {
 										data: [{
 											id: "cataclysm_spellbooks:cryopiercer"
 											index: 0
@@ -3709,7 +3709,7 @@
 								Count: 1b
 								id: "cataclysm_spellbooks:the_nightstalker"
 								tag: {
-									ISB_Spells: {
+									"irons_spellbooks:spell_container": {
 										data: [{
 											id: "cataclysm_spellbooks:hemorrhaging_impact"
 											index: 0
@@ -3732,7 +3732,7 @@
 								Count: 1b
 								id: "cataclysm_spellbooks:the_combuster"
 								tag: {
-									ISB_Spells: {
+									"irons_spellbooks:spell_container": {
 										data: [{
 											id: "cataclysm_spellbooks:scorched_earth"
 											index: 0
@@ -3821,7 +3821,7 @@
 					Count: 1
 					id: "irons_spellbooks:scroll"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "irons_spellbooks:sculk_tentacles"
 								index: 0
@@ -3859,7 +3859,7 @@
 					Count: 1
 					id: "irons_spellbooks:scroll"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "irons_spellbooks:sonic_boom"
 								index: 0
@@ -3896,7 +3896,7 @@
 					Count: 1
 					id: "irons_spellbooks:scroll"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "irons_spellbooks:planar_sight"
 								index: 0
@@ -3933,7 +3933,7 @@
 					Count: 1
 					id: "irons_spellbooks:scroll"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "irons_spellbooks:telekinesis"
 								index: 0
@@ -3970,7 +3970,7 @@
 					Count: 1
 					id: "irons_spellbooks:scroll"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "irons_spellbooks:eldritch_blast"
 								index: 0
@@ -4067,7 +4067,7 @@
 						id: "cataclysm_spellbooks:bloom_stone_hat"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4084,7 +4084,7 @@
 						id: "cataclysm_spellbooks:bloom_stone_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4160,7 +4160,7 @@
 						id: "cataclysm_spellbooks:ignis_helmet"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4177,7 +4177,7 @@
 						id: "cataclysm_spellbooks:ignis_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4253,7 +4253,7 @@
 						id: "cataclysm_spellbooks:cursium_mage_circlet"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4270,7 +4270,7 @@
 						id: "cataclysm_spellbooks:cursium_mage_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4333,7 +4333,7 @@
 						id: "cataclysm_spellbooks:pharaoh_helmet"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4350,7 +4350,7 @@
 						id: "cataclysm_spellbooks:pharaoh_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4450,7 +4450,7 @@
 						id: "cataclysm_spellbooks:excelsius_resist_visors"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4473,7 +4473,7 @@
 						id: "cataclysm_spellbooks:excelsius_resist_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4514,7 +4514,7 @@
 						id: "cataclysm_spellbooks:excelsius_power_visors"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4537,7 +4537,7 @@
 						id: "cataclysm_spellbooks:excelsius_power_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4578,7 +4578,7 @@
 						id: "cataclysm_spellbooks:excelsius_speed_visors"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4601,7 +4601,7 @@
 						id: "cataclysm_spellbooks:excelsius_speed_chestplate"
 						tag: {
 							Damage: 0
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [ ]
 								maxSpells: 1
 								mustEquip: 1b
@@ -4818,7 +4818,7 @@
 				id: "irons_spellbooks:necronomicon_spell_book"
 				tag: {
 					ISBEnhance: "irons_spellbooks:raise_dead"
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [
 							{
 								id: "irons_spellbooks:blood_slash"
@@ -4884,7 +4884,7 @@
 						id: "irons_spellbooks:necronomicon_spell_book"
 						tag: {
 							ISBEnhance: "irons_spellbooks:raise_dead"
-							ISB_Spells: {
+							"irons_spellbooks:spell_container": {
 								data: [
 									{
 										id: "irons_spellbooks:blood_slash"
