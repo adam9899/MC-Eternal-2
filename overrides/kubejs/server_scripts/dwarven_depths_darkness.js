@@ -22,7 +22,7 @@ PlayerEvents.tick(event => {
 
     if (!hasLantern) {
         if (!player.persistentData.darkwarned) {
-            player.tell("§7It is incomprehensibly dark.. You can just about see strange shadowy figures in the distance.. §oPerhaps I should equip a §6Golden Lantern")
+            player.tell("§7It is incomprehensibly dark.. You can just about see strange shadowy figures in the distance.. §oPerhaps I should equip a §6Glimmering Lantern")
             player.persistentData.darkwarned = true
         }
     } else {
