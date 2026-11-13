@@ -1,0 +1,262 @@
+{
+    "item.tinkersjewelry.eudialyte": "Eudialita",
+    "item.tinkersjewelry.fire_opal": "Opala de Fogo",
+    "item.tinkersjewelry.malachite": "Malaquita",
+    "item.tinkersjewelry.calcite": "Calcita",
+    "item.tinkersjewelry.milky_quartz": "Pedra-Leite Mágica",
+    "item.tinkersjewelry.merlinite": "Merlinita",
+    "item.tinkersjewelry.prehnite": "Prehnita",
+    "item.tinkersjewelry.rubellite": "Rubelita",
+
+    "item.tinkersjewelry.ring.description": "Anéis são berloques simples que concedem efeitos baseados na gema usada.",
+    "item.tinkersjewelry.ring": "Anel",
+
+    "item.tinkersjewelry.gem.description": "As gemas guardam as características",
+    "item.tinkersjewelry.gem": "Gema Lapidada",
+
+    "item.tinkersjewelry.plain_ring.description": "Anéis são berloques simples que concedem efeitos baseados na gema usada.",
+    "item.tinkersjewelry.plain_ring": "Anel Simples",
+
+    "item.tinkersjewelry.plain_ring_cast": "Molde para Anel Simples",
+    "item.tinkersjewelry.plain_ring_sand_cast": "Molde de Areia para Anel Simples",
+    "item.tinkersjewelry.plain_ring_red_sand_cast": "Molde de Areia Vermelha para Anel Simples",
+
+    "item.tinkersjewelry.book": "Artifício para Leigos",
+    "item.tinkersjewelry.book.tooltip": "Um guia para ficar fabuloso\npor Ferri",
+
+    "pattern.tinkersjewelry.gem" : "Gema",
+    "pattern.tinkersjewelry.plain_ring" : "Anel Simples",
+
+    "itemGroup.tinkersjewelry.all": "Tinker's Jewelry",
+
+    "stat.tinkersjewelry.gem": "Gema",
+    "stat.tinkersjewelry.plain_ring": "Anel Simples",
+
+    "key.categories.tinkersjewelry": "Tinkers' Jewelry",
+    "key.tinkersjewelry.subspace": "Subespaço",
+
+    "gui.tinkersjewelry.subspace": "Subespaço",
+
+    "modifier.tinkersjewelry.rage_gem.description": "Dá um bônus de velocidade de ataque",
+    "modifier.tinkersjewelry.rage_gem.flavor": "Dá um bônus de velocidade de ataque",
+    "modifier.tinkersjewelry.rage_gem": "Fúria",
+
+    "modifier.tinkersjewelry.lifesteal_gem.description": "Cura com base no dano causado",
+    "modifier.tinkersjewelry.lifesteal_gem.flavor": "Cura com base no dano causado",
+    "modifier.tinkersjewelry.lifesteal_gem": "Roubo de Vida",
+
+    "modifier.tinkersjewelry.fly_gem.description": "Permite voar como no criativo por alguns segundos",
+    "modifier.tinkersjewelry.fly_gem.flavor": "Permite voar como no criativo por alguns segundos",
+    "modifier.tinkersjewelry.fly_gem": "Voo",
+    "description.tinkersjewelry.flight": "%s segundos de voo",
+
+    "modifier.tinkersjewelry.armor_gem.description": "Adiciona armadura extra",
+    "modifier.tinkersjewelry.armor_gem.flavor": "Adiciona armadura extra",
+    "modifier.tinkersjewelry.armor_gem": "Armadura",
+
+    "modifier.tinkersjewelry.piercing_gem.description": "Ignora parte da armadura do alvo",
+    "modifier.tinkersjewelry.piercing_gem.flavor": "Ignora parte da armadura do alvo",
+    "modifier.tinkersjewelry.piercing_gem": "Perfuração",
+
+    "modifier.tinkersjewelry.speed_gem.description": "Aumenta a velocidade de movimento",
+    "modifier.tinkersjewelry.speed_gem.flavor": "Aumenta a velocidade de movimento",
+    "modifier.tinkersjewelry.speed_gem": "Velocidade",
+
+    "modifier.tinkersjewelry.fireresistance_gem.description": "Concede Resistência ao Fogo",
+    "modifier.tinkersjewelry.fireresistance_gem.flavor": "Concede Resistência ao Fogo",
+    "modifier.tinkersjewelry.fireresistance_gem": "Resistência ao Fogo",
+
+    "modifier.tinkersjewelry.silk_gem.description": "Concede Toque Suave",
+    "modifier.tinkersjewelry.silk_gem.flavor": "Concede Toque Suave",
+    "modifier.tinkersjewelry.silk_gem": "Toque Suave",
+
+    "modifier.tinkersjewelry.fortune_gem.description": "Concede fortuna",
+    "modifier.tinkersjewelry.fortune_gem.flavor": "Concede fortuna",
+    "modifier.tinkersjewelry.fortune_gem": "Fortuna",
+
+    "modifier.tinkersjewelry.waterbreathing_gem.description": "Concede Respiração Aquática",
+    "modifier.tinkersjewelry.waterbreathing_gem.flabour": "Concede Respiração Aquática",
+    "modifier.tinkersjewelry.waterbreathing_gem": "Respiração Aquática",
+
+    "modifier.tinkersjewelry.nightvision_gem.description": "Concede Visão Noturna",
+    "modifier.tinkersjewelry.nightvision_gem.flavor": "Concede Visão Noturna",
+    "modifier.tinkersjewelry.nightvision_gem": "Visão Noturna",
+
+    "modifier.tinkersjewelry.poison_gem.description": "Aplica Veneno ao alvo",
+    "modifier.tinkersjewelry.poison_gem.flavor": "Aplica Veneno ao alvo",
+    "modifier.tinkersjewelry.poison_gem": "Veneno",
+
+    "modifier.tinkersjewelry.flame_gem.description": "Incendeia o alvo",
+    "modifier.tinkersjewelry.flame_gem.flavor": "Incendeia o alvo",
+    "modifier.tinkersjewelry.flame_gem": "Chama",
+
+    "modifier.tinkersjewelry.cleanse_gem.description": "Remove efeitos negativos",
+    "modifier.tinkersjewelry.cleanse_gem.flavor": "Remove efeitos negativos",
+    "modifier.tinkersjewelry.cleanse_gem": "Limpeza",
+
+    "modifier.tinkersjewelry.health_gem.description": "Dá Vida bônus",
+    "modifier.tinkersjewelry.health_gem.flavor": "Dá Vida bônus",
+    "modifier.tinkersjewelry.health_gem": "Vida",
+
+    "modifier.tinkersjewelry.reach_gem.description": "Dá alcance bônus de entidade",
+    "modifier.tinkersjewelry.reach_gem.flavor": "Dá alcance bônus de entidade",
+    "modifier.tinkersjewelry.reach_gem": "Alcance",
+
+    "modifier.tinkersjewelry.trade_gem.description": "Dá preços menores ao negociar com aldeões",
+    "modifier.tinkersjewelry.trade_gem.flavor": "Dá preços menores ao negociar com aldeões",
+    "modifier.tinkersjewelry.trade_gem": "Comércio",
+
+    "modifier.tinkersjewelry.exp_gem.description": "Aumenta a experiência obtida",
+    "modifier.tinkersjewelry.exp_gem.flavor": "Aumenta a experiência obtida",
+    "modifier.tinkersjewelry.exp_gem": "Experiência",
+
+    "modifier.tinkersjewelry.resistance_gem.description": "Concede o efeito de Resistência",
+    "modifier.tinkersjewelry.resistance_gem.flavor": "Concede o efeito de Resistência",
+    "modifier.tinkersjewelry.resistance_gem": "Resistência",
+
+    "modifier.tinkersjewelry.luck_gem.description": "Aumenta a sorte de quem usa",
+    "modifier.tinkersjewelry.luck_gem.flavor": "Aumenta a sorte de quem usa",
+    "modifier.tinkersjewelry.luck_gem": "Sorte",
+
+    "modifier.tinkersjewelry.swim_gem.description": "Aumenta a velocidade de nado de quem usa",
+    "modifier.tinkersjewelry.swim_gem.flavor": "Aumenta a velocidade de nado de quem usa",
+    "modifier.tinkersjewelry.swim_gem": "Velocidade de Nado",
+
+    "modifier.tinkersjewelry.gravity_gem.description": "Reduz a Gravidade",
+    "modifier.tinkersjewelry.gravity_gem.flavor": "Reduz a Gravidade",
+    "modifier.tinkersjewelry.gravity_gem": "Gravidade",
+
+    "modifier.tinkersjewelry.current_health_damage_gem.description": "Aplica dano adicional de vida atual",
+    "modifier.tinkersjewelry.current_health_damage_gem.flavor": "Aplica dano adicional de vida atual",
+    "modifier.tinkersjewelry.current_health_damage_gem": "Dano de Vida Atual",
+
+    "modifier.tinkersjewelry.conduit_gem.description": "Concede o efeito de Poder do Canalizador",
+    "modifier.tinkersjewelry.conduit_gem.flavor": "Concede o efeito de Poder do Canalizador",
+    "modifier.tinkersjewelry.conduit_gem": "Poder do Canalizador",
+
+    "modifier.tinkersjewelry.draw_speed_gem.description": "Aumenta a velocidade de puxo de quem usa",
+    "modifier.tinkersjewelry.draw_speed_gem.flavor": "Aumenta a velocidade de puxo de quem usa",
+    "modifier.tinkersjewelry.draw_speed_gem": "Velocidade de Puxo",
+
+    "modifier.tinkersjewelry.mining_speed_gem.description": "Aumenta a velocidade de mineração de quem usa",
+    "modifier.tinkersjewelry.mining_speed_gem.flavor": "Aumenta a velocidade de mineração de quem usa",
+    "modifier.tinkersjewelry.mining_speed_gem": "Velocidade de Mineração",
+
+    "modifier.tinkersjewelry.enderference_gem.description": "Impede o alvo de se teletransportar por pouco tempo",
+    "modifier.tinkersjewelry.enderference_gem.flavor": "Bem distrativo mesmo",
+    "modifier.tinkersjewelry.enderference_gem": "Enderferência",
+
+    "modifier.tinkersjewelry.enderclearance_gem.description": "Tem chance de teletransportar atacantes para longe",
+    "modifier.tinkersjewelry.enderclearance_gem.flavor": "Desconto no ender",
+    "modifier.tinkersjewelry.enderclearance_gem": "Enderespurgo",
+
+    "modifier.tinkersjewelry.antiheal_gem.description": "Diminui a eficácia de cura no inimigo",
+    "modifier.tinkersjewelry.antiheal_gem.flavor": "Diminui a eficácia de cura no inimigo",
+    "modifier.tinkersjewelry.antiheal_gem": "Anti-Cura",
+
+    "modifier.tinkersjewelry.glowing_gem.description": "Marca um inimigo com o efeito de brilho",
+    "modifier.tinkersjewelry.glowing_gem.flavor": "Isso deixa marca",
+    "modifier.tinkersjewelry.glowing_gem": "Marcado",
+
+    "modifier.tinkersjewelry.darkness_gem.description": "Aplica o efeito de escuridão no inimigo",
+    "modifier.tinkersjewelry.darkness_gem.flavor": "Aplica o efeito de escuridão no inimigo",
+    "modifier.tinkersjewelry.darkness_gem": "Escuridão",
+
+    "modifier.tinkersjewelry.knockback_gem.description": "Concede repulsão no ataque",
+    "modifier.tinkersjewelry.knockback_gem.flavor": "Concede repulsão no ataque",
+    "modifier.tinkersjewelry.knockback_gem": "Repulsão",
+
+    "modifier.tinkersjewelry.wither_gem.description": "Aplica Decomposição ao alvo",
+    "modifier.tinkersjewelry.wither_gem.flavor": "Aplica Decomposição ao alvo",
+    "modifier.tinkersjewelry.wither_gem": "Decomposição",
+
+    "modifier.tinkersjewelry.precious.description": "Dá um espaço de habilidade",
+    "modifier.tinkersjewelry.precious.flavor": "Parece caro",
+    "modifier.tinkersjewelry.precious": "Precioso",
+
+    "modifier.tinkersjewelry.polish.description": "Dá um espaço de aprimoramento",
+    "modifier.tinkersjewelry.polish.flavor": "Brilhante",
+    "modifier.tinkersjewelry.polish": "Polido",
+
+    "modifier.tinkersjewelry.undying.requirements": "Requer Vínculo da Alma",
+    "modifier.tinkersjewelry.undying.description": "Ao sofrer dano letal, sobreviva com 1 ponto de vida",
+    "modifier.tinkersjewelry.undying.flavor": "Hoje não!",
+    "modifier.tinkersjewelry.undying": "Imortal",
+
+    "modifier.tinkersjewelry.subspace.description": "Adiciona 9 espaços ao seu inventário de subespaço",
+    "modifier.tinkersjewelry.subspace.flavor": "Para onde isso vai?",
+    "modifier.tinkersjewelry.subspace": "Subespaço",
+
+    "modifier.tinkersjewelry.magnetic.description": "Você atrai itens próximos?!",
+    "modifier.tinkersjewelry.magnetic.flavor": "Personalidade Magnética!",
+    "modifier.tinkersjewelry.magnetic": "Magnético",
+
+    "modifier.tinkersjewelry.maintained.description": "A joia tem uma amplificação maior",
+    "modifier.tinkersjewelry.maintained.flavor": "Fica brilhante por mais tempo!",
+    "modifier.tinkersjewelry.maintained": "Mantido",
+
+    "modifier.tinkersjewelry.ductile.description": "A ferramenta dura mais e amplifica mais",
+    "modifier.tinkersjewelry.ductile.flavor": "Remolda bem!",
+    "modifier.tinkersjewelry.ductile": "Dúctil",
+
+    "modifier.tinkersjewelry.invariant.amplification": "Amplificação Neutra",
+    "modifier.tinkersjewelry.invariant.description": "A joia amplifica em temperaturas neutras",
+    "modifier.tinkersjewelry.invariant.flavor": "Tanto faz",
+    "modifier.tinkersjewelry.invariant": "Invariante",
+
+    "modifier.tinkersjewelry.temperate.amplification": "Amplificação Temperada",
+    "modifier.tinkersjewelry.temperate.description": "A joia amplifica em temperaturas extremas",
+    "modifier.tinkersjewelry.temperate.flavor": "Extremo!",
+    "modifier.tinkersjewelry.temperate": "Temperado",
+
+    "tool_stat.tinkersjewelry.amplification": "Amplificação: ",
+    "tool_stat.tinkersjewelry.amplification.description": "Aumenta/diminui a força dos efeitos",
+
+    "tinkersjewelry:fortune": "Fortuna",
+    "tinkersjewelry:fortune.desc": "Concede um nível adicional de Fortuna a qualquer ferramenta",
+
+    "tinkersjewelry:silk": "Toque Suave",
+    "tinkersjewelry:silk.desc": "Concede um nível adicional de Toque Suave a qualquer ferramenta",
+
+    "tinkersjewelry:trade": "Reputação",
+    "tinkersjewelry:trade.desc": "Aumenta sua reputação com os aldeões",
+
+    "tinkersjewelry:subspace": "Subespaço",
+    "tinkersjewelry:subspace.desc": "Concede um inventário de subespaço",
+
+    "material.tinkersjewelry.redstone": "Redstone",
+    "material.tinkersjewelry.lapis": "Lápis-Lazúli",
+    "material.tinkersjewelry.netherstar": "Estrela do Nether",
+    "material.tinkersjewelry.scute": "Carapaça",
+    "material.tinkersjewelry.diamond": "Diamante",
+    "material.tinkersjewelry.quartz": "Quartzo",
+    "material.tinkersjewelry.amethyst": "Ametista",
+    "material.tinkersjewelry.emerald": "Esmeralda",
+    "material.tinkersjewelry.prismarine": "Prismarinho",
+    "material.tinkersjewelry.heart_of_the_sea": "Coração do Mar",
+    "material.tinkersjewelry.ender_eye": "Olho de Ender",
+    "material.tinkersjewelry.echo_shard": "Fragmento de Eco",
+    "material.tinkersjewelry.glowstone": "Pedra-Luminosa",
+    "material.tinkersjewelry.prismarine_crystal": "Cristal de Prismarinho",
+    "material.tinkersjewelry.purpur": "Purpur",
+
+    "material.tinkersjewelry.earth_crystal": "Slime da Terra",
+    "material.tinkersjewelry.sky_crystal": "Slime do Céu",
+    "material.tinkersjewelry.ichor_crystal": "Icor",
+    "material.tinkersjewelry.ender_crystal": "Slime do End",
+
+    "material.tinkersjewelry.eudialyte": "Eudialita",
+    "material.tinkersjewelry.fire_opal": "Opala de Fogo",
+    "material.tinkersjewelry.malachite": "Malaquita",
+    "material.tinkersjewelry.calcite": "Calcita",
+    "material.tinkersjewelry.milky_quartz": "Pedra-Leite Mágica",
+    "material.tinkersjewelry.merlinite": "Merlinita",
+    "material.tinkersjewelry.prehnite": "Prehnita",
+    "material.tinkersjewelry.rubellite": "Rubelita",
+
+    "material.tinkersjewelry.ruby": "Rubi",
+    "material.tinkersjewelry.peridot": "Peridoto",
+    "material.tinkersjewelry.sapphire": "Safira",
+    "material.tinkersjewelry.cinnabar": "Cinábrio",
+    "material.tinkersjewelry.fluorite": "Fluorita"
+}
