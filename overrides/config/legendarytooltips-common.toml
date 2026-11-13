@@ -108,7 +108,7 @@
 		level6_entries = ["endrem:corrupted_eye", "endrem:black_eye", "iceandfire:manuscript", "$iceandfire:mob_skulls", "$forge:heads", "vampirism:injection_sanguinare", "iceandfire:dread_queen_sword", "@dreadsteel", "kubejs:lorkhan_heart"]
 		level7_entries = ["endrem:lost_eye", "endrem:magical_eye", "$forge:ingots", "vc_gliders:paraglider_iron", "kubejs:ingot_thousand_metals"]
 		level8_entries = ["endrem:wither_eye", "iceandfire:dragonsteel_lightning_ingot", "iceandfire:lightning_dragon_heart", "iceandfire:dragonsteel_lightning_sword", "kubejs:mobdrop_endermanheart_beating"]
-		level9_entries = ["endrem:old_eye", "rats:halo_hat", "endrem:guardian_eye", "kubejs:regret_scroll", "ars_additions:golden_lantern"]
+		level9_entries = ["endrem:old_eye", "rats:halo_hat", "endrem:guardian_eye", "kubejs:regret_scroll", "ars_additions:golden_lantern", "kubejs:glimmering_lantern"]
 		level10_entries = ["kubejs:artifact_beating_heart", "constructs_casting:eldritch_staff", "blighted_beasts:sculk_pearl", "thegreatbelow:soul_reaver_axe", "thegreatbelow:sculk_pizza", "thegreatbelow:sculk_soup"]
 		level11_entries = []
 		level12_entries = []
