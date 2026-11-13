@@ -256,10 +256,10 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 4.0
+	IgnisHealthMultiplier = 5.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 4.6
+	IgnisDamageMultiplier = 5.0
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 10.0
