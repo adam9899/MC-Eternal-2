@@ -1360,7 +1360,7 @@
 				""
 				"Thankfully for us, we are &oalways&r prepared!"
 				""
-				"I've heard that a &eGolden Lantern&r held in your main-hand or off-hand will ward off the darkness and allow us to avoid death by darkness. Death by all of the other evil creatures here however is still quite likely..."
+				"I've heard that a &eGlimmering Lantern&r held in your main-hand or off-hand will ward off the darkness and allow us to avoid death by darkness. Death by all of the other evil creatures here however is still quite likely..."
 			]
 			hide_until_deps_complete: true
 			id: "02B45BDF4BA650B6"
@@ -1379,10 +1379,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eGolden Lantern"
+			subtitle: "Craft a &eGlimmering Lantern"
 			tasks: [{
-				id: "467ED66E4CCB7624"
-				item: "ars_additions:golden_lantern"
+				id: "0113E1E56F1976CA"
+				item: "kubejs:glimmering_lantern"
 				type: "item"
 			}]
 			title: "&6The Darkness Within"
@@ -1700,7 +1700,7 @@
 				entity: "thermal:basalz"
 				icon: "thermal:basalz_powder"
 				id: "6B1A73AB721CB66B"
-				title: "Kill 15x Dwarven Cave Rat"
+				title: "Kill 15x Earthern Elementals"
 				type: "kill"
 				value: 15L
 			}]
