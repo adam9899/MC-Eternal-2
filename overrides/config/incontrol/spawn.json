@@ -1031,7 +1031,7 @@
     "customname": "§4Ancient Bat",
     "result": "true",
     "when": "onjoin",
-    "healthmultiply": 5.0,
+    "healthmultiply": 2.0,
     "damagemultiply": 3.5,
     "speedmultiply": 1.2,
         "potion": [
