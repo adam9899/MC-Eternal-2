@@ -138,6 +138,10 @@
                     "entity": "goety:piker",
                     "count": 3
                 },
+                 {
+                    "entity": "irons_artifice:illificer",
+                    "count": 1
+                },
              
                  {
                     "entity": "goety:sorcerer",
@@ -158,7 +162,7 @@
                           {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 1.0
+                    "value": 1.3
                 },
                         {
                             "attribute": "attributeslib:prot_shred",
