@@ -710,6 +710,24 @@
 			x: 1.0d
 			y: 3.0d
 		}
+		{
+			id: "454A33BF60CCC34C"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "3E47F60E699C6B29"
+				item: "kubejs:glimmering_lantern"
+				type: "item"
+			}]
+			secret: true
+			tasks: [{
+				id: "686E3257047E7534"
+				item: "ars_additions:golden_lantern"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
 	]
 	title: "{ftbquests.chapter.dev.title}"
 }
