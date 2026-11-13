@@ -113,6 +113,6 @@ StartupEvents.registry("item", event => {
 
 
   event.create("glimmering_lantern")
-    .fireResistant(true)
+    .fireResistant(true).glow(true);
     
 })
