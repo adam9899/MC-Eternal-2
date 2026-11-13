@@ -162,8 +162,8 @@ ServerEvents.recipes(event => {
         "msm",
         "imi"
     ], {
-        i: "amethyst_tools:enchanted_alloy_nugget",
-        m: "minecraft:gold_nugget",
+        m: "amethyst_tools:enchanted_alloy_nugget",
+        i: "bosses_of_mass_destruction:void_lily",
         s: "species:wicked_candle"
     }).id("mce2:glimmering_lantern")
 })
