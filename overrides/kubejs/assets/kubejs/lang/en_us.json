@@ -12,7 +12,8 @@
     "item.kubejs.artifact_endergem": "§bSoul Stone",
     "item.kubejs.travel_ticket": "§dTravel Ticket - Sakura Dimension",
     "item.kubejs.scorched_letter": "§cBodyguard Contract - Cindaria Servant",
-    "item.kubejs.scorched_letter1": "§cBodyguard Contract - Ancient Factory",
+    "item.kubejs.scorched_letter1": "§cBodyguard Contract - Ancient Factory",event.add('kubejs:blue_band', Text.translate("tooltip.mce2.kubejs.blue_band").color('#FFFFFF'));
+	event.add('kubejs:blue_band', Text.translate("tooltip.mce2.kubejs.blue_band.1").color('#FFFFFF'));
     "item.kubejs.mossy_letter": "§2Bodyguard Contract - Coralssus",
     "item.kubejs.mossy_letter1": "§2Bodyguard Contract - Bear",
     "item.kubejs.elegant_letter": "§eBodyguard Contract - Kobolediator",
@@ -205,6 +206,8 @@
     "tooltip.mce2.kubejs.king_ring.1": "§7§oI used to rule the world, chunks would load when I gave the word, now every night I go stow away, hide from the mobs I used to slay..",
     "tooltip.mce2.kubejs.lorkhan_heart": "§7Upon falling below half health gain 30s of §eHeartstop§r §7- §710 Minute Cooldown",
     "tooltip.mce2.kubejs.lorkhan_heart.1": "§7§oA powerful relic once worshipped by the dwarves, perhaps it played a role in their disappearance...",
+    "tooltip.mce2.kubejs.blue_band": "§7Gain §eMagic Resistance§r and §eNightvision§r at night time",
+    "tooltip.mce2.kubejs.blue_band.1": "§7§oA powerful ancient relic that protects its user from magic at certain times of the day, once belonged to BlueDazing",
 
     "loot_table.mce:cave_tablet_random.name": "Random Cave Tablet",
 
