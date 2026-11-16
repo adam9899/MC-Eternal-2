@@ -728,6 +728,45 @@
 			x: 1.0d
 			y: 2.0d
 		}
+		{
+			hide_until_deps_complete: true
+			id: "5C6EC510D9274075"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "7F2D01F4A70DBC5A"
+					item: "kubejs:king_ring"
+					type: "item"
+				}
+				{
+					id: "3708DD1B449DC6B4"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonbone_sword_fire"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 8s
+							}]
+							display: {
+								Name: "{\"text\":\"Blade of The Fallen Hero\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			secret: true
+			tasks: [{
+				entity: "take_back_the_night:herobrine"
+				id: "7AD3C5EC5838BFB0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
 	]
 	title: "{ftbquests.chapter.dev.title}"
 }
