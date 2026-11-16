@@ -16,7 +16,7 @@ StartupEvents.registry('item', event => {
                  .addAttribute(
                     'irons_artifice:piercing',
                     'bullet_piercing',
-                    50,
+                    0.5,
                     'multiply_base'
                 )
         )
