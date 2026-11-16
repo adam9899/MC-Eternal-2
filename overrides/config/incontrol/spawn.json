@@ -63,6 +63,17 @@
     "royalvariations:knightly_fortitude,999999,1"
   ]
   },
+  {
+    "mob": "take_back_the_night:herobrine",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 5.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "royalvariations:knightly_fortitude,999999,1"
+  ]
+  },
     {
   "mob": "mowziesmobs:grottol",
   "when": "onjoin",
