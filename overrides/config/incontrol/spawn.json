@@ -19,6 +19,14 @@
   "result": "deny"
 },
    {
+  "mob": "minecraft:sulfur_cube",
+  "when": "finalize",
+   "mincount": {
+    "amount": 15
+  },
+  "result": "deny"
+},
+   {
   "mob": "iceandfire:fire_dragon",
   "dimension": "mce:dwarven_depths",
   "customname": "§eDwarven Fire Dragon",
