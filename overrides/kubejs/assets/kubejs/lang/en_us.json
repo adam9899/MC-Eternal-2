@@ -12,8 +12,7 @@
     "item.kubejs.artifact_endergem": "§bSoul Stone",
     "item.kubejs.travel_ticket": "§dTravel Ticket - Sakura Dimension",
     "item.kubejs.scorched_letter": "§cBodyguard Contract - Cindaria Servant",
-    "item.kubejs.scorched_letter1": "§cBodyguard Contract - Ancient Factory",event.add('kubejs:blue_band', Text.translate("tooltip.mce2.kubejs.blue_band").color('#FFFFFF'));
-	event.add('kubejs:blue_band', Text.translate("tooltip.mce2.kubejs.blue_band.1").color('#FFFFFF'));
+    "item.kubejs.scorched_letter1": "§cBodyguard Contract - Ancient Factory",
     "item.kubejs.mossy_letter": "§2Bodyguard Contract - Coralssus",
     "item.kubejs.mossy_letter1": "§2Bodyguard Contract - Bear",
     "item.kubejs.elegant_letter": "§eBodyguard Contract - Kobolediator",
