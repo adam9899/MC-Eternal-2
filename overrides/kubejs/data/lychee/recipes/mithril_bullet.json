@@ -1,0 +1,18 @@
+{
+  "type": "lychee:item_exploding",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "kubejs:mithril_bullet",
+      "count": 1
+    }
+  ],
+  "item_in": [
+    {
+      "item": "irons_spellbooks:mithril_weave"
+    },
+     {
+      "item": "irons_artifice:steel_core_modifier"
+    }
+  ]
+}

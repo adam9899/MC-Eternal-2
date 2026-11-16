@@ -1,0 +1,21 @@
+{
+  "type": "lychee:item_exploding",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "kubejs:manyullyn_bullet",
+      "count": 1
+    }
+  ],
+  "item_in": [
+    {
+      "item": "kubejs:mithril_bullet"
+    },
+     {
+      "item": "tconstruct:manyullyn_ingot"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    }
+  ]
+}
