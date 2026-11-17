@@ -1,4 +1,3 @@
-
 StartupEvents.registry('item', event => {
     event.create('plate_curio')
         .displayName('§ePlate of a Thousand Metals')
@@ -10,14 +9,14 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     'minecraft:generic.armor',
                     'plate_armor',
-                    0.30,
-                    'multiply_base'
+                    5.0,
+                    'addition'
                 )
-                 .addAttribute(
+                .addAttribute(
                     'minecraft:generic.armor_toughness',
                     'plate_toughness',
-                    20,
-                    'multiply_base'
+                    3.0,
+                    'addition'
                 )
         )
 })
