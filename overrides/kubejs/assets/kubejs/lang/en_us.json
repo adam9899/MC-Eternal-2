@@ -207,6 +207,8 @@
     "tooltip.mce2.kubejs.lorkhan_heart.1": "§7§oA powerful relic once worshipped by the dwarves, perhaps it played a role in their disappearance...",
     "tooltip.mce2.kubejs.blue_band": "§7Gain §eMagic Resistance§r§7 and §eNightvision§r§7 at night time",
     "tooltip.mce2.kubejs.blue_band.1": "§7§oA powerful ancient relic that protects its user from magic at certain times of the day, once belonged to BlueDazing",
+    "tooltip.mce2.kubejs.warden_curio": "§7Upon equipping, become quieter in The Great Below and Deep Dark",
+    "tooltip.mce2.kubejs.warden_curio.1": "§7§oThe corruption from The Void Blossom has changed this previously useless item into something much more sinister..",
 
     "loot_table.mce:cave_tablet_random.name": "Random Cave Tablet",
 
