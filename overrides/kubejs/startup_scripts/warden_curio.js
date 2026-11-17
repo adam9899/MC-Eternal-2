@@ -7,20 +7,18 @@ StartupEvents.registry('item', event => {
         .glow(true)
         .attachCuriosCapability(
             CuriosJSCapabilityBuilder.create()
-                .addAttribute(
-                    'minecraft:generic.max_health',
-                    'warden_health',
-                    -0.50,
-                    'multiply_total'
-                )
-        )
-        .attachCuriosCapability(
-            CuriosJSCapabilityBuilder.create()
                 .curioTick((slotContext, stack) => {
                     const player = slotContext.entity()
 
                     player.potionEffects.add(
                         'thegreatbelow:warden_effect',
+                        40,
+                        0,
+                        false,
+                        false
+                    )
+                     player.potionEffects.add(
+                        'goety:void_touched',
                         40,
                         0,
                         false,
