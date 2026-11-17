@@ -10,7 +10,7 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     'minecraft:generic.max_health',
                     'warden_health',
-                    -0.90,
+                    -0.50,
                     'multiply_total'
                 )
         )
