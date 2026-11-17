@@ -18,5 +18,11 @@ StartupEvents.registry('item', event => {
                     3.0,
                     'addition'
                 )
+                .addAttribute(
+                    'minecraft:generic.movement_speed',
+                    'plate_speed',
+                    -0.10,
+                    'multiply_base'
+                )
         )
 })
