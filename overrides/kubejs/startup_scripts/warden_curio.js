@@ -1,7 +1,7 @@
 
 StartupEvents.registry('item', event => {
     event.create('warden_curio')
-        .displayName('Boots of The Void Blossom')
+        .displayName('§5Boots of The Void Blossom')
         .maxStackSize(1)
         .tag('curios:charm')
         .glow(true)
