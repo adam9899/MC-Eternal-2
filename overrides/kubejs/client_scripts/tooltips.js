@@ -71,6 +71,8 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:lorkhan_heart', Text.translate("tooltip.mce2.kubejs.lorkhan_heart.1").color('#FFFFFF'));
 	event.add('kubejs:blue_band', Text.translate("tooltip.mce2.kubejs.blue_band").color('#FFFFFF'));
 	event.add('kubejs:blue_band', Text.translate("tooltip.mce2.kubejs.blue_band.1").color('#FFFFFF'));
+	event.add('kubejs:warden_curio', Text.translate("tooltip.mce2.kubejs.warden_curio").color('#FFFFFF'));
+	event.add('kubejs:warden_curio', Text.translate("tooltip.mce2.kubejs.warden_curio.1").color('#FFFFFF'));
 
 	//Soul Stone
 	event.add('kubejs:artifact_endergem', Text.translate("tooltip.mce2.kubejs.artifact_endergem.1").color('#FFFFFF'));
