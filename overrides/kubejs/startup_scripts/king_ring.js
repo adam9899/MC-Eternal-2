@@ -8,7 +8,7 @@ ItemEvents.modification(event => {
                     player.potionEffects.add(
                         'royalvariations:royal_blessing',
                         40,
-                        0,
+                        1,
                         false,
                         false
                     )
