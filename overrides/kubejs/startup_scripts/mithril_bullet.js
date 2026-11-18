@@ -16,7 +16,7 @@ StartupEvents.registry('item', event => {
                  .addAttribute(
                     'irons_artifice:bullet_speed',
                     'bullet_speed',
-                    10,
+                    0.3,
                     'multiply_base'
                 )
         )
